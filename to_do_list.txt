@@ -37,18 +37,14 @@ To do
 * Update .exe with new version
 * Fix broken level lighting: The Terraformer 1, Ice Mines 6 
 * Update changelog
+* Consistent weapon carry player movement speed
 
 
 ----
 Notes
 ----
-Limit is 12.3208 MB 12320768 for misc.vpp_pc
-Items.vpp_pc packs fine with DLC weapons added 
-DLC weapons commented out in misc.vpp_pc as they crash game on startup currently, might be something to do with the bitmap entries that need to be replaced with placeholders as using broken bitmaps crashes multiplayer menu with characters too
-
-
-
-
-
+* Limit is 12.3208 MB 12320768 for misc.vpp_pc
+* Items.vpp_pc packs fine with DLC weapons added 
+* DLC weapons commented out in misc.vpp_pc as they crash game on startup currently, might be something to do with the bitmap entries that need to be replaced with placeholders as using broken bitmaps crashes multiplayer menu with characters too
 
 
