@@ -47,7 +47,7 @@
 * Added every weapon to infestation 
 * All weapons unlocked by default in infestation 
 * Improved lighting further by tweaking alien lights, adding bloom that was disabled for some reason and added weather/lighting files for maps that were missing them
-* Various tweaks to AI behavio
+* Various tweaks to AI behavior
 * Added the missing mp_weapon_overrides.xtbl file so we can balance weapons separately for multiplayer and singleplayer (tweaked a few things to make it more like guerrilla in some ways after playing 10 rounds but it's wip)
 * Various improvements to player movement and lots of other stuff in tweak_table.xtbl
 * Removed some caps on visual effects
