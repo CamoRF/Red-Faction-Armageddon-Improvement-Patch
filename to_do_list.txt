@@ -9,7 +9,6 @@ To do
 * Nerf Queen and Hale (nerf queen beam in weapons.xtbl?, nerf hales health?) -
 * Port DLC weapons to base game - assets ported, try replacing the bitmaps with placeholders in misc.vpp_pc
 * Remove the saving tool tip on startup - 
-* Reduce bloom slightly -
 * Fix: Can't destroy red faction generator in path to war, destruction settings; probably made the threshold for when something is destroyed too high - 
 * Add other nanoforge abilities to infestation - 
 * Kicks you back to main menu when starting a new game? (steam bug?)
@@ -60,6 +59,7 @@ Done
 * Tweak vfx.xtbl - done
 * Set light draw distance to meet engine limits (1024 max) - done, thanks MartianMadman
 * Darius (Surface): Rename to "Darius"; Remove current: "Darius" - done
+* Reduce bloom slightly - done
 
 ----
 Notes
