@@ -78,3 +78,6 @@ See [Here](https://github.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/bl
 
 # Development
 [Placeholder]
+
+# Known Bugs
+[Placeholder]
