@@ -37,7 +37,6 @@ To do
 * Power weapons in general should have half the ammo pickup of regular weapons -
 * Hard mode still seems a bit easy, increase damage taken slightly -
 * Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done -
-* Set light draw distance to meet engine limits (1024 max)
 
 -----------
 Low Priorty
@@ -60,6 +59,7 @@ Done
 * Tweak mp_difficulty overrides - done
 * Add more characters to multiplayer Darius, Recon, Commando, Kara (there's some spawn resource files that need to be updated) - done 
 * Tweak vfx.xtbl - done
+* Set light draw distance to meet engine limits (1024 max) - done, thanks MartianMadman
 
 ----
 Notes
