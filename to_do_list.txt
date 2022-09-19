@@ -14,7 +14,6 @@ To do
 * Add other nanoforge abilities to infestation - 
 * Kicks you back to main menu when starting a new game? (steam bug?)
 * Test if adding new character entries with player rig allows them to work in MP - 
-* Darius (Surface): Rename to "Darius"; Remove current: "Darius" - 
 * Reduce bullet sponge cultists; bleed out data in character.xtbl file - 
 * Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective - 
 * Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl - 
@@ -60,6 +59,7 @@ Done
 * Add more characters to multiplayer Darius, Recon, Commando, Kara (there's some spawn resource files that need to be updated) - done 
 * Tweak vfx.xtbl - done
 * Set light draw distance to meet engine limits (1024 max) - done, thanks MartianMadman
+* Darius (Surface): Rename to "Darius"; Remove current: "Darius" - done
 
 ----
 Notes

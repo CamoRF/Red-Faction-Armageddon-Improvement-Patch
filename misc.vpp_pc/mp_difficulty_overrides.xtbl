@@ -14,7 +14,7 @@
 					<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
 					<Easy>.50</Easy> <!--From .58-->
 					<Medium>0.75</Medium> <!--From 0.75-->
-					<Hard>1</Hard> <!--From 1.5-->
+					<Hard>1.25</Hard> <!--From 1.5-->
 					<Insane>1.5</Insane> <!--From 2-->
 				</Item>
 				<Item>
