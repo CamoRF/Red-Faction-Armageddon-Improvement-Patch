@@ -5,7 +5,7 @@
 # Releases
 [Placeholder](factionfiles.com/path_to_mod)
 
-# Changelog
+# Changelog [Needs update]
 * All objects now cast shadows 
 * All lights now cast shadows
 * All ruin and infestation maps are unlocked immediately 
@@ -16,7 +16,7 @@
 * Enables all the cheat weapons in Ruin mode
 * Glass bullet decals now always appear and only one per bullet appears for realism
 * Stops debris despawning instantly and adds collision that reacts to player movement
-* Stops gibs despawning instantly and adds collision that reacts to player movement 
+* Stops gibs despawning instantly
 * Stops bullet mags despawning instantly
 * Removes camera shake
 * Removes radial blur
@@ -47,15 +47,10 @@
 * Added every weapon to infestation 
 * All weapons unlocked by default in infestation 
 * Improved lighting further by tweaking alien lights, adding bloom that was disabled for some reason and added weather/lighting files for maps that were missing them
-* Various tweaks to AI behavior it's now a bit hard atm lol
-* Added the missing mp_weapon_overrides.xtbl file so we can balance weapons separately for multiplayer and singleplayer (tweaked a few things to make it more like guerrilla in some ways after playing 10 rounds but it's wip) 
-* Improvements to debris and gib collision, lot better now but it's still a wip. Think I can get it perfect.
+* Various tweaks to AI behavio
+* Added the missing mp_weapon_overrides.xtbl file so we can balance weapons separately for multiplayer and singleplayer (tweaked a few things to make it more like guerrilla in some ways after playing 10 rounds but it's wip)
 * Various improvements to player movement and lots of other stuff in tweak_table.xtbl
-* Many more changes but I need to go through the files to remember them all
 * Removed some caps on visual effects
-* Improved destruction further by changing some stress multiplier settings and making more objects destructible 
-* Disabled gib collision but they never despawn now
-* Debris don't despawn
 * Buffed shotgun in multiplayer
 * Buffed Assault rifle
 * Buffed enforcer
