@@ -59,6 +59,9 @@
 * Buffed rocket launcher
 * Removed delay on repair grenade
 * Removed cost of resetting player upgrades
+* Adds new characters to multiplayer
+* Adds a survival version of Dust to Dust
+* Various bug fixes
 
 # Installing
 [Placeholder]
