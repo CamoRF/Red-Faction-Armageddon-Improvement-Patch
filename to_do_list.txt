@@ -39,6 +39,7 @@ To do
 * Update changelog
 * Consistent weapon carry player movement speed
 * Add more Nanoforge abilities to mutliplayer
+* Tweak bleedout and revive system
 
 ----
 Notes
