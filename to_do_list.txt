@@ -44,6 +44,7 @@ Low Priorty
 * xDelta script to convert Steam to GOG version, it's a later version and less buggy, also fixes the issue with no crossplay implentation and adds discord api 
 * Reduce memory pool usage: remove table templates, compress files that don't break (don't compress sounds, animations) - done, but files can be completely compressed when the mod is final; keep source files and fork it -
 * Script that runs on startup (batch file) and backups "player_options.rfao_pc" - 
+* AI upscale cutscenes -
 
 ----
 Done
