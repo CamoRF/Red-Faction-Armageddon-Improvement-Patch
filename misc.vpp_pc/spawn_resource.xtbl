@@ -50,10 +50,7 @@
 				</npc_info>				
 				<npc_info>
 					<npc_group>monolith_small</npc_group>
-				</npc_info>									
-				<npc_info>
-					<npc_group>RF4_PC</npc_group>
-				</npc_info>				
+				</npc_info>			
 				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>
 				</npc_info>					
@@ -120,9 +117,6 @@
 					<npc_group>monolith_small</npc_group>
 				</npc_info>					
 				<npc_info>
-					<npc_group>RF4_PC</npc_group>
-				</npc_info>
-				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>
 				</npc_info>	
 				<npc_info>
@@ -136,7 +130,7 @@
 				</npc_info>
 				<npc_info>
 					<npc_group>RF4_Cave_D3</npc_group>
-				</npc_info>	
+				</npc_info>
 				<npc_info>
 					<npc_group>RF4_DLC1</npc_group>
 				</npc_info>	
@@ -186,9 +180,6 @@
 				</npc_info>
 				<npc_info>
 					<npc_group>monolith_small</npc_group>
-				</npc_info>				
-				<npc_info>
-					<npc_group>RF4_PC</npc_group>
 				</npc_info>
 				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>

@@ -9,22 +9,25 @@
 					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
 					<loading_screen_image>ui_mp_load_avatar_darius</loading_screen_image>
 					<health_image>ui_icon_mp_face_a</health_image>
-				</Character_Element>
-				<Character_Element>
+				</Character_Element>-->
+				
+				<!--<Character_Element>
 					<Character_Name>ch_civ_ass_snake_mp</Character_Name>
 					<Display_Name>MP_SNAKE</Display_Name>
 					<Bitmap_Name>ui_mp_port_kara</Bitmap_Name>
 					<loading_screen_image>ui_mp_load_avatar_kara</loading_screen_image>
 					<health_image>ui_icon_mp_face_d</health_image>
-				</Character_Element>
-				<Character_Element>
+				</Character_Element>-->
+				
+				<!--<Character_Element>
 					<Character_Name>ch_red_ass_assault_mp</Character_Name>
 					<Display_Name>MP_SNIPES</Display_Name>
 					<Bitmap_Name>ui_mp_port_marauder1</Bitmap_Name>
 					<loading_screen_image>ui_mp_load_avatar_marauder1</loading_screen_image>
 					<health_image>ui_icon_mp_face_b</health_image>
-				</Character_Element>
-				<Character_Element>
+				</Character_Element>-->
+				
+				<!--<Character_Element>
 					<Character_Name>ch_mar_ass_specops_mp</Character_Name>
 					<Display_Name>MP_MARAUDER</Display_Name>
 					<Bitmap_Name>ui_mp_port_marauder2</Bitmap_Name>
@@ -32,34 +35,39 @@
 					<loading_screen_image>ui_mp_load_avatar_marauder1</loading_screen_image>
 					<health_image>ui_icon_mp_face_c</health_image>
 				</Character_Element>-->
+				
 				<Character_Element>
-					<Character_Name>RF4_PC</Character_Name>
+					<Character_Name>RF4_Cave_D3</Character_Name>
+					<Display_Name>Darius (End Game)</Display_Name>
+					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
+					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+					<health_image>ui_mp_port_blank</health_image>
+				</Character_Element>
+<!--START Roster Selection-->
+				<Character_Element>
+					<Character_Name>ch_mar_ass_kara</Character_Name>
+					<Display_Name>Kara</Display_Name>
+					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
+					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+					<health_image>ui_mp_port_blank</health_image>
+				</Character_Element>
+				
+				<Character_Element>
+					<Character_Name>RF4_outer_hd</Character_Name>
 					<Display_Name>Darius</Display_Name>
 					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
 					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>
+				</Character_Element>		
+				
 				<Character_Element>
 					<Character_Name>RF4_RF_hd</Character_Name>
 					<Display_Name>Darius (Red Faction)</Display_Name>
 					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
 					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>				
-				<Character_Element>
-					<Character_Name>RF4_RF_hu</Character_Name>
-					<Display_Name>Darius (Red Faction Storm)</Display_Name>
-					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
-					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
-				<Character_Element>
-					<Character_Name>RF4_outer_hd</Character_Name>
-					<Display_Name>Darius (Surface)</Display_Name>
-					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
-					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>
+
 				<Character_Element>
 					<Character_Name>RF4_outer_hu</Character_Name>
 					<Display_Name>Darius (Storm)</Display_Name>
@@ -67,20 +75,23 @@
 					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
-				<!--<Character_Element>
-					<Character_Name>RF4_Cave_D3</Character_Name>
-					<Display_Name>Darius (End Game)</Display_Name>
-					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
-					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+				
+				<Character_Element>
+					<Character_Name>RF4_RF_hu</Character_Name>
+					<Display_Name>Darius (Red Faction Storm)</Display_Name>
+					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
+					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>				
+				</Character_Element>
+				
 				<Character_Element>
 					<Character_Name>RF4_DLC1</Character_Name>
 					<Display_Name>Darius (Recon)</Display_Name>
 					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
 					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>					
+				</Character_Element>				
+				
 				<Character_Element>
 					<Character_Name>RF4_DLC2</Character_Name>
 					<Display_Name>Darius (Commando)</Display_Name>
@@ -88,13 +99,7 @@
 					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
-				<Character_Element>
-					<Character_Name>ch_mar_ass_kara</Character_Name>
-					<Display_Name>Kara</Display_Name>
-					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
-					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>-->
+<!--END Roster Selection-->
 			</Character_Grid>
 			<_Editor>
 				<Category>NewCategory</Category>
