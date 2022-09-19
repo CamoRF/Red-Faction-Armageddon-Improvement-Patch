@@ -5,7 +5,7 @@
 # Releases
 [Placeholder](factionfiles.com/path_to_mod)
 
-# Changelog [Needs update]
+# Changelog
 * All objects now cast shadows 
 * All lights now cast shadows
 * All ruin and infestation maps are unlocked immediately 
