@@ -40,6 +40,18 @@ To do
 * Consistent weapon carry player movement speed
 * Add more Nanoforge abilities to mutliplayer
 * Tweak bleedout and revive system
+* Arc Welder needs more damage and less cooldown
+* Convergence laser needs limited ammo instead of being infinite to not be op (cheat weapon added to mp)
+* Mr toots needs to do more damage, have limited ammo, and less cooldown before firing. Feels wonky but cool bonus gun
+* Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp)
+* Enforcer still feels off, needs faster firerate?
+* The auto aim seems a bit aggressive with M+KB 
+* Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off
+* Rail driver sucks, it's useless against berserkers. Should two hit them but have limited ammo (power weapon)
+* Lava barge turret needs limited ammo to not be op (cheat weapon added to mp)
+* Power weapons in general should have half the ammo pickup of regular weapons
+* Hard mode still seems a bit easy, increase damage taken slightly
+* Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done
 
 ----
 Notes
