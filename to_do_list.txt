@@ -38,7 +38,7 @@ To do
 * Fix broken level lighting: The Terraformer 1, Ice Mines 6 
 * Update changelog
 * Consistent weapon carry player movement speed
-
+* Add more Nanoforge abilities to mutliplayer
 
 ----
 Notes
