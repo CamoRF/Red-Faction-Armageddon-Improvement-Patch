@@ -1,2 +1,2 @@
-# RedF action Armageddon Improvement Patch
+# Red Faction Armageddon Improvement Patch
  Work-in-progress project that adds content, fixes bugs, and enhances many features. 
