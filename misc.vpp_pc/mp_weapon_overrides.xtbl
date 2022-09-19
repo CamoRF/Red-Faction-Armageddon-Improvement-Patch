@@ -1,0 +1,290 @@
+<root>
+	<Table>
+		<mp_weapons>
+			<Name>m16</Name>
+			<Firing_Mode_Slots>
+				<Firing_Mode_Slot>
+					<Potential_Firing_Modes>
+						<Potential_Firing_Mode>
+							<Firing_Mode>
+								<Magazine_Size>40</Magazine_Size>
+								<Rounds_From_Ammo_Box>200</Rounds_From_Ammo_Box> <!--From 72-->
+								<Damage_Scaling_Max>
+									<NPC_Damage>75</NPC_Damage> <!--From 45-->
+									<Player_Damage>75</Player_Damage> <!--From 35-->
+								</Damage_Scaling_Max>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 200-->
+								<Rounds_On_Pickup>200</Rounds_On_Pickup> <!--From 144-->
+								<Ammo_Per_Round>200</Ammo_Per_Round> <!--From 1-->
+								<Damage_Scaling_Min>
+									<NPC_Damage>75</NPC_Damage> <!--From 60-->
+									<Player_Damage>75</Player_Damage> <!--From 15-->
+								</Damage_Scaling_Min>
+								<Headshot_Multiplier>2.0</Headshot_Multiplier> <!--From 1.0-->
+							</Firing_Mode>
+						</Potential_Firing_Mode>
+					</Potential_Firing_Modes>
+				</Firing_Mode_Slot>
+			</Firing_Mode_Slots>			
+			<Reload_Time_Multiplier>0.5</Reload_Time_Multiplier> <!--From 1.6-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>
+		<mp_weapons>
+			<Name>enforcer</Name>
+			<Firing_Mode_Slots>
+				<Firing_Mode_Slot>
+					<Potential_Firing_Modes>
+						<Potential_Firing_Mode>
+							<Firing_Mode>
+								<Magazine_Size>32</Magazine_Size>
+								<Rounds_From_Ammo_Box>128</Rounds_From_Ammo_Box> <!--From 64-->
+								<Damage_Scaling_Max>
+									<NPC_Damage>60</NPC_Damage>
+									<Player_Damage>60</Player_Damage> <!--From 20-->
+								</Damage_Scaling_Max>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 167-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 200-->
+								<Rounds_On_Pickup>128</Rounds_On_Pickup> <!--From 64-->
+								<Ammo_Per_Round>128</Ammo_Per_Round> <!--From 1-->
+								<Damage_Scaling_Min>
+									<NPC_Damage>60</NPC_Damage> <!--From 50-->
+									<Player_Damage>60</Player_Damage> <!--From 50-->
+								</Damage_Scaling_Min>
+								<Autoaim_Override>5.0</Autoaim_Override> <!--From 2.5-->
+								<NPC_Autoaim>5.0</NPC_Autoaim> <!--From 2.5-->
+								<Headshot_Multiplier>2.0</Headshot_Multiplier> <!--From 1.0-->
+							</Firing_Mode>
+						</Potential_Firing_Mode>
+					</Potential_Firing_Modes>
+				</Firing_Mode_Slot>
+			</Firing_Mode_Slots>		
+			<Reload_Time_Multiplier>0.5</Reload_Time_Multiplier> <!--From 1.2-->			
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>		
+		<mp_weapons>
+			<Name>shotgun</Name>
+			<Firing_Mode_Slots>
+				<Firing_Mode_Slot>
+					<Potential_Firing_Modes>
+						<Potential_Firing_Mode>
+							<Firing_Mode>
+								<Magazine_Size>8</Magazine_Size> <!--From 6-->
+								<Range_Max>48</Range_Max> <!--From 24-->
+								<Damage_Scaling_Max>
+									<NPC_Damage>64</NPC_Damage> <!--From 32-->
+									<Player_Damage>64</Player_Damage> <!--From 15-->
+								</Damage_Scaling_Max>
+								<Spread_Min>5.0</Spread_Min>
+								<Spread_Max>9.0</Spread_Max>
+								<Spread_Fine_Aim_Min>2.3</Spread_Fine_Aim_Min>
+								<Spread_Fine_Aim_Max>5.5</Spread_Fine_Aim_Max>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 900-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
+								<Rounds_On_Pickup>24</Rounds_On_Pickup> <!--From 18-->
+								<Ammo_Per_Round>24</Ammo_Per_Round> <!--From 1-->
+								<Camera_Recoil_Kick>14</Camera_Recoil_Kick> <!--From 7-->
+								<Rounds_From_Ammo_Box>24</Rounds_From_Ammo_Box> <!--From 18-->
+								<Headshot_Multiplier>2.5</Headshot_Multiplier> <!--From 1.0-->
+							</Firing_Mode>
+						</Potential_Firing_Mode>
+					</Potential_Firing_Modes>
+				</Firing_Mode_Slot>
+			</Firing_Mode_Slots>
+			<Reload_Time_Multiplier>0.5</Reload_Time_Multiplier> <!--From 1.0-->			
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>
+		<mp_weapons>
+			<Name>laser_pistol</Name>
+			<Firing_Mode_Slots>
+				<Firing_Mode_Slot>
+					<Potential_Firing_Modes>
+						<Potential_Firing_Mode>
+							<Firing_Mode>
+								<Magazine_Size>300</Magazine_Size> <!--From 100-->
+								<Ammo_Per_Round>300</Ammo_Per_Round> <!--From 1-->
+								<Range_Max>100</Range_Max> <!--From 75-->
+								<Damage_Scaling_Max>
+									<NPC_Damage>200</NPC_Damage> <!--From 100-->
+									<Player_Damage>200</Player_Damage> <!--From 100-->
+								</Damage_Scaling_Max>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 200-->
+								<Overheat_Increase_Rate>0</Overheat_Increase_Rate> <!--From .2-->
+								<Overheat_Cool_Down_Time_ms>0</Overheat_Cool_Down_Time_ms> <!--From 5000-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
+								<Rounds_On_Pickup>300</Rounds_On_Pickup> <!--From 100-->
+								<Rounds_From_Ammo_Box>300</Rounds_From_Ammo_Box> <!--From 100-->
+							</Firing_Mode>
+						</Potential_Firing_Mode>
+					</Potential_Firing_Modes>
+				</Firing_Mode_Slot>
+			</Firing_Mode_Slots>				
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>
+		<mp_weapons>
+			<Name>plasma_thrower</Name>
+			<Firing_Mode_Slots>
+				<Firing_Mode_Slot>
+					<Potential_Firing_Modes>
+						<Potential_Firing_Mode>
+							<Firing_Mode>
+								<Magazine_Size>1000</Magazine_Size> <!--From 400-->
+								<Ammo_Per_Round>1000</Ammo_Per_Round> <!--From 1-->
+								<Damage_Scaling_Max>
+									<NPC_Damage>300</NPC_Damage> <!--From 240-->
+									<Player_Damage>300</Player_Damage> <!--From 180-->
+								</Damage_Scaling_Max>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
+								<Rounds_On_Pickup>1000</Rounds_On_Pickup> <!--From 200-->
+								<Rounds_From_Ammo_Box>1000</Rounds_From_Ammo_Box> <!--Added-->
+							</Firing_Mode>
+						</Potential_Firing_Mode>
+					</Potential_Firing_Modes>
+				</Firing_Mode_Slot>
+			</Firing_Mode_Slots>				
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>	
+		<mp_weapons>
+			<Name>rpg_launcher</Name>
+			<Firing_Mode_Slots>
+				<Firing_Mode_Slot>
+					<Potential_Firing_Modes>
+						<Potential_Firing_Mode>
+							<Firing_Mode>
+								<Magazine_Size>1</Magazine_Size> <!--From 2-->
+								<Ammo_Per_Round>8</Ammo_Per_Round> <!--From 1-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 500-->
+								<Rounds_On_Pickup>8</Rounds_On_Pickup> <!--From 6-->
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 1000-->
+								<Rounds_From_Ammo_Box>8</Rounds_From_Ammo_Box> <!--From 4-->
+							</Firing_Mode>
+						</Potential_Firing_Mode>
+					</Potential_Firing_Modes>
+				</Firing_Mode_Slot>
+			</Firing_Mode_Slots>			
+			<Reload_Time_Multiplier>1.0</Reload_Time_Multiplier> <!--From 1.25-->		
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>			
+	</Table>
+	<TableTemplates>
+	</TableTemplates>
+	<TableDescription>
+		<Name>mp_weapons</Name>
+		<Type>TableDescription</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Name</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>weapons.xtbl</File>
+				<Type>Weapon.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Ammo_count</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			<Element>
+				<Name>Magazine_Size</Name>
+				<Type>Int</Type>
+				<Description>Number of rounds in a single magazine (ignored for "thrown" and "melee"</Description>
+				<Default>0</Default>
+			</Element>
+			<Element>
+				<Name>Num_Magazines</Name>
+				<Type>Int</Type>
+				<Display_Name>Number of Magazines</Display_Name>
+				<Description>This specifies the number of magazines the weapon should spawn with by default.  This number here includes the clip loaded in the weapon.</Description>
+				<Default>0</Default>
+			</Element>
+			<Element>
+				<Name>Max_Rounds</Name>
+				<Type>Int</Type>
+				<Description>Maximum number of rounds the player can hold for this weapon (ignored for "melee"</Description>
+				<Default>0</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Spread_Min</Name>
+			<Type>Float</Type>
+			<Display_Name>Min Spread</Display_Name>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Spread_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Spread</Display_Name>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Spread_Fine_Aim_Min</Name>
+			<Type>Float</Type>
+			<Display_Name>Min Spread in Fine Aim</Display_Name>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Spread_Fine_Aim_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Spread in Fine Aim</Display_Name>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Range_Red</Name>
+			<Type>String</Type>
+			<Display_Name>Reticle Red Range</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Headshot_Multiplier</Name>
+			<Type>Float</Type>
+			<Required>false</Required>
+			<Default>1</Default>
+		</Element>
+		<Element>
+			<Name>Threshold_Min_Range</Name>
+			<Type>Float</Type>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Player_Damage_Min_Range</Name> 
+			<Type>Float</Type>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Threshold_Max_Range</Name>
+			<Type>Float</Type>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Player_Damage_Max_Range</Name>
+			<Type>Float</Type>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

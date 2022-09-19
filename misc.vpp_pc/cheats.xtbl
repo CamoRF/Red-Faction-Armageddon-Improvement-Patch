@@ -1,0 +1,479 @@
+<root>
+	<Table>	
+		<Cheat>
+			<Name>infinite ammo - gravitic imploder</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_GRAVITIC_IMPLODER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - grenade launcher</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_GRENADE_LAUNCHER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+			<Weapon_Dependency>grenade_launcher</Weapon_Dependency>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - nano grenade</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_NANO_GRENADE</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Weapon_Dependency>nano_grenade</Weapon_Dependency>
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - nano rifle</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_NANO_RIFLE</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - anti tank pistol</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_ANTI_TANK_PISTOL</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - chain lightning gun</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_CHAIN_LIGHTNING_GUN</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Weapon_Dependency>chain_lightning_gun</Weapon_Dependency>
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - charge placer</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_CHARGE_PLACER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - enforcer</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_ENFORCER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Weapon_Dependency>enforcer</Weapon_Dependency>
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - phased plasma beam</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_PHASED_PLASMA_BEAM</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - phased plasma cannon</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_PHASED_PLASMA_CANNON</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - phased plasma rifle</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_PHASED_PLASMA_RIFLE</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - plasma thrower</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_PLASMA_THROWER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Weapon_Dependency>plasma_thrower</Weapon_Dependency>
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - rail driver</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_RAIL_DRIVER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - rpg launcher</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_RPG_LAUNCHER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - shotgun</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_SHOTGUN</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - standard bullet pistol</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_STANDARD_BULLET_PISTOL</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>infinite ammo - laser pistol</Name>
+			<DisplayName>CHEAT_UNLIMITED_AMMO_LASER_PISTOL</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 5000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Weapon_Dependency>laser_pistol</Weapon_Dependency>
+			<Category>Unlimited Ammo</Category>
+		</Cheat>
+		<Cheat>
+			<Name>weapon unlock - napalm laser</Name>
+			<DisplayName>CHEAT_UNLOCK_WEAPON_NAPALM_LASER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 10000-->
+			<Type>
+				<Permanent></Permanent>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Weapon Unlock</Category>
+		</Cheat>
+		<Cheat>
+			<Name>weapon unlock - delayed explosion laser</Name>
+			<DisplayName>CHEAT_UNLOCK_WEAPON_DELAYED_EXPLOSION_LASER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 8000-->
+			<Type>
+				<Permanent></Permanent>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Weapon Unlock</Category>
+		</Cheat>
+		<Cheat>
+			<Name>weapon unlock - rf exo launcher</Name>
+			<DisplayName>CHEAT_UNLOCK_WEAPON_EXO_LAUNCHER</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 8000-->
+			<Type>
+				<Permanent></Permanent>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled>  <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Weapon Unlock</Category>
+		</Cheat>
+		<Cheat>
+			<Name>weapon unlock - rf exo machine gun</Name>
+			<DisplayName>CHEAT_UNLOCK_WEAPON_EXO_MACHINE_GUN</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 6000-->
+			<Type>
+				<Permanent></Permanent>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Weapon Unlock</Category>
+		</Cheat>
+		<Cheat>
+			<Name>weapon unlock - lava barge turret</Name>
+			<DisplayName>CHEAT_UNLOCK_WEAPON_LAVA_BARGE_TURRET</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 6000-->
+			<Type>
+				<Permanent></Permanent>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Weapon Unlock</Category>
+		</Cheat>
+		<Cheat>
+			<Name>instant nanoforge cooldown</Name>
+			<DisplayName>CHEAT_INSTANT_NANO_COOLDOWN</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 10000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Other</Category>
+		</Cheat>
+		<Cheat>
+			<Name>super melee</Name>
+			<DisplayName>CHEAT_SUPER_MELEE</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 8000-->
+			<Type>
+				<Toggle></Toggle>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Other</Category>
+		</Cheat>
+		<Cheat>
+			<Name>sketch mode</Name>
+			<DisplayName>CHEAT_SKETCH_MODE</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 10000-->
+			<Type>
+				<Linked>
+					<Group>0</Group>
+				</Linked>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Visual Mode</Category>
+		</Cheat>
+		<Cheat>
+			<Name>night vision mode</Name>
+			<DisplayName>CHEAT_NIGHT_VISION_MODE</DisplayName>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Cost>0</Cost> <!--Default 8000-->
+			<Type>
+				<Linked>
+					<Group>0</Group>
+				</Linked>
+			</Type>
+			<Multiplayer_Enabled>True</Multiplayer_Enabled> <!--Default False-->
+			<Ruin_Mode_Enabled>True</Ruin_Mode_Enabled> <!--Default False-->
+			<Category>Visual Mode</Category>
+		</Cheat>
+	</Table>
+	<TableTemplates>
+	</TableTemplates>
+	<TableDescription>
+		<Name>Cheat</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>DisplayName</Name>
+			<Type>Reference</Type>
+			<Display_Name>Display Name</Display_Name>
+			<Reference>
+				<File>localized_exports\Stats_text.xtbl</File>
+				<Type>Stats_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Category</Name>
+			<Type>Selection</Type>
+			<Choice>Unlimited Ammo</Choice>
+			<Choice>Weapon Unlock</Choice>
+			<Choice>Visual Mode</Choice>
+			<Choice>Other</Choice>
+		</Element>
+		<Element>
+			<Name>Cost</Name>
+			<Type>Int</Type>
+			<Default>1000</Default>
+			<MinValue>1</MinValue>
+		</Element>
+		<Element>
+			<Name>UnlockCode</Name>
+			<Type>String</Type>
+			<Display_Name>Unlock Code</Display_Name>
+			<Description>Entered code that unlocks the cheat</Description>
+			<Required>false</Required>
+			<MaxLength>15</MaxLength>
+		</Element>
+		<Element>
+			<Name>Type</Name>
+			<Type>ComboElement</Type>
+			<Element>
+				<Name>Permanent</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>Toggle</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>Linked</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+				<Element>
+					<Name>Group</Name>
+					<Type>Int</Type>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Multiplayer_Enabled</Name>
+			<Type>Selection</Type>
+			<Display_Name>Multiplayer Enabled</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Ruin_Mode_Enabled</Name>
+			<Type>Selection</Type>
+			<Display_Name>Ruin Mode Enabled (Timed Only)</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Weapon_Dependency</Name>
+			<Type>Reference</Type>
+			<Display_Name>Weapon Dependency</Display_Name>
+			<Description>(used for checking DLC unlocked weapons)</Description>
+			<Required>false</Required>
+			<Reference>
+				<File>weapons.xtbl</File>
+				<Type>Weapon.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

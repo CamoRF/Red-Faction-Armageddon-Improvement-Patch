@@ -1,0 +1,355 @@
+<root>
+	<Table>
+		<wc_map_list>
+			<Name>Junction</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<file_name>ruin01</file_name>
+			<display_name>RUIN_MAP_01</display_name>
+			<image_name>ui_ruin_01</image_name>
+			<time_of_day>00:00</time_of_day>
+			<is_locked>False</is_locked>
+			<total_chaos_round_time_ms>60000</total_chaos_round_time_ms>
+			<resource_reservation>ruin_01</resource_reservation>
+			<scoreboard_index>0</scoreboard_index>
+			<par_unlocks>
+				<par_score>12000000</par_score>
+				<unlocks_exo>True</unlocks_exo> <!--From False-->
+				<WeaponGroup></WeaponGroup>
+				<unlocks_weapons></unlocks_weapons>
+				<unlocks_map>ruin08</unlocks_map>
+				<max_score_stat>ruin mode - highest score level 01</max_score_stat>
+			</par_unlocks>
+			<Audio>
+				<Music_Trigger_Name>Ruin_Map_01</Music_Trigger_Name>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+			</Audio>
+			<Damage_To_Score_Multiplier>.60</Damage_To_Score_Multiplier>
+			<Nanoforge_Ability>Push+Stats+Function</Nanoforge_Ability>
+			<display_name_uppercase>RUIN_MAP_01_UC</display_name_uppercase>
+			<total_chaos_time_bonus_target>12000000</total_chaos_time_bonus_target>
+			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
+		</wc_map_list>
+		<wc_map_list>
+			<Name>Desolate</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<file_name>ruin08</file_name>
+			<display_name>RUIN_MAP_08</display_name>
+			<image_name>ui_ruin_05</image_name>
+			<time_of_day>00:00</time_of_day>
+			<is_locked>False</is_locked> <!--From True-->
+			<total_chaos_round_time_ms>60000</total_chaos_round_time_ms>
+			<scoreboard_index>1</scoreboard_index>
+			<par_unlocks>
+				<par_score>8000000</par_score>
+				<unlocks_exo>True</unlocks_exo> <!--From False-->
+				<WeaponGroup></WeaponGroup>
+				<unlocks_weapons></unlocks_weapons>
+				<max_score_stat>ruin mode - highest score level 08</max_score_stat>
+				<unlocks_map>ruin06</unlocks_map>
+			</par_unlocks>
+			<resource_reservation>ruin_08</resource_reservation>
+			<Audio>
+				<Music_Trigger_Name>Ruin_Map_08</Music_Trigger_Name>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+			</Audio>
+			<Damage_To_Score_Multiplier>.85</Damage_To_Score_Multiplier>
+			<Nanoforge_Ability>Push+Stats+Function</Nanoforge_Ability>
+			<display_name_uppercase>RUIN_MAP_08_UC</display_name_uppercase>
+			<total_chaos_time_bonus_target>8500000</total_chaos_time_bonus_target>
+			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
+		</wc_map_list>
+		<wc_map_list>
+			<Name>Eviction</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<file_name>ruin06</file_name>
+			<display_name>RUIN_MAP_06</display_name>
+			<image_name>ui_ruin_03</image_name>
+			<time_of_day>00:00</time_of_day>
+			<is_locked>False</is_locked> <!--From True-->
+			<total_chaos_round_time_ms>60000</total_chaos_round_time_ms>
+			<scoreboard_index>2</scoreboard_index>
+			<par_unlocks>
+				<par_score>6000000</par_score>
+				<unlocks_exo>True</unlocks_exo> <!--From False-->
+				<WeaponGroup></WeaponGroup>
+				<unlocks_weapons></unlocks_weapons>
+				<unlocks_map>ruin07</unlocks_map>
+				<max_score_stat>ruin mode - highest score level 06</max_score_stat>
+			</par_unlocks>
+			<resource_reservation>ruin_06</resource_reservation>
+			<Audio>
+				<Music_Trigger_Name>Ruin_Map_06</Music_Trigger_Name>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+			</Audio>
+			<Damage_To_Score_Multiplier>3.75</Damage_To_Score_Multiplier>
+			<Nanoforge_Ability>Push+Stats+Function</Nanoforge_Ability>
+			<display_name_uppercase>RUIN_MAP_06_UC</display_name_uppercase>
+			<total_chaos_time_bonus_target>6000000</total_chaos_time_bonus_target>
+			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
+		</wc_map_list>
+		<wc_map_list>
+			<Name>Abandoned</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<file_name>ruin07</file_name>
+			<display_name>RUIN_MAP_07</display_name>
+			<image_name>ui_ruin_04</image_name>
+			<time_of_day>00:00</time_of_day>
+			<is_locked>False</is_locked> <!--From True-->
+			<total_chaos_round_time_ms>60000</total_chaos_round_time_ms>
+			<scoreboard_index>3</scoreboard_index>
+			<par_unlocks>
+				<par_score>12000000</par_score>
+				<unlocks_exo>True</unlocks_exo> <!--From False-->
+				<WeaponGroup></WeaponGroup>
+				<unlocks_weapons></unlocks_weapons>
+				<unlocks_map>ruin03</unlocks_map>
+				<max_score_stat>ruin mode - highest score level 07</max_score_stat>
+			</par_unlocks>
+			<resource_reservation>ruin_07</resource_reservation>
+			<Audio>
+				<Music_Trigger_Name>Ruin_Map_07</Music_Trigger_Name>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+			</Audio>
+			<Damage_To_Score_Multiplier>.56</Damage_To_Score_Multiplier>
+			<Nanoforge_Ability>Push+Stats+Function</Nanoforge_Ability>
+			<display_name_uppercase>RUIN_MAP_07_UC</display_name_uppercase>
+			<total_chaos_time_bonus_target>12000000</total_chaos_time_bonus_target>
+			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
+		</wc_map_list>
+		<wc_map_list>
+			<Name>Frontier</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<file_name>ruin03</file_name>
+			<display_name>RUIN_MAP_03</display_name>
+			<image_name>ui_ruin_02</image_name>
+			<time_of_day>00:00</time_of_day>
+			<is_locked>False</is_locked> <!--From True-->
+			<total_chaos_round_time_ms>60000</total_chaos_round_time_ms>
+			<scoreboard_index>4</scoreboard_index>
+			<par_unlocks>
+				<par_score>7500000</par_score>
+				<unlocks_exo>True</unlocks_exo>
+				<WeaponGroup></WeaponGroup>
+				<unlocks_weapons></unlocks_weapons>
+				<max_score_stat>ruin mode - highest score level 03</max_score_stat>
+			</par_unlocks>
+			<resource_reservation>ruin_03</resource_reservation>
+			<Audio>
+				<Music_Trigger_Name>Ruin_Map_03</Music_Trigger_Name>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+			</Audio>
+			<Damage_To_Score_Multiplier>.85</Damage_To_Score_Multiplier>
+			<Nanoforge_Ability>Push+Stats+Function</Nanoforge_Ability>
+			<display_name_uppercase>RUIN_MAP_03_UC</display_name_uppercase>
+			<total_chaos_time_bonus_target>7500000</total_chaos_time_bonus_target>
+			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
+		</wc_map_list>
+	</Table>
+	<TableTemplates>
+	</TableTemplates>
+	<TableDescription>
+		<Name>wc_map_list</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>WC Map List</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>file_name</Name>
+			<Type>String</Type>
+			<Display_Name>File name</Display_Name>
+			<MaxLength>32</MaxLength>
+		</Element>
+		<Element>
+			<Name>display_name</Name>
+			<Type>String</Type>
+			<Display_Name>Display name</Display_Name>
+			<MaxLength>32</MaxLength>
+		</Element>
+		<Element>
+			<Name>display_name_uppercase</Name>
+			<Type>String</Type>
+			<Display_Name>Display Name Uppercase</Display_Name>
+			<MaxLength>32</MaxLength>
+		</Element>
+		<Element>
+			<Name>image_name</Name>
+			<Type>String</Type>
+			<Display_Name>Thumb Image name</Display_Name>
+		</Element>
+		<Element>
+			<Name>time_of_day</Name>
+			<Type>String</Type>
+			<Display_Name>Time of Day</Display_Name>
+			<Description>Must be in HH:MM format (00:00 through 23:59)</Description>
+			<Default>13:00</Default>
+		</Element>
+		<Element>
+			<Name>is_locked</Name>
+			<Type>Selection</Type>
+			<Display_Name>Is locked?</Display_Name>
+			<Description>Is this map locked by default?</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>resource_reservation</Name>
+			<Type>Reference</Type>
+			<Display_Name>Resource Reservation</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>spawn_resource.xtbl</File>
+				<Type>spawn_resource_entry.Name</Type>
+				<OpenSeparate>True</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>total_chaos_round_time_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Total Chaos Round Time (ms)</Display_Name>
+			<Description>How long a round of Total Chaos should last for this map. In milliseconds</Description>
+			<Default>120000</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>total_chaos_time_bonus_time_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Total Chaos Bonus Time (ms)</Display_Name>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>total_chaos_time_bonus_target</Name>
+			<Type>Float</Type>
+			<Display_Name>Total Chaos Bonus Target</Display_Name>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>scoreboard_index</Name>
+			<Type>Int</Type>
+			<Display_Name>Scoreboard index</Display_Name>
+			<Description>For leaderboards.</Description>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>par_unlocks</Name>
+			<Type>Element</Type>
+			<Display_Name>Par Unlocks</Display_Name>
+			<Element>
+				<Name>par_score</Name>
+				<Type>Int</Type>
+				<Display_Name>Par Score</Display_Name>
+				<Default>1000</Default>
+			</Element>
+			<Element>
+				<Name>max_score_stat</Name>
+				<Type>Reference</Type>
+				<Display_Name>Max score stat</Display_Name>
+				<Reference>
+					<File>stats.xtbl</File>
+					<Type>Stat.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>unlocks_exo</Name>
+				<Type>Selection</Type>
+				<Display_Name>Unlocks Exo?</Display_Name>
+				<Default>False</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>unlocks_map</Name>
+				<Type>Reference</Type>
+				<Display_Name>Unlocks Map</Display_Name>
+				<Required>false</Required>
+				<Reference>
+					<File>wrecking_crew_maps.xtbl</File>
+					<Type>wc_map_list.file_name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>unlocks_weapons</Name>
+				<Type>List</Type>
+				<Display_Name>Unlocks Weapons</Display_Name>
+				<Element>
+					<Name>weapon_info</Name>
+					<Type>Reference</Type>
+					<Display_Name>Weapon Information</Display_Name>
+					<Reference>
+						<File>weapons.xtbl</File>
+						<Type>Weapon.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Num_Display_Rows>8</Num_Display_Rows>
+				<Element_Name>weapon_info</Element_Name>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Audio</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Music_Trigger_Name</Name>
+				<Type>Reference</Type>
+				<Display_Name>Music Triger Name</Display_Name>
+				<Description>Name of the music trigger to play for this multiplayer level.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>game_music_triggers.xtbl</File>
+					<Type>New_Trigger.Name</Type>
+					<OpenSeparate>True</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Ambient_Bank_Name</Name>
+				<Type>Reference</Type>
+				<Display_Name>Ambient Bank Name</Display_Name>
+				<Description>Name of the ambient audio bank to load for this multiplayer level. If the level has background ambient audio, it will not work unless this is set.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>audio_banks.xtbl</File>
+					<Type>NewEntity.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Damage_To_Score_Multiplier</Name>
+			<Type>Float</Type>
+			<Display_Name>Damage To Score Multiplier</Display_Name>
+			<Default>0.15</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Nanoforge_Ability</Name>
+			<Type>Reference</Type>
+			<Display_Name>Nanoforge Ability</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>nanoforge_abilities.xtbl</File>
+				<Type>nano_ability.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
