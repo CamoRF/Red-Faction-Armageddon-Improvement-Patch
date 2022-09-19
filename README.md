@@ -3,7 +3,12 @@
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
 
 # Releases
-[Placeholder](factionfiles.com/path_to_mod)
+
+[Download](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+# Credits
+
+[HeyItsDuke](https://github.com/HeyItsDuke) for Research, Testing, Quality Assurance, and LOTS of Help!
 
 # Changelog
 * All objects now cast shadows 
@@ -37,6 +42,7 @@
 * Improves general lighting quality
 * Improved alien lighting
 * Improves blood decals (needs details)
+* Increases number of aliens that spawn per wave (not all waves done, up to wave 15 or so, only singleplayer waves changed for the most part so far, not final)
 * Increases decal lifetimes 
 * Increases draw distance of shadows
 * Increases draw distance of blood, bullet hole and blast decals
