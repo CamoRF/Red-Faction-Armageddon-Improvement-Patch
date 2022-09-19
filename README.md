@@ -1,17 +1,75 @@
 # Red Faction Armageddon Improvement Patch
 - Version: v0.xx Pre Pre Alpha 19-09-2022 Build 831 
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
+
 # Releases
-See on [FF](factionfiles.com/path_to_mod)
+[Placeholder](factionfiles.com/path_to_mod)
 
 # Changelog
-link to changelog file or just contents right here
+* All objects now cast shadows 
+* All lights now cast shadows
+* All ruin and infestation maps are unlocked immediately 
+* All unlocks and cheats are now free to purchase
+* Compresses multiple files to reduce the memory pool load
+* Disables startup videos
+* Doubles the speed of climbing ladders
+* Enables all the cheat weapons in Ruin mode
+* Glass bullet decals now always appear and only one per bullet appears for realism
+* Stops debris despawning instantly and adds collision that reacts to player movement
+* Stops gibs despawning instantly and adds collision that reacts to player movement 
+* Stops bullet mags despawning instantly
+* Removes camera shake
+* Removes radial blur
+* Improves draw distance of lighting
+* Improves lighting quality
+* Improves blood decals 
+* Increases decal lifetimes 
+* Increases shadow distances
+* Increases draw distance of blood, bullet hole and blast decals
+* Increases draw distance of NPCs
+* Increases various draw distances of misc objects and structures
+* Increases FOV to 85
+* Improves destruction by making it similar to RFG instead of everything being made of cardboard
+* Improves connection in matchmaking
+* NPCs now do the same amount of damage to each other as the player
+* NPCs now do the same damage to each others vehicles as the player
+* NPCs now take 30 minutes to remove attached projectiles 
+* Player now does same damage to friendly NPCs as enemies
+* Players now move the same speed when moving sideways in Infestation
+* Reduces respawn time to 2 seconds from 5 in Infestation 
+* Reduces respawn invulnerability to 2 seconds from 5 in Infestation
+* Reduces revive invulnerability to 2 seconds from 6 in Infestation
+* Removes the pre wave delay in Infestation
+* Removes the post wave delay in Infestation
+* Delayed Explosion Laser Handheld, Lava Barge Turret Handheld, Napalm Laser Handheld, Nano Grenade, Plasma Thrower and the Unicorn gun can now be used in Total Chaos Ruin mode in addition to Free Play
+* Fixes formatting for all XTBL files so the game is easier to mod on top of the patch
+* Player has infinite lives in infestation for testing purposes
+* Added every weapon to infestation 
+* All weapons unlocked by default in infestation 
+* Improved lighting further by tweaking alien lights, adding bloom that was disabled for some reason and added weather/lighting files for maps that were missing them
+* Various tweaks to AI behavior it's now a bit hard atm lol
+* Added the missing mp_weapon_overrides.xtbl file so we can balance weapons separately for multiplayer and singleplayer (tweaked a few things to make it more like guerrilla in some ways after playing 10 rounds but it's wip) 
+* Improvements to debris and gib collision, lot better now but it's still a wip. Think I can get it perfect.
+* Various improvements to player movement and lots of other stuff in tweak_table.xtbl
+* Many more changes but I need to go through the files to remember them all
+* Removed some caps on visual effects
+* Improved destruction further by changing some stress multiplier settings and making more objects destructible 
+* Disabled gib collision but they never despawn now
+* Debris don't despawn
+* Buffed shotgun in multiplayer
+* Buffed Assault rifle
+* Buffed enforcer
+* Buffed laser pistol 
+* Buffed plasma thrower
+* Buffed rocket launcher
+* Removed delay on repair grenade
+* Removed cost of resetting player upgrades
 
 # Installing
-i suppose here could be a link to current readme.txt (renamed to installing.txt or .md) or its contents
+[Placeholder]
 
 # TODO
-See [TODO](todo.txt)
+See [Here](https://github.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/blob/main/to_do_list.txt) 
 
 # Development
-Contact me first, i constantly make a lot of changes so let's discuss what you want to add
+[Placeholder]
