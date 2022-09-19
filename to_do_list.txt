@@ -1,57 +1,63 @@
 ----------------------------------------
 To do
 ----------------------------------------
-
-* Add more weapons to ruin mode - done
 * Cultist AR: Stronger with slower reload and more recoil
-* Balance cheat weapons in infestation
-* Increase jump height and movement speed - done
 * Buff regular pistols: uncap firerate, increase clip and total ammo
-* Buff charge launcher explosion 
-* Change respawn back to 2 seconds for release build - done 
+* Buff charge launcher explosion -
 * Increase alien spawns in waves - up to wave 15 i think
+* Apply tweaks to DLC -
+* Nerf Queen and Hale (nerf queen beam in weapons.xtbl?, nerf hales health?) -
+* Port DLC weapons to base game - assets ported, try replacing the bitmaps with placeholders in misc.vpp_pc
+* Remove the saving tool tip on startup - 
+* Reduce bloom slightly -
+* Fix: Can't destroy red faction generator in path to war, destruction settings; probably made the threshold for when something is destroyed too high - 
+* Add other nanoforge abilities to infestation - 
+* Kicks you back to main menu when starting a new game? (steam bug?)
+* Test if adding new character entries with player rig allows them to work in MP - 
+* Darius (Surface): Rename to "Darius"; Remove current: "Darius" - 
+* Reduce bullet sponge cultists; bleed out data in character.xtbl file - 
+* Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective - 
+* Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl - 
+* Change game icon  - 
+* Update .exe with new version - 
+* Fix broken level lighting: The Terraformer 1, Ice Mines 6 -
+* Update changelog - 
+* Consistent weapon carry player movement speed - 
+* Add more Nanoforge abilities to mutliplayer - 
+* Tweak bleedout and revive system - 
+* Arc Welder needs more damage and less cooldown -
+* Convergence laser needs limited ammo instead of being infinite to not be op (cheat weapon added to mp) - 
+* Mr toots needs to do more damage, have limited ammo, and less cooldown before firing. Feels wonky but cool bonus gun -
+* Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp) - 
+* Enforcer still feels off, needs faster firerate? - 
+* The auto aim seems a bit aggressive with M+KB -
+* Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off - 
+* Rail driver sucks, it's useless against berserkers. Should two hit them but have limited ammo (power weapon) -
+* Lava barge turret needs limited ammo to not be op (cheat weapon added to mp) -
+* Power weapons in general should have half the ammo pickup of regular weapons -
+* Hard mode still seems a bit easy, increase damage taken slightly -
+* Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done -
+
+-----------
+Low Priorty
+------------
+* xDelta script to convert Steam to GOG version, it's a later version and less buggy, also fixes the issue with no crossplay implentation and adds discord api 
+* Reduce memory pool usage: remove table templates, compress files that don't break (don't compress sounds, animations) - done, but files can be completely compressed when the mod is final; keep source files and fork it -
+* Script that runs on startup (batch file) and backups "player_options.rfao_pc" - 
+
+----
+Done
+----
+* Add more weapons to ruin mode - done
+* Change respawn back to 2 seconds for release build - done 
+* Increase shotgun camera recoil - done
+* Increase jump height and movement speed - done
 * Decrease alien spawn delay - done 
 * Balance total lives (calc: 12 / number of players) - done
-* Revival tweaks: bleed out, invulnerability when spawning and after being revived etc - done
-* Apply tweaks to DLC 
-* Nerf Queen and Hale (nerf queen beam in weapons.xtbl?, nerf hales health?)
-* Port DLC weapons to base game
-* Add more characters to multiplayer Darius, Recon, Commando, Kara (there's some spawn resource files that need to be updated) - done 
-* Buff rail driver
-* Tweak vfx.xtbl - done 
+* Revival tweaks: bleed out, invulnerability when spawning and after being revived etc - wip, test, done, idk
 * Tweak mp_difficulty overrides - done
-* Remove the saving tool tip on startup
-* Reduce bloom slightly 
-* Increase shotgun camera recoil - done
-* Can't destroy red faction generator in path to war, destruction settings, probably made the threshold for when something is destroyed too high
-* Add other nanoforge abilities to infestation
-* Kicks you back to main menu when starting a new game? (steam bug?)
-* Test if adding new character entries with player rig allows them to work in MP
-* Darius (Surface): Rename to "Darius"; Remove current: "Darius"
-* Reduce bullet sponge cultists; bleed out data in character.xtbl file
-* Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective
-* Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl
-* Reduce memory pool usage: remove table templates, compress files that don't break (don't compress sounds, animations) - done, but files can be completely compressed when the mod is final; keep source files and fork it
-* Script that runs on startup (batch file) and backups "player_options.rfao_pc" -
-* Change game icon 
-* Update .exe with new version
-* Fix broken level lighting: The Terraformer 1, Ice Mines 6 
-* Update changelog
-* Consistent weapon carry player movement speed
-* Add more Nanoforge abilities to mutliplayer
-* Tweak bleedout and revive system
-* Arc Welder needs more damage and less cooldown
-* Convergence laser needs limited ammo instead of being infinite to not be op (cheat weapon added to mp)
-* Mr toots needs to do more damage, have limited ammo, and less cooldown before firing. Feels wonky but cool bonus gun
-* Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp)
-* Enforcer still feels off, needs faster firerate?
-* The auto aim seems a bit aggressive with M+KB 
-* Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off
-* Rail driver sucks, it's useless against berserkers. Should two hit them but have limited ammo (power weapon)
-* Lava barge turret needs limited ammo to not be op (cheat weapon added to mp)
-* Power weapons in general should have half the ammo pickup of regular weapons
-* Hard mode still seems a bit easy, increase damage taken slightly
-* Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done
+* Add more characters to multiplayer Darius, Recon, Commando, Kara (there's some spawn resource files that need to be updated) - done 
+* Tweak vfx.xtbl - done
 
 ----
 Notes
@@ -59,5 +65,3 @@ Notes
 * Limit is 12.3208 MB 12320768 for misc.vpp_pc
 * Items.vpp_pc packs fine with DLC weapons added 
 * DLC weapons commented out in misc.vpp_pc as they crash game on startup currently, might be something to do with the bitmap entries that need to be replaced with placeholders as using broken bitmaps crashes multiplayer menu with characters too
-
-
