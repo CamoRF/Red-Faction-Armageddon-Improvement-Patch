@@ -71,7 +71,12 @@
 * Various tweaks to AI behavior
 # Installing
 
-[Placeholder]
+1. Install the files in optimized to both misc and table folders first
+2. Install the files in XTBL to both of those folders next and override if asked
+3. Install the interface files to interface and override; packVPP all of the folders
+4. Use Camo's compression scripts to compress misc and table .vpp_pc files
+5. Compressed files will be in the proper folder as an unnamed .vpp_pc file. Name file to proper name and install to RFA's build/pc/cache folder
+NOTE: Interface doesn't like compression nor does it need it
 
 # TODO
 See [Here](https://github.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/blob/main/to_do_list.txt) 
