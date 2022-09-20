@@ -1,32 +1,29 @@
 ----------------------------------------
 To do
 ----------------------------------------
-* Cultist AR: Stronger with slower reload and more recoil
+* Fix: Can't destroy red faction generator in path to war, destruction settings; probably made the threshold for when something is destroyed too high - 
 * Increase alien spawns in waves - up to wave 15 i think
+* Cultist AR: Stronger with slower reload and more recoil
 * Apply tweaks to DLC -
 * Nerf Queen and Hale (nerf queen beam in weapons.xtbl?, nerf hales health?) -
 * Port DLC weapons to base game - assets ported, try replacing the bitmaps with placeholders in misc.vpp_pc
-* Remove the saving tool tip on startup - 
-* Fix: Can't destroy red faction generator in path to war, destruction settings; probably made the threshold for when something is destroyed too high - 
 * Add other nanoforge abilities to infestation - 
 * Kicks you back to main menu when starting a new game? (steam bug?)
 * Test if adding new character entries with player rig allows them to work in MP - 
 * Reduce bullet sponge cultists; bleed out data in character.xtbl file - 
 * Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective - 
 * Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl - 
-* Update .exe with new version - 
-* Fix broken level lighting: The Terraformer 1, Ice Mines 6 -
-* Update changelog - 
 * Add more Nanoforge abilities to mutliplayer - 
 * Continue tweaking bleedout and revive system - 
-* Mr toots needs to do more damage, have limited ammo, and less cooldown before firing. Feels wonky but cool bonus gun -
-* The auto aim seems a bit aggressive with M+KB -
-
-
+* Mr toots needs to overheat and cooldown - 
+* Nerf hales walker hitpoints - 
+* Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete -
+* Some of the cheat weapons are still overpowered - 
 
 -----
 Test
 -----
+* The auto aim seems a bit aggressive with M+KB - wip
 * Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp) - test
 * Enforcer still feels off, needs faster firerate? - test
 * Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off - test
@@ -47,29 +44,48 @@ Low Priorty
 * Script that runs on startup (batch file) and backups "player_options.rfao_pc" - 
 * AI upscale cutscenes -
 * Change game icon  - 
+* Update .exe with new version - 
+* Remove the saving tool tip on startup - 
+* Update changelog - 
 
 ----
 Done
 ----
-* Add more weapons to ruin mode - done
-* Change respawn back to 2 seconds for release build - done 
-* Increase shotgun camera recoil - done
-* Increase jump height and movement speed - done
-* Decrease alien spawn delay - done 
-* Balance total lives (calc: 12 / number of players) - done
+* Add more weapons to ruin mode
+* Change respawn back to 2 seconds for release build
+* Increase shotgun camera recoil
+* Increase jump height and movement speed
+* Decrease alien spawn delay
+* Balance total lives (calc: 12 / number of players)
 * Revival tweaks: bleed out, invulnerability when spawning and after being revived etc - wip, test, done, idk
-* Tweak mp_difficulty overrides - done
-* Add more characters to multiplayer Darius, Recon, Commando, Kara (there's some spawn resource files that need to be updated) - done 
-* Tweak vfx.xtbl - done
+* Tweak mp_difficulty overrides
+* Add more characters to multiplayer Darius, Recon, Commando, Kara (there's some spawn resource files that need to be updated)
+* Tweak vfx.xtbl
 * Set light draw distance to meet engine limits (1024 max) - done, thanks MartianMadman
-* Darius (Surface): Rename to "Darius"; Remove current: "Darius" - done
+* Darius (Surface): Rename to "Darius"; Remove current: "Darius"
 * Reduce bloom slightly - done
-* Hard mode still seems a bit easy, increase damage taken slightly - done
-* Consistent weapon carry player movement speed - done
+* Hard mode still seems a bit easy, increase damage taken slightly
+* Consistent weapon carry player movement speed
+* Fix broken level lighting: The Terraformer 1, Ice Mines 6
 
 ----
 Notes
 ----
-* Limit is 12.3208 MB 12320768 for misc.vpp_pc
+* Memory pool limit is 12.3208 MB (12320768 bytes)
 * Items.vpp_pc packs fine with DLC weapons added 
 * DLC weapons commented out in misc.vpp_pc as they crash game on startup currently, might be something to do with the bitmap entries that need to be replaced with placeholders as using broken bitmaps crashes multiplayer menu with characters too
+- Acid Glob - Functional. Just needs weapon sounds.
+- Acid Puke - Doesn't work.
+- Acid Spit - Basically useless.
+- Acid Thrower - Acts as a corrosive spray bottle. Kinda useless unless you're cleaning up debris.
+- Alien Shotgun - Works but muzzle flash needs to be adjusted and add a cooldown and damage reduction.
+- Ball Lightning Gun - Doesn't work.
+- Behemoth Roar - Just fires a tiny tiny projectile that does basically nothing
+- Big Acid Spit - Also useless.
+- Bomb Lobber - Doesn't work.
+- Boom Cannon - Functional. Just needs weapon sounds.
+- Electrical Pulse Blast - Doesn't work.
+- Gambit Gun - Doesn't work.
+- Grunt Quill - Doesn't work.
+- Monolith Gun - Functional. Just need particle adjustments and a cooldown.
+- Queen Beam - N.O.
