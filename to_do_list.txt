@@ -18,7 +18,10 @@ To do
 * Mr toots needs to overheat and cooldown - 
 * Nerf hales walker hitpoints - 
 * Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete -
-* Some of the cheat weapons are still overpowered - 
+* Nerf LEO Assault Rifle, does way too much damage. Cooldown etc is good -
+* Lava gun might not have the cooldown changes anymore - 
+* Nerf hardmode fall damage
+* Remove vfx.xtbl due to engine limit
 
 -----
 Test
