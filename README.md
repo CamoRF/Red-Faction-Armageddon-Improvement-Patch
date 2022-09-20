@@ -1,5 +1,5 @@
 # Red Faction Armageddon Improvement Patch
-- Version: v0.xx Pre Pre Alpha 20-09-2022 Build 112
+- Version: v0.xx Pre Pre Alpha 20-09-2022 Build 143 Hotfix
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
 
 # Releases
