@@ -1,0 +1,228 @@
+<root>
+	<Table>
+		<Constants>
+			<Name>Constants</Name>
+			<Repair_Sound>
+				<Max_Active_Repair_Audio_Objects>
+					<Per_Type>3</Per_Type>
+					<Total>6</Total>
+				</Max_Active_Repair_Audio_Objects>
+				<Stop_Sound_Gap_ms>50</Stop_Sound_Gap_ms>
+			</Repair_Sound>
+			<Ragdoll_Sound>
+				<Min_Required_Velocity_To_Play_Sound>0</Min_Required_Velocity_To_Play_Sound>
+			</Ragdoll_Sound>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Whoosh_Sound>
+				<Before_Pass_Trigger_Time_Seconds>1</Before_Pass_Trigger_Time_Seconds>
+				<Radius_Meters>4</Radius_Meters>
+				<Max_Angle_of_Attack_Degrees>45</Max_Angle_of_Attack_Degrees>
+			</Whoosh_Sound>
+			<Dissolve_sound>
+				<Max_Dissolve_Pairings>20</Max_Dissolve_Pairings>
+				<Dissolve_sound_delay_ms>250</Dissolve_sound_delay_ms>
+			</Dissolve_sound>
+			<FOV_Blend_Time_Seconds>1.25</FOV_Blend_Time_Seconds>
+			<Object_Effect_Default>30.0</Object_Effect_Default>
+			<Max_Sound_Play_Distances>
+				<Object_Effect_Default>31</Object_Effect_Default>
+				<Destruction>100</Destruction>
+				<Footsteps>0.0
+					<Character>12</Character>
+					<Walker>100</Walker>
+					<Exo>80</Exo>
+					<Creeper>20</Creeper>
+					<Grunt>20</Grunt>
+					<Ambusher>20</Ambusher>
+					<Heavy>30</Heavy>
+					<Tank>80</Tank>
+				</Footsteps>
+			</Max_Sound_Play_Distances>
+		</Constants>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Constants</Name>
+		<Type>TableDescription</Type>
+		<Unique>true</Unique>
+		<MaxCount>2</MaxCount>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<MaxCount>1</MaxCount>
+		</Element>
+		<Element>
+			<Name>Repair_Sound</Name>
+			<Type>Element</Type>
+			<Display_Name>Repair Sound</Display_Name>
+			<Element>
+				<Name>Max_Active_Repair_Audio_Objects</Name>
+				<Type>Element</Type>
+				<Display_Name>Max Active Repair Audio Objects</Display_Name>
+				<Element>
+					<Name>Total</Name>
+					<Type>Int</Type>
+					<Description>How many repair sounds can play at once total.</Description>
+					<Default>6</Default>
+				</Element>
+				<Element>
+					<Name>Per_Type</Name>
+					<Type>Int</Type>
+					<Display_Name>Per Type</Display_Name>
+					<Description>How many repair sounds of a specific type that can be played at once. A type is a repair on a specific material such as concrete or steel.</Description>
+					<Default>3</Default>
+				</Element>
+			</Element>
+			<Element>
+				<Name>Stop_Sound_Gap_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Stop Sound Gap ms</Display_Name>
+				<Default>50</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Ragdoll_Sound</Name>
+			<Type>Element</Type>
+			<Display_Name>Ragdoll Sound</Display_Name>
+			<Element>
+				<Name>Min_Required_Velocity_To_Play_Sound</Name>
+				<Type>Float</Type>
+				<Display_Name>Min Required Velocity To Play Sound</Display_Name>
+				<Description>In meters per second. 1 M/S = 2.23 MPH. 10 M/S = 22.3 MPH.</Description>
+				<Default>1</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Whoosh_Sound</Name>
+			<Type>Element</Type>
+			<Display_Name>Whoosh Sound</Display_Name>
+			<Element>
+				<Name>Before_Pass_Trigger_Time_Seconds</Name>
+				<Type>Float</Type>
+				<Display_Name>Before Pass Trigger Time Seconds</Display_Name>
+				<Description>How many seconds before the object passes the player to trigger the whoosh sound.</Description>
+				<Default>1</Default>
+			</Element>
+			<Element>
+				<Name>Radius_Meters</Name>
+				<Type>Float</Type>
+				<Display_Name>Radius Meters</Display_Name>
+				<Description>Objects must be within this  radius to make a sound.</Description>
+				<Default>3.0</Default>
+			</Element>
+			<Element>
+				<Name>Max_Angle_of_Attack_Degrees</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Angle of Attack Degrees</Display_Name>
+				<Description>Objects whooshing by that are at greater than this angle from the camera forward vector won't make sound.</Description>
+				<Default>45</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Dissolve_sound</Name>
+			<Type>Element</Type>
+			<Display_Name>Dissolve sound</Display_Name>
+			<Element>
+				<Name>Max_Dissolve_Pairings</Name>
+				<Type>Int</Type>
+				<Display_Name>Max Dissolve Pairings</Display_Name>
+				<Description>This is the number of different dissolve type/material pairings.</Description>
+				<Default>20</Default>
+			</Element>
+			<Element>
+				<Name>Dissolve_sound_delay_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Dissolve sound delay in ms</Display_Name>
+				<Description>The delay after one sound plays til the next sound plays, in seconds.</Description>
+				<Default>250</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Max_Sound_Play_Distances</Name>
+			<Type>Element</Type>
+			<Display_Name>Max Sound Play Distances</Display_Name>
+			<Element>
+				<Name>Object_Effect_Default</Name>
+				<Type>Float</Type>
+				<Display_Name>Object Effect Default</Display_Name>
+				<Description>Unless overridden for the object effect in CLOE, sound effects played from object effects more than this distance away from the player won't play.</Description>
+				<Default>30.0</Default>
+			</Element>
+			<Element>
+				<Name>Destruction</Name>
+				<Type>Float</Type>
+				<Description>Sound from destruction events more than this distance away from the player won't play.</Description>
+				<Default>30.0</Default>
+			</Element>
+			<Element>
+				<Name>Footsteps</Name>
+				<Type>Element</Type>
+				<Default>0.0</Default>
+				<Element>
+					<Name>Character</Name>
+					<Type>Float</Type>
+					<Default>10</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Creeper</Name>
+					<Type>Float</Type>
+					<Default>10</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Grunt</Name>
+					<Type>Float</Type>
+					<Default>10</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Ambusher</Name>
+					<Type>Float</Type>
+					<Default>10</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Heavy</Name>
+					<Type>Float</Type>
+					<Default>10</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Tank</Name>
+					<Type>Float</Type>
+					<Default>10</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Exo</Name>
+					<Type>Float</Type>
+					<Default>20</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Walker</Name>
+					<Type>Float</Type>
+					<Default>25</Default>
+					<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		</Element>
+		<Element>
+			<Name>FOV_Blend_Time_Seconds</Name>
+			<Type>Float</Type>
+			<Display_Name>FOV Blend Time Seconds</Display_Name>
+			<Description>How long does it take the FOV value to blend to zero when the player moves out of an interior sound region?</Description>
+			<Default>1</Default>
+			<MinValue>0.001</MinValue>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

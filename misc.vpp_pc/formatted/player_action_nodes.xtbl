@@ -1,0 +1,422 @@
+<root>
+	<Table>
+		<Node_Types>
+			<Name>palmswitch</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>palmswitch</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<Anim_Rig_Interaction>
+				<Interactable_State>animrig obj state 3</Interactable_State>
+				<Action>animrig obj action 3</Action>
+				<Post_Action_State>animrig obj state 2</Post_Action_State>
+			</Anim_Rig_Interaction>
+			<anim_filename>plyr_dflt_stnd_plmswtch.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>test_node</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>palmswitch</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<effect>env_fire_small_01</effect>
+			<anim_filename>plyr_dflt_stnd_plmswtch.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>beacon</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>plant beacon</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<Anim_Rig_Interaction>
+				<Interactable_State>animrig obj state 1</Interactable_State>
+				<Action>animrig obj action 1</Action>
+				<Post_Action_State>animrig obj state 2</Post_Action_State>
+			</Anim_Rig_Interaction>
+			<anim_filename>pc_plant_beacon.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>driller_enter</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>driller enter</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<anim_filename>pc_driller_enter.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>driller_exit</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>driller exit</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<anim_filename>pc_exit_driller.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>car_crash</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>car crash moment</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<anim_filename>pc_car_crash.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>M05_WaterBuilding</Name>
+			<anim_action>water moment</anim_action>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>0.0</Z>
+				</anim_offset>
+				<anim_heading>0</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_filename>waterbuilding_pc__1.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>M06_ThugDeath</Name>
+			<anim_action>thugdeth</anim_action>
+			<anim_filename>pc_thugdeth.animx</anim_filename>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>0.0</Z>
+				</anim_offset>
+				<anim_heading>0.0</anim_heading>
+				<snap_to_parent>False</snap_to_parent>
+			</object_interaction_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Node_Types>
+		<Node_Types>
+			<Name>pc_ms3_crawl</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>tunnel crawl ms3</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<anim_filename>pc_ms3_crawl.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>pc_ms6_rubble</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>rubble crawl ms6</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<anim_filename>pc_ms6_rubble.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>M07_TentacleEmerge</Name>
+			<anim_action>tentacle emerge moment</anim_action>
+			<anim_filename>pc_tent_emerge.animx</anim_filename>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>0.0</Z>
+				</anim_offset>
+				<anim_heading>101.41</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Node_Types>
+		<Node_Types>
+			<Name>civ_switch</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>power switch</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<Anim_Rig_Interaction>
+				<Interactable_State>animrig obj state 1</Interactable_State>
+				<Action>animrig obj action 1</Action>
+				<Post_Action_State>animrig obj state 2</Post_Action_State>
+			</Anim_Rig_Interaction>
+			<anim_filename>pc_power_switch.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>marauder_console</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>marauder console</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>-1.6</X>
+					<Y>-.05</Y>
+					<Z>0</Z>
+				</anim_offset>
+				<anim_heading>90</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<anim_filename>pc_marauder_console.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>pc_ms8_trans</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>mission 8 moment</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<anim_filename>plyr_dflt_m08_trns.animx</anim_filename>
+		</Node_Types>
+		<Node_Types>
+			<Name>civ_button</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<anim_action>button press</anim_action>
+			<anim_state_entry></anim_state_entry>
+			<object_interaction_info>
+				<anim_offset>
+					<X>0.0</X>
+					<Y>0.0</Y>
+					<Z>1.0</Z>
+				</anim_offset>
+				<anim_heading>180</anim_heading>
+				<snap_to_parent>True</snap_to_parent>
+			</object_interaction_info>
+			<Anim_Rig_Interaction>
+				<Interactable_State>animrig obj state 1</Interactable_State>
+				<Action>animrig obj action 1</Action>
+				<Post_Action_State>animrig obj state 2</Post_Action_State>
+			</Anim_Rig_Interaction>
+			<anim_filename>pc_bridge_button.animx</anim_filename>
+		</Node_Types>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Node_Types</Name>
+		<Type>TableDescription</Type>
+		<Description>Ambient behavior entries.</Description>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Name of the behavior.</Description>
+			<Unique>true</Unique>
+			<Default>Behavior</Default>
+			<MaxLength>31</MaxLength>
+		</Element>
+		<Element>
+			<Name>player_prompt</Name>
+			<Type>String</Type>
+			<Display_Name>Player Prompt</Display_Name>
+			<Description>This is the prompt a player will see when he is given the chance to use this node</Description>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>anim_action</Name>
+			<Type>String</Type>
+			<Display_Name>Animation Action</Display_Name>
+			<Description>Animation Action the player will perform at the action node</Description>
+		</Element>
+		<Element>
+			<Name>anim_filename</Name>
+			<Type>String</Type>
+			<Display_Name>Animation File</Display_Name>
+		</Element>
+		<Element>
+			<Name>object_interaction_info</Name>
+			<Type>Element</Type>
+			<Display_Name>Positioning</Display_Name>
+			<Description>Object interaction information for this node</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>anim_offset</Name>
+				<Type>Vector</Type>
+				<Display_Name>Animation Offset</Display_Name>
+				<Description>This offset describes the locaion of the entry position for the action node. The position is reletive to the object described by the "Snap To Target". (Which CAN be blank.)</Description>
+				<X>
+					<Name>X</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+				</X>
+				<Y>
+					<Name>Y</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+				</Y>
+				<Z>
+					<Name>Z</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+				</Z>
+			</Element>
+			<Element>
+				<Name>anim_heading</Name>
+				<Type>Float</Type>
+				<Display_Name>Animation Heading (degrees)</Display_Name>
+				<Description>Used to find the entry rotation for an NPC. This is taken from the parent object.</Description>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>snap_to_parent</Name>
+				<Type>Selection</Type>
+				<Display_Name>Parent Relative</Display_Name>
+				<Description>If selected, the animation will play relative to the parent's position, rather than relative to the action node's position.</Description>
+				<Default>True</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+		</Element>
+		<Element>
+			<Name>effect</Name>
+			<Type>Reference</Type>
+			<Display_Name>Hotspot Effect</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Anim_Rig_Interaction</Name>
+			<Type>Element</Type>
+			<Display_Name>Anim Rig Interaction</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Interactable_State</Name>
+				<Type>Reference</Type>
+				<Display_Name>Interactable State</Display_Name>
+				<Description>When the rig is in this state, you will be able to interact with it from this node.</Description>
+				<Reference>
+					<File>rig_anims.xtbl</File>
+					<Type>Anim.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Action</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>rig_anims.xtbl</File>
+					<Type>Anim.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Post_Action_State</Name>
+				<Type>Reference</Type>
+				<Display_Name>Post-Action State</Display_Name>
+				<Description>After the action plays, this state will play.</Description>
+				<Reference>
+					<File>rig_anims.xtbl</File>
+					<Type>Anim.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

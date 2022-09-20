@@ -1,0 +1,174 @@
+<root>
+	<Table>
+		<Subtitle>
+			<Name>Line 01</Name>
+			<String_Tag>SUB_CS_10_01</String_Tag>
+			<Start_Time_ms>8800</Start_Time_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Duration_ms>3000</Duration_ms>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 02</Name>
+			<String_Tag>SUB_CS_10_02</String_Tag>
+			<Start_Time_ms>12000</Start_Time_ms>
+			<Duration_ms>3000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 03</Name>
+			<String_Tag>SUB_CS_10_03</String_Tag>
+			<Start_Time_ms>16847</Start_Time_ms>
+			<Duration_ms>3400</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 035</Name>
+			<String_Tag>SUB_CS_10_035</String_Tag>
+			<Start_Time_ms>20300</Start_Time_ms>
+			<Duration_ms>5500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 04</Name>
+			<String_Tag>SUB_CS_10_04</String_Tag>
+			<Start_Time_ms>26323</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 05</Name>
+			<String_Tag>SUB_CS_10_05</String_Tag>
+			<Start_Time_ms>30193</Start_Time_ms>
+			<Duration_ms>1000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 06</Name>
+			<String_Tag>SUB_CS_10_06</String_Tag>
+			<Start_Time_ms>36633</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 07</Name>
+			<String_Tag>SUB_CS_10_07</String_Tag>
+			<Start_Time_ms>62457</Start_Time_ms>
+			<Duration_ms>6000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 075</Name>
+			<String_Tag>SUB_CS_10_075</String_Tag>
+			<Start_Time_ms>68363</Start_Time_ms>
+			<Duration_ms>10800</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 08</Name>
+			<String_Tag>SUB_CS_10_08</String_Tag>
+			<Start_Time_ms>76038</Start_Time_ms>
+			<Duration_ms>10100</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 085</Name>
+			<String_Tag>SUB_CS_10_085</String_Tag>
+			<Start_Time_ms>87000</Start_Time_ms>
+			<Duration_ms>6500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 09</Name>
+			<String_Tag>SUB_CS_10_09</String_Tag>
+			<Start_Time_ms>96390</Start_Time_ms>
+			<Duration_ms>4450</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 10</Name>
+			<String_Tag>SUB_CS_10_10</String_Tag>
+			<Start_Time_ms>100900</Start_Time_ms>
+			<Duration_ms>1000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 11</Name>
+			<String_Tag>SUB_CS_10_11</String_Tag>
+			<Start_Time_ms>102000</Start_Time_ms>
+			<Duration_ms>3500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Subtitle</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Identifier for subtitle.  Won't be parsed, can be anything you want.</Description>
+		</Element>
+		<Element>
+			<Name>String_Tag</Name>
+			<Type>Reference</Type>
+			<Display_Name>String Tag</Display_Name>
+			<Description>Localization tag for the subtitle.  Entries come from the entries in data\tables\localization\Subtitle_strings.xlsm.</Description>
+			<Reference>
+				<File>localized_exports\subtitles_text.xtbl</File>
+				<Type>Subtitles_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Start_Time_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Start Time (ms)</Display_Name>
+			<Description>Time elapsed in the cutscene before displaying the subtitle, in ms.</Description>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Duration_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Duration (ms)</Display_Name>
+			<Description>Duration of the subtitle line, in ms.  Can be longer than the time to the next subtitle (will be overwritten).</Description>
+			<Default>1000</Default>
+			<MinValue>1</MinValue>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

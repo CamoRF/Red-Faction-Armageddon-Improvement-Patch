@@ -1,0 +1,538 @@
+<root>
+	<Table>
+		<ai_property>
+			<Name>Default</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Run and Gun</Flag>
+				<Flag>Grunt Behavior</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Examine Corpse</Flag>
+				<Flag>Allow Cower</Flag>
+				<Flag>Investigate Mine</Flag>
+				<Flag>Fire During Melee Charge</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>Allow Weapon Sound Dodge</Flag>
+				<Flag>Allow Gawk</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.4</dodge_damage_thresh>
+			<dodge_damage_prob>0.5</dodge_damage_prob>
+			<melee_move_mult>1.0</melee_move_mult>
+			<engaged_time_min>2.0</engaged_time_min>
+			<engaged_time_max>8.0</engaged_time_max>
+			<min_chase_shoot_dist>15.0</min_chase_shoot_dist>
+			<max_chase_shoot_dist>25</max_chase_shoot_dist>
+		</ai_property>
+		<ai_property>
+			<Name>Grunt</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>Grunt Behavior</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Single Charge Panic</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>React on First LOS</Flag>
+				<Flag>Run and Gun</Flag>
+				<Flag>Combat Taunt</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>Walk for Run and Gun</Flag>
+				<Flag>No Melee from Leap</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.60</dodge_damage_thresh>
+			<dodge_damage_prob>.2</dodge_damage_prob>
+			<leap_attack_info>
+				<leap_prob>.40</leap_prob>
+				<eval_period_min>7</eval_period_min>
+				<eval_period_max>8</eval_period_max>
+			</leap_attack_info>
+			<melee_move_mult>1.5</melee_move_mult>
+		</ai_property>
+		<ai_property>
+			<Name>Creeper</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>Creeper Behavior</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Single Charge Panic</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>React on First LOS</Flag>
+				<Flag>Ignore Projectiles</Flag>
+			</ai_flags>
+			<min_melee_cooldown>2</min_melee_cooldown>
+			<max_melee_cooldown>3</max_melee_cooldown>
+			<dodge_damage_thresh>0.1</dodge_damage_thresh>
+			<dodge_damage_prob>0.8</dodge_damage_prob>
+			<dodge_damage_timeout>5</dodge_damage_timeout>
+		</ai_property>
+		<ai_property>
+			<Name>Ambusher</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>Ambusher Behavior</Flag>
+				<Flag>Can Cloak</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Single Charge Panic</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>Combat Reposition</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>Invulnerable Cloaked</Flag>
+				<Flag>Total Cloak</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.1</dodge_damage_thresh>
+			<dodge_damage_prob>.6</dodge_damage_prob>
+			<min_ambusher_wait>3.0</min_ambusher_wait>
+			<max_ambusher_wait>3.5</max_ambusher_wait>
+			<ambush_run_period>1</ambush_run_period>
+			<cloak_transition_time>1.0</cloak_transition_time>
+			<leap_ambush_dist>20.0</leap_ambush_dist>
+			<leap_attack_info>
+				<leap_prob>.4</leap_prob>
+				<eval_period_min>12</eval_period_min>
+				<eval_period_max>18</eval_period_max>
+			</leap_attack_info>
+			<num_of_lives>1</num_of_lives>
+			<dodge_damage_timeout>5</dodge_damage_timeout>
+		</ai_property>
+		<ai_property>
+			<Name>Heavy</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>Run and Gun</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>Heavy Behavior</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Single Charge Panic</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>React on First LOS</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>Walk for Run and Gun</Flag>
+				<Flag>Melee Vehicle Retreat</Flag>
+				<Flag>No Melee Charge In</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.2</dodge_damage_thresh>
+			<dodge_damage_prob>0</dodge_damage_prob>
+			<min_melee_cooldown>3.0</min_melee_cooldown>
+			<max_melee_cooldown>4.0</max_melee_cooldown>
+		</ai_property>
+		<ai_property>
+			<Name>Tank</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>Run and Gun</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>No Charge Panic</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Vehicle Navmesh</Flag>
+				<Flag>Tank Behavior</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>Fire During Melee Charge</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>Ignore Projectiles</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.2</dodge_damage_thresh>
+			<dodge_damage_prob>0</dodge_damage_prob>
+			<min_melee_cooldown>6.0</min_melee_cooldown>
+			<max_melee_cooldown>7.0</max_melee_cooldown>
+		</ai_property>
+		<ai_property>
+			<Name>Big Creeper</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>Creeper Behavior</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Single Charge Panic</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>React on First LOS</Flag>
+				<Flag>Big Creeper</Flag>
+				<Flag>Ignore Projectiles</Flag>
+			</ai_flags>
+			<min_melee_cooldown>2</min_melee_cooldown>
+			<max_melee_cooldown>3</max_melee_cooldown>
+			<dodge_damage_thresh>0.25</dodge_damage_thresh>
+			<dodge_damage_prob>0.8</dodge_damage_prob>
+			<dodge_damage_timeout>5</dodge_damage_timeout>
+		</ai_property>
+		<ai_property>
+			<Name>Marauder Exo</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>No Catwalk</Flag>
+				<Flag>Vehicle Navmesh</Flag>
+				<Flag>Marauder Exo Behavior</Flag>
+				<Flag>Run and Gun</Flag>
+				<Flag>No Charge Panic</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.2</dodge_damage_thresh>
+			<dodge_damage_prob>0</dodge_damage_prob>
+			<min_melee_cooldown>4.0</min_melee_cooldown>
+			<max_melee_cooldown>5.0</max_melee_cooldown>
+		</ai_property>
+		<ai_property>
+			<Name>Officer</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Grunt Behavior</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Examine Corpse</Flag>
+				<Flag>Allow Cower</Flag>
+				<Flag>Investigate Mine</Flag>
+				<Flag>Fire During Melee Charge</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>Allow Weapon Sound Dodge</Flag>
+				<Flag>Allow Gawk</Flag>
+				<Flag>Combat Reposition</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.4</dodge_damage_thresh>
+			<dodge_damage_prob>0.8</dodge_damage_prob>
+			<melee_move_mult>1.0</melee_move_mult>
+			<engaged_time_min>2.0</engaged_time_min>
+			<engaged_time_max>8.0</engaged_time_max>
+		</ai_property>
+		<ai_property>
+			<Name>Grunt_Ball</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Unlimited Clip Size</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>Grunt Behavior</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Single Charge Panic</Flag>
+				<Flag>Go To Disturbance</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>React on First LOS</Flag>
+				<Flag>Run and Gun</Flag>
+				<Flag>Combat Taunt</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>Walk for Run and Gun</Flag>
+				<Flag>No Melee from Leap</Flag>
+				<Flag>No Melee Charge In</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.60</dodge_damage_thresh>
+			<dodge_damage_prob>.2</dodge_damage_prob>
+			<leap_attack_info>
+				<leap_prob>.40</leap_prob>
+				<eval_period_min>7</eval_period_min>
+				<eval_period_max>8</eval_period_max>
+			</leap_attack_info>
+			<melee_move_mult>1.5</melee_move_mult>
+		</ai_property>
+		<ai_property>
+			<Name>Cultist</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<ai_flags>
+				<Flag>Grunt Behavior</Flag>
+				<Flag>No Leap Dodge</Flag>
+				<Flag>No Turrets</Flag>
+				<Flag>Auto Equip</Flag>
+				<Flag>No Flee</Flag>
+				<Flag>Examine Corpse</Flag>
+				<Flag>Allow Cower</Flag>
+				<Flag>Investigate Mine</Flag>
+				<Flag>Fire During Melee Charge</Flag>
+				<Flag>Fire During Advance</Flag>
+				<Flag>Ignore Projectiles</Flag>
+				<Flag>Allow Weapon Sound Dodge</Flag>
+				<Flag>Allow Gawk</Flag>
+				<Flag>Combat Reposition</Flag>
+			</ai_flags>
+			<dodge_damage_thresh>0.4</dodge_damage_thresh>
+			<dodge_damage_prob>0.5</dodge_damage_prob>
+			<melee_move_mult>1.0</melee_move_mult>
+			<engaged_time_min>2.0</engaged_time_min>
+			<engaged_time_max>8.0</engaged_time_max>
+			<min_chase_shoot_dist>15.0</min_chase_shoot_dist>
+			<max_chase_shoot_dist>25</max_chase_shoot_dist>
+		</ai_property>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>ai_property</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>AI Property</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>ai_flags</Name>
+			<Type>Flags</Type>
+			<Display_Name>AI Flags</Display_Name>
+			<Flag>Ambusher Behavior</Flag>
+			<Flag>Grunt Behavior</Flag>
+			<Flag>Creeper Behavior</Flag>
+			<Flag>Big Creeper</Flag>
+			<Flag>Heavy Behavior</Flag>
+			<Flag>Heavy Charge Animation</Flag>
+			<Flag>Tank Behavior</Flag>
+			<Flag>Marauder Exo Behavior</Flag>
+			<Flag>Unlimited Clip Size</Flag>
+			<Flag>Zig Zag Movement</Flag>
+			<Flag>No Leap Dodge</Flag>
+			<Flag>Run and Gun</Flag>
+			<Flag>Walk for Run and Gun</Flag>
+			<Flag>Combat Reposition</Flag>
+			<Flag>Combat Taunt</Flag>
+			<Flag>Melee Vehicle Retreat</Flag>
+			<Flag>No Turrets</Flag>
+			<Flag>Can Cloak</Flag>
+			<Flag>Invulnerable Cloaked</Flag>
+			<Flag>Phase Cloak</Flag>
+			<Flag>Total Cloak</Flag>
+			<Flag>Auto Equip</Flag>
+			<Flag>No Charge Panic</Flag>
+			<Flag>Single Charge Panic</Flag>
+			<Flag>No Flee</Flag>
+			<Flag>No Catwalk</Flag>
+			<Flag>Vehicle Navmesh</Flag>
+			<Flag>No React Action</Flag>
+			<Flag>React on First LOS</Flag>
+			<Flag>Examine Corpse</Flag>
+			<Flag>Allow Cower</Flag>
+			<Flag>Go To Disturbance</Flag>
+			<Flag>Investigate Mine</Flag>
+			<Flag>Fire During Melee Charge</Flag>
+			<Flag>Fire During Advance</Flag>
+			<Flag>Ignore Projectiles</Flag>
+			<Flag>Allow Weapon Sound Dodge</Flag>
+			<Flag>Allow Gawk</Flag>
+			<Flag>No Melee from Leap</Flag>
+			<Flag>No Melee Charge In</Flag>
+			<Flag>Acquire Visual Delay</Flag>
+			<Flag>Sprint Advance</Flag>
+		</Element>
+		<Element>
+			<Name>dodge_damage_thresh</Name>
+			<Type>Float</Type>
+			<Display_Name>Dodge Damage Threshold</Display_Name>
+			<Description>When an NPC takes more damage than this percentage, he will have a higher chance of dodging</Description>
+			<Required>false</Required>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>dodge_damage_prob</Name>
+			<Type>Float</Type>
+			<Display_Name>Dodge Damage Probility</Display_Name>
+			<Description>Probability an NPC will attempt to dodge after he has taken more damage than the above threshold</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>min_ambusher_wait</Name>
+			<Type>Float</Type>
+			<Display_Name>Min Ambusher Wait Period (sec)</Display_Name>
+			<Description>Minimum amount of time an Ambusher will wait in a leap node before moving to another in order to close with a target</Description>
+			<Required>false</Required>
+			<Default>3</Default>
+		</Element>
+		<Element>
+			<Name>max_ambusher_wait</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Ambusher Wait Period (sec)</Display_Name>
+			<Description>Maximum amount of time an Ambusher will wait in a leap node before moving to another in order to close with a target</Description>
+			<Required>false</Required>
+			<Default>6</Default>
+		</Element>
+		<Element>
+			<Name>ambush_run_period</Name>
+			<Type>Float</Type>
+			<Display_Name>Ambusher Run Period (sec)</Display_Name>
+			<Description>Number of seconds an ambusher will run before considering himself to be out of combat</Description>
+			<Required>false</Required>
+			<Default>5</Default>
+		</Element>
+		<Element>
+			<Name>cloak_transition_time</Name>
+			<Type>Float</Type>
+			<Display_Name>Cloak Transition Time (sec)</Display_Name>
+			<Description>The amount of time to transition from cloaked and decloaked, or vice versa</Description>
+			<Required>false</Required>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>dodge_damage_timeout</Name>
+			<Type>String</Type>
+			<Display_Name>Dodge Damage Timeout (sec)</Display_Name>
+			<Description>Period of time damage must occur in for a damage related dodge to take place. Resets each time damage is taken</Description>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>min_melee_cooldown</Name>
+			<Type>Float</Type>
+			<Display_Name>Melee Cooldown Min (sec)</Display_Name>
+			<Description>Minimum wait between melee attacks,</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>60</MaxValue>
+		</Element>
+		<Element>
+			<Name>max_melee_cooldown</Name>
+			<Type>Float</Type>
+			<Display_Name>Melee Cooldown Max (sec)</Display_Name>
+			<Description>Maximum wait between melee attacks,</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>120</MaxValue>
+		</Element>
+		<Element>
+			<Name>leap_ambush_dist</Name>
+			<Type>Float</Type>
+			<Display_Name>Leap Ambush Distance XZ</Display_Name>
+			<Required>false</Required>
+			<Default>15.0</Default>
+		</Element>
+		<Element>
+			<Name>ground_ambush_dist</Name>
+			<Type>Float</Type>
+			<Display_Name>Ground Ambush Distance</Display_Name>
+			<Required>false</Required>
+			<Default>10.0</Default>
+		</Element>
+		<Element>
+			<Name>leap_attack_info</Name>
+			<Type>Element</Type>
+			<Display_Name>Leap Attack Information</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>leap_prob</Name>
+				<Type>Float</Type>
+				<Display_Name>Leap Attack Probability</Display_Name>
+				<Default>1.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>1</MaxValue>
+			</Element>
+			<Element>
+				<Name>eval_period_min</Name>
+				<Type>Float</Type>
+				<Display_Name>Min Evaluation Period (sec)</Display_Name>
+				<Default>600</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>eval_period_max</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Evaluation Period (sec)</Display_Name>
+				<Default>1200</Default>
+				<MinValue>0</MinValue>
+			</Element>
+		</Element>
+		<Element>
+			<Name>melee_move_mult</Name>
+			<Type>Float</Type>
+			<Display_Name>Melee Move Speed Multiplier</Display_Name>
+			<Required>false</Required>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>num_of_lives</Name>
+			<Type>Int</Type>
+			<Display_Name>Number of Lives</Display_Name>
+			<Required>false</Required>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>engaged_time_min</Name>
+			<Type>Float</Type>
+			<Display_Name>Min Leap Engagement Time</Display_Name>
+			<Description>Minimum amount of time an NPC will respect his current leap combat state before respecting the leap combat properties</Description>
+			<Required>false</Required>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>engaged_time_max</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Leap Engagement Time</Display_Name>
+			<Description>Minimum amount of time an NPC will respect his current leap combat state before respecting the leap combat properties</Description>
+			<Required>false</Required>
+			<Default>7.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>min_chase_shoot_dist</Name>
+			<Type>Float</Type>
+			<Display_Name>Min Chase Shoot Distance</Display_Name>
+			<Description>Distance at which an NPC willl stop when doing the chase shoot action</Description>
+			<Required>false</Required>
+			<Default>10</Default>
+		</Element>
+		<Element>
+			<Name>max_chase_shoot_dist</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Chase Shoot Distance</Display_Name>
+			<Description>At this distance an NPC on chase shoot orders will begin moving again</Description>
+			<Required>false</Required>
+			<Default>20</Default>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

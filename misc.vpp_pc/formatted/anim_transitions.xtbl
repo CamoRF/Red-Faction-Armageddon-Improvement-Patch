@@ -1,0 +1,32 @@
+<root>
+	<Table></Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Anim_Transition</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>From_State</Name>
+			<Type>String</Type>
+			<Display_Name>From State</Display_Name>
+		</Element>
+		<Element>
+			<Name>To_State</Name>
+			<Type>String</Type>
+			<Display_Name>To State</Display_Name>
+		</Element>
+		<Element>
+			<Name>Action</Name>
+			<Type>String</Type>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

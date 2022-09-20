@@ -1,0 +1,321 @@
+<root>
+	<Table>
+		<squad_loadout>
+			<Name>Phased Plasma Beam</Name>
+			<weapon_type>phased_plasma_beam</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Phased Plasma Cannon</Name>
+			<weapon_type>phased_plasma_cannon</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Phased Plasma Rifle</Name>
+			<weapon_type>phased_plasma_rifle</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Sledge Hammer</Name>
+			<weapon_type>sledgehammer</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Ball Lightning Gun</Name>
+			<weapon_type>ball_lightning_gun</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Creeper Claw</Name>
+			<weapon_type>creeper_claw</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Alien Shotgun</Name>
+			<weapon_type>alien_shotgun</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Grunt Quill</Name>
+			<weapon_type>grunt_quill</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Boom Cannon</Name>
+			<weapon_type>boom_cannon</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Acid Thrower</Name>
+			<weapon_type>acid_thrower</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Electrical Pulse Blast</Name>
+			<weapon_type>electrical_pulse_blast</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Acid Puke</Name>
+			<weapon_type>acid_puke</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Gambit gun</Name>
+			<weapon_type>gambit_gun</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Bomb Lobber</Name>
+			<weapon_type>bomb_lobber</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Acid Glob</Name>
+			<weapon_type>acid_glob</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Nano Rifle</Name>
+			<weapon_type>nano_rifle</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Marauder Shotgun</Name>
+			<weapon_type>shotgun</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Gravitic Imploder</Name>
+			<weapon_type>gravitic_imploder</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Grenade Launcher</Name>
+			<weapon_type>grenade_launcher</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>RPG</Name>
+			<weapon_type>rpg_launcher_npc</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Rail Driver</Name>
+			<weapon_type>rail_driver</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Marauder LOW</Name>
+			<weapon_type>m16</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+			<secondary_weapon_info>
+				<second_weapon_type>rpg_launcher_npc</second_weapon_type>
+				<weapon_use_prob>0.2</weapon_use_prob>
+			</secondary_weapon_info>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Cultist_MarExo</Name>
+			<weapon_type>mar_exo_rapid</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+			<secondary_weapon_info>
+				<second_weapon_type>mar_exo_charge</second_weapon_type>
+				<weapon_use_prob>0.5</weapon_use_prob>
+			</secondary_weapon_info>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Marauder LOW_NOBOOM</Name>
+			<weapon_type>m16</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Big Creeper Claw</Name>
+			<weapon_type>big_creeper_claw</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Phased Plasma Rifle Low Acc</Name>
+			<weapon_type>low_acc_phased_plasma_rifle</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Hi_Acc_Grunt Quill</Name>
+			<weapon_type>hi_acc_grunt_quill</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Cultist Rifle</Name>
+			<weapon_type>m16</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Civilian Melee</Name>
+			<weapon_type>civilian_melee</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>Ball Lightning m12</Name>
+			<weapon_type>ball_lightning_m12</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<second_weapon_type></second_weapon_type>
+		</squad_loadout>
+		<squad_loadout>
+			<Name>RPG Fast</Name>
+			<weapon_type>rpg_launcher_npc_fast</weapon_type>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</squad_loadout>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>squad_loadout</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>weapon_type</Name>
+			<Type>Reference</Type>
+			<Display_Name>Weapon Type</Display_Name>
+			<Reference>
+				<File>weapons.xtbl</File>
+				<Type>Weapon.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>secondary_weapon_info</Name>
+			<Type>Element</Type>
+			<Display_Name>Secondary Weapon</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>second_weapon_type</Name>
+				<Type>Reference</Type>
+				<Display_Name>Secondary Weapon Type</Display_Name>
+				<Reference>
+					<File>weapons.xtbl</File>
+					<Type>Weapon.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>weapon_use_prob</Name>
+				<Type>Float</Type>
+				<Display_Name>Weapon Use Probability</Display_Name>
+				<Default>0.0</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>grenades</Name>
+			<Type>Element</Type>
+			<Display_Name>Grenades</Display_Name>
+			<Required>false</Required>
+			<Default>Grenade</Default>
+			<Element>
+				<Name>grenade_type</Name>
+				<Type>Selection</Type>
+				<Display_Name>Type</Display_Name>
+				<Choice>normal</Choice>
+				<Choice>singularity</Choice>
+			</Element>
+			<Element>
+				<Name>grenade_count</Name>
+				<Type>Int</Type>
+				<Display_Name>Count</Display_Name>
+				<Default>1</Default>
+				<MinValue>1</MinValue>
+			</Element>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,64 @@
+<root>
+	<Table>
+		<Attack>
+			<Name>stomp</Name>
+			<Min_Dist>5.2</Min_Dist>
+			<Max_Dist>9.5</Max_Dist>
+			<Damage_to_players>75.0</Damage_to_players>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Attack>
+		<Attack>
+			<Name>charge</Name>
+			<Min_Dist>5.0</Min_Dist>
+			<Max_Dist>90.0</Max_Dist>
+			<Damage_to_players>300.0</Damage_to_players>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Attack>
+		<Attack>
+			<Name>slam</Name>
+			<Min_Dist>5.0</Min_Dist>
+			<Max_Dist>90.0</Max_Dist>
+			<Damage_to_players>9999.0</Damage_to_players>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Attack>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Attack</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Name of the attack.</Description>
+		</Element>
+		<Element>
+			<Name>Min_Dist</Name>
+			<Type>Float</Type>
+			<Description>Minimum distance from target for attack.</Description>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Max_Dist</Name>
+			<Type>Float</Type>
+			<Description>Maximum distance from target for attack.</Description>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Damage_to_players</Name>
+			<Type>Float</Type>
+			<Description>Damage this attack does when it hits a player.</Description>
+			<Default>0.0</Default>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

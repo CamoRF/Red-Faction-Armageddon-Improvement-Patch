@@ -1,0 +1,100 @@
+<root>
+	<Table>
+		<spawn_wave_info>
+			<Name>Test_Wave_System</Name>
+			<wave_info_list>
+				<wave_info>
+					<wave_number>1</wave_number>
+					<wave_trigger_value>2</wave_trigger_value>
+					<wave_spawn_value>6</wave_spawn_value>
+					<min_spawn_delay>2.0</min_spawn_delay>
+					<max_spawn_delay>3.0</max_spawn_delay>
+				</wave_info>
+				<wave_info>
+					<wave_number>2</wave_number>
+					<wave_trigger_value>2</wave_trigger_value>
+					<wave_spawn_value>6</wave_spawn_value>
+					<min_spawn_delay>1.5</min_spawn_delay>
+					<max_spawn_delay>3.0</max_spawn_delay>
+				</wave_info>
+				<wave_info>
+					<wave_number>3</wave_number>
+					<wave_trigger_value>2</wave_trigger_value>
+					<wave_spawn_value>6</wave_spawn_value>
+					<min_spawn_delay>1.0</min_spawn_delay>
+					<max_spawn_delay>3.0</max_spawn_delay>
+				</wave_info>
+			</wave_info_list>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</spawn_wave_info>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>spawn_wave_info</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>wave_info_list</Name>
+			<Type>List</Type>
+			<Display_Name>Wave Information List</Display_Name>
+			<Description>List of elements defining the properties of each wave</Description>
+			<Element>
+				<Name>wave_info</Name>
+				<Type>Element</Type>
+				<Display_Name>Wave Information</Display_Name>
+				<Description>Information about a single wave</Description>
+				<Element>
+					<Name>wave_number</Name>
+					<Type>Int</Type>
+					<Display_Name>Wave Number</Display_Name>
+					<Description>Wave number, we execute waves from lowest ID to highest</Description>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>wave_trigger_value</Name>
+					<Type>Int</Type>
+					<Display_Name>Wave Trigger Value</Display_Name>
+					<Description>This defines when this wave will be triggered, when the value of the current squads is equal or drops below this number</Description>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>wave_spawn_value</Name>
+					<Type>Int</Type>
+					<Display_Name>Wave Spawn Value</Display_Name>
+					<Description>Total value of the new spawns to be created for this wave</Description>
+					<Default>1</Default>
+					<MinValue>1</MinValue>
+				</Element>
+				<Element>
+					<Name>min_spawn_delay</Name>
+					<Type>Float</Type>
+					<Display_Name>Minimum Spawn Delay (sec)</Display_Name>
+					<Description>Delay between spawns for this wave</Description>
+					<Default>0.0</Default>
+				</Element>
+				<Element>
+					<Name>max_spawn_delay</Name>
+					<Type>Float</Type>
+					<Display_Name>Maximum Spawn Delay (sec)</Display_Name>
+					<Default>0.0</Default>
+				</Element>
+			</Element>
+			<Max_Children>16</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+			<Element_Name>wave_info.wave_number</Element_Name>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

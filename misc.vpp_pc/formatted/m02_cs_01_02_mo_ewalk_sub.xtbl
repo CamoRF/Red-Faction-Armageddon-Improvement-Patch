@@ -1,0 +1,496 @@
+<root>
+	<Table>
+		<Subtitle>
+			<Name>Line 01</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_01</String_Tag>
+			<Start_Time_ms>10110</Start_Time_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Duration_ms>2300</Duration_ms>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 02</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_02</String_Tag>
+			<Start_Time_ms>12646</Start_Time_ms>
+			<Duration_ms>2500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 03</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_03</String_Tag>
+			<Start_Time_ms>15515</Start_Time_ms>
+			<Duration_ms>1200</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 04</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_04</String_Tag>
+			<Start_Time_ms>17517</Start_Time_ms>
+			<Duration_ms>2500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 05</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_05</String_Tag>
+			<Start_Time_ms>19620</Start_Time_ms>
+			<Duration_ms>3500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 07</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_07</String_Tag>
+			<Start_Time_ms>24700</Start_Time_ms>
+			<Duration_ms>5300</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 075</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_075</String_Tag>
+			<Start_Time_ms>31097</Start_Time_ms>
+			<Duration_ms>4500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 076</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_076</String_Tag>
+			<Start_Time_ms>36069</Start_Time_ms>
+			<Duration_ms>5700</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 08</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_08</String_Tag>
+			<Start_Time_ms>42200</Start_Time_ms>
+			<Duration_ms>4200</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 09</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_09</String_Tag>
+			<Start_Time_ms>47847</Start_Time_ms>
+			<Duration_ms>2800</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 095</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_095</String_Tag>
+			<Start_Time_ms>52300</Start_Time_ms>
+			<Duration_ms>2600</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 10</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_10</String_Tag>
+			<Start_Time_ms>65600</Start_Time_ms>
+			<Duration_ms>4300</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 11</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_11</String_Tag>
+			<Start_Time_ms>72200</Start_Time_ms>
+			<Duration_ms>1500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 12</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_12</String_Tag>
+			<Start_Time_ms>80500</Start_Time_ms>
+			<Duration_ms>1700</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 13</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_13</String_Tag>
+			<Start_Time_ms>82447</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 14</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_14</String_Tag>
+			<Start_Time_ms>84500</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 15</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_15</String_Tag>
+			<Start_Time_ms>87505</Start_Time_ms>
+			<Duration_ms>3700</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 16</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_16</String_Tag>
+			<Start_Time_ms>92323</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 17</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_17</String_Tag>
+			<Start_Time_ms>94993</Start_Time_ms>
+			<Duration_ms>2500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 18</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_18</String_Tag>
+			<Start_Time_ms>97027</Start_Time_ms>
+			<Duration_ms>3000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 20</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_20</String_Tag>
+			<Start_Time_ms>102450</Start_Time_ms>
+			<Duration_ms>1000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 21</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_21</String_Tag>
+			<Start_Time_ms>105000</Start_Time_ms>
+			<Duration_ms>1300</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 22</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_22</String_Tag>
+			<Start_Time_ms>106450</Start_Time_ms>
+			<Duration_ms>4800</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 23</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_23</String_Tag>
+			<Start_Time_ms>110908</Start_Time_ms>
+			<Duration_ms>4000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 24</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_24</String_Tag>
+			<Start_Time_ms>115800</Start_Time_ms>
+			<Duration_ms>4500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 25</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_25</String_Tag>
+			<Start_Time_ms>120650</Start_Time_ms>
+			<Duration_ms>3200</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 26</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_26</String_Tag>
+			<Start_Time_ms>124620</Start_Time_ms>
+			<Duration_ms>4100</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 27</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_27</String_Tag>
+			<Start_Time_ms>129292</Start_Time_ms>
+			<Duration_ms>1000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 28</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_28</String_Tag>
+			<Start_Time_ms>132795</Start_Time_ms>
+			<Duration_ms>3400</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 29</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_29</String_Tag>
+			<Start_Time_ms>136566</Start_Time_ms>
+			<Duration_ms>1000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 30</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_30</String_Tag>
+			<Start_Time_ms>163058</Start_Time_ms>
+			<Duration_ms>1150</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 31</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_31</String_Tag>
+			<Start_Time_ms>164226</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 315</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_315</String_Tag>
+			<Start_Time_ms>166400</Start_Time_ms>
+			<Duration_ms>1600</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 32</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_32</String_Tag>
+			<Start_Time_ms>169531</Start_Time_ms>
+			<Duration_ms>3100</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 33</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_33</String_Tag>
+			<Start_Time_ms>175100</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 335</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_335</String_Tag>
+			<Start_Time_ms>179040</Start_Time_ms>
+			<Duration_ms>1200</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 34</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_34</String_Tag>
+			<Start_Time_ms>186500</Start_Time_ms>
+			<Duration_ms>1500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 35</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_35</String_Tag>
+			<Start_Time_ms>188005</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 36</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_36</String_Tag>
+			<Start_Time_ms>190010</Start_Time_ms>
+			<Duration_ms>1500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 37</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_37</String_Tag>
+			<Start_Time_ms>192386</Start_Time_ms>
+			<Duration_ms>1200</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 38</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_38</String_Tag>
+			<Start_Time_ms>193788</Start_Time_ms>
+			<Duration_ms>7000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 39</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_39</String_Tag>
+			<Start_Time_ms>201000</Start_Time_ms>
+			<Duration_ms>1000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 40</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_40</String_Tag>
+			<Start_Time_ms>202500</Start_Time_ms>
+			<Duration_ms>3000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 41</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_41</String_Tag>
+			<Start_Time_ms>206000</Start_Time_ms>
+			<Duration_ms>2500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 43</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_43</String_Tag>
+			<Start_Time_ms>213000</Start_Time_ms>
+			<Duration_ms>1600</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 44</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_44</String_Tag>
+			<Start_Time_ms>215000</Start_Time_ms>
+			<Duration_ms>1300</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 45</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_45</String_Tag>
+			<Start_Time_ms>217000</Start_Time_ms>
+			<Duration_ms>6500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Sam_Text></Sam_Text>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 46</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_46</String_Tag>
+			<Start_Time_ms>224550</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	</Table>
+	<TableTemplates>
+		<Subtitle>
+			<Name>Line 06</Name>
+			<String_Tag>SUB_CS_0102_MO_EWALK_06</String_Tag>
+			<Start_Time_ms>22522</Start_Time_ms>
+			<Duration_ms>1500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	</TableTemplates>
+	<TableDescription>
+		<Name>Subtitle</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Identifier for subtitle.  Won't be parsed, can be anything you want.</Description>
+		</Element>
+		<Element>
+			<Name>String_Tag</Name>
+			<Type>Reference</Type>
+			<Display_Name>String Tag</Display_Name>
+			<Description>Localization tag for the subtitle.  Entries come from the entries in data\tables\localization\Subtitle_strings.xlsm.</Description>
+			<Reference>
+				<File>localized_exports\subtitles_text.xtbl</File>
+				<Type>Subtitles_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Start_Time_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Start Time (ms)</Display_Name>
+			<Description>Time elapsed in the cutscene before displaying the subtitle, in ms.</Description>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Duration_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Duration (ms)</Display_Name>
+			<Description>Duration of the subtitle line, in ms.  Can be longer than the time to the next subtitle (will be overwritten).</Description>
+			<Default>1000</Default>
+			<MinValue>1</MinValue>
+		</Element>
+		<Element>
+			<Name>Sam_Text</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

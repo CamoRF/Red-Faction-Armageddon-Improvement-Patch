@@ -1,0 +1,405 @@
+<root>
+	<Table>
+		<Trigger>
+			<Name>interrupt</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>no interrupt</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>critical end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>combo window start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>combo window end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>impact start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>ragdoll start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>ragdoll stop</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>tag start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>tag end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>enable spinebend</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>warning shot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>impact end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>release movement</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>relative space</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>unlock ai</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>secondary impact</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door close start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door close end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>reload give ammo</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>gravity start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>gravity stop</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot-2</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot-3</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot-2</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot-3</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot-2 release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot-3 release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot-2 release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot-3 release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera pos start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera pos end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera lookat start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera lookat end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera animate transition</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera lookat as rotate start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera lookat as rotate end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door 2 end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door 2 start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door 2 close end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door 2 close start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>script action 1</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>script action 2</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>script action 3</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>script action 4</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>set collision - stand</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>set collision - crouch</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>weapon fire</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot action start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot action end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot action start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot action end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>anim rig 0</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>anim rig 1</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>anim rig 2</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>land</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>state interrupt</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Trigger</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Trigger Name</Display_Name>
+			<Unique>true</Unique>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

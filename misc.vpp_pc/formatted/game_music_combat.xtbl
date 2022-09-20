@@ -1,0 +1,283 @@
+<root>
+	<Table>
+		<Constants>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Name>Constants</Name>
+			<Situation_Values>
+				<Number_of_Attackers>
+					<One_to_Four>50</One_to_Four>
+					<Five_to_Nine>60</Five_to_Nine>
+					<Ten_or_More>70</Ten_or_More>
+				</Number_of_Attackers>
+				<Number_of_Active_Pods>100</Number_of_Active_Pods>
+				<Number_of_Attacking_Exos>0.0
+					<One>200</One>
+					<Two_or_More>300</Two_or_More>
+				</Number_of_Attacking_Exos>
+				<Number_of_Searching_Enemies>0.0</Number_of_Searching_Enemies>
+				<Number_of_Alerted_Enemies>40</Number_of_Alerted_Enemies>
+				<Start_Conditions>
+					<Maximum_Contribution>1000</Maximum_Contribution>
+					<Attacking_Exos>0.0
+						<One>300</One>
+						<Two_or_More>500</Two_or_More>
+					</Attacking_Exos>
+					<Any_Active_Pods>0</Any_Active_Pods>
+					<Attackers>
+						<Two_to_Four>300</Two_to_Four>
+						<Five_to_Nine>500</Five_to_Nine>
+						<Ten_or_More>700</Ten_or_More>
+					</Attackers>
+					<Attacking_Ambushers>0
+						<One_or_More>0</One_or_More>
+					</Attacking_Ambushers>
+					<Attacking_Walkers>
+						<One_or_More>600</One_or_More>
+					</Attacking_Walkers>
+					<Attacking_Tanks>
+						<One_or_More>300</One_or_More>
+					</Attacking_Tanks>
+					<Monoliths>
+						<One_or_More>300</One_or_More>
+					</Monoliths>
+				</Start_Conditions>
+				<Continue_Conditions>
+					<Maximum_Contribution>450</Maximum_Contribution>
+					<Any_Alerted_Enemies>0</Any_Alerted_Enemies>
+					<Any_Searching_Enemies>0</Any_Searching_Enemies>
+					<Any_Nearby_Active_Pods>150</Any_Nearby_Active_Pods>
+					<Pod_Data>
+						<Any_Nearby_Active_Pods>150</Any_Nearby_Active_Pods>
+						<Nearby_Distance_Meters>-1.0</Nearby_Distance_Meters>
+					</Pod_Data>
+					<One_Attacker>150</One_Attacker>
+					<Critical_Area_Enabled>150</Critical_Area_Enabled>
+				</Continue_Conditions>
+			</Situation_Values>
+			<Intensity_Level_Thresholds>
+				<Level_1>150</Level_1>
+				<Level_2>300</Level_2>
+				<Level_3>500</Level_3>
+				<Level_4>900</Level_4>
+			</Intensity_Level_Thresholds>
+			<Point_Change_per_Second>1000</Point_Change_per_Second>
+		</Constants>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Constants</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Point_Change_per_Second</Name>
+			<Type>Float</Type>
+			<Display_Name>Point Change per Second</Display_Name>
+			<Description>How many points per second we move the current intensity value to the desired intensity.</Description>
+			<Default>1000</Default>
+		</Element>
+		<Element>
+			<Name>Intensity_Level_Thresholds</Name>
+			<Type>Element</Type>
+			<Display_Name>Intensity Level Thresholds</Display_Name>
+			<Element>
+				<Name>Level_1</Name>
+				<Type>Float</Type>
+				<Display_Name>Level 1</Display_Name>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Level_2</Name>
+				<Type>Float</Type>
+				<Display_Name>Level 2</Display_Name>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Level_3</Name>
+				<Type>Float</Type>
+				<Display_Name>Level 3</Display_Name>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Level_4</Name>
+				<Type>Float</Type>
+				<Display_Name>Level 4</Display_Name>
+				<Default>0.0</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Situation_Values</Name>
+			<Type>Element</Type>
+			<Display_Name>Situation Values</Display_Name>
+			<Element>
+				<Name>Start_Conditions</Name>
+				<Type>Element</Type>
+				<Display_Name>Start Conditions</Display_Name>
+				<Description>Under what situations should combat start?</Description>
+				<Element>
+					<Name>Maximum_Contribution</Name>
+					<Type>Int</Type>
+					<Display_Name>Maximum Contribution</Display_Name>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Attackers</Name>
+					<Type>Element</Type>
+					<Element>
+						<Name>Two_to_Four</Name>
+						<Type>Int</Type>
+						<Display_Name>Two to Four</Display_Name>
+						<Default>0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+					<Element>
+						<Name>Five_to_Nine</Name>
+						<Type>Int</Type>
+						<Display_Name>Five to Nine</Display_Name>
+						<Default>0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+					<Element>
+						<Name>Ten_or_More</Name>
+						<Type>Int</Type>
+						<Display_Name>Ten or More</Display_Name>
+						<Default>0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+				</Element>
+				<Element>
+					<Name>Attacking_Ambushers</Name>
+					<Type>Element</Type>
+					<Display_Name>Attacking Ambushers</Display_Name>
+					<Default>0</Default>
+					<Element>
+						<Name>One_or_More</Name>
+						<Type>Int</Type>
+						<Display_Name>One or More</Display_Name>
+						<Default>0</Default>
+					</Element>
+				</Element>
+				<Element>
+					<Name>Attacking_Exos</Name>
+					<Type>Element</Type>
+					<Display_Name>Attacking Exos</Display_Name>
+					<Default>0.0</Default>
+					<Element>
+						<Name>One</Name>
+						<Type>Int</Type>
+						<Default>0</Default>
+					</Element>
+					<Element>
+						<Name>Two_or_More</Name>
+						<Type>Int</Type>
+						<Display_Name>Two or More</Display_Name>
+						<Default>0</Default>
+					</Element>
+				</Element>
+				<Element>
+					<Name>Attacking_Walkers</Name>
+					<Type>Element</Type>
+					<Display_Name>Attacking Walkers</Display_Name>
+					<Element>
+						<Name>One_or_More</Name>
+						<Type>Int</Type>
+						<Display_Name>One or More</Display_Name>
+						<Default>0</Default>
+					</Element>
+				</Element>
+				<Element>
+					<Name>Attacking_Tanks</Name>
+					<Type>Element</Type>
+					<Display_Name>Attacking Tanks</Display_Name>
+					<Element>
+						<Name>One_or_More</Name>
+						<Type>Int</Type>
+						<Display_Name>One or More</Display_Name>
+						<Default>0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+				</Element>
+				<Element>
+					<Name>Monoliths</Name>
+					<Type>Element</Type>
+					<Element>
+						<Name>One_or_More</Name>
+						<Type>Int</Type>
+						<Display_Name>One or More</Display_Name>
+						<Default>0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+				</Element>
+			</Element>
+			<Element>
+				<Name>Continue_Conditions</Name>
+				<Type>Element</Type>
+				<Display_Name>Continue Conditions</Display_Name>
+				<Element>
+					<Name>Maximum_Contribution</Name>
+					<Type>Int</Type>
+					<Display_Name>Maximum Contribution</Display_Name>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>One_Attacker</Name>
+					<Type>Int</Type>
+					<Display_Name>One Attacker</Display_Name>
+					<Default>0</Default>
+				</Element>
+				<Element>
+					<Name>Pod_Data</Name>
+					<Type>Element</Type>
+					<Display_Name>Pod Data</Display_Name>
+					<Element>
+						<Name>Any_Nearby_Active_Pods</Name>
+						<Type>Int</Type>
+						<Display_Name>Any Nearby Active Pods</Display_Name>
+						<Default>0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+					<Element>
+						<Name>Nearby_Distance_Meters</Name>
+						<Type>Float</Type>
+						<Display_Name>Nearby Distance Meters</Display_Name>
+						<Description>Distance pod should be to be considered "nearby." If it's negative, then the code looks to see if the pod's on the minimap instead.</Description>
+						<Default>-1.0</Default>
+					</Element>
+				</Element>
+				<Element>
+					<Name>Any_Alerted_Enemies</Name>
+					<Type>Int</Type>
+					<Display_Name>Any Alerted Enemies</Display_Name>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Any_Searching_Enemies</Name>
+					<Type>Int</Type>
+					<Display_Name>Any Searching Enemies</Display_Name>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Critical_Area_Enabled</Name>
+					<Type>Int</Type>
+					<Display_Name>Critical Area Enabled</Display_Name>
+					<Description>True when a mission critical area is enabled.</Description>
+					<Default>0</Default>
+				</Element>
+			</Element>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

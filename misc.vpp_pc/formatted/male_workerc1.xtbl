@@ -1,0 +1,408 @@
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>Male_WorkerC1</Name>
+			<Parent_Skeleton>Civilian_Male</Parent_Skeleton>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States>
+						<State>
+							<ID>ambient cpr give 1</ID>
+							<Animation>
+								<Filename>wrk2_cpr_01.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ambient cpr receive 1</ID>
+							<Animation>
+								<Filename>wrk1_cpr_01.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>wrk1_rom.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run panicked</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run cowering</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee anim</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee a tree</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee b</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee b tree</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee c</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee d</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee dn 15</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee fall</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee 35</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee dn 35</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee 15</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>amb inquisitor w1 state</ID>
+							<Animation>
+								<Filename>wrk01_inquisitor_stup.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>amb inquisitor w2 state</ID>
+							<Animation>
+								<Filename>wrk02_inquisitor_stup.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>amb inquisitor w3 state</ID>
+							<Animation>
+								<Filename>wrk03_inquisitor_stup.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>amb inquisitor c1 state</ID>
+							<Animation>
+								<Filename>crsdr01_inquisitor_stup.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>amb inquisitor c2 state</ID>
+							<Animation>
+								<Filename>crsdr02_inquisitor_stup.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>amb cpr give action 1</ID>
+							<Animation>
+								<Filename>wrk1_cpr_02.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb cpr give action 2</ID>
+							<Animation>
+								<Filename>wrk2_cpr_02.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb cpr receive action 1</ID>
+							<Animation>
+								<Filename>wrk1_cpr_03.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb cpr receive action 2</ID>
+							<Animation>
+								<Filename>wrk2_cpr_03.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>test action 1</ID>
+							<Animation>
+								<Filename>plyr_test_action.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis front</ID>
+							<Animation>
+								<Filename>male_run_death_head_front.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis back</ID>
+							<Animation>
+								<Filename>male_run_death_torso_back.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis left</ID>
+							<Animation>
+								<Filename>male_run_death_head_left.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis right</ID>
+							<Animation>
+								<Filename>male_run_death_head_right.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso front</ID>
+							<Animation>
+								<Filename>male_run_death_head_front.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso back</ID>
+							<Animation>
+								<Filename>male_run_death_torso_back.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso left</ID>
+							<Animation>
+								<Filename>male_run_death_head_left.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso right</ID>
+							<Animation>
+								<Filename>male_run_death_head_right.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head front</ID>
+							<Animation>
+								<Filename>male_run_death_head_front.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head back</ID>
+							<Animation>
+								<Filename>male_run_death_torso_back.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head left</ID>
+							<Animation>
+								<Filename>male_run_death_head_left.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head right</ID>
+							<Animation>
+								<Filename>male_run_death_head_right.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee action 1</ID>
+							<Animation>
+								<Filename>civilian_fear_run_lookbck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee action 2</ID>
+							<Animation>
+								<Filename>civilian_fear_run_thmbl_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee action 3</ID>
+							<Animation>
+								<Filename>civilian_fear_run_thumble.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb inquisitor w1 action</ID>
+							<Animation>
+								<Filename>wrk01_inquisitor_sc.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb inquisitor w2 action</ID>
+							<Animation>
+								<Filename>wrk02_inquisitor_sc.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb inquisitor w3 action</ID>
+							<Animation>
+								<Filename>wrk03_inquisitor_sc.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb inquisitor c1 action</ID>
+							<Animation>
+								<Filename>crsdr01_inquisitor_sc.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>amb inquisitor c2 action</ID>
+							<Animation>
+								<Filename>crsdr02_inquisitor_sc.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Skeleton_Set>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Variant_Type</Name>
+			<Type>Reference</Type>
+			<Display_Name>Variant Type</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>anim_set_variants.xtbl</File>
+				<Type>Override.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Unique>true</Unique>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

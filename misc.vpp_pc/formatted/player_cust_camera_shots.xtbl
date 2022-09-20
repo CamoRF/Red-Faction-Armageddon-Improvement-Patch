@@ -1,0 +1,241 @@
+<root>
+	<Table>
+		<NewEntity>
+			<Name>right wrist</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>left wrist</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>head</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>eyes</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>ears</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>body</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>facial hair</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>coat</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>shoes</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>underwear</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>lower body</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>hat</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>ear piercings</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>pants</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>gang select</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>entire chest</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>upper chest</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>lower chest</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>entire back</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>upper back</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>lower back</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>entire arm left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>upper arm left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>lower arm left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>hand left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>entire arm right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>lower arm right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>hand right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>entire leg right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>upper leg right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>lower leg right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>entire leg left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>upper leg left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>lower leg left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>head top</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>head rear</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+		<NewEntity>
+			<Name>neck</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>NewEntity</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

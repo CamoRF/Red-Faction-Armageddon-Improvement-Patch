@@ -1,0 +1,365 @@
+<root>
+	<Table>
+		<Description>
+			<Name>MAP_ELEMENT_MISSION_START</Name>
+			<IconName>map_icon_waypoint</IconName>
+			<_Editor>
+				<Category>Entries:Deprecated</Category>
+			</_Editor>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_MISSION_OBJECTIVE</Name>
+			<IconName>map_icon_waypoint</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Deprecated</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_MISSION_OBJECTIVE_UP</Name>
+			<IconName>map_icon_waypoint</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Deprecated</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_MISSION_OBJECTIVE_DOWN</Name>
+			<IconName>map_icon_waypoint</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Deprecated</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_AMMO_BOX</Name>
+			<IconName>ui_map_icon_bad</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Deprecated</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_OBJECTIVE_WAYPOINT</Name>
+			<IconName>map_icon_waypoint</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_OBJECTIVE_ATTACK</Name>
+			<IconName>map_icon_kill</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_OBJECTIVE_DEFEND</Name>
+			<IconName>map_icon_defend</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_OBJECTIVE_REPAIR</Name>
+			<IconName>map_icon_repair</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_OBJECTIVE_DESTROY</Name>
+			<IconName>map_icon_kill</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_CIRCLE_FILLED_OUTLINE</Name>
+			<IconName>ui_map_icon_bad</IconName>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BLIP_SMALL</Name>
+			<IconName>map_icon_smallblip</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BLIP_LARGE</Name>
+			<IconName>map_icon_bossblip</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_RESCUE</Name>
+			<IconName>map_icon_rescue</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BLIP_POD</Name>
+			<IconName>map_icon_bigblip</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BLIP_TENTACLE</Name>
+			<IconName>map_icon_tentacleblip</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BLIP_CLOSET</Name>
+			<IconName>map_icon_closetblip</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BLIP_RING_SMALL</Name>
+			<IconName>ui_map_icon_ring</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BLIP_RING_LARGE</Name>
+			<IconName>ui_map_icon_ring_big</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_FRIENDLY</Name>
+			<IconName>map_icon_friendly</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_MONOLITH</Name>
+			<IconName>map_icon_monolith</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_TENTACLE</Name>
+			<IconName>map_icon_tentacle</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_GPS_MARKER</Name>
+			<IconName>ui_hud_weapon_arrow</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_COMPASS_TICK</Name>
+			<IconName>ui_map_compass_tick</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Special Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_ALIEN_HEAD</Name>
+			<IconName>map_icon_alien_head</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>False</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BRACKET_BLANK</Name>
+			<IconName>ui_map_icon_brackets_blank</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BRACKET_ATTACK</Name>
+			<IconName>ui_map_icon_brackets_attack</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BRACKET_DEFEND</Name>
+			<IconName>ui_map_icon_brackets_defend</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BRACKET_REPAIR</Name>
+			<IconName>ui_map_icon_brackets_repair</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+		<Description>
+			<Name>MAP_ELEMENT_BRACKET_WAYPOINT</Name>
+			<IconName>ui_map_icon_brackets_waypoint</IconName>
+			<IsActivityIcon>False</IsActivityIcon>
+			<IsObjectiveIcon>True</IsObjectiveIcon>
+			<IsTargetIcon>False</IsTargetIcon>
+			<_Editor>
+				<Category>Entries:Mini Map Icons</Category>
+			</_Editor>
+		</Description>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Description</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Minimap Element Name</Display_Name>
+			<Description>This must match the corresponding name in minimap.cpp, and matches the enumeration for it</Description>
+		</Element>
+		<Element>
+			<Name>IconName</Name>
+			<Type>Reference</Type>
+			<Display_Name>Icon Name</Display_Name>
+			<Description>The name of this guy's icon</Description>
+			<Reference>
+				<File>bitmap_sheets.xtbl</File>
+				<Type>BitmapSheets.Images.Properties.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>IsActivityIcon</Name>
+			<Type>Selection</Type>
+			<Display_Name>Is Activity Icon</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>IsObjectiveIcon</Name>
+			<Type>Selection</Type>
+			<Display_Name>Is Objective Icon</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>IsTargetIcon</Name>
+			<Type>Selection</Type>
+			<Display_Name>Is Target Icon</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+			<Category>
+				<Name>Deprecated</Name>
+			</Category>
+			<Category>
+				<Name>Mini Map Icons</Name>
+			</Category>
+			<Category>
+				<Name>Special Icons</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

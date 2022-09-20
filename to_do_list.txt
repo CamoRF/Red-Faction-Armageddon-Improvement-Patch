@@ -2,8 +2,6 @@
 To do
 ----------------------------------------
 * Cultist AR: Stronger with slower reload and more recoil
-* Buff regular pistols: uncap firerate, increase clip and total ammo
-* Buff charge launcher explosion -
 * Increase alien spawns in waves - up to wave 15 i think
 * Apply tweaks to DLC -
 * Nerf Queen and Hale (nerf queen beam in weapons.xtbl?, nerf hales health?) -
@@ -16,33 +14,39 @@ To do
 * Reduce bullet sponge cultists; bleed out data in character.xtbl file - 
 * Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective - 
 * Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl - 
-* Change game icon  - 
 * Update .exe with new version - 
 * Fix broken level lighting: The Terraformer 1, Ice Mines 6 -
 * Update changelog - 
-* Consistent weapon carry player movement speed - 
 * Add more Nanoforge abilities to mutliplayer - 
-* Tweak bleedout and revive system - 
-* Arc Welder needs more damage and less cooldown -
-* Convergence laser needs limited ammo instead of being infinite to not be op (cheat weapon added to mp) - 
+* Continue tweaking bleedout and revive system - 
 * Mr toots needs to do more damage, have limited ammo, and less cooldown before firing. Feels wonky but cool bonus gun -
-* Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp) - 
-* Enforcer still feels off, needs faster firerate? - 
 * The auto aim seems a bit aggressive with M+KB -
-* Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off - 
-* Rail driver sucks, it's useless against berserkers. Should two hit them but have limited ammo (power weapon) -
-* Lava barge turret needs limited ammo to not be op (cheat weapon added to mp) -
-* Power weapons in general should have half the ammo pickup of regular weapons -
-* Hard mode still seems a bit easy, increase damage taken slightly -
-* Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done -
+
+
+
+-----
+Test
+-----
+* Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp) - test
+* Enforcer still feels off, needs faster firerate? - test
+* Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off - test
+* Arc Welder needs more damage and less cooldown - test
+* Convergence laser needs limited ammo instead of being infinite to not be op (cheat weapon added to mp) - test
+* Rail driver sucks, it's useless against berserkers. Should two hit them but have limited ammo (power weapon) - test
+* Lava barge turret needs limited ammo to not be op (cheat weapon added to mp) - test
+* Buff charge launcher explosion - test
+* Buff regular pistols: uncap firerate, increase clip and total ammo - test
 
 -----------
 Low Priorty
 ------------
+* Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done -
+* Power weapons in general should have half the ammo pickup of regular weapons -
 * xDelta script to convert Steam to GOG version, it's a later version and less buggy, also fixes the issue with no crossplay implentation and adds discord api 
 * Reduce memory pool usage: remove table templates, compress files that don't break (don't compress sounds, animations) - done, but files can be completely compressed when the mod is final; keep source files and fork it -
 * Script that runs on startup (batch file) and backups "player_options.rfao_pc" - 
 * AI upscale cutscenes -
+* Change game icon  - 
 
 ----
 Done
@@ -60,6 +64,8 @@ Done
 * Set light draw distance to meet engine limits (1024 max) - done, thanks MartianMadman
 * Darius (Surface): Rename to "Darius"; Remove current: "Darius" - done
 * Reduce bloom slightly - done
+* Hard mode still seems a bit easy, increase damage taken slightly - done
+* Consistent weapon carry player movement speed - done
 
 ----
 Notes

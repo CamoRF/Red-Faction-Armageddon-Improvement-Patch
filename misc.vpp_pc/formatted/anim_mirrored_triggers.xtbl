@@ -1,0 +1,80 @@
+<root>
+	<Table>
+		<Mirrored_Trigger>
+			<Name>left-foot</Name>
+			<Coupled_Trigger>right-foot</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+		<Mirrored_Trigger>
+			<Name>left-foot-2</Name>
+			<Coupled_Trigger>right-foot-2</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+		<Mirrored_Trigger>
+			<Name>left-foot release</Name>
+			<Coupled_Trigger>right-foot release</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+		<Mirrored_Trigger>
+			<Name>left-foot-2 release</Name>
+			<Coupled_Trigger>right-foot-2 release</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+		<Mirrored_Trigger>
+			<Name>left-foot-3</Name>
+			<Coupled_Trigger>right-foot-3</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+		<Mirrored_Trigger>
+			<Name>left-foot-3 release</Name>
+			<Coupled_Trigger>right-foot-3 release</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+		<Mirrored_Trigger>
+			<Name>left-foot action start</Name>
+			<Coupled_Trigger>right-foot action start</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+		<Mirrored_Trigger>
+			<Name>left-foot action end</Name>
+			<Coupled_Trigger>right-foot action end</Coupled_Trigger>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Mirrored_Trigger>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Mirrored_Trigger</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Mirrored Trigger</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Coupled_Trigger</Name>
+			<Type>String</Type>
+			<Display_Name>Coupled Trigger</Display_Name>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

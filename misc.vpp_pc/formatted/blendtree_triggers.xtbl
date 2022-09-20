@@ -1,0 +1,21 @@
+<root>
+	<treeFlags>
+		<Flag>Disable Spinebend</Flag>
+		<Flag>Disable Crossfade</Flag>
+		<Flag>Track Animations Sepertely</Flag>
+	</treeFlags>
+	<nodeFlags>
+		<Flag>Don't Blend Children</Flag>
+		<Flag>Pose</Flag>
+		<Flag>Mirrored</Flag>
+		<Flag>preloaded</Flag>
+		<Flag>Switch Weapon Hand</Flag>
+		<Flag>Closest Single Child</Flag>
+		<Flag>Random Single Child</Flag>
+		<Flag>Track Animation Separtely</Flag>
+	</nodeFlags>
+	<treeActionFlags>
+		<Flag>enable active tracking</Flag>
+		<Flag>Original Tag On No Match</Flag>
+	</treeActionFlags>
+</root>

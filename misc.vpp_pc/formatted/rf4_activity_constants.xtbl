@@ -1,0 +1,108 @@
+<root>
+	<Table>
+		<Activity_Constants>
+			<Name>Activity_Constants</Name>
+			<act_generic></act_generic>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<div_killing_spree>
+				<Min_Time_Between_Kills>4.0</Min_Time_Between_Kills>
+				<Max_Time_Between_Kills>7.0</Max_Time_Between_Kills>
+				<Min_Kills>3</Min_Kills>
+				<Max_Kills>10</Max_Kills>
+			</div_killing_spree>
+			<lightcone_effect>char_electrocution_a</lightcone_effect>
+			<Failure_Strings>
+				<Failure_String>
+					<Failure_String>!You Died</Failure_String>
+				</Failure_String>
+				<Failure_String>
+					<Failure_String>!You Killed the car</Failure_String>
+				</Failure_String>
+				<Failure_String>
+					<Failure_String>!You killed your brother, WTF?</Failure_String>
+				</Failure_String>
+			</Failure_Strings>
+		</Activity_Constants>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Activity_Constants</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Default>Activity Constants</Default>
+		</Element>
+		<Element>
+			<Name>lightcone_effect</Name>
+			<Type>Reference</Type>
+			<Display_Name>Lightcone Effect</Display_Name>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>act_generic</Name>
+			<Type>Element</Type>
+			<Display_Name>Activity - Generic</Display_Name>
+		</Element>
+		<Element>
+			<Name>div_killing_spree</Name>
+			<Type>Element</Type>
+			<Display_Name>Diversion - Killing Spree</Display_Name>
+			<Element>
+				<Name>Min_Time_Between_Kills</Name>
+				<Type>Float</Type>
+				<Display_Name>Min Time Between Kills</Display_Name>
+				<Description>Time (in seconds) between kills when the speed of killing reaches its highest.</Description>
+				<Default>4.0</Default>
+			</Element>
+			<Element>
+				<Name>Max_Time_Between_Kills</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Time Between Kills</Display_Name>
+				<Description>Time (in seconds) between kills when the speed of killing reaches is lowest (when the spree first starts).</Description>
+				<Default>7.0</Default>
+			</Element>
+			<Element>
+				<Name>Min_Kills</Name>
+				<Type>Int</Type>
+				<Display_Name>Min Kills</Display_Name>
+				<Description>The number of kills at which you start getting rewarded for a killing spree.</Description>
+				<Default>3</Default>
+			</Element>
+			<Element>
+				<Name>Max_Kills</Name>
+				<Type>Int</Type>
+				<Display_Name>Max Kills</Display_Name>
+				<Description>The number of kills where the required speed of the kills reaches its highest.</Description>
+				<Default>10</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Failure_Strings</Name>
+			<Type>Grid</Type>
+			<Display_Name>Failure Strings</Display_Name>
+			<Element>
+				<Name>Failure_String</Name>
+				<Type>Element</Type>
+				<Display_Name>Failure String</Display_Name>
+				<Element>
+					<Name>Failure_String</Name>
+					<Type>String</Type>
+					<Display_Name>Failure String</Display_Name>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,311 @@
+<root>
+	<Table>
+		<logic_array_rules>
+			<Name>Add spawned from spawn point</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
+				</Param>
+			</Parameters>
+			<_Editor>
+				<Category>Entries:Add</Category>
+			</_Editor>
+			<code_name>add_spawned_from_spawn</code_name>
+			<Parameterized_Sentence>Everytime an NPC is spawned from $, add the NPC to this list.</Parameterized_Sentence>
+			<Function_Type>Add</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove NULL objects</Name>
+			<Function_Type>Remove</Function_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Objects that no longer exist are removed from this list.</Parameterized_Sentence>
+			<code_name>remove_null_objects</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+			<Array_Type>ObjHandle</Array_Type>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove NPC died</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>NPCs that are dead are removed from this list.</Parameterized_Sentence>
+			<code_name>remove_npc_died</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Squad died</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>If all spawned objects from a Squad Spawn Node have died, they are removed from this list.</Parameterized_Sentence>
+			<code_name>remove_squad_died</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Building damaged</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>When a building is damaged, it is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_building_damaged</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Add Building damaged</Name>
+			<Function_Type>Add</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Everytime a building is damaged, add that building to this list.</Parameterized_Sentence>
+			<code_name>add_building_damaged</code_name>
+			<_Editor>
+				<Category>Entries:Add</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Add On Trigger-Region enter</Name>
+			<Function_Type>Add</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
+				</Param>
+			</Parameters>
+			<Parameterized_Sentence>Everytime an object enters $, add that object to this list.</Parameterized_Sentence>
+			<code_name>add_on_trigger_region_enter</code_name>
+			<_Editor>
+				<Category>Entries:Add</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Add NPC On Trigger Region enter</Name>
+			<Function_Type>Add</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
+				</Param>
+			</Parameters>
+			<Parameterized_Sentence>Everytime an NPC enters $, add the NPC to this list.</Parameterized_Sentence>
+			<code_name>add_npc_on_trigger_enter</code_name>
+			<_Editor>
+				<Category>Entries:Add</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Add vehicle entered by NPC</Name>
+			<Function_Type>Add</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>NPC</Param_Name>
+				</Param>
+			</Parameters>
+			<Parameterized_Sentence>Everytime $ gets in a vehicle, add that vehicle to this list.</Parameterized_Sentence>
+			<code_name>add_vehicle_entered_by_npc</code_name>
+			<_Editor>
+				<Category>Entries:Add</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Human died</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Everytime a human dies, it is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_human_died</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove On Trigger-Region Enter</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
+				</Param>
+			</Parameters>
+			<Parameterized_Sentence>Everytime an object enters $, that object is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_on_trigger_region_enter</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Vehicle take damage</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Remove everytime a vehicle takes damage, it is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_vehicle_take_damage</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Player kills Human</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>When the Player kills a human, that human is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_player_kills_human</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Player kills vehicle</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Whenever the Player kills a vehicle, that vehicle is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_player_kills_vehicle</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Squad Member despawned</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Whenever a squad member is despawned, it is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_squad_member_despawns</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove NPC despawns</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Whenever an NPC despawns, it is removed from this list.</Parameterized_Sentence>
+			<code_name>remove_npc_despawns</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Pod destroyed</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Destroyed pods are removed from the list</Parameterized_Sentence>
+			<code_name>remove_pod_destroyed</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+		<logic_array_rules>
+			<Name>Remove Anim rig damaged</Name>
+			<Function_Type>Remove</Function_Type>
+			<Array_Type>ObjHandle</Array_Type>
+			<Parameters></Parameters>
+			<Parameterized_Sentence>Damaged anim rigs are removed from the list</Parameterized_Sentence>
+			<code_name>remove_rig_damaged</code_name>
+			<_Editor>
+				<Category>Entries:Remove</Category>
+			</_Editor>
+		</logic_array_rules>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>logic_array_rules</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<MaxLength>64</MaxLength>
+		</Element>
+		<Element>
+			<Name>Function_Type</Name>
+			<Type>Selection</Type>
+			<Choice>Add</Choice>
+			<Choice>Remove</Choice>
+		</Element>
+		<Element>
+			<Name>Array_Type</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>state_machine_references.xtbl</File>
+				<Type>variable_types.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Parameters</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Param</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Param_Type</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>state_machine_references.xtbl</File>
+						<Type>variable_types.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>Param_Name</Name>
+					<Type>String</Type>
+					<MaxLength>16</MaxLength>
+				</Element>
+				<Element>
+					<Name>Table</Name>
+					<Type>String</Type>
+					<Description>Table file this reference exists in</Description>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Field</Name>
+					<Type>String</Type>
+					<Description>Field to pull strings from</Description>
+					<Required>false</Required>
+				</Element>
+			</Element>
+			<Max_Children>4</Max_Children>
+			<Num_Display_Rows>4</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>Parameterized_Sentence</Name>
+			<Type>String</Type>
+			<Display_Name>Parameterized Sentence</Display_Name>
+		</Element>
+		<Element>
+			<Name>code_name</Name>
+			<Type>String</Type>
+			<Display_Name>Name in Code</Display_Name>
+			<Unique>true</Unique>
+			<MaxLength>64</MaxLength>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+			<Category>
+				<Name>Add</Name>
+			</Category>
+			<Category>
+				<Name>Remove</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

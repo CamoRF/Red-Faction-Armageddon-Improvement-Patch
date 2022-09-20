@@ -1363,7 +1363,7 @@
 			<Interface_Priority_Ruin_Mode>255</Interface_Priority_Ruin_Mode>
 		</Weapon>
 		<Weapon>
-			<Name>chain_lightning_gun</Name>
+			<Name>chain_lightning_gun</Name> <!--Arc Welder-->
 			<Unique_ID>60</Unique_ID>
 			<Inventory_Item>chain_lightning_gun</Inventory_Item>
 			<Item_3d>chain_lightning_gun</Item_3d>
@@ -1449,7 +1449,7 @@
 									<Flag>keep magazine filled</Flag>
 									<Flag>looping fire effects</Flag>
 								</Flags>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
 								<Overheat_Increase_Rate>0.30</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>4500</Overheat_Cool_Down_Time_ms>
 								<NPC_Min_Range>2</NPC_Min_Range>
@@ -1511,7 +1511,7 @@
 			<Interface_Priority_Ruin_Mode>255</Interface_Priority_Ruin_Mode>
 		</Weapon>
 		<Weapon>
-			<Name>charge_placer</Name>
+			<Name>charge_placer</Name> <!--Charge Launcher-->
 			<Unique_ID>13</Unique_ID>
 			<Inventory_Item>charge_placer</Inventory_Item>
 			<Item_3d>charge_placer</Item_3d>
@@ -1574,8 +1574,8 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>500</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>300</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>500</Player_Refire_Delay_ms> <!--From 500-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 300-->
 								<Flags>
 									<Flag>keep magazine filled</Flag>
 									<Flag>reload is remote trigger</Flag>
@@ -1768,7 +1768,7 @@
 									<Flag>allow fire on overheat cooldown</Flag>
 									<Flag>suppress dryfire sound</Flag>
 								</Flags>
-								<Player_Refire_Delay_ms>200</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 200-->
 								<NPC_Refire_Delay_ms>200</NPC_Refire_Delay_ms>
 								<Active_Camera_Movement_Multiplier>0.4</Active_Camera_Movement_Multiplier>
 								<Active_Human_Movement_Multiplier>0.6</Active_Human_Movement_Multiplier>
@@ -2083,8 +2083,8 @@
 									<Player_Vehicle_Damage>11</Player_Vehicle_Damage>
 									<Structural_Damage>800</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Ragdoll_Force>2.2</Ragdoll_Force>
 								<Visuals>
 									<Muzzle_Smoke>wep_muzzle_smoke_plasma</Muzzle_Smoke>
@@ -2244,8 +2244,8 @@
 									<Structural_Damage>800</Structural_Damage>
 									<Threshold>80</Threshold>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>200</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 200-->
 								<Ragdoll_Force>3.5</Ragdoll_Force>
 								<Visuals>
 									<Muzzle_Smoke>wep_muzzle_smoke_plasma</Muzzle_Smoke>
@@ -2410,8 +2410,8 @@
 									<Player_Vehicle_Damage>20</Player_Vehicle_Damage>
 									<Structural_Damage>800</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>167</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>200</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 167-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 200-->
 								<Ragdoll_Force>4.0</Ragdoll_Force>
 								<Visuals>
 									<Muzzle_Smoke>wep_muzzle_smoke_plasma</Muzzle_Smoke>
@@ -2585,7 +2585,7 @@
 								<Spread_Fine_Aim_Max>5.5</Spread_Fine_Aim_Max>
 								<NPC_Spread_Min>0.5</NPC_Spread_Min>
 								<NPC_Spread_Max>2.5</NPC_Spread_Max>
-								<Player_Refire_Delay_ms>900</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 900-->
 								<Visuals>
 									<Muzzle_Flash>wep_shotgun_muzz</Muzzle_Flash>
 									<Fire_Camera_Shake>weapon_fire_autoblast</Fire_Camera_Shake>
@@ -2611,7 +2611,7 @@
 								</Sounds>
 								<Gib_Threshold_Percent>0.75</Gib_Threshold_Percent>
 								<Gib_Impulse>75.0</Gib_Impulse>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Spread_Shots_To_Max>2</Spread_Shots_To_Max>
 								<Spread_Cooldown_Time_ms>3000</Spread_Cooldown_Time_ms>
 								<Gib_Head_On_Death_Chance>0.0</Gib_Head_On_Death_Chance>
@@ -2977,8 +2977,8 @@
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
 								<Explosion>nano_rifle_exp</Explosion>
-								<Player_Refire_Delay_ms>350</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 350-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Visuals>
 									<Muzzle_Flash>wep_nanorifle_flash_a</Muzzle_Flash>
 									<Fire_Camera_Shake>weapon_fire_nano</Fire_Camera_Shake>
@@ -3159,8 +3159,8 @@
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
 								<Explosion>nano_auto_rifle_exp</Explosion>
-								<Player_Refire_Delay_ms>250</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 250-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Visuals>
 									<Muzzle_Flash>wep_nanorifle_flash_a</Muzzle_Flash>
 									<Fire_Camera_Shake>weapon_fire_nano</Fire_Camera_Shake>
@@ -3341,7 +3341,7 @@
 									<Fire_Camera_Shake>weapon_fire_enforcer</Fire_Camera_Shake>
 								</Visuals>
 								<Headshot_Multiplier>1</Headshot_Multiplier>
-								<Player_Refire_Delay_ms>150</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 150-->
 								<Sounds>
 									<Npc_sound_event>WEP_MAR_GRENADE_FIRE</Npc_sound_event>
 									<sound_event>WEP_MAR_GRENADE_FIRE_PC</sound_event>
@@ -3356,7 +3356,7 @@
 								<Ammo_Type>Grenade</Ammo_Type>
 								<Rounds_On_Pickup>15</Rounds_On_Pickup>
 								<NPC_Refire_Delay_ms>300</NPC_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>300</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 300-->
 								<Shots_Per_Round>1</Shots_Per_Round>
 								<Gib_Head_On_Death_Chance>.5</Gib_Head_On_Death_Chance>
 								<Gib_Chance>.5</Gib_Chance>
@@ -3471,7 +3471,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
 								<NPC_Refire_Delay_ms>100</NPC_Refire_Delay_ms>
 								<Active_Camera_Movement_Multiplier>0.4</Active_Camera_Movement_Multiplier>
 								<Flags>
@@ -3533,7 +3533,7 @@
 			<Interface_Priority_Ruin_Mode>255</Interface_Priority_Ruin_Mode>
 		</Weapon>
 		<Weapon>
-			<Name>delayed_explosion_laser_handheld</Name>
+			<Name>delayed_explosion_laser_handheld</Name> <!--Convergence Laser-->
 			<Unique_ID>89</Unique_ID>
 			<Inventory_Item>delayed_explosion_laser</Inventory_Item>
 			<Item_3d>delayed_explosion_laser</Item_3d>
@@ -3594,7 +3594,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
 								<NPC_Refire_Delay_ms>100</NPC_Refire_Delay_ms>
 								<Active_Camera_Movement_Multiplier>0.4</Active_Camera_Movement_Multiplier>
 								<Flags>
@@ -3744,7 +3744,7 @@
 								<Ammo_Per_Round>1</Ammo_Per_Round>
 								<NPC_Min_Range>5</NPC_Min_Range>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
-								<Player_Refire_Delay_ms>300</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 300-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Gib_Chance>0.0</Gib_Chance>
 								<Icon_Name>ui_icon_wpn_rocket_launcher</Icon_Name>
@@ -3846,7 +3846,7 @@
 									<Player_Vehicle_Damage>425</Player_Vehicle_Damage>
 									<Structural_Damage>10000</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>300</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 300-->
 								<Flags>
 									<Flag>shatter</Flag>
 								</Flags>
@@ -4002,7 +4002,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>500</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 500-->
 								<Visuals>
 									<Muzzle_Flash>wep_rpg_muzz</Muzzle_Flash>
 									<Fire_Camera_Shake>weapon_fire_rpg</Fire_Camera_Shake>
@@ -4291,7 +4291,7 @@
 									<Player_Vehicle_Damage>60</Player_Vehicle_Damage>
 									<Structural_Damage>800</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Flags>
 									<Flag>shatter</Flag>
 									<Flag>is minor hit to vehicles</Flag>
@@ -4312,8 +4312,8 @@
 								<Spread_Fine_Aim_Max>1.2</Spread_Fine_Aim_Max>
 								<NPC_Spread_Min>1</NPC_Spread_Min>
 								<NPC_Spread_Max>2</NPC_Spread_Max>
-								<Player_Refire_Delay_ms>300</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>300</NPC_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 300-->
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 300-->
 								<Visuals>
 									<Fire_Camera_Shake>weapon_fire_pistol</Fire_Camera_Shake>
 									<Muzzle_Flash>wep_bullet_pistol_muzz</Muzzle_Flash>
@@ -4454,7 +4454,7 @@
 								<NPC_Min_Range>0.0</NPC_Min_Range>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
 								<Ammo_Type>Shotgun</Ammo_Type>
-								<NPC_Refire_Delay_ms>1250</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 1250-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Gib_Chance>0.0</Gib_Chance>
 								<NPC_Spread_Min_Goon>8</NPC_Spread_Min_Goon>
@@ -4552,7 +4552,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Flags>
 									<Flag>dependent on fire animation</Flag>
 								</Flags>
@@ -4580,7 +4580,7 @@
 								<Gib_Chance>0.0</Gib_Chance>
 								<NPC_Spread_Min_Goon>8</NPC_Spread_Min_Goon>
 								<NPC_Spread_Max_Goon>10</NPC_Spread_Max_Goon>
-								<NPC_Refire_Delay_ms>2000</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 2000-->
 							</Firing_Mode>
 						</Potential_Firing_Mode>
 					</Potential_Firing_Modes>
@@ -4763,7 +4763,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<NPC_Refire_Delay_ms>3000</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 3000-->
 								<Ragdoll_Force>50</Ragdoll_Force>
 								<Structure_Force>50</Structure_Force>
 								<Visuals>
@@ -4863,7 +4863,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Flags>
 									<Flag>ignore firing direction</Flag>
 									<Flag>dont scale fire animation</Flag>
@@ -4880,6 +4880,7 @@
 									<Muzzle_Flash>wep_bomb_lobber_muzz</Muzzle_Flash>
 								</Visuals>
 								<Player_Refire_Delay_ms>250</Player_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--Added-->
 								<NPC_Min_Range>8</NPC_Min_Range>
 								<Icon_Name>ui_icon_wpn_plasma_cannon</Icon_Name>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
@@ -5030,7 +5031,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Flags></Flags>
 								<Barrel_Behavior>
 									<Single>
@@ -5042,6 +5043,7 @@
 									<Muzzle_Flash>wep_boom_can_muzz</Muzzle_Flash>
 								</Visuals>
 								<Player_Refire_Delay_ms>1500</Player_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--Added-->
 								<NPC_Min_Range>0.0</NPC_Min_Range>
 								<Icon_Name>ui_icon_wpn_plasma_cannon</Icon_Name>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
@@ -5197,7 +5199,7 @@
 									<Flag>is minor hit to vehicles</Flag>
 								</Flags>
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
-								<NPC_Refire_Delay_ms>1000</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 1000-->
 								<Gib_Chance>0.0</Gib_Chance>
 								<Fire_Action_Override>spit attack</Fire_Action_Override>
 								<Sounds>
@@ -5448,7 +5450,7 @@
 									<Muzzle_Flash>wep_elec_pulse_b_muzz</Muzzle_Flash>
 									<Player_Hit_Camera_Shake>explosion_small</Player_Hit_Camera_Shake>
 								</Visuals>
-								<NPC_Refire_Delay_ms>100</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 100-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Gib_Chance>0.0</Gib_Chance>
 								<Icon_Name>ui_icon_wpn_rocket_launcher</Icon_Name>
@@ -5567,7 +5569,7 @@
 								<Icon_Name>ui_icon_wpn_magnet</Icon_Name>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
 								<Shots_Per_Round>1</Shots_Per_Round>
-								<NPC_Refire_Delay_ms>250</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 250-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Gib_Chance>0.0</Gib_Chance>
 								<NPC_Spread_Min>0</NPC_Spread_Min>
@@ -5717,7 +5719,7 @@
 									<Player_Vehicle_Damage>5</Player_Vehicle_Damage>
 									<Structural_Damage>2600</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>200</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 200-->
 								<Flags>
 									<Flag>shatter</Flag>
 									<Flag>allow fire on overheat cooldown</Flag>
@@ -5750,7 +5752,7 @@
 								<NPC_Spread_Min>0</NPC_Spread_Min>
 								<NPC_Spread_Max>2</NPC_Spread_Max>
 								<Player_Refire_Delay_ms>75</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>75</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 75-->
 								<Visuals>
 									<Muzzle_Flash>wep_quill_muzz</Muzzle_Flash>
 								</Visuals>
@@ -5907,7 +5909,7 @@
 								</Damage_Scaling_Max>
 								<Overheat_Increase_Rate>0.13</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>1800</Overheat_Cool_Down_Time_ms>
-								<Player_Refire_Delay_ms>150</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 150-->
 								<Ragdoll_Force>5</Ragdoll_Force>
 								<NPC_Firing_Pattern>turret_machinegun</NPC_Firing_Pattern>
 								<NPC_Aim_Drift>VehicleMGTurret</NPC_Aim_Drift>
@@ -6102,7 +6104,7 @@
 									<Player_Vehicle_Damage>0</Player_Vehicle_Damage>
 									<Structural_Damage>0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>150</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 150-->
 								<Ragdoll_Force>5</Ragdoll_Force>
 								<NPC_Firing_Pattern>Default m16</NPC_Firing_Pattern>
 								<Visuals>
@@ -6235,7 +6237,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
 								<NPC_Firing_Pattern>ArtTank</NPC_Firing_Pattern>
 								<NPC_Aim_Drift>ArtTank</NPC_Aim_Drift>
 								<Visuals>
@@ -6346,7 +6348,7 @@
 								</Damage_Scaling_Max>
 								<Overheat_Increase_Rate>0.32</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>3000</Overheat_Cool_Down_Time_ms>
-								<Player_Refire_Delay_ms>500</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 500-->
 								<NPC_Refire_Delay_ms>600</NPC_Refire_Delay_ms>
 								<NPC_Firing_Pattern>Gauss</NPC_Firing_Pattern>
 								<Visuals>
@@ -6809,7 +6811,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
 								<Visuals>
 									<Muzzle_Flash>wep_crsdr_exo_rpg_muzz</Muzzle_Flash>
 									<Fire_Camera_Shake>weapon_fire_ar</Fire_Camera_Shake>
@@ -6969,7 +6971,7 @@
 								</Damage_Scaling_Max>
 								<Overheat_Increase_Rate>0.02</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>1800</Overheat_Cool_Down_Time_ms>
-								<Player_Refire_Delay_ms>150</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 150-->
 								<Ragdoll_Force>5</Ragdoll_Force>
 								<NPC_Firing_Pattern>turret_machinegun</NPC_Firing_Pattern>
 								<NPC_Aim_Drift>VehicleMGTurret</NPC_Aim_Drift>
@@ -7176,7 +7178,7 @@
 								</Damage_Scaling_Max>
 								<Overheat_Increase_Rate>0.05</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>1800</Overheat_Cool_Down_Time_ms>
-								<Player_Refire_Delay_ms>250</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 250-->
 								<Ragdoll_Force>5</Ragdoll_Force>
 								<NPC_Firing_Pattern>turret_machinegun</NPC_Firing_Pattern>
 								<NPC_Aim_Drift>VehicleMGTurret</NPC_Aim_Drift>
@@ -7425,7 +7427,7 @@
 								</Damage_Scaling_Max>
 								<Overheat_Increase_Rate>0.12</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>2500</Overheat_Cool_Down_Time_ms>
-								<Player_Refire_Delay_ms>200</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 200-->
 								<Ragdoll_Force>5</Ragdoll_Force>
 								<NPC_Firing_Pattern>turret_machinegun</NPC_Firing_Pattern>
 								<NPC_Aim_Drift>VehicleMGTurret</NPC_Aim_Drift>
@@ -7654,7 +7656,7 @@
 								<Icon_Name>ui_icon_wpn_magnet</Icon_Name>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
 								<Idle_Reload_Delay_ms>10000</Idle_Reload_Delay_ms>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Gib_Chance>0.0</Gib_Chance>
 							</Firing_Mode>
@@ -7749,8 +7751,8 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>500</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>300</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>250</Player_Refire_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 300-->
 								<Flags>
 									<Flag>keep magazine filled</Flag>
 									<Flag>reload is remote trigger</Flag>
@@ -7907,8 +7909,8 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>100</NPC_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 100-->
 								<Active_Camera_Movement_Multiplier>0.5</Active_Camera_Movement_Multiplier>
 								<Flags>
 									<Flag>no hit effects</Flag>
@@ -8021,7 +8023,7 @@
 								<Ammo_Per_Round>1</Ammo_Per_Round>
 								<NPC_Min_Range>0.0</NPC_Min_Range>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
-								<Player_Refire_Delay_ms>500</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>250</Player_Refire_Delay_ms> <!--From 500-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Shots_Per_Round>1</Shots_Per_Round>
 								<Spread_Fine_Aim_Min>2.0</Spread_Fine_Aim_Min>
@@ -8624,7 +8626,7 @@
 								</Damage_Scaling_Max>
 								<Overheat_Increase_Rate>0.09</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>2000</Overheat_Cool_Down_Time_ms>
-								<Player_Refire_Delay_ms>50</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 50-->
 								<Ragdoll_Force>5</Ragdoll_Force>
 								<NPC_Firing_Pattern>turret_machinegun</NPC_Firing_Pattern>
 								<NPC_Aim_Drift>VehicleMGTurret</NPC_Aim_Drift>
@@ -8752,7 +8754,7 @@
 									<Flag>is minor hit to vehicles</Flag>
 								</Flags>
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
-								<NPC_Refire_Delay_ms>1000</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 1000-->
 								<Gib_Chance>0.0</Gib_Chance>
 								<Fire_Action_Override>spit attack</Fire_Action_Override>
 								<Sounds>
@@ -8886,7 +8888,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Flags>
 									<Flag>is minor hit to vehicles</Flag>
 								</Flags>
@@ -8903,7 +8905,7 @@
 								<NPC_Min_Range>1</NPC_Min_Range>
 								<Icon_Name>ui_icon_wpn_plasma_cannon</Icon_Name>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
-								<NPC_Refire_Delay_ms>10000</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 10000-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Gib_Chance>0.0</Gib_Chance>
 								<Sounds>
@@ -9020,7 +9022,7 @@
 								<Overheat_Increase_Rate>1.0</Overheat_Increase_Rate>
 								<Overheat_Cool_Down_Time_ms>2000</Overheat_Cool_Down_Time_ms>
 								<Player_Refire_Delay_ms>5000</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>5000</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 5000-->
 								<Visuals>
 									<Overheated_effect>wep_p_p_b_discharge</Overheated_effect>
 									<Muzzle_Flash>wep_mono_turret_muzz</Muzzle_Flash>
@@ -9110,7 +9112,7 @@
 									<Flag>allow fire on overheat cooldown</Flag>
 								</Flags>
 								<Player_Refire_Delay_ms>200</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>200</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 200-->
 								<Active_Camera_Movement_Multiplier>0.2</Active_Camera_Movement_Multiplier>
 								<Active_Human_Movement_Multiplier>0.5</Active_Human_Movement_Multiplier>
 								<Visuals>
@@ -10008,7 +10010,7 @@
 									<Player_Vehicle_Damage>0</Player_Vehicle_Damage>
 									<Structural_Damage>0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
 								<Ragdoll_Force>5</Ragdoll_Force>
 								<NPC_Firing_Pattern>Default m16</NPC_Firing_Pattern>
 								<Visuals>
@@ -10240,7 +10242,7 @@
 									<Player_Vehicle_Damage>150</Player_Vehicle_Damage>
 									<Structural_Damage>1600</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Flags>
 									<Flag>shatter</Flag>
 									<Flag>is minor hit to vehicles</Flag>
@@ -10261,8 +10263,8 @@
 								<Spread_Fine_Aim_Max>1.0</Spread_Fine_Aim_Max>
 								<NPC_Spread_Min>1</NPC_Spread_Min>
 								<NPC_Spread_Max>2</NPC_Spread_Max>
-								<Player_Refire_Delay_ms>900</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>900</NPC_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 900-->
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 900-->
 								<Visuals>
 									<Fire_Camera_Shake>weapon_fire_pistol</Fire_Camera_Shake>
 									<Muzzle_Flash>wep_a_t_pistol_muzz</Muzzle_Flash>
@@ -10385,8 +10387,8 @@
 									<Player_Vehicle_Damage>55</Player_Vehicle_Damage>
 									<Structural_Damage>800</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Ragdoll_Force>2.2</Ragdoll_Force>
 								<Visuals>
 									<Muzzle_Smoke>wep_muzzle_smoke_plasma</Muzzle_Smoke>
@@ -10468,7 +10470,7 @@
 				<NPC_Audio_Bank_Name>wep_ppr_cultist</NPC_Audio_Bank_Name>
 				<Instance_Count_RTPC_Name>NUM_LOW_ACC_PHASED_PLASMA_RIFLES</Instance_Count_RTPC_Name>
 			</Sound_Data>
-			<mp_tier>0</mp_tier>
+			<mp_tier>1</mp_tier> <!--From 0-->
 			<Reload_Time_Multiplier>1.3</Reload_Time_Multiplier>
 			<Interface_Priority_SP>255</Interface_Priority_SP>
 			<Interface_Priority_MP>255</Interface_Priority_MP>
@@ -10548,8 +10550,8 @@
 									<Flag>allow fire on overheat cooldown</Flag>
 									<Flag>is minor hit to vehicles</Flag>
 								</Flags>
-								<Player_Refire_Delay_ms>200</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>200</NPC_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 200-->
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 200-->
 								<Active_Camera_Movement_Multiplier>0.7</Active_Camera_Movement_Multiplier>
 								<Active_Human_Movement_Multiplier>0.8</Active_Human_Movement_Multiplier>
 								<Visuals>
@@ -10568,7 +10570,7 @@
 								<NPC_Spread_Min>1</NPC_Spread_Min>
 								<NPC_Spread_Max>2</NPC_Spread_Max>
 								<Rounds_On_Pickup>100</Rounds_On_Pickup>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Sounds>
 									<sound_event>WEP_LASER_PISTOL_PC</sound_event>
 									<pain_override>pain</pain_override>
@@ -10661,8 +10663,8 @@
 								</Shot_Type>
 								<Trigger_Type>
 									<Continuous>
-										<Round_Discharge_Time_ms>60</Round_Discharge_Time_ms>
-										<Guarantee_Human_Hits>False</Guarantee_Human_Hits>
+										<Round_Discharge_Time_ms>0</Round_Discharge_Time_ms> <!--From 60-->
+										<Guarantee_Human_Hits>True</Guarantee_Human_Hits> <!--From False-->
 									</Continuous>
 								</Trigger_Type>
 								<Barrel_Behavior>
@@ -10692,8 +10694,8 @@
 									<Flag>allow fire on overheat cooldown</Flag>
 									<Flag>suppress dryfire sound</Flag>
 								</Flags>
-								<Player_Refire_Delay_ms>200</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>200</NPC_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 200-->
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 200-->
 								<Active_Camera_Movement_Multiplier>0.4</Active_Camera_Movement_Multiplier>
 								<Active_Human_Movement_Multiplier>0.6</Active_Human_Movement_Multiplier>
 								<Charge>
@@ -10729,7 +10731,7 @@
 								<NPC_Spread_Min>1</NPC_Spread_Min>
 								<NPC_Spread_Max>2</NPC_Spread_Max>
 								<Rounds_On_Pickup>200</Rounds_On_Pickup>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Sounds>
 									<sound_event>WEP_UNICRON</sound_event>
 									<Npc_sound_event>WEP_UNICRON_NPC</Npc_sound_event>
@@ -10841,7 +10843,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>1000</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>50</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 50-->
 								<Ragdoll_Force>3.5</Ragdoll_Force>
 								<Visuals>
 									<Muzzle_Flash>wep_lav_turret_muzz</Muzzle_Flash>
@@ -10865,7 +10867,7 @@
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
 								<Headshot_Multiplier>1.0</Headshot_Multiplier>
 								<Idle_Reload_Delay_ms>10000</Idle_Reload_Delay_ms>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Reload_Delay_No_Animation_ms>1500</Reload_Delay_No_Animation_ms>
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Bullet_Group>Standard</Bullet_Group>
@@ -10978,7 +10980,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
 								<Visuals>
 									<Muzzle_Flash>wep_rpg_muzz</Muzzle_Flash>
 									<Fire_Camera_Shake>weapon_fire_ar</Fire_Camera_Shake>
@@ -11136,7 +11138,7 @@
 								<Ammo_Per_Round>1</Ammo_Per_Round>
 								<NPC_Min_Range>5</NPC_Min_Range>
 								<Desired_Interface_Position>upper right</Desired_Interface_Position>
-								<Player_Refire_Delay_ms>300</Player_Refire_Delay_ms>
+								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 300-->
 								<Gib_Head_On_Death_Chance>1.0</Gib_Head_On_Death_Chance>
 								<Gib_Chance>0.0</Gib_Chance>
 								<Icon_Name>ui_icon_wpn_rocket_launcher</Icon_Name>
@@ -11244,7 +11246,7 @@
 									<Player_Vehicle_Damage>5</Player_Vehicle_Damage>
 									<Structural_Damage>2600</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>200</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 200-->
 								<Flags>
 									<Flag>shatter</Flag>
 									<Flag>allow fire on overheat cooldown</Flag>
@@ -11277,7 +11279,7 @@
 								<NPC_Spread_Min>3</NPC_Spread_Min>
 								<NPC_Spread_Max>5</NPC_Spread_Max>
 								<Player_Refire_Delay_ms>75</Player_Refire_Delay_ms>
-								<NPC_Refire_Delay_ms>75</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 75-->
 								<Visuals>
 									<Muzzle_Flash>wep_quill_muzz</Muzzle_Flash>
 								</Visuals>
@@ -11434,7 +11436,7 @@
 									<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 									<Structural_Damage>0.0</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
+								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
 								<Flags>
 									<Flag>dependent on fire animation</Flag>
 								</Flags>
@@ -11462,7 +11464,7 @@
 								<Gib_Chance>0.0</Gib_Chance>
 								<NPC_Spread_Min_Goon>0</NPC_Spread_Min_Goon>
 								<NPC_Spread_Max_Goon>0</NPC_Spread_Max_Goon>
-								<NPC_Refire_Delay_ms>2000</NPC_Refire_Delay_ms>
+								<NPC_Refire_Delay_ms>0</NPC_Refire_Delay_ms> <!--From 2000-->
 							</Firing_Mode>
 						</Potential_Firing_Mode>
 					</Potential_Firing_Modes>
@@ -12440,6 +12442,7 @@
 			<Unlimited_Ammo_Cheat>infinite ammo - rpg launcher</Unlimited_Ammo_Cheat>
 			<Interface_Priority_Ruin_Mode>255</Interface_Priority_Ruin_Mode>
 		</Weapon>
+<!--Hale-->
 		<Weapon>
 			<Name>Mar_Heavy_Walker_rocket_hale</Name>
 			<Unique_ID>24</Unique_ID>

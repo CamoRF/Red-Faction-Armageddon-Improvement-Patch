@@ -99,28 +99,28 @@
 			</Aim_Assist_Control_Points>
 			<Fine_Aim_Snap>
 				<Max_Distance>100.0</Max_Distance>
-				<Max_Angle_Far>2.5</Max_Angle_Far>
-				<Horizontal_Strength>1.2</Horizontal_Strength> <!--From 1.5-->
-				<Vertical_Strength>1.2</Vertical_Strength> <!--From 1.2-->
-				<Duration_ms>2000</Duration_ms> <!--From 2500-->
+				<Max_Angle_Far>2.0</Max_Angle_Far> <!--From 2.5-->
+				<Horizontal_Strength>1.05</Horizontal_Strength> <!--From 1.5-->
+				<Vertical_Strength>1.05</Vertical_Strength> <!--From 1.2-->
+				<Duration_ms>1000</Duration_ms> <!--From 2500-->
 				<Locked_Input_Delay_ms>125</Locked_Input_Delay_ms>
-				<Max_Angle_Close>7.5</Max_Angle_Close>
-				<Ramp_Down_Time_ms>500</Ramp_Down_Time_ms>
+				<Max_Angle_Close>5.0</Max_Angle_Close> <!--From 7.5-->
+				<Ramp_Down_Time_ms>250</Ramp_Down_Time_ms> <!--From 500-->
 				<Strength_Control_Points>
 					<Strength_Control_Point>
 						<Angle>0</Angle>
-						<Horizontal_Strength>1.5</Horizontal_Strength>
-						<Vertical_Strength>1.5</Vertical_Strength>
+						<Horizontal_Strength>1.2</Horizontal_Strength> <!--From 1.5-->
+						<Vertical_Strength>1.2</Vertical_Strength> <!--From 1.5-->
 					</Strength_Control_Point>
 					<Strength_Control_Point>
 						<Angle>15</Angle>
-						<Horizontal_Strength>2.0</Horizontal_Strength>
-						<Vertical_Strength>2.0</Vertical_Strength>
+						<Horizontal_Strength>1.5</Horizontal_Strength> <!--From 2.0-->
+						<Vertical_Strength>1.5</Vertical_Strength> <!--From 2.0-->
 					</Strength_Control_Point>
 					<Strength_Control_Point>
 						<Angle>37.5</Angle>
-						<Horizontal_Strength>4.5</Horizontal_Strength>
-						<Vertical_Strength>4.5</Vertical_Strength>
+						<Horizontal_Strength>3.5</Horizontal_Strength> <!--From 4.5-->
+						<Vertical_Strength>3.5</Vertical_Strength> <!--From 4.5-->
 					</Strength_Control_Point>
 				</Strength_Control_Points>
 				<Heading_Adjust_Speed>0.51</Heading_Adjust_Speed>

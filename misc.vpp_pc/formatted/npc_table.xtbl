@@ -1,0 +1,4321 @@
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>npc_table</Name>
+			<Parent_Skeleton>vs_player</Parent_Skeleton>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States>
+						<State>
+							<ID>ambient pray</ID>
+							<Animation>
+								<Filename>scav_pry.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ambient pray b</ID>
+							<Animation>
+								<Filename>scav_pry_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ambient pray c</ID>
+							<Animation>
+								<Filename>scav_pry_c.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>calm fall run state</ID>
+							<Animation>
+								<Filename>male_rd_jmp_inair.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>calm fall state</ID>
+							<Animation>
+								<Filename>male_rd_jmp_inair.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>clutter exc inspect</ID>
+							<Animation>
+								<Filename>male_inspct_excvtr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cold walk 35</ID>
+							<Animation>
+								<Filename>civm_wlk_high_cld.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cold walk anim</ID>
+							<Animation>
+								<Filename>civm_wlk_cld.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cold walk b</ID>
+							<Animation>
+								<Filename>civm_wlk_cld_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cold walk dn 35</ID>
+							<Animation>
+								<Filename>civm_wlk_low_cld.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crawl</ID>
+							<Animation>
+								<Filename>male_rfl_prone_crawl.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch</ID>
+							<Animation>
+								<Filename>male_rfl_rd_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 1</ID>
+							<Animation>
+								<Filename>male_rfl_rd_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 2</ID>
+							<Animation>
+								<Filename>male_rfl_rd_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch hands tied</ID>
+							<Animation>
+								<Filename>civm_crch_idle_hndsted.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch run</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>fetal</ID>
+							<Animation>
+								<Filename>civm_ftl.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>jog</ID>
+							<Animation>
+								<Filename>civm_flee.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>jump from building in air</ID>
+							<Animation>
+								<Filename>male_rfl_jump_inair.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ladder idle left</ID>
+							<Animation>
+								<Filename>plyr_lddr_idle_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ladder idle right</ID>
+							<Animation>
+								<Filename>plyr_lddr_idle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ladder slide</ID>
+							<Animation>
+								<Filename>plyr_lddr_slde_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>melee stand</ID>
+							<Animation>
+								<Filename>male_melee_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>melee walk</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>prone</ID>
+							<Animation>
+								<Filename>male_prone.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>civm_flee.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run cowering</ID>
+							<Animation>
+								<Filename>civilian_fear_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run panicked</ID>
+							<Animation>
+								<Filename>civm_run_pnckd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sitting</ID>
+							<Animation>
+								<Filename>male_ambnt_sit_chr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>civm_flee.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>male_std.animx</Filename>
+							</Animation>
+							<interrupts>
+								<interrupt>
+									<set_switch>npc_table_default1</set_switch>
+									<action_tag_name>idle b</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>5000</cooldown_time>
+								</interrupt>
+							</interrupts>
+						</State>
+						<State>
+							<ID>stand cower incoming idle</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr_incomng_idle.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand hands tied</ID>
+							<Animation>
+								<Filename>civm_std_idle_hndsted.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>male_melee_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>talk</ID>
+							<Animation>
+								<Filename>civm_talk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>talk cold</ID>
+							<Animation>
+								<Filename>civm_talk_cld.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>talk happy</ID>
+							<Animation>
+								<Filename>civm_talk_hppy.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>talk happy cold</ID>
+							<Animation>
+								<Filename>civm_talk_hppy_cold.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>talk secretive</ID>
+							<Animation>
+								<Filename>civm_talk_scrtv.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>talk secretive cold</ID>
+							<Animation>
+								<Filename>civm_talk_sec_cold.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>civm_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk 15</ID>
+							<Animation>
+								<Filename>civm_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk 35</ID>
+							<Animation>
+								<Filename>civm_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk dn 15</ID>
+							<Animation>
+								<Filename>civm_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk dn 35</ID>
+							<Animation>
+								<Filename>civm_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>civm_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run to stand</ID>
+							<Animation>
+								<Filename>male_run_to_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>talk generic</ID>
+							<Animation>
+								<Filename>male_generic_talk01.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>wounded02</ID>
+							<Animation>
+								<Filename>male_wounded02.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>wounded01</ID>
+							<Animation>
+								<Filename>male_wounded01.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>thugdeth</ID>
+							<Animation>
+								<Filename>male_dflt_thugdeth.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>civm_flee.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>civm_flee_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>civm_flee_rght.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready back</ID>
+							<Animation>
+								<Filename>civm_flee_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>back liedown</ID>
+							<Animation>
+								<Filename>male_dead_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>pound cower</ID>
+							<Animation>
+								<Filename>scav_cower.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>flee</ID>
+							<Animation>
+								<Filename>civm_flee.animx</Filename>
+							</Animation>
+							<interrupts>
+								<interrupt>
+									<action_tag_name>flee action 1</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>5000</cooldown_time>
+								</interrupt>
+								<interrupt>
+									<action_tag_name>flee action 2</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>5000</cooldown_time>
+								</interrupt>
+								<interrupt>
+									<action_tag_name>flee action 3</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>6000</cooldown_time>
+								</interrupt>
+							</interrupts>
+						</State>
+						<State>
+							<ID>temp1</ID>
+							<Animation>
+								<Filename>flyercrash_s01__1.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>temp2</ID>
+							<Animation>
+								<Filename>flyercrash_s02__1.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>temp3</ID>
+							<Animation>
+								<Filename>flyercrash_s03__1.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>temp4</ID>
+							<Animation>
+								<Filename>flyercrash_s04__1.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>temp5</ID>
+							<Animation>
+								<Filename>flyercrash_s05__1.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk scripted</ID>
+							<Animation>
+								<Filename>civm_wlk_scrptd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand incell</ID>
+							<Animation>
+								<Filename>fml_scrptd_stnd_ncll.animx</Filename>
+							</Animation>
+							<interrupts>
+								<interrupt>
+									<action_tag_name>incell kick</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>9000</cooldown_time>
+								</interrupt>
+							</interrupts>
+						</State>
+						<State>
+							<ID>sitting m5</ID>
+							<Animation>
+								<Filename>male_rfl_m5_dth.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>dead m5</ID>
+							<Animation>
+								<Filename>male_rfl_m5_dd.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>ambient crotch adjust</ID>
+							<Animation>
+								<Filename>civm_std_idle_crtchadjst.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient security panel</ID>
+							<Animation>
+								<Filename>male_amb_sec_con.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient security panel a</ID>
+							<Animation>
+								<Filename>male_sec_panel_01.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient talk short</ID>
+							<Animation>
+								<Filename>civm_std_talk_shrt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>back getup</ID>
+							<Animation>
+								<Filename>male_prone-std_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>calm fall</ID>
+							<Animation>
+								<Filename>male_rd_jmp_inair.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>calm fall run</ID>
+							<Animation>
+								<Filename>male_rd_jmp_inair.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>clutter exc enter</ID>
+							<Animation>
+								<Filename>male_clmb_excvtr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>clutter exc exit</ID>
+							<Animation>
+								<Filename>male_exit_excvtr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cough</ID>
+							<Animation>
+								<Filename>civm_std_cgh.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cower to stand</ID>
+							<Animation>
+								<Filename>civm_cwr-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death head back</ID>
+							<Animation>
+								<Filename>male_crchdth_hd_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death head front</ID>
+							<Animation>
+								<Filename>male_crchdth_hd_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death head left</ID>
+							<Animation>
+								<Filename>male_crchdth_hd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death head right</ID>
+							<Animation>
+								<Filename>male_crchdth_hd_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death pelvis back</ID>
+							<Animation>
+								<Filename>male_crchdth_pelvis_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death pelvis front</ID>
+							<Animation>
+								<Filename>male_crchdth_pelvis_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death pelvis left</ID>
+							<Animation>
+								<Filename>male_crchdth_pelvis_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death pelvis right</ID>
+							<Animation>
+								<Filename>male_crchdth_pelvis_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso back</ID>
+							<Animation>
+								<Filename>male_crchdth_torso_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso front</ID>
+							<Animation>
+								<Filename>male_crchdth_torso_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso left</ID>
+							<Animation>
+								<Filename>male_crchdth_pelvis_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso right</ID>
+							<Animation>
+								<Filename>male_crchdth_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle left</ID>
+							<Animation>
+								<Filename>male_crch_trnsttlel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle right</ID>
+							<Animation>
+								<Filename>male_crch_trnsttler.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch shuffle left</ID>
+							<Animation>
+								<Filename>male_crch_trnsttlel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch shuffle right</ID>
+							<Animation>
+								<Filename>male_crch_trnsttler.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch to prone hands tied</ID>
+							<Animation>
+								<Filename>civm_crch-prne_hndsted.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch to stand hands tied</ID>
+							<Animation>
+								<Filename>civm_crch-std_hndsted.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot back</ID>
+							<Animation>
+								<Filename>male_dth_hd_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>dive</ID>
+							<Animation>
+								<Filename>male_dve.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>dive a</ID>
+							<Animation>
+								<Filename>male_dve_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck backwards</ID>
+							<Animation>
+								<Filename>male_dck_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck forwards</ID>
+							<Animation>
+								<Filename>male_dck_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck left</ID>
+							<Animation>
+								<Filename>male_dck_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck right</ID>
+							<Animation>
+								<Filename>male_dck_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch backwards</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch forwards</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown backwards</ID>
+							<Animation>
+								<Filename>male_explsnknck_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown forwards</ID>
+							<Animation>
+								<Filename>male_explsnknck_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown left</ID>
+							<Animation>
+								<Filename>male_explsnknck_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown right</ID>
+							<Animation>
+								<Filename>male_explsnknck_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>facial blind shoot</ID>
+							<Animation>
+								<Filename>plyr_fcl_rdy_blndfire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>facial cover</ID>
+							<Animation>
+								<Filename>plyr_fcl_rdy_cvr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>fetal flinch</ID>
+							<Animation>
+								<Filename>civm_ftl_flnch.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee action 1</ID>
+							<Animation>
+								<Filename>civilian_fear_run_lookbck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee action 2</ID>
+							<Animation>
+								<Filename>civilian_fear_run_thmbl_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee action 3</ID>
+							<Animation>
+								<Filename>civilian_fear_run_thumble.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee and fall</ID>
+							<Animation>
+								<Filename>male_rfl_flee_and_fall.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flee debris</ID>
+							<Animation>
+								<Filename>male_rfl_flee_destruction.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>fwd getup</ID>
+							<Animation>
+								<Filename>male_prone-std_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>greet dismiss</ID>
+							<Animation>
+								<Filename>civm_grt_dismss.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>greet dismiss left</ID>
+							<Animation>
+								<Filename>civm_grt_dismss_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>greet dismiss right</ID>
+							<Animation>
+								<Filename>civm_dismss_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>grenade roll</ID>
+							<Animation>
+								<Filename>male_rfl_rd_rollgnde.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>grenade throw</ID>
+							<Animation>
+								<Filename>male_rfl_rd_thrwgnde.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard look around</ID>
+							<Animation>
+								<Filename>male_rfl_look_new.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>hand wave</ID>
+							<Animation>
+								<Filename>civm_std_grt_hndwve.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>head nod</ID>
+							<Animation>
+								<Filename>male_grt_hednod.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>jump down</ID>
+							<Animation>
+								<Filename>male_rd_jmp_dwn.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>kneel to inspect</ID>
+							<Animation>
+								<Filename>civm_invstgt-knl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder climb left</ID>
+							<Animation>
+								<Filename>plyr_lddr_clmb_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder climb right</ID>
+							<Animation>
+								<Filename>plyr_lddr_clmb_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder enter a</ID>
+							<Animation>
+								<Filename>plyr_lddr_enter_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder enter b</ID>
+							<Animation>
+								<Filename>plyr_lddr_enter_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder enter c</ID>
+							<Animation>
+								<Filename>plyr_lddr_enter_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder enter top</ID>
+							<Animation>
+								<Filename>plyr_lddr_entrclmb_dwn.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder exit bottom</ID>
+							<Animation>
+								<Filename>plyr_lddr_exit_dwn.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder exit top left</ID>
+							<Animation>
+								<Filename>plyr_lddr_exit_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ladder exit top right</ID>
+							<Animation>
+								<Filename>plyr_lddr_exit_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land from building</ID>
+							<Animation>
+								<Filename>male_rfl_jump_land.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land hard</ID>
+							<Animation>
+								<Filename>male_rd_jmp_lnd_hrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land normal</ID>
+							<Animation>
+								<Filename>male_rd_jmp_lnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>look around</ID>
+							<Animation>
+								<Filename>civm_wnded_idle.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee</ID>
+							<Animation>
+								<Filename>male_melee_atck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>place item</ID>
+							<Animation>
+								<Filename>plyr_rmtchrg_plc.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>prone facedown to fetal</ID>
+							<Animation>
+								<Filename>civm_prone_fcedn_toftl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>prone faceup to fetal</ID>
+							<Animation>
+								<Filename>civm_prone_fceup_toftl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>prone to kneel</ID>
+							<Animation>
+								<Filename>male_prone-knl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>prone to kneel hands tied</ID>
+							<Animation>
+								<Filename>civm_prone-crch_hndsted.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>prone to stand hands tied</ID>
+							<Animation>
+								<Filename>civm_prone-std_hndsted.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>react and flee</ID>
+							<Animation>
+								<Filename>civm_rct_flyng.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>react shoved</ID>
+							<Animation>
+								<Filename>civm_rct_shv.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>reaction surprise</ID>
+							<Animation>
+								<Filename>civm_std_grt_sprse.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head back</ID>
+							<Animation>
+								<Filename>male_run_death_torso_back.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head front</ID>
+							<Animation>
+								<Filename>male_run_death_head_front.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head left</ID>
+							<Animation>
+								<Filename>male_run_death_head_left.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death head right</ID>
+							<Animation>
+								<Filename>male_run_death_head_right.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis back</ID>
+							<Animation>
+								<Filename>male_run_death_torso_back.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis front</ID>
+							<Animation>
+								<Filename>male_run_death_head_front.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis left</ID>
+							<Animation>
+								<Filename>male_run_death_head_left.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death pelvis right</ID>
+							<Animation>
+								<Filename>male_run_death_head_right.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso back</ID>
+							<Animation>
+								<Filename>male_run_death_torso_back.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso front</ID>
+							<Animation>
+								<Filename>male_run_death_head_front.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso left</ID>
+							<Animation>
+								<Filename>male_run_death_head_left.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run death torso right</ID>
+							<Animation>
+								<Filename>male_run_death_head_right.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>scratch head</ID>
+							<Animation>
+								<Filename>civm_std_idle_scrtchhed.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sit to stand bench</ID>
+							<Animation>
+								<Filename>civm_bnch_stnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sit to stand bench tired</ID>
+							<Animation>
+								<Filename>civm_bnch_stnd_trd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand cower incoming front</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr_incomng_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand cower incoming left</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr_incomng_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand cower incoming right</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr_incomng_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand hands freed</ID>
+							<Animation>
+								<Filename>civm_std_freed_hndsted.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle left</ID>
+							<Animation>
+								<Filename>male_melee_trn_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle right</ID>
+							<Animation>
+								<Filename>male_melee_trn_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand shuffle left</ID>
+							<Animation>
+								<Filename>civm_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand shuffle right</ID>
+							<Animation>
+								<Filename>civm_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to cower</ID>
+							<Animation>
+								<Filename>civm_std-cwr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to prone</ID>
+							<Animation>
+								<Filename>male_std-prne.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to sit bench</ID>
+							<Animation>
+								<Filename>civm_bnch_tosit.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to sit bench tired</ID>
+							<Animation>
+								<Filename>civm_bnch_tosit_trd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>taunt</ID>
+							<Animation>
+								<Filename>civm_wnded_idle.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>taunt b</ID>
+							<Animation>
+								<Filename>civm_wnded_idle.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>taunt c</ID>
+							<Animation>
+								<Filename>civm_wnded_idle.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>trans sitting to stand</ID>
+							<Animation>
+								<Filename>male_ambnt-std_chr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>trans sitting to stand tired</ID>
+							<Animation>
+								<Filename>civm_bnch-std_f.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>trans stand to sitting</ID>
+							<Animation>
+								<Filename>male_ambnt_tosit_chr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>trans stand to sitting tired</ID>
+							<Animation>
+								<Filename>male_ambnt_tosit_chr_trd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>turn back walk</ID>
+							<Animation>
+								<Filename>male_wlk_trn_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>turn flee</ID>
+							<Animation>
+								<Filename>civm_wlk-flee.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>turn left walk</ID>
+							<Animation>
+								<Filename>male_wlk_trn_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>turn right walk</ID>
+							<Animation>
+								<Filename>male_wlk_trn_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run to stand</ID>
+							<Animation>
+								<Filename>male_run_to_std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to run</ID>
+							<Animation>
+								<Filename>male_std_to_run.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch to stand</ID>
+							<Animation>
+								<Filename>male_crch_to_std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to crouch</ID>
+							<Animation>
+								<Filename>male_std_to_crch.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to walk</ID>
+							<Animation>
+								<Filename>male_std_to_wlk.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk to stand</ID>
+							<Animation>
+								<Filename>male_wlk_to_std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sit to stand bench b</ID>
+							<Animation>
+								<Filename>civm_bnch-std_f.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>trans sitting to stand b</ID>
+							<Animation>
+								<Filename>civm_bnch-std_f.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>trans sitting to stand tired b</ID>
+							<Animation>
+								<Filename>civm_bnch-std_f.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>birth start</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_jmp.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>birth start a</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_jmp.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>birth start b</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_jmp_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>birth land</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_lnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>birth land heavy</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_lnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk RF</ID>
+							<Animation>
+								<Filename>soldiertalk_soldier.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk7</ID>
+							<Animation>
+								<Filename>soldiertalk_work7.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk6</ID>
+							<Animation>
+								<Filename>soldiertalk_work6.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk5</ID>
+							<Animation>
+								<Filename>soldiertalk_work5.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk4</ID>
+							<Animation>
+								<Filename>soldiertalk_work4.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk3</ID>
+							<Animation>
+								<Filename>soldiertalk_work3.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk2</ID>
+							<Animation>
+								<Filename>soldiertalk_work2.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>soldiertalk1</ID>
+							<Animation>
+								<Filename>soldiertalk_work1.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand jump start</ID>
+							<Animation>
+								<Filename>pc_rfl_jmprun.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch body</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis backward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch backward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head backward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis backward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso backward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble backward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble left</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble left leg</ID>
+							<Animation>
+								<Filename>male_rfl_shot_in_lleg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble right leg</ID>
+							<Animation>
+								<Filename>male_rfl_shot_in_rleg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso backward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot front</ID>
+							<Animation>
+								<Filename>male_dth_hd_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot left</ID>
+							<Animation>
+								<Filename>male_dth_hd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot right</ID>
+							<Animation>
+								<Filename>male_dth_hd_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis back</ID>
+							<Animation>
+								<Filename>male_dth_torso_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis front</ID>
+							<Animation>
+								<Filename>male_dth_pelvis_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis left</ID>
+							<Animation>
+								<Filename>male_dth_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis right</ID>
+							<Animation>
+								<Filename>male_dth_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso back</ID>
+							<Animation>
+								<Filename>male_dth_torso_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso front</ID>
+							<Animation>
+								<Filename>male_dth_torso_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso left</ID>
+							<Animation>
+								<Filename>male_dth_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso right</ID>
+							<Animation>
+								<Filename>male_dth_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>incell look right</ID>
+							<Animation>
+								<Filename>fml_scrptd_stnd_ncll_lck_rght.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>incell look left</ID>
+							<Animation>
+								<Filename>fml_scrptd_stnd_ncll_lck_lft.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>incell look</ID>
+							<Animation>
+								<Filename>fml_scrptd_stnd_ncll_lck_frwrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso back</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso forward</ID>
+							<Animation>
+								<Filename>male_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso left</ID>
+							<Animation>
+								<Filename>male_explsnflnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso right</ID>
+							<Animation>
+								<Filename>male_explsnflnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis back</ID>
+							<Animation>
+								<Filename>male_explsnflnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand transition</ID>
+							<Animation>
+								<Filename>male_std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>idle a</ID>
+							<Animation>
+								<Filename>male_std_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>idle b</ID>
+							<Animation>
+								<Filename>male_std_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>idle c</ID>
+							<Animation>
+								<Filename>male_std_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death back</ID>
+							<Animation>
+								<Filename>male_dth_torso_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death body back</ID>
+							<Animation>
+								<Filename>male_dth_torso_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death body front</ID>
+							<Animation>
+								<Filename>male_dth_torso_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>incell kick</ID>
+							<Animation>
+								<Filename>fml_scrptd_stnd_ncll_kck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death m5 look up</ID>
+							<Animation>
+								<Filename>male_rfl_m5_dth_lkp.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Rifle</group>
+					<States>
+						<State>
+							<ID>aim up</ID>
+							<Animation>
+								<Filename>male_rfl_rd_aim_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>calm fall run state</ID>
+							<Animation>
+								<Filename>male_rfl_jmp_inair.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>calm fall state</ID>
+							<Animation>
+								<Filename>male_rfl_jmp_inair.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crawl</ID>
+							<Animation>
+								<Filename>male_rfl_crawl_miner.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch</ID>
+							<Animation>
+								<Filename>male_rfl_rd_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready</ID>
+							<Animation>
+								<Filename>male_rfl_rd_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch run</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy fwd</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_std.animx</Filename>
+							</Animation>
+							<interrupts>
+								<interrupt>
+									<action_tag_name>down ready interrupt</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>4500</cooldown_time>
+								</interrupt>
+							</interrupts>
+						</State>
+						<State>
+							<ID>down ready crouch</ID>
+							<Animation>
+								<Filename>male_rfl_rd_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready crouch run</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_crchrn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready crouch walk</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run 35</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_run_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run anim</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_run_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk anim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>electric shock</ID>
+							<Animation>
+								<Filename>male_rfl_shck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>fall from unstable</ID>
+							<Animation>
+								<Filename>male_rfl_fall_unstable.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>guard aim</ID>
+							<Animation>
+								<Filename>male_rfl_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>guard walk</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>jump from building in air2</ID>
+							<Animation>
+								<Filename>male_rfl_hopdwn_idle.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>low control stand</ID>
+							<Animation>
+								<Filename>male_rfl_low_cntrl_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>low control stand 2</ID>
+							<Animation>
+								<Filename>male_rfl_low_cntrl_std_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>melee stand</ID>
+							<Animation>
+								<Filename>male_rfl_melee_stnd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>melee walk</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>prone</ID>
+							<Animation>
+								<Filename>male_rfl_prone.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>prone ready</ID>
+							<Animation>
+								<Filename>elite_rfl_rd_prn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run back</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_rn_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run panicked</ID>
+							<Animation>
+								<Filename>male_rfl_run_pnckd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready anim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready back</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready backpedal</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready down 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_rn_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint anim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>male_rfl_std.animx</Filename>
+							</Animation>
+							<interrupts>
+								<interrupt>
+									<set_switch>npc_table_default1</set_switch>
+									<action_tag_name>set transition 1</action_tag_name>
+									<chance>50</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>9000</cooldown_time>
+								</interrupt>
+								<interrupt>
+									<set_switch>npc_table_default2</set_switch>
+									<action_tag_name>stand weapon idle a</action_tag_name>
+									<chance>50</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>13000</cooldown_time>
+								</interrupt>
+							</interrupts>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>male_rfl_rd_std.animx</Filename>
+							</Animation>
+							<interrupts>
+								<interrupt>
+									<set_switch>npc_table_default1</set_switch>
+									<action_tag_name>stand to crouch</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>5000</cooldown_time>
+								</interrupt>
+							</interrupts>
+						</State>
+						<State>
+							<ID>stand ready left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>male_rfl_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk 35</ID>
+							<Animation>
+								<Filename>male_rfl_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk anim</ID>
+							<Animation>
+								<Filename>male_rfl_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk down anim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready anim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back down 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back up 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready down 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left anim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left down 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left up 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right anim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right dn 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right down  35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right up 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready up 35</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run aim back</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leaning idle</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnout_idle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leaning in</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnout_idle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leanup idle</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrchr_lnupidle_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leanup over</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrchr_lnupidle_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk back aim</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand mission 1</ID>
+							<Animation>
+								<Filename>male_rfl_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand crazy</ID>
+							<Animation>
+								<Filename>male_rfl_std_crzy_b.animx</Filename>
+							</Animation>
+							<interrupts>
+								<interrupt>
+									<set_switch>npc_table_default1</set_switch>
+									<action_tag_name>stand crazy transition</action_tag_name>
+									<chance>100</chance>
+									<start_cyclic_percent>0</start_cyclic_percent>
+									<cooldown_time>9000</cooldown_time>
+								</interrupt>
+							</interrupts>
+						</State>
+						<State>
+							<ID>run back scripted</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_bck_scrptd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run left back</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_rn_lft_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run back left</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_rn_bck_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run back right</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_rn_bck_rght.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run forward left</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_rn_frwrd_lft.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run forward right</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_rn_frwrd_rght.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>aim up fire</ID>
+							<Animation>
+								<Filename>male_rfl_rd_aimup_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>back getup</ID>
+							<Animation>
+								<Filename>male_rfl_getup_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>calm fall</ID>
+							<Animation>
+								<Filename>male_rfl_jmp_inair.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>calm fall run</ID>
+							<Animation>
+								<Filename>male_rfl_jmp_inair.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>check weapon clip</ID>
+							<Animation>
+								<Filename>male_rfl_std_idle_chkclp.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cheer a</ID>
+							<Animation>
+								<Filename>male_rfl_std_chr_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll left</ID>
+							<Animation>
+								<Filename>male_rfl_roll_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll right</ID>
+							<Animation>
+								<Filename>male_rfl_roll_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left into</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_into_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch left into side</ID>
+							<Animation>
+								<Filename>male_rfl_scrmbl-cvrcrchr.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch left lean shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnout_sht_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch left leanup shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch left ready shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch left throw grenade</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrchr_thrwgnde.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch ready left shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch ready right shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch reload left</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_rld_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover crouch reload right</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_rld_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right into</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_into_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right into side</ID>
+							<Animation>
+								<Filename>male_rfl_scrmbl-cvrcrchr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right lean shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right leanup shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right ready shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right throw grenade</ID>
+							<Animation>
+								<Filename>male_rfl_cvrcrchr_thrwgnde.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand left into</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_into_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover stand left into side</ID>
+							<Animation>
+								<Filename>male_rfl_scrmbl-cvrstdr.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover stand left lean shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_lnout_sht_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover stand left stepout</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_stpout_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover stand left throw grenade</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstdr_thrwgnde.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover stand reload left</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_rld_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>cover stand reload right</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_rld_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right into</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_into_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right into side</ID>
+							<Animation>
+								<Filename>male_rfl_scrmbl-cvrstdr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right lean shoot</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right stepout</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_stpout_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right throw grenade</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstdr_thrwgnde.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand transition left right</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_r-cvrstd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand transition right left</ID>
+							<Animation>
+								<Filename>male_rfl_cvrstd_r-cvrstd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch fire</ID>
+							<Animation>
+								<Filename>male_rfl_crch_sht.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch reload</ID>
+							<Animation>
+								<Filename>male_rfl_crchrd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch shuffle left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch shuffle right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch walk fire</ID>
+							<Animation>
+								<Filename>male_rfl_crchrd_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch walk fire back</ID>
+							<Animation>
+								<Filename>male_rfl_crchrd_fire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch walk fire left</ID>
+							<Animation>
+								<Filename>male_rfl_crchrd_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch walk fire right</ID>
+							<Animation>
+								<Filename>male_rfl_crchrd_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch walk reload</ID>
+							<Animation>
+								<Filename>male_rfl_crchwlk_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>dive for cover</ID>
+							<Animation>
+								<Filename>male_rfl_dve.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>equip</ID>
+							<Animation>
+								<Filename>male_rfl_std_draw.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck backwards</ID>
+							<Animation>
+								<Filename>male_rfl_dck_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck forwards</ID>
+							<Animation>
+								<Filename>male_rfl_dck_frnt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck left</ID>
+							<Animation>
+								<Filename>male_rfl_dck_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck right</ID>
+							<Animation>
+								<Filename>male_rfl_dck_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch backwards</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch forwards</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch left</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch right</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown backwards</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_knck_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown forwards</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_knck_frnt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown left</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_knck_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown right</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_knck_r.animx</Filename>
+							</Animation>
+							<Flags>
+								<Flag>Mirror</Flag>
+							</Flags>
+						</Action>
+						<Action>
+							<ID>explosion stumble backwards</ID>
+							<Animation>
+								<Filename>male_rfl_stmbl_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion stumble forwards</ID>
+							<Animation>
+								<Filename>male_rfl_stmbl_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion stumble left</ID>
+							<Animation>
+								<Filename>male_rfl_stmbl_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion stumble right</ID>
+							<Animation>
+								<Filename>male_rfl_stmbl_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head backward</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_hd_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head forward</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_hd_frwrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head left</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_hd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head right</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_hd_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis backward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis forward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis left</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis right</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch backward</ID>
+							<Animation>
+								<Filename>male_rfl_std_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch forward</ID>
+							<Animation>
+								<Filename>male_rfl_std_flnch_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch left</ID>
+							<Animation>
+								<Filename>male_rfl_std_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch right</ID>
+							<Animation>
+								<Filename>male_rfl_std_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis backward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis forward</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_trs_frwrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis left</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis right</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso backward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso forward</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_trs_frwrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso right</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble backward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble forward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble left</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble left leg</ID>
+							<Animation>
+								<Filename>male_rfl_shot_in_lleg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble right</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch stumble right leg</ID>
+							<Animation>
+								<Filename>male_rfl_shot_in_rleg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso backward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso forward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso left</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso right</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>full salute</ID>
+							<Animation>
+								<Filename>male_rfl_std_grt_fslute.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>fwd getup</ID>
+							<Animation>
+								<Filename>male_rfl_getup_frnt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard beat down</ID>
+							<Animation>
+								<Filename>male-rfl-butt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard check weapon</ID>
+							<Animation>
+								<Filename>male_rfl_idle_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard inspect</ID>
+							<Animation>
+								<Filename>male_rfl_inspct.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard look around</ID>
+							<Animation>
+								<Filename>male_rfl_lookarnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard point</ID>
+							<Animation>
+								<Filename>male_rfl_ambnt_thrt_ptfwrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard shade eyes</ID>
+							<Animation>
+								<Filename>male_rfl_std_idle_d.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard shove</ID>
+							<Animation>
+								<Filename>male_rfl_thrt_shove.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard warning shot</ID>
+							<Animation>
+								<Filename>male_rfl_std_warning_shot.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard weapon motion</ID>
+							<Animation>
+								<Filename>male_rfl_std_thrt_gesture.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>idle b</ID>
+							<Animation>
+								<Filename>male_rfl_std_idle_chkclp.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>jump down</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_dwn.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>jump from building</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmprun.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>jump from building2</ID>
+							<Animation>
+								<Filename>male_rfl_hopdwn_tkoff.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>jump kick</ID>
+							<Animation>
+								<Filename>elite_rfl_runrd_mele_jmpkck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>kick civilian</ID>
+							<Animation>
+								<Filename>male_rfl_std_kckciv.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>kneel go prone</ID>
+							<Animation>
+								<Filename>male_rfl_crchrd-prne.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land from building2</ID>
+							<Animation>
+								<Filename>male_rfl_hopdwn_lnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land hard</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_lnd_hrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land normal</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_lnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land normal stop</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_lnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land run</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_lnd_hrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land run stop</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_lnd_hrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>leap over</ID>
+							<Animation>
+								<Filename>male_rfl_hopdwn_ledge.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>leap over 2</ID>
+							<Animation>
+								<Filename>male_rfl_rd_jmp_rail.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>look around</ID>
+							<Animation>
+								<Filename>male_rfl_lookarnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee</ID>
+							<Animation>
+								<Filename>male-rfl-butt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee2</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mele_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>move equip</ID>
+							<Animation>
+								<Filename>male_rfl_std_draw.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>move unequip</ID>
+							<Animation>
+								<Filename>male_rfl_std_holster.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis back</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis forward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis left</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch pelvis right</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso back</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso forward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso left</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>noncombat flinch torso right</ID>
+							<Animation>
+								<Filename>male_rfl_explsn_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>point forward</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_std_ptfwrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>point left</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_std_ptlft.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>point right</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_std_ptrght.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>prone to kneel</ID>
+							<Animation>
+								<Filename>male_rfl_prone_kneel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>quick salute</ID>
+							<Animation>
+								<Filename>male_rfl_std_grt_qckslute.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>radio</ID>
+							<Animation>
+								<Filename>male_rfl_rdo.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>reload</ID>
+							<Animation>
+								<Filename>male_rfl_rd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire back</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run reload</ID>
+							<Animation>
+								<Filename>male_rfl_run_rld_miner.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>scramble to feet</ID>
+							<Animation>
+								<Filename>male_rfl_scrmbl-run.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>shot in left leg</ID>
+							<Animation>
+								<Filename>male_rfl_shot_in_lleg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>shot in right leg</ID>
+							<Animation>
+								<Filename>male_rfl_shot_in_rleg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>shove civilian</ID>
+							<Animation>
+								<Filename>male_rfl_std_shv.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand alert</ID>
+							<Animation>
+								<Filename>male_rfl_cower_frnt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand cower incoming front</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr_incomng_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand cower incoming left</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr_incomng_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand cower incoming right</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr_incomng_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge left</ID>
+							<Animation>
+								<Filename>male_rfl_std_ddge_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge right</ID>
+							<Animation>
+								<Filename>male_rfl_std_ddge_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>male_rfl_rd_std_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand go prone</ID>
+							<Animation>
+								<Filename>male_rfl_std_goprone.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand halt</ID>
+							<Animation>
+								<Filename>male_rfl_getdwn.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand investigate</ID>
+							<Animation>
+								<Filename>male_rfl_investigate.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand motion move away</ID>
+							<Animation>
+								<Filename>male_rfl_std_nteract_mvawy.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand shuffle left</ID>
+							<Animation>
+								<Filename>male_rfl_shffl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand shuffle right</ID>
+							<Animation>
+								<Filename>male_rfl_shffl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to prone</ID>
+							<Animation>
+								<Filename>elite_rfl_rd-prne.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand weapon idle a</ID>
+							<Animation>
+								<Filename>male_rfl_std_idle_chkclp.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stomp civilian</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmpciv.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>taunt</ID>
+							<Animation>
+								<Filename>male_rfl_taunt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>turn back run</ID>
+							<Animation>
+								<Filename>male_rfl_run_trn_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>turn left run</ID>
+							<Animation>
+								<Filename>male_rfl_run_trn_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>turn right run</ID>
+							<Animation>
+								<Filename>male_rfl_run_trn_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>unequip</ID>
+							<Animation>
+								<Filename>male_rfl_std_holster.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle react motion driver</ID>
+							<Animation>
+								<Filename>male_rfl_std_vehclrct_mvawy.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire back</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_mv_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk reload</ID>
+							<Animation>
+								<Filename>male_rfl_run_rld_miner.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso left</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head left</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch body</ID>
+							<Animation>
+								<Filename>male_rfl_std_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head backward</ID>
+							<Animation>
+								<Filename>male_rfl_std_stmbl_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head forward</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_trs_frwrd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head right</ID>
+							<Animation>
+								<Filename>male_rfl_flnch_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>shuffle left 180</ID>
+							<Animation>
+								<Filename>male_rfl_rd_shffl_180.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>shuffle right 180</ID>
+							<Animation>
+								<Filename>male_rfl_rd_shffl_180.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>fire</ID>
+							<Animation>
+								<Filename>male_rfl_rd_std_fr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run back to stand</ID>
+							<Animation>
+								<Filename>male_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run forward to stand</ID>
+							<Animation>
+								<Filename>male_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run left to stand</ID>
+							<Animation>
+								<Filename>male_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run right to stand</ID>
+							<Animation>
+								<Filename>male_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to run back</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to run forward</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to run left</ID>
+							<Animation>
+								<Filename>mrdr_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to run right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_stnd_trns.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to crouch</ID>
+							<Animation>
+								<Filename>male_rfl_rd_stnd_to_crch.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot back</ID>
+							<Animation>
+								<Filename>male_dth_hd_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot front</ID>
+							<Animation>
+								<Filename>male_dth_hd_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot left</ID>
+							<Animation>
+								<Filename>male_dth_hd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death headshot right</ID>
+							<Animation>
+								<Filename>male_dth_hd_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis back</ID>
+							<Animation>
+								<Filename>male_dth_torso_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis front</ID>
+							<Animation>
+								<Filename>male_dth_pelvis_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis left</ID>
+							<Animation>
+								<Filename>male_dth_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death pelvis right</ID>
+							<Animation>
+								<Filename>male_dth_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso back</ID>
+							<Animation>
+								<Filename>male_dth_torso_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso front</ID>
+							<Animation>
+								<Filename>male_dth_torso_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso left</ID>
+							<Animation>
+								<Filename>male_dth_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>death torso right</ID>
+							<Animation>
+								<Filename>male_dth_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>down ready interrupt</ID>
+							<Animation>
+								<Filename>male_rfl_dwnrd_std_intrpt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk shuffle left</ID>
+							<Animation>
+								<Filename>male_rfl_wlk_shuffle.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk shuffle right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_wlk_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run shuffle left</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run shuffle right</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_shfl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>set transition 1</ID>
+							<Animation>
+								<Filename>male_rfl_std_to_idle_d.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand crazy transition</ID>
+							<Animation>
+								<Filename>male_rfl_std_crzy_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>lava fall 1</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_bck_sc_fll01.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>lava fall 2</ID>
+							<Animation>
+								<Filename>male_rfl_rd_run_bck_sc_fll02.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Turret Machinegun</group>
+					<States></States>
+					<Actions>
+						<Action>
+							<ID>equip</ID>
+							<Animation>
+								<Filename>trrtmg_std-rd_trt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>unequip</ID>
+							<Animation>
+								<Filename>trrtmg_std_exit_trt.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Revolver</group>
+					<States>
+						<State>
+							<ID>crouch walk back</ID>
+							<Animation>
+								<Filename>male_pstl_crch_run_bwd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk</ID>
+							<Animation>
+								<Filename>male_pstl_crch_run_fwd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk left</ID>
+							<Animation>
+								<Filename>male_pstl_crch_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk right</ID>
+							<Animation>
+								<Filename>male_pstl_crch_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready</ID>
+							<Animation>
+								<Filename>male_pstl_crchrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready walk</ID>
+							<Animation>
+								<Filename>male_pstl_crchrd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready walk back</ID>
+							<Animation>
+								<Filename>male_pstl_crchrd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready walk left</ID>
+							<Animation>
+								<Filename>male_pstl_crchrd_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready walk right</ID>
+							<Animation>
+								<Filename>male_pstl_crchrd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>alt run</ID>
+							<Animation>
+								<Filename>male_pstl_noncombat_altrun.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>male_pstl_rd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>male_pstl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready back</ID>
+							<Animation>
+								<Filename>male_pstl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>male_pstl_rd_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>male_pstl_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>male_pstl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>male_pstl_rd_wlk_fwd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>male_pstl_rd_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>male_pstl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>male_pstl_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand a</ID>
+							<Animation>
+								<Filename>male_pstl_std_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand b</ID>
+							<Animation>
+								<Filename>male_pstl_std_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>melee stand</ID>
+							<Animation>
+								<Filename>male_pstl_std_mele.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>male_pstl_wlk.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>unequip</ID>
+							<Animation>
+								<Filename>male_pstl_std_hlstr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch forwards</ID>
+							<Animation>
+								<Filename>male_pstl_explsn_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch backwards</ID>
+							<Animation>
+								<Filename>male_pstl_explsn_flnch_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown forwards</ID>
+							<Animation>
+								<Filename>male_pstl_explsnknck_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown right</ID>
+							<Animation>
+								<Filename>male_pstl_explsnknck_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown backwards</ID>
+							<Animation>
+								<Filename>male_pstl_explsnknck_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown left</ID>
+							<Animation>
+								<Filename>male_pstl_explsnknck_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>die back</ID>
+							<Animation>
+								<Filename>male_pstl_die_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch right</ID>
+							<Animation>
+								<Filename>male_pstl_explsn_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch left</ID>
+							<Animation>
+								<Filename>male_pstl_explsn_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis backward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_frnt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso right</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_torso_l_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head left</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_r_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis left</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso backward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_torso_frnt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head right</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head forward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_bck_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso left</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis backward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_frnt_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso backward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_torso_frnt_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head right</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_l_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis left</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_r_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head backward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_frnt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso forward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_bck_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head left</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis forward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_bck_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso forward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_torso_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso right</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis right</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head forward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight head backward</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_hd_frnt_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>idle e</ID>
+							<Animation>
+								<Filename>male_pstl_idle_e.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>back getup</ID>
+							<Animation>
+								<Filename>male_pstl_getup_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>idle c</ID>
+							<Animation>
+								<Filename>male_pstl_idle_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>idle b</ID>
+							<Animation>
+								<Filename>male_pstl_idle_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>male_pstl_std_fre.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>land</ID>
+							<Animation>
+								<Filename>male_pstl_jmp_lnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle right</ID>
+							<Animation>
+								<Filename>male_pstl_rd_trnsttler.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle left</ID>
+							<Animation>
+								<Filename>male_pstl_rd_trnsttlel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand turn right</ID>
+							<Animation>
+								<Filename>male_pstl_trnsttler.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand turn left</ID>
+							<Animation>
+								<Filename>male_pstl_trnsttlel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>male_pstl_rd_runfire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire back</ID>
+							<Animation>
+								<Filename>male_pstl_rd_runfire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>male_pstl_rd_runfire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>equip</ID>
+							<Animation>
+								<Filename>male_pstl_std_drw.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run reload</ID>
+							<Animation>
+								<Filename>male_pstl_rd_run_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready reload</ID>
+							<Animation>
+								<Filename>male_pstl_rd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle right</ID>
+							<Animation>
+								<Filename>male_pstl_crchrd_trn_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle left</ID>
+							<Animation>
+								<Filename>male_pstl_crchrd_trn_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch pelvis back</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis right</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_pelvis_l_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight torso left</ID>
+							<Animation>
+								<Filename>male_pstl_flnch_torso_r_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>skid to stop</ID>
+							<Animation>
+								<Filename>male_pstl_skidtostop.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Skeleton_Set>
+	</table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Unique>true</Unique>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

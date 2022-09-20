@@ -1,0 +1,134 @@
+<root>
+	<Table>
+		<custom_action>
+			<Name>trapped in building</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>trapped in jail</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>marauder lookout</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>plant bomb</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>old coot ramble</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>tech response</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>look at object</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>turn and animate</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>activity intro</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>move to</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>gondola move</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>fire at target</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>force turret attack</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>none</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>kamikaze</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>human emerge</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>Turret Attack Specific</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>tank charge point</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+		<custom_action>
+			<Name>tank taunt</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</custom_action>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>custom_action</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
