@@ -76,6 +76,7 @@
 3. Install the interface files to interface and override; packVPP all of the folders
 4. Use Camo's compression scripts to compress misc and table .vpp_pc files
 5. Compressed files will be in the proper folder as an unnamed .vpp_pc file. Name file to proper name and install to RFA's build/pc/cache folder
+
 NOTE: Interface doesn't like compression nor does it need it
 
 # TODO
