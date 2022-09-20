@@ -23,6 +23,9 @@ To do
 * Nerf hardmode fall damage -
 * Remove vfx.xtbl due to engine limit -
 * Adjust proxy limit in tweak_table.xtbl -
+* Reduce player run speed -
+* Adjust player speed in air in tweak_table.xtbl -
+* Add alien weapons in Ruin mode
 
 -----
 Test
