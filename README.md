@@ -1,5 +1,5 @@
 # Red Faction Armageddon Improvement Patch
-- Version: v0.xx Pre Pre Alpha 19-09-2022 Build 831 
+- Version: v0.xx Pre Pre Alpha 20-09-2022 Build 112
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
 
 # Releases
@@ -69,6 +69,8 @@
 * Fixes various bugs
 * Various improvements to player movement and lots of other stuff in tweak_table.xtbl
 * Various tweaks to AI behavior
+* Aliens are more aggressive
+
 # Installing
 
 1. Install the files in optimized to both misc and table folders first
