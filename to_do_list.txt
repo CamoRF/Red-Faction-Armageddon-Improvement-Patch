@@ -20,8 +20,9 @@ To do
 * Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete -
 * Nerf LEO Assault Rifle, does way too much damage. Cooldown etc is good -
 * Lava gun might not have the cooldown changes anymore - 
-* Nerf hardmode fall damage
-* Remove vfx.xtbl due to engine limit
+* Nerf hardmode fall damage -
+* Remove vfx.xtbl due to engine limit -
+* Adjust proxy limit in tweak_table.xtbl -
 
 -----
 Test
