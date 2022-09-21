@@ -52,7 +52,8 @@ To do
 * Fix Mission: Cutscene after falling down a hole in the first alien area after the radio static throws you back to the menu - 
 * Fix Mission: Can't destroy red faction generator in path to war - 
 * Carry over changes to shotgun and pistol to singleplayer and tweak as needed -
-
+* Fix missing full render image for Cultist Rifle in multiplayer (m16) -
+* Fix fading_end in vfx.xtbl -
 
 -----
 Test
