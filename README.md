@@ -49,7 +49,8 @@
 * Increases draw distance of NPCs
 * Increases draw distances of various misc objects and structures
 * Increases FOV to 85
-* Increases the speed of climbing ladders (needs details)
+* Increases the speed of climbing ladders by 2.5x
+* Increases jump height when walking and sprinting
 * Improves destruction by making it similar to RFG instead of everything being made of cardboard
 * Improves connection in matchmaking
 * NPCs now do the same amount of damage to each other as the player
@@ -64,6 +65,7 @@
 * Removes the post wave delay in Infestation
 * Removed delay on repair grenade (for dev/test purposes)
 * Removed cost of resetting player upgrades  (for dev/test purposes)
+* Removes input reduction when jumping or falling
 * Reduced lives in Infestation to 8 from 12 for one player, to 4 from 6 for two players, to 3 from 4 for 3 players and to 2 from 3 for 4 players
 * Fixes formatting for all XTBL files so the game is easier to mod on top of the patch
 * Fixes various bugs

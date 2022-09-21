@@ -28,8 +28,8 @@
 					<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
 					<Easy>0</Easy>
 					<Medium>0.75</Medium> <!--From 0-->
-					<Hard>1.25</Hard> <!--From 0-->
-					<Insane>1.5</Insane> <!--From 0-->
+					<Hard>1.1</Hard> <!--From 0-->
+					<Insane>1.25</Insane> <!--From 0-->
 				</Item>
 			</Difficulty_Items>
 			<_Editor>

@@ -1,5 +1,5 @@
 <root>
-	<Table><!--Entry&gt;-->
+	<Table>
 		<Tweak_Table_Entry>
 			<Name>Mp_backpack_rack_popup_min_dot</Name>
 			<Value>0.975</Value>
@@ -2132,7 +2132,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Default_jump_height</Name>
-			<Value>1.5</Value> <!--From 1.2-->
+			<Value>1.32</Value> <!--From 1.2-->
 			<Description>The defualt jump height for all humans.</Description>
 			<_Editor>
 				<Category>Movement:Falling</Category>
@@ -2141,7 +2141,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Default_jump_height_sprint</Name>
-			<Value>1.5</Value> <!--From 1.0-->
+			<Value>1.32</Value> <!--From 1.0-->
 			<Description>The defualt jump height for all humans while sprinting.</Description>
 			<_Editor>
 				<Category>Movement:Falling</Category>
@@ -2861,7 +2861,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Player_jump_turn_multiplier</Name>
-			<Value>0.5</Value> <!--From 0.225-->
+			<Value>1.0</Value> <!--From 0.225-->
 			<Description>The multiplier applied to the player's in-air turning while jumping/falling.</Description>
 			<_Editor>
 				<Category>Movement:Falling</Category>
@@ -3113,7 +3113,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Max_simultaneous_proxies</Name>
-			<Value>60</Value> <!--From 30-->
+			<Value>65</Value> <!--From 30-->
 			<Description>Maximum number of proximity mines that can be out in the world at any given time. The game will crash if more than 128 projectiles (total, not just proxies) are placed, so this tweakable value represents the number at which we start deleting old proxies.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
