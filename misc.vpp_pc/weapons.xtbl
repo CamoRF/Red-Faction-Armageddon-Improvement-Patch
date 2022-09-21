@@ -10387,8 +10387,8 @@
 									<Player_Vehicle_Damage>55</Player_Vehicle_Damage>
 									<Structural_Damage>800</Structural_Damage>
 								</Damage_Scaling_Max>
-								<Player_Refire_Delay_ms>0</Player_Refire_Delay_ms> <!--From 100-->
-								<Empty_Reload_Delay_ms>0</Empty_Reload_Delay_ms> <!--From 250-->
+								<Player_Refire_Delay_ms>100</Player_Refire_Delay_ms>
+								<Empty_Reload_Delay_ms>250</Empty_Reload_Delay_ms>
 								<Ragdoll_Force>2.2</Ragdoll_Force>
 								<Visuals>
 									<Muzzle_Smoke>wep_muzzle_smoke_plasma</Muzzle_Smoke>
@@ -10470,7 +10470,7 @@
 				<NPC_Audio_Bank_Name>wep_ppr_cultist</NPC_Audio_Bank_Name>
 				<Instance_Count_RTPC_Name>NUM_LOW_ACC_PHASED_PLASMA_RIFLES</Instance_Count_RTPC_Name>
 			</Sound_Data>
-			<mp_tier>1</mp_tier> <!--From 0-->
+			<mp_tier>0</mp_tier>
 			<Reload_Time_Multiplier>1.3</Reload_Time_Multiplier>
 			<Interface_Priority_SP>255</Interface_Priority_SP>
 			<Interface_Priority_MP>255</Interface_Priority_MP>
