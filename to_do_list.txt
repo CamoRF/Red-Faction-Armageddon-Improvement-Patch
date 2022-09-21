@@ -36,6 +36,20 @@ To do
 * Fix possible bugs with various weapons - 
 * Add salvage drops to all structures - 
 * Reduce revival speed time, it shouldn't be instant -
+* Remove delay before using repair ability in SP - 
+* Decrease assault rifle recoil and camera recoil slightly in singleplayer - 
+* Increase assault rifle firerate in singleplayer - 
+* Fix FPS drops with weapons that cause large explosions - 
+* Reduce bloom slightly
+* Buff plasma beam damage in multiplayer - 
+* Increase ladder climbing speed even more (+2) or so -
+* Increase overheat rate for lava barge turret - 
+* Decrease recharge rate on lava barge turret - 
+* Increase banshee pistols ammo
+* Decrease banshee pistols recoil and camera recoil very slightly - 
+* Increase banshee pistols damage -
+* Remove firing delay on banshee pistols - 
+* Increase walking speed of Exo's - 
 
 
 -----
