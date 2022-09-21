@@ -36,6 +36,7 @@ To do
 * Decrease player jump delay - 
 * Fix possible bugs with various weapons - 
 * Add salvage drops to all structures - 
+* Reduce revival speed time, it shouldn't be instant -
 
 
 -----
