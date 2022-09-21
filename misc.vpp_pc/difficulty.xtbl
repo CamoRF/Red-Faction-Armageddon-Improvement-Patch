@@ -7,7 +7,7 @@
 					<Name>MENU_ENEMY_DAMAGE_TAKEN</Name>
 					<Easy>1.5</Easy>
 					<Medium>1.0</Medium>
-					<Hard>0.80</Hard>
+					<Hard>0.60</Hard> <!--From 0.8-->
 					<Insane>0.60</Insane>
 				</Item>
 				<Item>
@@ -49,7 +49,7 @@
 					<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
 					<Easy>.4</Easy>
 					<Medium>0.8</Medium>
-					<Hard>0.8</Hard>
+					<Hard>1.25</Hard> <!--From 8-->
 					<Insane>1.14</Insane>
 				</Item>
 				<Item>
@@ -147,8 +147,8 @@
 					<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
 					<Easy>0.0</Easy> <!--From 1.0-->
 					<Medium>0.75</Medium> <!--From 1.0-->
-					<Hard>1.25</Hard> <!--From 1.0-->
-					<Insane>1.5</Insane> <!--From 1.0-->
+					<Hard>1.1</Hard> <!--From 1.0-->
+					<Insane>1.25</Insane> <!--From 1.0-->
 				</Item>
 				<Item>
 					<Name>MENU_POD_DAMAGE_TAKEN</Name>

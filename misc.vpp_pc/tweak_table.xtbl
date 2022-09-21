@@ -4836,7 +4836,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Goon_npc_count_threshold_default</Name>
-			<Value>8</Value>
+			<Value>999</Value> <!--From 8-->
 			<Description>Number of NPCs attacking the player before goon AI effects kick in</Description>
 			<_Editor>
 				<Category>AI</Category>

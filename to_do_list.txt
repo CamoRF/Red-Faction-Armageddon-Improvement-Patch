@@ -1,7 +1,6 @@
 ----------------------------------------
 To do
 ----------------------------------------
-* Fix: Can't destroy red faction generator in path to war, destruction settings; probably made the threshold for when something is destroyed too high - 
 * Increase alien spawns in waves - up to wave 15 i think
 * Cultist AR: Stronger with slower reload and more recoil
 * Apply tweaks to DLC -
@@ -23,7 +22,6 @@ To do
 * Adjust proxy limit in tweak_table.xtbl -
 * Add alien weapons in Ruin mode -
 * Add collide_as_mover_not_with_humans to gibs -
-* Disable goon AI effects to make the aliens even smarter than current changes make them -
 * Add gib chance to Assault Rifle, Rail Driver and other powerful guns if they are missing them -
 * Optimize gib, decal and bullet mag despawns for multiplayer by making them despawn eventually (set limit) -
 * Revert no delay on repair grenade and slightly reduce the delay from vanilla values - 
@@ -40,7 +38,7 @@ To do
 * Decrease assault rifle recoil and camera recoil slightly in singleplayer - 
 * Increase assault rifle firerate in singleplayer - 
 * Fix FPS drops with weapons that cause large explosions - 
-* Reduce bloom slightly
+* Reduce bloom slightly -
 * Buff plasma beam damage in multiplayer - 
 * Increase ladder climbing speed even more (+2) or so -
 * Increase overheat rate for lava barge turret - 
@@ -50,6 +48,10 @@ To do
 * Increase banshee pistols damage -
 * Remove firing delay on banshee pistols - 
 * Increase walking speed of Exo's - 
+* Fix Mission: Cutscene after destroying the third generator clearing the path for the LAV in second DLC mission throws you back to the menu - 
+* Fix Mission: Cutscene after falling down a hole in the first alien area after the radio static throws you back to the menu - 
+* Fix Mission: Can't destroy red faction generator in path to war - 
+* Carry over changes to shotgun and pistol to singleplayer and tweak as needed -
 
 
 -----
@@ -105,6 +107,9 @@ Done
 * Adjust player speed in air in tweak_table.xtbl
 * Nerf hardmode fall damage
 * Remove weapon swapping delay
+* Disable goon AI effects to make the aliens even smarter than current changes make them
+* Tankier aliens in hard mode SP
+* Player should take more damage in hard mode SP
 
 ----
 Notes
