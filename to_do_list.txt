@@ -24,7 +24,6 @@ To do
 * Add alien weapons in Ruin mode -
 * Add collide_as_mover_not_with_humans to gibs -
 * Disable goon AI effects to make the aliens even smarter than current changes make them -
-* Remove weapon swapping delay - 
 * Add gib chance to Assault Rifle, Rail Driver and other powerful guns if they are missing them -
 * Optimize gib, decal and bullet mag despawns for multiplayer by making them despawn eventually (set limit) -
 * Revert no delay on repair grenade and slightly reduce the delay from vanilla values - 
@@ -91,6 +90,7 @@ Done
 * Reduce player run speed
 * Adjust player speed in air in tweak_table.xtbl
 * Nerf hardmode fall damage
+* Remove weapon swapping delay
 
 ----
 Notes

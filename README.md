@@ -66,6 +66,7 @@
 * Removed delay on repair grenade (for dev/test purposes)
 * Removed cost of resetting player upgrades  (for dev/test purposes)
 * Removes input reduction when jumping or falling
+* Removes delay when switching weapons
 * Reduced lives in Infestation to 8 from 12 for one player, to 4 from 6 for two players, to 3 from 4 for 3 players and to 2 from 3 for 4 players
 * Fixes formatting for all XTBL files so the game is easier to mod on top of the patch
 * Fixes various bugs
