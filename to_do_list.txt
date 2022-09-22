@@ -29,7 +29,7 @@ To do
 * Balance salvage multipliers -
 * Increase repair grenade radius -
 * Increase magnet gun pull radius -
-* Disable player flinch, landing animations, exo flinch and landing animations to compliment other fast movement changes - 
+* Disable player flinch, landing animations, exo flinch and landing animations to compliment other fast movement changes? - 
 * Decrease player jump delay - 
 * Fix possible bugs with various weapons - 
 * Add salvage drops to all structures - 
@@ -53,7 +53,7 @@ To do
 * Fix Mission: Can't destroy red faction generator in path to war - 
 * Carry over changes to shotgun and pistol to singleplayer and tweak as needed -
 * Fix missing full render image for Cultist Rifle in multiplayer (m16) -
-* Fix fading_end in vfx.xtbl -
+
 
 -----
 Test
@@ -86,6 +86,7 @@ Low Priorty
 ----
 Done
 ----
+* Fix fading_end in vfx.xtbl
 * Add more weapons to ruin mode
 * Change respawn back to 2 seconds for release build
 * Increase shotgun camera recoil
