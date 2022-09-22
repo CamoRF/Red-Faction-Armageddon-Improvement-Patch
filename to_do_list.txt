@@ -38,7 +38,6 @@ To do
 * Decrease assault rifle recoil and camera recoil slightly in singleplayer - 
 * Increase assault rifle firerate in singleplayer - 
 * Fix FPS drops with weapons that cause large explosions - 
-* Reduce bloom slightly -
 * Buff plasma beam damage in multiplayer - 
 * Increase ladder climbing speed even more (+2) or so -
 * Increase overheat rate for lava barge turret - 
@@ -48,22 +47,20 @@ To do
 * Increase banshee pistols damage -
 * Remove firing delay on banshee pistols - 
 * Increase walking speed of Exo's - 
-* Fix Mission: Cutscene after destroying the third generator clearing the path for the LAV in second DLC mission throws you back to the menu - 
-* Fix Mission: Cutscene after falling down a hole in the first alien area after the radio static throws you back to the menu - 
 * Fix Mission: Can't destroy red faction generator in path to war - 
 * Carry over changes to shotgun and pistol to singleplayer and tweak as needed -
 * Fix missing full render image for Cultist Rifle in multiplayer (m16) -
-* Fix mission: one or more of the optimized files is breaking cutscenes -
-* Fix mission: cutscene after going down elevator threw me back to the main menu, was able to continue after reloading save -
-* Restore kill barriers, you can get stuck in singleplayer and infestation - 
 * Arc welder, AR, shotgun, laser pistols all need changes from Infestation as a base - 
 * Increase alien spawns in singleplayer - 
-* Fix missing Fading_End and Distance:Fading_End errors that occur in Steam beta when launching game - 
 
 
 -----
 Test
 -----
+* Fix mission: one or more of the optimized files is breaking cutscenes - test
+* Fix mission: cutscene after going down elevator threw me back to the main menu, was able to continue after reloading save - test
+* Fix Mission: Cutscene after destroying the third generator clearing the path for the LAV in second DLC mission throws you back to the menu - test
+* Fix Mission: Cutscene after falling down a hole in the first alien area after the radio static throws you back to the menu - test
 * The auto aim seems a bit aggressive with M+KB - wip
 * Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp) - test
 * Enforcer still feels off, needs faster firerate? - test
@@ -118,12 +115,14 @@ Done
 * Disable goon AI effects to make the aliens even smarter than current changes make them
 * Tankier aliens in hard mode SP
 * Player should take more damage in hard mode SP
+* Restore kill barriers, you can get stuck in singleplayer and infestation
 
 ----
 Notes
 ----
 * Memory pool limit is 12.3208 MB (12320768 bytes)
 * Items.vpp_pc packs fine with DLC weapons added 
+* quests.xtbl loading_screen.xtbl, cutscene.xtbl, cutscene_cameras.xtbl, loading_tip_text.xtbl and cutscenetable.xtbl possibly break cutscenes when formatted or optimized
 * DLC weapons commented out in misc.vpp_pc as they crash game on startup currently, might be something to do with the bitmap entries that need to be replaced with placeholders as using broken bitmaps crashes multiplayer menu with characters too
 - Acid Glob - Functional. Just needs weapon sounds.
 - Acid Puke - Doesn't work.
