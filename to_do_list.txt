@@ -53,6 +53,12 @@ To do
 * Fix Mission: Can't destroy red faction generator in path to war - 
 * Carry over changes to shotgun and pistol to singleplayer and tweak as needed -
 * Fix missing full render image for Cultist Rifle in multiplayer (m16) -
+* Fix mission: one or more of the optimized files is breaking cutscenes -
+* Fix mission: cutscene after going down elevator threw me back to the main menu, was able to continue after reloading save -
+* Restore kill barriers, you can get stuck in singleplayer and infestation - 
+* Arc welder, AR, shotgun, laser pistols all need changes from Infestation as a base - 
+* Increase alien spawns in singleplayer - 
+* Fix missing Fading_End and Distance:Fading_End errors that occur in Steam beta when launching game - 
 
 
 -----
