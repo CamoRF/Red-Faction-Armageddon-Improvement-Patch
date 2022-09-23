@@ -15,6 +15,7 @@ https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 # Credits
 
 [HeyItsDuke](https://github.com/HeyItsDuke) for Research, Testing, Quality Assurance, and LOTS of Help!
+[MartianMadman](https://github.com/MartianMadman) for Research on Engine limitations and bugs!
 
 # Changelog
 * All objects now cast shadows 
