@@ -37,6 +37,16 @@
 				</Character_Element>
 				
 				<Character_Element>
+					<Character_Name>RF4_outer_hd</Character_Name>
+					<Display_Name>Darius</Display_Name>
+					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
+					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
+					<health_image>ui_mp_port_blank</health_image>
+				</Character_Element>
+
+<!--START Roster Selection-->
+				
+				<Character_Element>
 					<Character_Name>RF4_Cave_D3</Character_Name>
 					<Display_Name>Darius (End Game)</Display_Name>
 					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
@@ -51,16 +61,6 @@
 					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
-
-<!--START Roster Selection-->
-				
-				<Character_Element>
-					<Character_Name>RF4_outer_hd</Character_Name>
-					<Display_Name>Darius</Display_Name>
-					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
-					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>
 				
 				<Character_Element>
 					<Character_Name>RF4_RF_hd</Character_Name>
@@ -69,7 +69,7 @@
 					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
-
+				
 				<Character_Element>
 					<Character_Name>RF4_outer_hu</Character_Name>
 					<Display_Name>Darius (Storm)</Display_Name>
