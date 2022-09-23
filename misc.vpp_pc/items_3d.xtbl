@@ -1,6 +1,5 @@
 <root>
 	<Table>
-		<!--		<Item><Name>dlc04_shard_storm</Name><Item_Flags><Flag>high_res_map</Flag><Flag>cast_shadows</Flag></Item_Flags><Spin_Time>5000</Spin_Time><Mesh><Filename>nano_mg.smeshx</Filename></Mesh><Fade_Out_Distance>50</Fade_Out_Distance><Touch_Script><give_item></give_item></Touch_Script><Touch_Sound>ITM_WEP_PICKUP_LG</Touch_Sound><Touch_Sound_2>ITM_AMMO_PICKUP_LG</Touch_Sound_2><Respawn_Delay>30000</Respawn_Delay><Collision_Sound>WEP_GENERIC_DROP</Collision_Sound><streaming_category>General (preloaded)</streaming_category><mp_preload>False</mp_preload><Looping_Effects><Looping_Effect><Name>wep_light_mar</Name><Mesh_Tag_Name>primary_weapon_handle</Mesh_Tag_Name><Maintain_Flat_Orient>False</Maintain_Flat_Orient><Type>Held</Type></Looping_Effect><Looping_Effect><Name>item_weapon</Name><Maintain_Flat_Orient>True</Maintain_Flat_Orient><Type>Not Owned</Type></Looping_Effect></Looping_Effects><_Editor><Category>Entries:WeaponsMarauder</Category></_Editor></Item><Item><Name>dlc04_sharpshooter</Name><Item_Flags><Flag>high_res_map</Flag><Flag>cast_shadows</Flag></Item_Flags><Spin_Time>5000</Spin_Time><Mesh><Filename>generoblasta.smeshx</Filename></Mesh><Fade_Out_Distance>50</Fade_Out_Distance><Touch_Script><give_item></give_item></Touch_Script><Touch_Sound>ITM_WEP_PICKUP_LG</Touch_Sound><Touch_Sound_2>ITM_AMMO_PICKUP_LG</Touch_Sound_2><Respawn_Delay>30000</Respawn_Delay><Collision_Sound>WEP_GENERIC_DROP</Collision_Sound><streaming_category>General (preloaded)</streaming_category><mp_preload>False</mp_preload><Looping_Effects><Looping_Effect><Name>wep_light_mar</Name><Mesh_Tag_Name>primary_weapon_handle</Mesh_Tag_Name><Maintain_Flat_Orient>False</Maintain_Flat_Orient><Type>Held</Type></Looping_Effect><Looping_Effect><Name>item_weapon</Name><Maintain_Flat_Orient>True</Maintain_Flat_Orient><Type>Not Owned</Type></Looping_Effect></Looping_Effects><_Editor><Category>Entries:WeaponsMarauder</Category></_Editor><Props><Prop><Name>dlc04_sharpshooter_clip</Name><Attach_tag>clip_bone</Attach_tag><Type>clip</Type></Prop></Props></Item><Item><Name>dlc04_sharpshooter_clip</Name><Spin_Time>5000</Spin_Time><Mesh><Filename>genero_clip.smeshx</Filename></Mesh><Fade_Out_Distance>50</Fade_Out_Distance><Respawn_Delay>30000</Respawn_Delay><streaming_category>General (preloaded)</streaming_category><mp_preload>False</mp_preload><_Editor><Category>Entries:WeaponsMarauder</Category></_Editor></Item>-->
 		<Item>
 			<Name>audio_drop</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -61,10 +60,10 @@
 				<Filename>gib_eggpod_1.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -87,10 +86,10 @@
 				<Filename>gib_mar_exo_left_arm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -113,10 +112,10 @@
 				<Filename>gib_leo_buttflap.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -254,10 +253,10 @@
 				<Filename>gib_heav_body.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -279,10 +278,10 @@
 				<Filename>gib_hlkk_back.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -305,10 +304,10 @@
 				<Filename>gib_cree_body.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 20-->
@@ -331,10 +330,10 @@
 				<Filename>gib_ambu_claw.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -918,6 +917,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mesh>
 				<Filename>rocket_launcher_clip.smeshx</Filename>
@@ -1440,6 +1440,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -1518,6 +1519,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -1733,6 +1735,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -1841,6 +1844,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -1859,6 +1863,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2409,6 +2414,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2938,12 +2944,6 @@
 				<Category>Entries:WeaponOther</Category>
 			</_Editor>
 			<Spin_Time>5000</Spin_Time>
-			<Item_Flags>
-				<Flag>ignore_physics</Flag>
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag>
-				<Flag>cast_shadows</Flag>
-			</Item_Flags>
 			<streaming_category>General (preloaded)</streaming_category>
 			<Mesh>
 				<Filename>shotgun_clip.smeshx</Filename>
@@ -2954,6 +2954,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3254,6 +3255,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3267,10 +3269,10 @@
 				<Filename>gib_grnt_head.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 12-->
@@ -3293,10 +3295,10 @@
 				<Filename>gib_grnt_leftarm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -3319,10 +3321,10 @@
 				<Filename>gib_grnt_lefuparm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -3345,10 +3347,10 @@
 				<Filename>gib_grnt_linnarm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -3371,10 +3373,10 @@
 				<Filename>gib_grnt_llowleg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 7-->
@@ -3397,10 +3399,10 @@
 				<Filename>gib_grnt_lowtorso.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -3423,10 +3425,10 @@
 				<Filename>gib_grnt_luppleg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 14-->
@@ -3449,10 +3451,10 @@
 				<Filename>gib_grnt_rinnarm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -3475,10 +3477,10 @@
 				<Filename>gib_grnt_rlowarm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -3501,10 +3503,10 @@
 				<Filename>gib_grnt_rlowleg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -3527,10 +3529,10 @@
 				<Filename>gib_grnt_ruppleg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 11-->
@@ -3553,10 +3555,10 @@
 				<Filename>gib_grnt_sting.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 4-->
@@ -3579,10 +3581,10 @@
 				<Filename>gib_grnt_upptorso.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 18-->
@@ -3795,10 +3797,10 @@
 				<Filename>gib_ambu_hand.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -3821,10 +3823,10 @@
 				<Filename>gib_ambu_head.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -3847,10 +3849,10 @@
 				<Filename>gub_ambu_foot.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 12-->
@@ -3873,10 +3875,10 @@
 				<Filename>gib_ambu_jaw.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -3899,10 +3901,10 @@
 				<Filename>gib_ambu_hair.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 7-->
@@ -3925,10 +3927,10 @@
 				<Filename>gib_ambu_pelv.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -3951,10 +3953,10 @@
 				<Filename>gib_cree_cla2.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -3977,10 +3979,10 @@
 				<Filename>gib_cree_claw.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4003,10 +4005,10 @@
 				<Filename>gib_cree_elbw.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -4029,10 +4031,10 @@
 				<Filename>gib_cree_farm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 7-->
@@ -4055,10 +4057,10 @@
 				<Filename>gib_cree_fleg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 12-->
@@ -4081,7 +4083,6 @@
 				<Filename>gib_cree_foot.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
@@ -4107,10 +4108,10 @@
 				<Filename>gib_cree_head.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4133,10 +4134,10 @@
 				<Filename>gib_cree_hips.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 13-->
@@ -4159,10 +4160,10 @@
 				<Filename>gib_cree_shld.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 15-->
@@ -4185,10 +4186,10 @@
 				<Filename>gib_cree_thig.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -4211,10 +4212,10 @@
 				<Filename>gib_hlkk_chst.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -4237,10 +4238,10 @@
 				<Filename>gib_hlkk_foot.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4263,10 +4264,10 @@
 				<Filename>gib_hlkk_hand.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4289,10 +4290,10 @@
 				<Filename>gib_hlkk_larm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4315,10 +4316,10 @@
 				<Filename>gib_hlkk_lhed.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4341,10 +4342,10 @@
 				<Filename>gib_hlkk_lleg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4367,10 +4368,10 @@
 				<Filename>gib_hlkk_rhed.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4393,10 +4394,10 @@
 				<Filename>gib_hlkk_uarm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4419,10 +4420,10 @@
 				<Filename>gib_hlkk_uleg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4445,10 +4446,10 @@
 				<Filename>gib_heav_foot.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4470,10 +4471,10 @@
 				<Filename>gib_heav_hand.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4495,10 +4496,10 @@
 				<Filename>gib_heav_head.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4520,10 +4521,10 @@
 				<Filename>gib_heav_jaws.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4545,10 +4546,10 @@
 				<Filename>gib_heav_pelv.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4570,10 +4571,10 @@
 				<Filename>gib_heav_larm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4595,10 +4596,10 @@
 				<Filename>gib_heav_larm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4620,10 +4621,10 @@
 				<Filename>gib_heav_uarm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4808,10 +4809,10 @@
 				<Filename>gib_leo_left_chest.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4836,10 +4837,10 @@
 				<Filename>gib_leo_left_hand.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4864,10 +4865,10 @@
 				<Filename>gib_leo_left_leg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -4892,10 +4893,10 @@
 				<Filename>gib_leo_left_shoulder.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 4-->
@@ -4920,10 +4921,10 @@
 				<Filename>gib_leo_left_thigh.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -4948,10 +4949,10 @@
 				<Filename>gib_leo_right_arm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -4976,10 +4977,10 @@
 				<Filename>gib_leo_right_chest.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 4-->
@@ -5004,10 +5005,10 @@
 				<Filename>gib_leo_right_face.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 4-->
@@ -5032,10 +5033,10 @@
 				<Filename>gib_leo_right_foot.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5060,10 +5061,10 @@
 				<Filename>gib_leo_right_leg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5088,10 +5089,10 @@
 				<Filename>gib_leo_right_thigh.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5116,10 +5117,10 @@
 				<Filename>gib_leo_seat.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5144,10 +5145,10 @@
 				<Filename>gib_mar_exo_left_chest.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5170,10 +5171,10 @@
 				<Filename>gib_mar_exo_left_face.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5196,10 +5197,10 @@
 				<Filename>gib_mar_exo_left_foot.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5222,10 +5223,10 @@
 				<Filename>gib_mar_exo_left_leg.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5248,10 +5249,10 @@
 				<Filename>gib_mar_exo_left_shoulder.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5274,10 +5275,10 @@
 				<Filename>gib_mar_exo_left_thigh.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5300,10 +5301,10 @@
 				<Filename>gib_mar_exo_left_thorax.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5326,10 +5327,10 @@
 				<Filename>gib_mar_exo_right_arm.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5352,10 +5353,10 @@
 				<Filename>gib_mar_exo_right_back.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5378,10 +5379,10 @@
 				<Filename>gib_mar_exo_right_chest.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5404,10 +5405,10 @@
 				<Filename>gib_mar_exo_right_face.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5430,10 +5431,10 @@
 				<Filename>gib_mar_exo_right_foot.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -5456,10 +5457,10 @@
 				<Filename>gib_mar_exo_right_knee.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5482,10 +5483,10 @@
 				<Filename>gib_mar_exo_right_thigh.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -5508,10 +5509,10 @@
 				<Filename>gib_mar_exo_spike.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 4-->
@@ -5733,6 +5734,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -5850,6 +5852,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -5931,10 +5934,10 @@
 				<Filename>gib_eggpod_2.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5957,10 +5960,10 @@
 				<Filename>gib_eggpod_3.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -5983,10 +5986,10 @@
 				<Filename>gib_eggpod_4.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -6009,10 +6012,10 @@
 				<Filename>gib_eggpod_5.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -6062,6 +6065,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 			<MaterialEffect>nanorifle_damage</MaterialEffect>
 			<Respawn_Delay>60000</Respawn_Delay>
@@ -6103,10 +6107,10 @@
 				<Filename>gib_cree_body_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 20-->
@@ -6129,10 +6133,10 @@
 				<Filename>gib_cree_cla2_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 6-->
@@ -6155,10 +6159,10 @@
 				<Filename>gib_cree_claw_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -6181,10 +6185,10 @@
 				<Filename>gib_cree_elbw_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -6207,10 +6211,10 @@
 				<Filename>gib_cree_farm_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 7-->
@@ -6233,10 +6237,10 @@
 				<Filename>gib_cree_fleg_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 12-->
@@ -6259,10 +6263,10 @@
 				<Filename>gib_cree_foot_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6285,10 +6289,10 @@
 				<Filename>gib_cree_head_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 8-->
@@ -6311,10 +6315,10 @@
 				<Filename>gib_cree_hips_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 13-->
@@ -6337,10 +6341,10 @@
 				<Filename>gib_creep_shld_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 15-->
@@ -6363,10 +6367,10 @@
 				<Filename>gib_cree_thig_big.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 10-->
@@ -6532,6 +6536,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -6545,10 +6550,10 @@
 				<Filename>mar_war_head.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>4.5</Mass>
 			<!--From 9-->
@@ -6571,10 +6576,10 @@
 				<Filename>mar_war_lfut.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6597,10 +6602,10 @@
 				<Filename>mar_war_lhan.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6623,10 +6628,10 @@
 				<Filename>mar_war_lshd.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6649,10 +6654,10 @@
 				<Filename>mar_war_rfut.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6675,10 +6680,10 @@
 				<Filename>mar_war_rhip.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6701,10 +6706,10 @@
 				<Filename>mar_war_rrib.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6727,10 +6732,10 @@
 				<Filename>mar_war_rshn.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6753,10 +6758,10 @@
 				<Filename>mar_war_spin.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6779,10 +6784,10 @@
 				<Filename>mar_war_ster.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6805,10 +6810,10 @@
 				<Filename>mar_war_stom.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
-				<!--<Flag>collide_as_cylinder</Flag><Flag>collide_as_mover</Flag>-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag>
 			</Item_Flags>
 			<Mass>2</Mass>
 			<!--From 9-->
@@ -6836,6 +6841,7 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>no_auto_delete</Flag>
 				<Flag>cast_shadows</Flag>
+				<Flag>collide_as_mover_not_with_humans</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
