@@ -23,6 +23,7 @@ Balance
 Bugs
 -----
 * Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete -
+* Remake mod using GOG files - 
 
 Features
 --------
@@ -40,7 +41,6 @@ Weapons
 * Increase banshee pistols ammo
 * Increase overheat rate for lava barge turret - 
 * Increase banshee pistols damage -
-<<<<<<< Updated upstream
 * Cultist AR: Stronger with slower reload and more recoil - 
 * Reduce firing delay on banshee pistols - 
 * Increase repair grenade radius -
@@ -50,17 +50,7 @@ Weapons
 * Nerf LEO Assault Rifle, does way too much damage. Cooldown etc is good -
 * Mr toots needs to overheat and cooldown -
 * Buff plasma beam damage in multiplayer - 
-=======
-* Remove firing delay on banshee pistols - 
-* Increase walking speed of Exo's - 
-* Fix Mission: Can't destroy red faction generator in path to war - 
-* Carry over changes to shotgun and pistol to singleplayer and tweak as needed -
 * Fix missing full render image for Cultist Rifle in multiplayer (m16) -
-* Arc welder, AR, shotgun, laser pistols all need changes from Infestation as a base - 
-* Increase alien spawns in singleplayer - 
-* Remake mod using GOG files - 
->>>>>>> Stashed changes
-
 
 -----
 Test
