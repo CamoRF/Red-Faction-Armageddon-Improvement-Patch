@@ -1,7 +1,9 @@
 # Red Faction Armageddon Improvement Patch
 - Version: v0.xx Pre Pre Alpha 21-9-2022 Build 909
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
+
 This patch is still in development and is not officially released. It is not advised to install this patch for a regular playthrough until development is finished. Please back up your "player_options.rfao_pc" file and any desired save files prior to installation. 
+
 Check the Red Faction: Armageddon FAQ on the Red Faction Wiki for a list of frequently asked questions and solutions to issues you may encounter with the game: https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 
 # Releases
