@@ -72,7 +72,7 @@ Test
 -----------
 Low Priorty
 ------------
-* Port DLC weapons to base game - assets ported, try replacing the bitmaps with placeholders in misc.vpp_pc
+* Port DLC weapons to base game - assets ported into items.vpp_pc so far
 
 * Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done -
 
@@ -147,7 +147,7 @@ Notes
 * Memory pool limit is 12.3208 MB (12320768 bytes)
 * Items.vpp_pc packs fine with DLC weapons added 
 * objective_icon_labels.xtbl, missions.xtbl, quests.xtbl loading_screen.xtbl, cutscene.xtbl, cutscene_cameras.xtbl, loading_tip_text.xtbl and cutscenetable.xtbl possibly break cutscenes when formatted or optimized
-* DLC weapons commented out in misc.vpp_pc as they crash game on startup currently, might be something to do with the bitmap entries that need to be replaced with placeholders as using broken bitmaps crashes multiplayer menu with characters too
+* Refire delay only works in weapons.xtbl
 - Acid Glob - Functional. Just needs weapon sounds.
 - Acid Puke - Doesn't work.
 - Acid Spit - Basically useless.
