@@ -3199,23 +3199,23 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>4</One_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 					</Troops>
@@ -3270,31 +3270,31 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>6</Four_Player> <!--From 6-->
+							<Three_Player>5</Three_Player> <!--From 5-->
+							<Two_Player>3</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>10</Initial_Troops>
-							<Max_Troops>14</Max_Troops>
+							<Initial_Troops>12</Initial_Troops> <!--From 10-->
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -3354,24 +3354,24 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>4</One_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player>
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -3384,7 +3384,7 @@
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>10</Initial_Troops>
+							<Initial_Troops>12</Initial_Troops> <!--From 10-->
 							<Max_Troops>14</Max_Troops> <!--From 12-->
 							<Continue_Threshold>10</Continue_Threshold>
 							<Tentacles>0</Tentacles>
@@ -3425,23 +3425,23 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
+							<Four_Player>4</Four_Player> <!--From 4-->
+							<Three_Player>3</Three_Player> <!--From 3-->
 							<Two_Player>3</Two_Player> <!--From 2-->
 							<One_Player>4</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>5</Four_Player>
-							<Three_Player>4</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>7</Four_Player> <!--From 5-->
+							<Three_Player>6</Three_Player> <!--From 4-->
+							<Two_Player>5</Two_Player> <!--From 3-->
 							<One_Player>4</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
+							<Four_Player>5</Four_Player> <!--From 2-->
+							<Three_Player>4</Three_Player> <!--From 2-->
+							<Two_Player>3</Two_Player> <!--From 1-->
 							<One_Player>2</One_Player> <!--From 1-->
 						</Element>
 						<Element>
@@ -3462,8 +3462,8 @@
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>10</Initial_Troops>
-							<Max_Troops>14</Max_Troops>
+							<Initial_Troops>12</Initial_Troops> <!--From 10-->
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>10</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -3503,29 +3503,29 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>4</One_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>8</Four_Player> <!--From 6-->
+							<Three_Player>7</Three_Player> <!--From 5-->
+							<Two_Player>6</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>2</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
+							<Three_Player>4</Three_Player> <!--From 2-->
 							<Two_Player>3</Two_Player> <!--From 2-->
 							<One_Player>2</One_Player> <!--From 1-->
 						</Element>
@@ -3548,7 +3548,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -3608,16 +3608,16 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>8</Four_Player> <!--From 6-->
+							<Three_Player>7</Three_Player> <!--From 5-->
+							<Two_Player>6</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
+							<Four_Player>5</Four_Player> <!--From 2-->
+							<Three_Player>4</Three_Player> <!--From 2-->
+							<Two_Player>3</Two_Player> <!--From 1-->
 							<One_Player>2</One_Player> <!--From 1-->
 						</Element>
 						<Element>
@@ -3646,7 +3646,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -3686,23 +3686,23 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>4</One_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>7</Four_Player> <!--From 6-->
+							<Three_Player>6</Three_Player> <!--From 5-->
+							<Two_Player>5</Two_Player> <!--From 3-->
+							<One_Player>4</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
+							<Four_Player>5</Four_Player> <!--From 2-->
+							<Three_Player>4</Three_Player> <!--From 2-->
+							<Two_Player>3</Two_Player> <!--From 1-->
 							<One_Player>2</One_Player> <!--From 1-->
 						</Element>
 						<Element>
@@ -3724,7 +3724,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -3772,23 +3772,23 @@
 						<Element>
 							<Troop>02_grunt_quill</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -3857,23 +3857,23 @@
 						<Element>
 							<Troop>02_grunt_quill</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
@@ -3954,24 +3954,24 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>8</Four_Player> <!--From 6-->
+							<Three_Player>7</Three_Player> <!--From 5-->
+							<Two_Player>6</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -3992,7 +3992,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -4032,9 +4032,9 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>8</Four_Player> <!--From 4-->
+							<Three_Player>6</Three_Player> <!--From 3-->
+							<Two_Player>5</Two_Player> <!--From 2-->
 							<One_Player>4</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4046,16 +4046,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4084,7 +4084,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -4131,17 +4131,17 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>8</Four_Player> <!--From 6-->
+							<Three_Player>7</Three_Player> <!--From 5-->
+							<Two_Player>6</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
@@ -4223,24 +4223,24 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>8</Four_Player> <!--From 6-->
+							<Three_Player>7</Three_Player> <!--From 5-->
+							<Two_Player>6</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -4335,17 +4335,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
@@ -4366,7 +4366,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -4406,9 +4406,9 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>7</Four_Player> <!--From 4-->
+							<Three_Player>6</Three_Player> <!--From 3-->
+							<Two_Player>5</Two_Player> <!--From 2-->
 							<One_Player>4</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4420,16 +4420,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4451,7 +4451,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -4505,16 +4505,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4590,16 +4590,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4695,16 +4695,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4733,7 +4733,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -4787,16 +4787,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4825,7 +4825,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -4879,16 +4879,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -4964,16 +4964,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -5069,22 +5069,22 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
+							<Four_Player>5</Four_Player> <!--From 4-->
+							<Three_Player>4</Three_Player> <!--From 3-->
 							<Two_Player>3</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
@@ -5107,7 +5107,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -5124,7 +5124,7 @@
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>7</Initial_Troops>
+							<Initial_Troops>9</Initial_Troops> <!--From 7-->
 							<Max_Troops>10</Max_Troops> <!--From 8-->
 							<Continue_Threshold>3</Continue_Threshold>
 							<Tentacles>1</Tentacles>
@@ -5161,16 +5161,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -5199,7 +5199,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -5207,7 +5207,7 @@
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
-							<Initial_Troops>9</Initial_Troops>
+							<Initial_Troops>12</Initial_Troops> <!--From 9-->
 							<Max_Troops>13</Max_Troops> <!--From 11-->
 							<Continue_Threshold>5</Continue_Threshold>
 							<Tentacles>1</Tentacles>
@@ -5216,7 +5216,7 @@
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>7</Initial_Troops>
+							<Initial_Troops>9</Initial_Troops> <!--From 7-->
 							<Max_Troops>10</Max_Troops> <!--From 8-->
 							<Continue_Threshold>3</Continue_Threshold>
 							<Tentacles>1</Tentacles>
@@ -5253,16 +5253,16 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -5338,23 +5338,23 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
+							<Four_Player>8</Four_Player> <!--From 6-->
+							<Three_Player>7</Three_Player> <!--From 5-->
+							<Two_Player>6</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -5437,28 +5437,28 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>36</Four_Player>
-							<Three_Player>27</Three_Player>
-							<Two_Player>21</Two_Player>
-							<One_Player>15</One_Player>
+							<Four_Player>39</Four_Player> <!--From 36-->
+							<Three_Player>29</Three_Player> <!--From 27-->
+							<Two_Player>23</Two_Player> <!--From 21-->
+							<One_Player>17</One_Player> <!--From 15-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
-							<Four_Player>12</Four_Player>
-							<Three_Player>9</Three_Player>
-							<Two_Player>7</Two_Player>
-							<One_Player>5</One_Player>
+							<Four_Player>14</Four_Player> <!--From 12-->
+							<Three_Player>12</Three_Player> <!--From 9-->
+							<Two_Player>9</Two_Player> <!--From 7-->
+							<One_Player>7</One_Player> <!--From 5-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>16</Initial_Troops>
+							<Initial_Troops>18</Initial_Troops> <!--From 16-->
 							<Max_Troops>18</Max_Troops> <!--From 16-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
@@ -5467,16 +5467,16 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>10</Initial_Troops>
+							<Initial_Troops>12</Initial_Troops> <!--From 10-->
 							<Max_Troops>12</Max_Troops> <!--From 10-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
@@ -5485,7 +5485,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 					</Group_Setup>
 				</Group>
@@ -5522,7 +5522,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
@@ -5531,25 +5531,25 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>4</Initial_Troops>
+							<Initial_Troops>6</Initial_Troops> <!--From 4-->
 							<Max_Troops>9</Max_Troops> <!--From 7-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
 							<Initial_Troops>5</Initial_Troops> <!--From 3-->
-							<Max_Troops>5</Max_Troops>
+							<Max_Troops>7</Max_Troops> <!--From 5-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 					</Group_Setup>
 				</Group>
@@ -5558,10 +5558,10 @@
 					<Troops>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
-							<Four_Player>12</Four_Player>
-							<Three_Player>9</Three_Player>
-							<Two_Player>7</Two_Player>
-							<One_Player>5</One_Player>
+							<Four_Player>12</Four_Player> <!--From 12-->
+							<Three_Player>9</Three_Player> <!--From 9-->
+							<Two_Player>7</Two_Player> <!--From 7-->
+							<One_Player>5</One_Player> <!--From 5-->
 						</Element>
 					</Troops>
 					<Group_Setup>
@@ -5577,7 +5577,7 @@
 						<Element>
 							<Num_Players>3</Num_Players>
 							<Initial_Troops>7</Initial_Troops> <!--From 5-->
-							<Max_Troops>5</Max_Troops>
+							<Max_Troops>7</Max_Troops> <!--From 5-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -5594,7 +5594,7 @@
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
-							<Initial_Troops>2</Initial_Troops>
+							<Initial_Troops>4</Initial_Troops> <!--From 2-->
 							<Max_Troops>4</Max_Troops> <!--From 2-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
@@ -5629,7 +5629,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
@@ -5638,16 +5638,16 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
 							<Initial_Troops>7</Initial_Troops> <!--From 5-->
-							<Max_Troops>5</Max_Troops>
+							<Max_Troops>7</Max_Troops> <!--From 5-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
@@ -5656,7 +5656,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 					</Group_Setup>
 				</Group>
@@ -5665,57 +5665,57 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>25</Four_Player>
-							<Three_Player>19</Three_Player>
-							<Two_Player>14</Two_Player>
+							<Four_Player>27</Four_Player> <!--From 25-->
+							<Three_Player>21</Three_Player> <!--From 19-->
+							<Two_Player>16</Two_Player> <!--From 14-->
 							<One_Player>13</One_Player> <!--From 11-->
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>09_heavy_bomb</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>10_heavy_gambit</Troop>
 							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>5</Three_Player>
+							<Three_Player>7</Three_Player> <!--From 5-->
 							<Two_Player>6</Two_Player> <!--From 4-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
@@ -5728,7 +5728,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
@@ -5737,7 +5737,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
@@ -5746,7 +5746,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
@@ -5755,7 +5755,7 @@
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 					</Group_Setup>
 				</Group>
@@ -5939,17 +5939,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>2</Four_Player> <!--From 1-->
-							<Three_Player>5</Three_Player>
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 1-->
+							<Three_Player>5</Three_Player> <!--From 5-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player>
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 2-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 					</Troops>
 					<Group_Setup>
@@ -6010,17 +6010,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 					</Troops>
 					<Group_Setup>
@@ -6054,7 +6054,7 @@
 						<Element>
 							<Num_Players>1</Num_Players>
 							<Initial_Troops>5</Initial_Troops> <!--From 3-->
-							<Max_Troops>5</Max_Troops>
+							<Max_Troops>7</Max_Troops> <!--From 5-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>1</Monoliths>
@@ -6095,30 +6095,30 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>10</Initial_Troops>
+							<Initial_Troops>12</Initial_Troops> <!--From 10-->
 							<Max_Troops>14</Max_Troops> <!--From 12-->
 							<Continue_Threshold>10</Continue_Threshold>
 							<Tentacles>0</Tentacles>
@@ -6145,8 +6145,8 @@
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
-							<Initial_Troops>4</Initial_Troops>
-							<Max_Troops>5</Max_Troops>
+							<Initial_Troops>6</Initial_Troops> <!--From 4-->
+							<Max_Troops>7</Max_Troops> <!--From 5-->
 							<Continue_Threshold>4</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -6166,23 +6166,23 @@
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>6</Four_Player>
-							<Three_Player>5</Three_Player>
-							<Two_Player>3</Two_Player>
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>6</Four_Player> <!--From 6-->
+							<Three_Player>5</Three_Player> <!--From 5-->
+							<Two_Player>4</Two_Player> <!--From 3-->
+							<One_Player>3</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>4</Four_Player>
-							<Three_Player>3</Three_Player>
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Four_Player>6</Four_Player> <!--From 4-->
+							<Three_Player>5</Three_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 					</Troops>
@@ -6260,21 +6260,21 @@
 							<Troop>02_grunt_quill</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -6343,17 +6343,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 2-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 2-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -6416,22 +6416,22 @@
 							<Troop>02_grunt_quill</Troop>
 							<Four_Player>8</Four_Player> <!--From 6-->
 							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>3</Two_Player> <!--From 3-->
+							<Two_Player>4</Two_Player> <!--From 3-->
 							<One_Player>5</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -6527,17 +6527,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 2-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 2-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -6612,17 +6612,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 2-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>3</Four_Player> <!--From 2-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>2</Two_Player> <!--From 1-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 2-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 1-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>09_heavy_bomb</Troop>
@@ -6690,17 +6690,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -6775,17 +6775,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
@@ -6881,17 +6881,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -6968,14 +6968,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -7004,7 +7004,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -7058,17 +7058,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -7150,17 +7150,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
@@ -7263,17 +7263,17 @@
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>5</Four_Player> <!--From 3-->
-							<Three_Player>3</Three_Player> <!--From 2-->
-							<Two_Player>3</Two_Player> <!--From 2-->
-							<One_Player>2</One_Player> <!--From 1-->
+							<Four_Player>6</Four_Player> <!--From 3-->
+							<Three_Player>5</Three_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
+							<One_Player>3</One_Player> <!--From 1-->
 						</Element>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
@@ -7294,7 +7294,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -7350,14 +7350,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -7379,7 +7379,7 @@
 						<Element>
 							<Num_Players>4</Num_Players>
 							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops>
+							<Max_Troops>16</Max_Troops> <!--From 14-->
 							<Continue_Threshold>6</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -7435,14 +7435,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -7520,14 +7520,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -7633,14 +7633,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -7725,14 +7725,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -7817,14 +7817,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -7902,14 +7902,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -8015,14 +8015,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -8107,14 +8107,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -8199,14 +8199,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -8291,14 +8291,14 @@
 							<Troop>03_grunt_ball</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
 							<Four_Player>6</Four_Player> <!--From 4-->
 							<Three_Player>5</Three_Player> <!--From 3-->
-							<Two_Player>3</Two_Player> <!--From 2-->
+							<Two_Player>4</Two_Player> <!--From 2-->
 							<One_Player>3</One_Player> <!--From 2-->
 						</Element>
 						<Element>
@@ -8389,24 +8389,24 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>38</Four_Player> <!--From 36-->
-							<Three_Player>29</Three_Player> <!--From 27-->
-							<Two_Player>23</Two_Player> <!--From 21-->
-							<One_Player>18</One_Player> <!--From 15-->
+							<Four_Player>99</Four_Player> <!--From 36-->
+							<Three_Player>99</Three_Player> <!--From 27-->
+							<Two_Player>99</Two_Player> <!--From 21-->
+							<One_Player>99</One_Player> <!--From 15-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
-							<Four_Player>14</Four_Player> <!--From 12-->
-							<Three_Player>11</Three_Player> <!--From 9-->
-							<Two_Player>9</Two_Player> <!--From 7-->
-							<One_Player>7</One_Player> <!--From 5-->
+							<Four_Player>99</Four_Player> <!--From 12-->
+							<Three_Player>99</Three_Player> <!--From 9-->
+							<Two_Player>99</Two_Player> <!--From 7-->
+							<One_Player>99</One_Player> <!--From 5-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>18</Initial_Troops> <!--From 16-->
-							<Max_Troops>18</Max_Troops> <!--From 16-->
+							<Initial_Troops>40</Initial_Troops> <!--From 16-->
+							<Max_Troops>40</Max_Troops> <!--From 16-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8414,8 +8414,8 @@
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
-							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops> <!--From 12-->
+							<Initial_Troops>30</Initial_Troops> <!--From 12-->
+							<Max_Troops>30</Max_Troops> <!--From 12-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8423,8 +8423,8 @@
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>10</Initial_Troops>
-							<Max_Troops>12</Max_Troops> <!--From 10-->
+							<Initial_Troops>25</Initial_Troops> <!--From 10-->
+							<Max_Troops>25</Max_Troops> <!--From 10-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8432,8 +8432,8 @@
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
-							<Initial_Troops>8</Initial_Troops> <!--From 6-->
-							<Max_Troops>8</Max_Troops> <!--From 6-->
+							<Initial_Troops>20</Initial_Troops> <!--From 6-->
+							<Max_Troops>20</Max_Troops> <!--From 6-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8446,31 +8446,31 @@
 					<Troops>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>12</Four_Player> <!--From 10-->
-							<Three_Player>10</Three_Player> <!--From 8-->
-							<Two_Player>8</Two_Player> <!--From 6-->
-							<One_Player>6</One_Player> <!--From 4-->
+							<Four_Player>99</Four_Player> <!--From 10-->
+							<Three_Player>99</Three_Player> <!--From 8-->
+							<Two_Player>99</Two_Player> <!--From 6-->
+							<One_Player>99</One_Player> <!--From 4-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>12</Four_Player> <!--From 10-->
-							<Three_Player>10</Three_Player> <!--From 8-->
-							<Two_Player>8</Two_Player> <!--From 6-->
-							<One_Player>6</One_Player> <!--From 4-->
+							<Four_Player>99</Four_Player> <!--From 10-->
+							<Three_Player>99</Three_Player> <!--From 8-->
+							<Two_Player>99</Two_Player> <!--From 6-->
+							<One_Player>99</One_Player> <!--From 4-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>12</Four_Player> <!--From 10-->
-							<Three_Player>10</Three_Player> <!--From 8-->
-							<Two_Player>8</Two_Player> <!--From 6-->
-							<One_Player>6</One_Player> <!--From 4-->
+							<Four_Player>99</Four_Player> <!--From 10-->
+							<Three_Player>99</Three_Player> <!--From 8-->
+							<Two_Player>99</Two_Player> <!--From 6-->
+							<One_Player>99</One_Player> <!--From 4-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>10</Initial_Troops> <!--From 8-->
-							<Max_Troops>14</Max_Troops> <!--From 12-->
+							<Initial_Troops>40</Initial_Troops> <!--From 8-->
+							<Max_Troops>40</Max_Troops> <!--From 12-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8478,8 +8478,8 @@
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
-							<Initial_Troops>8</Initial_Troops> <!--From 6-->
-							<Max_Troops>11</Max_Troops> <!--From 9-->
+							<Initial_Troops>30</Initial_Troops> <!--From 6-->
+							<Max_Troops>30</Max_Troops> <!--From 9-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8487,8 +8487,8 @@
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>6</Initial_Troops> <!--From 4-->
-							<Max_Troops>9</Max_Troops> <!--From 7-->
+							<Initial_Troops>25</Initial_Troops> <!--From 4-->
+							<Max_Troops>25</Max_Troops> <!--From 7-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8496,8 +8496,8 @@
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
-							<Initial_Troops>5</Initial_Troops> <!--From 3-->
-							<Max_Troops>7</Max_Troops> <!--From 5-->
+							<Initial_Troops>20</Initial_Troops> <!--From 3-->
+							<Max_Troops>20</Max_Troops> <!--From 5-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8510,17 +8510,17 @@
 					<Troops>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
-							<Four_Player>13</Four_Player> <!--From 12-->
-							<Three_Player>10</Three_Player> <!--From 9-->
-							<Two_Player>8</Two_Player> <!--From 7-->
-							<One_Player>6</One_Player> <!--From 5-->
+							<Four_Player>99</Four_Player> <!--From 12-->
+							<Three_Player>99</Three_Player> <!--From 9-->
+							<Two_Player>99</Two_Player> <!--From 7-->
+							<One_Player>99</One_Player> <!--From 5-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>8</Initial_Troops> <!--From 6-->
-							<Max_Troops>8</Max_Troops> <!--From 6-->
+							<Initial_Troops>40</Initial_Troops> <!--From 6-->
+							<Max_Troops>40</Max_Troops> <!--From 6-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8528,8 +8528,8 @@
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
-							<Initial_Troops>7</Initial_Troops> <!--From 5-->
-							<Max_Troops>7</Max_Troops> <!--From 5-->
+							<Initial_Troops>30</Initial_Troops> <!--From 5-->
+							<Max_Troops>30</Max_Troops> <!--From 5-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8537,8 +8537,8 @@
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>5</Initial_Troops> <!--From 3-->
-							<Max_Troops>5</Max_Troops> <!--From 3-->
+							<Initial_Troops>25</Initial_Troops> <!--From 3-->
+							<Max_Troops>25</Max_Troops> <!--From 3-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8546,8 +8546,8 @@
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
-							<Initial_Troops>4</Initial_Troops> <!--From 2-->
-							<Max_Troops>4</Max_Troops> <!--From 2-->
+							<Initial_Troops>20</Initial_Troops> <!--From 2-->
+							<Max_Troops>20</Max_Troops> <!--From 2-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
@@ -8560,55 +8560,55 @@
 					<Troops>
 						<Element>
 							<Troop>09_heavy_bomb</Troop>
-							<Four_Player>12</Four_Player> <!--From 10-->
-							<Three_Player>10</Three_Player> <!--From 8-->
-							<Two_Player>8</Two_Player> <!--From 6-->
-							<One_Player>6</One_Player> <!--From 4-->
+							<Four_Player>99</Four_Player> <!--From 10-->
+							<Three_Player>99</Three_Player> <!--From 8-->
+							<Two_Player>99</Two_Player> <!--From 6-->
+							<One_Player>99</One_Player> <!--From 4-->
 						</Element>
 						<Element>
 							<Troop>10_heavy_gambit</Troop>
-							<Four_Player>12</Four_Player> <!--From 10-->
-							<Three_Player>10</Three_Player> <!--From 8-->
-							<Two_Player>8</Two_Player> <!--From 6-->
-							<One_Player>6</One_Player> <!--From 4-->
+							<Four_Player>99</Four_Player> <!--From 10-->
+							<Three_Player>99</Three_Player> <!--From 8-->
+							<Two_Player>99</Two_Player> <!--From 6-->
+							<One_Player>99</One_Player> <!--From 4-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>10</Initial_Troops> <!--From 8-->
-							<Max_Troops>10</Max_Troops> <!--From 8-->
+							<Initial_Troops>40</Initial_Troops> <!--From 8-->
+							<Max_Troops>40</Max_Troops> <!--From 8-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
-							<Initial_Troops>8</Initial_Troops> <!--From 6-->
-							<Max_Troops>8</Max_Troops> <!--From 6-->
+							<Initial_Troops>30</Initial_Troops> <!--From 6-->
+							<Max_Troops>30</Max_Troops> <!--From 6-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>7</Initial_Troops> <!--From 5-->
-							<Max_Troops>8</Max_Troops> <!--From 6-->
+							<Initial_Troops>25</Initial_Troops> <!--From 5-->
+							<Max_Troops>25</Max_Troops> <!--From 6-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
-							<Initial_Troops>5</Initial_Troops> <!--From 3-->
-							<Max_Troops>5</Max_Troops> <!--From 3-->
+							<Initial_Troops>20</Initial_Troops> <!--From 3-->
+							<Max_Troops>20</Max_Troops> <!--From 3-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>0</Tentacles>
 							<Monoliths>0</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 					</Group_Setup>
 				</Group>
@@ -8617,97 +8617,97 @@
 					<Troops>
 						<Element>
 							<Troop>01_creeper</Troop>
-							<Four_Player>27</Four_Player> <!--From 25-->
-							<Three_Player>21</Three_Player> <!--From 19-->
-							<Two_Player>16</Two_Player> <!--From 14-->
-							<One_Player>13</One_Player> <!--From 11-->
+							<Four_Player>99</Four_Player> <!--From 25-->
+							<Three_Player>99</Three_Player> <!--From 19-->
+							<Two_Player>99</Two_Player> <!--From 14-->
+							<One_Player>99</One_Player> <!--From 11-->
 						</Element>
 						<Element>
 							<Troop>02_grunt_quill</Troop>
-							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>6</Two_Player> <!--From 4-->
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>99</Four_Player> <!--From 7-->
+							<Three_Player>99</Three_Player> <!--From 5-->
+							<Two_Player>99</Two_Player> <!--From 4-->
+							<One_Player>99</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>03_grunt_ball</Troop>
-							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>6</Two_Player> <!--From 4-->
-							<One_Player>5</One_Player> 
+							<Four_Player>99</Four_Player> <!--From 7-->
+							<Three_Player>99</Three_Player> <!--From 5-->
+							<Two_Player>99</Two_Player> <!--From 4-->
+							<One_Player>99</One_Player> <!--Add Vanilla value-->
 						</Element>
 						<Element>
 							<Troop>04_grunt_boom</Troop>
-							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>6</Two_Player> <!--From 4-->
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>99</Four_Player> <!--From 7-->
+							<Three_Player>99</Three_Player> <!--From 5-->
+							<Two_Player>99</Two_Player> <!--From 4-->
+							<One_Player>99</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>05_big_creeper</Troop>
-							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>6</Two_Player> <!--From 4-->
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>99</Four_Player> <!--From 7-->
+							<Three_Player>99</Three_Player> <!--From 5-->
+							<Two_Player>99</Two_Player> <!--From 4-->
+							<One_Player>99</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>07_amb_EPB</Troop>
-							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>6</Two_Player> <!--From 4-->
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>99</Four_Player> <!--From 7-->
+							<Three_Player>99</Three_Player> <!--From 5-->
+							<Two_Player>99</Two_Player> <!--From 4-->
+							<One_Player>99</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>09_heavy_bomb</Troop>
-							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>6</Two_Player> <!--From 4-->
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>99</Four_Player> <!--From 7-->
+							<Three_Player>99</Three_Player> <!--From 5-->
+							<Two_Player>99</Two_Player> <!--From 4-->
+							<One_Player>99</One_Player> <!--From 3-->
 						</Element>
 						<Element>
 							<Troop>10_heavy_gambit</Troop>
-							<Four_Player>9</Four_Player> <!--From 7-->
-							<Three_Player>7</Three_Player> <!--From 5-->
-							<Two_Player>6</Two_Player> <!--From 4-->
-							<One_Player>5</One_Player> <!--From 3-->
+							<Four_Player>99</Four_Player> <!--From 7-->
+							<Three_Player>99</Three_Player> <!--From 5-->
+							<Two_Player>99</Two_Player> <!--From 4-->
+							<One_Player>99</One_Player> <!--From 3-->
 						</Element>
 					</Troops>
 					<Group_Setup>
 						<Element>
 							<Num_Players>4</Num_Players>
-							<Initial_Troops>14</Initial_Troops> <!--From 12-->
-							<Max_Troops>14</Max_Troops> <!--From 12-->
+							<Initial_Troops>40</Initial_Troops> <!--From 12-->
+							<Max_Troops>40</Max_Troops> <!--From 12-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>1</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>3</Num_Players>
-							<Initial_Troops>11</Initial_Troops> <!--From 9-->
-							<Max_Troops>11</Max_Troops> <!--From 9-->
+							<Initial_Troops>30</Initial_Troops> <!--From 9-->
+							<Max_Troops>30</Max_Troops> <!--From 9-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>1</Monoliths>
-							<Spawn_Delay_ms>2500</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 2500-->
 						</Element>
 						<Element>
 							<Num_Players>2</Num_Players>
-							<Initial_Troops>9</Initial_Troops> <!--From 7-->
-							<Max_Troops>9</Max_Troops> <!--From 7-->
+							<Initial_Troops>25</Initial_Troops> <!--From 7-->
+							<Max_Troops>25</Max_Troops> <!--From 7-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>2</Tentacles>
 							<Monoliths>1</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 						<Element>
 							<Num_Players>1</Num_Players>
-							<Initial_Troops>7</Initial_Troops> <!--From 5-->
-							<Max_Troops>7</Max_Troops> <!--From 5-->
+							<Initial_Troops>20</Initial_Troops> <!--From 5-->
+							<Max_Troops>20</Max_Troops> <!--From 5-->
 							<Continue_Threshold>0</Continue_Threshold>
 							<Tentacles>1</Tentacles>
 							<Monoliths>1</Monoliths>
-							<Spawn_Delay_ms>3000</Spawn_Delay_ms>
+							<Spawn_Delay_ms>1000</Spawn_Delay_ms> <!--From 3000-->
 						</Element>
 					</Group_Setup>
 				</Group>

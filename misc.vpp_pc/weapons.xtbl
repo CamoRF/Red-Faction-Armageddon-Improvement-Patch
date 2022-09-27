@@ -2324,7 +2324,7 @@
 								<Spread_Fine_Aim_Max>5.5</Spread_Fine_Aim_Max>
 								<NPC_Spread_Min>0.5</NPC_Spread_Min>
 								<NPC_Spread_Max>2.5</NPC_Spread_Max>
-								<Player_Refire_Delay_ms>750</Player_Refire_Delay_ms> <!--From 900-->
+								<Player_Refire_Delay_ms>800</Player_Refire_Delay_ms> <!--From 900-->
 								<Visuals>
 									<Muzzle_Flash>wep_shotgun_muzz</Muzzle_Flash>
 									<Fire_Camera_Shake>weapon_fire_autoblast</Fire_Camera_Shake>
