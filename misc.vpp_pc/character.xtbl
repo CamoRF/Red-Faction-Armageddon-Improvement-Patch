@@ -1,6 +1,155 @@
 <root>
 	<Table>
 		<Character>
+			<Team>Civilian</Team>
+			<Name>ch_mar_ass_kara</Name>
+			<Model>
+				<Filename>ch_mar_ass_kara.cmeshx</Filename>
+			</Model>
+			<Rig>
+				<Filename>ch_mar_ass_kara.rigx</Filename>
+				<Preload>true</Preload>
+			</Rig>
+			<Team>Guerilla</Team>
+			<_Editor>
+				<Category>Entries:RF4</Category>
+			</_Editor>
+			<Personas>
+				<Persona>
+					<Event>kara</Event>
+					<Chance>100</Chance>
+				</Persona>
+			</Personas>
+			<FootstepsControl>GUR_PC</FootstepsControl>
+<!--Original-->			
+			<!--<Inventory>
+				<Item>
+					<Item_Name>creeper_claw</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+			</Inventory>-->
+<!--New-->			
+			<Inventory>
+				<Item>
+					<Item_Name>sledgehammer</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>0</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>phased_plasma_rifle</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>1</Item_Slot>
+				</Item>
+			</Inventory>
+			<Sex>female</Sex>
+			<max_hit_points>1000</max_hit_points> <!--From 550-->
+			<knock_down_hits>30</knock_down_hits>
+			<max_speed>5</max_speed>
+			<Flags>
+				<Flag>always face target</Flag>
+				<Flag>ik hands to weapon</Flag> <!--Added-->
+			</Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<origin_district>Common</origin_district>
+			<Audio_Character_Type>RED_FACTION</Audio_Character_Type>
+			<Spinebend_Adjust_Heading>0.0</Spinebend_Adjust_Heading>
+			<Spinebend_Source_Offset>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Spinebend_Source_Offset>
+			<ai_prop>Default</ai_prop>
+			<Animation_Sets>
+<!--Originals-->				
+				<!--<Animation_Set>
+					<Animation_Set>female_var1.xtbl</Animation_Set>
+					<Chance>1.0</Chance>
+				</Animation_Set>
+				<Animation_Set>
+					<Animation_Set>female_var2.xtbl</Animation_Set>
+					<Chance>1.0</Chance>
+				</Animation_Set>
+				<Animation_Set>
+					<Animation_Set>female_var3.xtbl</Animation_Set>
+					<Chance>1.0</Chance>
+				</Animation_Set>-->
+<!--New-->				
+				<Animation_Set>
+					<Animation_Set>vs_player.xtbl</Animation_Set> <!--From "female.xtbl"-->
+					<Chance>1.0</Chance>
+				</Animation_Set>
+			</Animation_Sets>
+			<ragdoll_type>
+				<Filename>ragdoll_human.xtbl</Filename>
+			</ragdoll_type>
+			<Movement_Speed>
+				<Idle_Min>0.0</Idle_Min>
+				<Idle_Average>0.0</Idle_Average>
+				<Idle_Max>0.8</Idle_Max>
+				<Walk_Min>0.7</Walk_Min>
+				<Walk_Average>1.3</Walk_Average>
+				<Walk_Max>2.25</Walk_Max>
+				<Run_Min>2.0</Run_Min>
+				<Run_Average>4.5</Run_Average>
+				<Run_Max>5.75</Run_Max>
+				<Sprint_Min>5.5</Sprint_Min>
+				<Sprint_Average>6.2</Sprint_Average>
+				<Sprint_Max>12.75</Sprint_Max>
+			</Movement_Speed>
+			<Nickname>kara</Nickname>
+			<Aim_Assist_Torso_Offset_Min>0.1</Aim_Assist_Torso_Offset_Min>
+			<Aim_Assist_Torso_Offset_Max>1.0</Aim_Assist_Torso_Offset_Max>
+			<Aim_Assist_Head_Offset_Min>0.1</Aim_Assist_Head_Offset_Min>
+			<Aim_Assist_Head_Offset_Max>1.0</Aim_Assist_Head_Offset_Max>
+			<ModelType>civilian</ModelType>
+			<Spinebend>player</Spinebend> <!--From "civilian"-->
+			<Controller_Type>Player</Controller_Type> <!--From "Human NPC"-->
+			<Fade_Out_Distance>9999</Fade_Out_Distance> <!--From 200-->
+			<Turn_Shuffle_Type>state shuffle</Turn_Shuffle_Type> <!--From "action shuffle"-->
+			<Effect_material_type>Flesh</Effect_material_type>
+			<Hit_Indicator_3D>gp_hit_indicator</Hit_Indicator_3D> <!--START Added-->
+			<Warn_Indicator_3D>gp_warn_indicator</Warn_Indicator_3D>
+			<Indicator_Stand_Offset>
+				<X>0.12</X>
+				<Y>1.7</Y>
+				<Z>0.1</Z>
+			</Indicator_Stand_Offset>
+			<Indicator_Crouch_Offset>
+				<X>0.30</X>
+				<Y>1.20</Y>
+				<Z>0.2</Z>
+			</Indicator_Crouch_Offset> <!--END Added-->
+<!--Original-->			
+			<!--<Indicator_Stand_Offset> 
+				<X>0.0</X>
+				<Y>1.7</Y>
+				<Z>0.0</Z>
+			</Indicator_Stand_Offset>-->
+			<Weapon_Gib_Chance_Multiplier>0.0</Weapon_Gib_Chance_Multiplier>
+			<Min_Fall_Damage_Percent>0.0</Min_Fall_Damage_Percent>
+			<Max_Fall_Damage_Percent>0.0</Max_Fall_Damage_Percent>
+			<Max_Fall_Damage_Speed>24</Max_Fall_Damage_Speed>
+			<Min_Fall_Damage_Speed>12</Min_Fall_Damage_Speed>
+			<Aim_Assist_Torso_Height>1.25</Aim_Assist_Torso_Height>
+			<Min_Thrown_Damage_Speed>0</Min_Thrown_Damage_Speed>
+			<Max_Thrown_Damage_Speed>24</Max_Thrown_Damage_Speed>
+			<Min_Thrown_Damage_Percent>0.0</Min_Thrown_Damage_Percent>
+			<Max_Thrown_Damage_Percent>0.0</Max_Thrown_Damage_Percent>
+			<Thrown_Gib_Chance>0.0</Thrown_Gib_Chance>
+			<Container_Type>human</Container_Type>
+			<Blend_Tree>player</Blend_Tree> <!--From npc-->
+			<Walk_Ramp_Frames>0</Walk_Ramp_Frames>
+			<Fine_Aim_Snap_Head_Radius>0.2</Fine_Aim_Snap_Head_Radius>
+			<Mass>90.0</Mass>
+			<Collision_Push_Max_Mass>1750.0</Collision_Push_Max_Mass>
+			<Fine_Aim_Snap_Heading_Adjust_Cutoff>1.0</Fine_Aim_Snap_Heading_Adjust_Cutoff>
+			<Fine_Aim_Snap_Pitch_Adjust_Cutoff>1.0</Fine_Aim_Snap_Pitch_Adjust_Cutoff>
+			<MovingTurnShuffleMinAngle>90.0</MovingTurnShuffleMinAngle>
+			<mp_death_pain_voice>rfh</mp_death_pain_voice> <!--Added-->
+			<Collision_Push_Velocity_Multiplier>0.4</Collision_Push_Velocity_Multiplier>
+		</Character>		
+		<Character>
 			<Team>Red Faction</Team>
 			<Name>ch_civ_ass_snake_mp</Name>
 			<Model>
