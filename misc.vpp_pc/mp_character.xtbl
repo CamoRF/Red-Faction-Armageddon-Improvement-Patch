@@ -37,6 +37,14 @@
 				</Character_Element>
 				
 				<Character_Element>
+					<Character_Name>ch_mar_ass_kara</Character_Name>
+					<Display_Name>Kara</Display_Name>
+					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
+					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+					<health_image>ui_mp_port_blank</health_image>
+				</Character_Element>
+				
+				<Character_Element>
 					<Character_Name>RF4_outer_hd</Character_Name>
 					<Display_Name>Darius</Display_Name>
 					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
@@ -95,13 +103,7 @@
 				</Character_Element>
 <!--END Roster Selection-->				
 <!--BROKEN, try swapping her anim rig to a playable character-->			
-				<!--<Character_Element>
-					<Character_Name>ch_mar_ass_kara</Character_Name>
-					<Display_Name>Kara</Display_Name>
-					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
-					<health_image>ui_mp_port_blank</health_image>
-				</Character_Element>-->
+
 			</Character_Grid>
 			<_Editor>
 				<Category>NewCategory</Category>
