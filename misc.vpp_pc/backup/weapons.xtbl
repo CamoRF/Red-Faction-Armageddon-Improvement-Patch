@@ -6992,7 +6992,7 @@
 								<Shot_Type>
 									<Repair>
 										<repair_offset>2.0</repair_offset>
-										<repair_radius>3.0</repair_radius> <!--From 2.0-->
+										<repair_radius>2.0</repair_radius>
 										<repair_rate>-1</repair_rate>
 										<repair_cloud_effect>wep_reconstructor_swarm_a</repair_cloud_effect>
 										<repair_stream_effect>wep_reconstructor_muzzle_a</repair_stream_effect>
@@ -8235,9 +8235,9 @@
 								<Shot_Type>
 									<Launcher>
 										<Projectile>repair_grenade</Projectile>
-										<Launch_Speed>22.5</Launch_Speed> <!--From 20-->
+										<Launch_Speed>20.0</Launch_Speed>
 										<Max_Simultaneous_Projectiles>2</Max_Simultaneous_Projectiles>
-										<Delete_Old_Projectiles>False</Delete_Old_Projectiles> <!--From True-->
+										<Delete_Old_Projectiles>True</Delete_Old_Projectiles>
 										<Force_Muzzle_Orient>False</Force_Muzzle_Orient>
 										<Launch_To_Aim_Position>True</Launch_To_Aim_Position>
 										<Autoaim_With_Lockon>False</Autoaim_With_Lockon>

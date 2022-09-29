@@ -5,25 +5,25 @@ To do
 Balance
 --------
 * Increase alien spawns in singleplayer - 
-
+* Increase alien spawns in waves - up to wave 15 i think
 * Nerf Queen (nerf queen beam in weapons.xtbl?) -
 * Nerf hales walker hitpoints - 
 * Nerf bullet sponge cultists; bleed out data in character.xtbl file, weapons can also be rebalanced - 
+* Continue tweaking bleedout and revive system - 
 * Adjust rubberbounding file - 
 * Balance salvage multipliers -
 * Disable player flinch, landing animations, exo flinch and landing animations to compliment other fast movement changes? - 
+* Decrease player jump delay - 
 * Add salvage drops to all structures - 
 * Reduce revival speed time, it shouldn't be instant -
+* Remove delay before using repair ability in SP - 
+* Increase ladder climbing speed even more (+2) or so -
 * Increase walking speed of Exo's - 
-* Balance nanoforge_abilities.xtbl
 
 Bugs
 -----
-
-* Remake mod using GOG files (cutscene files?) - 
-* Fix typos in help messages like the one about middle clicking to repair "defend" and bad grammar with some others 
-* Add custom strings when possible for map names and map descriptions
-* Improve sledgehammer animations for Kara
+* Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete -
+* Remake mod using GOG files - 
 
 Features
 --------
@@ -32,9 +32,6 @@ Features
 * Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl - 
 * Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective - 
 * Night version of Dust Survival -
-* spawn_resource.xtbl might use spawn_group_human.xtbl, might be possible to add the grunts that 
-don't destroy the buildings back to survival version of defense maps
-* Figure out annoying alien names
 
 Weapons
 --------
@@ -71,7 +68,6 @@ Test
 * Arc welder, AR, shotgun, laser pistols all need changes from Infestation as a base - wip
 * Decrease assault rifle recoil and camera recoil slightly in singleplayer - wip
 * Increase assault rifle firerate in singleplayer - wip
-* Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete - test
 
 -----------
 Low Priorty
@@ -144,16 +140,6 @@ Done
 * Restore kill barriers, you can get stuck in singleplayer and infestation
 * Add collide_as_mover_not_with_humans to gibs and weapon clips/mags
 * Adjust proxy limit in tweak_table.xtbl
-* Increase ladder climbing speed even more (+2) or so -
-* Remove player jump delay - 
-* Increase alien spawns in waves - up to wave 15 i think
-* Remove delay before using repair ability in SP - 
-* Increased respawn time to 2.5 seconds in multiplayer
-* Reduced bleed out time to 20 seconds in multiplayer 
-* Increased monolith health multiplier by 0.5 for all player counts in multiplayer
-* Increased repair grenade delay to 2.5 seconds for 1 player, 3 seconds for 2 players, 4 seconds for 3 players and 5 seconds for 4 players in multiplayer
-* Continue tweaking bleedout and revive system - 
-* Various improvements to AI behaviour, leaping, Intelligence, evaluation period, melee cooldowns etc
 
 ----
 Notes
@@ -177,9 +163,3 @@ Notes
 - Grunt Quill - Doesn't work.
 - Monolith Gun - Functional. Just need particle adjustments and a cooldown.
 - Queen Beam - N.O.
-- Casual = Game Journalist Mode.
-  Normal = Average. Not challenging or hard, not braindead.
-  Hard = Challenging, but balanced and fair.
-  Insane = A true challenge for pros. But beatable with experience. 
-- Map order: Canon > bonus maps > dark map canon > bonus dark maps  
-
