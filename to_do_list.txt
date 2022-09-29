@@ -24,6 +24,7 @@ Bugs
 * Fix typos in help messages like the one about middle clicking to repair "defend" and bad grammar with some others 
 * Add custom strings when possible for map names and map descriptions
 * Improve sledgehammer animations for Kara
+* Delete all cutscene, story, quest, mission etc files from formatted and optimized (keep them organized in a sep folder but don't use them)
 
 Features
 --------
