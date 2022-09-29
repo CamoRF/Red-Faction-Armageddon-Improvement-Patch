@@ -1,76 +1,6 @@
 <root>
-	<Table>
-<!--START Bonus-->
-		<mp_level_list>
-			<Name>mp_melt_survival</Name>
-			<Filename>mp_inf01</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Meltdown</Description>
-			<Display_name>Survival Meltdown</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_melt</level_image_name>
-			<Load_image>ui_mp_load_melt</Load_image>
-			<Audio>
-				<Music_Mode_Name>MP_Alpha</Music_Mode_Name>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-			</Audio>
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>SURVIVAL MELTDOWN</Display_name_uppercase>
-		</mp_level_list>		
-		
-		<mp_level_list>
-			<Name>mp_pressure_survival</Name>
-			<Filename>mp_inf02</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Pressure</Description>
-			<Display_name>Survival Pressure</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_pressure</level_image_name>
-			<Load_image>ui_mp_load_pressure</Load_image>
-			<Audio>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-				<Music_Mode_Name>MP_Bravo</Music_Mode_Name>
-			</Audio>
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>SURVIVAL PRESSURE</Display_name_uppercase>
-		</mp_level_list>		
-		
+	<Table>	
+<!--START Added-->
 		<mp_level_list>
 			<Name>mp_dust_survival</Name>
 			<Filename>mp_inf03</Filename>
@@ -87,277 +17,25 @@
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
 			</team_deathmatch>
-			<Description>Survival on Dust</Description>
+			<Description>MP_CHARLIE_DESCRIPTION</Description>
 			<Display_name>Survival Dust</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>infestation</Flag>
 			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
+			<distance_multiplier>1.0</distance_multiplier>
+			<resource_reservation>mp_infestation_dust</resource_reservation>
 			<level_image_name>ui_mp_lobby_dust</level_image_name>
 			<Load_image>ui_mp_load_dust</Load_image>
 			<Audio>
 				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
 				<Music_Mode_Name>MP_Charlie</Music_Mode_Name>
 			</Audio>
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
+			<IgnoreTentacles>False</IgnoreTentacles>
+			<is_defend_objective>False</is_defend_objective> <!--From True-->
 			<Display_name_uppercase>SURVIVAL DUST</Display_name_uppercase>
 		</mp_level_list>
-		
-		<mp_level_list>
-			<Name>mp_trap_survival</Name>
-			<Filename>mp_inf04</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Trapped</Description>
-			<Display_name>Survival Trapped</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_trap</level_image_name>
-			<Load_image>ui_mp_load_trap</Load_image>
-			<Audio>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-				<Music_Mode_Name>MP_Delta</Music_Mode_Name>
-			</Audio>
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>SURVIVAL TRAPPED</Display_name_uppercase>
-		</mp_level_list>		
-		
-		<mp_level_list>
-			<Name>mp_harvest_survival</Name>
-			<Filename>mp_inf05</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Harvest</Description>
-			<Display_name>Survival Harvest</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_harvest</level_image_name>
-			<Load_image>ui_mp_load_harvest</Load_image>
-			<Audio>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-				<Music_Mode_Name>MP_Echo</Music_Mode_Name>
-			</Audio>
-			<IgnoreTentacles>False</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>SURVIVAL HARVEST</Display_name_uppercase>
-		</mp_level_list>	
-<!--END Bonus Maps-->
-<!--START Bonus Dark Maps-->
-		
-		<mp_level_list>
-			<Name>mp_melt_survival_dark</Name>
-			<Filename>mp_inf01d</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Meltdown</Description>
-			<Display_name>Survival Meltdown Dark</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_melt_dark</level_image_name>
-			<Load_image>ui_mp_load_melt_dark</Load_image>
-			<Audio>
-				<Music_Mode_Name>MP_Alpha</Music_Mode_Name>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-			</Audio>
-			<!--<light_mode_counterpart>mp_inf01</light_mode_counterpart>-->
-			<IgnoreTentacles>False</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>SURVIVAL MELTDOWN DARK</Display_name_uppercase>
-		</mp_level_list>
-		
-		<mp_level_list>
-			<Name>mp_pressure_survival_dark</Name>
-			<Filename>mp_inf02d</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Pressure</Description>
-			<Display_name>Survival Pressure Dark</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_pressure_dark</level_image_name>
-			<Load_image>ui_mp_load_pressure_dark</Load_image>
-			<Audio>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-				<Music_Mode_Name>MP_Bravo</Music_Mode_Name>
-			</Audio>
-			<!--<light_mode_counterpart>mp_inf02</light_mode_counterpart>-->
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>SURVIVAL PRESSURE DARK</Display_name_uppercase>
-		</mp_level_list>
-		
-		<mp_level_list>
-			<Name>mp_dust_survival_dark</Name>
-			<Filename>mp_inf03d</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Dust</Description>
-			<Display_name>Survival Dust Dark</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_dust_dark</level_image_name>
-			<Load_image>ui_mp_load_dust_dark</Load_image>
-			<Audio>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-				<Music_Mode_Name>MP_Charlie</Music_Mode_Name>
-			</Audio>
-			<!--<light_mode_counterpart>mp_inf03</light_mode_counterpart>-->
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>SURVIVAL DUST DARK</Display_name_uppercase>
-		</mp_level_list>
-		
-		<mp_level_list>
-			<Name>mp_trapped_survival_dark</Name>
-			<Filename>mp_inf04d</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Trapped</Description>
-			<Display_name>Trapped Survival Dark</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_trap_dark</level_image_name>
-			<Load_image>ui_mp_load_trap_dark</Load_image>
-			<Audio>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-				<Music_Mode_Name>MP_Delta</Music_Mode_Name>
-			</Audio>
-			<!--<light_mode_counterpart>mp_inf04</light_mode_counterpart>-->
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>TRAPPED SURVIVAL DARK</Display_name_uppercase>
-		</mp_level_list>		
-		
-		<mp_level_list>
-			<Name>mp_harvest_survival_dark</Name>
-			<Filename>mp_inf05d</Filename>
-			<_Editor>
-				<Category>Entries:shipping</Category>
-			</_Editor>		
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<Description>Survival on Harvest</Description>
-			<Display_name>Harvest Survival Dark</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>infestation</Flag>
-			</mode_flags>
-			<distance_multiplier>-2147483647</distance_multiplier>
-			<resource_reservation>mp_infestation_bonus</resource_reservation>
-			<level_image_name>ui_mp_lobby_harvest_dark</level_image_name>
-			<Load_image>ui_mp_load_harvest_dark</Load_image>
-			<Audio>
-				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
-				<Music_Mode_Name>MP_Echo</Music_Mode_Name>
-			</Audio>
-			<!--<light_mode_counterpart>mp_inf05</light_mode_counterpart>-->
-			<IgnoreTentacles>True</IgnoreTentacles>
-			<is_defend_objective>False</is_defend_objective>
-			<Display_name_uppercase>HARVEST SURVIVAL DARK</Display_name_uppercase>
-		</mp_level_list>
-<!--END Bonus Dark Maps-->		
+<!--END Added-->	
 		<mp_level_list>
 			<Name>mp_inf01</Name>
 			<Filename>mp_inf01</Filename>
@@ -392,7 +70,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_ALPHA_NAME_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf02</Name>
 			<Filename>mp_inf02</Filename>
@@ -427,7 +104,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_BRAVO_NAME_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf03</Name>
 			<Filename>mp_inf03</Filename>
@@ -462,7 +138,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_CHARLIE_NAME_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf04</Name>
 			<Filename>mp_inf04</Filename>
@@ -497,7 +172,6 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_DELTA_NAME_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf05</Name>
 			<Filename>mp_inf05</Filename>
@@ -532,7 +206,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_ECHO_NAME_UC</Display_name_uppercase>
 		</mp_level_list>		
-		
 		<mp_level_list>
 			<Name>mp_inf06</Name>
 			<Filename>mp_inf06</Filename>
@@ -566,8 +239,7 @@
 			<IgnoreTentacles>True</IgnoreTentacles>
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_FOXTROT_NAME_UC</Display_name_uppercase>
-		</mp_level_list>	
-		
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>mp_inf07</Name>
 			<Filename>mp_inf07</Filename>
@@ -602,7 +274,6 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_GOLF_NAME_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf08</Name>
 			<Filename>mp_inf08</Filename>
@@ -637,7 +308,6 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_HOTEL_NAME_UC</Display_name_uppercase>
 		</mp_level_list>
-<!--START Dark Maps-->		
 		<mp_level_list>
 			<Name>mp_inf01d</Name>
 			<Filename>mp_inf01d</Filename>
@@ -673,7 +343,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_ALPHA_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf02d</Name>
 			<Filename>mp_inf02d</Filename>
@@ -709,7 +378,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_BRAVO_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf03d</Name>
 			<Filename>mp_inf03d</Filename>
@@ -745,7 +413,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_CHARLIE_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf04d</Name>
 			<Filename>mp_inf04d</Filename>
@@ -781,7 +448,6 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_DELTA_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>		
-		
 		<mp_level_list>
 			<Name>mp_inf05d</Name>
 			<Filename>mp_inf05d</Filename>
@@ -817,7 +483,6 @@
 			<is_defend_objective>True</is_defend_objective>
 			<Display_name_uppercase>MP_ECHO_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>
-		
 		<mp_level_list>
 			<Name>mp_inf06d</Name>
 			<Filename>mp_inf06d</Filename>
@@ -853,7 +518,6 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_FOXTROT_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>		
-		
 		<mp_level_list>
 			<Name>mp_inf07d</Name>
 			<Filename>mp_inf07d</Filename>
@@ -889,7 +553,6 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_GOLF_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>		
-		
 		<mp_level_list>
 			<Name>mp_inf08d</Name>
 			<Filename>mp_inf08d</Filename>
@@ -925,7 +588,6 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_HOTEL_NAME_DARK_UC</Display_name_uppercase>
 		</mp_level_list>
-<!--END Dark Maps-->
 	</Table>
 	<TableTemplates>
 	</TableTemplates>

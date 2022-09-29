@@ -14,10 +14,75 @@
 					<npc_group>ch_leg_ass_gruntLow</npc_group>
 				</npc_info>
 			</npc_list>
+		</spawn_resource_entry>		 
+		<spawn_resource_entry>
+			<Name>mp_infestation_hard</Name>
+			<npc_list>
+				<npc_info>
+					<npc_group>ch_leg_ass_grunt</npc_group>
+				</npc_info>
+				<npc_info>
+					<npc_group>ch_leg_ass_grunt</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>ch_leg_ass_heavy</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>ch_leg_ass_heavy</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>ch_red_ass_winters_mp</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>ch_civ_ass_snake_mp</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>ch_red_ass_assault_mp</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>ch_mar_ass_specops_mp</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>monolith_large</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>monolith_medium</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>monolith_small</npc_group>
+				</npc_info>			
+				<npc_info>
+					<npc_group>RF4_RF_hd</npc_group>
+				</npc_info>					
+				<npc_info>
+					<npc_group>RF4_RF_hu</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>RF4_outer_hd</npc_group>
+				</npc_info>					
+				<npc_info>
+					<npc_group>RF4_outer_hu</npc_group>
+				</npc_info>				
+				<npc_info>
+					<npc_group>RF4_Cave_D3</npc_group>
+				</npc_info>					
+				<npc_info>
+					<npc_group>RF4_DLC1</npc_group>
+				</npc_info>	
+				<npc_info>
+					<npc_group>RF4_DLC2</npc_group>
+				</npc_info>		
+				<npc_info>
+					<npc_group>ch_mar_ass_kara</npc_group>
+				</npc_info>
+			</npc_list>
 		</spawn_resource_entry>
 		<spawn_resource_entry>
-			<Name>mp_infestation_bonus</Name>
+			<Name>mp_infestation_dust</Name>
 			<npc_list>
+				<npc_info>
+					<npc_group>ch_leg_ass_creeper</npc_group>
+				</npc_info>
 				<npc_info>
 					<npc_group>ch_leg_ass_creeper</npc_group>
 				</npc_info>
@@ -52,9 +117,6 @@
 					<npc_group>monolith_small</npc_group>
 				</npc_info>					
 				<npc_info>
-					<npc_group>ch_mar_ass_kara</npc_group>
-				</npc_info>
-				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>
 				</npc_info>	
 				<npc_info>
@@ -74,6 +136,9 @@
 				</npc_info>	
 				<npc_info>
 					<npc_group>RF4_DLC2</npc_group>
+				</npc_info>		
+				<npc_info>
+					<npc_group>ch_mar_ass_kara</npc_group>
 				</npc_info>
 			</npc_list>	
 			<_Editor>
@@ -117,9 +182,6 @@
 					<npc_group>monolith_small</npc_group>
 				</npc_info>
 				<npc_info>
-					<npc_group>ch_mar_ass_kara</npc_group>
-				</npc_info>				
-				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>
 				</npc_info>	
 				<npc_info>
@@ -139,6 +201,9 @@
 				</npc_info>	
 				<npc_info>
 					<npc_group>RF4_DLC2</npc_group>
+				</npc_info>		
+				<npc_info>
+					<npc_group>ch_mar_ass_kara</npc_group>
 				</npc_info>
 			</npc_list>
 			<_Editor>
