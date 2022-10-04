@@ -40,7 +40,7 @@
 					<Character_Name>ch_mar_ass_kara</Character_Name>
 					<Display_Name>Kara</Display_Name>
 					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+					<loading_screen_image>ui_loading_kara</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
 				
@@ -58,7 +58,7 @@
 					<Character_Name>RF4_Cave_D3</Character_Name>
 					<Display_Name>Darius (End Game)</Display_Name>
 					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
-					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+					<loading_screen_image>ui_sp_stats_darius_5</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
 				
@@ -66,7 +66,7 @@
 					<Character_Name>RF4_RF_hu</Character_Name>
 					<Display_Name>Darius (Red Faction Storm)</Display_Name>
 					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
+					<loading_screen_image>ui_sp_stats_darius_4</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
 				
@@ -74,7 +74,7 @@
 					<Character_Name>RF4_RF_hd</Character_Name>
 					<Display_Name>Darius (Red Faction)</Display_Name>
 					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
+					<loading_screen_image>ui_sp_stats_darius_1</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
 				
@@ -82,7 +82,7 @@
 					<Character_Name>RF4_outer_hu</Character_Name>
 					<Display_Name>Darius (Storm)</Display_Name>
 					<Bitmap_Name>ui_mp_port_blank</Bitmap_Name>
-					<loading_screen_image>ui_sp_stats_darius_2</loading_screen_image>
+					<loading_screen_image>ui_sp_stats_darius_3</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
 				
@@ -90,7 +90,7 @@
 					<Character_Name>RF4_DLC1</Character_Name>
 					<Display_Name>Darius (Recon)</Display_Name>
 					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
-					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+					<loading_screen_image>ui_loading_dlc1_profile</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>				
 				
@@ -98,7 +98,7 @@
 					<Character_Name>RF4_DLC2</Character_Name>
 					<Display_Name>Darius (Commando)</Display_Name>
 					<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
-					<loading_screen_image>ui_mp_load_avatar_random</loading_screen_image>
+					<loading_screen_image>ui_loading_dlc2_profile</loading_screen_image>
 					<health_image>ui_mp_port_blank</health_image>
 				</Character_Element>
 <!--END Roster Selection-->				
