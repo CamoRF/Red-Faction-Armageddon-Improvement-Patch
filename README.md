@@ -1,4 +1,4 @@
-# Red Faction Armageddon Improvement Patch
+![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/camo-testing/Logo_Temp2.png?raw=true "Logo")
 - Version: v0.xx Pre Pre Alpha 21-9-2022 Build 909
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
 
