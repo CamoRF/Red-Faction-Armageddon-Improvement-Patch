@@ -15,7 +15,7 @@ https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 # Credits
 
 [HeyItsDuke](https://github.com/HeyItsDuke) for Research, Testing, Quality Assurance, and LOTS of Help!
-[MartianMadman] (https://github.com/MartianMadman) for Research on Engine limitation and bugs!
+[MartianMadman](https://github.com/MartianMadman) for Research on Engine limitation and bugs!
 
 # Style Guidelines
 
@@ -93,9 +93,6 @@ https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 
 # TODO
 See [Here](https://github.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/blob/main/to_do_list.txt) 
-
-# Development
-[Placeholder]
 
 # Known Bugs
 [Placeholder]
