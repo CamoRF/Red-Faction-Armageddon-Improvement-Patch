@@ -1,5 +1,5 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/camo-testing/Logo_Temp2.png?raw=true "Logo")
-- Version: v0.xx Pre Pre Alpha 21-9-2022 Build 909
+- Version: v0.xx Pre Pre Alpha 23-9-2022 Build 1110
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
 
 This patch is still in development and is not officially released. It is not advised to install this patch for a regular playthrough until development is finished. Please back up your "player_options.rfao_pc" file and any desired save files prior to installation. 
@@ -15,6 +15,12 @@ https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 # Credits
 
 [HeyItsDuke](https://github.com/HeyItsDuke) for Research, Testing, Quality Assurance, and LOTS of Help!
+[MartianMadman] (https://github.com/MartianMadman) for Research on Engine limitation and bugs!
+
+# Style Guidelines
+
+- Please format all XML like files with https://jsonformatter.org/xml-formatter 
+- Add comments so vanilla values are noted Eg. <!--From xxx--> or <!--Added--> 
 
 # Changelog
 * All objects now cast shadows 
@@ -83,13 +89,7 @@ https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 
 # Installing
 
-1. Install the files in optimized to both misc and table folders first
-2. Install the files in XTBL to both of those folders next and override if asked
-3. Install the interface files to interface and override; packVPP all of the folders
-4. Use Camo's compression scripts to compress misc and table .vpp_pc files
-5. Compressed files will be in the proper folder as an unnamed .vpp_pc file. Name file to proper name and install to RFA's build/pc/cache folder
-
-NOTE: Interface doesn't like compression nor does it need it
+1. Placeholder
 
 # TODO
 See [Here](https://github.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/blob/main/to_do_list.txt) 
