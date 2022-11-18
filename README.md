@@ -19,8 +19,8 @@ https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 
 # Style Guidelines
 
-- Please format all XML like files with https://jsonformatter.org/xml-formatter 
-- Add comments so vanilla values are noted Eg. <!--From xxx--> or <!--Added--> 
+- Please format all XML like files with https://jsonformatter.org/xml-formatter. 
+- Add comments so vanilla values are noted. 
 
 # Changelog
 * All objects now cast shadows 
