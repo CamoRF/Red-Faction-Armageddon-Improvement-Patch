@@ -14,8 +14,8 @@ https://www.redfactionwiki.com/wiki/Red_Faction_Armageddon_FAQ
 
 # Credits
 
-[HeyItsDuke](https://github.com/HeyItsDuke) for Research, Testing, Quality Assurance, and LOTS of Help!
-[MartianMadman](https://github.com/MartianMadman) for Research on Engine limitation and bugs!
+- [HeyItsDuke](https://github.com/HeyItsDuke) for research, testing, QA, and help!
+- [MartianMadman](https://github.com/MartianMadman) for research on engine limitations and bugs!
 
 # Style Guidelines
 
