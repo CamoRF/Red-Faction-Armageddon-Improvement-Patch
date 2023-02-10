@@ -1,5 +1,37 @@
 <root>
 	<Table>
+<!--START DLC Weapons ADDED-->		
+		<Inventory_Item>
+			<Name>dlc04_shard_storm</Name>
+			<Display_Name>DLC04_WEAP_SHARD_STORM</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Dont_Save_To_Player_Inventory>False</Dont_Save_To_Player_Inventory>
+			<Description>DLC04_WEAP_SHARD_STORM_DESC</Description>
+			<Full_Render_Image>
+				<Filename>ui_weapon_dlc_01.tga</Filename>
+			</Full_Render_Image>
+		</Inventory_Item>
+		<Inventory_Item>
+			<Name>dlc04_sharpshooter</Name>
+			<Display_Name>DLC04_WEAP_SHARPSHOOTER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Dont_Save_To_Player_Inventory>False</Dont_Save_To_Player_Inventory>
+			<Description>DLC04_WEAP_SHARPSHOOTER_DESC</Description>
+			<Full_Render_Image>
+				<Filename>ui_weapon_dlc_02.tga</Filename>
+			</Full_Render_Image>
+		</Inventory_Item>
+<!--END-->		
 		<Inventory_Item>
 			<Name>shotgun</Name>
 			<Display_Name>WEAP_SHOTGUN</Display_Name>

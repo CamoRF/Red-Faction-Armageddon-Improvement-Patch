@@ -1,5 +1,102 @@
 <root>
 	<Table>
+<!--START DLC Weapons ADDED-->
+		<Item>
+			<Name>dlc04_shard_storm</Name>
+			<Item_Flags>
+				<Flag>high_res_map</Flag>
+				<Flag>cast_shadows</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>nano_mg.smeshx</Filename>
+			</Mesh>
+			<Fade_Out_Distance>50</Fade_Out_Distance>
+			<Touch_Script>
+				<give_item></give_item>
+			</Touch_Script>
+			<Touch_Sound>ITM_WEP_PICKUP_LG</Touch_Sound>
+			<Touch_Sound_2>ITM_AMMO_PICKUP_LG</Touch_Sound_2>
+			<Respawn_Delay>30000</Respawn_Delay>
+			<Collision_Sound>WEP_GENERIC_DROP</Collision_Sound>
+			<streaming_category>General (preloaded)</streaming_category>
+			<mp_preload>False</mp_preload>
+			<Looping_Effects>
+				<Looping_Effect>
+					<Name>wep_light_mar</Name>
+					<Mesh_Tag_Name>primary_weapon_handle</Mesh_Tag_Name>
+					<Maintain_Flat_Orient>False</Maintain_Flat_Orient>
+					<Type>Held</Type>
+				</Looping_Effect>
+				<Looping_Effect>
+					<Name>item_weapon</Name>
+					<Maintain_Flat_Orient>True</Maintain_Flat_Orient>
+					<Type>Not Owned</Type>
+				</Looping_Effect>
+			</Looping_Effects>
+			<_Editor>
+				<Category>Entries:WeaponsMarauder</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>dlc04_sharpshooter</Name>
+			<Item_Flags>
+				<Flag>high_res_map</Flag>
+				<Flag>cast_shadows</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>generoblasta.smeshx</Filename>
+			</Mesh>
+			<Fade_Out_Distance>50</Fade_Out_Distance>
+			<Touch_Script>
+				<give_item></give_item>
+			</Touch_Script>
+			<Touch_Sound>ITM_WEP_PICKUP_LG</Touch_Sound>
+			<Touch_Sound_2>ITM_AMMO_PICKUP_LG</Touch_Sound_2>
+			<Respawn_Delay>30000</Respawn_Delay>
+			<Collision_Sound>WEP_GENERIC_DROP</Collision_Sound>
+			<streaming_category>General (preloaded)</streaming_category>
+			<mp_preload>False</mp_preload>
+			<Looping_Effects>
+				<Looping_Effect>
+					<Name>wep_light_mar</Name>
+					<Mesh_Tag_Name>primary_weapon_handle</Mesh_Tag_Name>
+					<Maintain_Flat_Orient>False</Maintain_Flat_Orient>
+					<Type>Held</Type>
+				</Looping_Effect>
+				<Looping_Effect>
+					<Name>item_weapon</Name>
+					<Maintain_Flat_Orient>True</Maintain_Flat_Orient>
+					<Type>Not Owned</Type>
+				</Looping_Effect>
+			</Looping_Effects>
+			<_Editor>
+				<Category>Entries:WeaponsMarauder</Category>
+			</_Editor>
+			<Props>
+				<Prop>
+					<Name>dlc04_sharpshooter_clip</Name>
+					<Attach_tag>clip_bone</Attach_tag>
+					<Type>clip</Type>
+				</Prop>
+			</Props>
+		</Item>
+		<Item>
+			<Name>dlc04_sharpshooter_clip</Name>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>genero_clip.smeshx</Filename>
+			</Mesh>
+			<Fade_Out_Distance>50</Fade_Out_Distance>
+			<Respawn_Delay>30000</Respawn_Delay>
+			<streaming_category>General (preloaded)</streaming_category>
+			<mp_preload>False</mp_preload>
+			<_Editor>
+				<Category>Entries:WeaponsMarauder</Category>
+			</_Editor>
+		</Item>
+<!--END-->		
 		<Item>
 			<Name>audio_drop</Name>
 			<Spin_Time>3000</Spin_Time>
