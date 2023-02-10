@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--START DLC Weapons ADDED-->
-		<Projectile>
+<!--		<Projectile>
 			<Name>dlc04_sharpshooter_proj</Name>
 			<Unique_ID>59</Unique_ID>
 			<Object_Item>sniper_resin_test_proj</Object_Item>
@@ -171,7 +171,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Projectile>
+		</Projectile>-->
 <!--END-->		
 		<Projectile>
 			<Name>behemoth_intercept_attractee</Name>

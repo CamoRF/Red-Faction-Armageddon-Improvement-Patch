@@ -1,7 +1,8 @@
 <root>
 	<Table>
+<!--NOTE: This file seems to be at least one of the files causing a crash when porting/transferring DLC weapons to the base game, tried renaming them and commenting out test items so far-->	
 <!--START DLC Weapons ADDED-->
-		<Item>
+<!--		<Item>
 			<Name>dlc04_shard_storm</Name>
 			<Item_Flags>
 				<Flag>high_res_map</Flag>
@@ -95,7 +96,7 @@
 			<_Editor>
 				<Category>Entries:WeaponsMarauder</Category>
 			</_Editor>
-		</Item>
+		</Item>-->
 <!--END-->		
 		<Item>
 			<Name>audio_drop</Name>

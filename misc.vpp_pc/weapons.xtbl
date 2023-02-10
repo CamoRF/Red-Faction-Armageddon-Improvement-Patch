@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--START DLC Weapons ADDED-->
-		<Weapon>
+<!--		<Weapon>
 			<Name>dlc04_shard_storm</Name>
 			<Unique_ID>125</Unique_ID>
 			<Inventory_Item>dlc04_shard_storm</Inventory_Item>
@@ -18,6 +18,7 @@
 				<Flag>can unlock</Flag>
 				<Flag>fade when dropped on death</Flag>
 				<Flag>shardstorm</Flag>
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Firing_Mode_Slots>
 				<Firing_Mode_Slot>
@@ -154,6 +155,7 @@
 				<Flag>fade when dropped on death</Flag>
 				<Flag>allow sprint reload</Flag>
 				<Flag>sharpshooter</Flag>
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Firing_Mode_Slots>
 				<Firing_Mode_Slot>
@@ -261,7 +263,7 @@
 			<Interface_Priority_SP>31</Interface_Priority_SP>
 			<Interface_Priority_MP>254</Interface_Priority_MP>
 			<Interface_Priority_Ruin_Mode>255</Interface_Priority_Ruin_Mode>
-		</Weapon>
+		</Weapon>-->
 <!--END-->		
 		<Weapon>
 			<Name>Mar_Heavy_Walker_rocket_laser</Name>

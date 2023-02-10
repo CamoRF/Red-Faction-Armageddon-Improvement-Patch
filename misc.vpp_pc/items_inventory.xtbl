@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--START DLC Weapons ADDED-->		
-		<Inventory_Item>
+<!--		<Inventory_Item>
 			<Name>dlc04_shard_storm</Name>
 			<Display_Name>DLC04_WEAP_SHARD_STORM</Display_Name>
 			<Cost>100</Cost>
@@ -30,7 +30,7 @@
 			<Full_Render_Image>
 				<Filename>ui_weapon_dlc_02.tga</Filename>
 			</Full_Render_Image>
-		</Inventory_Item>
+		</Inventory_Item>-->
 <!--END-->		
 		<Inventory_Item>
 			<Name>shotgun</Name>

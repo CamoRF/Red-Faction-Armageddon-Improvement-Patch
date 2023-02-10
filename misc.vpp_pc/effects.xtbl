@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--START DLC Weapons ADDED-->
-		<Effect>
+<!--		<Effect>
 			<Name>dlc04_shard_nexus</Name>
 			<visual>wep_p_p_can_chrg_a</visual>
 			<restart_sound_at_loop>False</restart_sound_at_loop>
@@ -59,7 +59,7 @@
 			<_Editor>
 				<Category>Entries:DLC04:dlc04_weapons:dlc04_shrp_shtr</Category>
 			</_Editor>
-		</Effect>
+		</Effect>-->
 <!--END-->		
 		<Effect>
 			<Name>wep_unicorn_exp</Name>
