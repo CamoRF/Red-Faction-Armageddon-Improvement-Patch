@@ -1,0 +1,293 @@
+<root><Table><Skeleton_Set>
+<Name>Legion_Grunt_B</Name>
+<Groups>
+<Group><group>Default</group>
+<States>
+<State><ID>walk right</ID><Animation><Filename>grnt_b_wlk_rght.animx</Filename></Animation></State>
+<State><ID>walk left</ID><Animation><Filename>grnt_b_wlk_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>run forward</ID><Animation><Filename>grnt_b_rn_frwd.animx</Filename></Animation></State>
+<State><ID>run left</ID><Animation><Filename>grnt_b_rn_lft.animx</Filename></Animation></State>
+<State><ID>run right</ID><Animation><Filename>grnt_b_rn_rght.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>grnt_b_std.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><action_tag_name>idle a</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>2500</cooldown_time></interrupt></interrupts></State>
+<State><ID>walk back left</ID><Animation><Filename>grnt_b_walk_back.animx</Filename></Animation></State>
+<State><ID>walk back right</ID><Animation><Filename>grnt_b_walk_back.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>walk forward left</ID><Animation><Filename>grnt_b_walk_frwd_lft.animx</Filename></Animation></State>
+<State><ID>walk forward right</ID><Animation><Filename>grnt_b_walk_frwd_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>run back left</ID><Animation><Filename>grnt_b_rn_bck_lft.animx</Filename></Animation></State>
+<State><ID>run back right</ID><Animation><Filename>grnt_b_rn_bck_rght.animx</Filename></Animation></State>
+<State><ID>wall left aim down</ID><Animation><Filename>grnt_wll_lft_am_dwn.animx</Filename></Animation></State>
+<State><ID>wall right aim down</ID><Animation><Filename>grnt_wll_lft_am_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>wall left aim down center</ID><Animation><Filename>grnt_wll_lft_am_dwn_cntr.animx</Filename></Animation></State>
+<State><ID>wall left aim down left</ID><Animation><Filename>grnt_wll_lft_am_dwn_lft.animx</Filename></Animation></State>
+<State><ID>wall right aim down center</ID><Animation><Filename>grnt_wll_lft_am_dwn_cntr.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>wall right aim down right</ID><Animation><Filename>grnt_wll_lft_am_dwn_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>leap ceiling stand</ID><Animation><Filename>grnt_wll_lft_am_dwn_cntr.animx</Filename></Animation></State>
+<State><ID>leap wall stand</ID><Animation><Filename>grnt_wll_lft_am_dwn_cntr.animx</Filename></Animation></State>
+<State><ID>wall left stand</ID><Animation><Filename>grnt_wll_lft_idle.animx</Filename></Animation></State>
+<State><ID>electric shock</ID><Animation><Filename>grnt_dflt_dth_elctrct.animx</Filename></Animation></State>
+<State><ID>electric shock leap</ID><Animation><Filename>grnt_dflt_dth_elctrct_lp.animx</Filename></Animation></State>
+<State><ID>fetal position pod stand</ID><Animation><Filename>grnt_dflt_stnd.animx</Filename></Animation></State>
+<State><ID>birth fall</ID><Animation><Filename>grnt_dflt_brth_fll.animx</Filename></Animation></State>
+</States>
+<Actions>
+<Action><ID>wall left aggro</ID><Animation><Filename>grnt_wll_lft_aggro_dwn.animx</Filename></Animation></Action>
+<Action><ID>wall right aggro</ID><Animation><Filename>grnt_wll_lft_aggro_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>wall left spit attack up</ID><Animation><Filename>grnt_spt_wll_lft_attk_up.animx</Filename></Animation></Action>
+<Action><ID>walk left spit attack down</ID><Animation><Filename>grnt_spt_wll_lft_attk_dwn.animx</Filename></Animation></Action>
+<Action><ID>wall center spit attack up</ID><Animation><Filename>grnt_spt_wll_cntr_attk_up.animx</Filename></Animation></Action>
+<Action><ID>wall center spit attack down</ID><Animation><Filename>grnt_spt_wll_cntr_attk_dwn.animx</Filename></Animation></Action>
+<Action><ID>walk right spit fire right</ID><Animation><Filename>grnt_b_spt_wlk_rght.animx</Filename></Animation></Action>
+<Action><ID>walk back spit fire back</ID><Animation><Filename>grnt_b_spt_walk_back.animx</Filename></Animation></Action>
+<Action><ID>idle a</ID><Animation><Filename>grnt_b_std_idl_a.animx</Filename></Animation></Action>
+<Action><ID>aggro</ID><Animation><Filename>grnt_dflt_std_agro.animx</Filename></Animation></Action>
+<Action><ID>aggro leap</ID><Animation><Filename>grnt_wll_lft_aggro_dwn.animx</Filename></Animation></Action>
+<Action><ID>back getup</ID><Animation><Filename>grnt_dflt_knckvr_bck_to_stnd.animx</Filename></Animation></Action>
+<Action><ID>birth land</ID><Animation><Filename>grnt_dflt_brth_lnd.animx</Filename></Animation></Action>
+<Action><ID>birth land heavy</ID><Animation><Filename>grnt_dflt_brth_lnd.animx</Filename></Animation></Action>
+<Action><ID>birth start</ID><Animation><Filename>grnt_dflt_brth_a.animx</Filename></Animation></Action>
+<Action><ID>birth start a</ID><Animation><Filename>grnt_dflt_brth_a.animx</Filename></Animation></Action>
+<Action><ID>birth start b</ID><Animation><Filename>grnt_dflt_brth_a.animx</Filename></Animation></Action>
+<Action><ID>ceiling monster closet</ID><Animation><Filename>grnt_dflt_mster_closet_ceil.animx</Filename></Animation></Action>
+<Action><ID>ceiling shuffle left</ID><Animation><Filename>grnt_dflt_wll_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>ceiling shuffle right</ID><Animation><Filename>grnt_dflt_wll_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>crouch ready shuffle left</ID><Animation><Filename>grnt_b_stnd_shfl.animx</Filename></Animation></Action>
+<Action><ID>crouch ready shuffle right</ID><Animation><Filename>grnt_b_stnd_shfl.animx</Filename></Animation></Action>
+<Action><ID>death</ID><Animation><Filename>grnt_dflt_dth_bdy_bck.animx</Filename></Animation></Action>
+<Action><ID>death body back</ID><Animation><Filename>grnt_dflt_dth_bdy_bck.animx</Filename></Animation></Action>
+<Action><ID>death body front</ID><Animation><Filename>grnt_dflt_dth_frwrd.animx</Filename></Animation></Action>
+<Action><ID>death electrocuted</ID><Animation><Filename>grnt_dflt_dth_elctrct.animx</Filename></Animation></Action>
+<Action><ID>death electrocuted wall</ID><Animation><Filename>grnt_wll_elct.animx</Filename></Animation></Action>
+<Action><ID>death fire</ID><Animation><Filename>grnt_dflt_dth_fr.animx</Filename></Animation></Action>
+<Action><ID>death head back</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>death head punch</ID><Animation><Filename>grnt_dflt_dth_bdy_bck.animx</Filename></Animation></Action>
+<Action><ID>death head smash</ID><Animation><Filename>grnt_dflt_head_smashed.animx</Filename></Animation></Action>
+<Action><ID>death headshot back</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>death headshot front</ID><Animation><Filename>grnt_dflt_dth_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>death headshot left</ID><Animation><Filename>grnt_dflt_dth_hd_lft.animx</Filename></Animation></Action>
+<Action><ID>death headshot right</ID><Animation><Filename>grnt_dflt_dth_hd_rght.animx</Filename></Animation></Action>
+<Action><ID>death lava</ID><Animation><Filename>grnt_dflt_dth_lava.animx</Filename></Animation></Action>
+<Action><ID>death legs back</ID><Animation><Filename>grnt_dflt_dth_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>death legs left</ID><Animation><Filename>grnt_dflt_dth_lgs_lft.animx</Filename></Animation></Action>
+<Action><ID>death overhead</ID><Animation><Filename>grnt_dflt_dth_ovrhd.animx</Filename></Animation></Action>
+<Action><ID>death pelvis back</ID><Animation><Filename>grnt_dflt_dth_bdy_bck.animx</Filename></Animation></Action>
+<Action><ID>death pelvis front</ID><Animation><Filename>grnt_dflt_dth_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>death pelvis left</ID><Animation><Filename>grnt_dflt_dth_bd_lft.animx</Filename></Animation></Action>
+<Action><ID>death pelvis right</ID><Animation><Filename>grnt_dflt_dth_bd_rght.animx</Filename></Animation></Action>
+<Action><ID>death torso back</ID><Animation><Filename>grnt_dflt_dth_bdy_bck.animx</Filename></Animation></Action>
+<Action><ID>death torso front</ID><Animation><Filename>grnt_dflt_dth_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>death torso left</ID><Animation><Filename>grnt_dflt_dth_bd_lft.animx</Filename></Animation></Action>
+<Action><ID>death torso right</ID><Animation><Filename>grnt_dflt_dth_hd_rght.animx</Filename></Animation></Action>
+<Action><ID>explosion flinch backwards</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>explosion flinch forwards</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>explosion flinch left</ID><Animation><Filename>grnt_dflt_flnch_hd_lft.animx</Filename></Animation></Action>
+<Action><ID>explosion flinch right</ID><Animation><Filename>grnt_dflt_flnch_hd_rght.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown backwards</ID><Animation><Filename>grnt_dflt_stnd_knckvr_bck.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown forwards</ID><Animation><Filename>grnt_dflt_stnd_knckvr_frwrd.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown left</ID><Animation><Filename>grnt_dflt_stnd_knckvr_lft.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown right</ID><Animation><Filename>grnt_dflt_stnd_knckvr_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch body</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch forward</ID><Animation><Filename>grnt_dflt_flnch_plvs_frwrd.animx</Filename></Animation></Action>
+<Action><ID>flinch head backward</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch head forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>flinch head left</ID><Animation><Filename>grnt_dflt_flnch_hd_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch head right</ID><Animation><Filename>grnt_dflt_flnch_hd_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch legs back</ID><Animation><Filename>grnt_dflt_std_flnchlegs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch legs left</ID><Animation><Filename>grnt_dflt_std_flnchlegs_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis backward</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis forward</ID><Animation><Filename>grnt_dflt_flnch_plvs_frwrd.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis left</ID><Animation><Filename>grnt_dflt_flnch_plvs_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis right</ID><Animation><Filename>grnt_dflt_flnch_plvs_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head backward</ID><Animation><Filename>grnt_dflt_flnch_hd_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head left</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head right</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis backward</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis left</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis right</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso backward</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso left</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso right</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble backward</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble left</ID><Animation><Filename>grnt_dflt_flnch_hd_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble right</ID><Animation><Filename>grnt_dflt_flnch_hd_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch torso back</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch torso backward</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch torso forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd.animx</Filename></Animation></Action>
+<Action><ID>flinch torso left</ID><Animation><Filename>grnt_dflt_flnch_hd_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch torso right</ID><Animation><Filename>grnt_dflt_flnch_hd_rght.animx</Filename></Animation></Action>
+<Action><ID>fwd getup</ID><Animation><Filename>grnt_dflt_knckvr_frnt_to_stnd.animx</Filename></Animation></Action>
+<Action><ID>hop ceiling to ground</ID><Animation><Filename>grnt_dflt_clng_to_grnd_lp.animx</Filename></Animation></Action>
+<Action><ID>hop ceiling to wall</ID><Animation><Filename>grnt_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop ground to ceiling</ID><Animation><Filename>grnt_dflt_grnd_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop ground to wall</ID><Animation><Filename>grnt_dflt_grnd_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop wall to ceiling</ID><Animation><Filename>grnt_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop wall to ground</ID><Animation><Filename>grnt_dflt_wll_to_grnd_hp.animx</Filename></Animation></Action>
+<Action><ID>hop wall to wall</ID><Animation><Filename>grnt_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hurt shuffle leap left</ID><Animation><Filename>grnt_hrt_std_shffl_leap_lft.animx</Filename></Animation></Action>
+<Action><ID>hurt shuffle leap right</ID><Animation><Filename>grnt_hrt_std_shffl_leap_rght.animx</Filename></Animation></Action>
+<Action><ID>ice ledge 1 monster closet</ID><Animation><Filename>grnt1_ice_ledge.animx</Filename></Animation></Action>
+<Action><ID>ice ledge 2 monster closet</ID><Animation><Filename>grnt2_ice_ledge.animx</Filename></Animation></Action>
+<Action><ID>ice ledge 3 monster closet</ID><Animation><Filename>grnt3_ice_ledge.animx</Filename></Animation></Action>
+<Action><ID>ice monster closet</ID><Animation><Filename>grnt_dflt_mster_closet_ice.animx</Filename></Animation></Action>
+<Action><ID>leap ceiling to ground</ID><Animation><Filename>grnt_dflt_clng_to_grnd_lp.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>leap ceiling to wall</ID><Animation><Filename>grnt_dflt_wll_to_wll_lp.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>leap ground to ceiling</ID><Animation><Filename>grnt_dflt_grnd_to_wll_lp.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>leap ground to wall</ID><Animation><Filename>grnt_dflt_grnd_to_wll_lp.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>leap wall to ceiling</ID><Animation><Filename>grnt_dflt_wll_to_wll_lp.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>leap wall to ground</ID><Animation><Filename>grnt_dflt_wll_to_grnd_lp.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>leap wall to wall</ID><Animation><Filename>grnt_dflt_wll_to_wll_lp.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>melee idle</ID><Animation><Filename>grnt_dflt_stnd_ml_idle.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 1</ID><Animation><Filename>grnt1_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 2</ID><Animation><Filename>grnt2_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 3</ID><Animation><Filename>grnt3_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 4</ID><Animation><Filename>grnt4_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis back</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd_slght.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis left</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis right</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso back</ID><Animation><Filename>grnt_dflt_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso forward</ID><Animation><Filename>grnt_dflt_flnch_hd_frwrd_slght.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso left</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso right</ID><Animation><Filename>grnt_dflt_flnch_trs_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>run death pelvis right</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death torso back</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death torso front</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death torso left</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death torso right</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run melee 1</ID><Animation><Filename>grnt_dflt_rn_ml.animx</Filename></Animation></Action>
+<Action><ID>run shuffle left</ID><Animation><Filename>grnt_b_wlk_shfl_rght.animx</Filename></Animation></Action>
+<Action><ID>run shuffle right</ID><Animation><Filename>grnt_b_wlk_shfl_rght.animx</Filename></Animation></Action>
+<Action><ID>run death head back</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death head front</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death head left</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death head right</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death pelvis back</ID><Animation><Filename>grnt_dflt_dth_bdy_bck.animx</Filename></Animation></Action>
+<Action><ID>run death pelvis front</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>run death pelvis left</ID><Animation><Filename>grnt_dflt_dth_hd_bck.animx</Filename></Animation></Action>
+<Action><ID>shuffle left 180</ID><Animation><Filename>grnt_b_stnd_shfl_rght_180.animx</Filename></Animation></Action>
+<Action><ID>shuffle right 180</ID><Animation><Filename>grnt_b_stnd_shfl_rght_180.animx</Filename></Animation></Action>
+<Action><ID>stand leap long</ID><Animation><Filename>grnt_dflt_stnd_jmp_shrt.animx</Filename></Animation></Action>
+<Action><ID>stand leap short</ID><Animation><Filename>grnt_dflt_stnd_jmp_shrt.animx</Filename></Animation></Action>
+<Action><ID>stand melee 1</ID><Animation><Filename>grnt_dflt_stnd_ml_b.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Grunt_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>6000</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>stand ready shuffle left</ID><Animation><Filename>grnt_b_stnd_shfl.animx</Filename></Animation></Action>
+<Action><ID>stand ready shuffle right</ID><Animation><Filename>grnt_b_stnd_shfl.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle leap</ID><Animation><Filename>grnt_dflt_stnd_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle leap left</ID><Animation><Filename>grnt_dflt_stnd_shffl_leap_lft.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle leap right</ID><Animation><Filename>grnt_dflt_stnd_shffl_leap_rght.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle left</ID><Animation><Filename>grnt_b_stnd_shfl.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle right</ID><Animation><Filename>grnt_b_stnd_shfl.animx</Filename></Animation></Action>
+<Action><ID>taunt</ID><Animation><Filename>grnt_dflt_stnd_tnt.animx</Filename></Animation></Action>
+<Action><ID>taunt b</ID><Animation><Filename>grnt_dflt_stnd_tnt_var1.animx</Filename></Animation></Action>
+<Action><ID>taunt c</ID><Animation><Filename>grnt_dflt_stnd_tnt.animx</Filename></Animation></Action>
+<Action><ID>tun a monster closet</ID><Animation><Filename>grnt_dflt_mster_closet_tuna.animx</Filename></Animation></Action>
+<Action><ID>walk shuffle left</ID><Animation><Filename>grnt_b_wlk_shfl_rght.animx</Filename></Animation></Action>
+<Action><ID>walk shuffle right</ID><Animation><Filename>grnt_b_wlk_shfl_rght.animx</Filename></Animation></Action>
+<Action><ID>wall flinch legs left</ID><Animation><Filename>grnt_dflt_wll_flnchlegs_lft.animx</Filename></Animation></Action>
+<Action><ID>wall flinch legs right</ID><Animation><Filename>grnt_dflt_wll_flnchlegs_rght.animx</Filename></Animation></Action>
+<Action><ID>wall monster closet</ID><Animation><Filename>grnt_dflt_mster_closet_wall.animx</Filename></Animation></Action>
+<Action><ID>wall shuffle left</ID><Animation><Filename>grnt_dflt_wll_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>wall shuffle right</ID><Animation><Filename>grnt_dflt_wll_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>leap death</ID><Animation><Filename>grnt_dflt_lp_dth.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left head back</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left head left</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left head right</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left torso back</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left torso left</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left torso right</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left pelvis back</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left pelvis left</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch wall left pelvis right</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch wall right head back</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_bck.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right head left</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right head right</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right torso back</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_bck.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right torso left</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right torso right</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right pelvis back</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_bck.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right pelvis left</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>flinch wall right pelvis right</ID><Animation><Filename>grnt_dfltb_wll_flnch_trs_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>ice ledge m4</ID><Animation><Filename>grnt_dflt_lp_icldg.animx</Filename></Animation></Action>
+<Action><ID>ice tunnel m4</ID><Animation><Filename>grnt_dflt_mnstrclst_tnn.animx</Filename></Animation></Action>
+<Action><ID>wall transition left</ID><Animation><Filename>grnt_dfltb_wll_trnsn_lft_t_rgh.animx</Filename></Animation></Action>
+<Action><ID>wall transition right</ID><Animation><Filename>grnt_dfltb_wll_trnsn_rght_t_lft.animx</Filename></Animation></Action>
+</Actions>
+</Group>
+<Group><group>Quill</group>
+<States></States>
+<Actions>
+<Action><ID>run fire left</ID><Animation><Filename>grnt_qll_rn_attk_lft.animx</Filename></Animation></Action>
+<Action><ID>run fire forward left</ID><Animation><Filename>grnt_qll_rn_attk_frwrd.animx</Filename></Animation></Action>
+<Action><ID>run fire forward right</ID><Animation><Filename>grnt_qll_rn_attk_frwrd.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>run fire right</ID><Animation><Filename>grnt_qll_rn_attk_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>run fire back left</ID><Animation><Filename>grnt_qll_rn_attk_bck_lft.animx</Filename></Animation></Action>
+<Action><ID>run fire back right</ID><Animation><Filename>grnt_qll_rn_attk_bck_lft.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire</ID><Animation><Filename>grnt_qll_stnd_attk.animx</Filename></Animation></Action>
+<Action><ID>run fire forward2</ID><Animation><Filename>grnt_qll_rn_attk_frwd2.animx</Filename></Animation></Action>
+<Action><ID>run fire forward</ID><Animation><Filename>grnt_qll_rn_attk_frwd.animx</Filename></Animation></Action>
+<Action><ID>stand fire right</ID><Animation><Filename>grnt_qll_stnd_attk_rght.animx</Filename></Animation></Action>
+<Action><ID>stand fire left</ID><Animation><Filename>grnt_qll_stnd_attk_lft.animx</Filename></Animation></Action>
+<Action><ID>fire wall center left down</ID><Animation><Filename>grnt_fire_qlls_wll_cntrlft_dwn.animx</Filename></Animation></Action>
+<Action><ID>fire wall center left up</ID><Animation><Filename>grnt_fire_qlls_wll_cntrlft_up.animx</Filename></Animation></Action>
+<Action><ID>fire wall center right down</ID><Animation><Filename>grnt_fire_qlls_wll_cntrlft_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall center right up</ID><Animation><Filename>grnt_fire_qlls_wll_cntrlft_up.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall left down</ID><Animation><Filename>grnt_fire_qlls_wll_lft_dwn.animx</Filename></Animation></Action>
+<Action><ID>fire wall left up</ID><Animation><Filename>grnt_fire_qlls_wll_lft_up.animx</Filename></Animation></Action>
+<Action><ID>fire wall right down</ID><Animation><Filename>grnt_fire_qlls_wll_lft_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall right up</ID><Animation><Filename>grnt_fire_qlls_wll_lft_up.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+</Actions>
+</Group>
+<Group><group>Boom</group>
+<States></States>
+<Actions>
+<Action><ID>fire</ID><Animation><Filename>grnt_fire_bm.animx</Filename></Animation></Action>
+<Action><ID>fire walk right</ID><Animation><Filename>grnt_fire_bm_wlk_rght.animx</Filename></Animation></Action>
+<Action><ID>fire walk left</ID><Animation><Filename>grnt_fire_bm_wlk_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire walk forward</ID><Animation><Filename>grnt_fire_bm_wlk_frwrd.animx</Filename></Animation></Action>
+<Action><ID>fire walk back</ID><Animation><Filename>grnt_fire_bm_wlk_bck.animx</Filename></Animation></Action>
+<Action><ID>fire wall left up</ID><Animation><Filename>grnt_fire_bm_wll_lft_up.animx</Filename></Animation></Action>
+<Action><ID>fire wall left down</ID><Animation><Filename>grnt_fire_bm_wll_lft_dwn.animx</Filename></Animation></Action>
+<Action><ID>fire wall center left up</ID><Animation><Filename>grnt_fire_bm_wll_cntrlft_up.animx</Filename></Animation></Action>
+<Action><ID>fire wall center left down</ID><Animation><Filename>grnt_fire_bm_wll_cntrlft_dwn.animx</Filename></Animation></Action>
+<Action><ID>fire wall right up</ID><Animation><Filename>grnt_fire_bm_wll_lft_up.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall right down</ID><Animation><Filename>grnt_fire_bm_wll_lft_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall center right up</ID><Animation><Filename>grnt_fire_bm_wll_cntrlft_up.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall center right down</ID><Animation><Filename>grnt_fire_bm_wll_cntrlft_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+</Actions>
+</Group>
+<Group><group>Antenna</group>
+<States></States>
+<Actions>
+<Action><ID>fire</ID><Animation><Filename>grnt_fire_bll_stnd.animx</Filename></Animation></Action>
+<Action><ID>fire walk back</ID><Animation><Filename>grnt_fire_bll_wlk_bck.animx</Filename></Animation></Action>
+<Action><ID>fire walk forward</ID><Animation><Filename>grnt_fire_bll_wlk_frwrd.animx</Filename></Animation></Action>
+<Action><ID>fire walk left</ID><Animation><Filename>grnt_fire_bll_wlk_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire walk right</ID><Animation><Filename>grnt_fire_bll_wlk_rght.animx</Filename></Animation></Action>
+<Action><ID>fire wall center left down</ID><Animation><Filename>grnt_fire_bll_wll_cntrlft_dwn.animx</Filename></Animation></Action>
+<Action><ID>fire wall center left up</ID><Animation><Filename>grnt_fire_bll_wll_cntrlft_up.animx</Filename></Animation></Action>
+<Action><ID>fire wall center right down</ID><Animation><Filename>grnt_fire_bll_wll_cntrlft_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall center right up</ID><Animation><Filename>grnt_fire_bll_wll_cntrlft_up.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall left down</ID><Animation><Filename>grnt_fire_bll_wll_lft_dwn.animx</Filename></Animation></Action>
+<Action><ID>fire wall left up</ID><Animation><Filename>grnt_fire_bll_wll_lft_up.animx</Filename></Animation></Action>
+<Action><ID>fire wall right down</ID><Animation><Filename>grnt_fire_bll_wll_lft_dwn.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>fire wall right up</ID><Animation><Filename>grnt_fire_bll_wll_lft_up.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+</Actions>
+</Group>
+</Groups><_Editor><Category>Entries</Category></_Editor></Skeleton_Set></table><TableTemplates></TableTemplates><TableDescription>
+<Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element>
+<Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name></Element><Element>
+<Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Required>false</Required></Element><Element>
+<Name>Groups</Name><Type>Grid</Type><Element>
+<Name>Group</Name><Type>Element</Type><Element>
+<Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Unique>true</Unique><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element><Element>
+<Name>States</Name><Type>Grid</Type><Element>
+<Name>State</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element><Element>
+<Name>Actions</Name><Type>Grid</Type><Element>
+<Name>Action</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category>
+<Name>Entries</Name></Category></EntryCategories></root>

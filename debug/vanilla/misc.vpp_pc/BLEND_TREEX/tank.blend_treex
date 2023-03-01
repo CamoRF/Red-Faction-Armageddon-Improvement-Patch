@@ -1,0 +1,576 @@
+<root>
+	<Version>1</Version>
+	<Blend_Trees>
+		<Blend_Tree>
+			<Name>Tank</Name>
+			<Crossfade_Speed>2.0</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>human state</Name>
+				</State>
+				<State>
+					<Name>ready mode</Name>
+				</State>
+				<State>
+					<Name>direction slice</Name>
+				</State>
+				<State>
+					<Name>move mode</Name>
+					<Crossfade_Speed>2.0</Crossfade_Speed>
+				</State>
+				<State>
+					<Name>anim group</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>fire</Name>
+				</Action>
+				<Action>
+					<Name>skid to stop</Name>
+				</Action>
+				<Action>
+					<Name>charge tell</Name>
+				</Action>
+				<Action>
+					<Name>melee move</Name>
+				</Action>
+				<Action>
+					<Name>taunt b</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>Root</Name>
+					<uid>3819</uid>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>4297</uid>
+							<Flags>
+								<Flag>Don't Blend Children</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>main</Name>
+									<uid>3820</uid>
+									<Nodes>
+										<Node>
+											<Name>modes</Name>
+											<uid>3821</uid>
+											<Nodes>
+												<Node>
+													<Name>default</Name>
+													<uid>3822</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>none</State_Value>
+															<State_Value>direct</State_Value>
+															<State_Value>pathfinding</State_Value>
+															<State_Value>path to vehicle</State_Value>
+															<State_Value>jump</State_Value>
+															<State_Value>fall</State_Value>
+															<State_Value>FP move</State_Value>
+															<State_Value>knockdown</State_Value>
+															<State_Value>satellite</State_Value>
+														</State_Values>
+													</State_Dependent>
+													<Nodes>
+														<Node>
+															<Name>ready</Name>
+															<uid>3824</uid>
+															<State_Dependent>
+																<State_Name>ready mode</State_Name>
+																<State_Values>
+																	<State_Value>aim</State_Value>
+																	<State_Value>ready</State_Value>
+																</State_Values>
+															</State_Dependent>
+															<Flags>
+																<Flag>Closest Single Child</Flag>
+															</Flags>
+															<Nodes>
+																<Node>
+																	<Name>movement</Name>
+																	<uid>3891</uid>
+																	<State_Dependent>
+																		<State_Name>anim group</State_Name>
+																		<State_Values>
+																			<State_Value>Default</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Flags>
+																		<Flag>Closest Single Child</Flag>
+																	</Flags>
+																	<Nodes>
+																		<Node>
+																			<Name>Stand</Name>
+																			<Axis>speed</Axis>
+																			<uid>3825</uid>
+																			<Control>0.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>stand ready</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5554</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>stand ready</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>stand ready right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5555</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>stand ready right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>stand ready left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5556</uid>
+																					<Control>270.0</Control>
+																					<Animation_State_Tag>stand ready left</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>Walk</Name>
+																			<Axis>speed</Axis>
+																			<uid>3826</uid>
+																			<Control_Start>0.01</Control_Start>
+																			<Control_Start_Speed>0.35</Control_Start_Speed>
+																			<Control_End>1.0</Control_End>
+																			<Control_End_Speed>1.0</Control_End_Speed>
+																			<Nodes>
+																				<Node>
+																					<Name>Walk Forward</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3827</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>walk ready</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>Walk Right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3828</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>walk ready right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>Walk Back</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3830</uid>
+																					<Control>180.0</Control>
+																					<Animation_State_Tag>walk ready back</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>Walk Left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3832</uid>
+																					<Control>270.0</Control>
+																					<Animation_State_Tag>walk ready left</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>run</Name>
+																			<Axis>speed</Axis>
+																			<uid>3833</uid>
+																			<Control>1.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>Run Forward</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3834</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>run ready</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																				<Node>
+																					<Name>Run Forward Right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>8005</uid>
+																					<Control>45.0</Control>
+																					<Animation_State_Tag>run right forward</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																				<Node>
+																					<Name>Run Right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3838</uid>
+																					<Notes>This is split up so I can do skid turns only when they peg the stick and not when they roll the joystick
+</Notes>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>run ready right</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																				<Node>
+																					<Name>Run Right Back</Name>
+																					<Axis>Direction</Axis>
+																					<uid>8006</uid>
+																					<Notes>This is split up so I can do skid turns only when they peg the stick and not when they roll the joystick
+</Notes>
+																					<Control>135.0</Control>
+																					<Animation_State_Tag>run back right</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																				<Node>
+																					<Name>Run Back</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3842</uid>
+																					<Control>180.0</Control>
+																					<Animation_State_Tag>run ready back</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																				<Node>
+																					<Name>Run Back Left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>8004</uid>
+																					<Control>225.0</Control>
+																					<Animation_State_Tag>run back left</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																				<Node>
+																					<Name>Run Left</Name>
+																					<Axis>direction</Axis>
+																					<uid>3846</uid>
+																					<Notes>This is split up so I can do skid turns only when they peg the stick and not when they roll the joystick
+</Notes>
+																					<Control>270.0</Control>
+																					<Animation_State_Tag>run ready left</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																				<Node>
+																					<Name>Run Left Forward </Name>
+																					<Axis>direction</Axis>
+																					<uid>8007</uid>
+																					<Notes>This is split up so I can do skid turns only when they peg the stick and not when they roll the joystick
+</Notes>
+																					<Control>315.0</Control>
+																					<Animation_State_Tag>run ready left</Animation_State_Tag>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>non-ready</Name>
+															<uid>3850</uid>
+															<State_Dependent>
+																<State_Name>ready mode</State_Name>
+																<State_Values>
+																	<State_Value>non-ready</State_Value>
+																</State_Values>
+															</State_Dependent>
+															<Flags>
+																<Flag>Closest Single Child</Flag>
+															</Flags>
+															<Nodes>
+																<Node>
+																	<Name>Stand</Name>
+																	<Axis>speed</Axis>
+																	<uid>5557</uid>
+																	<Control>0.0</Control>
+																	<Nodes>
+																		<Node>
+																			<Name>stand ready</Name>
+																			<Axis>Direction</Axis>
+																			<uid>5558</uid>
+																			<Control>0.0</Control>
+																			<Animation_State_Tag>stand ready</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>stand ready right</Name>
+																			<Axis>Direction</Axis>
+																			<uid>5559</uid>
+																			<Control>90.0</Control>
+																			<Animation_State_Tag>stand ready right</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>stand ready left</Name>
+																			<Axis>Direction</Axis>
+																			<uid>5560</uid>
+																			<Control>270.0</Control>
+																			<Animation_State_Tag>stand ready left</Animation_State_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>Walk</Name>
+																	<Axis>speed</Axis>
+																	<uid>3852</uid>
+																	<Control_Start>0.01</Control_Start>
+																	<Control_Start_Speed>0.35</Control_Start_Speed>
+																	<Control_End>0.75</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>walk</Animation_State_Tag>
+																	<Transitions>
+																		<Transition>
+																			<to>28</to>
+																			<Type>0</Type>
+																			<animation_action_tag>walk to stand</animation_action_tag>
+																		</Transition>
+																	</Transitions>
+																</Node>
+																<Node>
+																	<Name>Run</Name>
+																	<Axis>speed</Axis>
+																	<uid>3853</uid>
+																	<Control>0.75</Control>
+																	<Animation_State_Tag>run</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>lipsyncing</Name>
+									<uid>5365</uid>
+									<Nodes>
+										<Node>
+											<Name>lipsync body root</Name>
+											<uid>5366</uid>
+											<State_Dependent>
+												<State_Name>is lipsyncing</State_Name>
+												<State_Values>
+													<State_Value>yes</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>closed</Name>
+													<Axis>lipsync amplitude</Axis>
+													<uid>5367</uid>
+													<Control>0.0</Control>
+													<Animation_State_Tag>lipsync closed</Animation_State_Tag>
+													<Flags>
+														<Flag>Pose</Flag>
+													</Flags>
+												</Node>
+												<Node>
+													<Name>open</Name>
+													<Axis>lipsync amplitude</Axis>
+													<uid>5368</uid>
+													<Control>1.0</Control>
+													<Animation_State_Tag>lipsync open</Animation_State_Tag>
+													<Flags>
+														<Flag>Pose</Flag>
+													</Flags>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>Actions</Name>
+							<uid>8023</uid>
+							<Nodes>
+								<Node>
+									<Name>fire</Name>
+									<uid>3873</uid>
+									<Action_Dependent> fire</Action_Dependent>
+									<Flags>
+										<Flag>Closest Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>stationary</Name>
+											<Axis>speed</Axis>
+											<uid>3874</uid>
+											<Control>0.0</Control>
+											<Animation_Action_Tag>fire</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>moving</Name>
+											<Axis>speed</Axis>
+											<uid>3875</uid>
+											<Control>0.1</Control>
+											<Flags>
+												<Flag>Closest Single Child</Flag>
+											</Flags>
+											<Nodes>
+												<Node>
+													<Name>forward</Name>
+													<Axis>Direction</Axis>
+													<uid>3876</uid>
+													<Control>0.0</Control>
+													<Animation_Action_Tag>fire walk frwrd</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>right</Name>
+													<Axis>Direction</Axis>
+													<uid>3877</uid>
+													<Control>90.0</Control>
+													<Animation_Action_Tag>fire walk right</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>back</Name>
+													<Axis>Direction</Axis>
+													<uid>5403</uid>
+													<Control>180.0</Control>
+													<Animation_Action_Tag>fire walk back</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>left</Name>
+													<Axis>Direction</Axis>
+													<uid>3879</uid>
+													<Control>270.0</Control>
+													<Animation_Action_Tag>fire walk left</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>skid to stop</Name>
+									<uid>8028</uid>
+									<Action_Dependent> skid to stop</Action_Dependent>
+									<Flags>
+										<Flag>Closest Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>right</Name>
+											<Axis>direction to player</Axis>
+											<uid>8031</uid>
+											<Control_Start>-0.01</Control_Start>
+											<Control_Start_Speed>1.0</Control_Start_Speed>
+											<Control_End>-179.99</Control_End>
+											<Control_End_Speed>1.0</Control_End_Speed>
+											<Animation_Action_Tag>skid to stop right</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>center</Name>
+											<Axis>direction to player</Axis>
+											<uid>8030</uid>
+											<Control>0.0</Control>
+											<Animation_Action_Tag>skid to stop</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>left</Name>
+											<Axis>direction to player</Axis>
+											<uid>8029</uid>
+											<Control_Start>0.01</Control_Start>
+											<Control_Start_Speed>1.0</Control_Start_Speed>
+											<Control_End>179.99</Control_End>
+											<Control_End_Speed>1.0</Control_End_Speed>
+											<Animation_Action_Tag>skid to stop left</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>charge tell</Name>
+									<uid>8038</uid>
+									<Action_Dependent> charge tell</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>charge tell forward</Name>
+											<Axis>direction</Axis>
+											<uid>8039</uid>
+											<Control>0.0</Control>
+											<Animation_Action_Tag>charge tell</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>melee move</Name>
+									<uid>8048</uid>
+									<Action_Dependent>melee move</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>melee move forward</Name>
+											<Axis>direction</Axis>
+											<uid>8051</uid>
+											<Control>0.0</Control>
+											<Animation_Action_Tag>melee move</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>taunt b</Name>
+									<uid>8054</uid>
+									<Action_Dependent>taunt b</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>taunt b forward</Name>
+											<Axis>direction</Axis>
+											<uid>8057</uid>
+											<Control>1.0</Control>
+											<Animation_Action_Tag>taunt b</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>lipsyncing</Name>
+							<uid>8414</uid>
+							<Nodes>
+								<Node>
+									<Name>lipsync body root</Name>
+									<uid>8415</uid>
+									<State_Dependent>
+										<State_Name>is lipsyncing</State_Name>
+										<State_Values>
+											<State_Value>yes</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Nodes>
+										<Node>
+											<Name>closed</Name>
+											<Axis>lipsync amplitude</Axis>
+											<uid>8416</uid>
+											<Control>0.0</Control>
+											<Animation_State_Tag>lipsync closed</Animation_State_Tag>
+											<Flags>
+												<Flag>Pose</Flag>
+											</Flags>
+										</Node>
+										<Node>
+											<Name>open</Name>
+											<Axis>lipsync amplitude</Axis>
+											<uid>8417</uid>
+											<Control>1.0</Control>
+											<Animation_State_Tag>lipsync open</Animation_State_Tag>
+											<Flags>
+												<Flag>Pose</Flag>
+											</Flags>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+	</Blend_Trees>
+</root>

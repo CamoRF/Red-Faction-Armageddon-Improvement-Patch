@@ -1,0 +1,851 @@
+<root>
+<Table>
+	<Squads>
+		<Name>lo_acc_cultist_squad</Name>
+		<team_name>Cultists</team_name>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_mar_ass_warrior</member_info>
+			<weapon_info>Phased Plasma Rifle Low Acc</weapon_info>
+			</squad_leader>
+		<squad_value>2</squad_value>
+		</Squads>
+	<Squads>
+		<Name>cultist_LOW_NOBOOM_1</Name>
+		<team_name>Cultists</team_name>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_mar_ass_warLow</member_info>
+			<weapon_info>Marauder LOW_NOBOOM</weapon_info>
+			</squad_leader>
+		<squad_value>4</squad_value>
+		</Squads>
+	<Squads>
+		<Name>cultist_LOW_1</Name>
+		<team_name>Cultists</team_name>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_mar_ass_warLow</member_info>
+			<weapon_info>Marauder LOW_NOBOOM</weapon_info>
+			</squad_leader>
+		<squad_value>4</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Cul_Shotgun</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_warrior</member_info>
+			<weapon_info>Marauder Shotgun</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_Imploder</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_officer</member_info>
+			<weapon_info>Gravitic Imploder</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_Grenade</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_officer</member_info>
+			<weapon_info>Grenade Launcher</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_Rifle</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_officer</member_info>
+			<weapon_info>Nano Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_Assault_Rifle</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_warrior</member_info>
+			<weapon_info>Cultist Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_MarExo</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>MarauderExoNPC</member_info>
+			<weapon_info>Cultist_MarExo</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_Off_Grenade</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_officer</member_info>
+			<weapon_info>Grenade Launcher</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_Off_RPG</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_officer</member_info>
+			<weapon_info>RPG</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Cul_Off_Nano</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_officer</member_info>
+			<weapon_info>Nano Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>RF_Rifle</Name>
+		<team_name>Red Faction</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_red_ass_soldier</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:RF</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>RF_RPG</Name>
+		<team_name>Red Faction</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_red_ass_soldier</member_info>
+			<weapon_info>RPG</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:RF</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>RF_Rail</Name>
+		<team_name>Red Faction</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_red_ass_soldier</member_info>
+			<weapon_info>Rail Driver</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:RF</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Corpse</Name>
+		<team_name>Civilian</team_name>
+		<_Editor>
+			<Category>Test:Scripted</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_red_cor_soldier</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			<member_variant>corpse 2 legs 1 arm</member_variant>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Worker</Name>
+		<team_name>Civilian</team_name>
+		<_Editor>
+			<Category>Humans:Civilians</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_civ_ass_midmal01</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Creeper</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_creeper</member_info>
+			<weapon_info>Creeper Claw</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Big_Creeper</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_big_creeper</member_info>
+			<weapon_info>Big Creeper Claw</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Creeper3</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_creeper</member_info>
+			<weapon_info>Creeper Claw</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		<squad_member_list>
+			<squad_member>
+				<member_info>ch_leg_ass_creeper</member_info>
+				<weapon_info>Creeper Claw</weapon_info>
+				<member_variant>Regular</member_variant>
+				</squad_member>
+			<squad_member>
+				<member_info>ch_leg_ass_creeper</member_info>
+				<weapon_info>Creeper Claw</weapon_info>
+				<member_variant>Regular</member_variant>
+				</squad_member>
+			<squad_member>
+				<member_info>ch_leg_ass_creeper</member_info>
+				<weapon_info>Creeper Claw</weapon_info>
+				<member_variant>Regular</member_variant>
+				</squad_member>
+			</squad_member_list>
+		</Squads>
+	<Squads>
+		<Name>Ambusher_Elec</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_ambusher</member_info>
+			<weapon_info>Electrical Pulse Blast</weapon_info>
+			<member_variant>electric</member_variant>
+			</squad_leader>
+		<squad_value>5</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Ambusher_Puke</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_ambusher</member_info>
+			<weapon_info>Electrical Pulse Blast</weapon_info>
+			<member_variant>electric</member_variant>
+			</squad_leader>
+		<squad_value>5</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Quill</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_grunt</member_info>
+			<weapon_info>Grunt Quill</weapon_info>
+			<member_variant>Quills</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Quill_LOW</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_gruntLow</member_info>
+			<weapon_info>Grunt Quill</weapon_info>
+			<member_variant>quills</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Quill_LOW5</Name>
+		<team_name>Legion</team_name>
+		<squad_value>3</squad_value>
+		<squad_leader>
+			<member_info>ch_leg_ass_gruntLow</member_info>
+			<weapon_info>Grunt Quill</weapon_info>
+			<member_variant>Quills</member_variant>
+			</squad_leader>
+		<squad_member_list>
+			<squad_member>
+				<member_info>ch_leg_ass_gruntLow</member_info>
+				<weapon_info>Grunt Quill</weapon_info>
+				<member_variant>Quills</member_variant>
+				</squad_member>
+			<squad_member>
+				<member_info>ch_leg_ass_gruntLow</member_info>
+				<weapon_info>Grunt Quill</weapon_info>
+				<member_variant>Quills</member_variant>
+				</squad_member>
+			<squad_member>
+				<member_info>ch_leg_ass_gruntLow</member_info>
+				<weapon_info>Grunt Quill</weapon_info>
+				<member_variant>quills</member_variant>
+				</squad_member>
+			<squad_member>
+				<member_info>ch_leg_ass_gruntLow</member_info>
+				<weapon_info>Grunt Quill</weapon_info>
+				<member_variant>quills</member_variant>
+				</squad_member>
+			</squad_member_list>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Hi_Acc_Grunt_Quill</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_grunt</member_info>
+			<weapon_info>Hi_Acc_Grunt Quill</weapon_info>
+			<member_variant>Quills</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Ball</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_grunt</member_info>
+			<weapon_info>Ball Lightning Gun</weapon_info>
+			<member_variant>lightning</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		<ai_prop_override>Grunt_Ball</ai_prop_override>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Boom</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_grunt</member_info>
+			<weapon_info>Boom Cannon</weapon_info>
+			<member_variant>resin</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Heavy_Gambit</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_heavy</member_info>
+			<weapon_info>Gambit gun</weapon_info>
+			<member_variant>gambit</member_variant>
+			</squad_leader>
+		<squad_value>7</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Heavy_Bomb</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_heavy</member_info>
+			<weapon_info>Bomb Lobber</weapon_info>
+			<member_variant>Bomb_Lobber</member_variant>
+			</squad_leader>
+		<squad_value>7</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Tank</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_tank</member_info>
+			<weapon_info>Acid Glob</weapon_info>
+			<member_variant>Tank</member_variant>
+			</squad_leader>
+		<squad_value>12</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Mar_Rifle</Name>
+		<team_name>Marauder</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_allied_officer</member_info>
+			<weapon_info>Nano Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Marauder</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Mar_Shotgun</Name>
+		<team_name>Marauder</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_allied_infantry</member_info>
+			<weapon_info>Marauder Shotgun</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Marauder</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Mar_Imploder</Name>
+		<team_name>Marauder</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_allied_officer</member_info>
+			<weapon_info>Gravitic Imploder</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Marauder</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Mar_Grenade</Name>
+		<team_name>Marauder</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_allied_officer</member_info>
+			<weapon_info>Grenade Launcher</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Marauder</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Mar_Assault_Rifle</Name>
+		<team_name>Marauder</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_allied_infantry</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Marauder</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>RF_Rifle_Hood_Up</Name>
+		<team_name>Red Faction</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_red_ass_soldier</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			<member_variant>HoodUp</member_variant>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:RF</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>lo_acc_cultist_LOW</Name>
+		<team_name>Cultists</team_name>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_mar_ass_warLow</member_info>
+			<weapon_info>Phased Plasma Rifle Low Acc</weapon_info>
+			</squad_leader>
+		<squad_value>2</squad_value>
+		</Squads>
+	<Squads>
+		<Name>civ_worker_fem</Name>
+		<team_name>Civilian</team_name>
+		<_Editor>
+			<Category>Humans:Civilians</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_civ_ass_midfem01</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>civ_upper_fem</Name>
+		<team_name>Civilian</team_name>
+		<_Editor>
+			<Category>Humans:Civilians</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_civ_ass_uppfem01</member_info>
+			<weapon_info>Civilian Melee</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>civ_upper_male</Name>
+		<team_name>Civilian</team_name>
+		<_Editor>
+			<Category>Humans:Civilians</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_civ_ass_uppMal01</member_info>
+			<weapon_info>Civilian Melee</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Boom_LOW</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_gruntLow</member_info>
+			<weapon_info>Boom Cannon</weapon_info>
+			<member_variant>resin</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Ball_LOW</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_gruntLow</member_info>
+			<weapon_info>Ball Lightning Gun</weapon_info>
+			<member_variant>lightning</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Grunt_Ball_m12</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_gruntLow</member_info>
+			<weapon_info>Ball Lightning m12</weapon_info>
+			<member_variant>lightning</member_variant>
+			</squad_leader>
+		<squad_value>3</squad_value>
+		</Squads>
+	<Squads>
+		<Name>RF_Wounded</Name>
+		<team_name>Red Faction</team_name>
+		<squad_value>1</squad_value>
+		<squad_leader>
+			<member_info>ch_red_ass_sol_bldy</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:RF</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>Mar_Unarmed</Name>
+		<team_name>Marauder</team_name>
+		<squad_value>1</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_allied_infantry</member_info>
+			<weapon_info>Civilian Melee</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Marauder</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>q01_crazy_guy</Name>
+		<team_name>Red Faction</team_name>
+		<_Editor>
+			<Category>Humans:Civilians</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_civ_ass_crazy</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			</squad_leader>
+		<squad_value>1</squad_value>
+		</Squads>
+	<Squads>
+		<Name>Ambusher_m12</Name>
+		<team_name>Legion</team_name>
+		<_Editor>
+			<Category>Aliens</Category>
+			</_Editor>
+		<squad_leader>
+			<member_info>ch_leg_ass_ambusher</member_info>
+			<weapon_info>Electrical Pulse Blast</weapon_info>
+			<member_variant>electric</member_variant>
+			</squad_leader>
+		<squad_value>5</squad_value>
+		<ai_prop_override>Grunt</ai_prop_override>
+		</Squads>
+	<Squads>
+		<Name>Cul_AR_Run_Gun</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_warrior</member_info>
+			<weapon_info>Cultist Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		<ai_prop_override>Default</ai_prop_override>
+		</Squads>
+	<Squads>
+		<Name>Cul_Off_RPG_Fast</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_mar_ass_officer</member_info>
+			<weapon_info>RPG Fast</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:Cultists</Category>
+			</_Editor>
+		</Squads>
+	<Squads>
+		<Name>RF_DLC04_Mission1</Name>
+		<team_name>Cultists</team_name>
+		<squad_value>2</squad_value>
+		<squad_leader>
+			<member_info>ch_red_ass_soldier</member_info>
+			<weapon_info>Phased Plasma Rifle</weapon_info>
+			</squad_leader>
+		<_Editor>
+			<Category>Humans:RF</Category>
+			</_Editor>
+		</Squads>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Squads</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Squad Definition</Display_Name>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>name of the squad</Description>
+		<Unique>true</Unique>
+		<MaxCount>1</MaxCount>
+		<MaxLength>20</MaxLength>
+		</Element>
+	<Element>
+		<Name>team_name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Team</Display_Name>
+		<Reference>
+			<File>human_team_names.xtbl</File>
+			<Type>HumanTeamNames.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>squad_value</Name>
+		<Type>Int</Type>
+		<Display_Name>Squad Balance Value</Display_Name>
+		<Default>1</Default>
+		<MinValue>1</MinValue>
+		</Element>
+	<Element>
+		<Name>ai_prop_override</Name>
+		<Type>Reference</Type>
+		<Display_Name>AI Property Override</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>ai_properties.xtbl</File>
+			<Type>ai_property.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>squad_leader</Name>
+		<Type>Element</Type>
+		<Display_Name>Squad Leader</Display_Name>
+		<Element>
+			<Name>member_info</Name>
+			<Type>Reference</Type>
+			<Display_Name>Character Info</Display_Name>
+			<Reference>
+				<File>character.xtbl</File>
+				<Type>Character.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Element>
+			<Name>weapon_info</Name>
+			<Type>Reference</Type>
+			<Display_Name>Weapon Info</Display_Name>
+			<Reference>
+				<File>squad_loadout.xtbl</File>
+				<Type>squad_loadout.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Element>
+			<Name>member_variant</Name>
+			<Type>Reference</Type>
+			<Display_Name>Character Variant</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>variant_names.xtbl</File>
+				<Type>variant_name.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+	<Element>
+		<Name>squad_member_list</Name>
+		<Type>List</Type>
+		<Display_Name>Squad Member List</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>squad_member</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Member</Display_Name>
+			<Element>
+				<Name>member_info</Name>
+				<Type>Reference</Type>
+				<Display_Name>Character Info</Display_Name>
+				<Reference>
+					<File>character.xtbl</File>
+					<Type>Character.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>weapon_info</Name>
+				<Type>Reference</Type>
+				<Display_Name>Weapon Info</Display_Name>
+				<Reference>
+					<File>squad_loadout.xtbl</File>
+					<Type>squad_loadout.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>member_variant</Name>
+				<Type>Reference</Type>
+				<Display_Name>Character Variant</Display_Name>
+				<Reference>
+					<File>variant_names.xtbl</File>
+					<Type>variant_name.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Max_Children>9</Max_Children>
+		<Min_Children>0</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		<Element_Name>squad_member.member_info</Element_Name>
+		</Element>
+	<Element>
+		<Name>default_exo</Name>
+		<Type>Reference</Type>
+		<Display_Name>Default Exo</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>exo.xtbl</File>
+			<Type>Exo.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>default_vehicle</Name>
+		<Type>Reference</Type>
+		<Display_Name>Defaul Vehicle</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>spawn_group_vehicle.xtbl</File>
+			<Type>spawn_group_vehicle.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Aliens</Name>
+		</Category>
+	<Category>
+		<Name>Humans</Name>
+		<Category>
+			<Name>Civilians</Name>
+			</Category>
+		<Category>
+			<Name>Cultists</Name>
+			</Category>
+		<Category>
+			<Name>Marauder</Name>
+			</Category>
+		<Category>
+			<Name>RF</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>Test</Name>
+		<Category>
+			<Name>Scripted</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

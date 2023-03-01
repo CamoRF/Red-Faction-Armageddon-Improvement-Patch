@@ -1,0 +1,4001 @@
+<root>
+<Table>
+	<Stat>
+		<Name>missions completed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>last mission saved</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>completion percent</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>hydrogen tanks blown up</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>humans killed by unknown</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 01 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 02 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 03 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 04 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 05 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 06 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 07 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 08 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 09 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 10 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 11 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 12 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 13 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 14 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 15 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 16 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 17 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 18 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 19 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 20 stats - shots fired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 01 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 02 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 03 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 04 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 05 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 06 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 07 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 08 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 09 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 10 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 11 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 12 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 13 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 14 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 15 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 16 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 17 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 18 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 19 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 20 stats - time equipped</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 01 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 02 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 03 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 04 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 05 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 06 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 07 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 08 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 09 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 10 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 11 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 12 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 13 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 14 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 15 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 16 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 17 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 18 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 19 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - weapon 20 stats - hits</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>buildings destroyed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>player killed gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>player killed explosion</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>player killed crushed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>player killed total</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>cultist killed warrior</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>cultist killed officer</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>cultist killed exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed creeper</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed bigasscreeper</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed grunt</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed heavy</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed ambusher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed tank</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed pod</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed tentacle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>legion killed monolith</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>enemy killed total</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>time in single player</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon sledgehammer</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon shotgun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon anti tank pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon remote charges</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon rocket launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon nano rifle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon plasma rifle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon plasma cannon</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon plasma grenade launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon plasma beam</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon rail gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon imploder</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon napalm laser</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon convergence laser</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon exo rocket launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon exo machine gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon lava turret</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon unicorn gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon laser pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon chain lightning gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon nano grenade</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon nano auto gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon plasma thrower</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon enforcer</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon magnet gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon shard storm</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon least</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon most</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills pod in marauder walker large</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon shotgun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon anti tank pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon remote charges</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon rocket launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon nano rifle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon plasma rifle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon plasma cannon</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon plasma grenade launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon plasma beam</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon rail gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon imploder</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon napalm laser</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon convergence laser</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon exo rocket launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon exo machine gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon lava turret</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon unicorn gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon laser pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon chain lightning gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon nano grenade</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon nano auto gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon plasma thrower</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon enforcer</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon magnet gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon overall</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon shotgun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon anti tank pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon remote charges</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon rocket launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon nano rifle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon plasma rifle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon plasma cannon</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon plasma grenade launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon plasma beam</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon rail gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon imploder</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon napalm laser</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon convergence laser</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon exo rocket launcher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon exo machine gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon lava turret</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon unicorn gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon laser pistol</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon chain lightning gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon nano grenade</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon nano auto gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon plasma thrower</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon enforcer</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon magnet gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon overall</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>game completed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer8></integer8>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in vehicle red faction exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in vehicle marauder walker small</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in vehicle marauder walker large</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in vehicle flyer</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>salvage piles collected</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mission 12 hull damage taken</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in one exo bash</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>salvage total collected</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>salvage total collected mp</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>stasis kills max simultaneous</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>stasis kills total</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>impact distance</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>impact kill simultaneous</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>berserk longest time</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>sledgehammer kill creeper</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>sledgehammer kill ravager</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>sledgehammer kill wraith</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>sledgehammer kill heavy</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>sledgehammer kill tank</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>sledgehammer kill cultist</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>sledgehammer kill big creeper</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>enemies hit by magneted enemies</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>magneted human max dist</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>wraith kill pre stealth</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>creepers killed by finisher</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>heavy explosion kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>multi kill from heavy explosion</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single and Multi</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 01</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 02</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 03</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 04</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 05</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 06</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 07</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 08</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 09</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 10</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 11</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 12</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 13</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 14</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 15</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - waves completed level 16</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 01</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 02</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 03</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 04</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 05</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 06</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 07</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 08</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 09</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 10</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 11</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 12</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 13</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 14</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 15</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total level 16</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>monster closet kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in vehicle flyer ramming</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>cheats purchased</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>nano shell rebound kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>tentacle magnet boomerang</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>unique audio logs acquired</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 01</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 02</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 03</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 04</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 05</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 06</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 07</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 08</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 09</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 10</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 11</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 12</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 13</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 14</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 15</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - games - total waves played 16</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - creeper kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - big creeper kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - grunt kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - heavy kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - tentacle kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - monolith kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - total melee kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - total kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - total rescues</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - total deaths</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - players revived</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - highest perfect wave</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - highest completed wave</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - highest contiguous completed wave</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 01</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 02</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 03</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 04</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 05</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 06</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 07</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 08</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 09</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 10</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 11</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ruin mode - highest score level 12</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Ruin mode</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>cultist killed buggy</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>cultist killed light walker</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>impact uses</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shockwave uses</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>berserk uses</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shell uses</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>mp - ambusher kills</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon shard storm</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon sharpshooter</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon shard storm</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon sharpshooter</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon sharpshooter</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills with weapon mar burst turret</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots fired with weapon mar burst turret</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>shots hit with weapon mar burst turret</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player</Category>
+			</_Editor>
+		</Stat>
+	</Table>
+
+<TableTemplates>
+	<Stat>
+		<Name>kills in vehicle red faction walker</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in vehicle marauder exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>kills in vehicle civilian exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>time in vehicle red faction exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance in vehicle marauder walker large</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance in vehicle marauder walker small</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance in vehicle red faction walker</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance in vehicle marauder exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance in vehicle civilian exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance in vehicle red faction exo</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance in vehicle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>distance on foot</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<distance></distance>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>time in vehicle</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>time on foot</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>time in missions</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>vehicles destroyed total</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>vehicles destroyed civilian walkers</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>vehicles destroyed civilian wheeled</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>killing sprees</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>num max morale districts</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer8></integer8>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>high priority targets destroyed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>max morale districts bitfield</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer16></integer16>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>time in activities</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>EDF killed total</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>EDF killed crushed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>EDF killed explosion</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>EDF killed gun</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>vehicles destroyed EDF tanks</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>vehicles destroyed EDF wheeled</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge total time</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs total score</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ore mined</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>tags found</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>supply crates destroyed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>EDF buildings destroyed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>propaganda destroyed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>flyers destroyed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>activities completed</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm total time</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 17</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 16</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 15</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 14</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 13</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 12</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 11</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 10</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 9</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 8</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 7</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 6</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 5</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 4</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 3</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 2</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>dm time 1</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 19</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 18</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 17</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 16</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 15</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 14</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 13</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 12</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 11</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 10</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 9</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 8</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 7</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 6</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 5</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 4</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 3</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 2</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>ge time 1</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<time></time>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs score 7</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs score 6</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs score 5</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs score 4</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs score 3</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs score 2</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>rs score 1</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<float></float>
+			<Percentage_Of_Stat></Percentage_Of_Stat>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	<Stat>
+		<Name>EDF killed with sledge</Name>
+		<Allow_Update_By_Server>False</Allow_Update_By_Server>
+		<Value_Type>
+			<integer></integer>
+			</Value_Type>
+		<_Editor>
+			<Category>Entries:Single player:Deprecated</Category>
+			</_Editor>
+		</Stat>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Stat</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Name of the stat.</Description>
+		</Element>
+	<Element>
+		<Name>Allow_Update_By_Server</Name>
+		<Type>Selection</Type>
+		<Display_Name>Allow Update By Server</Display_Name>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>LivePropertyID</Name>
+		<Type>Int</Type>
+		<Display_Name>Live Property ID</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>LiveLeaderboardID</Name>
+		<Type>Int</Type>
+		<Display_Name>Live Leaderboard ID</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>Value_Type</Name>
+		<Type>ComboElement</Type>
+		<Display_Name>Value Type</Display_Name>
+		<Element>
+			<Name>integer</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>float</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>distance</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>time</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>money</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>boolean</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>percent</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			<Element>
+				<Name>Percentage_Of_Stat</Name>
+				<Type>Reference</Type>
+				<Display_Name>Percentage Of Stat</Display_Name>
+				<Reference>
+					<File>stats.xtbl</File>
+					<Type>Stat.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Element>
+			<Name>complex</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>integer16</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>integer8</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			</Element>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>Multiplayer</Name>
+			</Category>
+		<Category>
+			<Name>Ruin mode</Name>
+			</Category>
+		<Category>
+			<Name>Single and Multi</Name>
+			</Category>
+		<Category>
+			<Name>Single player</Name>
+			<Category>
+				<Name>Deprecated</Name>
+				</Category>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

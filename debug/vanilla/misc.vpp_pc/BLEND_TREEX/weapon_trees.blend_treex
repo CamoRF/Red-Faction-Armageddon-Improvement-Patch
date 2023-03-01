@@ -1,0 +1,695 @@
+<root>
+	<Version>1</Version>
+	<Blend_Trees>
+		<Blend_Tree>
+			<Name>remote_charge_gun</Name>
+			<Input_Blend_Speed>1.0</Input_Blend_Speed>
+			<Crossfade_Speed>50.0</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>weapon mode</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>fire</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>weaponMode</Name>
+					<uid>3855</uid>
+					<State_Dependent>
+						<State_Name>weapon mode</State_Name>
+						<State_Values>
+							<State_Value>idle</State_Value>
+							<State_Value>firing</State_Value>
+							<State_Value>reloading</State_Value>
+							<State_Value>charging</State_Value>
+							<State_Value>dryfired</State_Value>
+							<State_Value>overheated</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>3579</uid>
+							<Flags>
+								<Flag>Closest Single Child</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>outOfAmmo</Name>
+									<Axis>rounds in magazine</Axis>
+									<uid>3856</uid>
+									<Control>0.0</Control>
+									<Flags>
+										<Flag>Closest Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>no active projectiles</Name>
+											<Axis>projectiles active</Axis>
+											<uid>3613</uid>
+											<Control>0.0</Control>
+											<Animation_State_Tag>ammoless</Animation_State_Tag>
+										</Node>
+										<Node>
+											<Name>active projectiles</Name>
+											<Axis>projectiles active</Axis>
+											<uid>3611</uid>
+											<Control_Start>1.0</Control_Start>
+											<Control_Start_Speed>1.0</Control_Start_Speed>
+											<Control_End>4.0</Control_End>
+											<Control_End_Speed>1.0</Control_End_Speed>
+											<Animation_State_Tag>ammoless_empty_chamber</Animation_State_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>hasAmmo</Name>
+									<Axis>rounds in magazine</Axis>
+									<uid>3857</uid>
+									<Control>1.0</Control>
+									<Flags>
+										<Flag>Closest Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>1 - 3 active projectiles</Name>
+											<Axis>projectiles active</Axis>
+											<uid>3598</uid>
+											<Control_Start>0.0</Control_Start>
+											<Control_Start_Speed>1.0</Control_Start_Speed>
+											<Control_End>3.0</Control_End>
+											<Control_End_Speed>1.0</Control_End_Speed>
+											<Animation_State_Tag>idle</Animation_State_Tag>
+										</Node>
+										<Node>
+											<Name>4 active projectiles</Name>
+											<Axis>projectiles active</Axis>
+											<uid>3599</uid>
+											<Control>4.0</Control>
+											<Animation_State_Tag>empty_chamber</Animation_State_Tag>
+											<Transitions>
+												<Transition>
+													<to>3598</to>
+													<Type>0</Type>
+													<animation_action_tag>reload_chamber</animation_action_tag>
+												</Transition>
+											</Transitions>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>Actions</Name>
+							<uid>3580</uid>
+							<Action_Dependent> fire</Action_Dependent>
+							<Nodes>
+								<Node>
+									<Name>fire1, 2, and 3</Name>
+									<Axis>projectiles active</Axis>
+									<uid>3858</uid>
+									<Control_Start>0.0</Control_Start>
+									<Control_Start_Speed>1.0</Control_Start_Speed>
+									<Control_End>3.0</Control_End>
+									<Control_End_Speed>1.0</Control_End_Speed>
+									<Flags>
+										<Flag>Closest Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>outOfAmmo</Name>
+											<Axis>rounds in magazine</Axis>
+											<uid>3586</uid>
+											<Control>0</Control>
+											<Animation_Action_Tag>last_fire</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>fire</Name>
+											<Axis>rounds in magazine</Axis>
+											<uid>3587</uid>
+											<Control>1.0</Control>
+											<Animation_Action_Tag>fire</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>fire4</Name>
+									<Axis>projectiles active</Axis>
+									<uid>3859</uid>
+									<Control>4.0</Control>
+									<Flags>
+										<Flag>Closest Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>outOfAmmo</Name>
+											<Axis>rounds in magazine</Axis>
+											<uid>3860</uid>
+											<Control>0</Control>
+											<Animation_Action_Tag>last_fire</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>fire</Name>
+											<Axis>rounds in magazine</Axis>
+											<uid>3596</uid>
+											<Control>1.0</Control>
+											<Animation_Action_Tag>clean_chamber</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+			<Flags>
+				<Flag>Disable Crossfade</Flag>
+			</Flags>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>test magnet gun</Name>
+			<Crossfade_Speed>30.0</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>weapon mode</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>fire</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>weapon animations</Name>
+					<uid>3600</uid>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>3601</uid>
+							<Nodes>
+								<Node>
+									<Name>all weapon states</Name>
+									<uid>3602</uid>
+									<State_Dependent>
+										<State_Name>weapon mode</State_Name>
+										<State_Values>
+											<State_Value>idle</State_Value>
+											<State_Value>firing</State_Value>
+											<State_Value>charging</State_Value>
+											<State_Value>dryfired</State_Value>
+											<State_Value>overheated</State_Value>
+											<State_Value>reloading</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Flags>
+										<Flag>Closest Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>0 projectile</Name>
+											<Axis>projectiles active</Axis>
+											<uid>3603</uid>
+											<Control>0</Control>
+											<Animation_State_Tag>idle 1</Animation_State_Tag>
+										</Node>
+										<Node>
+											<Name>1 projectile</Name>
+											<Axis>projectiles active</Axis>
+											<uid>3604</uid>
+											<Control>1.0</Control>
+											<Animation_State_Tag>idle 2</Animation_State_Tag>
+										</Node>
+										<Node>
+											<Name>2 projectile</Name>
+											<Axis>projectiles active</Axis>
+											<uid>3605</uid>
+											<Control>2.0</Control>
+											<Animation_State_Tag>idle 1</Animation_State_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>fire action (3567)</Name>
+							<uid>3606</uid>
+							<Action_Dependent>fire</Action_Dependent>
+							<Flags>
+								<Flag>Closest Single Child</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>0 projectile</Name>
+									<Axis>projectiles active</Axis>
+									<uid>3607</uid>
+									<Control>0.0</Control>
+									<Animation_Action_Tag>fire 0</Animation_Action_Tag>
+								</Node>
+								<Node>
+									<Name>1 projectile</Name>
+									<Axis>projectiles active</Axis>
+									<uid>3608</uid>
+									<Control>1.0</Control>
+									<Animation_Action_Tag>fire 1</Animation_Action_Tag>
+								</Node>
+								<Node>
+									<Name>2 projectile</Name>
+									<Axis>projectiles active</Axis>
+									<uid>3609</uid>
+									<Control>2.0</Control>
+									<Animation_Action_Tag>fire 2</Animation_Action_Tag>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>ppr</Name>
+			<States>
+				<State>
+					<Name>weapon mode</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>fire</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>weaponMode</Name>
+					<uid>3618</uid>
+					<State_Dependent>
+						<State_Name>weapon mode</State_Name>
+						<State_Values>
+							<State_Value>idle</State_Value>
+							<State_Value>firing</State_Value>
+							<State_Value>charging</State_Value>
+							<State_Value>dryfired</State_Value>
+							<State_Value>overheated</State_Value>
+							<State_Value>reloading</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>3619</uid>
+							<Animation_State_Tag>idle</Animation_State_Tag>
+							<Flags>
+								<Flag>Closest Single Child</Flag>
+							</Flags>
+						</Node>
+						<Node>
+							<Name>Action</Name>
+							<uid>3621</uid>
+							<Action_Dependent>fire</Action_Dependent>
+							<Nodes>
+								<Node>
+									<Name>outOfAmmo</Name>
+									<Axis>rounds in magazine</Axis>
+									<uid>3861</uid>
+									<Control>0.0</Control>
+									<Animation_Action_Tag>ammoless</Animation_Action_Tag>
+								</Node>
+								<Node>
+									<Name>fire</Name>
+									<Axis>rounds in magazine</Axis>
+									<uid>3862</uid>
+									<Control_Start>1.0</Control_Start>
+									<Control_Start_Speed>1.0</Control_Start_Speed>
+									<Control_End>36.0</Control_End>
+									<Control_End_Speed>1.0</Control_End_Speed>
+									<Animation_Action_Tag>fire</Animation_Action_Tag>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>Pony</Name>
+			<Crossfade_Speed>3.5</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>weapon mode</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>fire</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>weaponMode</Name>
+					<uid>8503</uid>
+					<State_Dependent>
+						<State_Name>weapon mode</State_Name>
+						<State_Values>
+							<State_Value>idle</State_Value>
+							<State_Value>firing</State_Value>
+							<State_Value>charging</State_Value>
+							<State_Value>dryfired</State_Value>
+							<State_Value>overheated</State_Value>
+							<State_Value>reloading</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>8504</uid>
+							<Flags>
+								<Flag>Closest Single Child</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>idle</Name>
+									<uid>8512</uid>
+									<State_Dependent>
+										<State_Name>weapon mode</State_Name>
+										<State_Values>
+											<State_Value>idle</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Animation_State_Tag>idle</Animation_State_Tag>
+									<Transitions>
+										<Transition>
+											<to>8514</to>
+											<Type>0</Type>
+											<animation_action_tag>charging</animation_action_tag>
+										</Transition>
+									</Transitions>
+								</Node>
+								<Node>
+									<Name>fire</Name>
+									<uid>8513</uid>
+									<State_Dependent>
+										<State_Name>weapon mode</State_Name>
+										<State_Values>
+											<State_Value>firing</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Animation_State_Tag>fire</Animation_State_Tag>
+								</Node>
+								<Node>
+									<Name>charging</Name>
+									<uid>8514</uid>
+									<State_Dependent>
+										<State_Name>weapon mode</State_Name>
+										<State_Values>
+											<State_Value>charging</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Animation_State_Tag>fire</Animation_State_Tag>
+								</Node>
+								<Node>
+									<Name>overheated</Name>
+									<uid>8515</uid>
+									<State_Dependent>
+										<State_Name>weapon mode</State_Name>
+										<State_Values>
+											<State_Value>overheated</State_Value>
+											<State_Value>dryfired</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Animation_State_Tag>overheated</Animation_State_Tag>
+									<Transitions>
+										<Transition>
+											<to>8512</to>
+											<Type>0</Type>
+											<animation_action_tag>cooldown</animation_action_tag>
+										</Transition>
+									</Transitions>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>Action</Name>
+							<uid>8505</uid>
+							<Action_Dependent>fire</Action_Dependent>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>rf_shotgun</Name>
+			<States>
+				<State>
+					<Name>weapon mode</Name>
+				</State>
+				<State>
+					<Name>upgraded reload</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>reload</Name>
+					<Flags>
+						<Flag>Original Tag On No Match</Flag>
+					</Flags>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>weaponMode</Name>
+					<uid>8506</uid>
+					<State_Dependent>
+						<State_Name>weapon mode</State_Name>
+						<State_Values>
+							<State_Value>idle</State_Value>
+							<State_Value>firing</State_Value>
+							<State_Value>charging</State_Value>
+							<State_Value>dryfired</State_Value>
+							<State_Value>overheated</State_Value>
+							<State_Value>reloading</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>8507</uid>
+							<Animation_State_Tag>idle</Animation_State_Tag>
+							<Flags>
+								<Flag>Closest Single Child</Flag>
+							</Flags>
+						</Node>
+						<Node>
+							<Name>actions</Name>
+							<uid>8558</uid>
+							<Nodes>
+								<Node>
+									<Name>reload</Name>
+									<uid>8559</uid>
+									<Action_Dependent>reload</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>standard</Name>
+											<uid>8560</uid>
+											<State_Dependent>
+												<State_Name>upgraded reload</State_Name>
+												<State_Values>
+													<State_Value>no</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Animation_Action_Tag>reload</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>upgraded</Name>
+											<uid>8561</uid>
+											<State_Dependent>
+												<State_Name>upgraded reload</State_Name>
+												<State_Values>
+													<State_Value>yes</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Animation_Action_Tag>reload upgraded</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>rail_gun</Name>
+			<States>
+				<State>
+					<Name>weapon mode</Name>
+				</State>
+				<State>
+					<Name>upgraded reload</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>reload</Name>
+					<Flags>
+						<Flag>Original Tag On No Match</Flag>
+					</Flags>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>weaponMode</Name>
+					<uid>8509</uid>
+					<State_Dependent>
+						<State_Name>weapon mode</State_Name>
+						<State_Values>
+							<State_Value>idle</State_Value>
+							<State_Value>firing</State_Value>
+							<State_Value>charging</State_Value>
+							<State_Value>dryfired</State_Value>
+							<State_Value>overheated</State_Value>
+							<State_Value>reloading</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>8510</uid>
+							<Animation_State_Tag>idle</Animation_State_Tag>
+							<Flags>
+								<Flag>Closest Single Child</Flag>
+							</Flags>
+						</Node>
+						<Node>
+							<Name>actions</Name>
+							<uid>8562</uid>
+							<Nodes>
+								<Node>
+									<Name>reload</Name>
+									<uid>8563</uid>
+									<Action_Dependent>reload</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>standard</Name>
+											<uid>8564</uid>
+											<State_Dependent>
+												<State_Name>upgraded reload</State_Name>
+												<State_Values>
+													<State_Value>no</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Animation_Action_Tag>reload</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>upgraded</Name>
+											<uid>8565</uid>
+											<State_Dependent>
+												<State_Name>upgraded reload</State_Name>
+												<State_Values>
+													<State_Value>yes</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Animation_Action_Tag>reload upgraded</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>plasma_cannon</Name>
+			<Crossfade_Speed>3.5</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>weapon mode</Name>
+				</State>
+			</States>
+			<Blended_Actions></Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>weaponMode</Name>
+					<uid>8594</uid>
+					<State_Dependent>
+						<State_Name>weapon mode</State_Name>
+						<State_Values>
+							<State_Value>idle</State_Value>
+							<State_Value>firing</State_Value>
+							<State_Value>charging</State_Value>
+							<State_Value>dryfired</State_Value>
+							<State_Value>overheated</State_Value>
+							<State_Value>reloading</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>8595</uid>
+							<Nodes>
+								<Node>
+									<Name>idle</Name>
+									<uid>8596</uid>
+									<State_Dependent>
+										<State_Name>weapon mode</State_Name>
+										<State_Values>
+											<State_Value>idle</State_Value>
+											<State_Value>firing</State_Value>
+											<State_Value>dryfired</State_Value>
+											<State_Value>overheated</State_Value>
+											<State_Value>reloading</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Animation_State_Tag>idle</Animation_State_Tag>
+								</Node>
+								<Node>
+									<Name>charging</Name>
+									<uid>8598</uid>
+									<State_Dependent>
+										<State_Name>weapon mode</State_Name>
+										<State_Values>
+											<State_Value>charging</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Animation_State_Tag>charged</Animation_State_Tag>
+									<Transitions>
+										<Transition>
+											<to>8596</to>
+											<Type>0</Type>
+											<animation_action_tag>fire</animation_action_tag>
+										</Transition>
+									</Transitions>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+	</Blend_Trees>
+</root>

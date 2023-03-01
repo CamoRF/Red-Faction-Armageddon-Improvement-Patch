@@ -1,0 +1,2543 @@
+<root>
+
+<struct>edit_obj
+	<str>name
+		<default></default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<obj_handle>game_parent
+		<default>-1</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<int>game_parent_obj_num
+		<default>-1</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<vec>pos
+		<default>0.000000 0.000000 0.000000</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</vec>
+	<mat>orient
+		<default>
+			1.000000 0.000000 0.000000
+			0.000000 1.000000 0.000000
+			0.000000 0.000000 1.000000
+		</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</mat>
+	<bool>persistent
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>auto_restore
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<flags>mp_and_ruin_modes
+		<f>mp_deathmatch</f>
+		<f>mp_team_deathmatch</f>
+		<f>mp_infestation</f>
+		<f>ruin_free_play</f>
+		<f>ruin_timed</f>
+		<default></default>
+	</flags>
+	<bool>stick_to_terrain
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<enum>terrain_morphing
+		<e>None</e>
+		<e>Circle</e>
+		<e>Rect</e>
+		<e>Poly</e>
+		<e>Basement</e>
+		<default>None</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</enum>
+	<flt>terrain_falloff
+		<default>3</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>terrain_radius
+		<default>4.5</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<int>anim_rig_bone_index
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</int>
+	<bool>allow_under_terrain
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>		
+</struct>
+
+<struct>obj_zone
+	<old_type>e_zone</old_type>
+	<enum>district
+		<e>Default</e>
+		<populate>territories.xtbl;Table;Territory;Districts;District;Name</populate>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</enum>
+	<enum>mission_info
+		<e>none</e>
+		<populate>missions.xtbl;table;mission;Name</populate>
+		<default>none</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</enum>
+	<enum>spawn_resource_data
+		<e>Default</e>
+		<populate>spawn_resource.xtbl;Table;spawn_resource_entry;Name</populate>
+	</enum>
+	<enum>ambient_spawn
+		<e>None</e>
+		<populate>ambient_spawn_info.xtbl;Table;ambient_spawn_info;Name</populate>
+	</enum>
+	<flags>zone_flags
+		<f>border_zone</f>
+		<default></default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flags>
+	<str>terrain_file_name
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<flt>wind_min_speed
+		<default>50.0</default>
+	</flt>
+	<flt>wind_max_speed
+		<default>80.0></default>
+	</flt>
+	<bool>multiplayer_zone
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+</struct>
+
+<struct>layer
+</struct>
+
+<struct>obj_chunk_ref
+	<old_type>e_ref</old_type>
+	<str>chunk
+		<default></default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<enum>properties
+		<populate>level_objects.xtbl;table;level_object;name</populate>
+		<default>Default</default>
+	</enum>
+	<enum>gameplay_properties
+		<populate>gameplay_properties.xtbl;table;gameplay;name</populate>
+		<default>Default</default>
+	</enum>
+	<enum>lod_properties
+		<populate>lod_properties.xtbl;table;lod;name</populate>
+		<default>None</default>
+	</enum>
+	<flt>game_destroyed_pct
+		<default>-1.0</default>
+		<old_param_name>collapse_pct</old_param_name>
+	</flt>
+	<flags>building_type
+		<default></default>
+		<f>Communications</f>
+		<f>Bridge</f>
+		<f>Force_Field</f>
+		<f>Dynamic</f>
+		<f>Invalid_Behemoth_Ammo</f>
+		<f>Preferred_Tentacle_Ammo</f>
+		<f>Single_Pod_Cluster</f>
+		<f>Triple_Pod_Cluster</f>
+	</flags>
+	<enum>display_radius
+		<e>None</e>
+		<e>PA</e>
+		<e>Kiosk</e>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</enum>
+	<flt>min_pa_radius
+		<default>80</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</flt>
+	<int>revision
+		<default>0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</int>
+	<bool>touch_terrain
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>no_gpu_vis
+		<default>false</default>
+	</bool>
+	<bool>no_repair
+		<default>false</default>
+	</bool>
+	<bool>no_magnet_gun
+		<default>false</default>
+	</bool>
+	<bool>ignore_shape_cutters
+		<default>false</default>
+	</bool>
+	<bool>suppress_salvage
+		<default>false</default>
+	</bool>
+	<bool>mp_unimportant
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>stitch_piece
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<enum>gameplay_properties
+		<populate>gameplay_properties.xtbl;table;gameplay;name</populate>
+		<default>Default</default>
+	</enum>
+	<str>chunk
+		<default></default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<flags>piece_flags
+		<default></default>
+		<f>skirt_mopp</f>
+	</flags>
+	<bool>no_casts_shadows
+		<default>true</default>
+	</bool>
+	<bool>unwalkable
+		<default>true</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<enum>lod_properties
+		<populate>lod_properties.xtbl;table;lod;name</populate>
+		<default>None</default>
+	</enum>
+	<bool>no_gpu_vis
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>decal
+	<description>Decal</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<box>bb
+		<default>
+			-1.000000 -0.100000 -1.000000
+			1.000000 0.100000 1.000000
+		</default>
+	</box>
+	<str>diffuse_texture
+		<default>missing-white.tga</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<str>specular_texture
+		<default>missing-white.tga</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<color>decal_tint
+		<default> 1.0 1.0 1.0 1.0 </default>
+	</color>
+	<flt>specular_amount
+		<default>0.1</default>
+	</flt>
+	<flt>opacity
+		<default>1.0</default>
+	</flt>
+	<flt>edge_fade
+		<default>0.1</default>
+	</flt>
+	<int>sort_order
+		<default>0</default>
+	</int>
+	<flt>self_illum
+		<default> 0.0 </default>
+	</flt>
+</struct>
+
+<struct>navpoint
+	<description>Navpoint</description>
+	<enum>navpoint_type
+		<e>GROUND</e>
+		<e>PATROL</e>
+		<e>PEDESTRIAN</e>
+		<e>FLOATING</e>
+		<e>SUPPLY DROPOFF</e>
+		<e>ROAD</e>
+		<e>ROAD JUMP</e>
+		<e>ROAD JUMP DEST</e>
+		<e>ROAD JUMP START</e>
+		<e>ROAD CHECKPOINT</e>
+		<e>PATH</e>
+		<e>TRANSITION</e>
+		<e>LADDER TRANSITION</e>
+		<e>LADDER</e>
+		<e>STAIRS</e>
+		<e>TRANSITION JUMP</e>
+		<e>TRANSITION LEAP OVER</e>
+		<e>ROAD BRIDGE</e>
+		<e>PATH DOOR</e>
+		<e>TRANSITION DOOR</e>
+		<default>PATH</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</enum>
+	<bool>dont_follow_road
+		<default>false</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</bool>
+	<bool>ignore_lanes
+		<default>false</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</bool>
+	<flt>outer_radius
+		<default>1.35</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</flt>
+	<flt>navpoint_speed_limit
+		<default>10.0</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</flt>
+	<enum>branch_type
+		<e>NONE</e>
+		<e>START BRANCH</e>
+		<e>START BRANCH BRIDGE</e>
+		<e>END BRANCH</e>
+		<default>NONE</default>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</enum>
+	<struct,10>links
+		<obj_handle>ref
+			<default>-1</default>
+			<READ_ONLY>READ_ONLY</READ_ONLY>
+		</obj_handle>
+		<old_param_name>navlinks</old_param_name>
+		<COMBINED_EXPORT>COMBINED_EXPORT</COMBINED_EXPORT>
+	</struct,10>
+</struct>
+
+<struct>constraint_point
+	<description>Constraint - Point</description>
+	<obj_handle>child_handle
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<obj_handle>host_handle
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<int>child_index
+		<default>-1</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<int>host_index
+		<default>-1</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<flt>outer_radius
+		<default>0.25</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<enum>point_constraint_type
+		<e>Standard</e>
+		<e>Limited</e>
+		<e>Stiff_Spring</e>
+		<default>Standard</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</enum>
+	<flt>spring_length
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>min_x
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>max_x
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>min_y
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>max_y
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>min_z
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>max_z
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>threshhold
+		<default>-1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+</struct>
+
+<struct>constraint_hinge
+	<description>Constraint - Hinge</description>
+	<old_type>constraint_hindge</old_type>
+	<obj_handle>child_handle
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<obj_handle>host_handle
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<int>child_index
+		<default>-1</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<int>host_index
+		<default>-1</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<flt>outer_radius
+		<default>0.25</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<bool>limited
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<flt>max_ang
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>min_ang
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>friction
+		<default>10.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>threshhold
+		<default>-1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>angular_speed
+		<default>-1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>gain
+		<default>-1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+</struct>
+
+<struct>constraint_prism
+	<description>Constraint - Prism</description>
+	<obj_handle>child_handle
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<obj_handle>host_handle
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<int>child_index
+		<default>-1</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<int>host_index
+		<default>-1</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<flt>outer_radius
+		<default>0.25</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<bool>limited
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<flt>max
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>min
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>friction
+		<default>10.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>threshhold
+		<default>-1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>angular_speed
+		<default>-1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>gain
+		<default>-1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+</struct>
+
+<struct>object_guard_node
+	<description>Guard Node</description>
+	<rendermesh>rendermesh
+		<default>cloe_model_guard_node.csmesh_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<str>CLOE_ONLY
+		<default>true</default>
+	</str>
+	<flt>angle_left
+		<default>45</default>
+	</flt>
+	<flt>angle_right
+		<default>45</default>
+	</flt>
+</struct>
+
+<struct>object_spawn_point
+	<description>Spawn Point</description>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+</struct>
+
+
+<struct>object_dummy
+	<description>Dummy Object</description>
+	<enum>dummy_type
+		<e>None</e>
+		<e>Demolition</e>
+		<e>Smoke Plume</e>
+		<e>Reinforced_Fence</e>
+		<e>Barricade</e>
+		<e>Rally</e>
+		<e>Air Bomb</e>
+		<e>Cutscene</e>
+		<e>Demo Master</e>
+		<e>VRail Spawn</e>
+		<e>Tech Reponse Pos</e>
+		<e>Mission Respawn</e>	
+		<e>Magic Rock</e>
+		<e>Standing Cover</e>
+		<e>Monster Closet</e>
+		<default>None</default>
+	</enum>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<enum>cutscene
+		<populate>cutscene.xtbl;table;Cutscene;Name</populate>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</enum>
+</struct>
+
+
+<struct>object_animation_spline
+	<description>Animation Spline</description>
+	<flt>animation_time
+		<default>0.0000</default>
+	</flt>
+	<enum>anim_action
+		<e>None</e>
+		<populate>anim_actions.xtbl;table;Action;Name</populate>
+	</enum>
+</struct>
+
+
+<struct>object_animation_action
+	<description>Animation Object</description>
+	<bool>end_on_leap_node
+		<default>false</default>
+	</bool>
+	<enum>anim_action
+		<e>None</e>
+		<populate>anim_actions.xtbl;table;Action;Name</populate>
+	</enum>
+</struct>
+
+
+<struct>object_leap_node
+	<old_type>object_jump_node</old_type>
+	<description>Leap Node</description>
+	<enum>leap_node_type
+		<e>Ground</e>
+		<e>Wall</e>
+		<e>Roof</e>
+		<default>Ground</default>
+	</enum>
+	<bool>scripted_leap
+		<default>false</default>
+	</bool>
+	<rendermesh>rendermesh
+		<default>leap_node.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+</struct>
+
+<struct>object_cutscene_camera
+	<description>Camera object</description>
+	<enum>Cutscene_file 
+		<e>none</e>
+		<populate>cutscene_cameras.xtbl;table;Cutscene_Cameras;Filename;Filename</populate>
+		</enum>
+	<rendermesh>rendermesh
+		<default>cloe_camera.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+</struct>
+
+<struct>object_oscar
+	<description>Oscar</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<rendermesh>rendermesh
+		<default>oscar.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</rendermesh>
+</struct>
+
+<struct>oscar_mon_4m
+	<description>Oscar - Monolith 4m</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<rendermesh>rendermesh
+		<default>mon_oscar_small.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</rendermesh>
+</struct>
+
+<struct>oscar_mon_8m
+	<description>Oscar - Monolith 8m</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<rendermesh>rendermesh
+		<default>mon_oscar_medium.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</rendermesh>
+</struct>
+
+<struct>oscar_mon_15m
+	<description>Oscar - Monolith 15m</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<rendermesh>rendermesh
+		<default>mon_oscar_large.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</rendermesh>
+</struct>
+
+<struct>object_spawn_wave
+	<description>Spawn Wave Object</description>
+	<int>num_waves
+		<default>1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</int>
+	<int>wave_1_points
+		<default>1</default>
+	</int>
+	<int>wave_1_trigger</int>
+	<flt>wave_1_min_delay</flt>
+	<flt>wave_1_max_delay</flt>
+	<int>wave_2_points</int>
+	<int>wave_2_trigger</int>
+	<flt>wave_2_min_delay</flt>
+	<flt>wave_2_max_delay</flt>
+	<int>wave_3_points</int>
+	<int>wave_3_trigger</int>
+	<flt>wave_3_min_delay</flt>
+	<flt>wave_3_max_delay</flt>
+	<int>wave_4_points</int>
+	<int>wave_4_trigger</int>
+	<flt>wave_4_min_delay</flt>
+	<flt>wave_4_max_delay</flt>
+	<int>wave_5_points</int>
+	<int>wave_5_trigger</int>
+	<flt>wave_5_min_delay</flt>
+	<flt>wave_5_max_delay</flt>
+	<int>wave_6_points</int>
+	<int>wave_6_trigger</int>
+	<flt>wave_6_min_delay</flt>
+	<flt>wave_6_max_delay</flt>
+	<int>wave_7_points</int>
+	<int>wave_7_trigger</int>
+	<flt>wave_7_min_delay</flt>
+	<flt>wave_7_max_delay</flt>
+	<int>wave_8_points</int>
+	<int>wave_8_trigger</int>
+	<flt>wave_8_min_delay</flt>
+	<flt>wave_8_max_delay</flt>
+	<int>wave_9_points</int>
+	<int>wave_9_trigger</int>
+	<flt>wave_9_min_delay</flt>
+	<flt>wave_9_max_delay</flt>
+	<int>wave_10_points</int>
+	<int>wave_10_trigger</int>
+	<flt>wave_10_min_delay</flt>
+	<flt>wave_10_max_delay</flt>
+</struct>
+
+
+<struct>object_squad_spawn_node
+	<old_type>object_squad</old_type>
+	<description>Squad Spawn Object</description>
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<rendermesh>rendermesh
+		<default>cloe_model_squad_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<enum>squad_def
+		<default>basic_squad_1</default>
+		<populate>squads.xtbl;table;Squads;Name</populate>
+	</enum>
+	<enum>respawn_speed
+		<e>None</e>
+		<e>Slow</e>
+		<e>Medium</e>
+		<e>Fast</e>
+		<default>None</default>
+	</enum>
+	<enum>default_orders
+		<populate>orders_types.xtbl;table;orders_type;Name</populate>
+		<default>Standard</default>
+	</enum>
+	<enum>ambient_action_type
+		<populate>action_node_types.xtbl;table;Ambient_Behaviors;Name</populate>
+	</enum>
+	<bool>no_reassignment
+		<default>false</default>
+	</bool>
+	<bool>squad_vehicle
+		<default>false</default>
+	</bool>
+	<enum>vehicle_type
+		<populate>spawn_group_vehicle.xtbl;table;spawn_group_vehicle;Name</populate>
+	</enum>
+	<bool>squad_exo
+		<default>false</default>
+	</bool>
+	<enum>exo_type
+		<populate>exo.xtbl;table;Exo;Name</populate>
+	</enum>
+	<flt>spawn_prob
+		<default>1</default>
+	</flt>
+	<bool>spawn_on_leap_node
+		<default>false</default>
+	</bool>
+	<enum>special_anim_state
+		<e>Default</e>
+		<populate>anim_states.xtbl;table;State;Name</populate>
+	</enum>
+	<enum>leash_distance
+		<e>None</e>
+		<e>Low</e>
+		<e>Medium</e>
+		<e>High</e>
+		<default>None</default>
+	</enum>
+	<bool>prefer_leap_combat
+		<default>false</default>
+	</bool>
+	<bool>force_player_knowledge
+		<default>false</default>
+	</bool>
+	<bool>scripted_weapon_equip
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>object_vehicle_spawn_node
+	<description>Vehicle Spawn Node</description>
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<rendermesh>rendermesh
+		<default>cloe_vehicle.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<enum>spawn_set
+		<populate>spawn_group_vehicle.xtbl;table;spawn_group_vehicle;Name</populate>
+	</enum>
+	<flt>spawn_prob
+		<default>1</default>
+	</flt>
+	<bool>player_vehicle_respawn
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>object_exo_spawn_node
+	<description>Exo Spawn Node</description>
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<enum>exo_type
+		<populate>exo.xtbl;table;Exo;Name</populate>
+	</enum>
+	<flt>spawn_prob
+		<default>1</default>
+	</flt>
+	<bool>special_exo
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>object_turret_spawn_node
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<old_type>turret</old_type>
+	<description>Turret Spawn Node</description>
+	<flt>spawn_prob
+		<default>1</default>
+	</flt>
+	<rendermesh>rendermesh_weapon
+		<default>edfrt_weapon.cmeshx;mesh;</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<rendermesh>rendermesh
+		<default>EDF_Base.cmeshx;mesh;</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<vec>gun_pos
+		<default>0.0 0.0 0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</vec>
+	<mat>gun_orient
+		<default>
+			1.000000 0.000000 0.000000
+			0.000000 1.000000 0.000000
+			0.000000 0.000000 1.000000
+		</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</mat>
+	<enum>turret_type
+		<populate>turrets.xtbl;table;turret;name</populate> 
+		<default>turret_machinegun</default>     
+	</enum>
+	<flt>rotation_limit
+		<default>0.0</default>
+	</flt>
+	<bool>autoturret
+		<default>false</default>
+	</bool>
+</struct>
+
+
+<struct>object_patrol
+	<description>Patrol Object</description>
+	<rendermesh>rendermesh
+		<default>cloe_model_patrol_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<obj_handle>patrol_start
+		<default>-1</default>
+	</obj_handle>
+	<bool>looping_patrol
+		<default>true</default>
+	</bool>
+	<bool>override_patrol
+		<default>false</default>
+	</bool>
+	<bool>combat_ready
+		<default>false</default>
+	</bool>
+	<bool>no_check_in
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>item
+	<description>Item</description>
+	<rendermesh>rendermesh
+		<default>ammo_lrg.smesh_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</rendermesh>
+	<enum>item_type
+		<populate>items_3d.xtbl;table;item;name</populate>
+		<default>ammo_pickup_large</default>
+	</enum>
+	<bool>casts_shadows
+		<default>false</default>
+	</bool>
+	<enum>pod_spawn_type
+		<populate>rf4_pod_definition.xtbl;table;pod_definition;name</populate>
+	</enum>
+	<bool>respawn
+		<default>false</default>
+	</bool>
+	<bool>disable_pod_spawning
+		<default>false</default>
+	</bool>
+	<int>pod_group_id
+		<default>0</default>
+	</int>
+	<enum>audio_log_name
+		<e>none</e>
+		<populate>audio_logs.xtbl;table;Audio_Log;Name</populate>
+		<default>none</default>
+	</enum>
+	
+</struct>
+
+<struct>weapon
+	<description>Weapon</description>
+	<rendermesh>rendermesh
+		<default>ppr.cmesh_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</rendermesh>
+	<enum>weapon_type
+		<populate>weapons.xtbl;table;Weapon;Name</populate>
+		<default>phased_plasma_rifle</default>
+		<old_param_name>item_type</old_param_name>
+	</enum>
+	<bool>respawns
+		<default>true</default>
+	</bool>
+	<bool>preplaced
+		<default>true</default>
+	</bool>
+</struct>
+
+<struct>obj_light
+	<description>Light</description>
+	<str>parent_name</str>
+	<obj_handle>clip_shape
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+	<str>clip_mesh
+		<default>NONE</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<bool>show_attenuation_spheres
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>use_wireframe
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<flags>light_flags
+		<f>shadow_map_only</f>
+		<f>negative_light</f>
+		<f>prestream</f>
+		<f>use_sun_shadows</f>
+		<f>invert_clip</f>
+		<f>mp_dark_light</f>
+		<f>use_old_light_model</f>
+	</flags>
+	<flags>linking_flags
+   	  <f>player</f>
+	     <f>characters</f>
+	     <f>vehicles</f>
+	     <f>environment</f>
+   	  <default>player characters vehicles environment</default>
+	</flags>
+	<str>script_point
+		<default>NONE</default>
+		<SCRIPT_POINT>true</SCRIPT_POINT>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<enum>type_enum
+		<e>omni</e>
+		<e>spot</e>
+		<e>tube</e>
+		<e>ambient</e>
+		<default>omni</default>
+	</enum>
+	<color>color
+		<default>1.0 1.0 1.0 1.0</default>
+	</color>
+	<color>back_color
+		<default>0.0 0.0 0.0 1.0</default>
+	</color>
+
+	<flt>hotspot_size
+		<default>10</default>
+	</flt>
+	<flt>hotspot_falloff_size
+		<default>3</default>
+	</flt>
+	<flt>tube_length
+		<default>1.0</default>
+	</flt>
+	<flt>atten_start
+		<default>10.0</default>
+	</flt>
+	<flt>atten_range
+		<default>10.0</default>
+	</flt>
+	<flt>atten_power
+		<default>1.0</default>
+	</flt>
+	<enum>lod_properties
+		<populate>lod_properties.xtbl;table;lod;name</populate>
+		<default>None</default>
+	</enum>
+	<bool>casts_shadows
+		<default>
+			false
+		</default>
+	</bool>
+	<flt>shadow_distance
+		<default>
+			10.0f
+		</default>
+	</flt>
+	<flt>shadow_zbias
+		<default>
+			0.00005f
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+	<flt>shadow_zbias_ps3
+		<default>
+			20.0f
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+	<enum>shadow_projection
+		<e>orthographic</e>
+		<e>perspective</e>
+		<default>perspective</default>
+	</enum>
+	<flt>shadow_ortho_delta
+		<default>
+			0.0f
+		</default>
+	</flt>
+	<flt>shadow_density
+		<default>
+			1.0f
+		</default>
+	</flt>
+	<obj_handle>use_shadow_map
+		<default>-1</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</obj_handle>
+
+	<bool>auto_animate
+		<default>
+			true
+		</default>
+	</bool>
+	<flt>anim_speed_multiplier
+		<default>
+			1.0f
+		</default>
+	</flt>
+	<flt>anim_inten_multiplier
+		<default>
+			1.0f
+		</default>
+	</flt>
+	<int>anim_start_offset_ms
+		<default>
+			
+		</default>
+	</int>
+	<enum>anim_playback_type
+		<e>loop</e>
+		<e>ping_pong</e>
+		<e>play_once</e>
+		<default>loop</default>
+	</enum>
+	<bool>anim_reverse
+		<default>
+			false
+		</default>
+	</bool>
+	<str>rot_curve
+		<default>
+			NONE
+		</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+	</str>
+	<str>trans_curve
+		<default>
+			NONE
+		</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+	</str>
+	<str>color_curve
+		<default>
+			NONE
+		</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+	</str>
+	<str>multi_curve
+		<default>
+			NONE
+		</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+	</str>
+	<str>atten_curve
+		<default>
+			NONE
+		</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+	</str>
+	<str>hotspot_curve
+		<default>
+			NONE
+		</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+	</str>
+	<str>tubelen_curve
+		<default>
+			NONE
+		</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+	</str>
+	<bool>projects_texture
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</bool>
+	<str>texture_filename
+		<default></default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<flt>tiling_factor
+		<default>
+			1.0f
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+	<flt>scroll_u
+		<default>
+			0.0f
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+	<flt>scroll_v
+		<default>
+			0.0f
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+	<flt>rotation
+		<default>
+			0.0f
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+	<flt>rotation_rate
+		<default>
+			0.0f
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+	<enum>texture_projection
+		<e>orthographic</e>
+		<e>perspective</e>
+		<default>perspective</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</enum>
+	<obj_handle>host_handle
+		<HIDDEN>HIDDEN</HIDDEN>
+		<default>-1</default>
+	</obj_handle>
+	<int>host_tag
+		<HIDDEN>HIDDEN</HIDDEN>
+		<default>-1</default>
+	</int>
+	<flt>contribution
+		<default>0.0</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+</struct>
+
+<struct>object_interior_sound_region
+	<description>Interior Sound Region</description>
+	<enum>area_shape
+		<e>box</e>
+		<e>sphere</e>
+		<default>box</default>
+	</enum>
+	<flt>outer_radius
+		<default>5</default>
+	</flt>
+	<flt>fov_override_meters
+		<default>-1</default>
+	</flt>
+	<flt>exterior_bleed_percent
+		<default>0</default>
+	</flt>
+	<box>bb
+		<default>
+			-5.000000 -5.000000 -5.000000
+			5.000000 5.000000 5.000000
+		</default>
+	</box>
+	<enum>sound_event_name
+		<e>none</e>
+		<populate>audio_events.xtbl;Table;NewEntity;Name</populate>
+	</enum>
+	<enum>delay_type_name
+		<e>none</e>
+		<populate>audio_syncs.xtbl;Table;NewEntity;Environments;DELAY;Values;Entry;Name</populate>
+	</enum>
+	<enum>reverb_type
+		<e>none</e>
+		<populate>audio_syncs.xtbl;Table;NewEntity;Environments;WWISE_MATRIX_REVERB;Values;Entry;Name</populate>
+	</enum>
+</struct>
+
+<struct>object_env_settings
+	<description>Environment Settings</description>
+	<flt>atten_start
+		<default>10</default>
+	</flt>
+	<flt>atten_range
+		<default>10</default>
+	</flt>
+	<box>bb
+		<default>
+			-10.000000 -10.000000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<flt>box_falloff
+		<default>2.0</default>
+	</flt>
+	<vec>box_falloff_overrides
+		<default>
+			-1.00000 -1.00000 -1.00000
+		</default>
+	</vec>
+	<enum>area_shape
+		<e>box</e>
+		<e>sphere</e>
+		<default>box</default>
+	</enum>
+	<bool>override
+		<default>false</default>
+	</bool>
+	<bool>affects_ambient_sound
+		<default>false</default>
+	</bool>
+	<enum>amb_sound_event_name
+		<e>none</e>
+		<populate>audio_events.xtbl;Table;NewEntity;Name</populate>
+	</enum>
+	<enum>delay_type_name
+		<e>none</e>
+		<populate>audio_syncs.xtbl;Table;NewEntity;Environments;DELAY;Values;Entry;Name</populate>
+	</enum>
+	<enum>reverb_type_name
+		<e>none</e>
+		<populate>audio_syncs.xtbl;Table;NewEntity;Environments;WWISE_MATRIX_REVERB;Values;Entry;Name</populate>
+	</enum>
+	<bool>affects_hdr
+		<default>false</default>
+	</bool>
+	<flt>bloom_amount
+		<default>0.5</default>
+	</flt>
+	<flt>bloom_slope_a
+		<default>0.010000</default>
+	</flt>
+	<flt>bloom_slope_b
+		<default>0.400000</default>
+	</flt>
+	<flt>bloom_theta
+		<default>0.300000</default>
+	</flt>
+	<flt>bloom_width
+		<default>3.000000</default>
+	</flt>
+	<flt>bloom_height
+		<default>3.000000</default>
+	</flt>
+	<flt>desired_brightness
+		<default>1.000000</default>
+	</flt>
+	<flt>min_exposure
+		<default>0.600000</default>
+	</flt>
+	<flt>max_exposure
+		<default>5.000000</default>
+	</flt>
+
+	<bool>affects_fog
+		<default>false</default>
+	</bool>
+	<flt>fog_near
+		<default>0.000000</default>
+	</flt>
+	<flt>fog_far
+		<default>400.000000</default>
+	</flt>
+	<flt>fog_density
+		<default>1.000000</default>
+	</flt>
+	<flt>fog_curve
+		<default>1.000000</default>
+	</flt>
+	<color>fog_color
+		<default>1.000000 1.000000 1.000000 0.500000</default>
+	</color>
+	<bool>affects_coloration
+		<default>false</default>
+	</bool>
+	<flt>contrast
+		<default>1.000000</default>
+	</flt>
+	<flt>saturation
+		<default>1.000000</default>
+	</flt>
+	<color>scene_tint
+		<default>1.000000 1.000000 1.000000 1.000000</default>
+	</color>
+	<flt>particle_saturation
+		<default>1.000000</default>
+	</flt>
+	<color>particle_tint
+		<default>1.000000 1.000000 1.000000 1.000000</default>
+	</color>
+	<flt>ssao_strength
+		<default>7.000000</default>
+	</flt>
+	<str>color_lookup_table
+		<default>none</default>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<bool>affects_particles
+		<default>false</default>
+	</bool>
+	<color>front_color
+		<default>1.000000 1.000000 1.000000 1.000000</default>
+	</color>
+	<color>back_color
+		<default>0.100000 0.100000 0.100000 1.000000</default>
+	</color>
+	<bool>affects_env_effects
+		<default>false</default>
+	</bool>
+	<flt>breath_opacity
+		<default>0.0</default>
+	</flt>
+	<flt>wind_speed
+		<default>0.0</default>
+	</flt>
+	<flt>wind_direction
+		<default>0.0</default>
+	</flt>
+	<enum>cam_effect_1
+		<e>none</e>
+		<populate>vfx.xtbl;Table;Effect;Name</populate>
+		<old_param_name>camera_effect</old_param_name>
+	</enum>
+	<enum>cam_effect_2
+		<e>none</e>
+		<populate>vfx.xtbl;Table;Effect;Name</populate>
+		<old_param_name>skybox_effect</old_param_name>
+	</enum>
+	<enum>cam_effect_3
+		<e>none</e>
+		<populate>vfx.xtbl;Table;Effect;Name</populate>
+	</enum>
+	<enum>cam_effect_4
+		<e>none</e>
+		<populate>vfx.xtbl;Table;Effect;Name</populate>
+	</enum>
+	<bool>skybox_enable
+		<default>false</default>
+	</bool>
+	<bool>follow_player_light
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</bool>
+	<bool>ambient_player_light
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</bool>
+	<enum>player_follow_light
+		<e>None</e>
+		<populate>lights.xtbl;table;lights;name</populate>
+		<default>None</default>
+	</enum>
+
+	<enum>player_ambient_light
+		<e>None</e>
+		<populate>lights.xtbl;table;lights;name</populate>
+		<default>None</default>
+	</enum>
+	<bool>affects_visibility
+		<default>false</default>
+	</bool>
+	<flt>cull_distance
+		<default>475.0</default>
+	</flt>
+	<flt>far_clip
+		<default>475.0</default>
+	</flt>
+	<flt>stitch_lod_distance
+		<default>125.0</default>
+	</flt>
+	<bool>affects_dof
+		<default>false</default>
+	</bool>
+	<flt>dof_focus_start_a
+		<default>0.0</default>
+	</flt>
+	<flt>dof_focus_start_b
+		<default>0.0</default>
+	</flt>
+	<flt>dof_focus_end_a
+		<default>25.0</default>
+	</flt>
+	<flt>dof_focus_end_b
+		<default>100.0</default>
+	</flt>
+	<flt>dof_blur_radius
+		<default>0.0</default>
+	</flt>
+
+</struct>
+
+<struct>fog_plane
+	<description>Fog Plane</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<box>bb
+		<default>
+			-10.000000 -10.000000 0.000000
+			10.000000 10.000000 0.000000
+		</default>
+	</box>
+	<str>scale_restriction
+		<default>xy</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<flt>near
+		<default>0.000000</default>
+	</flt>
+	<flt>far
+		<default>400.000000</default>
+	</flt>
+	<flt>density
+		<default>1.000000</default>
+	</flt>
+	<flt>curve
+		<default>1.000000</default>
+	</flt>
+	<flt>fade_distance
+		<default>0.000000</default>
+	</flt>
+	<color>color
+		<default>1.000000 1.000000 1.000000 0.500000</default>
+	</color>
+	<str>noise_map
+		<default>none</default>
+		<OPEN_FILE>OPEN_FILE</OPEN_FILE>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<flt>noise_amt
+		<default>0.5</default>
+	</flt>
+	<flt>u_scroll
+		<default>1.0</default>
+	</flt>
+	<flt>v_scroll
+		<default>1.0</default>
+	</flt>
+	<flt>u_tile
+		<default>1.0</default>
+	</flt>
+	<flt>v_tile
+		<default>1.0</default>
+	</flt>
+	<int>live_update_id
+		<default>-1</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+</struct>
+
+<struct>voxel_volume
+	<old_type>cloe_shape</old_type>
+	<description>Voxel Volume</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<box>bb
+		<HIDDEN>HIDDEN</HIDDEN>
+		<default>
+			-10.000000 -10.000000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>		
+	</box>
+	<bool>collision_enabled
+		<default>true</default>
+	</bool>
+	<str>diffuse_texture
+		<default>missing-white.tga</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<str>specular_texture
+		<default>missing-white.tga</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<str>normal_map
+		<default>flat-normalmap_n.tga</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<color>diffuse_tint
+		<default> 1.0 1.0 1.0 1.0 </default>
+	</color>
+	<flt>specular_amount
+		<default>0.0</default>
+	</flt>
+	<flt>specular_power
+		<default> 50.0 </default>
+	</flt>
+	<flt>smooth_amt
+		<default>0.5</default>
+	</flt>
+	<int>smooth_iter
+		<default>1</default>
+	</int>
+	<flt>uv_tiling
+		<default>0.5</default>
+	</flt>
+	<bool>inside_out
+		<default>false</default>
+	</bool>
+	<int>brush_size
+		<default>10</default>
+	</int>
+	<enum>brush_type
+		<default>Sphere</default>
+		<e>Box</e>
+		<e>Sphere</e>
+	</enum>
+	<enum>brush_mode
+		<default>volume</default>
+		<e>volume</e>
+		<e>faces</e>
+	</enum>
+</struct>
+
+<struct>player_start
+	<description>Player start</description>
+	<bool>persistent
+		<default>true</default>
+		<OVERRIDE>OVERRIDE</OVERRIDE>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</bool>
+	<bool>indoor
+		<default>false</default>
+	</bool>
+	<bool>initial_spawn
+		<default>false</default>
+	</bool>
+	<bool>respawn
+		<default>true</default>
+	</bool>
+	<bool>hub_respawn
+		<default>false</default>
+	</bool>
+	<enum>mission_info
+		<e>none</e>
+		<populate>missions.xtbl;table;mission;Name</populate>
+		<default>none</default>
+	</enum>
+	<int>checkpoint_index
+		<default>-1</default>
+	</int>
+	<bool>activity_respawn
+		<default>false</default>
+	</bool>
+	<enum>mp_team
+		<e>EDF</e>
+		<e>Guerilla</e>
+		<e>Neutral</e>
+		<default>Neutral</default>
+	</enum>
+	<rendermesh>rendermesh
+		<default>cloe_model_player_start.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</rendermesh>
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+</struct>
+
+<struct>obj_occluder
+	<description>Occluder</description>
+	<enum>oc_shape
+		<e>box</e>
+		<e>wedge</e>
+		<default>box</default>
+	</enum>
+	<box>bb
+		<default>
+			-10.000000 0.000000 -10.000000
+			10.000000 20.000000 10.000000
+		</default>
+	</box>
+	<int>flags</int>
+</struct>
+
+<struct>object_effect
+	<description>Effect</description>
+	<enum>effect_type
+		<e>none</e>
+		<populate>effects.xtbl;table;effect;name</populate>
+	</enum>
+	<enum>visual
+		<e>none</e>
+		<populate>vfx.xtbl;Table;Effect;Name</populate>
+	</enum>
+	<bool>looping
+		<default>true</default>
+	</bool>
+	<enum>sound
+		<e>none</e>
+		<populate>audio_events.xtbl;Table;NewEntity;Name</populate>
+	</enum>
+	<flt>scale_factor
+		<default>1.0</default>
+	</flt>
+	<flt>stagger_time
+		<default>0.0</default>
+	</flt>
+	<flt>max_snd_play_dist_ovrd
+		<default>-1.0f</default>
+	</flt>
+	<struct,16>links
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<obj_handle>ref
+			<default>-1</default>
+			<READ_ONLY>READ_ONLY</READ_ONLY>
+			<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		</obj_handle>
+	</struct,16>
+	<int>set_id
+		<HIDDEN>HIDDEN></HIDDEN>
+		<default>-1</default>
+	</int>
+</struct>
+
+<struct>trigger_region
+	<description>Trigger Region</description>
+	<box>bb
+		<default>
+			-10.000000 -2.500000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<flt>outer_radius
+		<default>10</default>
+	</flt>
+	<enum>trigger_shape
+		<e>box</e>
+		<e>sphere</e>
+		<default>box</default>
+	</enum>
+	<bool>enabled
+		<default>true</default>
+	</bool>
+	<flags>trigger_flags
+		<f>not_in_mission</f>
+		<f>not_in_activity</f>
+		<default></default>
+	</flags>
+	<vec>jump_pad_velocity
+		<default>0.0 0.0 0.0</default>
+	</vec>
+	<enum>jump_pad_type
+		<e>Set</e>
+		<e>Add</e>
+		<e>Multiply</e>
+		<default>Set</default>
+	</enum>
+	<flt>opacity
+	<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	<default>0.0</default>
+	</flt>
+</struct>
+
+
+<struct>object_bounding_box
+	<description>Bounding Box</description>
+	<box>bb
+		<default>
+			-10.000000 0.000000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<enum>bounding_box_type
+		<e>None</e>
+		<e>GPS Target</e>
+		<e>Warren</e>
+		<e>Valid Tentacle Ammo</e>
+		<e>Invalid Tentacle Ammo</e>
+		<e>Valid Repair</e>
+		<default>None</default>
+	</enum>
+</struct>
+
+<struct>object_spawn_region
+	<description>Spawn Region</description>
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<str>scale_restriction
+		<default>xz</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<bool>npc_only
+		<default>false</default>
+	</bool>
+	<bool>vehicle_only
+		<default>false</default>
+	</bool>
+	<enum>team
+		<e>EDF</e>
+		<e>Guerilla</e>
+		<e>Neutral</e>
+		<e>Marauder</e>
+		<default>Neutral</default>
+	</enum>
+	<box>bb
+		<default>
+			-10.000000 -10.000000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+</struct>
+
+<struct>object_ambient_behavior_region
+	<description>Ambient Behavior Region</description>
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<flt>outer_radius
+		<default>10.0000</default>
+	</flt>
+	<enum>behavior
+		<populate>ambient_spawn_behavior.xtbl;table;Behaviors;Name</populate>
+		<default>none</default>
+	</enum>
+</struct>
+
+<struct>multi_object_marker
+	<description>MP Marker</description>
+	<box>bb
+		<default>
+			-5.00000 0.00000 -5.00000
+			5.00000 5.00000 5.00000
+		</default>
+	</box>
+	<enum>mp_team
+		<e>EDF</e>
+		<e>Guerilla</e>
+		<e>Neutral</e>
+		<default>Neutral</default>
+	</enum>
+	<enum>marker_type
+		<e>Siege target</e>
+		<e>Flag capture zone</e>
+		<e>King of the Hill target</e>
+		<e>Spectator camera</e>
+		<e>Spectator intro camera</e>
+		<e>Tug of War target</e>
+		<e>Gun of Tharsis</e>
+		<e>Guns of Tharsis target</e>
+		<e>Nanoforge rack</e>
+		<e>Infestation objective</e>
+		<e>Infestation weapon spawn</e>
+		<default>Infestation objective</default>
+	</enum>
+
+	<int>group
+		<default>0</default>
+	</int>
+	<enum>nano_ability
+		<populate>nanoforge_abilities.xtbl;table;nano_ability;Name</populate>
+	</enum>
+	<flt>max_repair_pct
+		<default>1.0</default>
+	</flt>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</rendermesh>
+	<vec>tint
+		<default>1.0 1.0 0.0</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</vec>
+</struct>
+
+
+<struct>shape_cutter
+	<description>Shape Cutter</description>
+	<flt>outer_radius
+		<default>1.0</default>
+	</flt>
+</struct>
+
+<struct>ladder
+	<description>Ladder</description>
+	<int>ladder_rungs
+		<default>10</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</int>
+	<str>scale_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<str>rotation_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<box>bb
+		<default>
+			-0.25 0.0 -0.25
+			0.25 2.5 0.25
+		</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</box>
+</struct>
+
+<struct>magnet
+	<description>Magnet</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<flt>outer_radius
+		<default>0.025</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</flt>
+</struct>
+
+<struct>navmesh_cutout
+	<description>Navmesh Cut-Out</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<bool>light
+		<default>false</default>
+	</bool>
+	<bool>remove_cells
+		<default>false</default>
+	</bool>
+	<enum>navmesh_type
+		<e>Pedestrian</e>
+		<e>Vehicle: Hulk</e>
+		<e>Vehicle: Normal</e>
+		<e>Vehicle: Heavy Walker</e>
+		<default>Pedestrian</default>
+	</enum>
+	<box>bb
+		<default>
+			0.0 0.0 0.0
+			0.0 2.0 0.0
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</box>
+	<str>scale_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+</struct>
+
+<struct>interior_navmesh
+	<description>Interior Navmesh</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<bool>light
+		<default>false</default>
+	</bool>
+	<bool>remove_cells
+		<default>false</default>
+	</bool>
+	<box>bb
+		<default>
+			0.0 0.0 0.0
+			0.0 2.0 0.0
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</box>
+	<str>scale_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+</struct>
+
+<struct>object_path_road
+	<description>Road</description>
+	<bool>persistent
+		<default>true</default>
+		<OVERRIDE>OVERRIDE</OVERRIDE>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</bool>
+	<obj_handle>next
+		<default>-1</default>
+	</obj_handle>
+	<obj_handle>prev
+		<default>-1</default>
+	</obj_handle>
+	<flt>outer_radius
+		<default>5.0</default>
+	</flt>
+	<int>speed_limit
+		<default>60</default>
+	</int>
+	<bool>ambient
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>edf_only
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>marauder
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>guerrilla
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>one_way
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>other_way
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>special
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>reinforcements
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<bool>GPS
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+</struct>
+
+<struct>object_spline
+	<description>Spline</description>
+	<obj_handle>next
+		<default>-1</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</obj_handle>
+	<obj_handle>prev
+		<default>-1</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</obj_handle>
+	<flt>outer_radius
+		<default>1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+	<flt>tensor
+		<default>1.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>	
+	<bool>custom_handle
+		<default>false</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</bool>
+	<flt>handle_length
+		<default>0.0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</flt>
+</struct>
+
+<struct>invisible_wall
+	<description>Invisible Wall</description>
+	<BASE_LAYER_ONLY>BASE_LAYER_ONLY</BASE_LAYER_ONLY>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<obj_handle>next
+		<default>-1</default>
+	</obj_handle>
+	<obj_handle>prev
+		<default>-1</default>
+	</obj_handle>
+	<enum>extrude_dir
+		<e>Left</e>
+		<e>Right</e>
+		<default>Left</default>
+	</enum>
+	<bool>extend_downward
+		<default>true</default>
+	</bool>
+	<bool>play_effect
+		<default>false</default>
+	</bool>
+	<flt>marker_distance
+		<default>5.0</default>
+	</flt>
+	<flt>marker_density
+		<default>100.0</default>
+	</flt>
+	<str>marker_model
+		<default>world_boundary_marker.rfgdoptx</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</str>
+	<bool>rendered
+		<default>false</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</bool>
+	<bool>Player_only_collide
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>collision_box
+	<description>Invisible Collision</description>
+	<BASE_LAYER_ONLY>BASE_LAYER_ONLY</BASE_LAYER_ONLY>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<box>bb
+		<default>
+			-10.000000 -10.000000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<enum>material
+		<populate>rfg_effect_materials.xtbl;table;material;Name</populate>
+		<default>Terrain</default>
+	</enum>
+	<bool>Player_only_collide
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>note
+	<description>Note</description>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+	<str>note_text
+		<default></default>
+	</str>
+	<box>bb
+		<default>
+			-0.25 0.0 -0.25
+			0.25 10.0 0.25
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</box>
+	<str>scale_restriction
+		<default>y</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+
+</struct>
+
+<struct>object_mission_start_node
+	<description>Mission Start Node</description>
+	<bool>persistent
+		<default>true</default>
+		<OVERRIDE>OVERRIDE</OVERRIDE>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</bool>
+	<enum>mission_info
+		<populate>missions.xtbl;table;mission;Name</populate>
+	</enum>
+	<bool>enabled
+		<default>true</default>
+	</bool>
+	<bool>autostart
+		<default>false</default>
+	</bool>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</rendermesh>
+	<vec>tint
+		<default>0.5 0.5 0.0</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</vec>
+</struct>
+
+<struct>object_safehouse
+	<old_type>safehouse</old_type>
+	<bool>persistent
+		<default>true</default>
+		<OVERRIDE>OVERRIDE</OVERRIDE>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</bool>
+	<description>Safehouse Object</description>
+	<bool>enabled
+		<default>true</default>
+	</bool>
+	<bool>visible
+		<default>true</default>
+	</bool>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</rendermesh>
+	<vec>tint
+		<default>0.8 0.8 0.8</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</vec>
+	<str>display_name_tag
+		<default></default>
+	</str>
+</struct>
+
+<struct>object_foliage
+	<description>Single Foliage</description>
+	<BASE_LAYER_ONLY>BASE_LAYER_ONLY</BASE_LAYER_ONLY>
+	<flt>scale
+		<default>1.0</default>
+	</flt>
+	<flt>color_lerp
+		<default>0.0</default>
+	</flt>
+	<str>CLOE_ONLY
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</str>
+</struct>
+
+<struct>object_force_field
+	<description>Force Field</description>
+	<enum>shape
+		<e>plane</e>
+		<e>sphere</e>
+		<default>plane</default>
+	</enum>
+	<box>bb
+		<default>
+			-2.0 0.0 -0.5
+			2.0 2.0 0.5
+		</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+	</box>
+	<str>scale_restriction
+		<default>xy</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+	</str>
+	<bool>activated
+		<default>true</default>
+	</bool>
+	<enum>field_type
+		<e>default</e>
+		<e>exo_only</e>
+		<e>player_only</e>
+		<e>player_and_exo_only</e>
+	</enum>
+</struct>
+
+<struct>object_upgrade_node
+	<description>Upgrade Interface Node</description>
+	<enum>upgrade_type
+		<e>Weapons</e>
+		<e>Vehicles</e>
+	</enum>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>true</NO_LOAD>
+	</rendermesh>
+	<vec>tint
+		<default>0.1 0.1 0.5</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</vec>
+</struct>
+
+<struct>effect_streaming_node
+	<description>Effect Streaming Node</description>
+	<enum>streamed_effect
+		<populate>effects.xtbl;table;effect;Name</populate>
+	</enum>
+	<bool>no_stub
+		<default>true</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</bool>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</rendermesh>
+	<vec>tint
+		<default>0.7 0.7 0.5</default>
+		<HIDDEN>HIDDEN</HIDDEN>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</vec>
+</struct>
+
+<struct>object_anim_rig
+<description>Animation Rig</description>
+	<str>rig_name
+		<default></default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<bool>offset_start
+		<default>false</default>
+	</bool>
+	<bool>indestructible
+		<default>false</default>
+	</bool>
+	<bool>explode_on_death
+		<default>false</default>
+	</bool>
+	<bool>die_with_parent
+		<default>false</default>
+	</bool>
+	<flt>anim_speed
+		<default>1.0</default>
+	</flt>
+	<int>sound_bone_index
+		<HIDDEN>HIDDEN</HIDDEN>
+		<default>-1</default>
+	</int>
+	<str>doptx_filename
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+		<default></default>
+	</str>
+	<int>revision
+		<default>0</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</int>
+	<enum>default_anim
+		<default>animrig obj state 1</default>
+		<populate>rig_anims.xtbl;Table;Anim;Name</populate>
+	</enum>
+</struct>
+
+<struct>object_tornado
+	<description>Tornado Object</description>
+	<flt>damage_radius
+		<default>4.0</default>
+	</flt>
+	<flt>damage_height
+		<default>16.0</default>
+	</flt>
+	<flt>tornado_speed
+		<default>8.0f</default>
+	</flt>
+	<enum>tornado_effect
+		<default>env_dust_devil01</default>
+		<populate>effects.xtbl;Table;Effect;Name</populate>
+	</enum>
+</struct>
+
+<struct>object_prepared_video
+	<description>Prepared Video</description>
+	<str>video_file
+		<default>none</default>
+		<READ_ONLY>READ_ONLY</READ_ONLY>
+	</str>
+	<bool>is_cutscene
+		<default>false</default>
+	</bool>
+	<bool>disable_on_play
+		<default>true</default>
+	</bool>
+	<box>bb
+		<default>
+			-10.000000 -2.500000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<flt>outer_radius
+		<default>10</default>
+	</flt>
+	<enum>trigger_shape
+		<e>box</e>
+		<e>sphere</e>
+		<default>sphere</default>
+	</enum>
+	<bool>pause_game_on_play
+		<default>true</default>
+	</bool>
+</struct>
+
+<struct>object_clip_shape
+	<description>Clip shape</description>
+	<enum>shape
+		<e>box</e>
+		<e>sphere</e>
+		<default>box</default>
+	</enum>
+	<flt>radius
+		<default>10</default>
+	</flt>
+	<box>bb
+		<default>
+			-10.000000 -10.000000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+</struct>
+
+<struct>object_upgrade_spawn_node
+	<description>Upgrade Token Spawn</description>
+	<rendermesh>rendermesh
+		<default>cloe_model_object.cchk_pc</default>
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<NO_LOAD>NO_LOAD</NO_LOAD>
+	</rendermesh>
+	<flt>spawn_prob
+		<default>0</default>
+	</flt>
+</struct>
+
+<struct>jump_pad
+	<description>Jump pad</description>
+	<box>bb
+		<default>
+			-10.000000 -2.500000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<flt>outer_radius
+		<default>10</default>
+	</flt>
+	<enum>trigger_shape
+		<e>box</e>
+		<e>sphere</e>
+		<default>box</default>
+	</enum>
+	<bool>enabled
+		<default>true</default>
+	</bool>
+	<flags>trigger_flags
+		<f>not_in_mission</f>
+		<f>not_in_activity</f>
+		<default></default>
+	</flags>
+	<vec>jump_pad_velocity
+		<default>0.0 0.0 0.0</default>
+	</vec>
+	<enum>jump_pad_type
+		<e>Set</e>
+		<e>Add</e>
+		<e>Multiply</e>
+		<default>Set</default>
+	</enum>
+</struct>
+
+<struct>damage_region
+	<description>Damage region</description>
+	<box>bb
+		<default>
+			-10.000000 -2.500000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<flt>outer_radius
+		<default>10</default>
+	</flt>
+	<enum>trigger_shape
+		<e>box</e>
+		<e>sphere</e>
+		<default>box</default>
+	</enum>
+	<bool>enabled
+		<default>true</default>
+	</bool>
+	<flags>trigger_flags
+		<f>not_in_mission</f>
+		<f>not_in_activity</f>
+		<default></default>
+	</flags>
+	<enum>region_damage_type
+		<populate>damage_regions.xtbl;table;Damage_Region;Name</populate>
+		<default>none</default>
+	</enum>
+	<flt>opacity
+		<CLOE_ONLY>CLOE_ONLY</CLOE_ONLY>
+		<default>0.0</default>
+	</flt>
+	<bool>npc_only_region
+		<default>false</default>
+	</bool>
+</struct>
+
+<struct>object_logic_handler
+	<description>Object Logic Handler</description>
+</struct>
+
+<struct>ambush_region
+	<description>Ambush Region</description>
+	<box>bb
+		<default>
+			-10.000000 -2.500000 -10.000000
+			10.000000 10.000000 10.000000
+		</default>
+	</box>
+	<bool>enabled
+		<default>true</default>
+	</bool>
+	<bool>in_combat_only
+		<default>false</default>
+	</bool>
+	<flt>min_time_in_combat
+		<default>2.0</default>
+	</flt>
+	<flt>probability
+		<default>0.5</default>
+	</flt>
+	<int>min_ambush_squads
+		<default>1</default>
+	</int>
+	<int>max_ambush_squads
+		<default>5</default>
+	</int>
+	<flt>min_ambush_delay
+		<default>0.0</default>
+	</flt>
+	<flt>max_ambush_delay
+		<default>6.0</default>
+	</flt>
+</struct>
+
+<struct>player_action_node
+	<description>Player Action Node</description>
+	<enum>player_action_node_type
+		<populate>player_action_nodes.xtbl;table;Node_Types;Name</populate>
+		<default>test_node</default>
+	</enum>
+	<bool>enabled
+		<default>true</default>
+	</bool>
+</struct>
+
+<struct>object_prepared_audio
+	<description>Prepared Audio</description>
+	<enum>audio_file
+		<populate>voice_conversations.xtbl;Table;NewEntity;Name</populate>
+	</enum>
+</struct>
+
+</root>
+

@@ -1,0 +1,965 @@
+<root>
+	<Version>1</Version>
+	<Blend_Trees>
+		<Blend_Tree>
+			<Name>walker mar</Name>
+			<Crossfade_Speed>5.0</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>movement type</Name>
+					<Crossfade_Speed>0.0</Crossfade_Speed>
+				</State>
+				<State>
+					<Name>crouch</Name>
+				</State>
+				<State>
+					<Name>walker mode</Name>
+				</State>
+				<State>
+					<Name>player controlled</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>melee2</Name>
+				</Action>
+				<Action>
+					<Name>turret to stand</Name>
+				</Action>
+				<Action>
+					<Name>left foot up to turret</Name>
+				</Action>
+				<Action>
+					<Name>right foot up to turret</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>Unpiloted</Name>
+					<uid>4577</uid>
+					<State_Dependent>
+						<State_Name>player controlled</State_Name>
+						<State_Values>
+							<State_Value>uncontrolled</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Animation_State_Tag>stand</Animation_State_Tag>
+				</Node>
+				<Node>
+					<Name>player controlled</Name>
+					<uid>4218</uid>
+					<State_Dependent>
+						<State_Name>player controlled</State_Name>
+						<State_Values>
+							<State_Value>yes</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Nodes>
+						<Node>
+							<Name>Regular</Name>
+							<uid>491</uid>
+							<State_Dependent>
+								<State_Name>walker mode</State_Name>
+								<State_Values>
+									<State_Value>Regular</State_Value>
+								</State_Values>
+							</State_Dependent>
+							<Flags>
+								<Flag>Don't Blend Children</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>States</Name>
+									<uid>4570</uid>
+									<Nodes>
+										<Node>
+											<Name>Move Forward/Back</Name>
+											<uid>3417</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>forward</State_Value>
+													<State_Value>back</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk F/B</Name>
+													<Axis>Input Z</Axis>
+													<uid>3418</uid>
+													<Control_Start>-1.0</Control_Start>
+													<Control_Start_Speed>-1.0</Control_Start_Speed>
+													<Control_End>1.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_State_Tag>walk</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Move Right/Left</Name>
+											<uid>3419</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>right</State_Value>
+													<State_Value>left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk R/L</Name>
+													<Axis>Input X</Axis>
+													<uid>3420</uid>
+													<Control_Start>-1.0</Control_Start>
+													<Control_Start_Speed>-1.0</Control_Start_Speed>
+													<Control_End>1.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_State_Tag>walk right</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Turn Right/Left</Name>
+											<uid>3421</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>turn right</State_Value>
+													<State_Value>turn left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Turn R/L</Name>
+													<Axis>Turn Speed</Axis>
+													<uid>3422</uid>
+													<Control_Start>-1.2</Control_Start>
+													<Control_Start_Speed>-1.65</Control_Start_Speed>
+													<Control_End>1.2</Control_End>
+													<Control_End_Speed>1.65</Control_End_Speed>
+													<Animation_State_Tag>shuffle right state</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Move Forward Right/Back Left</Name>
+											<uid>703</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>forward turn right</State_Value>
+													<State_Value>back turn left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk F/B Turn R/L</Name>
+													<Axis>input z + turn speed</Axis>
+													<uid>704</uid>
+													<Control_Start>-1.2</Control_Start>
+													<Control_Start_Speed>-1.65</Control_Start_Speed>
+													<Control_End>1.2</Control_End>
+													<Control_End_Speed>1.65</Control_End_Speed>
+													<Animation_State_Tag>walk shuffle right</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Move Forward Left/Back Right</Name>
+											<uid>705</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>back turn right</State_Value>
+													<State_Value>forward turn left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk F/B Turn R/L</Name>
+													<Axis>input z + turn speed</Axis>
+													<uid>706</uid>
+													<Control_Start>-1.2</Control_Start>
+													<Control_Start_Speed>-1.65</Control_Start_Speed>
+													<Control_End>1.2</Control_End>
+													<Control_End_Speed>1.65</Control_End_Speed>
+													<Animation_State_Tag>walk shuffle left</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Strafe Right Turn Right/Left Turn Left</Name>
+											<uid>707</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>right turn right</State_Value>
+													<State_Value>left turn left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk R/L Turn R/L</Name>
+													<Axis>input x + turn speed</Axis>
+													<uid>708</uid>
+													<Control_Start>-1.2</Control_Start>
+													<Control_Start_Speed>-1.65</Control_Start_Speed>
+													<Control_End>1.2</Control_End>
+													<Control_End_Speed>1.65</Control_End_Speed>
+													<Animation_State_Tag>walk right shuffle right</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Strafe Right Turn Left/Left Turn Right</Name>
+											<uid>709</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>right turn left</State_Value>
+													<State_Value>left turn right</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk R/L Turn R/L</Name>
+													<Axis>input x + turn speed</Axis>
+													<uid>710</uid>
+													<Control_Start>-1.2</Control_Start>
+													<Control_Start_Speed>-1.65</Control_Start_Speed>
+													<Control_End>1.2</Control_End>
+													<Control_End_Speed>1.65</Control_End_Speed>
+													<Animation_State_Tag>walk right shuffle left</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>Actions</Name>
+									<uid>4571</uid>
+									<Nodes>
+										<Node>
+											<Name>melee2</Name>
+											<uid>4572</uid>
+											<Action_Dependent>melee2</Action_Dependent>
+											<Flags>
+												<Flag>Closest Single Child</Flag>
+											</Flags>
+											<Nodes>
+												<Node>
+													<Name>still</Name>
+													<Axis>input z</Axis>
+													<uid>4573</uid>
+													<Control>0.0</Control>
+													<Animation_Action_Tag>melee2</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>forward</Name>
+													<Axis>input z</Axis>
+													<uid>4575</uid>
+													<Control>0.1</Control>
+													<Animation_Action_Tag>melee move</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+				<Node>
+					<Name>npc controlled</Name>
+					<uid>4219</uid>
+					<State_Dependent>
+						<State_Name>player controlled</State_Name>
+						<State_Values>
+							<State_Value>no</State_Value>
+						</State_Values>
+					</State_Dependent>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>5249</uid>
+							<Nodes>
+								<Node>
+									<Name>Laser Blast Aiming</Name>
+									<uid>3997</uid>
+									<State_Dependent>
+										<State_Name>walker mode</State_Name>
+										<State_Values>
+											<State_Value>Laser Blast Aiming</State_Value>
+											<State_Value>Laser Blast Ready</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Nodes>
+										<Node>
+											<Name>States</Name>
+											<uid>3998</uid>
+											<Nodes>
+												<Node>
+													<Name>aim left</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>3999</uid>
+													<Control>-45.0</Control>
+													<Animation_State_Tag>aim left</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>aim forward</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>4000</uid>
+													<Control>0.0</Control>
+													<Nodes>
+														<Node>
+															<Name>aim down</Name>
+															<Axis>turret aim pitch</Axis>
+															<uid>4003</uid>
+															<Control>-45.0</Control>
+															<Animation_State_Tag>aim down</Animation_State_Tag>
+														</Node>
+														<Node>
+															<Name>aim center</Name>
+															<Axis>turret aim pitch</Axis>
+															<uid>4002</uid>
+															<Control>0.0</Control>
+															<Animation_State_Tag>aim forward</Animation_State_Tag>
+														</Node>
+														<Node>
+															<Name>aim up</Name>
+															<Axis>turret aim pitch</Axis>
+															<uid>4001</uid>
+															<Control>45.0</Control>
+															<Animation_State_Tag>aim up</Animation_State_Tag>
+														</Node>
+													</Nodes>
+												</Node>
+												<Node>
+													<Name>aim right</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>4004</uid>
+													<Control>45.0</Control>
+													<Animation_State_Tag>aim right</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>Stomp Ready</Name>
+									<uid>492</uid>
+									<State_Dependent>
+										<State_Name>walker mode</State_Name>
+										<State_Values>
+											<State_Value>Stomp Ready</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Nodes>
+										<Node>
+											<Name>Move Forward/Back</Name>
+											<uid>3424</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>forward</State_Value>
+													<State_Value>back</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk F/B</Name>
+													<Axis>Input Z</Axis>
+													<uid>3425</uid>
+													<Control_Start>-1.0</Control_Start>
+													<Control_Start_Speed>-1.0</Control_Start_Speed>
+													<Control_End>1.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_State_Tag>walk ready</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Move Right/Left</Name>
+											<uid>3426</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>right</State_Value>
+													<State_Value>left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Walk R/L</Name>
+													<Axis>Input X</Axis>
+													<uid>3427</uid>
+													<Control_Start>-1.0</Control_Start>
+													<Control_Start_Speed>-1.0</Control_Start_Speed>
+													<Control_End>1.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_State_Tag>walk ready right</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Turn Right/Left</Name>
+											<uid>3428</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>turn right</State_Value>
+													<State_Value>turn left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>Turn R/L</Name>
+													<Axis>Turn Speed</Axis>
+													<uid>3429</uid>
+													<Control_Start>-1.0</Control_Start>
+													<Control_Start_Speed>-1.0</Control_Start_Speed>
+													<Control_End>1.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_State_Tag>shuffle ready right</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>Regular</Name>
+									<uid>4220</uid>
+									<State_Dependent>
+										<State_Name>walker mode</State_Name>
+										<State_Values>
+											<State_Value>Regular</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Nodes>
+										<Node>
+											<Name>Move Forward/Back</Name>
+											<uid>4221</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>forward</State_Value>
+													<State_Value>back</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aiming</Name>
+													<uid>4222</uid>
+													<Nodes>
+														<Node>
+															<Name>aim left</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>4223</uid>
+															<Control>-35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z</Axis>
+																	<uid>5309</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim left walk forward</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim forward</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>4228</uid>
+															<Control>0.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z</Axis>
+																	<uid>5311</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim forward walk forward</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim right</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>4231</uid>
+															<Control>35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z</Axis>
+																	<uid>5312</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim right walk forward</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Move Right/Left</Name>
+											<uid>4236</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>right</State_Value>
+													<State_Value>left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aiming</Name>
+													<uid>5313</uid>
+													<Nodes>
+														<Node>
+															<Name>aim left</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5314</uid>
+															<Control>-35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input x</Axis>
+																	<uid>5315</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim left walk right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim forward</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5316</uid>
+															<Control>0.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input x</Axis>
+																	<uid>5317</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim forward walk right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim right</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5318</uid>
+															<Control>35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input x</Axis>
+																	<uid>5319</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim right walk right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Turn Right/Left</Name>
+											<uid>4242</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>turn right</State_Value>
+													<State_Value>turn left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aiming</Name>
+													<uid>5320</uid>
+													<Nodes>
+														<Node>
+															<Name>aim left</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5321</uid>
+															<Control>-35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>turn speed</Axis>
+																	<uid>5322</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim left turn right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim forward</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5323</uid>
+															<Control>0.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>turn speed</Axis>
+																	<uid>5324</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim forward turn right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim right</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5325</uid>
+															<Control>35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>turn speed</Axis>
+																	<uid>5326</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim right turn right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Move Forward Right/Back Left</Name>
+											<uid>5333</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>forward turn right</State_Value>
+													<State_Value>back turn left</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aiming</Name>
+													<uid>5334</uid>
+													<Nodes>
+														<Node>
+															<Name>aim left</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5335</uid>
+															<Control>-35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z + turn speed</Axis>
+																	<uid>5336</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim left turn right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim forward</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5337</uid>
+															<Control>0.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z + turn speed</Axis>
+																	<uid>5338</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim forward turn right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim right</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5339</uid>
+															<Control>35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z + turn speed</Axis>
+																	<uid>5340</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim right turn right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>Move Forward Left/Back Right</Name>
+											<uid>5342</uid>
+											<State_Dependent>
+												<State_Name>movement type</State_Name>
+												<State_Values>
+													<State_Value>forward turn left</State_Value>
+													<State_Value>back turn right</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aiming</Name>
+													<uid>5343</uid>
+													<Nodes>
+														<Node>
+															<Name>aim left</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5344</uid>
+															<Control>-35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z + turn speed</Axis>
+																	<uid>5345</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim left turn left</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim forward</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5346</uid>
+															<Control>0.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z + turn speed</Axis>
+																	<uid>5347</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim forward turn left</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim right</Name>
+															<Axis>turret aim heading</Axis>
+															<uid>5348</uid>
+															<Control>35.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>Walk F/B</Name>
+																	<Axis>input z + turn speed</Axis>
+																	<uid>5349</uid>
+																	<Control_Start>-1.0</Control_Start>
+																	<Control_Start_Speed>-1.0</Control_Start_Speed>
+																	<Control_End>1.0</Control_End>
+																	<Control_End_Speed>1.0</Control_End_Speed>
+																	<Animation_State_Tag>aim right turn left</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>Actions</Name>
+							<uid>5250</uid>
+							<Nodes>
+								<Node>
+									<Name>turret to stand</Name>
+									<uid>5253</uid>
+									<Action_Dependent> turret to stand</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>Walker Modes</Name>
+											<uid>5254</uid>
+											<State_Dependent>
+												<State_Name>walker mode</State_Name>
+												<State_Values>
+													<State_Value>Regular</State_Value>
+													<State_Value>Laser Blast Ready</State_Value>
+													<State_Value>Laser Blast Aiming</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aim left 90</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5364</uid>
+													<Control>-90.0</Control>
+													<Animation_Action_Tag>turret left 90 to stand</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim left</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5300</uid>
+													<Control>-35.0</Control>
+													<Animation_Action_Tag>turret left to stand</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim forward</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5305</uid>
+													<Control>0.0</Control>
+													<Animation_Action_Tag>turret to stand</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim right</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5308</uid>
+													<Control>35.0</Control>
+													<Animation_Action_Tag>turret right to stand</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim right 90</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5365</uid>
+													<Control>90.0</Control>
+													<Animation_Action_Tag>turret right 90 to stand</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>left foot up to turret</Name>
+									<uid>5350</uid>
+									<Action_Dependent>left foot up to turret</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>Walker Modes</Name>
+											<uid>5351</uid>
+											<State_Dependent>
+												<State_Name>walker mode</State_Name>
+												<State_Values>
+													<State_Value>Regular</State_Value>
+													<State_Value>Laser Blast Ready</State_Value>
+													<State_Value>Laser Blast Aiming</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aim left</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5352</uid>
+													<Control>-35.0</Control>
+													<Animation_Action_Tag>left foot up to turret aim left</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim forward</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5353</uid>
+													<Control>0.0</Control>
+													<Animation_Action_Tag>left foot up to turret</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim right</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5354</uid>
+													<Control>35.0</Control>
+													<Animation_Action_Tag>left foot up to turret aim right</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>right foot up to turret</Name>
+									<uid>5355</uid>
+									<Action_Dependent>right foot up to turret</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>Walker Modes</Name>
+											<uid>5356</uid>
+											<State_Dependent>
+												<State_Name>walker mode</State_Name>
+												<State_Values>
+													<State_Value>Regular</State_Value>
+													<State_Value>Laser Blast Ready</State_Value>
+													<State_Value>Laser Blast Aiming</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aim left</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5357</uid>
+													<Control>-35.0</Control>
+													<Animation_Action_Tag>right foot up to turret aim left</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim forward</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5358</uid>
+													<Control>0.0</Control>
+													<Animation_Action_Tag>right foot up to turret</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>aim right</Name>
+													<Axis>turret aim heading</Axis>
+													<uid>5359</uid>
+													<Control>35.0</Control>
+													<Animation_Action_Tag>right foot up to turret aim right</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+			<Flags>
+				<Flag>Track Animations Sepertely</Flag>
+			</Flags>
+		</Blend_Tree>
+	</Blend_Trees>
+</root>

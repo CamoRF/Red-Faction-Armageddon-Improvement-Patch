@@ -1,0 +1,632 @@
+<root>
+	<Version>1</Version>
+	<Blend_Trees>
+		<Blend_Tree>
+			<Name>tentacle</Name>
+			<Crossfade_Speed>3.5</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>direction slice</Name>
+				</State>
+				<State>
+					<Name>is emerged</Name>
+				</State>
+				<State>
+					<Name>is holding</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>grab low</Name>
+				</Action>
+				<Action>
+					<Name>throw low</Name>
+				</Action>
+				<Action>
+					<Name>taunt</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>root</Name>
+					<uid>5255</uid>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>5256</uid>
+							<Nodes>
+								<Node>
+									<Name>emerged</Name>
+									<uid>8001</uid>
+									<State_Dependent>
+										<State_Name>is emerged</State_Name>
+										<State_Values>
+											<State_Value>yes</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Nodes>
+										<Node>
+											<Name>not holding</Name>
+											<uid>8092</uid>
+											<State_Dependent>
+												<State_Name>is holding</State_Name>
+												<State_Values>
+													<State_Value>no</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>forward</Name>
+													<Axis>Tentacle Direction</Axis>
+													<uid>5249</uid>
+													<Control>0.0</Control>
+													<Animation_State_Tag>stand</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>right</Name>
+													<Axis>Tentacle Direction</Axis>
+													<uid>8167</uid>
+													<Control>90.0</Control>
+													<Animation_State_Tag>stand right</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>back right</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8169</uid>
+													<Control>135.0</Control>
+													<Animation_State_Tag>stand back right</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>right back</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8246</uid>
+													<Control>180.0</Control>
+													<Animation_State_Tag>stand right back</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>left back</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8247</uid>
+													<Control>180.01</Control>
+													<Animation_State_Tag>stand left back</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>back left</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8245</uid>
+													<Control>225.0</Control>
+													<Animation_State_Tag>stand back left</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>left</Name>
+													<Axis>Tentacle Direction</Axis>
+													<uid>5252</uid>
+													<Control>270.0</Control>
+													<Animation_State_Tag>stand left</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>holding</Name>
+											<uid>8201</uid>
+											<State_Dependent>
+												<State_Name>is holding</State_Name>
+												<State_Values>
+													<State_Value>yes</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>forward</Name>
+													<Axis>Tentacle Direction</Axis>
+													<uid>8202</uid>
+													<Control>0.0</Control>
+													<Animation_State_Tag>stand hold</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>right</Name>
+													<Axis>Tentacle Direction</Axis>
+													<uid>8203</uid>
+													<Control>90.0</Control>
+													<Animation_State_Tag>stand hold right</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>back right</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8204</uid>
+													<Control>135.0</Control>
+													<Animation_State_Tag>stand hold back right</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>right back</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8249</uid>
+													<Control>180.0</Control>
+													<Animation_State_Tag>stand hold right back</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>left back</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8250</uid>
+													<Control>180.01</Control>
+													<Animation_State_Tag>stand hold left back</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name> back left</Name>
+													<Axis>tentacle direction</Axis>
+													<uid>8248</uid>
+													<Control>225.0</Control>
+													<Animation_State_Tag>stand hold back left</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>left</Name>
+													<Axis>Tentacle Direction</Axis>
+													<uid>8206</uid>
+													<Control>270.0</Control>
+													<Animation_State_Tag>stand hold left</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>not emerged</Name>
+									<uid>8002</uid>
+									<State_Dependent>
+										<State_Name>is emerged</State_Name>
+										<State_Values>
+											<State_Value>no</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Animation_State_Tag>dead</Animation_State_Tag>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>Actions</Name>
+							<uid>8213</uid>
+							<Flags>
+								<Flag>Don't Blend Children</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>grab low</Name>
+									<uid>8214</uid>
+									<Action_Dependent>grab low</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>forward</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8215</uid>
+											<Control>0.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8216</uid>
+													<Control_Start>-30.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab high</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8217</uid>
+													<Control_Start>0.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>25.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab low</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>right</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8218</uid>
+											<Control>90.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8219</uid>
+													<Control_Start>-30.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab high right</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8220</uid>
+													<Control_Start>0.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>25.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab low right</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>back right</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8221</uid>
+											<Control>135.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8222</uid>
+													<Control_Start>-30.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab high back right</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8223</uid>
+													<Control_Start>0.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>25.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab low back right</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>right back</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8252</uid>
+											<Control>180.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8253</uid>
+													<Control_Start>-30.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab high right back</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8254</uid>
+													<Control_Start>0.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>25.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab low right back</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>left back</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8255</uid>
+											<Control>180.01</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8256</uid>
+													<Control_Start>-30.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab high left back</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8257</uid>
+													<Control_Start>0.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>25.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab low left back</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>back left</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8258</uid>
+											<Control>225.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8259</uid>
+													<Control_Start>-30.0</Control_Start>
+													<Control_Start_Speed>0.035</Control_Start_Speed>
+													<Control_End>0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab high back left</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8260</uid>
+													<Control_Start>0.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>25.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab low back left</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>left</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8224</uid>
+											<Control>270.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8225</uid>
+													<Control_Start>-30.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab high left</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8226</uid>
+													<Control_Start>0.0</Control_Start>
+													<Control_Start_Speed>0.35</Control_Start_Speed>
+													<Control_End>25.0</Control_End>
+													<Control_End_Speed>1.0</Control_End_Speed>
+													<Animation_Action_Tag>grab low left</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>throw low</Name>
+									<uid>8227</uid>
+									<Action_Dependent>throw low</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>forward</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8228</uid>
+											<Control>0.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8229</uid>
+													<Control>-30.0</Control>
+													<Animation_Action_Tag>throw high</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8230</uid>
+													<Control>16.0</Control>
+													<Animation_Action_Tag>throw low</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>right</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8231</uid>
+											<Control>90.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8232</uid>
+													<Control>-30.0</Control>
+													<Animation_Action_Tag>throw high right</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8233</uid>
+													<Control>16.0</Control>
+													<Animation_Action_Tag>throw low right</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>back right</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8234</uid>
+											<Control>135.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>Direction</Axis>
+													<uid>8235</uid>
+													<Control>0</Control>
+													<Animation_Action_Tag>throw high back right</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>Direction</Axis>
+													<uid>8236</uid>
+													<Control>1.0</Control>
+													<Animation_Action_Tag>throw low back right</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>right back</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8261</uid>
+											<Control>180.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>Direction</Axis>
+													<uid>8262</uid>
+													<Control>0</Control>
+													<Animation_Action_Tag>throw high right back</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>Direction</Axis>
+													<uid>8263</uid>
+													<Control>1.0</Control>
+													<Animation_Action_Tag>throw low right back</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>left back</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8264</uid>
+											<Control>180.01</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>Direction</Axis>
+													<uid>8265</uid>
+													<Control>0</Control>
+													<Animation_Action_Tag>throw high left back</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>Direction</Axis>
+													<uid>8266</uid>
+													<Control>1.0</Control>
+													<Animation_Action_Tag>throw low left back</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>back left</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8267</uid>
+											<Control>225.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>Direction</Axis>
+													<uid>8268</uid>
+													<Control>0</Control>
+													<Animation_Action_Tag>throw high back left</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>Direction</Axis>
+													<uid>8269</uid>
+													<Control>1.0</Control>
+													<Animation_Action_Tag>throw low back left</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>left</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8237</uid>
+											<Control>270.0</Control>
+											<Nodes>
+												<Node>
+													<Name>high</Name>
+													<Axis>grab vert</Axis>
+													<uid>8238</uid>
+													<Control>-30.0</Control>
+													<Animation_Action_Tag>throw high left</Animation_Action_Tag>
+												</Node>
+												<Node>
+													<Name>low</Name>
+													<Axis>grab vert</Axis>
+													<uid>8239</uid>
+													<Control>16.0</Control>
+													<Animation_Action_Tag>throw low left</Animation_Action_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>taunt</Name>
+									<uid>8240</uid>
+									<Action_Dependent>taunt</Action_Dependent>
+									<Nodes>
+										<Node>
+											<Name>forward</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8241</uid>
+											<Control>0.0</Control>
+											<Animation_Action_Tag>taunt</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>right</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8242</uid>
+											<Control>90.0</Control>
+											<Animation_Action_Tag>taunt right</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>back right</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8243</uid>
+											<Control>135.0</Control>
+											<Animation_Action_Tag>taunt back right</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>right back</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8270</uid>
+											<Control>180.0</Control>
+											<Animation_Action_Tag>taunt right back</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>left back</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8271</uid>
+											<Control>180.01</Control>
+											<Animation_Action_Tag>taunt left back</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>back right</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8272</uid>
+											<Control>225.0</Control>
+											<Animation_Action_Tag>taunt back left</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>left</Name>
+											<Axis>tentacle direction</Axis>
+											<uid>8244</uid>
+											<Control>270.0</Control>
+											<Animation_Action_Tag>taunt left</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>queen_tentacle_tip</Name>
+			<Nodes>
+				<Node>
+					<Name>empty_container</Name>
+					<uid>8501</uid>
+					<Animation_State_Tag>idle</Animation_State_Tag>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+	</Blend_Trees>
+</root>

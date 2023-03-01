@@ -1,0 +1,562 @@
+<root>
+	<Version>1</Version>
+	<Blend_Trees>
+		<Blend_Tree>
+			<Name>creeper</Name>
+			<Input_Blend_Speed>0.0</Input_Blend_Speed>
+			<Crossfade_Speed>3.5</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>human state</Name>
+				</State>
+				<State>
+					<Name>direction slice</Name>
+				</State>
+				<State>
+					<Name>ready mode</Name>
+				</State>
+				<State>
+					<Name>move mode</Name>
+					<Crossfade_Speed>4.0</Crossfade_Speed>
+				</State>
+				<State>
+					<Name>is lipsyncing</Name>
+				</State>
+				<State>
+					<Name>is strafing</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>aggro</Name>
+				</Action>
+				<Action>
+					<Name></Name>
+				</Action>
+				<Action>
+					<Name>stand melee 1</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>Root</Name>
+					<uid>693</uid>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>States</Name>
+							<uid>4259</uid>
+							<Nodes>
+								<Node>
+									<Name>Main Root</Name>
+									<uid>500</uid>
+									<Nodes>
+										<Node>
+											<Name>mode default</Name>
+											<uid>453</uid>
+											<State_Dependent>
+												<State_Name>move mode</State_Name>
+												<State_Values>
+													<State_Value>none</State_Value>
+													<State_Value>direct</State_Value>
+													<State_Value>pathfinding</State_Value>
+													<State_Value>path to vehicle</State_Value>
+													<State_Value>jump</State_Value>
+													<State_Value>fall</State_Value>
+													<State_Value>FP move</State_Value>
+													<State_Value>knockdown</State_Value>
+													<State_Value>satellite</State_Value>
+													<State_Value>leap horizontal</State_Value>
+													<State_Value>leap exit</State_Value>
+													<State_Value>leap enter</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>States</Name>
+													<uid>3555</uid>
+													<Nodes>
+														<Node>
+															<Name>Not Strafing</Name>
+															<uid>3895</uid>
+															<State_Dependent>
+																<State_Name>is strafing</State_Name>
+																<State_Values>
+																	<State_Value>no</State_Value>
+																</State_Values>
+															</State_Dependent>
+															<Nodes>
+																<Node>
+																	<Name>ready</Name>
+																	<uid>3312</uid>
+																	<State_Dependent>
+																		<State_Name>ready mode</State_Name>
+																		<State_Values>
+																			<State_Value>ready</State_Value>
+																			<State_Value>non-ready</State_Value>
+																			<State_Value>aim</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>Stand</Name>
+																			<Axis>speed</Axis>
+																			<uid>3313</uid>
+																			<Control>0.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>look left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>3062</uid>
+																					<Control>-90.0</Control>
+																					<Animation_State_Tag>look left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>look forward</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>3063</uid>
+																					<Control>0.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>look forward</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>3066</uid>
+																							<Control>0.0</Control>
+																							<Animation_State_Tag>stand ready</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>look up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>3065</uid>
+																							<Control>10.0</Control>
+																							<Animation_State_Tag>look up</Animation_State_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>look right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>3064</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>look right</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>Walk</Name>
+																			<Axis>speed</Axis>
+																			<uid>3314</uid>
+																			<Control_Start>0.01</Control_Start>
+																			<Control_Start_Speed>0.35</Control_Start_Speed>
+																			<Control_End>1.0</Control_End>
+																			<Control_End_Speed>1.0</Control_End_Speed>
+																			<Animation_State_Tag>walk ready</Animation_State_Tag>
+																			<Flags>
+																				<Flag>Closest Single Child</Flag>
+																			</Flags>
+																		</Node>
+																		<Node>
+																			<Name>Run</Name>
+																			<Axis>speed</Axis>
+																			<uid>8507</uid>
+																			<Control>2.0</Control>
+																			<Animation_State_Tag>run ready</Animation_State_Tag>
+																			<Flags>
+																				<Flag>Closest Single Child</Flag>
+																			</Flags>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>Strafing</Name>
+															<uid>3896</uid>
+															<State_Dependent>
+																<State_Name>is strafing</State_Name>
+																<State_Values>
+																	<State_Value>yes</State_Value>
+																</State_Values>
+															</State_Dependent>
+															<Nodes>
+																<Node>
+																	<Name>ready</Name>
+																	<uid>4010</uid>
+																	<State_Dependent>
+																		<State_Name>ready mode</State_Name>
+																		<State_Values>
+																			<State_Value>ready</State_Value>
+																			<State_Value>non-ready</State_Value>
+																			<State_Value>aim</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>Stand</Name>
+																			<Axis>speed</Axis>
+																			<uid>4011</uid>
+																			<Control>0.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>look left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4192</uid>
+																					<Control>-90.0</Control>
+																					<Animation_State_Tag>look left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>look forward</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4193</uid>
+																					<Control>0.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>look forward</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>4014</uid>
+																							<Control>0.0</Control>
+																							<Animation_State_Tag>stand ready</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>look up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>4015</uid>
+																							<Control>10.0</Control>
+																							<Animation_State_Tag>look up</Animation_State_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>look right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4016</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>look right</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>Walk</Name>
+																			<Axis>speed</Axis>
+																			<uid>4017</uid>
+																			<Control_Start>0.01</Control_Start>
+																			<Control_Start_Speed>0.35</Control_Start_Speed>
+																			<Control_End>1.0</Control_End>
+																			<Control_End_Speed>1.0</Control_End_Speed>
+																			<Flags>
+																				<Flag>Closest Single Child</Flag>
+																			</Flags>
+																			<Nodes>
+																				<Node>
+																					<Name>forward</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3897</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>walk ready</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3898</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>walk ready right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>back</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3899</uid>
+																					<Control>180.0</Control>
+																					<Animation_State_Tag>walk ready back</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>3900</uid>
+																					<Control>270.0</Control>
+																					<Animation_State_Tag>walk ready left</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>Run</Name>
+																			<Axis>speed</Axis>
+																			<uid>4018</uid>
+																			<Control>2.0</Control>
+																			<Flags>
+																				<Flag>Closest Single Child</Flag>
+																			</Flags>
+																			<Nodes>
+																				<Node>
+																					<Name>forward</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4019</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>run ready</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4020</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>run ready right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>back</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4021</uid>
+																					<Control>180.0</Control>
+																					<Animation_State_Tag>run ready back</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4022</uid>
+																					<Control>270.0</Control>
+																					<Animation_State_Tag>run ready left</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+												<Node>
+													<Name>Actions</Name>
+													<uid>3557</uid>
+													<Nodes>
+														<Node>
+															<Name>Actions</Name>
+															<uid>3556</uid>
+															<Action_Dependent> aggro</Action_Dependent>
+															<Animation_Action_Tag>aggro</Animation_Action_Tag>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>mode leap ground</Name>
+											<uid>458</uid>
+											<State_Dependent>
+												<State_Name>move mode</State_Name>
+												<State_Values>
+													<State_Value>leap ground</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Animation_State_Tag>stand</Animation_State_Tag>
+										</Node>
+										<Node>
+											<Name>mode leap wall</Name>
+											<uid>459</uid>
+											<State_Dependent>
+												<State_Name>move mode</State_Name>
+												<State_Values>
+													<State_Value>leap wall</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Flags>
+												<Flag>Don't Blend Children</Flag>
+											</Flags>
+											<Nodes>
+												<Node>
+													<Name>States</Name>
+													<uid>3552</uid>
+													<Nodes>
+														<Node>
+															<Name>aim left</Name>
+															<Axis>aim heading</Axis>
+															<uid>3323</uid>
+															<Control>-75.0</Control>
+															<Animation_State_Tag>leap wall aim left</Animation_State_Tag>
+														</Node>
+														<Node>
+															<Name>aim forward</Name>
+															<Axis>aim heading</Axis>
+															<uid>3324</uid>
+															<Control>0.0</Control>
+															<Nodes>
+																<Node>
+																	<Name>aim down</Name>
+																	<Axis>aim pitch</Axis>
+																	<uid>3325</uid>
+																	<Control>-90.0</Control>
+																	<Animation_State_Tag>leap wall aim down</Animation_State_Tag>
+																</Node>
+																<Node>
+																	<Name>aim center</Name>
+																	<Axis>aim pitch</Axis>
+																	<uid>3326</uid>
+																	<Control>0.0</Control>
+																	<Animation_State_Tag>stand on wall</Animation_State_Tag>
+																</Node>
+																<Node>
+																	<Name>aim up</Name>
+																	<Axis>aim pitch</Axis>
+																	<uid>3327</uid>
+																	<Control>45.0</Control>
+																	<Animation_State_Tag>leap wall aim up</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>aim right</Name>
+															<Axis>aim heading</Axis>
+															<uid>3328</uid>
+															<Control>75.0</Control>
+															<Animation_State_Tag>leap wall aim right</Animation_State_Tag>
+														</Node>
+													</Nodes>
+												</Node>
+												<Node>
+													<Name>Actions</Name>
+													<uid>3554</uid>
+													<Nodes>
+														<Node>
+															<Name>aggro leap</Name>
+															<uid>3553</uid>
+															<Action_Dependent> aggro</Action_Dependent>
+															<Animation_Action_Tag>aggro leap</Animation_Action_Tag>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+										<Node>
+											<Name>mode leap ceiling</Name>
+											<uid>460</uid>
+											<State_Dependent>
+												<State_Name>move mode</State_Name>
+												<State_Values>
+													<State_Value>leap roof</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>aim left</Name>
+													<Axis>aim heading</Axis>
+													<uid>3329</uid>
+													<Control>-45.0</Control>
+													<Animation_State_Tag>leap ceiling aim left</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>aim forward</Name>
+													<Axis>aim heading</Axis>
+													<uid>3330</uid>
+													<Control>0.0</Control>
+													<Nodes>
+														<Node>
+															<Name>aim down</Name>
+															<Axis>aim pitch</Axis>
+															<uid>3331</uid>
+															<Control>-90.0</Control>
+															<Animation_State_Tag>leap ceiling aim down</Animation_State_Tag>
+														</Node>
+														<Node>
+															<Name>aim center</Name>
+															<Axis>aim pitch</Axis>
+															<uid>3332</uid>
+															<Control>0.0</Control>
+															<Animation_State_Tag>stand on ceiling</Animation_State_Tag>
+														</Node>
+														<Node>
+															<Name>aim up</Name>
+															<Axis>aim pitch</Axis>
+															<uid>3333</uid>
+															<Control>90.0</Control>
+															<Animation_State_Tag>stand on ceiling</Animation_State_Tag>
+														</Node>
+													</Nodes>
+												</Node>
+												<Node>
+													<Name>aim right</Name>
+													<Axis>aim heading</Axis>
+													<uid>3334</uid>
+													<Control>45.0</Control>
+													<Animation_State_Tag>leap ceiling aim right</Animation_State_Tag>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+								<Node>
+									<Name>Lipsyncing Root</Name>
+									<uid>594</uid>
+									<Nodes>
+										<Node>
+											<Name>lipsync body root</Name>
+											<uid>595</uid>
+											<State_Dependent>
+												<State_Name>is lipsyncing</State_Name>
+												<State_Values>
+													<State_Value>yes</State_Value>
+												</State_Values>
+											</State_Dependent>
+											<Nodes>
+												<Node>
+													<Name>closed</Name>
+													<Axis>lipsync amplitude</Axis>
+													<uid>597</uid>
+													<Control>0.0</Control>
+													<Animation_State_Tag>lipsync closed</Animation_State_Tag>
+													<Flags>
+														<Flag>Pose</Flag>
+													</Flags>
+												</Node>
+												<Node>
+													<Name>open</Name>
+													<Axis>lipsync amplitude</Axis>
+													<uid>598</uid>
+													<Control>1.0</Control>
+													<Animation_State_Tag>lipsync open</Animation_State_Tag>
+													<Flags>
+														<Flag>Pose</Flag>
+													</Flags>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>Actions</Name>
+							<uid>4260</uid>
+							<Nodes>
+								<Node>
+									<Name>stand melee 1</Name>
+									<uid>4261</uid>
+									<Action_Dependent>stand melee 1</Action_Dependent>
+									<Flags>
+										<Flag>Don't Blend Children</Flag>
+										<Flag>Random Single Child</Flag>
+									</Flags>
+									<Nodes>
+										<Node>
+											<Name>stand melee 1</Name>
+											<uid>4262</uid>
+											<Animation_Action_Tag>stand melee 1</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>stand melee 1 c</Name>
+											<uid>4263</uid>
+											<Animation_Action_Tag>stand melee 1 c</Animation_Action_Tag>
+										</Node>
+										<Node>
+											<Name>stand melee 1 b</Name>
+											<uid>8506</uid>
+											<Animation_Action_Tag>stand melee 1 b</Animation_Action_Tag>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+	</Blend_Trees>
+</root>

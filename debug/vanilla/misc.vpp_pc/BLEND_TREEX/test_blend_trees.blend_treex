@@ -1,0 +1,25 @@
+<root>
+	<Version>1</Version>
+	<Blend_Trees>
+		<Blend_Tree>
+			<Name>mirror test</Name>
+			<Nodes>
+				<Node>
+					<Name>mirror off</Name>
+					<Axis>mirror</Axis>
+					<uid>698</uid>
+					<Control>0.0</Control>
+					<Animation_State_Tag>mirror test off
+</Animation_State_Tag>
+				</Node>
+				<Node>
+					<Name>mirror on</Name>
+					<Axis>mirror</Axis>
+					<uid>697</uid>
+					<Control>1.0</Control>
+					<Animation_State_Tag>mirror test on</Animation_State_Tag>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+	</Blend_Trees>
+</root>

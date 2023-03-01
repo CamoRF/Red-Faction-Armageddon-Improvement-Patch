@@ -1,0 +1,2112 @@
+<root>
+	<Version>1</Version>
+	<Blend_Trees>
+		<Blend_Tree>
+			<Name>grunt</Name>
+			<Crossfade_Speed>2.0</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>human state</Name>
+				</State>
+				<State>
+					<Name>ready mode</Name>
+				</State>
+				<State>
+					<Name>direction slice</Name>
+				</State>
+				<State>
+					<Name>move mode</Name>
+					<Crossfade_Speed>500.0</Crossfade_Speed>
+				</State>
+				<State>
+					<Name>anim group</Name>
+					<Crossfade_Speed>0.0</Crossfade_Speed>
+				</State>
+				<State>
+					<Name>aim direction slice</Name>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>fire</Name>
+				</Action>
+				<Action>
+					<Name>aggro leap</Name>
+					<Flags>
+						<Flag>Original Tag On No Match</Flag>
+					</Flags>
+				</Action>
+				<Action>
+					<Name>flinch slight head backward</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight head left</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight head right</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight torso backward</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight torso left</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight torso right</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight pelvis backward</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight pelvis left</Name>
+				</Action>
+				<Action>
+					<Name>flinch slight pelvis right</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>Root</Name>
+					<uid>1000</uid>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>main</Name>
+							<uid>1001</uid>
+							<Flags>
+								<Flag>Don't Blend Children</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>States</Name>
+									<uid>3682</uid>
+									<Nodes>
+										<Node>
+											<Name>modes</Name>
+											<uid>3588</uid>
+											<Nodes>
+												<Node>
+													<Name>default</Name>
+													<uid>3251</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>none</State_Value>
+															<State_Value>direct</State_Value>
+															<State_Value>pathfinding</State_Value>
+															<State_Value>path to vehicle</State_Value>
+															<State_Value>jump</State_Value>
+															<State_Value>fall</State_Value>
+															<State_Value>FP move</State_Value>
+															<State_Value>knockdown</State_Value>
+															<State_Value>satellite</State_Value>
+														</State_Values>
+													</State_Dependent>
+													<Flags>
+														<Flag>Don't Blend Children</Flag>
+													</Flags>
+													<Nodes>
+														<Node>
+															<Name>States</Name>
+															<uid>4112</uid>
+															<Nodes>
+																<Node>
+																	<Name>ready</Name>
+																	<uid>454</uid>
+																	<State_Dependent>
+																		<State_Name>ready mode</State_Name>
+																		<State_Values>
+																			<State_Value>aim</State_Value>
+																			<State_Value>ready</State_Value>
+																			<State_Value>non-ready</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>Stand</Name>
+																			<Axis>speed</Axis>
+																			<uid>3252</uid>
+																			<Control>0.0</Control>
+																			<Animation_State_Tag>stand</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>walk</Name>
+																			<Axis>speed</Axis>
+																			<uid>3253</uid>
+																			<Control_Start>0.1</Control_Start>
+																			<Control_Start_Speed>0.35</Control_Start_Speed>
+																			<Control_End>1.0</Control_End>
+																			<Control_End_Speed>1.0</Control_End_Speed>
+																			<Nodes>
+																				<Node>
+																					<Name>walk foward right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4828</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>walk forward right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4824</uid>
+																					<Control>90.01</Control>
+																					<Animation_State_Tag>walk right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk back left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4825</uid>
+																					<Control>180.0</Control>
+																					<Animation_State_Tag>walk back left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk back right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4826</uid>
+																					<Control>180.01</Control>
+																					<Animation_State_Tag>walk back right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4827</uid>
+																					<Control>269.99</Control>
+																					<Animation_State_Tag>walk left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk foward left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4839</uid>
+																					<Control>359.99</Control>
+																					<Animation_State_Tag>walk forward left</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>run</Name>
+																			<Axis>speed</Axis>
+																			<uid>4831</uid>
+																			<Control>2.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>run forward</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4832</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>run forward</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>run right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4833</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>run right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>5361</uid>
+																					<Control>91.0</Control>
+																					<Animation_State_Tag>walk right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk back left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>5362</uid>
+																					<Control>180.0</Control>
+																					<Animation_State_Tag>walk back left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk back right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>5363</uid>
+																					<Control>180.01</Control>
+																					<Animation_State_Tag>walk back right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>5360</uid>
+																					<Control>269.0</Control>
+																					<Animation_State_Tag>walk left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>run left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4838</uid>
+																					<Control>270.0</Control>
+																					<Animation_State_Tag>run left</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>Actions</Name>
+															<uid>4113</uid>
+															<Nodes>
+																<Node>
+																	<Name>fire</Name>
+																	<uid>3551</uid>
+																	<Action_Dependent>fire</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>boom</Name>
+																			<uid>4199</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Boom</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>stand</Name>
+																					<Axis>speed</Axis>
+																					<uid>4818</uid>
+																					<Control>0</Control>
+																					<Animation_Action_Tag>fire</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk</Name>
+																					<Axis>speed</Axis>
+																					<uid>8464</uid>
+																					<Control_Start>0.1</Control_Start>
+																					<Control_Start_Speed>0.35</Control_Start_Speed>
+																					<Control_End>1.0</Control_End>
+																					<Control_End_Speed>1.0</Control_End_Speed>
+																					<Nodes>
+																						<Node>
+																							<Name>Fire Walk Forward</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8465</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire walk forward</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8466</uid>
+																							<Control>90.0</Control>
+																							<Animation_Action_Tag>fire walk right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Back</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8467</uid>
+																							<Control>180.0</Control>
+																							<Animation_Action_Tag>fire walk back</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8468</uid>
+																							<Control>270.0</Control>
+																							<Animation_Action_Tag>fire walk left</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>run</Name>
+																					<Axis>speed</Axis>
+																					<uid>8469</uid>
+																					<Control>2.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>Fire Walk Forward</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8470</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire walk forward</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8471</uid>
+																							<Control>90.0</Control>
+																							<Animation_Action_Tag>fire walk right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Back</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8472</uid>
+																							<Control>180.0</Control>
+																							<Animation_Action_Tag>fire walk back</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8473</uid>
+																							<Control>270.0</Control>
+																							<Animation_Action_Tag>fire walk left</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>quill</Name>
+																			<uid>4201</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Quill</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>stand</Name>
+																					<Axis>speed</Axis>
+																					<uid>4202</uid>
+																					<Control>0</Control>
+																					<Animation_Action_Tag>fire</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk</Name>
+																					<Axis>speed</Axis>
+																					<uid>4858</uid>
+																					<Control_Start>0.1</Control_Start>
+																					<Control_Start_Speed>0.35</Control_Start_Speed>
+																					<Control_End>1.0</Control_End>
+																					<Control_End_Speed>1.0</Control_End_Speed>
+																					<Nodes>
+																						<Node>
+																							<Name>forward right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4859</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>run fire forward right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4860</uid>
+																							<Control>90.0</Control>
+																							<Animation_Action_Tag>run fire right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>back right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4861</uid>
+																							<Control>180.0</Control>
+																							<Animation_Action_Tag>run fire back right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>back left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4862</uid>
+																							<Control>180.01</Control>
+																							<Animation_Action_Tag>run fire back left</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4863</uid>
+																							<Control>270.0</Control>
+																							<Animation_Action_Tag>run fire left</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>forward left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4864</uid>
+																							<Control>359.99</Control>
+																							<Animation_Action_Tag>run fire forward left</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>run</Name>
+																					<Axis>speed</Axis>
+																					<uid>8492</uid>
+																					<Control>2.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>forward right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8493</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>run fire forward right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8494</uid>
+																							<Control>90.0</Control>
+																							<Animation_Action_Tag>run fire right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>back right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8495</uid>
+																							<Control>180.0</Control>
+																							<Animation_Action_Tag>run fire back right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>back left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8496</uid>
+																							<Control>180.01</Control>
+																							<Animation_Action_Tag>run fire back left</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8497</uid>
+																							<Control>270.0</Control>
+																							<Animation_Action_Tag>run fire left</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>forward left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8498</uid>
+																							<Control>359.99</Control>
+																							<Animation_Action_Tag>run fire forward left</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>antenna</Name>
+																			<uid>8480</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Antenna</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>stand</Name>
+																					<Axis>speed</Axis>
+																					<uid>8481</uid>
+																					<Control>0</Control>
+																					<Animation_Action_Tag>fire</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>walk</Name>
+																					<Axis>speed</Axis>
+																					<uid>8482</uid>
+																					<Control_Start>0.1</Control_Start>
+																					<Control_Start_Speed>0.35</Control_Start_Speed>
+																					<Control_End>1.0</Control_End>
+																					<Control_End_Speed>1.0</Control_End_Speed>
+																					<Nodes>
+																						<Node>
+																							<Name>Fire Walk Forward</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8483</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire walk forward</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8484</uid>
+																							<Control>90.0</Control>
+																							<Animation_Action_Tag>fire walk right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Back</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8485</uid>
+																							<Control>180.0</Control>
+																							<Animation_Action_Tag>fire walk back</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8486</uid>
+																							<Control>270.0</Control>
+																							<Animation_Action_Tag>fire walk left</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>run</Name>
+																					<Axis>speed</Axis>
+																					<uid>8487</uid>
+																					<Control>2.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>Fire Walk Forward</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8488</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire walk forward</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8489</uid>
+																							<Control>90.0</Control>
+																							<Animation_Action_Tag>fire walk right</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Back</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8490</uid>
+																							<Control>180.0</Control>
+																							<Animation_Action_Tag>fire walk back</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>Fire Walk Left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>8491</uid>
+																							<Control>270.0</Control>
+																							<Animation_Action_Tag>fire walk left</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+												<Node>
+													<Name>leap in air</Name>
+													<uid>457</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>leap horizontal</State_Value>
+															<State_Value>leap exit</State_Value>
+															<State_Value>leap enter</State_Value>
+														</State_Values>
+													</State_Dependent>
+												</Node>
+												<Node>
+													<Name>leap ground</Name>
+													<uid>3273</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>leap ground</State_Value>
+														</State_Values>
+													</State_Dependent>
+													<Animation_State_Tag>stand</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>leap nodes</Name>
+													<uid>3274</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>leap wall</State_Value>
+															<State_Value>leap roof</State_Value>
+														</State_Values>
+													</State_Dependent>
+													<Flags>
+														<Flag>Don't Blend Children</Flag>
+													</Flags>
+													<Nodes>
+														<Node>
+															<Name>States</Name>
+															<uid>3449</uid>
+															<Flags>
+																<Flag>Closest Single Child</Flag>
+															</Flags>
+															<Nodes>
+																<Node>
+																	<Name>left slice</Name>
+																	<uid>5124</uid>
+																	<State_Dependent>
+																		<State_Name>aim direction slice</State_Name>
+																		<State_Values>
+																			<State_Value>left</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>aim left</Name>
+																			<Axis>aim heading</Axis>
+																			<uid>3276</uid>
+																			<Control>-90.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4867</uid>
+																					<Control>-90.0</Control>
+																					<Animation_State_Tag>wall left aim down left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>corner</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4866</uid>
+																					<Control>-45.0</Control>
+																					<Animation_State_Tag>wall left aim down</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>center</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4865</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>wall left aim down center</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																	<Transitions>
+																		<Transition>
+																			<to>5125</to>
+																			<Type>0</Type>
+																			<animation_action_tag>wall transition left</animation_action_tag>
+																		</Transition>
+																	</Transitions>
+																</Node>
+																<Node>
+																	<Name>right slice</Name>
+																	<uid>5125</uid>
+																	<State_Dependent>
+																		<State_Name>aim direction slice</State_Name>
+																		<State_Values>
+																			<State_Value>right</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>aim right</Name>
+																			<Axis>aim heading</Axis>
+																			<uid>4868</uid>
+																			<Control>90.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>center</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4871</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>wall right aim down center</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>corner</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4870</uid>
+																					<Control>45.0</Control>
+																					<Animation_State_Tag>wall right aim down</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4869</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>wall right aim down right</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																	<Transitions>
+																		<Transition>
+																			<to>5124</to>
+																			<Type>0</Type>
+																			<animation_action_tag>wall transition right</animation_action_tag>
+																		</Transition>
+																	</Transitions>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>Actions</Name>
+															<uid>3549</uid>
+															<Flags>
+																<Flag>Don't Blend Children</Flag>
+															</Flags>
+															<Nodes>
+																<Node>
+																	<Name>fire </Name>
+																	<uid>3450</uid>
+																	<Action_Dependent>fire</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>fire</Name>
+																			<uid>4203</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Quill</State_Value>
+																					<State_Value>Spit</State_Value>
+																					<State_Value>Boom</State_Value>
+																					<State_Value>Antenna</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>left slice</Name>
+																					<uid>5180</uid>
+																					<State_Dependent>
+																						<State_Name>direction slice</State_Name>
+																						<State_Values>
+																							<State_Value>left</State_Value>
+																						</State_Values>
+																					</State_Dependent>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>8474</uid>
+																							<Control>-45.0</Control>
+																							<Nodes>
+																								<Node>
+																									<Name>fire wall left down</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>8475</uid>
+																									<Control>-90.0</Control>
+																									<Animation_Action_Tag>fire wall left down</Animation_Action_Tag>
+																								</Node>
+																								<Node>
+																									<Name>fire wall center left down</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>8476</uid>
+																									<Control>0.0</Control>
+																									<Animation_Action_Tag>fire wall center left down</Animation_Action_Tag>
+																								</Node>
+																							</Nodes>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5181</uid>
+																							<Control>45.0</Control>
+																							<Nodes>
+																								<Node>
+																									<Name>fire wall left up</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>5182</uid>
+																									<Control>-90.0</Control>
+																									<Animation_Action_Tag>fire wall left up</Animation_Action_Tag>
+																								</Node>
+																								<Node>
+																									<Name>fire wall center left up</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>5184</uid>
+																									<Control>0.0</Control>
+																									<Animation_Action_Tag>fire wall center left up</Animation_Action_Tag>
+																								</Node>
+																							</Nodes>
+																						</Node>
+																					</Nodes>
+																					<Transitions>
+																						<Transition>
+																							<to>5185</to>
+																							<Type>0</Type>
+																							<animation_action_tag>wall transition left</animation_action_tag>
+																						</Transition>
+																					</Transitions>
+																				</Node>
+																				<Node>
+																					<Name>right slice</Name>
+																					<uid>5185</uid>
+																					<State_Dependent>
+																						<State_Name>direction slice</State_Name>
+																						<State_Values>
+																							<State_Value>right</State_Value>
+																						</State_Values>
+																					</State_Dependent>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5186</uid>
+																							<Control>-45.0</Control>
+																							<Nodes>
+																								<Node>
+																									<Name>fire wall center right down</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>5187</uid>
+																									<Control>0.0</Control>
+																									<Animation_Action_Tag>fire wall center right down</Animation_Action_Tag>
+																								</Node>
+																								<Node>
+																									<Name>aim up</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>5189</uid>
+																									<Control>90.0</Control>
+																									<Animation_Action_Tag>fire wall right down</Animation_Action_Tag>
+																								</Node>
+																							</Nodes>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>8477</uid>
+																							<Control>45.0</Control>
+																							<Nodes>
+																								<Node>
+																									<Name>fire wall center right up</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>8478</uid>
+																									<Control>0.0</Control>
+																									<Animation_Action_Tag>fire wall center right up</Animation_Action_Tag>
+																								</Node>
+																								<Node>
+																									<Name>fire wall right up</Name>
+																									<Axis>aim heading</Axis>
+																									<uid>8479</uid>
+																									<Control>90.0</Control>
+																									<Animation_Action_Tag>fire wall right up</Animation_Action_Tag>
+																								</Node>
+																							</Nodes>
+																						</Node>
+																					</Nodes>
+																					<Transitions>
+																						<Transition>
+																							<to>5180</to>
+																							<Type>0</Type>
+																							<animation_action_tag>wall transition right</animation_action_tag>
+																						</Transition>
+																					</Transitions>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>aggro</Name>
+																	<uid>5190</uid>
+																	<Action_Dependent>aggro leap</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>5191</uid>
+																			<State_Dependent>
+																				<State_Name>aim direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>wall left aggro</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>5196</uid>
+																			<State_Dependent>
+																				<State_Name>aim direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>wall right aggro</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall head back</Name>
+																	<uid>8422</uid>
+																	<Action_Dependent> flinch slight head backward</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8446</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left head back</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8447</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right head back</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall head left</Name>
+																	<uid>8423</uid>
+																	<Action_Dependent> flinch slight head left</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8448</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left head left</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8449</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right head left</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall head right</Name>
+																	<uid>8424</uid>
+																	<Action_Dependent> flinch slight head right</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8450</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left head right</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8451</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right head right</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall torso back</Name>
+																	<uid>8425</uid>
+																	<Action_Dependent> flinch slight torso backward</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8452</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left torso back</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8453</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right torso back</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall torso left</Name>
+																	<uid>8427</uid>
+																	<Action_Dependent> flinch slight torso left</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8454</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left torso left</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8455</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right torso left</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall torso right</Name>
+																	<uid>8428</uid>
+																	<Action_Dependent> flinch slight torso right</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8456</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left torso right</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8457</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right torso right</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall pelvis back</Name>
+																	<uid>8426</uid>
+																	<Action_Dependent>flinch slight pelvis backward</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8458</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left pelvis back</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8459</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right pelvis back</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall pelvis left</Name>
+																	<uid>8431</uid>
+																	<Action_Dependent> flinch slight pelvis left</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8460</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left pelvis left</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8461</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right pelvis left</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>flinch wall pelvis right</Name>
+																	<uid>8432</uid>
+																	<Action_Dependent> flinch slight pelvis right</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>left slice</Name>
+																			<uid>8462</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>left</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall left pelvis right</Animation_Action_Tag>
+																		</Node>
+																		<Node>
+																			<Name>right slice</Name>
+																			<uid>8463</uid>
+																			<State_Dependent>
+																				<State_Name>direction slice</State_Name>
+																				<State_Values>
+																					<State_Value>right</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Animation_Action_Tag>flinch wall right pelvis right</Animation_Action_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>lipsyncing</Name>
+							<uid>1594</uid>
+							<Nodes>
+								<Node>
+									<Name>lipsync body root</Name>
+									<uid>1595</uid>
+									<State_Dependent>
+										<State_Name>is lipsyncing</State_Name>
+										<State_Values>
+											<State_Value>yes</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Nodes>
+										<Node>
+											<Name>closed</Name>
+											<Axis>lipsync amplitude</Axis>
+											<uid>1597</uid>
+											<Control>0.0</Control>
+											<Animation_State_Tag>lipsync closed</Animation_State_Tag>
+											<Flags>
+												<Flag>Pose</Flag>
+											</Flags>
+										</Node>
+										<Node>
+											<Name>open</Name>
+											<Axis>lipsync amplitude</Axis>
+											<uid>1598</uid>
+											<Control>1.0</Control>
+											<Animation_State_Tag>lipsync open</Animation_State_Tag>
+											<Flags>
+												<Flag>Pose</Flag>
+											</Flags>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+		<Blend_Tree>
+			<Name>ambusher</Name>
+			<Crossfade_Speed>2.0</Crossfade_Speed>
+			<States>
+				<State>
+					<Name>human state</Name>
+				</State>
+				<State>
+					<Name>ready mode</Name>
+				</State>
+				<State>
+					<Name>direction slice</Name>
+				</State>
+				<State>
+					<Name>move mode</Name>
+					<Crossfade_Speed>4.0</Crossfade_Speed>
+				</State>
+				<State>
+					<Name>anim group</Name>
+					<Crossfade_Speed>0.0</Crossfade_Speed>
+				</State>
+			</States>
+			<Blended_Actions>
+				<Action>
+					<Name>fire</Name>
+				</Action>
+			</Blended_Actions>
+			<Nodes>
+				<Node>
+					<Name>Root</Name>
+					<uid>4680</uid>
+					<Flags>
+						<Flag>Don't Blend Children</Flag>
+					</Flags>
+					<Nodes>
+						<Node>
+							<Name>main</Name>
+							<uid>4681</uid>
+							<Flags>
+								<Flag>Don't Blend Children</Flag>
+							</Flags>
+							<Nodes>
+								<Node>
+									<Name>States</Name>
+									<uid>4682</uid>
+									<Nodes>
+										<Node>
+											<Name>modes</Name>
+											<uid>4683</uid>
+											<Nodes>
+												<Node>
+													<Name>default</Name>
+													<uid>4684</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>none</State_Value>
+															<State_Value>direct</State_Value>
+															<State_Value>pathfinding</State_Value>
+															<State_Value>path to vehicle</State_Value>
+															<State_Value>jump</State_Value>
+															<State_Value>fall</State_Value>
+															<State_Value>FP move</State_Value>
+															<State_Value>knockdown</State_Value>
+															<State_Value>satellite</State_Value>
+														</State_Values>
+													</State_Dependent>
+													<Flags>
+														<Flag>Don't Blend Children</Flag>
+													</Flags>
+													<Nodes>
+														<Node>
+															<Name>States</Name>
+															<uid>4685</uid>
+															<Nodes>
+																<Node>
+																	<Name>ready</Name>
+																	<uid>4686</uid>
+																	<State_Dependent>
+																		<State_Name>ready mode</State_Name>
+																		<State_Values>
+																			<State_Value>aim</State_Value>
+																			<State_Value>ready</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>Stand</Name>
+																			<Axis>speed</Axis>
+																			<uid>4687</uid>
+																			<Control>0.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>aim left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5177</uid>
+																					<Control>-45.0</Control>
+																					<Animation_State_Tag>stand aim left</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5178</uid>
+																					<Control>-10.0</Control>
+																					<Animation_State_Tag>stand aim forward</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5197</uid>
+																					<Control>10.0</Control>
+																					<Animation_State_Tag>stand aim forward</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5179</uid>
+																					<Control>45.0</Control>
+																					<Animation_State_Tag>stand aim right</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>Walk</Name>
+																			<Axis>speed</Axis>
+																			<uid>4688</uid>
+																			<Control_Start>0.01</Control_Start>
+																			<Control_Start_Speed>0.35</Control_Start_Speed>
+																			<Control_End>1.0</Control_End>
+																			<Control_End_Speed>1.0</Control_End_Speed>
+																			<Nodes>
+																				<Node>
+																					<Name>Walk Forward</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4689</uid>
+																					<Control>0.0</Control>
+																					<Animation_State_Tag>walk forward</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>Walk Right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4690</uid>
+																					<Control>90.0</Control>
+																					<Animation_State_Tag>walk right</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>Walk Back</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4692</uid>
+																					<Control>180.0</Control>
+																					<Animation_State_Tag>walk back</Animation_State_Tag>
+																				</Node>
+																				<Node>
+																					<Name>Walk Left</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4694</uid>
+																					<Control>270.0</Control>
+																					<Animation_State_Tag>walk left</Animation_State_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>run</Name>
+																			<Axis>speed</Axis>
+																			<uid>4695</uid>
+																			<Control>2.0</Control>
+																			<Nodes>
+																				<Node>
+																					<Name>Run Forward</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4696</uid>
+																					<Control>0.0</Control>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																					<Nodes>
+																						<Node>
+																							<Name>forward</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4697</uid>
+																							<Control>0.0</Control>
+																							<Animation_State_Tag>run forward</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>forward right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4698</uid>
+																							<Control>45.0</Control>
+																							<Animation_State_Tag>run forward</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>forward left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4699</uid>
+																							<Control>315.0</Control>
+																							<Animation_State_Tag>run forward</Animation_State_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>Run Right</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4700</uid>
+																					<Notes>This is split up so I can do skid turns only when they peg the stick and not when they roll the joystick
+</Notes>
+																					<Control>90.0</Control>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																					<Nodes>
+																						<Node>
+																							<Name>right forward</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4701</uid>
+																							<Control>45.0</Control>
+																							<Animation_State_Tag>run right</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4702</uid>
+																							<Notes>No different than the other nodes, except this gives me a node to use for skid turns that isn't hit when rolling the joystick
+</Notes>
+																							<Control>90.0</Control>
+																							<Animation_State_Tag>run right</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>right back</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4703</uid>
+																							<Control>135.0</Control>
+																							<Animation_State_Tag>run right</Animation_State_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>Run Back</Name>
+																					<Axis>Direction</Axis>
+																					<uid>4704</uid>
+																					<Control>180.0</Control>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																					<Nodes>
+																						<Node>
+																							<Name>back right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4705</uid>
+																							<Control>135.0</Control>
+																							<Animation_State_Tag>run back</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>back</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4706</uid>
+																							<Control>180.0</Control>
+																							<Animation_State_Tag>run back</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>back left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4707</uid>
+																							<Control>225.0</Control>
+																							<Animation_State_Tag>run back</Animation_State_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>Run left</Name>
+																					<Axis>direction</Axis>
+																					<uid>4708</uid>
+																					<Notes>This is split up so I can do skid turns only when they peg the stick and not when they roll the joystick
+</Notes>
+																					<Control>270.0</Control>
+																					<Flags>
+																						<Flag>Closest Single Child</Flag>
+																					</Flags>
+																					<Nodes>
+																						<Node>
+																							<Name>left back</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4709</uid>
+																							<Control>225.0</Control>
+																							<Animation_State_Tag>run left</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>left</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4710</uid>
+																							<Notes>No different than the other nodes, except this gives me a node to use for skid turns that isn't hit when rolling the joystick
+</Notes>
+																							<Control>270.0</Control>
+																							<Animation_State_Tag>run left</Animation_State_Tag>
+																						</Node>
+																						<Node>
+																							<Name>left right</Name>
+																							<Axis>Direction</Axis>
+																							<uid>4711</uid>
+																							<Control>315.0</Control>
+																							<Animation_State_Tag>run left</Animation_State_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>non-ready</Name>
+																	<uid>4712</uid>
+																	<State_Dependent>
+																		<State_Name>ready mode</State_Name>
+																		<State_Values>
+																			<State_Value>non-ready</State_Value>
+																		</State_Values>
+																	</State_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>Stationary</Name>
+																			<Axis>speed</Axis>
+																			<uid>4713</uid>
+																			<Control>0.0</Control>
+																			<Animation_State_Tag>stand</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>Walk</Name>
+																			<Axis>speed</Axis>
+																			<uid>4714</uid>
+																			<Control_Start>0.01</Control_Start>
+																			<Control_Start_Speed>0.35</Control_Start_Speed>
+																			<Control_End>1.0</Control_End>
+																			<Control_End_Speed>1.0</Control_End_Speed>
+																			<Animation_State_Tag>walk forward</Animation_State_Tag>
+																			<Transitions>
+																				<Transition>
+																					<to>28</to>
+																					<Type>0</Type>
+																					<animation_action_tag>walk to stand</animation_action_tag>
+																				</Transition>
+																			</Transitions>
+																		</Node>
+																		<Node>
+																			<Name>Run</Name>
+																			<Axis>speed</Axis>
+																			<uid>4715</uid>
+																			<Control>2.0</Control>
+																			<Animation_State_Tag>run forward</Animation_State_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>Actions</Name>
+															<uid>4716</uid>
+															<Nodes>
+																<Node>
+																	<Name>fire </Name>
+																	<uid>5149</uid>
+																	<Action_Dependent>fire</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>antenna</Name>
+																			<uid>5150</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Antenna</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>aim right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5156</uid>
+																					<Control>-45.0</Control>
+																					<Animation_Action_Tag>fire stand right</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5152</uid>
+																					<Control>0.0</Control>
+																					<Animation_Action_Tag>fire stand</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5151</uid>
+																					<Control>45.0</Control>
+																					<Animation_Action_Tag>fire stand left</Animation_Action_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>spit</Name>
+																			<uid>5157</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Spit</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>aim right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5163</uid>
+																					<Control>-45.0</Control>
+																					<Animation_Action_Tag>fire stand right</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5171</uid>
+																					<Control>0.0</Control>
+																					<Animation_Action_Tag>fire stand</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5158</uid>
+																					<Control>45.0</Control>
+																					<Animation_Action_Tag>fire stand left</Animation_Action_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>alien shotgun</Name>
+																			<uid>5164</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Alien Shotgun</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>aim right</Name>
+																					<Axis>direction to player</Axis>
+																					<uid>5170</uid>
+																					<Control>-45.0</Control>
+																					<Animation_Action_Tag>fire stand right</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward</Name>
+																					<Axis>direction to player</Axis>
+																					<uid>5172</uid>
+																					<Control>0.0</Control>
+																					<Animation_Action_Tag>fire stand</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim left</Name>
+																					<Axis>direction to player</Axis>
+																					<uid>5165</uid>
+																					<Control>45.0</Control>
+																					<Animation_Action_Tag>fire stand left</Animation_Action_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+												<Node>
+													<Name>leap in air</Name>
+													<uid>4756</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>leap horizontal</State_Value>
+															<State_Value>leap exit</State_Value>
+															<State_Value>leap enter</State_Value>
+														</State_Values>
+													</State_Dependent>
+												</Node>
+												<Node>
+													<Name>leap ground</Name>
+													<uid>4757</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>leap ground</State_Value>
+														</State_Values>
+													</State_Dependent>
+													<Animation_State_Tag>stand</Animation_State_Tag>
+												</Node>
+												<Node>
+													<Name>leap nodes</Name>
+													<uid>4758</uid>
+													<State_Dependent>
+														<State_Name>move mode</State_Name>
+														<State_Values>
+															<State_Value>leap wall</State_Value>
+															<State_Value>leap roof</State_Value>
+														</State_Values>
+													</State_Dependent>
+													<Flags>
+														<Flag>Don't Blend Children</Flag>
+													</Flags>
+													<Nodes>
+														<Node>
+															<Name>States</Name>
+															<uid>4759</uid>
+															<Nodes>
+																<Node>
+																	<Name>aim left</Name>
+																	<Axis>aim heading</Axis>
+																	<uid>4760</uid>
+																	<Control>-45.0</Control>
+																	<Animation_State_Tag>leap wall aim left</Animation_State_Tag>
+																</Node>
+																<Node>
+																	<Name>aim forward left</Name>
+																	<Axis>aim heading</Axis>
+																	<uid>4761</uid>
+																	<Control>-10.0</Control>
+																	<Nodes>
+																		<Node>
+																			<Name>aim down</Name>
+																			<Axis>aim pitch</Axis>
+																			<uid>4764</uid>
+																			<Control>-45.0</Control>
+																			<Animation_State_Tag>leap wall aim down</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>aim center</Name>
+																			<Axis>aim pitch</Axis>
+																			<uid>4763</uid>
+																			<Control>-35.0</Control>
+																			<Animation_State_Tag>leap wall aim forward</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>aim up</Name>
+																			<Axis>aim pitch</Axis>
+																			<uid>4762</uid>
+																			<Control>0.0</Control>
+																			<Animation_State_Tag>leap wall aim up</Animation_State_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>aim forward right</Name>
+																	<Axis>aim heading</Axis>
+																	<uid>5198</uid>
+																	<Control>10.0</Control>
+																	<Nodes>
+																		<Node>
+																			<Name>aim up</Name>
+																			<Axis>aim pitch</Axis>
+																			<uid>5199</uid>
+																			<Control>-90.0</Control>
+																			<Animation_State_Tag>leap wall aim up</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>aim center</Name>
+																			<Axis>aim pitch</Axis>
+																			<uid>5200</uid>
+																			<Control>-60.0</Control>
+																			<Animation_State_Tag>leap wall aim forward</Animation_State_Tag>
+																		</Node>
+																		<Node>
+																			<Name>aim down</Name>
+																			<Axis>aim pitch</Axis>
+																			<uid>5201</uid>
+																			<Control>0.0</Control>
+																			<Animation_State_Tag>leap wall aim down</Animation_State_Tag>
+																		</Node>
+																	</Nodes>
+																</Node>
+																<Node>
+																	<Name>aim right</Name>
+																	<Axis>aim heading</Axis>
+																	<uid>4765</uid>
+																	<Control>45.0</Control>
+																	<Animation_State_Tag>leap wall aim right</Animation_State_Tag>
+																</Node>
+															</Nodes>
+														</Node>
+														<Node>
+															<Name>Actions</Name>
+															<uid>4766</uid>
+															<Flags>
+																<Flag>Don't Blend Children</Flag>
+															</Flags>
+															<Nodes>
+																<Node>
+																	<Name>fire </Name>
+																	<uid>4767</uid>
+																	<Action_Dependent>fire</Action_Dependent>
+																	<Nodes>
+																		<Node>
+																			<Name>antenna</Name>
+																			<uid>4790</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Antenna</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>aim left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4791</uid>
+																					<Control>-75.0</Control>
+																					<Animation_Action_Tag>fire leap left</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4792</uid>
+																					<Control>-10.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>4795</uid>
+																							<Control>-45.0</Control>
+																							<Animation_Action_Tag>fire leap down</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim center</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>4794</uid>
+																							<Control>-35.0</Control>
+																							<Animation_Action_Tag>fire leap</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>4793</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire leap up</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>aim forward right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5202</uid>
+																					<Control>10.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5205</uid>
+																							<Control>-45.0</Control>
+																							<Animation_Action_Tag>fire leap down</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim center</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5204</uid>
+																							<Control>-35.0</Control>
+																							<Animation_Action_Tag>fire leap</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5203</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire leap up</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>aim right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4796</uid>
+																					<Control>75.0</Control>
+																					<Animation_Action_Tag>fire leap right</Animation_Action_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>spit</Name>
+																			<uid>4797</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Spit</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>aim left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4798</uid>
+																					<Control>-75.0</Control>
+																					<Animation_Action_Tag>fire leap left</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5206</uid>
+																					<Control>-10.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5207</uid>
+																							<Control>-45.0</Control>
+																							<Animation_Action_Tag>fire leap down</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim center</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5208</uid>
+																							<Control>-35.0</Control>
+																							<Animation_Action_Tag>fire leap</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5209</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire leap up</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>aim forward right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5210</uid>
+																					<Control>10.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5211</uid>
+																							<Control>-45.0</Control>
+																							<Animation_Action_Tag>fire leap down</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim center</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5212</uid>
+																							<Control>-35.0</Control>
+																							<Animation_Action_Tag>fire leap</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5213</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire leap up</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>aim right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>4803</uid>
+																					<Control>75.0</Control>
+																					<Animation_Action_Tag>fire leap right</Animation_Action_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																		<Node>
+																			<Name>alien shotgun</Name>
+																			<uid>5142</uid>
+																			<State_Dependent>
+																				<State_Name>anim group</State_Name>
+																				<State_Values>
+																					<State_Value>Alien Shotgun</State_Value>
+																				</State_Values>
+																			</State_Dependent>
+																			<Nodes>
+																				<Node>
+																					<Name>aim left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5143</uid>
+																					<Control>-75.0</Control>
+																					<Animation_Action_Tag>fire leap left</Animation_Action_Tag>
+																				</Node>
+																				<Node>
+																					<Name>aim forward left</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5214</uid>
+																					<Control>-10.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5215</uid>
+																							<Control>-45.0</Control>
+																							<Animation_Action_Tag>fire leap down</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim center</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5216</uid>
+																							<Control>-35.0</Control>
+																							<Animation_Action_Tag>fire leap</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5217</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire leap up</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>aim forward right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5218</uid>
+																					<Control>10.0</Control>
+																					<Nodes>
+																						<Node>
+																							<Name>aim down</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5219</uid>
+																							<Control>-45.0</Control>
+																							<Animation_Action_Tag>fire leap down</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim center</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5220</uid>
+																							<Control>-35.0</Control>
+																							<Animation_Action_Tag>fire leap</Animation_Action_Tag>
+																						</Node>
+																						<Node>
+																							<Name>aim up</Name>
+																							<Axis>aim pitch</Axis>
+																							<uid>5221</uid>
+																							<Control>0.0</Control>
+																							<Animation_Action_Tag>fire leap up</Animation_Action_Tag>
+																						</Node>
+																					</Nodes>
+																				</Node>
+																				<Node>
+																					<Name>aim right</Name>
+																					<Axis>aim heading</Axis>
+																					<uid>5148</uid>
+																					<Control>75.0</Control>
+																					<Animation_Action_Tag>fire leap right</Animation_Action_Tag>
+																				</Node>
+																			</Nodes>
+																		</Node>
+																	</Nodes>
+																</Node>
+															</Nodes>
+														</Node>
+													</Nodes>
+												</Node>
+											</Nodes>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+						<Node>
+							<Name>lipsyncing</Name>
+							<uid>4811</uid>
+							<Nodes>
+								<Node>
+									<Name>lipsync body root</Name>
+									<uid>4812</uid>
+									<State_Dependent>
+										<State_Name>is lipsyncing</State_Name>
+										<State_Values>
+											<State_Value>yes</State_Value>
+										</State_Values>
+									</State_Dependent>
+									<Nodes>
+										<Node>
+											<Name>closed</Name>
+											<Axis>lipsync amplitude</Axis>
+											<uid>4813</uid>
+											<Control>0.0</Control>
+											<Animation_State_Tag>lipsync closed</Animation_State_Tag>
+											<Flags>
+												<Flag>Pose</Flag>
+											</Flags>
+										</Node>
+										<Node>
+											<Name>open</Name>
+											<Axis>lipsync amplitude</Axis>
+											<uid>4814</uid>
+											<Control>1.0</Control>
+											<Animation_State_Tag>lipsync open</Animation_State_Tag>
+											<Flags>
+												<Flag>Pose</Flag>
+											</Flags>
+										</Node>
+									</Nodes>
+								</Node>
+							</Nodes>
+						</Node>
+					</Nodes>
+				</Node>
+			</Nodes>
+		</Blend_Tree>
+	</Blend_Trees>
+</root>

@@ -1,0 +1,195 @@
+<root>
+<Table>
+	<Subtitle>
+		<Name>Line 01</Name>
+		<String_Tag>SUB_CS_12_01</String_Tag>
+		<Start_Time_ms>22000</Start_Time_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Duration_ms>2600</Duration_ms>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 02</Name>
+		<String_Tag>SUB_CS_12_02</String_Tag>
+		<Start_Time_ms>23592</Start_Time_ms>
+		<Duration_ms>3700</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 03</Name>
+		<String_Tag>SUB_CS_12_03</String_Tag>
+		<Start_Time_ms>31567</Start_Time_ms>
+		<Duration_ms>1000</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 035</Name>
+		<String_Tag>SUB_CS_12_035</String_Tag>
+		<Start_Time_ms>35404</Start_Time_ms>
+		<Duration_ms>1000</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 04</Name>
+		<String_Tag>SUB_CS_12_04</String_Tag>
+		<Start_Time_ms>37339</Start_Time_ms>
+		<Duration_ms>1000</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 05</Name>
+		<String_Tag>SUB_CS_12_05</String_Tag>
+		<Start_Time_ms>40709</Start_Time_ms>
+		<Duration_ms>1000</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 06</Name>
+		<String_Tag>SUB_CS_12_06</String_Tag>
+		<Start_Time_ms>45013</Start_Time_ms>
+		<Duration_ms>3000</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 07</Name>
+		<String_Tag>SUB_CS_12_07</String_Tag>
+		<Start_Time_ms>48716</Start_Time_ms>
+		<Duration_ms>1100</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 08</Name>
+		<String_Tag>SUB_CS_12_08</String_Tag>
+		<Start_Time_ms>50785</Start_Time_ms>
+		<Duration_ms>1100</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 09</Name>
+		<String_Tag>SUB_CS_12_09</String_Tag>
+		<Start_Time_ms>53488</Start_Time_ms>
+		<Duration_ms>800</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 10</Name>
+		<String_Tag>SUB_CS_12_10</String_Tag>
+		<Start_Time_ms>55757</Start_Time_ms>
+		<Duration_ms>6100</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Sam_Text></Sam_Text>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line105</Name>
+		<String_Tag>SUB_CS_12_105</String_Tag>
+		<Start_Time_ms>62100</Start_Time_ms>
+		<Duration_ms>4500</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Sam_Text></Sam_Text>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 11</Name>
+		<String_Tag>SUB_CS_12_11</String_Tag>
+		<Start_Time_ms>66701</Start_Time_ms>
+		<Duration_ms>1100</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 12</Name>
+		<String_Tag>SUB_CS_12_12</String_Tag>
+		<Start_Time_ms>68169</Start_Time_ms>
+		<Duration_ms>1900</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Sam_Text></Sam_Text>
+		</Subtitle>
+	<Subtitle>
+		<Name>Line 13</Name>
+		<String_Tag>SUB_CS_12_13</String_Tag>
+		<Start_Time_ms>71000</Start_Time_ms>
+		<Duration_ms>1300</Duration_ms>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Subtitle</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Identifier for subtitle.  Won't be parsed, can be anything you want.</Description>
+		</Element>
+	<Element>
+		<Name>String_Tag</Name>
+		<Type>Reference</Type>
+		<Display_Name>String Tag</Display_Name>
+		<Description>Localization tag for the subtitle.  Entries come from the entries in data\tables\localization\Subtitle_strings.xlsm.</Description>
+		<Reference>
+			<File>localized_exports\subtitles_text.xtbl</File>
+			<Type>Subtitles_Identifier.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Start_Time_ms</Name>
+		<Type>Int</Type>
+		<Display_Name>Start Time (ms)</Display_Name>
+		<Description>Time elapsed in the cutscene before displaying the subtitle, in ms.</Description>
+		<Unique>true</Unique>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Duration_ms</Name>
+		<Type>Int</Type>
+		<Display_Name>Duration (ms)</Display_Name>
+		<Description>Duration of the subtitle line, in ms.  Can be longer than the time to the next subtitle (will be overwritten).</Description>
+		<Default>1000</Default>
+		<MinValue>1</MinValue>
+		</Element>
+	<Element>
+		<Name>Sam_Text</Name>
+		<Type>Element</Type>
+		<Required>false</Required>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

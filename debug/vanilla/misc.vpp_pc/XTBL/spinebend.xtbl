@@ -1,0 +1,1406 @@
+<root>
+<Table>
+	<Spinebend>
+		<Name>human</Name>
+		<Bones>
+			<Bone>
+				<name>spine</name>
+				<type>lowest torso</type>
+				<max_pitch>35</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.02</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine1</name>
+				<type>lower torso</type>
+				<parent>lowest torso</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.025</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine2</name>
+				<type>upper torso</type>
+				<parent>lower torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-27</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>neck</name>
+				<type>neck</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-25</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>0.895</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>45</max_pitch>
+				<min_pitch>-45</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>r-upperarm</name>
+				<type>right arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-40</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>right arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>right arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>l-upperarm</name>
+				<type>left arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-40</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>left arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>left arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-r-eye</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-l-eye</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	<Spinebend>
+		<Name>grunt</Name>
+		<Bones>
+			<Bone>
+				<name>spine</name>
+				<type>lowest torso</type>
+				<max_pitch>35</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.02</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine1</name>
+				<type>lower torso</type>
+				<parent>lowest torso</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.025</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine2</name>
+				<type>mid torso</type>
+				<parent>lower torso</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-14</min_pitch>
+				<max_heading>10</max_heading>
+				<min_heading>-10</min_heading>
+				<blend_pct>0.015</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine3</name>
+				<type>upper torso</type>
+				<parent>mid torso</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-13</min_pitch>
+				<max_heading>10</max_heading>
+				<min_heading>-10</min_heading>
+				<blend_pct>0.015</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>neck</name>
+				<type>neck</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-25</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-55</min_pitch>
+				<max_heading>65</max_heading>
+				<min_heading>-65</min_heading>
+				<blend_pct>0.895</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>r-upperarm</name>
+				<type>right arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>90</max_heading>
+				<min_heading>-60</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>right arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>right arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>l-upperarm</name>
+				<type>left arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>60</max_heading>
+				<min_heading>-90</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>left arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>left arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-r-eye</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-l-eye</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	<Spinebend>
+		<Name>creeper</Name>
+		<Bones>
+			<Bone>
+				<name>spine2</name>
+				<type>neck</type>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-25</min_pitch>
+				<max_heading>45</max_heading>
+				<min_heading>-45</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>Head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-55</min_pitch>
+				<max_heading>75</max_heading>
+				<min_heading>-75</min_heading>
+				<blend_pct>0.895</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>r-eye</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-l-eye</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	<Spinebend>
+		<Name>heavy</Name>
+		<Bones>
+			<Bone>
+				<name>spine</name>
+				<type>lowest torso</type>
+				<max_pitch>35</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>5</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.02</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine1</name>
+				<type>lower torso</type>
+				<parent>lowest torso</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>5</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.025</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine2</name>
+				<type>upper torso</type>
+				<parent>lower torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-27</min_pitch>
+				<max_heading>5</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>neck</name>
+				<type>neck</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-25</min_pitch>
+				<max_heading>10</max_heading>
+				<min_heading>-10</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-55</min_pitch>
+				<max_heading>10</max_heading>
+				<min_heading>-10</min_heading>
+				<blend_pct>0.895</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>RightShoulder</name>
+				<type>right arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>45</max_heading>
+				<min_heading>-30</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>right arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>right arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>LeftShoulder</name>
+				<type>left arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>45</max_heading>
+				<min_heading>-30</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>left arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>left arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>r-eye</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>l-eye</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	<Spinebend>
+		<Name>exo</Name>
+		<Bones>
+			<Bone>
+				<name>spine</name>
+				<type>lowest torso</type>
+				<max_pitch>35</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.02</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine1</name>
+				<type>lower torso</type>
+				<parent>lowest torso</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.025</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine2</name>
+				<type>upper torso</type>
+				<parent>lower torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-27</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-55</min_pitch>
+				<max_heading>65</max_heading>
+				<min_heading>-65</min_heading>
+				<blend_pct>0.895</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>R Upper Arm</name>
+				<type>right arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>90</max_heading>
+				<min_heading>-60</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>right arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>right arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>L Upper Arm</name>
+				<type>left arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>60</max_heading>
+				<min_heading>-90</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>left arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>left arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>Head L</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>Head R</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	<Spinebend>
+		<Name>player</Name>
+		<Bones>
+			<Bone>
+				<name>spine</name>
+				<type>lowest torso</type>
+				<max_pitch>35</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.02</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine1</name>
+				<type>lower torso</type>
+				<parent>lowest torso</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.025</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine2</name>
+				<type>upper torso</type>
+				<parent>lower torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-27</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>neck</name>
+				<type>neck</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-25</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-55</min_pitch>
+				<max_heading>65</max_heading>
+				<min_heading>-65</min_heading>
+				<blend_pct>0.895</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>r-upperarm</name>
+				<type>right arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>90</max_heading>
+				<min_heading>-60</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>right arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>right arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>l-upperarm</name>
+				<type>left arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-70</min_pitch>
+				<max_heading>60</max_heading>
+				<min_heading>-90</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>left arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>left arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-r-eye</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-l-eye</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	<Spinebend>
+		<Name>tank</Name>
+		<Bones>
+			<Bone>
+				<name>spine</name>
+				<type>lowest torso</type>
+				<max_pitch>10</max_pitch>
+				<min_pitch>-10</min_pitch>
+				<max_heading>1</max_heading>
+				<min_heading>-1</min_heading>
+				<blend_pct>0</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine1</name>
+				<type>lower torso</type>
+				<max_pitch>10</max_pitch>
+				<min_pitch>-10</min_pitch>
+				<max_heading>2</max_heading>
+				<min_heading>-2</min_heading>
+				<blend_pct>0</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine2</name>
+				<type>upper torso</type>
+				<parent>lower torso</parent>
+				<max_pitch>10</max_pitch>
+				<min_pitch>-10</min_pitch>
+				<max_heading>5</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.1</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>neck</name>
+				<type>neck</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-5</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>0.4</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-25</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>0.5</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>RightShoulder</name>
+				<type>right arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-5</min_pitch>
+				<max_heading>5</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>right arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>right arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>LeftShoulder</name>
+				<type>left arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-5</min_pitch>
+				<max_heading>5</max_heading>
+				<min_heading>-5</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>left arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>left arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>r-eye</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>l-eye</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	<Spinebend>
+		<Name>civilian</Name>
+		<Bones>
+			<Bone>
+				<name>spine</name>
+				<type>lowest torso</type>
+				<max_pitch>35</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.02</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine1</name>
+				<type>lower torso</type>
+				<parent>lowest torso</parent>
+				<max_pitch>25</max_pitch>
+				<min_pitch>-23</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.025</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>spine2</name>
+				<type>upper torso</type>
+				<parent>lower torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-27</min_pitch>
+				<max_heading>20</max_heading>
+				<min_heading>-20</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>right arm</Flag>
+					<Flag>left arm</Flag>
+					<Flag>torso</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>neck</name>
+				<type>neck</type>
+				<parent>upper torso</parent>
+				<max_pitch>5</max_pitch>
+				<min_pitch>-25</min_pitch>
+				<max_heading>45</max_heading>
+				<min_heading>-45</min_heading>
+				<blend_pct>0.895</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>head</name>
+				<type>head</type>
+				<parent>neck</parent>
+				<max_pitch>45</max_pitch>
+				<min_pitch>-45</min_pitch>
+				<max_heading>45</max_heading>
+				<min_heading>-45</min_heading>
+				<blend_pct>0.03</blend_pct>
+				<heading_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>head</Flag>
+					<Flag>only head</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>r-upperarm</name>
+				<type>right arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-40</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>right arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>right arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>l-upperarm</name>
+				<type>left arm</type>
+				<parent>upper torso</parent>
+				<max_pitch>40</max_pitch>
+				<min_pitch>-40</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>0.6</blend_pct>
+				<heading_filter>
+					<Flag>left arm</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>left arm</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-r-eye</name>
+				<type>right eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			<Bone>
+				<name>face-l-eye</name>
+				<type>left eye</type>
+				<parent>head</parent>
+				<max_pitch>20</max_pitch>
+				<min_pitch>-8</min_pitch>
+				<max_heading>25</max_heading>
+				<min_heading>-25</min_heading>
+				<blend_pct>1</blend_pct>
+				<heading_filter>
+					<Flag>eyes</Flag>
+					</heading_filter>
+				<pitch_filter>
+					<Flag>eyes</Flag>
+					</pitch_filter>
+				</Bone>
+			</Bones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Spinebend>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Spinebend</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Bones</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>Bone</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>name</Name>
+				<Type>String</Type>
+				<Description>name of the bone</Description>
+				</Element>
+			<Element>
+				<Name>type</Name>
+				<Type>Selection</Type>
+				<Choice>lowest torso</Choice>
+				<Choice>lower torso</Choice>
+				<Choice>mid torso</Choice>
+				<Choice>upper torso</Choice>
+				<Choice>neck</Choice>
+				<Choice>head</Choice>
+				<Choice>right arm</Choice>
+				<Choice>left arm</Choice>
+				<Choice>right eye</Choice>
+				<Choice>left eye</Choice>
+				</Element>
+			<Element>
+				<Name>parent</Name>
+				<Type>Selection</Type>
+				<Description>parent bone reference</Description>
+				<Required>false</Required>
+				<Choice>lowest torso</Choice>
+				<Choice>lower torso</Choice>
+				<Choice>mid torso</Choice>
+				<Choice>upper torso</Choice>
+				<Choice>neck</Choice>
+				<Choice>head</Choice>
+				<Choice>right arm</Choice>
+				<Choice>left arm</Choice>
+				<Choice>right eye</Choice>
+				<Choice>left eye</Choice>
+				</Element>
+			<Element>
+				<Name>max_pitch</Name>
+				<Type>Float</Type>
+				<Description>max pitch from the base pose a bone can bend</Description>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>min_pitch</Name>
+				<Type>Float</Type>
+				<Description>min pitch from the base pose a bone can bend</Description>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>max_heading</Name>
+				<Type>Float</Type>
+				<Description>max heading from the base pose a bone can bend</Description>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>min_heading</Name>
+				<Type>Float</Type>
+				<Description>min heading fromt the base pose a bone can bend</Description>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>blend_pct</Name>
+				<Type>Float</Type>
+				<Description>amount of the bend/twist angle (after what is required) this bone will take for blending purposes</Description>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>heading_filter</Name>
+				<Type>Flags</Type>
+				<Flag>head</Flag>
+				<Flag>right arm</Flag>
+				<Flag>left arm</Flag>
+				<Flag>torso</Flag>
+				<Flag>eyes</Flag>
+				<Flag>only head</Flag>
+				</Element>
+			<Element>
+				<Name>pitch_filter</Name>
+				<Type>Flags</Type>
+				<Flag>head</Flag>
+				<Flag>right arm</Flag>
+				<Flag>left arm</Flag>
+				<Flag>torso</Flag>
+				<Flag>eyes</Flag>
+				<Flag>only head</Flag>
+				</Element>
+			</Element>
+		<Num_Display_Rows>12</Num_Display_Rows>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

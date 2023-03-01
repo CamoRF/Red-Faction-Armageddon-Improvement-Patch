@@ -1,0 +1,5441 @@
+<root>
+<Table>Entry&gt;<Tweak_Table_Entry>
+		<Name>Mp_backpack_rack_popup_min_dot</Name>
+		<Value>0.975</Value>
+		<Description>Minimum dot between vector to backpack rack chunk and the camera's forward vector (lower = looser, higher = tighter, 0 to 1)</Description>
+		<_Editor>
+			<Category>Multiplayer:obsolete</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Repair_grenade_multiplayer_delay_ms_4p</Name>
+		<Value>3500</Value>
+		<Description>The delay between repair grenade uses (in milliseconds) in MP with 4 players.</Description>
+		<_Editor>
+			<Category>Multiplayer:repair_grenade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Repair_grenade_multiplayer_delay_ms_3p</Name>
+		<Value>3000</Value>
+		<Description>The delay between repair grenade uses (in milliseconds) in MP with 3 players.</Description>
+		<_Editor>
+			<Category>Multiplayer:repair_grenade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Repair_grenade_multiplayer_delay_ms_2p</Name>
+		<Value>2500</Value>
+		<Description>The delay between repair grenade uses (in milliseconds) in MP with 2 players.</Description>
+		<_Editor>
+			<Category>Multiplayer:repair_grenade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Repair_grenade_multiplayer_delay_ms_1p</Name>
+		<Value>1500</Value>
+		<Description>The delay between repair grenade uses (in milliseconds) in MP with 1 player.</Description>
+		<_Editor>
+			<Category>Multiplayer:repair_grenade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Lockon_max_distance</Name>
+		<Value>50</Value>
+		<Description>Maximum distance to scale the lockon indicator before it's pegged to the minimum size.</Description>
+		<_Editor>
+			<Category>UI:Lockons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Lockon_max_scale</Name>
+		<Value>0.75</Value>
+		<Description>Maximum scale for the lockon indicator</Description>
+		<_Editor>
+			<Category>UI:Lockons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Lockon_min_distance</Name>
+		<Value>5</Value>
+		<Description>Minimum distance to scale the lockon indicator before it's pegged to the maximum size.</Description>
+		<_Editor>
+			<Category>UI:Lockons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Lockon_min_scale</Name>
+		<Value>0.25</Value>
+		<Description>Minimum scale for the lockon indicator</Description>
+		<_Editor>
+			<Category>UI:Lockons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_radial_dead_zone</Name>
+		<Value>0.8</Value>
+		<Description>Percentage from 0-1 of the radius starting from the center of analog input where the input doesn't register as valid.</Description>
+		<_Editor>
+			<Category>UI:Weapon Radial</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_radial_cardinal_angle</Name>
+		<Value>35</Value>
+		<Description>Value from 0-90 that represents the total angle in degrees for a cardinal direction.  (90 - value) is then left for the diagonals.</Description>
+		<_Editor>
+			<Category>UI:Weapon Radial</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_radial_highlight_time_ms</Name>
+		<Value>2500</Value>
+		<Description>Time in ms for a weapon to be highlighted in the radial when a new weapon is added.</Description>
+		<_Editor>
+			<Category>UI:Weapon Radial</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_radial_quick_switch_time_ms</Name>
+		<Value>175</Value>
+		<Description>Time in ms for quick switching weapons.  If you tap the weapon menu button for less than this time, it will switch to your last weapon rather than open the radial.</Description>
+		<_Editor>
+			<Category>UI:Weapon Radial</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_radial_next_prev_delay_ms</Name>
+		<Value>250</Value>
+		<Description>Time in ms between processing NEXT/PREVIOUS weapon radial menu actions.</Description>
+		<_Editor>
+			<Category>UI:Weapon Radial</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Magoo_banner_fade_time_sec</Name>
+		<Value>5.0</Value>
+		<Description>Time in seconds before the large banner fades to the small  sub-banner area.</Description>
+		<_Editor>
+			<Category>UI:Banner</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Magoo_sub_banner_fade_time_sec</Name>
+		<Value>15.0</Value>
+		<Description>Time in seconds before the sub-banner in the corner fades out (if it fades at all).</Description>
+		<_Editor>
+			<Category>UI:Banner</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Animated_general_mover_debris_damage_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Miscellaneous:Anim Rig Damage</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_screen_radius_percent</Name>
+		<Value>0.25</Value>
+		<Description>Percent of the distance from the center of the screen to the shorter edge to place the hit indicators.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_fade_speed_ms</Name>
+		<Value>2500</Value>
+		<Description>Number of milliseconds the hit indicator should be up (including any flash time).</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_max_damage_intensity</Name>
+		<Value>100.0</Value>
+		<Description>If a single attack causes this much damage or more, the 2D hit indicator shows up at max intensity.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_flash_speed_ms</Name>
+		<Value>350</Value>
+		<Description>Number of milliseconds it takes for hit indicator flashes to appear and disappear.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_flash_scale_percent</Name>
+		<Value>1.50</Value>
+		<Description>Percent the "flash" for a hit indicator scales up/down to as it flashes.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_flash_travel_percent</Name>
+		<Value>0.75</Value>
+		<Description>Percent of the hit indicator radius that the initial "flash" will travel outward.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_minor_scale</Name>
+		<Value>0.5</Value>
+		<Description>Scale of hit indicators for when it's a minor hit rather than a standard hit.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_minor_flash_speed_ms</Name>
+		<Value>250</Value>
+		<Description>Number of milliseconds it takes for minor hit indicator flashes to appear and disappear.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_minor_flash_scale_percent</Name>
+		<Value>0.5</Value>
+		<Description>Percent the "flash" for a minor hit indicator scales up/down to as it flashes.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hit_indicator_2d_minor_flash_travel_percent</Name>
+		<Value>0.0</Value>
+		<Description>Percent of the minor hit indicator radius that the initial "flash" will travel outward.</Description>
+		<_Editor>
+			<Category>UI:2D Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Grunt_melee_prob</Name>
+		<Value>0.08</Value>
+		<Description>Raw probability that a grunt will decide to run in and attack</Description>
+		<_Editor>
+			<Category>AI:Grunt</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_radius</Name>
+		<Value>50.0</Value>
+		<Description>Radius distance in world units that the minimap displays.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_radius_in_vehicle</Name>
+		<Value>75.0</Value>
+		<Description>Radius distance in world units that the minimap displays when in a vehicle.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_scissor_region_buffer</Name>
+		<Value>15</Value>
+		<Description>Pixels to add around the minimap area before scissoring out the rendering area.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_button_show_delay_ms</Name>
+		<Value>500</Value>
+		<Description>The length of time you have to release the GPS button before the map appears.</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_player_hit_effects_delay_ms</Name>
+		<Value>200</Value>
+		<Description>The delay, in milliseconds, between when hit effects can be played from player weapon fire.</Description>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_npc_hit_effects_delay_ms</Name>
+		<Value>200</Value>
+		<Description>The delay, in milliseconds, between when hit effects can be played from NPC weapon fire.</Description>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_tracer_density_decay</Name>
+		<Value>8.0</Value>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		<Description>The rate at which the "density" of recent NPC tracers will decay per second.  (NOTE: Every time a tracer is created, the "density" goes up by 1)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_tracer_throttle_start_density</Name>
+		<Value>5.0</Value>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		<Description>The "density" of recent NPC tracers before effects should be throttled.  The chance to create a tracer goes from 100% to 0% from Weapon_tracer_throttle_start_density to Weapon_tracer_throttle_max_density.  (NOTE: Every time a tracer is created, the "density" goes up by 1)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_tracer_throttle_max_density</Name>
+		<Value>10.0</Value>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		<Description>The "density" of recent NPC tracers before effects should stop being created.  The chance to create a tracer goes from 100% to 0% from Weapon_tracer_throttle_start_density to Weapon_tracer_throttle_max_density.  (NOTE: Every time a tracer is created, the "density" goes up by 1)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_muzzle_flash_density_decay</Name>
+		<Value>8.0</Value>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		<Description>The rate at which the "density" of recent NPC muzzle flashes will decay per second.  (NOTE: Every time a muzzle flash is created, the "density" goes up by 1)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_muzzle_flash_throttle_start_density</Name>
+		<Value>5.0</Value>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		<Description>The "density" of recent NPC muzzle flashes before effects should be throttled.  The chance to create a muzzle flash goes from 100% to 0% from Weapon_muzzle_flash_throttle_start_density to Weapon_muzzle_flash_throttle_max_density.  (NOTE: Every time a muzzle flash is created, the "density" goes up by 1)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_muzzle_flash_throttle_max_density</Name>
+		<Value>10.0</Value>
+		<_Editor>
+			<Category>Weapons:Effects Throttling</Category>
+			</_Editor>
+		<Description>The "density" of recent NPC muzzle flashes before effects should stop being created.  The chance to create a muzzle flash goes from 100% to 0% from Weapon_muzzle_flash_throttle_start_density to Weapon_muzzle_flash_throttle_max_density.  (NOTE: Every time a muzzle flash is created, the "density" goes up by 1)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_3d_indicator_min_pitch</Name>
+		<Value>-25</Value>
+		<Description>The minimum pitch of a hit indicator when using 3D player indicators.</Description>
+		<_Editor>
+			<Category>Miscellaneous:3d Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Nanoforge_activation_delay_ms</Name>
+		<Value>300</Value>
+		<Description>If the nanoforge activation and menu are assigned to the same button, this time in ms is how long the button needs to be pressed before the menu opens.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Nanoforge</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Creeper_heavy_attack_cooldown</Name>
+		<Value>4.0</Value>
+		<Description>Global cooldown on creeper heavy attack in seconds.</Description>
+		<_Editor>
+			<Category>AI:Creepers</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_health_restore_wait_time_ms</Name>
+		<Value>4000</Value>
+		<_Editor>
+			<Category>Miscellaneous:Health Regen</Category>
+			</_Editor>
+		<Description>The number of milliseconds the player must go without taking damage before they begin to regenerate health.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambusher_cloaked_voice_min_time</Name>
+		<Value>10000</Value>
+		<Description>Minimum time from start of ambusher cloaked voice to start of next</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambusher_cloaked_voice_max_time</Name>
+		<Value>16000</Value>
+		<Description>Maximum time from start of ambusher cloaked voice to start of next</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambusher_cloaked_voice_radius</Name>
+		<Value>40</Value>
+		<Description>Distance from the player before a cloaked ambusher will play a voice line</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambusher_stalker_inner_radius</Name>
+		<Value>35</Value>
+		<Description>Distance from player at which stalker event will be started</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambusher_stalker_outer_radius</Name>
+		<Value>50</Value>
+		<Description>Distance from player at which stalker event will be stopped</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_salvage</Name>
+		<Value>999999</Value>
+		<Description>The initial maximum amount of salvage the player can hold at any given time.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_spawn_prob_factor</Name>
+		<Value>5.0</Value>
+		<Description>This is multiplied by the calculated probability of spawning salvage based on number of shards.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_spawn_dead_prob</Name>
+		<Value>0.25</Value>
+		<Description>This is the probability used for salvage spawns</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_touch_delay_ms</Name>
+		<Value>1000</Value>
+		<Description>In ms, the delay between when salvage is spawned, and how soon you can pick it up.  This prevents salvage spawned in your face from using the sledge hammer from being picked up immediately.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_deletion_delay_ms</Name>
+		<Value>30000</Value>
+		<Description>Number of milliseconds before salvage that hasn't been picked up is removed from the world.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_pickup_distance</Name>
+		<Value>3.0</Value>
+		<Description>The radius within which salvage can be collected.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_preplaced_pickup_distance</Name>
+		<Value>1.0</Value>
+		<Description>The radius within which preplaced salvage can be collected.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_preplaced_pickup_distance_in_exo</Name>
+		<Value>3.0</Value>
+		<Description>The radius within which preplaced salvage can be collected while in an exo.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_vehicle_pickup_distance</Name>
+		<Value>5.0</Value>
+		<Description>The radius within which salvage can be collected while in a vehicle.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier2_purchases_required</Name>
+		<Value>0</Value>
+		<Description>The number of purchases required below tier 2 for tier 2 to be usable</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier3_purchases_required</Name>
+		<Value>0</Value>
+		<Description>The number of purchases required below tier 3 for tier 3 to be usable</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier4_purchases_required</Name>
+		<Value>0</Value>
+		<Description>The number of purchases required below tier 4 for tier 4 to be usable</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier2_completion_percent_required</Name>
+		<Value>.21</Value>
+		<Description>The amount of "required" game completion to display to the player for tier 2 to be usable.  Should be a value between 0.0 and 1.0.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier3_completion_percent_required</Name>
+		<Value>.45</Value>
+		<Description>The amount of "required" game completion to display to the player for tier 3 to be usable. Should be a value between 0.0 and 1.0.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier4_completion_percent_required</Name>
+		<Value>.73</Value>
+		<Description>The amount of "required" game completion to display to the player for tier 4 to be usable. Should be a value between 0.0 and 1.0.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Armored_explosion_damage_modifier</Name>
+		<Value>0.65</Value>
+		<Description>Damage reduction for heavy armored NPCs.  1.0 = full damage; 0.0 = zero damage.</Description>
+		<_Editor>
+			<Category>Weapons:Armor and Shields</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Shielded_explosion_crouching_damage_modifier</Name>
+		<Value>0.4</Value>
+		<Description>Additional damage reduction for NPCs who are protected by a shield and are crouching/turtling.  1.0 = full damage; 0.0 = zero damage.</Description>
+		<_Editor>
+			<Category>Weapons:Armor and Shields</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Shielded_explosion_crouching_radius_modifier</Name>
+		<Value>0.8</Value>
+		<Description>Effective explosion radius when the target is protected by a shield and is crouching/turtling.  1.0 = full radius; 0.0 = zero radius.</Description>
+		<_Editor>
+			<Category>Weapons:Armor and Shields</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Shielded_explosion_damage_modifier</Name>
+		<Value>0.8</Value>
+		<Description>Additional damage reduction for NPCs who are protected by a shield.  1.0 = full damage; 0.0 = zero damage.</Description>
+		<_Editor>
+			<Category>Weapons:Armor and Shields</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Shielded_explosion_radius_modifier</Name>
+		<Value>0.9</Value>
+		<Description>Effective explosion radius when the target is protected by a shield.  1.0 = full radius; 0.0 = zero radius.</Description>
+		<_Editor>
+			<Category>Weapons:Armor and Shields</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Excavator_player_damage</Name>
+		<Value>500</Value>
+		<Description>The amount of damage applied to the player when hitting the excavator blade.  NPCs are killed instantly.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Custom Objects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_vehicle_falling_multiplier</Name>
+		<Value>1.0</Value>
+		<Description>This is used to exaggerate the speed effects on a vehicle</Description>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Object_collision_camera_shake_player_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Object_collision_camera_shake_vehicle_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Object_collision_camera_shake_exo_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Stress_camera_shake_player_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Stress_camera_shake_vehicle_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Stress_camera_shake_exo_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_turret_fineaim_multiplier</Name>
+		<Value>0.3</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Recoil_recover_rate</Name>
+		<Value>2.5</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Recoil_recover_max_rate_per_frame</Name>
+		<Value>1.0</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ruin_mode_camera_shake_multiplier</Name>
+		<Value>.1</Value>
+		<_Editor>
+			<Category>Camera</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>General_mover_collision_damage_cutoff</Name>
+		<Value>20</Value>
+		<Description>If the damage calculation for a general_mover collision is more than this, apply the damage.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>General_mover_collision_damage_multiplier</Name>
+		<Value>10</Value>
+		<Description>Multiplier for damage to general movers (clutter) from collisions.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_walker_collision_damage_threshold</Name>
+		<Value>20</Value>
+		<Description>Do damage in walker collisions if it's above this value.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_collision_damage_threshold</Name>
+		<Value>20</Value>
+		<Description>Do damage in vehicle collisions if it's above this value.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Collision_damage_multiplier</Name>
+		<Value>0.0004</Value>
+		<Description>Multiplier for all collision damage calculations.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_explosion_linear_impulse_scalar</Name>
+		<Value>1.2</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>Scalar for impulses applied to a flyer from explosions.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_explosion_angular_impulse_scalar</Name>
+		<Value>0.15</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>Scalar for impulses applied to a flyer from explosions.  Mostly needed for Gauss Rifle.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_damage_force_scalar</Name>
+		<Value>1.0</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>Generic scalar used to adjust domain of damage forces</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_max_forward_slip_no_shift</Name>
+		<Value>3</Value>
+		<Description>The max forward slip magnitude on any wheel to allow for the transmission to shift.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_npc_min_fade_pct</Name>
+		<Value>1.0</Value>
+		<Description>Minimum fade percentage for NPCs near the camera.</Description>
+		<_Editor>
+			<Category>Camera:Fade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_tire_track_max_dist_from_track</Name>
+		<Value>0.05</Value>
+		<Description>Maximum distance allowed from the track in the initial direction before switching to a new track (curving).</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tire_track_decal_fade_multiplier</Name>
+		<Value>0.5</Value>
+		<Description>This determines how much of a difference is made by the index of the track in the list (older tracks fade faster)</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tire_tracks_fade_rate</Name>
+		<Value>0.0005</Value>
+		<Description>The rate per frame that tire tracks will fade if no new tracks are being laid.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_camera_shake_mass_large</Name>
+		<Value>8000</Value>
+		<Description>This mass (or  higer) will play only the large version of a camera shake.  Below this will involve the small to some degree.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_camera_shake_mass_small</Name>
+		<Value>1500</Value>
+		<Description>This mass (or lower) will play only the small version of a camera shake.  Above this will involve the large to some degree.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_tire_track_reuse_track_dist_factor</Name>
+		<Value>0.3</Value>
+		<Description>The maximum distance (multiplied by wheel width) that a wheel can be from a track to reuse it.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_tire_track_min_direction_dot_prod</Name>
+		<Value>0.9</Value>
+		<Description>The minimum dot product value between a track and wheel for the tire track to be reused by this wheel.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_min_forward_slip_velocity</Name>
+		<Value>3</Value>
+		<Description>The minimum forward slip magnitude to trigger braking/peeling effects.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_min_side_slip_velocity</Name>
+		<Value>6</Value>
+		<Description>For skid sounds/effects to play, the side slip velocity has to be at least this much.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_brake_max_volume_velocity</Name>
+		<Value>15</Value>
+		<Description>At this forward slip velocity magnitude, the brake foley will be the loudest.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_light_brake_max_slip_velocity</Name>
+		<Value>9</Value>
+		<Description>The maximum slip velocity magnitude for the "light" brake foley to play.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_motion_foley_full_volume_wheel_velocity</Name>
+		<Value>25</Value>
+		<Description>The foley is at full volume when this wheel velocity is reached.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_motion_effect_min_vehicle_velocity</Name>
+		<Value>5</Value>
+		<Description>A vehicle must be traveling at least this fast to generate the motion effect and foley.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_motion_effect_min_wheel_velocity</Name>
+		<Value>1</Value>
+		<Description>A wheel has to have at least this much projected linear velocity to generate the motion effect and foley.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Horn_cooldown_period_max_ms</Name>
+		<Value>15000</Value>
+		<Description>Max Cooldown period after honking a horn (in msec)</Description>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Horn_cooldown_period_min_ms</Name>
+		<Value>10000</Value>
+		<Description>Min Cooldown period after honking a horn (in msec)</Description>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Horn_honk_period_max_ms</Name>
+		<Value>2000</Value>
+		<Description>Max period of time we want to have someone honk their horn (recorded in msec)</Description>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Horn_honk_period_min_ms</Name>
+		<Value>500</Value>
+		<Description>Min period of time we want to have someone honk their horn (recorded in msec)</Description>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Horn_honk_prob</Name>
+		<Value>0.2</Value>
+		<Description>Probability that someone will honk their horn if obstructed</Description>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_kill_taunt_chance</Name>
+		<Value>50</Value>
+		<Description>Chance a marauder will do a celebratory taunt/cheer when he kills his target.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_heavy_vehicle_always_cower_chance</Name>
+		<Value>25</Value>
+		<Description>Chance that a particular AI will not attempt to dive or evade a hostile heavy vehicle that is going to hit him/her.
+
+Overrides Ai_no_fall_back_chance - if this is set, the NPC will not fall back.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_no_fall_back_chance</Name>
+		<Value>40</Value>
+		<Description>Chance that an AI will not fall back when engaging a heavy vehicle, such as a walker or tank.  The NPC will instead stand and engage the enemy vehicle at full auto.
+
+Overridded by Ai_heavy_vehicle_always_cower_chance - if that is true,  this will be as well.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_flee_to_safe_building_chance</Name>
+		<Value>15</Value>
+		<Description>Chance that AI will prefer to flee to a safe building vs. fleeing on foot</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Running_player_footstep_sound_dist</Name>
+		<Value>10.0</Value>
+		<Description>Distance from the players that NPCs will hear the player's footsteps if he is standing and running.</Description>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Blast_decal_min_bbox_dim</Name>
+		<Value>0.25</Value>
+		<Description>The minimum size an object must have in any dimension to receive a blast decal.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Object_cost_building_per_volume</Name>
+		<Value>0.0005</Value>
+		<Description>This value specifies the base price for a building/exploding object per unit volume (millions of credits) / (m^3).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Object Costs</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_melee_max_turn_rate</Name>
+		<Value>2.5</Value>
+		<Description>How fast an attacker can turn after the initial attack starts.</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_melee_turn_distance</Name>
+		<Value>3.75</Value>
+		<Description>How far away an attacker can be for it to considered a melee target.</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_melee_turn_time</Name>
+		<Value>0.3</Value>
+		<Description>Amount of time it takes to turn the camera to face the target when meleeing</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_melee_turn_angle</Name>
+		<Value>0.785</Value>
+		<Description>Max angle (IN RADIANS) that can between the player's direction and the to target vector for the player to turn and face him during a melee attack.</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Civilian_avoid_player_thrown_weapon_dist</Name>
+		<Value>3.0</Value>
+		<Description>Distance at which a civilian will panick when the player throws a weapon in his/her vicinity.  Overrides the normal logic, which takes explosion radius into account.</Description>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>max_npcs_attacking_player_green</Name>
+		<Value>2</Value>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>max_npcs_attacking_player_yellow</Name>
+		<Value>2</Value>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>max_npcs_attacking_player_orange</Name>
+		<Value>3</Value>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>max_npcs_attacking_player_red</Name>
+		<Value>4</Value>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_killed_civilian_morale_delta</Name>
+		<Value>-3</Value>
+		<_Editor>
+			<Category>Human Death Penalties</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_killed_guerilla_morale_delta</Name>
+		<Value>-3</Value>
+		<_Editor>
+			<Category>Human Death Penalties</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_killed_guerilla_raid_morale_delta</Name>
+		<Value>-3</Value>
+		<Description>This is the value we will adjust the morale by if the player kills someone during a raid</Description>
+		<_Editor>
+			<Category>Human Death Penalties</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>EDF_killed_civilian_morale_delta</Name>
+		<Value>-2</Value>
+		<_Editor>
+			<Category>Human Death Penalties</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>EDF_killed_guerilla_morale_delta</Name>
+		<Value>-1</Value>
+		<_Editor>
+			<Category>Human Death Penalties</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ladder_move_speed</Name>
+		<Value>2.0</Value>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ladder_mp_move_speed</Name>
+		<Value>4.0</Value>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		<Description>Not actually used.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_max_rounds</Name>
+		<Value>99</Value>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		<Description>Not actually used.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Grinder_sound_loop_pitch_min</Name>
+		<Value>-0.4</Value>
+		<Description>how many octaves the min pitch of the grinder looping sound is offset from the base value.  (base is 0)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Grinder_sound_loop_pitch_max</Name>
+		<Value>0.4</Value>
+		<Description>how many octaves the max pitch of the grinder looping sound is offset from the base value.  (base is 0)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Grinder_sound_charge_pitch_min</Name>
+		<Value>-0.4</Value>
+		<Description>how many octaves the min pitch of the grinder charge sound is offset from the base value.  (base is 0)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Grinder_sound_charge_pitch_max</Name>
+		<Value>0.4</Value>
+		<Description>how many octaves the max pitch of the grinder charge sound is offset from the base value.  (base is 0)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Lost_los_report_period_ms</Name>
+		<Value>30000</Value>
+		<Description>Period of time before an NPC will report on loseing LOS with the player</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_bullet_flight_sound_radius</Name>
+		<Value>3.0</Value>
+		<Description>Distance away we play the near miss bullet sound</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_respawn_invulnerability_time_ms</Name>
+		<Value>5000</Value>
+		<Description>How long after a player spawns should he be invulnerable for? This is in milliseconds.</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_max_time_limit_minutes</Name>
+		<Value>100</Value>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		<Description>Not actually used.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Npc_bullet_flight_sound_radius</Name>
+		<Value>3.0</Value>
+		<Description>Distance away an NPC is aware of a bullet flying past</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Damage_multiplier_friendly_fire</Name>
+		<Value>0.4</Value>
+		<Description>Multiplier used to scale down damage that friendly humans do to eachother. (Single player only)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Damage_multiplier_npc_offscreen</Name>
+		<Value>0.15</Value>
+		<Description>This value is applied to NPC damage when attacking another NPC when one or both are off screen.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Damage_multiplier_npc_onscreen</Name>
+		<Value>0.4</Value>
+		<Description>This value is applied to NPC damage when attacking another NPC when one or both are on screen.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Damage_multiplier_npc_reduced</Name>
+		<Value>0.1</Value>
+		<Description>This value is applied to NPCs that have the reduced_npc_damage flag set (Gunnarsen).</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Damage_multiplier_npc_vehicle</Name>
+		<Value>0.2</Value>
+		<Description>This value is applied to NPC damage when attacking another NPC's vehicle</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_collision_damage_multiplier</Name>
+		<Value>0.333</Value>
+		<Description>When the player is hit by debris or vehicles, the damage applied is multiplied by this factor.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_vehicle_collision_speed_low</Name>
+		<Value>7.0</Value>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_vehicle_collision_normal_velocity_factor</Name>
+		<Value>0.5</Value>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_vehicle_collision_speed_high</Name>
+		<Value>30.0</Value>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_vehicle_collision_flinch_vehicle_speed</Name>
+		<Value>3.0</Value>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_head_multiplier</Name>
+		<Value>1.5</Value>
+		<Description>When a character is hit by a moving object in the head, the damage applied is multiplied by this factor.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_falling_multiplier</Name>
+		<Value>1.5</Value>
+		<Description>When an object hits a player in a "crushing" fashion, multiply the damage by this factor.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_damage_speed_max</Name>
+		<Value>20.0</Value>
+		<Description>The maximum speed used in damage calculation for debris.  This keeps really fast moving small pieces of debris from killing the player.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_damage_min</Name>
+		<Value>15.0</Value>
+		<Description>If the damage calculated by a debris collision is below this, do not apply it.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_stumble_min</Name>
+		<Value>45.0</Value>
+		<Description>If the damage from a debris collision is above this number, play a stumble animation.  If it hits in the leg area, ragdoll the character.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_ragdoll_min</Name>
+		<Value>120.0</Value>
+		<Description>If the damage applied from a debris collision is above this number, ragdoll the character.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_collision_stumble_min</Name>
+		<Value>45.0</Value>
+		<Description>If the damage from a debris collision is above this number, play a stumble animation.  If it hits in the leg area, ragdoll the Player.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_collision_ragdoll_min</Name>
+		<Value>600.0</Value>
+		<Description>If the damage applied from a debris collision is above this number, ragdoll the Player.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_max_player_inherited_speed</Name>
+		<Value>10.0</Value>
+		<Description>The maximum amount of speed the player is allowed to inherit when getting hit by something that ragdolls him.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_ragdoll_collision_ragdoll_min</Name>
+		<Value>35.0</Value>
+		<Description>If the damage applied from a ragdoll collision is above this number, ragdoll the character.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_push_away_rvec_factor</Name>
+		<Value>100.0</Value>
+		<Description>Scalar for applying torque to objects to make them spin away from the point of contact</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_collision_player_push_human_speed</Name>
+		<Value>2.5</Value>
+		<Description>The speed at which the player will begin to push civilians out of the way when he runs into them.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Repair_range</Name>
+		<Value>2.5</Value>
+		<Description>This is how far ahead a player can repair objects using the repair tool.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Repair_radius</Name>
+		<Value>1.6</Value>
+		<Description>When a player uses the repair tool, objects within a sphere of this radius will be repaired</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_react_cooldown_sec</Name>
+		<Value>15</Value>
+		<Description>Minimum period of time between reaction actions for gaining LOS</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_react_cooldown_sec</Name>
+		<Value>20</Value>
+		<Description>Maximum period of time between reaction actions for gaining LOS</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Npc_destruction_release_threshold</Name>
+		<Value>.25</Value>
+		<Description>When an NPC who is being managed by the AI destruction managed drops below this health value, the manager will release him from his destruction orders</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_ambusher_effect_distance</Name>
+		<Value>40</Value>
+		<Description>Maximum distance away from an ambusher the player can get before we turn off the effect</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Leap_attack_max_attackers</Name>
+		<Value>4</Value>
+		<Description>Maximum number of leap attackers we want attacking at the same time</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monster_closet_ramp_in_sec</Name>
+		<Value>1</Value>
+		<Description>Ramp-in time before a monster closet will spawn its NPCs</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monster_closet_ramp_out_sec</Name>
+		<Value>4</Value>
+		<Description>Ramp-out time before a monster closet will spawn its NPCs</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monster_closet_up_time_sec</Name>
+		<Value>0.5</Value>
+		<Description>Amount of time the mosnter closet will be in an up state before ramping out</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monster_closet_exit_probability</Name>
+		<Value>0.5</Value>
+		<Description>This is the probability that an NPC will decide to exit the leap node after exiting the monster closet instead of leaping to a different leap node</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Combat_reposition_distance</Name>
+		<Value>10.0</Value>
+		<Description>Distance an NPC will attempt to move for the combat reposition action</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambush_flare_distance</Name>
+		<Value>4</Value>
+		<Description>Distance away a flare needs to be in order to take an ambushing NPc out of ambush mode</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Advance_flanking_spread</Name>
+		<Value>7.5</Value>
+		<Description>For NPCs who spread to the sides when they advance on a target, they will choose points at this distance off to the sides of their target.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Advance_flanking_min_dist</Name>
+		<Value>15.0</Value>
+		<Description>NPCs will path straight to their target when they are closer than this distance, rather than flanking to the side.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Pod_heavy_landing_distance</Name>
+		<Value>3.0</Value>
+		<Description>When an NPC falls greater than this distance when coming out of a pod we play the heavy landing instead of the normal landing</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Pod_birth_land_distance</Name>
+		<Value>1.5</Value>
+		<Description>Distance above the ground that we will start to play the landing animation</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Npc_use_incline_blend_tree_dist</Name>
+		<Value>80.0</Value>
+		<Description>How far away from the camera before NPCs stop using incline/decline blend trees for walking, running, etc.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fame_num_missions_completed</Name>
+		<Value>8</Value>
+		<Description>Number of missions the player must complete before he is "famous" and NPCs will know who he is.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_player_damage_factor</Name>
+		<Value>0.5</Value>
+		<Description>How much damage to vehicles is multiplied by for the vehicle the player is in.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_voice_morale_boost_chance</Name>
+		<Value>33</Value>
+		<Description>Chance that an NPC in combat, who has allies, will play a morale-boosting line instead of a taunt.</Description>
+		<_Editor>
+			<Category>AI:Voice</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_voice_team_specific_chance</Name>
+		<Value>50</Value>
+		<Description>Chance an NPC will use a team-specific combat line instead of a generic one.  For example, chance a Guerilla will use an EDF-specific taunt against EDF enemies vs. one that could be used against Marauders.</Description>
+		<_Editor>
+			<Category>AI:Voice</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Autoaim_radius</Name>
+		<Value>0.05</Value>
+		<Description>the radius used to test against humans for bullets fired by the player</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Melee_running_distance</Name>
+		<Value>1.5</Value>
+		<Description>How far away to do a running melee attack</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_min_ramming_damage_factor</Name>
+		<Value>0.75</Value>
+		<Description>The minimum multiplier of the total damage applied to a vehicle when ramming another vehicle.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_max_ramming_damage_factor</Name>
+		<Value>4.0</Value>
+		<Description>The minimum multiplier of the total damage applied to a vehicle when ramming another vehicle.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_enemy_player_name_min_dot</Name>
+		<Value>0.994</Value>
+		<Description>Used to determine whether we should render an enemy player's name or not
+
+Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_enemy_player_name_crouching_min_dot</Name>
+		<Value>0.999</Value>
+		<Description>Used to determine whether we should render an enemy player's name or not
+
+Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Sequential_damage_time</Name>
+		<Value>3000</Value>
+		<Description>This is the amount of time after the player has been damaged that future damage to the player is reduced.  This scale factor gets lerped over time (from the time of the initial damage).</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Sequential_damage_factor</Name>
+		<Value>0.6</Value>
+		<Description>The maximum scale factor applied to player damage to reduce sequential damage (higher = more reduction).  This scale factor is lerped over the duration of the damage reduction.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_large_flinch_damage</Name>
+		<Value>29</Value>
+		<Description>Minimum damage at which a large flinch is possible.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_large_flinch_damage</Name>
+		<Value>30</Value>
+		<Description>Damage level at which a large flinch is inevitable.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_death_salvage_percent_kept</Name>
+		<Value>0.0</Value>
+		<Description>Amount of salvage the player returns with after death (from 0.0 - none to 1.0 - all)</Description>
+		<_Editor>
+			<Category>Human Death Penalties</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Object_cost_vehicle</Name>
+		<Value>0.15</Value>
+		<Description>The base cost for a single vehicle. (Does not depend on vehicle type).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Object Costs</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Object_cost_human</Name>
+		<Value>0.1</Value>
+		<Description>The base cost for single human.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Object Costs</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Object_cost_turret</Name>
+		<Value>0.05</Value>
+		<Description>The base cost for a single turret (Does not depend on type).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Object Costs</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Blast_decal_min_radius</Name>
+		<Value>0.5</Value>
+		<Description>The minimum radius a blast decal must have to be drawn.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Blood_splatter_decal_max_dist</Name>
+		<Value>30</Value>
+		<Description>The maximum distance from the camera allowed to draw a blood splatter. (blood splatter is always drawn if the player is doing the shooting)</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Bullet_hole_decal_max_dist</Name>
+		<Value>15</Value>
+		<Description>The maximum distance from the camera allowed to draw a bullet impact for anyone other than the local player.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Bullet_hole_decal_max_dist_player</Name>
+		<Value>50</Value>
+		<Description>The maximum distance from the camera allowed to draw a bullet impact for the player.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Bullet_hole_decal_size_variation</Name>
+		<Value>0.1</Value>
+		<Description>The amount of potential variation in either direction of a bullet hole.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_autoaim_max_distance</Name>
+		<Value>50.0</Value>
+		<Description>the max distance the turret will autoaim at</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_autoaim_angle_bias</Name>
+		<Value>300.0</Value>
+		<Description>how important is the angle versus the distance for autoaim</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_length_low</Name>
+		<Value>35</Value>
+		<Description>View frustum length in meters
+LOW alert
+enemy NOT SPOTTED</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_length_low_spotted</Name>
+		<Value>80</Value>
+		<Description>View frustum length in meters
+LOW alert
+enemy SPOTTED</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_length_high</Name>
+		<Value>45</Value>
+		<Description>View frustum length in meters
+HIGH alert
+enemy NOT SPOTTED</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_length_high_spotted</Name>
+		<Value>90</Value>
+		<Description>View frustum length in meters
+HIGH alert
+enemy SPOTTED</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_width</Name>
+		<Value>150</Value>
+		<Description>View frustum width in degrees
+enemy NOT SPOTTED
+full width (left to right)</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_width_spotted</Name>
+		<Value>190</Value>
+		<Description>View frustum width in degrees
+enemy SPOTTED
+full width (left to right)</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_height</Name>
+		<Value>80</Value>
+		<Description>View frustum height in degrees
+enemy NOT SPOTTED
+full height (top to bottom)</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_fov_height_spotted</Name>
+		<Value>140</Value>
+		<Description>View frustum height in degrees
+enemy SPOTTED
+full height (top to bottom)</Description>
+		<_Editor>
+			<Category>AI:Perception</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Rubberbanding_minimum_score</Name>
+		<Value>40</Value>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		<Description>Rubberbanding is not fully applied until the leader has this much XP.  At lower amounts the rubberbanding is scaled.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_remote_charge_panic_chance</Name>
+		<Value>75</Value>
+		<Description>Chance the AI will panic when a remote charge attaches to them.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Civilian_always_flee_edf_chance</Name>
+		<Value>15</Value>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Civilian_freeze_cower_chance</Name>
+		<Value>30</Value>
+		<Description>Chance a civilian will freeze up and cower when confronted by EDF.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Civilian_stand_up_to_edf_chance</Name>
+		<Value>25</Value>
+		<Description>Chance that, when threatened by EDF, a civilian will stand his/her ground and not run away.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_autoaim_min_dp</Name>
+		<Value>0.98</Value>
+		<Description>The min dp required to autoaim to a target when the turret is not completely automated (also, cosine of the maximum angle of autoaiming)</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_autoaim_extra_dp</Name>
+		<Value>0.05</Value>
+		<Description>Fully automated turrets will aim a little bit beyond what their max angle is (that was set in the turret table)</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_autoaim_close_distance</Name>
+		<Value>10.0</Value>
+		<Description>the max distance the turret will autoaim at using the close dp</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_autoaim_close_dp</Name>
+		<Value>0.97</Value>
+		<Description>The min dp required to autoaim to a target when the turret is not completely automated (also, cosine of the maximum angle of autoaiming) used in the close distance</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_turning_sound_min_delta</Name>
+		<Value>5</Value>
+		<Description>Change to the heading or pitch has to be at least this much to trigger the turning sound (in degrees per second).</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_spawn_with_shotgun_chance</Name>
+		<Value>50</Value>
+		<Description>Chance that marauders will spawn with shotguns once this ability is enabled.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_removes_attached_projectile_time</Name>
+		<Value>10</Value>
+		<Description>Time, in seconds, for an NPC to remove projectiles that are attached.</Description>
+		<_Editor>
+			<Category>AI:Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_reuse_turret_after_death_time</Name>
+		<Value>15</Value>
+		<Description>Time in seconds after an AI dies on a turret that other AI will seek out the turret to use.</Description>
+		<_Editor>
+			<Category>AI:Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_chassis_minimum_impact_low</Name>
+		<Value>10</Value>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_chassis_minimum_impact_high</Name>
+		<Value>60</Value>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_chassis_maximum_impact_high</Name>
+		<Value>200</Value>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_chassis_linear_stress_scale</Name>
+		<Value>0.5</Value>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_chassis_angular_stress_scale</Name>
+		<Value>0.5</Value>
+		<_Editor>
+			<Category>Vehicles:Audio</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_fov_deg</Name>
+		<Value>40</Value>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		<Description>camera fov
+::Talk to DaveB before changing this.::</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_player_move_multiplier_side</Name>
+		<Value>0.85</Value>
+		<Description>Percentage of normal speed when moving sideways</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_follow_player_chance</Name>
+		<Value>50</Value>
+		<Description>Chance ambient, friendly marauders will follow the player and give him nasty looks</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_cycle_flee_behavior_flee_time</Name>
+		<Value>6</Value>
+		<Description>Seconds between cycling flee behaviors during certain missions, when the civilian is simply fleeing.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_npc_min_fade_dist</Name>
+		<Value>0.0</Value>
+		<Description>Distance from the camera at which NPCs reach the minimum fade percent.</Description>
+		<_Editor>
+			<Category>Camera:Fade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_npc_max_fade_dist</Name>
+		<Value>0.6</Value>
+		<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
+		<_Editor>
+			<Category>Camera:Fade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Default_jump_height</Name>
+		<Value>1.2</Value>
+		<Description>The defualt jump height for all humans.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Default_jump_height_sprint</Name>
+		<Value>1.0</Value>
+		<Description>The defualt jump height for all humans while sprinting.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_fall_gravity_modifier</Name>
+		<Value>1.0</Value>
+		<Description>The multiplier applied to gravity while a human is jumping/falling.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_ragdoll_on_wheels_speed</Name>
+		<Value>0.5</Value>
+		<Description>Vehicle speed (m/s) at which a human standing on the wheels or treads (wheel collision) of a vehicle ragdolls.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_damage_force_speed_scalar</Name>
+		<Value>2.0</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>Scalar used for damage force when speed goes above watermark</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_damage_force_speed_mark</Name>
+		<Value>3.0</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>Watermark for applying speed scalar (meters per second)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_wind_force_scalar</Name>
+		<Value>0.01</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>Scalar between wind speed and force</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_hover_noise_length</Name>
+		<Value>0.5</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>Base length of hover noise sphere (Radis in meters)</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_default_urgency</Name>
+		<Value>0.6</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>default urgency scalar.  Valid values are 0.0 to 1.0</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_min_lookat_vel_sq</Name>
+		<Value>6.0</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>if no lookat is current and the flyer is going at least this fast, the lookat will be the travel direction.  In square m/s.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_guerrilla_conversion_dist</Name>
+		<Value>12</Value>
+		<Description>Max distance away we will consider converting someone to a guerrilla</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_raid_prob</Name>
+		<Value>0.5</Value>
+		<Description>This is the probability that a Marauder raid will attempt to spawn. This is evaluated every so many “hours” at night. Raids will only spawn if the player is near a patrol flagged as a marauder raid route.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Civilian_max_wounded_hp_pct</Name>
+		<Value>75</Value>
+		<Description>Percent of total HP that current HP must be at or below for a civilian to become "wounded" (switch to wounded animation set).</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_weapon_refire_delay</Name>
+		<Value>1000</Value>
+		<Description>in milleseconds.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_weapon_angle</Name>
+		<Value>60</Value>
+		<Description>in degrees.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_weapon_launch_dist</Name>
+		<Value>50</Value>
+		<Description>How far away does the projectile launch from its target?</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Control_tread_side_zone_dot</Name>
+		<Value>0.95</Value>
+		<Description>+/- dot product that defines side dead zones where steering is max</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Control_tread_accl_dead_zone_dot</Name>
+		<Value>0.80</Value>
+		<Description>+/- dot product that defines dead zones where accl is always zero</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Control_tread_steer_dead_zone_dot</Name>
+		<Value>0.30</Value>
+		<Description>+/- dot product that defines extent of reverse steering dead zone</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Control_tread_dead_zone_turn_mag</Name>
+		<Value>0.60</Value>
+		<Description>Turn magnitude at inside transition of accl deadzone.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_wheel_projectile_detach_speed</Name>
+		<Value>0.25</Value>
+		<Description>Vehicle speed (m/s) at which projectiles attached to wheel collsion proxies detach.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_landing_friction_min_airborne_time</Name>
+		<Value>250</Value>
+		<Description>Time (ms) vehicle needs to have all wheels off the ground in order for the landing friction system to activate</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_landing_friction_full_damp_time</Name>
+		<Value>100</Value>
+		<Description>Time (ms) where friction damping is held once vehicle lands.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_landing_friction_ramp_damp_time</Name>
+		<Value>100</Value>
+		<Description>Time (ms) where friction damping is ramped back up to full value</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_landing_friction_full_damp_ratio</Name>
+		<Value>.50</Value>
+		<Description>Ratio (0 - 1) of full friction used for full damp</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vi_impulse_ragdoll</Name>
+		<Value>400</Value>
+		<Description>Impulse needed to cause external passengers to ragdoll.  
+(higher = less ragdolling)</Description>
+		<_Editor>
+			<Category>Vehicles:Interactions</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_friendly_fire_threshold</Name>
+		<Value>75</Value>
+		<Description>Damage you can do to a "friendly" marauder before he goes hostile on you.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_friendly_fire_expire_time</Name>
+		<Value>20</Value>
+		<Description>Seconds after damaging a "friendly" marauder that he forgets you did it, returning him to a friendly state.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vi_impulse_ragdoll_vert_damp</Name>
+		<Value>.5</Value>
+		<Description>multiply upward forces by this, to prevent passengers from ragdolling on soft landings.
+(higher =&gt; more ragdolling)</Description>
+		<_Editor>
+			<Category>Vehicles:Interactions</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vi_impulse_ragdoll_turret</Name>
+		<Value>900</Value>
+		<Description>Impulse for gunner to ragdoll. (higher = less ragdolling)
+150 is remote charge, 
+450 is scout full speed hitting a heavy tank.</Description>
+		<_Editor>
+			<Category>Vehicles:Interactions</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vi_impulse_ragdoll_vert_damp_turret</Name>
+		<Value>.35</Value>
+		<Description>multiply upward forces by this, to prevent gunners from ragdolling on soft landings.
+(higher =&gt; more ragdolling)</Description>
+		<_Editor>
+			<Category>Vehicles:Interactions</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_cam_input_vel_mag</Name>
+		<Value>35</Value>
+		<Description>The maximum magnitude of the user generate input velocity in normal mode.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_cam_input_zoom_vel_mag</Name>
+		<Value>10</Value>
+		<Description>The maximum magnitude of the user generate input velocity when zoomed.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_cam_max_acc_mag</Name>
+		<Value>4</Value>
+		<Description>The maximum magnitude of the acceleration when changing velocity.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_cam_max_heading_acc</Name>
+		<Value>0.0009</Value>
+		<Description>The maximum acceleration of the angular velocity (heading) when rotating.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_cam_height</Name>
+		<Value>50</Value>
+		<Description>The height of the camera (off of terrain from the target position) in normal operation.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_cam_zoom_height</Name>
+		<Value>30</Value>
+		<Description>The height of the camera (off of terrain from the target position) when zoomed.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Control_handbrake_min_speed_sq</Name>
+		<Value>25</Value>
+		<Description>The speed (squared) above which the handbrake can be applied by</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Edf_notice_player_with_obvious_weapon_dist</Name>
+		<Value>3.0</Value>
+		<Description>Distance at which EDF will react to the player carrying an "obvious" weapon</Description>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Sniper_attack_player_chance</Name>
+		<Value>25</Value>
+		<Description>Chance (%) that scripted snipers will attack the player instead of nearby civilians, even if the player is far away.  Player must still be in LOS.</Description>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Sniper_prefer_enemy_y_dist</Name>
+		<Value>1.5</Value>
+		<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF.
+(see also: Sniper_attack_player_xz_dist)</Description>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Sniper_prefer_enemy_xz_dist</Name>
+		<Value>7.5</Value>
+		<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF.
+(see also: Sniper_attack_player_y_dist)</Description>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_armored_passenger_explosion_damage_multiplier</Name>
+		<Value>.2</Value>
+		<Description>damage multiplier for passengers of an armored vehicle that takes an explosion hit.  (not the vehicle itself blowing up)</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_passenger_explosion_damage_multiplier</Name>
+		<Value>.5</Value>
+		<Description>damage multiplier for passengers of an vehicle that takes an explosion hit.  (not the vehicle itself blowing up)</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_cycle_flee_behavior_hide_time</Name>
+		<Value>12</Value>
+		<Description>Seconds between cycling flee behaviors during certain missions, when the civilian is doing a hide behavior.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Excavator_radial_damage_vel_scalar</Name>
+		<Value>3</Value>
+		<Description>The amount of velocity applied in the ragdoll in the radial direction (away from the blade)</Description>
+		<_Editor>
+			<Category>Miscellaneous:Custom Objects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Excavator_tangent_damage_vel_scalar</Name>
+		<Value>6</Value>
+		<Description>The amount of velocity applied in the ragdoll in the tangent direction (along the blade)</Description>
+		<_Editor>
+			<Category>Miscellaneous:Custom Objects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Excavator_stop_blade_force</Name>
+		<Value>10000</Value>
+		<Description>A higher number here correlates to the blade stopping faster when the engine is destroyed.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Custom Objects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Highlight_max_color_multiplier</Name>
+		<Value>.3</Value>
+		<Description>The maximum multiplier to the color values for the objective highlight.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Highlight_min_color_multiplier</Name>
+		<Value>.05</Value>
+		<Description>The minimum multiplier to the color values for the objective highlight.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Highlight_color_multiplier_change_per_sec</Name>
+		<Value>2</Value>
+		<Description>The rate at which the color oscillates between the min and max.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_small_angle</Name>
+		<Value>0.15</Value>
+		<Description>Angle in radians.  If the wheels of a vehicle are turned less than this amount, the camera will not do predictive adjustments.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_camera_recenter_rate</Name>
+		<Value>0.5</Value>
+		<Description>Multiplier for how fast the camera will recenter behind the vehicle</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_predictive_adjust</Name>
+		<Value>0.5</Value>
+		<Description>Same as Vehicle camera recenter rate except only for predictive cameras.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glass_min_radial_decals</Name>
+		<Value>2</Value>
+		<Description>The minimum number of radial cracks from bullet decals in glass appear (if they appear at all).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glass_max_radial_decals</Name>
+		<Value>3</Value>
+		<Description>The maximum number of radial cracks from bullet decals in glass appear.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glass_radial_decal_prob</Name>
+		<Value>75</Value>
+		<Description>Probability that glass cracks will show up (out of 100).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Blast_decal_min_alpha</Name>
+		<Value>0.5</Value>
+		<Description>The minimum alpha value decals will get based on distance.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Decals</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_melee_structure_multiplier</Name>
+		<Value>2.0</Value>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		<Description>Multiply's melee damage in muliplayer</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_downed_damage_cost_per_second</Name>
+		<Value>0</Value>
+		<Description>When a player is downed and we're converting damage to lost time, this amount of damage is equal to 1 second.</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_vehicle_collision_damage_max</Name>
+		<Value>150</Value>
+		<Description>Max amount of collision damage a vehicle can to the player or VIP.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_mover_collision_damage_min</Name>
+		<Value>50</Value>
+		<Description>The damage at minimum speed when a human is hit with a mover that was pulled by a projectile.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_mover_collision_damage_max</Name>
+		<Value>500</Value>
+		<Description>The damage at Character_collision_damage_speed_max speed when a human is hit with a mover that was pulled by a projectile.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Character_mover_collision_scaled_damage_duration_ms</Name>
+		<Value>500</Value>
+		<Description>The length of time after being pulled by a projectile that a mover should scale its damage done to humans.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_mover_collision_damage_min</Name>
+		<Value>50</Value>
+		<Description>The damage at minimum speed when a player is hit with a mover that was pulled by a projectile.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_mover_collision_damage_max</Name>
+		<Value>400</Value>
+		<Description>The damage at Character_collision_damage_speed_max speed when a player is hit with a mover that was pulled by a projectile.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_ambient_walk_speed_pct</Name>
+		<Value>80</Value>
+		<Description>Min percent of normal speed to play an ambient NPC's walk animation.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_ambient_walk_speed_pct</Name>
+		<Value>120</Value>
+		<Description>Max percentage of normal speed to play an NPC's ambient walk animation.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_target_player_in_walker_dist</Name>
+		<Value>20.0</Value>
+		<Description>If the player is inside a walker and is at least this close to an npc, the npc will target the player.</Description>
+		<_Editor>
+			<Category>AI:vs. Player</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_reuse_turret_after_ineffective_time</Name>
+		<Value>8</Value>
+		<Description>Time from when one NPC decides a turret is useless to attack the player to when another NPC will want to use it again (prevents too-obvious oscillation).</Description>
+		<_Editor>
+			<Category>AI:Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_emergency_lights_blink_time</Name>
+		<Value>0.5</Value>
+		<Description>The amount of time (in seconds) that the emergency light stays on or off.</Description>
+		<_Editor>
+			<Category>Vehicles:Effects</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_gue_on_fire_panic_chance</Name>
+		<Value>50</Value>
+		<Description>The chance that a GUERRILLA will panic (run around frantically) when lit on fire rather than cooly stopping, dropping, and rolling.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_civ_on_fire_panic_chance</Name>
+		<Value>80</Value>
+		<Description>The chance that a CIVILIAN will panic (run around frantically) when lit on fire rather than cooly stopping, dropping, and rolling.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_mar_on_fire_panic_chance</Name>
+		<Value>20</Value>
+		<Description>The chance that a MARAUDER will panic (run around frantically) when lit on fire rather than cooly stopping, dropping, and rolling.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_edf_on_fire_panic_chance</Name>
+		<Value>10</Value>
+		<Description>The chance that the EDF will panic (run around frantically) when lit on fire rather than cooly stopping, dropping, and rolling.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_default_on_fire_panic_chance</Name>
+		<Value>20</Value>
+		<Description>The DEFAULT chance (overridden by any other definded chances) an NPC will panic (run around frantically) when lit on fire rather than cooly stopping, dropping, and rolling.</Description>
+		<_Editor>
+			<Category>AI:Behavioral Persona</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Bullet_flyby_sound_dist</Name>
+		<Value>5</Value>
+		<Description>If a bullet passes within this distance of the player without hitting him it will play the weapon's flyby sound.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vi_impulse_ragdoll_guerilla_bonus</Name>
+		<Value>1.5</Value>
+		<Description>multiplier for guerillas in the players car.
+(higher =&gt; less ragdolling)</Description>
+		<_Editor>
+			<Category>Vehicles:Interactions</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_ragdoll_on_vehicle_speed</Name>
+		<Value>8.04672</Value>
+		<Description>Vehicle speed (m/s) at which a human standing on any part of a vehicle ragdolls.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_ragdoll_on_vehicle_rotation</Name>
+		<Value>2.0</Value>
+		<Description>Vehicle rotational speed (rad/sec) at which a human standing on any part of the vehicle ragdolls.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_jump_movement_modifier</Name>
+		<Value>0.9</Value>
+		<Description>The multiplier applied to movement input while the player is jumping/falling.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_jump_turn_multiplier</Name>
+		<Value>0.225</Value>
+		<Description>The multiplier applied to the player's in-air turning while jumping/falling.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Falling_wind_speed_increase_mult</Name>
+		<Value>3</Value>
+		<Description>When falling in a car, the wind speed is increased by the downward velocity multiplied by this number.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Falling_wind_speed_max_increase</Name>
+		<Value>30</Value>
+		<Description>When falling in a car, the wind speed is increased by this number at most.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_engine_peel_min_accelerator</Name>
+		<Value>0.8</Value>
+		<Description>The minimum amount on the accelerator required to start an engine peel sound.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_engine_peel_accelerator_cutoff</Name>
+		<Value>0.3</Value>
+		<Description>If the accelerator value goes below this number, the peel sound will be cut off.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_engine_peel_rpm_buffer</Name>
+		<Value>50</Value>
+		<Description>the amount above the min rpm we're allowed to start a peel from.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Automobile_engine_peel_max_speed_sq</Name>
+		<Value>25</Value>
+		<Description>the max speed (squared) we're allowed to start a peel from.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Control_vehicle_face_button_max</Name>
+		<Value>0.3</Value>
+		<Description>When using face buttons on the PS3 for acceleration/braking, when the button is down this much, it is considered at the maximum (so you don't have to press to hard).</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Thermo_mid_air_detonation_delay_ms</Name>
+		<Value>500</Value>
+		<Description>The amount of time (in ms) the player must wait before detonating a thermobaric rocket mid-air.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Usable_object_facing_dot_prod_min</Name>
+		<Value>0.4</Value>
+		<Description>The minimum dot product that will be considered "facing" a usable object. (The player has his back turned to the object if this value is -1, and is facing directly at the object if this value is 1.)</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Proxy_mine_activation_delay_ms</Name>
+		<Value>1500</Value>
+		<Description>Once placed, a proximity mine will become active after this period of time.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Proxy_mine_detonation_delay_ms</Name>
+		<Value>600</Value>
+		<Description>Once triggered, proxy mines will detonate after this period of time.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Proxy_mine_radius</Name>
+		<Value>3</Value>
+		<Description>Radius within which a proxy mine will detonate on a person.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Proxy_mine_vehicle_radius</Name>
+		<Value>4.5</Value>
+		<Description>Radius within which a proxy mine will detonate on a vehicle.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_walk_advance_max_dist</Name>
+		<Value>50</Value>
+		<Description>Beyond this distance, marauders will use Marauder_walk_advance_min_chance to decide to slow to a walk and fire while they are charging the player.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_walk_advance_max_chance</Name>
+		<Value>0.75</Value>
+		<Description>The maximum chance that a charging marauder will slow to a walk and fire while charging.  This chance is applied when marauders are near their target.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_walk_advance_min_chance</Name>
+		<Value>0.0</Value>
+		<Description>The minimum chance that a charging marauder will slow to a walk and fire while charging.  This chance is applied when marauders are near Walk_advance_max_dist from their target.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Marauder_walk_advance_min_dist</Name>
+		<Value>10</Value>
+		<Description>Beyond this distance, marauders will use Marauder_walk_advance_max_chance to decide to slow to a walk and fire while they are charging the player.</Description>
+		<_Editor>
+			<Category>AI:Marauders</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_morale_lost_dist</Name>
+		<Value>30.0</Value>
+		<Description>Maximum distace from player the player will lose morale from an NPC death they did not cause.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_turret_smooth</Name>
+		<Value>15.0</Value>
+		<Description>Tank turret aiming is smoothed over this many frames.</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_default_max_vel_mag</Name>
+		<Value>340.0</Value>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		<Description>default max velocity in m/s.
+
+340 is about MACH 1</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_gunner_explosion_damage_modifier</Name>
+		<Value>0.5</Value>
+		<Description>Multiply explostion damage by this for humans manning turrets.</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Satellite_cam_max_acc_mag_seek</Name>
+		<Value>12</Value>
+		<Description>The maximum magnitude of the acceleration when changing velocity and seeking.</Description>
+		<_Editor>
+			<Category>Camera:Satellite</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ai_reuse_turret_after_nearby_explosive</Name>
+		<Value>10</Value>
+		<Description>Time from when a turret is disabled for an explosive being planted nearby to when it is re-enabled.</Description>
+		<_Editor>
+			<Category>AI:Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>SB_initial_falloff</Name>
+		<Value>100000</Value>
+		<Description>Weight at which a singularity bomb's pull on an object begins to weaken.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>SB_full_falloff</Name>
+		<Value>300000</Value>
+		<Description>Weight at which a singularity bomb can no longer move an object.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>SB_initial_falloff_wc</Name>
+		<Value>400000</Value>
+		<Description>Weight at which a singularity bomb's pull on an object begins to weaken. (Wrecking Crew)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>SB_full_falloff_wc</Name>
+		<Value>1000000</Value>
+		<Description>Weight at which a singularity bomb can no longer move an object. (Wrecking Crew)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_simultaneous_proxies</Name>
+		<Value>30</Value>
+		<Description>Maximum number of proximity mines that can be out in the world at any given time. The game will crash if more than 128 projectiles (total, not just proxies) are placed, so this tweakable value represents the number at which we start deleting old proxies.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>RPG_locking_target_min_dot_prod</Name>
+		<Value>0.97</Value>
+		<Description>Minimum dot product between aim position and target position while acquiring a target.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>RPG_locked_target_min_dot_prod</Name>
+		<Value>0.8</Value>
+		<Description>Minimum dot product between aim position and target position after the target has been acquired.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Control_vehicle_analog_min</Name>
+		<Value>0.05</Value>
+		<Description>Instead of using the adaptive trigger cutoff for the button being "down," use this value, so we get a full range of trigger analog goodness.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Turret_vehicle_turning_sound_min_delta</Name>
+		<Value>15</Value>
+		<Description>Change to the heading or pitch has to be at least this much to trigger the turning sound on vehicle turrets (in degrees per second).</Description>
+		<_Editor>
+			<Category>Weapons:Turret</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_vehicle_fov</Name>
+		<Value>54.0</Value>
+		<Description>Separate FOV value for vehilces (not walkers or tanks)</Description>
+		<_Editor>
+			<Category>Camera:Fade</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>base_score_penalty_for_having_played</Name>
+		<Value>50</Value>
+		<Description>Base hueristic score penalty to apply when we discover a playlist entry in the recorded play history.</Description>
+		<_Editor>
+			<Category>Multiplayer:Playlist selection</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>base_score_penalty_fade_increment_for_having_played</Name>
+		<Value>5</Value>
+		<Description>How much to fade the effect of base_score_penalty_for_having_played with each position down the history. There is a history of 10 items, so it is not recommended that this be set greater than 1/10th of base_score_penalty_for_having_played.</Description>
+		<_Editor>
+			<Category>Multiplayer:Playlist selection</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>base_score_penalty_for_vetoing</Name>
+		<Value>100</Value>
+		<Description>Base hueristic score penalty to apply when we discover a playlist entry in the recorded veto history.</Description>
+		<_Editor>
+			<Category>Multiplayer:Playlist selection</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>base_score_penalty_fade_increment_for_vetoing</Name>
+		<Value>10</Value>
+		<Description>How much to fade the effect of base_score_penalty_for_vetoing with each position down the history. There is a history of 10 items, so it is not recommended that this be set greater than 1/10th of base_score_penalty_for_vetoing.</Description>
+		<_Editor>
+			<Category>Multiplayer:Playlist selection</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>score_penalty_for_same_level_as_veto</Name>
+		<Value>500</Value>
+		<Description>Hueristic score penalty to apply when we discover a playlist entry with the same level as the player-vetoed playlist entry.</Description>
+		<_Editor>
+			<Category>Multiplayer:Playlist selection</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>score_penalty_for_same_mode_as_veto</Name>
+		<Value>500</Value>
+		<Description>Hueristic score penalty to apply when we discover a playlist entry with the same mode as the player-vetoed playlist entry.</Description>
+		<_Editor>
+			<Category>Multiplayer:Playlist selection</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>score_penalty_for_mismatched_dlc</Name>
+		<Value>500</Value>
+		<Description>Score penality to apply to a playlist entry that wouldn't exist  for all players in the match.
+(Currently unused)</Description>
+		<_Editor>
+			<Category>Multiplayer:Playlist selection</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hero_system_invulnerable_delay_ms</Name>
+		<Value>500</Value>
+		<Description>How long the invulnerable period of the hero system will be active. (milliseconds)</Description>
+		<_Editor>
+			<Category>Miscellaneous:Hero System</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>VIP_spawn_probability</Name>
+		<Value>0.8</Value>
+		<Description>Probability that a safehouse VIP will spawn in</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Proxy_mine_vehicle_detonation_delay_ms</Name>
+		<Value>200</Value>
+		<Description>Once triggered by a human in a vehicle, proxy mines will detonate after this period of time.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Proxy_mine_vehicle_detonation_vel</Name>
+		<Value>15.0</Value>
+		<Description>Proximity mine detonation time will ramp from normal value to vehicle value up to this speed (in MPH), above this the vehicle detonation time is</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Damage_multiplier_melee_heavy_armor</Name>
+		<Value>0.6</Value>
+		<Description>Melee damage modifier for humans wearing heavy armor. (Single player only)</Description>
+		<_Editor>
+			<Category>Weapons:Armor and Shields</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Damage_multiplier_player_damage_friendly</Name>
+		<Value>0.3</Value>
+		<Description>Multiplier used to scale down damage that the player does to friendly humans. (Single player only)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Explosion_occlusion_damage_multiplier</Name>
+		<Value>0.15</Value>
+		<Description>Multiplier used to scale down explosion damage when one is being occluded by something for a specific human.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Cruise_system_enabled</Name>
+		<Value>0</Value>
+		<Description>Enable or disable the cruise control system.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Cruise_slow_down_rate</Name>
+		<Value>0.5</Value>
+		<Description>Rate of slow down for cruise control.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Cruise_slow_down_min_speed</Name>
+		<Value>0.5</Value>
+		<Description>The lowest speed cruise control can go before it drops to 0.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_electrocution_pause_s</Name>
+		<Value>5.0</Value>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_electrocute_recovery_hp_per_sec</Name>
+		<Value>300</Value>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_electrocution_near_dead_pct</Name>
+		<Value>0.3</Value>
+		<Description>Below this percentage of electrical hit points, it will play a more extreme electrocution</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_electrocution_reusable_pct</Name>
+		<Value>0.5</Value>
+		<Description>After an electrical explosion on the vehicle, the vehicle will be usable by NPCs once the health reaches this percentage.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Photometer_turn_off_level</Name>
+		<Value>.1</Value>
+		<Description>Photometer value (use player_light_debug to see values) where PC's shoulder lamp turns off.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Photometer_turn_on_level</Name>
+		<Value>.1</Value>
+		<Description>Photometer value (use player_light_debug to see values) where PC's shoulder lamp turns on.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Radial_sticky_time_ms</Name>
+		<Value>750</Value>
+		<Description>Minimum time the weapon or nano radial stays up when using the d-pad, in ms.</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_turn_speed</Name>
+		<Value>3.4</Value>
+		<Description>The speed at which the player is able to turn when auto-sprinting.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_turn_acceleration</Name>
+		<Value>50</Value>
+		<Description>The speed at which the turn input is smoothly ramped when auto-sprinting.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_quick_turn_input</Name>
+		<Value>0.95</Value>
+		<Description>The amount of input required before Player_sprint_quick_turn_acceleration is used instead of Player_sprint_turn_acceleration.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_quick_turn_acceleration</Name>
+		<Value>3.5</Value>
+		<Description>The speed at which the turn input is smoothly ramped when auto-sprinting and providing significant horizontal input.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_turn_dead_zone</Name>
+		<Value>0.2</Value>
+		<Description>The amount of stick input to ignore before recognizing turning input for auto sprint.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ragdoll_angle_of_impact_speed_mult</Name>
+		<Value>1.0</Value>
+		<Description>The multiplier applied to the speed of a ragdolled human when impacting a surface and taking damage.  The multiplier is fully applied when hitting a perfectly perpendicular surface to his/her velocity, and no multiplier is applied when skidding along a surface.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_max_sprint_speed</Name>
+		<Value>7.5</Value>
+		<Description>The speed at which the player sprints.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Wrecking_crew_max_movement_speed_override</Name>
+		<Value>7.5</Value>
+		<Description>The speed at which the player runs in Ruin Mode.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_toggle_cutoff_stick_throw</Name>
+		<Value>0.6</Value>
+		<Description>The minimum stick throwat which a toggle sprint is allowed to continue.  When it falls below this for Player_sprint_toggle_speed_cutoff_delay_ms, sprint is cut off.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_toggle_cutoff_delay_ms</Name>
+		<Value>150</Value>
+		<Description>The delay (in milliseconds) before sprint is cutoff if the player's speed remains below Player_sprint_toggle_speed_cutoff.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ledge_detect_fixed_ground_check_dist</Name>
+		<Value>0.35</Value>
+		<Description>The distance below the player to probe for a fixed mover.  This is mainly for when the player is standing on an unfixed mover that happens to be resting on a fixed mover.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ledge_detect_downward_probe_dist</Name>
+		<Value>2.4</Value>
+		<Description>How far down the ledge detection probe goes.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ledge_detect_add_velocity_factor</Name>
+		<Value>0.0</Value>
+		<Description>How much of the player's velocity to add on to the downward raycast check.  [Ideally this should be equal to sqrt( (downward_probe_dist - fixed_ground_check_dist) / 9.8 )]</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ledge_detect_locked_movement_check_radius</Name>
+		<Value>1.0</Value>
+		<Description>When locking movement, if the player still tries to move off of the perceived ledge within this radius, he will continue to move after a period of time.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ledge_detect_locked_movement_duration_ms</Name>
+		<Value>600</Value>
+		<Description>When locking movement, the period of time that must elapse until the player is "let go".</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_forced_walk_speed</Name>
+		<Value>2.0</Value>
+		<Description>The walk speed of the player when in the "forced walk" state.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_forced_walk_camera_speed_mult</Name>
+		<Value>1.0</Value>
+		<Description>The multiplier to apply to the camera speed when the player is in the "forced walk" state.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_decay_rate</Name>
+		<Value>0.25</Value>
+		<Description>The rate at which sprint decays.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_regen_delay_ms</Name>
+		<Value>4000</Value>
+		<Description>The time it takes for sprint to start recharging after sprinting.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_regen_rate</Name>
+		<Value>100.0</Value>
+		<Description>The rate at which sprint regenerates.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_min_activate_amount</Name>
+		<Value>0.05</Value>
+		<Description>The minimum amount of sprint required to activate a fresh sprint.</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Exo_smoke_start_health_percent</Name>
+		<Value>0.5</Value>
+		<_Editor>
+			<Category>Vehicles:Exo</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Exo_fire_start_health_percent</Name>
+		<Value>0.1</Value>
+		<_Editor>
+			<Category>Vehicles:Exo</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Exo_fire_damage_per_second</Name>
+		<Value>200</Value>
+		<_Editor>
+			<Category>Vehicles:Exo</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Exo_electricity_start_health_percent</Name>
+		<Value>0.25</Value>
+		<_Editor>
+			<Category>Vehicles:Exo</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Exo_electricity_max_delay_s</Name>
+		<Value>1.0</Value>
+		<_Editor>
+			<Category>Vehicles:Exo</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Exo_electricity_min_delay_s</Name>
+		<Value>0.2</Value>
+		<_Editor>
+			<Category>Vehicles:Exo</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Melee_exo_running_distance</Name>
+		<Value>2.15</Value>
+		<Description>How far away to do a running melee attack for an exo</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Melee_rear_attack_damage_multiplier</Name>
+		<Value>1.0</Value>
+		<Description>When the attacker is a player and the target is not a player. Their melee damage will be multiplied by this factor if they attack from behind.</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_melee_delay_ms</Name>
+		<Value>0</Value>
+		<Description>The minimum delay between the starts of subsequent melee attacks by the player.</Description>
+		<_Editor>
+			<Category>Melee</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_horizontal_leap_cooldown</Name>
+		<Value>8.0</Value>
+		<Description>Minimum time to use between horizontal dodge leaps</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_horizontal_leap_cooldown</Name>
+		<Value>12.0</Value>
+		<Description>Minimum time to use between horizontal dodge leaps</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Leap_node_death_cooldown</Name>
+		<Value>4.0</Value>
+		<Description>Cooldown period after an NPC dies in a node</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Photometer_turn_off_time</Name>
+		<Value>.01</Value>
+		<Description>Time you need to spend in light before the player light turns off.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Photometer_turn_on_time</Name>
+		<Value>.01</Value>
+		<Description>Time needed to be spent in darkness before the player light turns on.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tutorial_delay_between_messages_ms</Name>
+		<Value>500</Value>
+		<Description>Time in ms between tutorial message popups if more than one is queued.</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_fall_movement_modifier</Name>
+		<Value>0.05</Value>
+		<Description>The multiplier applied to input/movement while a human is jumping/falling.</Description>
+		<_Editor>
+			<Category>Movement:Falling</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_sprint_autocenter_delay_s</Name>
+		<Value>1.5</Value>
+		<Description>Delay (in seconds) before re-centering the camera after user input.</Description>
+		<_Editor>
+			<Category>Camera:Sprint Auto-Center</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_sprint_autocenter_min_speed</Name>
+		<Value>0.5</Value>
+		<Description>The min speed (in radians per second) that the camera can rotate around.</Description>
+		<_Editor>
+			<Category>Camera:Sprint Auto-Center</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_sprint_autocenter_max_speed</Name>
+		<Value>5.0</Value>
+		<Description>The max speed (in radians per second) that the camera can rotate around.</Description>
+		<_Editor>
+			<Category>Camera:Sprint Auto-Center</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_sprint_autocenter_elevation</Name>
+		<Value>0.15</Value>
+		<Description>The elevation (in radians) of the sprint camera.</Description>
+		<_Editor>
+			<Category>Camera:Sprint Auto-Center</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_sprint_autocenter_heading_deadzone</Name>
+		<Value>0.3</Value>
+		<Description>The amount of deadzone (in radians) the heading offset is allowed to have before doing any adjustment.</Description>
+		<_Editor>
+			<Category>Camera:Sprint Auto-Center</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_intensity_default_min</Name>
+		<Value>.75</Value>
+		<Description>This is the intensity magnifier value for the bottom end of the default glow pulse  for all aliens.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_ambush_intensity_percent</Name>
+		<Value>0.4</Value>
+		<Description>This is the percent of the default intensity magnifier value used for all aliens lying in ambush.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_duration_default_pulse</Name>
+		<Value>750</Value>
+		<Description>The number of milliseconds it takes for the glow to do a half pulse.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_intensity_flicker_on_hit</Name>
+		<Value>7.5</Value>
+		<Description>The max intensity magnifier the glow flickers to when the alien has been damaged by the player.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_duration_flicker_on_hit</Name>
+		<Value>2000</Value>
+		<Description>The number of milliseconds the flicker on hit lasts.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_frequency_flicker_on_hit</Name>
+		<Value>150</Value>
+		<Description>The number of milliseconds the flicker takes to get from min to max.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_kamikaze_intensity_start</Name>
+		<Value>6.0</Value>
+		<Description>The starting intensity magnifier for glow when the heavy enters kamikaze mode.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_kamikaze_intensity_end</Name>
+		<Value>40.0</Value>
+		<Description>The ending intensity magnifier for glow when the heavy enters kamikaze mode.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_intensity_pulse_decay</Name>
+		<Value>0.66</Value>
+		<Description>The fractional decay value for the top end of a decaying pulse.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_pod_before_spawn_duration</Name>
+		<Value>2000</Value>
+		<Description>Number of milliseconds the pod glows before a spawn.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_pod_spawn_intensity_max</Name>
+		<Value>10.0</Value>
+		<Description>The maximum intensity multiplier reached just before a pod spawns.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Screen_transition_control_lock_time_ms</Name>
+		<Value>250</Value>
+		<Description>Time between screen transitions where the player controls are locked to prevent inadvertant actions, in ms.</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_hold_delay</Name>
+		<Value>2000</Value>
+		<Description>How long the behemoth holds stuff over his head before he throws it, in milliseconds.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_throw_cooldown</Name>
+		<Value>2000</Value>
+		<Description>How long the behemoth takes to recover after throwing something, in milliseconds.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_gambit_chance</Name>
+		<Value>0.2</Value>
+		<Description>How likely it is that the behemoth will use his gambit ability each time he throws something, as a number from 0 to 1.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_gambit_charge_time</Name>
+		<Value>4000</Value>
+		<Description>How long it takes the behemoth to charge something before he throws it, in milliseconds. This is instead of, not in addition to, the hold delay.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_building_optimal_distance</Name>
+		<Value>8</Value>
+		<Description>How far away a potentially throwable building can be before a behemoth starts considering living ammo that's closer. In meters.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_grab_maximum_distance</Name>
+		<Value>20</Value>
+		<Description>The maximum distance a behemoth can reach to pick something up. Any further and he has to walk over to it. In meters.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_smallest_ammo_size</Name>
+		<Value>1.5</Value>
+		<Description>The minimum size, in meters, an object has to be before a behemoth will consider picking it up and throwing it. This is the sum of the size on all axis, so if it's 3, he will throw a box that is 1 meter on all sides as well as a pole that's 3 meters long.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Behemoth_avoid_ammo_time</Name>
+		<Value>10000</Value>
+		<Description>How long, in milliseconds, a behemoth will avoid trying to throw something again if he's already picked it as potential ammo before and it either came back into range or he failed it pick it up for some reason.</Description>
+		<_Editor>
+			<Category>AI:Behemoth</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Follow_player_light_offset_x</Name>
+		<Value>0</Value>
+		<_Editor>
+			<Category>Lights</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambient_player_light_offset_z</Name>
+		<Value>0</Value>
+		<_Editor>
+			<Category>Lights</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambush_land_distance</Name>
+		<Value>12</Value>
+		<Description>Distance away from a target an ambushing NPC will attempt to land in order to attack</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Follow_player_light_offset_y</Name>
+		<Value>20</Value>
+		<_Editor>
+			<Category>Lights</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Follow_player_light_offset_z</Name>
+		<Value>0</Value>
+		<_Editor>
+			<Category>Lights</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambient_player_light_offset_x</Name>
+		<Value>0</Value>
+		<_Editor>
+			<Category>Lights</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambient_player_light_offset_y</Name>
+		<Value>20</Value>
+		<_Editor>
+			<Category>Lights</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Global_remote_delay_ms</Name>
+		<Value>400</Value>
+		<Description>The delay between triggered detonations when using the global remote (via Y button).</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Projectile_npc_owned_no_collide_duration_ms</Name>
+		<Value>100</Value>
+		<Description>The amount of time before an NPC-fired projectile will have full collision.  During this time, the projectile will only collide with player-controlled objects.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>General_mover_repair_rate</Name>
+		<Value>4000</Value>
+		<Description>points per second given back to general movers as they are repaired</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_pickup_distance</Name>
+		<Value>1.5</Value>
+		<Description>The radius within which a weapon can be picked up.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ammo_pickup_distance</Name>
+		<Value>1.5</Value>
+		<Description>The radius within which ammo can be collected.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Stalker_min_range</Name>
+		<Value>15</Value>
+		<Description>Defines the stalking behavior minimum range, the ambusher will move away if it is under this distance to its target</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Stalker_max_range</Name>
+		<Value>40</Value>
+		<Description>Defines the stalking behavior maximum range, the ambusher will move closer if it is over this distance to its target</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Stalk_period_sec</Name>
+		<Value>60</Value>
+		<Description>Period of time a stalk action will last before deciding to attack the ambusher's target</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambush_screech_prob</Name>
+		<Value>0.5</Value>
+		<Description>Probability that an ambusher will do the screech animation when he comes out of stealth</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimum_ambush_period</Name>
+		<Value>4</Value>
+		<Description>Minimum amount of time spend in an ambush action</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimum_ambush_node_flee_period</Name>
+		<Value>1</Value>
+		<Description>Minimum amount of time an ambusher will sit in a node during his flee state</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambusher_insta_kill_value</Name>
+		<Value>500</Value>
+		<Description>If an ambusher takes more than this amount of damage in a single hit, he will die instead of teleporting away</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_health_restore_per_second</Name>
+		<Value>240</Value>
+		<_Editor>
+			<Category>Miscellaneous:Health Regen</Category>
+			</_Editor>
+		<Description>The number of hit points that the player regains per second.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_health_restore_sprint_regen_mod</Name>
+		<Value>.75</Value>
+		<_Editor>
+			<Category>Miscellaneous:Health Regen</Category>
+			</_Editor>
+		<Description>While the player is sprinting, Player_health_restore_per_second is multiplied by this value.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Creeper_heavy_attack_leap_percent</Name>
+		<Value>0.06</Value>
+		<Description>Percent of maximum horizontal leap distance than a creeper will jump back when doing a heavy attack.</Description>
+		<_Editor>
+			<Category>AI:Creepers</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Creeper_support_attack_min_delay</Name>
+		<Value>15.0</Value>
+		<Description>Minimum amount of time between ranged attacks for a creeper who isn't directly attacking in seconds.</Description>
+		<_Editor>
+			<Category>AI:Creepers</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Creeper_support_attack_max_delay</Name>
+		<Value>20.0</Value>
+		<Description>Maximum amount of time between ranged attacks for a creeper who isn't directly attacking in seconds.</Description>
+		<_Editor>
+			<Category>AI:Creepers</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_attacking_creepers</Name>
+		<Value>3</Value>
+		<Description>Max number of creepers allowed to move in for melee attacks at once.</Description>
+		<_Editor>
+			<Category>AI:Creepers</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Creeper_support_mobility</Name>
+		<Value>0.85</Value>
+		<Description>This is essentially how much of his time a creeper will spend moving when he's on support.</Description>
+		<_Editor>
+			<Category>AI:Creepers</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_duration_ramp_up_on_hit</Name>
+		<Value>250</Value>
+		<Description>The number of milliseconds it takes for the glow to ramp up to full when you hit an alien.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_intensity_default_max</Name>
+		<Value>3.</Value>
+		<Description>This is the intensity magnifier value for the top end of the default glow pulse  for all aliens.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_duration_death_fade_out</Name>
+		<Value>1000</Value>
+		<Description>The number of milliseconds it takes for the glow to fade out when an alien dies.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_shape_radius</Name>
+		<Value>2.0</Value>
+		<Description>controls the size of the collision sphere when the player is piloting a flyer</Description>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_attack_angles</Name>
+		<Value>5</Value>
+		<Description>Maximum number of angles creepers can attack from. For example, 4 means they can only come from 90 degree angles. The level must be reloaded for this to take effect.</Description>
+		<_Editor>
+			<Category>AI:Creepers</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hero_system_cooldown_delay_ms</Name>
+		<Value>10000</Value>
+		<Description>The hero system is available once it has cooled down for this amount of time.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Hero System</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hero_system_player_world_collide_max_health_multiplier</Name>
+		<Value>2.0</Value>
+		<Description>If the player is damaged by the world and the damage is greater than their max health * this multiplier, the hero system will not kick in.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Hero System</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_kamikaze_lighting</Name>
+		<Value>0.0</Value>
+		<Description>This value determines if the glow is effected by lighting.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_hold_delay</Name>
+		<Value>1250</Value>
+		<Description>How long the tentacle holds stuff over his head before he throws it, in milliseconds.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_throw_cooldown</Name>
+		<Value>5000</Value>
+		<Description>How long the tentacle takes to recover after throwing something, in milliseconds.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_gambit_chance</Name>
+		<Value>0.4</Value>
+		<Description>How likely it is that the tentacle will use his gambit ability each time he throws something, as a number from 0 to 1.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_gambit_charge_time</Name>
+		<Value>4000</Value>
+		<Description>How long it takes the tentacle to charge something before he throws it, in milliseconds. This is instead of, not in addition to, the hold delay.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_gambit_cooldown</Name>
+		<Value>12000</Value>
+		<Description>How long (in miliseconds) the tentacle must wait after gambit charging something before it can do so again. Note this does not mean it *will* after this much time, just that it can.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_building_optimal_distance</Name>
+		<Value>8</Value>
+		<Description>How far away a potentially throwable building can be before a tentacle starts considering living ammo that's closer. In meters.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_grab_maximum_distance</Name>
+		<Value>25</Value>
+		<Description>The maximum distance a tentacle can reach to pick something up in meters.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_grab_minimum_distance</Name>
+		<Value>4</Value>
+		<Description>The minimum distance a tentacle can reach to pick something up in meters, from its base. Anything within this distance will be ignored.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_smallest_ammo_size</Name>
+		<Value>3.0</Value>
+		<Description>The minimum size, in meters, an object has to be before a tentacle will consider picking it up and throwing it. This is the sum of the size on all axis, so if it's 3, he will throw a box that is 1 meter on all sides as well as a pole that's 3 meters long.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_lost_contact_time</Name>
+		<Value>5000</Value>
+		<Description>How long we stick with a target after losing visual contact. In milliseconds.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_turning_speed</Name>
+		<Value>180</Value>
+		<Description>How many degrees a tentacle can turn per second</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_melee_damage_distance</Name>
+		<Value>7.0</Value>
+		<Description>How far away the tentacle melee deals damage.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_melee_attack_distance</Name>
+		<Value>4.0</Value>
+		<Description>How far away a target can be when the tentacle decides to melee attack it.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_melee_damage</Name>
+		<Value>300.0</Value>
+		<Description>How much damage tentacle melee does to its victims.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_melee_pushback</Name>
+		<Value>6.0</Value>
+		<Description>How much force a melee victim feels being pushed back during a tentacle melee attack.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_melee_pushup</Name>
+		<Value>6.0</Value>
+		<Description>How much force is applied to push a melee victim up into the air.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_melee_cooldown</Name>
+		<Value>5000</Value>
+		<Description>How long a tentacle must wait before it can melee again, in milliseconds.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_quick_reaction_multiplier</Name>
+		<Value>2.0</Value>
+		<Description>Multiplier for turn and grab speed when a tentacle is reacting to a magnet gun attack.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_flinch_min_damage</Name>
+		<Value>100.0</Value>
+		<Description>The minimum damage a tentacle will take below which there is no chance that it will flinch.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_flinch_max_damage</Name>
+		<Value>400.0</Value>
+		<Description>The maximum damage a tentacle will take above which there is a 100% chance that it will flinch.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_taunt_chance</Name>
+		<Value>0.4</Value>
+		<Description>Chance per taunt "phase" / "state" that the tentacle will actually play the taunt animation.</Description>
+		<_Editor>
+			<Category>AI:Tentacle</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Leash_dist_short</Name>
+		<Value>30</Value>
+		<Description>Small radius leash distance</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Leash_dist_medium</Name>
+		<Value>50</Value>
+		<Description>Medium radius leash distance</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Leash_dist_large</Name>
+		<Value>70</Value>
+		<Description>Large radius leash distance</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Leash_dist_clear</Name>
+		<Value>10</Value>
+		<Description>Distance at which active leash is cleared</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>flyer_collision_camera_shake_scalar</Name>
+		<Value>500.0</Value>
+		<Description>scalar for camer shake intensity when the fly collides with terrain or level objects</Description>
+		<_Editor>
+			<Category>Vehicles:Flyer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_charge_distance</Name>
+		<Value>40.0</Value>
+		<Description>Distance the tank tries to charge from.</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_tank_charge_cooldown_ms</Name>
+		<Value>3000</Value>
+		<Description>in cooldown time for the tank to be allowed to charge again in ms</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_tank_charge_cooldown_ms</Name>
+		<Value>8000</Value>
+		<Description>max cooldown time for the tank to be allowed to charge again in ms</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_tank_charge_intensity_end</Name>
+		<Value>5</Value>
+		<Description>The ending intensity magnifier for glow when the tank does his charge mode.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_tank_charge_duration_brighten</Name>
+		<Value>500</Value>
+		<Description>The number of milliseconds it tanks for the tank to hit his max glow intensity when he starts his charge.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_tank_charge_lighting</Name>
+		<Value>0.0</Value>
+		<Description>This value determines if the glow is effected by lighting.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_weakpoint_damage_threshold</Name>
+		<Value>50000</Value>
+		<Description>Damage tank has to take in it's weakpoint during a charge before it will be stunned/fall.</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Unstealth_warning_range</Name>
+		<Value>10</Value>
+		<Description>The range at which a warning indicator is given when an npc de-stealths near the player.</Description>
+		<_Editor>
+			<Category>Miscellaneous:3d Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_3d_indicator_hit_duration_ms</Name>
+		<Value>2000</Value>
+		<Description>The default duration of a hit indicator when using 3D player indicators.</Description>
+		<_Editor>
+			<Category>Miscellaneous:3d Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Unstealth_warning_duration_ms</Name>
+		<Value>5000</Value>
+		<Description>The duration of a warning indicator using 3D player indicators when an npc unstealths.</Description>
+		<_Editor>
+			<Category>Miscellaneous:3d Hit Indicator</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_downed_life_time_ms</Name>
+		<Value>25000</Value>
+		<Description>This is how long a downed player has to be revived before bleeding out</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_pitch_speed</Name>
+		<Value>1.4</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_pitch_acceleration</Name>
+		<Value>4</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_pitch_speed_max</Name>
+		<Value>5</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_heading_speed</Name>
+		<Value>3.4</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_heading_acceleration</Name>
+		<Value>7</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_heading_speed_max</Name>
+		<Value>11</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_scope_multiplier</Name>
+		<Value>.3</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_fineaim_multiplier</Name>
+		<Value>0.3</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Camera_first_person_sprint_multiplier</Name>
+		<Value>1.0</Value>
+		<_Editor>
+			<Category>Camera:First Person</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_pod_after_spawn_duration</Name>
+		<Value>800</Value>
+		<Description>Number of milliseconds the pod glow fades after a spawn.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_height_adjustment_limit</Name>
+		<Value>3.0</Value>
+		<Description>Height limit above and below the player's position where the minimap will indicate icons being above or below the player, in world units.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_blip_pulse_duration_ms</Name>
+		<Value>250</Value>
+		<Description>Duration of a blip pulse, in ms.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_blip_pulse_max_scale</Name>
+		<Value>2.0</Value>
+		<Description>Percentage size a blip pulse may be at max scale.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_blip_pulse_count</Name>
+		<Value>2</Value>
+		<Description>Number of times the blip will pulse before stopping.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Walker_laser_mode_start_delay</Name>
+		<Value>1500</Value>
+		<Description>Initial delay letting the walker 'hunker down' before starting laser barrage</Description>
+		<_Editor>
+			<Category>AI:Light_walker</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Light_walker_shockwave_dist</Name>
+		<Value>10.0</Value>
+		<_Editor>
+			<Category>AI:Light_walker</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_charge_finish_dist</Name>
+		<Value>7.0</Value>
+		<Description>If the tank charge finishes with the player within this distance, the tank will swing</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Light_walker_min_weapon_dist_vehicle_override</Name>
+		<Value>30</Value>
+		<_Editor>
+			<Category>AI:Light_walker</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Light_walker_max_weapon_dist_vehicle_override</Name>
+		<Value>50</Value>
+		<_Editor>
+			<Category>AI:Light_walker</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_aim_assist_offset_min</Name>
+		<Value>0.1</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_aim_assist_offset_max</Name>
+		<Value>1.0</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Pod_aim_assist_offset_min</Name>
+		<Value>0.1</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Pod_aim_assist_offset_max</Name>
+		<Value>1.0</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_aim_assist_offset_min</Name>
+		<Value>0.2</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_aim_assist_offset_max</Name>
+		<Value>3.0</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_icon_oval_x_radius</Name>
+		<Value>540.0</Value>
+		<Description>X radius of snap oval for hud icons in 720p.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_icon_oval_y_radius</Name>
+		<Value>360.0</Value>
+		<Description>Y radius of snap oval for hud icons in 720p.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_icon_min_scale</Name>
+		<Value>0.75</Value>
+		<Description>Minimum scale for a hud icon that's reached the maximum scale distance (at the edge of the minimap).  Should be between 0.0-1.0.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_player_revive_flash_interval_ms</Name>
+		<Value>750</Value>
+		<Description>Time in ms between icon flashes for a friendly that needs revival.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_player_revive_flash_max_scale</Name>
+		<Value>2.0</Value>
+		<Description>Maximum scale a player icon flash can reach.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_icon_scale_min_radius</Name>
+		<Value>10.0</Value>
+		<Description>Min radius for which the hud icon will scale.  The icon stops growing after reaching this distance.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_icon_scale_max_radius</Name>
+		<Value>50.0</Value>
+		<Description>Max radius for which the hud icon will scale.  The icon stops shrinking after reaching this distance.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Goon_npc_count_threshold_default</Name>
+		<Value>8</Value>
+		<Description>Number of NPCs attacking the player before goon AI effects kick in</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Grunt_melee_charge_distance</Name>
+		<Value>30.0</Value>
+		<Description>Max distance away a grunt will consider charging in to do a melee attack</Description>
+		<_Editor>
+			<Category>AI:Grunt</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_blip_pulse_min_scale</Name>
+		<Value>0.5</Value>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		<Description>Min scale the pulse can be before disappearing.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_blip_pulse_alpha</Name>
+		<Value>0.75</Value>
+		<Description>Alpha percent for the pulse.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_blip_pulse_range_cutoff</Name>
+		<Value>0.95</Value>
+		<Description>Percent from 0-1 that determines the cutoff where pulses don't happen on new entries because the object is too close to the edge of the map.  This prevents repeated pulsing from an object just on the edge of the radar.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Minimap_player_revive_flash_min_scale</Name>
+		<Value>0.25</Value>
+		<Description>Minimum starting scale for a player icon flash.</Description>
+		<_Editor>
+			<Category>UI:Minimap</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_icon_scale_max_radius_in_vehicle</Name>
+		<Value>100.0</Value>
+		<Description>Max radius for which the hud bracket will scale while in a vehicle.  The bracket stops shrinking after reaching this distance.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>MP_overhead_player_name_scale</Name>
+		<Value>0.65</Value>
+		<Description>Scale of name over player heads in multiplayer.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>MP_overhead_player_icon_scale</Name>
+		<Value>0.75</Value>
+		<Description>Scale of player icon in multiplayer.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>MP_overhead_player_name_min_alpha</Name>
+		<Value>170</Value>
+		<Description>Minimum fade alpha for an overhead MP player name due to distance.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_icon_y_adjustment</Name>
+		<Value>0.2</Value>
+		<Description>Base buffer distance added to the Y value of a object position before drawing the icon.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_pixel_overlap</Name>
+		<Value>20</Value>
+		<Description>Amount of pixel overlap for the brackets so we can render them tighter.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_spacing_small</Name>
+		<Value>20</Value>
+		<Description>Spacing in pixels between brackets for the small bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_spacing_medium</Name>
+		<Value>100</Value>
+		<Description>Spacing in pixels between brackets for the medium bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_spacing_large</Name>
+		<Value>250</Value>
+		<Description>Spacing in pixels between brackets for the large bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_spacing_huge</Name>
+		<Value>500</Value>
+		<Description>Spacing in pixels between brackets for the huge bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Off_hand_weapon_refire_delay</Name>
+		<Value>1000</Value>
+		<Description>How long inbetween uses of the "temp off hand weapon" system. (Flare fire, repair fire)</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_default_distance_min</Name>
+		<Value>30</Value>
+		<Description>Distance at which the lod glow modifier goes into effect.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_default_distance_max</Name>
+		<Value>150</Value>
+		<Description>Distance at which the lod glow modifier reaches it's cap.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Glow_legion_default_distance_modifier_cap</Name>
+		<Value>3.0</Value>
+		<Description>Intensity modifier will approace this value as distance nears default_distance_max.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Legion Glow</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Combat_taunt_prob</Name>
+		<Value>0.35</Value>
+		<Description>Probability that an NPC will decide to do a combat taunt when he is allowed to evaluate it</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Liquid_thrower_leading_amount</Name>
+		<Value>0.0</Value>
+		<Description>How accurately liquid thrower type weapons will lead their target. 0 is not at all, and 1 is as close to perfect aim as we can get it. Over 1 will over compensate.</Description>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Weapon_locker_pickup_ammo_mult</Name>
+		<Value>1.0</Value>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vamp_auto_revive_health_percent</Name>
+		<Value>0.1</Value>
+		<Description>The percent of the player's health that they have to gain back before vamp's auto revive can kick in. (mp only).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Nanoforge</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_charge_min_distance</Name>
+		<Value>10.0</Value>
+		<Description>Tank has to be at least this far away to charge</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_charge_smash_distance</Name>
+		<Value>8.0</Value>
+		<Description>During the charge if the tank gets this close, he will try to do his finish attack</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_charge_turn_rate_slow</Name>
+		<Value>0.3</Value>
+		<Description>How much the tank whill turn while he's charging if he's closer than Tank_fast_turn_dist</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_charge_turn_rate_fast</Name>
+		<Value>0.45</Value>
+		<Description>Speed Tank will turn if he's further than Tank_fast_turn_dist</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_fast_turn_dist</Name>
+		<Value>25.0</Value>
+		<Description>Distance to switch tank turn rates</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hero_health_bias</Name>
+		<Value>1.0</Value>
+		<Description>Before we pass the player's health percentage to the UI, we perform this formula:
+health_pct = health_pct^Hero_health_bias;
+
+health_pct is from 0 to 1.
+
+Non-integer values are fine.
+
+This is purely interface. It does not actually change the player's hp.</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Critical_area_countdown_time_ms</Name>
+		<Value>10000</Value>
+		<Description>Time in ms that the player has to return to a critical area before the mission fails.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Critical_area_notice_delay_time_ms</Name>
+		<Value>2000</Value>
+		<Description>Delay before an assigned critical area voice line (if any) plays when a player leaves a critical area.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_tick_angle_degrees</Name>
+		<Value>45</Value>
+		<Description>Angle in degrees between each compass tick.  Must be a factor of 360.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_tick_min_alpha_percent</Name>
+		<Value>0.25</Value>
+		<Description>Alpha percent of compass ticks near edges.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_tick_max_alpha_percent</Name>
+		<Value>0.5</Value>
+		<Description>Base alpha percent of compass ticks.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_vert_angle_range_degrees</Name>
+		<Value>30</Value>
+		<Description>Angle in degrees that the compass display covers from the top and bottom sides of the camera center, i.e. 45 would be 45 degrees to the top and bottom.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_vert_sticky_angle</Name>
+		<Value>10</Value>
+		<Description>Angle in degrees.  Any enemy within this vertical angle of view will display on the midline of the compass.  Enemies outside this angle will be above/below the midline.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_default_display_delay_ms</Name>
+		<Value>5000</Value>
+		<Description>The default amount of time the gps will display on screen when the destination is set.</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_minimap_lookahead_min_dist</Name>
+		<Value>5</Value>
+		<Description>The minimum distance down the gps spline to look down in order to get our local minimap direction. (meters)</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_minimap_lookahead_max_dist</Name>
+		<Value>20</Value>
+		<Description>The maximum distance down the gps spline to look down in order to get our local minimap direction. (meters)</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_minimap_lookahead_dist_scalar</Name>
+		<Value>2.0</Value>
+		<Description>The scalar to apply to the distance from the GPS spline when determining the lookahead distance. (meters)</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_arrow_creation_delay_ms</Name>
+		<Value>1000</Value>
+		<Description>The time between creation of new gps arrows.</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_arrow_speed</Name>
+		<Value>7.5</Value>
+		<Description>The speed for GPS arrows to travel. m/s.</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Gps_arrows_lookahead_dist</Name>
+		<Value>50.0</Value>
+		<Description>The distance down the gps spline that the gps effects should travel. (meters)</Description>
+		<_Editor>
+			<Category>UI:GPS</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Animated_general_mover_explosion_damage_multiplier</Name>
+		<Value>1</Value>
+		<_Editor>
+			<Category>Miscellaneous:Anim Rig Damage</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_blip_clamp_near_dist</Name>
+		<Value>5</Value>
+		<Description>Minimum distance where the blip alpha and size is set to maximum.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_blip_clamp_far_dist</Name>
+		<Value>30</Value>
+		<Description>Maximum distance where the blip alpha and size is set to the  specified tweak values.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_blip_clamp_near_dist_in_vehicle</Name>
+		<Value>10</Value>
+		<Description>Minimum distance where the blip alpha and size is set to maximum when in a vehicle.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_blip_clamp_far_dist_in_vehicle</Name>
+		<Value>60</Value>
+		<Description>Maximum distance where the blip alpha and size is set to the  specified tweak values when in a vehicle.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_blip_min_alpha_percent</Name>
+		<Value>0.5</Value>
+		<Description>Minimum alpha percentage for a blip based on distance, up until the far distance clamp.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_blip_min_scale_percent</Name>
+		<Value>0.5</Value>
+		<Description>Minimum size scale applied to blips based on distance (subject to the distance clamps).</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_blip_max_scale_percent</Name>
+		<Value>1</Value>
+		<Description>Maximum size scale applied to blips based on distance (subject to the distance clamps).  NOTE: This really should be 1.0 in the final game; if it's more than 1.0, the art should be made larger.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_fov_box_alpha_percent</Name>
+		<Value>0.25</Value>
+		<Description>Base alpha percent of the compass FOV box.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_gps_marker_scale</Name>
+		<Value>0.75</Value>
+		<Description>Scale to use when sizing GPS marker on the compass.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Compass_gps_marker_alpha_percent</Name>
+		<Value>0.50</Value>
+		<Description>Alpha scale for the GPS marker.</Description>
+		<_Editor>
+			<Category>UI:Compass</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier2_mp_wave_required</Name>
+		<Value>7</Value>
+		<Description>The number of MP waves completed for tier 2 to be usable</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier3_mp_wave_required</Name>
+		<Value>15</Value>
+		<Description>The number of MP waves completed for tier 3 to be usable</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_tier4_mp_wave_required</Name>
+		<Value>23</Value>
+		<Description>The number of MP waves completed for tier 4 to be usable</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_respec_cost</Name>
+		<Value>500</Value>
+		<Description>The amount of salvage required for the player to be able to respec upgrades.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_upgrades_recurring_reminder_salvage</Name>
+		<Value>5000</Value>
+		<Description>Recurring salvage value that invokes a reminder about upgrades available for purchase for every multiple of the value.</Description>
+		<_Editor>
+			<Category>Miscellaneous:Salvage/Upgrades</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_self_detonate_distance</Name>
+		<Value>10.0</Value>
+		<Description>Minimum Self Detonate distance for the ehavy</Description>
+		<_Editor>
+			<Category>AI:Heavy</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_self_detonate_distance</Name>
+		<Value>10.0</Value>
+		<Description>Max distance the heavy will consider self detonating</Description>
+		<_Editor>
+			<Category>AI:Heavy</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_self_detonate_timeout</Name>
+		<Value>2.0</Value>
+		<Description>Maximum amount of time after the heavy starts the detonate animation before we force him to blow up</Description>
+		<_Editor>
+			<Category>AI:Heavy</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Heavy_melee_charge_distance</Name>
+		<Value>8</Value>
+		<Description>When a target is under this distance, the heavy will melee that target</Description>
+		<_Editor>
+			<Category>AI:Heavy</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_collision_damage_speed_min</Name>
+		<Value>5.0</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		<Description>The minimum speed of an object before damage is registered with the tentacle.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Loading_screen_post_cutscene_delay_ms</Name>
+		<Value>4000</Value>
+		<Description>Minimum time a loading screen is displayed after a cutscene ends if we're still loading.</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_combat_taunt_period_sec</Name>
+		<Value>1.5</Value>
+		<Description>Minimum amount of time after a burst of weapons fire required to play a combat taunt</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_revive_invulnerability_time_ms</Name>
+		<Value>6000</Value>
+		<Description>How long a player is invulnerable after being revived</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_infestation_pre_wave_delay_ms</Name>
+		<Value>20000</Value>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Ambusher_effect_timeout_sec</Name>
+		<Value>1000</Value>
+		<Description>Duration of the ambusher screech effects</Description>
+		<_Editor>
+			<Category>AI:Ambusher</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_collision_damage_speed_max</Name>
+		<Value>25.0</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		<Description>When doing damage to a tentacle from a collision, this is the speed cap for damage calculations.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tentacle_collision_damage_mass_max</Name>
+		<Value>2000.0</Value>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		<Description>When doing damage to a tentacle from a collision, this is the mass cap for damage calculations.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Human_electrocute_gib_impulse</Name>
+		<Value>50.0</Value>
+		<Description>The impulse to apply to gibs when a human explodes from electricity damage.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Explosion_gib_ignite_chance</Name>
+		<Value>0.2</Value>
+		<Description>The chance that a gib will ignite when caused by an explosion.</Description>
+		<_Editor>
+			<Category>Miscellaneous</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_infestation_tentacle_activation_check_ms</Name>
+		<Value>6000</Value>
+		<Description>Time (in ms) between checks to see if a player is in the trigger region</Description>
+		<_Editor>
+			<Category>Multiplayer:Tentacles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Nano_radial_mask_button_time_ms</Name>
+		<Value>500</Value>
+		<Description>Time to mask face buttons after releasing a nano ability chord (so that we don't have issues when the player releases the chord button first).</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Repair_console_objective_fade_distance</Name>
+		<Value>20.0</Value>
+		<Description>Distance at which the special "repair console" objective fades, which should be smaller than the usual distance.</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Salvage_tutorial_min_pickup_value</Name>
+		<Value>20</Value>
+		<Description>Minimum value for a salvage pickup before we display the tutorial message about salvage.</Description>
+		<_Editor>
+			<Category>UI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_infestation_post_wave_delay_ms</Name>
+		<Value>3000</Value>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_infestation_destruction_evaluation_delay_ms</Name>
+		<Value>5000</Value>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		<Description>How long after an NPC is removed the destruction manager do we re-evaluate troops? Most common reasons we remove an NPC from the destruction manager: they were shot or killed.</Description>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_revive_icon_pulse_min_scale</Name>
+		<Value>0.85</Value>
+		<Description>Minimum scale the pulse (brackets) are scaled</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_revive_icon_pulse_cycle_time_ms</Name>
+		<Value>500</Value>
+		<Description>Time in ms for the pulse to complete a complete pulse cycle.</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_revive_icon_pulse_max_scale</Name>
+		<Value>1.05</Value>
+		<Description>Maximum scale the pulse (brackets) are scaled</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Walker_laser_converge_speed</Name>
+		<Value>3.0</Value>
+		<Description>Speed the walkers electrical weapon will move toward the target horizontally.</Description>
+		<_Editor>
+			<Category>AI:Light_walker</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_pain_damage_minimum</Name>
+		<Value>15</Value>
+		<Description>When the player takes damage, this is the minimum damage amount that must happen in order for the pain sound to play. Scaled by difficulty. The value should be tweaked for the Normal difficulty level (ie medium).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Npc_pain_damage_minimum</Name>
+		<Value>15.0</Value>
+		<Description>When a NPC takes damage, this is the minimum damage amount that must happen in order for the pain sound to play. Scaled by difficulty. The value should be tweaked for the Normal difficulty level (ie medium).</Description>
+		<_Editor>
+			<Category>Miscellaneous:Collision</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Tank_max_run_and_gun_dist</Name>
+		<Value>30</Value>
+		<Description>If the tank gets further away from the player in Run&amp;Gun mode than this, they will try to directly move closer.</Description>
+		<_Editor>
+			<Category>AI:Tank</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_num_lives_pool</Name>
+		<Value>12</Value>
+		<Description>Number of lives / respawns to distribute to players</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Mp_respawn_delay_time_ms</Name>
+		<Value>5000</Value>
+		<Description>How long after a player dies before he respawns.  This is in milliseconds.</Description>
+		<_Editor>
+			<Category>Multiplayer</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monolith_mp_health_mult_1p</Name>
+		<Value>1.5</Value>
+		<_Editor>
+			<Category>Multiplayer:Monoliths</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monolith_mp_health_mult_2p</Name>
+		<Value>2.5</Value>
+		<_Editor>
+			<Category>Multiplayer:Monoliths</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monolith_mp_health_mult_4p</Name>
+		<Value>4.0</Value>
+		<_Editor>
+			<Category>Multiplayer:Monoliths</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Monolith_mp_health_mult_3p</Name>
+		<Value>3.0</Value>
+		<_Editor>
+			<Category>Multiplayer:Monoliths</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Min_vehicle_checkpoint_health_pct</Name>
+		<Value>0.75</Value>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_3d_spacing_small</Name>
+		<Value>0.4</Value>
+		<Description>Spacing in meters between brackets for the small bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_3d_spacing_medium</Name>
+		<Value>3</Value>
+		<Description>Spacing in meters between brackets for the medium bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_3d_spacing_large</Name>
+		<Value>8</Value>
+		<Description>Spacing in meters between brackets for the large bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_3d_spacing_huge</Name>
+		<Value>15</Value>
+		<Description>Spacing in meters between brackets for the huge bracket highlight.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_min_scale</Name>
+		<Value>0.5</Value>
+		<Description>Minimum scale for a hud bracket that's reached the maximum scale distance.  Should be between 0.0-1.0.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_resize_num_frames</Name>
+		<Value>4</Value>
+		<Description>Number of frames the brackets take to resize (plus one to go from sticky icon to bracket)</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_dist_alpha_diff</Name>
+		<Value>0.25</Value>
+		<Description>Difference in alpha between the closest bracket and successive brackets.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Hud_bracket_dist_alpha_min</Name>
+		<Value>0.25</Value>
+		<Description>Minimum bracket alpha after adjusting for distance.</Description>
+		<_Editor>
+			<Category>UI:HUD Icons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Continuous_fire_velocity_lock_half_life</Name>
+		<Value>0.0</Value>
+		<_Editor>
+			<Category>Weapons</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Player_sprint_modifier_cancel_delay_ms</Name>
+		<Value>150</Value>
+		<Description>The delay (in milliseconds) after sprint is canceled by a combat action before sprint is resumed when holding down the sprint modifier key (PC only).</Description>
+		<_Editor>
+			<Category>Movement</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	</Table>
+
+<TableTemplates>
+	<Tweak_Table_Entry>
+		<Name>Chase_shoot_min_distance</Name>
+		<Value>15.0</Value>
+		<Description>When an NPC with Chase Shoot orders gets inside this distance, he will stop and only shoot</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Chase_shoot_max_distance</Name>
+		<Value>25</Value>
+		<Description>When an NPC with Chase Shoot orders gets outside this distance, he will start moving closer to his target</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Leap_node_combat_cooldown</Name>
+		<Value>2.0</Value>
+		<Description>Cooldown period used after an NPC leaves a leap node (combat only)</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Combat_taunt_min_eval_sec</Name>
+		<Value>3</Value>
+		<Description>Minimum period of time for evaluating if the NPC should do a combat taunt</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Combat_taunt_max_eval_sec</Name>
+		<Value>5</Value>
+		<Description>Minimum period of time for evaluating if the NPC should do a combat taunt</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Max_ai_jump_distance</Name>
+		<Value>30.0</Value>
+		<Description>Max distance an NPC will jump when going to a jump node</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>AI_jump_speed</Name>
+		<Value>10.0</Value>
+		<Description>Speed at which the AI will travel when jumping</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Civilian_min_wounded_damage_pct</Name>
+		<Value>5</Value>
+		<Description>Percent of total HP that must be taken in a single blow to become "wounded" (switch to wounded animation set)</Description>
+		<_Editor>
+			<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Tweak_Table_Entry</Name>
+	<Type>TableDescription</Type>
+	<Description>A simple way to add and modify tweakable values within a single table file.</Description>
+	<Required>false</Required>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>The name of the value.</Description>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Value</Name>
+		<Type>Float</Type>
+		<Description>How this value is used is situation dependent</Description>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>Description</Name>
+		<Type>String</Type>
+		<Description>Breif description of how this value is used.  It is NOT read into the game.</Description>
+		<Required>false</Required>
+		<MultiLine>true</MultiLine>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>AI</Name>
+		<Category>
+			<Name>Ambusher</Name>
+			</Category>
+		<Category>
+			<Name>Behavioral Persona</Name>
+			</Category>
+		<Category>
+			<Name>Behemoth</Name>
+			</Category>
+		<Category>
+			<Name>Creepers</Name>
+			</Category>
+		<Category>
+			<Name>Grunt</Name>
+			</Category>
+		<Category>
+			<Name>Heavy</Name>
+			</Category>
+		<Category>
+			<Name>Light_walker</Name>
+			</Category>
+		<Category>
+			<Name>Marauders</Name>
+			</Category>
+		<Category>
+			<Name>Perception</Name>
+			</Category>
+		<Category>
+			<Name>Tank</Name>
+			</Category>
+		<Category>
+			<Name>Tentacle</Name>
+			</Category>
+		<Category>
+			<Name>Voice</Name>
+			</Category>
+		<Category>
+			<Name>vs. Player</Name>
+			</Category>
+		<Category>
+			<Name>Weapons</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>Camera</Name>
+		<Category>
+			<Name>Fade</Name>
+			</Category>
+		<Category>
+			<Name>First Person</Name>
+			</Category>
+		<Category>
+			<Name>Satellite</Name>
+			</Category>
+		<Category>
+			<Name>Sprint Auto-Center</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>Human Death Penalties</Name>
+		</Category>
+	<Category>
+		<Name>Lights</Name>
+		</Category>
+	<Category>
+		<Name>Melee</Name>
+		</Category>
+	<Category>
+		<Name>Miscellaneous</Name>
+		<Category>
+			<Name>3d Hit Indicator</Name>
+			</Category>
+		<Category>
+			<Name>Anim Rig Damage</Name>
+			</Category>
+		<Category>
+			<Name>Collision</Name>
+			</Category>
+		<Category>
+			<Name>Custom Objects</Name>
+			</Category>
+		<Category>
+			<Name>Decals</Name>
+			</Category>
+		<Category>
+			<Name>Health Regen</Name>
+			</Category>
+		<Category>
+			<Name>Hero System</Name>
+			</Category>
+		<Category>
+			<Name>Legion Glow</Name>
+			</Category>
+		<Category>
+			<Name>Nanoforge</Name>
+			</Category>
+		<Category>
+			<Name>Object Costs</Name>
+			</Category>
+		<Category>
+			<Name>Salvage/Upgrades</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>Movement</Name>
+		<Category>
+			<Name>Falling</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>Multiplayer</Name>
+		<Category>
+			<Name>Monoliths</Name>
+			</Category>
+		<Category>
+			<Name>obsolete</Name>
+			</Category>
+		<Category>
+			<Name>Playlist selection</Name>
+			</Category>
+		<Category>
+			<Name>repair_grenade</Name>
+			</Category>
+		<Category>
+			<Name>Tentacles</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>UI</Name>
+		<Category>
+			<Name>2D Hit Indicator</Name>
+			</Category>
+		<Category>
+			<Name>Banner</Name>
+			</Category>
+		<Category>
+			<Name>Compass</Name>
+			</Category>
+		<Category>
+			<Name>GPS</Name>
+			</Category>
+		<Category>
+			<Name>HUD Icons</Name>
+			</Category>
+		<Category>
+			<Name>Lockons</Name>
+			</Category>
+		<Category>
+			<Name>Minimap</Name>
+			</Category>
+		<Category>
+			<Name>Weapon Radial</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>Vehicles</Name>
+		<Category>
+			<Name>Audio</Name>
+			</Category>
+		<Category>
+			<Name>Effects</Name>
+			</Category>
+		<Category>
+			<Name>Exo</Name>
+			</Category>
+		<Category>
+			<Name>Flyer</Name>
+			</Category>
+		<Category>
+			<Name>Interactions</Name>
+			</Category>
+		</Category>
+	<Category>
+		<Name>Weapons</Name>
+		<Category>
+			<Name>Armor and Shields</Name>
+			</Category>
+		<Category>
+			<Name>Effects Throttling</Name>
+			</Category>
+		<Category>
+			<Name>Turret</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>
