@@ -1,0 +1,33 @@
+<root>
+	<Table></Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>anim_resource_group</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>anim_file_list</Name>
+			<Type>List</Type>
+			<Display_Name>Animation File List</Display_Name>
+			<Element>
+				<Name>anim_file_name</Name>
+				<Type>String</Type>
+				<Display_Name>Animation File Name</Display_Name>
+			</Element>
+			<Max_Children>64</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Visible_Elements>30</Visible_Elements>
+			<Num_Display_Rows>8</Num_Display_Rows>
+			<Element_Name>anim_file_name</Element_Name>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

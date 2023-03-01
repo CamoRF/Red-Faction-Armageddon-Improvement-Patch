@@ -1,0 +1,71 @@
+<root>
+	<Table>
+		<Radio_Display_Info>
+			<Name>dlc04_mallus</Name>
+			<Display_Name>DLC04_SUB_RADIO_MALLUS</Display_Name>
+			<Face_Image>ui_hud_radio_marauder</Face_Image>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Radio_Display_Info>
+		<Radio_Display_Info>
+			<Name>dlc04_hale</Name>
+			<Display_Name>SUB_RADIO_HALE</Display_Name>
+			<Face_Image>ui_hud_radio_hale</Face_Image>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Radio_Display_Info>
+		<Radio_Display_Info>
+			<Name>dlc04_winters</Name>
+			<Display_Name>SUB_RADIO_WINTERS</Display_Name>
+			<Face_Image>ui_hud_radio_winters</Face_Image>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Radio_Display_Info>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Radio_Display_Info</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Radio Display Info</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>audio_personas.xtbl</File>
+				<Type>Audio_Persona.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Display_Name</Name>
+			<Type>Reference</Type>
+			<Display_Name>Display Name</Display_Name>
+			<Description>Display name to use.  Use a localization tag if it's not a proper name.</Description>
+			<Reference>
+				<File>localized_exports\subtitles_text.xtbl</File>
+				<Type>Subtitles_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Face_Image</Name>
+			<Type>Reference</Type>
+			<Display_Name>Face Image</Display_Name>
+			<Description>Face image to display with radio graphic.</Description>
+			<Reference>
+				<File>bitmap_sheets.xtbl</File>
+				<Type>BitmapSheets.Images.Properties.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

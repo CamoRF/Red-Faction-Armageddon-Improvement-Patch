@@ -1,0 +1,12 @@
+<root>
+	<Table>
+		<Files>
+			<Name>anim_files</Name>
+			<Anim_files></Anim_files>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Files>
+	</Table>
+	<TableTemplates></TableTemplates>
+</root>

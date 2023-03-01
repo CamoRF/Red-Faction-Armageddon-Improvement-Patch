@@ -1,0 +1,185 @@
+<root>
+	<Table></Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Vehicle</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Vehicle Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Anim_Set</Name>
+			<Type>String</Type>
+			<Display_Name>Anim Set</Display_Name>
+		</Element>
+		<Element>
+			<Name>Vehicle_Interaction_Flags</Name>
+			<Type>Flags</Type>
+			<Flag>Player_prompt_only_at_entry</Flag>
+		</Element>
+		<Element>
+			<Name>Waypoints</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Waypoint</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Name</Name>
+					<Type>String</Type>
+				</Element>
+				<Element>
+					<Name>Pos</Name>
+					<Type>Vector</Type>
+					<X>
+						<Name>X</Name>
+						<Type>Float</Type>
+						<Default>0.0</Default>
+					</X>
+					<Y>
+						<Name>Y</Name>
+						<Type>Float</Type>
+						<Default>0.0</Default>
+					</Y>
+					<Z>
+						<Name>Z</Name>
+						<Type>Float</Type>
+						<Default>0.0</Default>
+					</Z>
+				</Element>
+				<Element>
+					<Name>Heading</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+				</Element>
+				<Element>
+					<Name>Node_Type</Name>
+					<Type>Flags</Type>
+					<Description>you only pick one node type
+None = Transition node</Description>
+					<Flag>Enter Node</Flag>
+					<Flag>Exit Node</Flag>
+					<Flag>Exit Moving</Flag>
+					<Flag>Exit Upside Down</Flag>
+					<Flag>Exit Dive</Flag>
+					<Flag>Exit Moving Reverse</Flag>
+					<Flag>Exit Onside Right</Flag>
+					<Flag>Exit Onside Left</Flag>
+					<Flag>Exit Corpse</Flag>
+				</Element>
+				<Element>
+					<Name>Parent_Component</Name>
+					<Type>String</Type>
+					<Display_Name>Parent Component</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Seat</Name>
+					<Type>Selection</Type>
+					<Required>false</Required>
+					<Choice>driver</Choice>
+					<Choice>passenger_1</Choice>
+					<Choice>passenger_2</Choice>
+					<Choice>passenger_3</Choice>
+					<Choice>passenger_4</Choice>
+					<Choice>passenger_5</Choice>
+					<Choice>passenger_6</Choice>
+					<Choice>passenger_7</Choice>
+					<Choice>passenger_8</Choice>
+					<Choice>passenger_9</Choice>
+					<Choice>passenger_10</Choice>
+				</Element>
+				<Element>
+					<Name>Attributes</Name>
+					<Type>Flags</Type>
+					<Description>Auto connect = Short range + Transition node
+Blocking Seat = Restrict Access + Seat 
+External seat = Last Choice + Seat
+Turret Seat = Eject on Explosion + Seat</Description>
+					<Flag>Short Range</Flag>
+					<Flag>Restrict Vertical Access</Flag>
+					<Flag>Last Choice</Flag>
+					<Flag>Eject on Explosion</Flag>
+					<Flag>Don't Correct Anim Position</Flag>
+					<Flag>Hide Human In Seat</Flag>
+				</Element>
+			</Element>
+			<Num_Display_Rows>20</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>Waypoint_transitions</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Waypoint_transition</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Name</Name>
+					<Type>String</Type>
+				</Element>
+				<Element>
+					<Name>Destination</Name>
+					<Type>String</Type>
+				</Element>
+				<Element>
+					<Name>Door_1</Name>
+					<Type>String</Type>
+					<Display_Name>Door 1</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Door_2</Name>
+					<Type>String</Type>
+					<Display_Name>Door 2</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Door_3</Name>
+					<Type>String</Type>
+					<Display_Name>Door 3</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Door_open</Name>
+					<Type>String</Type>
+					<Display_Name>Door Open</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Door_close</Name>
+					<Type>String</Type>
+					<Display_Name>Door Close</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Interactions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Interaction</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>Action</Name>
+							<Type>String</Type>
+						</Element>
+						<Element>
+							<Name>Anim_Action</Name>
+							<Type>String</Type>
+						</Element>
+						<Element>
+							<Name>Anim_State</Name>
+							<Type>String</Type>
+						</Element>
+					</Element>
+					<Num_Display_Rows>8</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>20</Num_Display_Rows>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

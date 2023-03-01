@@ -1,0 +1,116 @@
+<root>
+	<Table>
+		<Subtitle>
+			<Name>Line 00 Text</Name>
+			<String_Tag>DLC04_SUB_M02_INTRO_TEXT</String_Tag>
+			<Start_Time_ms>18250</Start_Time_ms>
+			<Duration_ms>4000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 01</Name>
+			<String_Tag>DLC04_SUB_M02_INTRO_01</String_Tag>
+			<Start_Time_ms>25700</Start_Time_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Duration_ms>3300</Duration_ms>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 02</Name>
+			<String_Tag>DLC04_SUB_M02_INTRO_02</String_Tag>
+			<Start_Time_ms>29800</Start_Time_ms>
+			<Duration_ms>7000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 03</Name>
+			<String_Tag>DLC04_SUB_M02_INTRO_03</String_Tag>
+			<Start_Time_ms>37330</Start_Time_ms>
+			<Duration_ms>5800</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 04</Name>
+			<String_Tag>DLC04_SUB_M02_INTRO_04</String_Tag>
+			<Start_Time_ms>43900</Start_Time_ms>
+			<Duration_ms>5600</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 05</Name>
+			<String_Tag>DLC04_SUB_M02_INTRO_05</String_Tag>
+			<Start_Time_ms>50000</Start_Time_ms>
+			<Duration_ms>6400</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 06</Name>
+			<String_Tag>DLC04_SUB_M02_INTRO_06</String_Tag>
+			<Start_Time_ms>56900</Start_Time_ms>
+			<Duration_ms>3500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Subtitle</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Identifier for subtitle.  Won't be parsed, can be anything you want.</Description>
+		</Element>
+		<Element>
+			<Name>String_Tag</Name>
+			<Type>Reference</Type>
+			<Display_Name>String Tag</Display_Name>
+			<Description>Localization tag for the subtitle.  Entries come from the entries in data\tables\localization\Subtitle_strings.xlsm.</Description>
+			<Reference>
+				<File>..\dlc\dlc04\tables\localized_exports\dlc04_text.xtbl</File>
+				<Type>dlc04_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Start_Time_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Start Time (ms)</Display_Name>
+			<Description>Time elapsed in the cutscene before displaying the subtitle, in ms.</Description>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Duration_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Duration (ms)</Display_Name>
+			<Description>Duration of the subtitle line, in ms.  Can be longer than the time to the next subtitle (will be overwritten).</Description>
+			<Default>1000</Default>
+			<MinValue>1</MinValue>
+		</Element>
+		<Element>
+			<Name>Sam_Text</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

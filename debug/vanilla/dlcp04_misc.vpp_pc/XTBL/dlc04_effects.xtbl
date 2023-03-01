@@ -1,0 +1,427 @@
+<root>
+	<Table>
+		<Effect>
+			<Name>dlc04_shard_nexus</Name>
+			<visual>wep_p_p_can_chrg_a</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>True</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>True</vfx_kill_particles>
+			<vfx_kill_particles_fade_time>.5</vfx_kill_particles_fade_time>
+			<scale_factor>8</scale_factor>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_weapons:dlc04_shard_storm</Category>
+			</_Editor>
+			<sound>DLC04_WEP_SHARD_CHARGE</sound>
+		</Effect>
+		<Effect>
+			<Name>dlc04_shard_muzz</Name>
+			<visual>wep_enrgy_exp01</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>False</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_weapons:dlc04_shard_storm</Category>
+			</_Editor>
+		</Effect>
+		<Effect>
+			<Name>dlc04_shrp_shtr_muzz</Name>
+			<visual>wep_enrgy_muzz01</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>False</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_weapons:dlc04_shrp_shtr</Category>
+			</_Editor>
+		</Effect>
+		<Effect>
+			<Name>dlc04_shrp_shtr_proj</Name>
+			<visual>wep_enrgy_trail01</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>False</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_weapons:dlc04_shrp_shtr</Category>
+			</_Editor>
+		</Effect>
+		<Effect>
+			<Name>dlc04_flyer_warning</Name>
+			<visual>glare_rot_red</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>False</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_flyer</Category>
+			</_Editor>
+		</Effect>
+		<Effect>
+			<Name>dlc04_targeting_beacon</Name>
+			<visual>cus_tech_warnbeacon</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>False</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>True</vfx_kill_particles>
+			<vfx_kill_particles_fade_time>.1</vfx_kill_particles_fade_time>
+			<stop_when_host_destroyed>True</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_mission</Category>
+			</_Editor>
+		</Effect>
+		<Effect>
+			<Name>dlc04_shard_muzz_chrg</Name>
+			<visual>wep_p_p_can_chrg_a</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>True</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>True</vfx_kill_particles>
+			<vfx_kill_particles_fade_time>.5</vfx_kill_particles_fade_time>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_weapons:dlc04_shard_storm</Category>
+			</_Editor>
+		</Effect>
+		<Effect>
+			<Name>dlc04_tank_muzz</Name>
+			<visual>wep_rpg_muzz</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>False</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<scale_factor>5</scale_factor>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_weapons:dlc04_tank</Category>
+			</_Editor>
+		</Effect>
+		<Effect>
+			<Name>dlc04_orbital_explosion</Name>
+			<visual>wep_grav_implod_exp02</visual>
+			<restart_sound_at_loop>False</restart_sound_at_loop>
+			<kill_sound_when_done>False</kill_sound_when_done>
+			<sound_follows_effect>True</sound_follows_effect>
+			<vfx_kill_particles>True</vfx_kill_particles>
+			<vfx_kill_particles_fade_time>.1</vfx_kill_particles_fade_time>
+			<stop_when_host_destroyed>True</stop_when_host_destroyed>
+			<ignore_gpu_occluded>False</ignore_gpu_occluded>
+			<ignore_selective_streaming>False</ignore_selective_streaming>
+			<_Editor>
+				<Category>Entries:DLC04:dlc04_mission</Category>
+			</_Editor>
+			<sound>dlc04_sfx_ray_explo</sound>
+		</Effect>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Effect</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Effect Name</Display_Name>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>visual</Name>
+			<Type>Reference</Type>
+			<Display_Name>Visual Effect</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>vfx.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>sound</Name>
+			<Type>Reference</Type>
+			<Display_Name>Sound  Effect</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>..\dlc\dlc04\tables\dlc04_audio_events.xtbl</File>
+				<Type>NewEntity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>restart_sound_at_loop</Name>
+			<Type>Selection</Type>
+			<Display_Name>Restart Sound at Loop Restart</Display_Name>
+			<Description>You want to set this for NON-LOOPING sounds that are attached to looping effects.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>kill_sound_when_done</Name>
+			<Type>Selection</Type>
+			<Display_Name>Kill Sound When Done</Display_Name>
+			<Description>When the effect is killed, kill the one-shot sound that it played.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>sound_follows_effect</Name>
+			<Type>Selection</Type>
+			<Display_Name>Sound Follows Effect Pos</Display_Name>
+			<Description>Sound position follows effect position. Turn this off to have sound stay where it was triggered.</Description>
+			<Default>True</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Max_Sound_Play_Distance_Override_Meters</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Sound Play Distance Override Meters</Display_Name>
+			<Description>This is the max distance at which the effect's sound will play.
+
+If an effect does not have this specified on a CLOE effect object, it will use this override. If this isn't here, it will use the default max play distance in game_audio_constants.xtbl.</Description>
+			<Required>false</Required>
+			<Default>-1.0</Default>
+		</Element>
+		<Element>
+			<Name>vfx_kill_particles</Name>
+			<Type>Selection</Type>
+			<Display_Name>VFX Kill Particles on Stop</Display_Name>
+			<Description>When an effect is stopped, instead of waiting for the particles to die on their own, kill them off immediately.  Use this for computer screens, etc.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>vfx_kill_particles_fade_time</Name>
+			<Type>String</Type>
+			<Display_Name>VFX Kill Particles Fade Time</Display_Name>
+			<Description>in seconds - how long does it take to fade out the effect when kill particles is on.</Description>
+			<Required>false</Required>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>scale_factor</Name>
+			<Type>Float</Type>
+			<Display_Name>VFX Scale Factor</Display_Name>
+			<Required>false</Required>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>stop_when_host_destroyed</Name>
+			<Type>Selection</Type>
+			<Display_Name>Stop when Host Destroyed</Display_Name>
+			<Description>Stop the effect from playing if its host is destroyed.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>ignore_gpu_occluded</Name>
+			<Type>Selection</Type>
+			<Display_Name>Ignore GPU Occluded</Display_Name>
+			<Description>This effect is very large (like the skybox) and shouldn't bother going through normal GPU occlusion code</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>ignore_selective_streaming</Name>
+			<Type>Selection</Type>
+			<Display_Name>Ignore Selective Streaming</Display_Name>
+			<Description>Effect will not stream out when it touches a masked streaming cell.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Affects_Env_Settings</Name>
+			<Type>Element</Type>
+			<Display_Name>Affects Env Settings</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Start_Time</Name>
+				<Type>Int</Type>
+				<Display_Name>Start Delay (ms)</Display_Name>
+				<Description>How long to wait before ramping in env. settings.</Description>
+				<Required>false</Required>
+				<Default>0</Default>
+			</Element>
+			<Element>
+				<Name>Ramp_In_Time</Name>
+				<Type>Int</Type>
+				<Display_Name>Ramp In (ms)</Display_Name>
+				<Description>How long it takes the env. settings to ramp up to full strength once they start.</Description>
+				<Required>false</Required>
+				<Default>0</Default>
+			</Element>
+			<Element>
+				<Name>Duration</Name>
+				<Type>String</Type>
+				<Display_Name>Duration (ms)</Display_Name>
+				<Description>How long to apply env. settings after ramped in (and before ramping out starts).
+
+Value of zero means play for the entire duration of the effect.
+
+If not enabled, duration is for the entire effect.</Description>
+				<Required>false</Required>
+				<Default>0</Default>
+			</Element>
+			<Element>
+				<Name>Ramp_Out_Time</Name>
+				<Type>Int</Type>
+				<Display_Name>Ramp Out (ms)</Display_Name>
+				<Description>How long it takes the env. settings to reduce to zero strength.</Description>
+				<Required>false</Required>
+				<Default>0</Default>
+			</Element>
+			<Element>
+				<Name>Inner_Radius</Name>
+				<Type>Int</Type>
+				<Display_Name>Inner Radius</Display_Name>
+				<Required>false</Required>
+				<Default>20</Default>
+			</Element>
+			<Element>
+				<Name>Outer_Radius</Name>
+				<Type>Int</Type>
+				<Display_Name>Outer Radius</Display_Name>
+				<Required>false</Required>
+				<Default>50</Default>
+			</Element>
+			<Element>
+				<Name>Contrast</Name>
+				<Type>Float</Type>
+				<Required>false</Required>
+				<Default>1.0</Default>
+			</Element>
+			<Element>
+				<Name>Saturation</Name>
+				<Type>Float</Type>
+				<Required>false</Required>
+				<Default>1.0</Default>
+			</Element>
+			<Element>
+				<Name>Tint</Name>
+				<Type>Color</Type>
+				<Required>false</Required>
+				<Default>0</Default>
+				<R>
+					<Name>R</Name>
+					<Type>Int</Type>
+					<Default>255</Default>
+				</R>
+				<G>
+					<Name>G</Name>
+					<Type>Int</Type>
+					<Default>255</Default>
+				</G>
+				<B>
+					<Name>B</Name>
+					<Type>Int</Type>
+					<Default>255</Default>
+				</B>
+			</Element>
+			<Element>
+				<Name>HDR_Bloom_Amount</Name>
+				<Type>Float</Type>
+				<Display_Name>HDR Bloom Amount</Display_Name>
+				<Required>false</Required>
+				<Default>0.5</Default>
+			</Element>
+			<Element>
+				<Name>HDR_Desired_Brightness</Name>
+				<Type>Float</Type>
+				<Display_Name>HDR Desired Brightness</Display_Name>
+				<Required>false</Required>
+				<Default>1.0</Default>
+			</Element>
+			<Element>
+				<Name>HDR_Min_Exposure</Name>
+				<Type>Float</Type>
+				<Display_Name>HDR Min Exposure</Display_Name>
+				<Required>false</Required>
+				<Default>1.0</Default>
+			</Element>
+			<Element>
+				<Name>HDR_Max_Exposure</Name>
+				<Type>Float</Type>
+				<Display_Name>HDR Max Exposure</Display_Name>
+				<Required>false</Required>
+				<Default>1.0</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Damage</Name>
+			<Type>Element</Type>
+			<Required>false</Required>
+			<Element>
+				<Name>damage_type</Name>
+				<Type>Reference</Type>
+				<Display_Name>Damage Type</Display_Name>
+				<Description>What kind of damage does this effect do?</Description>
+				<Reference>
+					<File>damage_regions.xtbl</File>
+					<Type>Damage_Region.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>radius</Name>
+				<Type>Float</Type>
+				<Display_Name>Radius</Display_Name>
+				<Description>Radius in meters of the damage sphere.</Description>
+				<Default>0.0</Default>
+			</Element>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+			<Category>
+				<Name>DLC04</Name>
+				<Category>
+					<Name>dlc04_flyer</Name>
+				</Category>
+				<Category>
+					<Name>dlc04_mission</Name>
+				</Category>
+				<Category>
+					<Name>dlc04_weapons</Name>
+					<Category>
+						<Name>dlc04_shard_storm</Name>
+					</Category>
+					<Category>
+						<Name>dlc04_shrp_shtr</Name>
+					</Category>
+					<Category>
+						<Name>dlc04_tank</Name>
+					</Category>
+				</Category>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

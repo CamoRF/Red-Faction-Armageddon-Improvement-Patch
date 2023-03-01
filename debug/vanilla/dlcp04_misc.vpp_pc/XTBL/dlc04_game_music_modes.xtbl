@@ -1,0 +1,89 @@
+<root>
+	<Table>
+		<Music_Mode>
+			<Name>DLC04_FLYER</Name>
+			<Structure_Bank>dlc04_mus_flyer</Structure_Bank>
+			<Event_Name>DLC04_MUS_FLYER</Event_Name>
+			<_Editor>
+				<Category>Missions</Category>
+			</_Editor>
+		</Music_Mode>
+		<Music_Mode>
+			<Name>DLC04_TANK</Name>
+			<Structure_Bank>dlc04_mus_tank</Structure_Bank>
+			<Event_Name>DLC04_MUS_TANK</Event_Name>
+			<_Editor>
+				<Category>Missions</Category>
+			</_Editor>
+		</Music_Mode>
+		<Music_Mode>
+			<Name>DLC04_ORBITAL</Name>
+			<Structure_Bank>dlc04_mus_orbital</Structure_Bank>
+			<Event_Name>DLC04_MUS_ORBITAL</Event_Name>
+			<_Editor>
+				<Category>Missions</Category>
+			</_Editor>
+		</Music_Mode>
+		<Music_Mode>
+			<Name>DLC04_3WAY</Name>
+			<Structure_Bank>dlc04_mus_3way</Structure_Bank>
+			<Event_Name>DLC04_MUS_3WAY</Event_Name>
+			<_Editor>
+				<Category>Missions</Category>
+			</_Editor>
+		</Music_Mode>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Music_Mode</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Music Mode</Display_Name>
+		<MaxCount>38</MaxCount>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>This identifies the mode in code.</Description>
+			<MaxLength>64</MaxLength>
+		</Element>
+		<Element>
+			<Name>Structure_Bank</Name>
+			<Type>Reference</Type>
+			<Display_Name>Structure Bank</Display_Name>
+			<Description>Name of the structure bank to stream in when the mode is activated.</Description>
+			<Reference>
+				<File>..\dlc\dlc04\tables\dlc04_audio_banks.xtbl</File>
+				<Type>NewEntity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Event_Name</Name>
+			<Type>Reference</Type>
+			<Display_Name>Event Name</Display_Name>
+			<Description>The music mode's audio event - this is posted on the music object when the mode is activated and the bank has finished loading.</Description>
+			<Reference>
+				<File>..\dlc\dlc04\tables\dlc04_audio_events.xtbl</File>
+				<Type>NewEntity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Reset_Switch_Group_Name</Name>
+			<Type>Reference</Type>
+			<Display_Name>Reset Switch Group Name</Display_Name>
+			<Description>Name of switch group to reset when this music mode is set or cleared. Optional.</Description>
+			<Required>false</Required>
+			<Reference>
+				<File>..\dlc\dlc04\tables\dlc04_audio_syncs.xtbl</File>
+				<Type>NewEntity.All_Switches.Group_Switch.Entry.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Missions</Name>
+		</Category>
+	</EntryCategories>
+</root>
