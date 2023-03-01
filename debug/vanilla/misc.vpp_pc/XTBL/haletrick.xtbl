@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,22 +30,22 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>s01</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_red_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>Marauder_EXO</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>MarauderExoNPC</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -55,10 +55,10 @@
 						<X>-88.1806</X>
 						<Y>-17.7017</Y>
 						<Z>-54.1053</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -74,7 +74,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_pc__5.animx</Filename>
@@ -83,9 +83,9 @@
 									<EndFrame>63</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>63</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>s01</Name>
 							<maxHandle>2</maxHandle>
@@ -93,7 +93,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_s01__5.animx</Filename>
@@ -102,9 +102,9 @@
 									<EndFrame>63</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>63</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder_EXO</Name>
 							<maxHandle>3</maxHandle>
@@ -112,7 +112,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_Marauder_EXO__5.animx</Filename>
@@ -121,13 +121,13 @@
 									<EndFrame>63</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>63</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>63</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__6</Name>
 					<SlateName>Location01</SlateName>
@@ -141,7 +141,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_pc__6.animx</Filename>
@@ -150,9 +150,9 @@
 									<EndFrame>254</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>254</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>s01</Name>
 							<maxHandle>2</maxHandle>
@@ -160,7 +160,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_s01__6.animx</Filename>
@@ -169,9 +169,9 @@
 									<EndFrame>254</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>254</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder_EXO</Name>
 							<maxHandle>3</maxHandle>
@@ -179,7 +179,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_Marauder_EXO__6.animx</Filename>
@@ -188,13 +188,13 @@
 									<EndFrame>254</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>254</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>254</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__7</Name>
 					<SlateName>Location01</SlateName>
@@ -208,7 +208,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_pc__7.animx</Filename>
@@ -217,9 +217,9 @@
 									<EndFrame>190</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>190</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>s01</Name>
 							<maxHandle>2</maxHandle>
@@ -227,7 +227,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_s01__7.animx</Filename>
@@ -236,9 +236,9 @@
 									<EndFrame>190</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>190</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder_EXO</Name>
 							<maxHandle>3</maxHandle>
@@ -246,7 +246,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_Marauder_EXO__7.animx</Filename>
@@ -255,13 +255,13 @@
 									<EndFrame>190</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>190</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>190</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-v_cam04__8</Name>
 					<SlateName>Location01</SlateName>
@@ -275,7 +275,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_pc__8.animx</Filename>
@@ -284,9 +284,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>s01</Name>
 							<maxHandle>2</maxHandle>
@@ -294,7 +294,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_s01__8.animx</Filename>
@@ -303,9 +303,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder_EXO</Name>
 							<maxHandle>3</maxHandle>
@@ -313,7 +313,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/HaleTrick/HaleTrick_Marauder_EXO__8.animx</Filename>
@@ -322,15 +322,15 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>59</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

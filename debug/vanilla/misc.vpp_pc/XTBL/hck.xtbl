@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,36 +30,36 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>heavy</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_leg_ass_heavy</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker1</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker2</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker3</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -69,10 +69,10 @@
 						<X>18.1467</X>
 						<Y>3.0995</Y>
 						<Z>-0.6714</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -87,7 +87,7 @@
 							<OrientY>24.6436</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_pc__1.animx</Filename>
@@ -96,9 +96,9 @@
 									<EndFrame>703</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>703</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>heavy</Name>
 							<maxHandle>2</maxHandle>
@@ -106,7 +106,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_heavy__1.animx</Filename>
@@ -115,9 +115,9 @@
 									<EndFrame>703</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>703</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker1</Name>
 							<maxHandle>3</maxHandle>
@@ -125,7 +125,7 @@
 							<OrientY>22.2655</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker1__1.animx</Filename>
@@ -134,9 +134,9 @@
 									<EndFrame>703</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>703</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker2</Name>
 							<maxHandle>4</maxHandle>
@@ -144,7 +144,7 @@
 							<OrientY>-51.7524</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker2__1.animx</Filename>
@@ -153,9 +153,9 @@
 									<EndFrame>703</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>703</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker3</Name>
 							<maxHandle>5</maxHandle>
@@ -163,7 +163,7 @@
 							<OrientY>-38.4356</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker3__1.animx</Filename>
@@ -172,13 +172,13 @@
 									<EndFrame>703</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>703</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>703</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__2</Name>
 					<SlateName>Location01</SlateName>
@@ -191,7 +191,7 @@
 							<OrientY>14.9983</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_pc__2.animx</Filename>
@@ -200,9 +200,9 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>heavy</Name>
 							<maxHandle>2</maxHandle>
@@ -210,7 +210,7 @@
 							<OrientY>-132.07</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_heavy__2.animx</Filename>
@@ -219,9 +219,9 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker1</Name>
 							<maxHandle>3</maxHandle>
@@ -229,7 +229,7 @@
 							<OrientY>-28.4405</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker1__2.animx</Filename>
@@ -238,9 +238,9 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker2</Name>
 							<maxHandle>4</maxHandle>
@@ -248,7 +248,7 @@
 							<OrientY>19.436</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker2__2.animx</Filename>
@@ -257,9 +257,9 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker3</Name>
 							<maxHandle>5</maxHandle>
@@ -267,7 +267,7 @@
 							<OrientY>-85.8765</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker3__2.animx</Filename>
@@ -276,13 +276,13 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>46</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__3</Name>
 					<SlateName>Location01</SlateName>
@@ -295,7 +295,7 @@
 							<OrientY>6.87555</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_pc__3.animx</Filename>
@@ -304,9 +304,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>heavy</Name>
 							<maxHandle>2</maxHandle>
@@ -314,7 +314,7 @@
 							<OrientY>-131.572</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_heavy__3.animx</Filename>
@@ -323,9 +323,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker1</Name>
 							<maxHandle>3</maxHandle>
@@ -333,7 +333,7 @@
 							<OrientY>-28.4405</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker1__3.animx</Filename>
@@ -342,9 +342,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker2</Name>
 							<maxHandle>4</maxHandle>
@@ -352,7 +352,7 @@
 							<OrientY>19.436</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker2__3.animx</Filename>
@@ -361,9 +361,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker3</Name>
 							<maxHandle>5</maxHandle>
@@ -371,7 +371,7 @@
 							<OrientY>93.1051</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker3__3.animx</Filename>
@@ -380,13 +380,13 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>40</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-v_cam04__4</Name>
 					<SlateName>Location01</SlateName>
@@ -399,7 +399,7 @@
 							<OrientY>10.1323</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_pc__4.animx</Filename>
@@ -408,9 +408,9 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>heavy</Name>
 							<maxHandle>2</maxHandle>
@@ -418,7 +418,7 @@
 							<OrientY>-131.572</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_heavy__4.animx</Filename>
@@ -427,9 +427,9 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker1</Name>
 							<maxHandle>3</maxHandle>
@@ -437,7 +437,7 @@
 							<OrientY>-28.4405</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker1__4.animx</Filename>
@@ -446,9 +446,9 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker2</Name>
 							<maxHandle>4</maxHandle>
@@ -456,7 +456,7 @@
 							<OrientY>19.436</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker2__4.animx</Filename>
@@ -465,9 +465,9 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker3</Name>
 							<maxHandle>5</maxHandle>
@@ -475,7 +475,7 @@
 							<OrientY>86.8506</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/hck/hck_worker3__4.animx</Filename>
@@ -484,15 +484,15 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>119</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

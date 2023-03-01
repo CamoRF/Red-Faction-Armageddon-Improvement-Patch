@@ -1,203 +1,199 @@
 <root>
-<Table>
-	<Stat>
-		<Name>shots fired with weapon shard storm</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+	<Table>
+		<Stat>
+			<Name>shots fired with weapon shard storm</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>shots fired with weapon sharpshooter</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>shots fired with weapon sharpshooter</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>shots hit with weapon shard storm</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>shots hit with weapon shard storm</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>shots hit with weapon sharpshooter</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>shots hit with weapon sharpshooter</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>kills with weapon shard storm</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>kills with weapon shard storm</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>kills with weapon sharpshooter</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>kills with weapon sharpshooter</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>kills with weapon mar burst turret</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>kills with weapon mar burst turret</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>shots fired with weapon mar burst turret</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>shots fired with weapon mar burst turret</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
-	<Stat>
-		<Name>shots hit with weapon mar burst turret</Name>
-		<Allow_Update_By_Server>False</Allow_Update_By_Server>
-		<Value_Type>
-			<integer></integer>
+		<Stat>
+			<Name>shots hit with weapon mar burst turret</Name>
+			<Allow_Update_By_Server>False</Allow_Update_By_Server>
+			<Value_Type>
+				<integer></integer>
 			</Value_Type>
-		<_Editor>
-			<Category>Entries:DLC04</Category>
+			<_Editor>
+				<Category>Entries:DLC04</Category>
 			</_Editor>
 		</Stat>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Stat</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Description>Name of the stat.</Description>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Stat</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Name of the stat.</Description>
 		</Element>
-	<Element>
-		<Name>Allow_Update_By_Server</Name>
-		<Type>Selection</Type>
-		<Display_Name>Allow Update By Server</Display_Name>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>Allow_Update_By_Server</Name>
+			<Type>Selection</Type>
+			<Display_Name>Allow Update By Server</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>LivePropertyID</Name>
-		<Type>Int</Type>
-		<Display_Name>Live Property ID</Display_Name>
-		<Required>false</Required>
-		<Default>0</Default>
+		<Element>
+			<Name>LivePropertyID</Name>
+			<Type>Int</Type>
+			<Display_Name>Live Property ID</Display_Name>
+			<Required>false</Required>
+			<Default>0</Default>
 		</Element>
-	<Element>
-		<Name>LiveLeaderboardID</Name>
-		<Type>Int</Type>
-		<Display_Name>Live Leaderboard ID</Display_Name>
-		<Required>false</Required>
-		<Default>0</Default>
+		<Element>
+			<Name>LiveLeaderboardID</Name>
+			<Type>Int</Type>
+			<Display_Name>Live Leaderboard ID</Display_Name>
+			<Required>false</Required>
+			<Default>0</Default>
 		</Element>
-	<Element>
-		<Name>Value_Type</Name>
-		<Type>ComboElement</Type>
-		<Display_Name>Value Type</Display_Name>
 		<Element>
-			<Name>integer</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>float</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>distance</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>time</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>money</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>boolean</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>percent</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
+			<Name>Value_Type</Name>
+			<Type>ComboElement</Type>
+			<Display_Name>Value Type</Display_Name>
 			<Element>
-				<Name>Percentage_Of_Stat</Name>
-				<Type>Reference</Type>
-				<Display_Name>Percentage Of Stat</Display_Name>
-				<Reference>
-					<File>stats.xtbl</File>
-					<Type>Stat.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
+				<Name>integer</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>float</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>distance</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>time</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>money</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>boolean</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+			</Element>
+			<Element>
+				<Name>percent</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+				<Element>
+					<Name>Percentage_Of_Stat</Name>
+					<Type>Reference</Type>
+					<Display_Name>Percentage Of Stat</Display_Name>
+					<Reference>
+						<File>stats.xtbl</File>
+						<Type>Stat.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
 			</Element>
-		<Element>
-			<Name>complex</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
+			<Element>
+				<Name>complex</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
 			</Element>
-		<Element>
-			<Name>integer16</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
+			<Element>
+				<Name>integer16</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
 			</Element>
-		<Element>
-			<Name>integer8</Name>
-			<Type>Element</Type>
-			<Required>false</Required>
+			<Element>
+				<Name>integer8</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
 			</Element>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
 		<Category>
-			<Name>DLC04</Name>
+			<Name>Entries</Name>
+			<Category>
+				<Name>DLC04</Name>
 			</Category>
 		</Category>
 	</EntryCategories>

@@ -1,57 +1,53 @@
 <root>
-<Table>
-	<preload_chunks>
-		<Name>Missing chunk</Name>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<preload_chunks>
+			<Name>Missing chunk</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Chunk>
-			<Filename>missingchunk.rfgchunkx</Filename>
+			<Chunk>
+				<Filename>missingchunk.rfgchunkx</Filename>
 			</Chunk>
 		</preload_chunks>
-	<preload_chunks>
-		<Name>Missing destroyable</Name>
-		<Chunk>
-			<Filename>missingdestroyable.rfgchunkx</Filename>
+		<preload_chunks>
+			<Name>Missing destroyable</Name>
+			<Chunk>
+				<Filename>missingdestroyable.rfgchunkx</Filename>
 			</Chunk>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</preload_chunks>
-	<preload_chunks>
-		<Name>Magic Rock</Name>
-		<Chunk>
-			<Filename>ter_bio_magic_rock.rfgchunkx</Filename>
+		<preload_chunks>
+			<Name>Magic Rock</Name>
+			<Chunk>
+				<Filename>ter_bio_magic_rock.rfgchunkx</Filename>
 			</Chunk>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</preload_chunks>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>preload_chunks</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>preload_chunks</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>Chunk</Name>
-		<Type>Filename</Type>
-		<Extension>rfgchunkx</Extension>
-		<StartingPath>data</StartingPath>
-		<ShowPreload>False</ShowPreload>
+		<Element>
+			<Name>Chunk</Name>
+			<Type>Filename</Type>
+			<Extension>rfgchunkx</Extension>
+			<StartingPath>data</StartingPath>
+			<ShowPreload>False</ShowPreload>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

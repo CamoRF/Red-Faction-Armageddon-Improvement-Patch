@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission03/exoexit/exoexit.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,22 +30,22 @@
 					<maxHandle>3</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>pieces</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>MinerExo_cine</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>arm</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>MinerExo_arm</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -55,10 +55,10 @@
 						<X>106.467</X>
 						<Y>68.403</Y>
 						<Z>58.0609</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -74,7 +74,7 @@
 							<Options>
 								<Item>magnet_gun</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission03/exoexit/exoexit_pc__1.animx</Filename>
@@ -83,9 +83,9 @@
 									<EndFrame>400</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>400</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>pieces</Name>
 							<maxHandle>2</maxHandle>
@@ -93,7 +93,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission03/exoexit/exoexit_pieces__1.animx</Filename>
@@ -102,9 +102,9 @@
 									<EndFrame>400</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>400</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>arm</Name>
 							<maxHandle>4</maxHandle>
@@ -112,7 +112,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission03/exoexit/exoexit_arm__1.animx</Filename>
@@ -121,15 +121,15 @@
 									<EndFrame>400</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>400</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>400</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

@@ -1,73 +1,69 @@
 <root>
-<Table>
-	<BinkMasterVolumes>
-		<Name>BinkMasterVolumes</Name>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<BinkMasterVolumes>
+			<Name>BinkMasterVolumes</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Object_Effect_Default>30.0</Object_Effect_Default>
-		<Overall_Bink_Volume>1</Overall_Bink_Volume>
-		<Xbox_Bink_Volume>1</Xbox_Bink_Volume>
-		<PS3_Bink_Volume>1</PS3_Bink_Volume>
-		<PC_Bink_Volume>1</PC_Bink_Volume>
+			<Object_Effect_Default>30.0</Object_Effect_Default>
+			<Overall_Bink_Volume>1</Overall_Bink_Volume>
+			<Xbox_Bink_Volume>1</Xbox_Bink_Volume>
+			<PS3_Bink_Volume>1</PS3_Bink_Volume>
+			<PC_Bink_Volume>1</PC_Bink_Volume>
 		</BinkMasterVolumes>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>BinkMasterVolumes</Name>
-	<Type>TableDescription</Type>
-	<Unique>true</Unique>
-	<MaxCount>2</MaxCount>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<MaxCount>1</MaxCount>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>BinkMasterVolumes</Name>
+		<Type>TableDescription</Type>
+		<Unique>true</Unique>
+		<MaxCount>2</MaxCount>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<MaxCount>1</MaxCount>
 		</Element>
-	<Element>
-		<Name>Overall_Bink_Volume</Name>
-		<Type>Float</Type>
-		<Display_Name>Overall Bink Volume</Display_Name>
-		<Default>1.0</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>1</MaxValue>
-		<UseSlider>True</UseSlider>
+		<Element>
+			<Name>Overall_Bink_Volume</Name>
+			<Type>Float</Type>
+			<Display_Name>Overall Bink Volume</Display_Name>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>1</MaxValue>
+			<UseSlider>True</UseSlider>
 		</Element>
-	<Element>
-		<Name>Xbox_Bink_Volume</Name>
-		<Type>Float</Type>
-		<Display_Name>Xbox Bink Volume</Display_Name>
-		<Default>1.0</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>1</MaxValue>
-		<UseSlider>True</UseSlider>
+		<Element>
+			<Name>Xbox_Bink_Volume</Name>
+			<Type>Float</Type>
+			<Display_Name>Xbox Bink Volume</Display_Name>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>1</MaxValue>
+			<UseSlider>True</UseSlider>
 		</Element>
-	<Element>
-		<Name>PS3_Bink_Volume</Name>
-		<Type>Float</Type>
-		<Display_Name>PS3 Bink Volume</Display_Name>
-		<Default>1</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>1</MaxValue>
-		<UseSlider>True</UseSlider>
+		<Element>
+			<Name>PS3_Bink_Volume</Name>
+			<Type>Float</Type>
+			<Display_Name>PS3 Bink Volume</Display_Name>
+			<Default>1</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>1</MaxValue>
+			<UseSlider>True</UseSlider>
 		</Element>
-	<Element>
-		<Name>PC_Bink_Volume</Name>
-		<Type>Float</Type>
-		<Display_Name>PC Bink Volume</Display_Name>
-		<Default>1</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>1</MaxValue>
-		<UseSlider>True</UseSlider>
+		<Element>
+			<Name>PC_Bink_Volume</Name>
+			<Type>Float</Type>
+			<Display_Name>PC Bink Volume</Display_Name>
+			<Default>1</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>1</MaxValue>
+			<UseSlider>True</UseSlider>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

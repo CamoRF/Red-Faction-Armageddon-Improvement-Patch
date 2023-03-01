@@ -1,214 +1,211 @@
 <root>
-<Table>
-	<Subtitle>
-		<Name>Line 01</Name>
-		<String_Tag>SUB_CS_14_WBARGE_01</String_Tag>
-		<Start_Time_ms>4800</Start_Time_ms>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Subtitle>
+			<Name>Line 01</Name>
+			<String_Tag>SUB_CS_14_WBARGE_01</String_Tag>
+			<Start_Time_ms>4800</Start_Time_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Duration_ms>1800</Duration_ms>
+			<Duration_ms>1800</Duration_ms>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 02</Name>
-		<String_Tag>SUB_CS_14_WBARGE_02</String_Tag>
-		<Start_Time_ms>7171</Start_Time_ms>
-		<Duration_ms>7500</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Subtitle>
-	<Subtitle>
-		<Name>Line 03</Name>
-		<String_Tag>SUB_CS_14_WBARGE_03</String_Tag>
-		<Start_Time_ms>15079</Start_Time_ms>
-		<Duration_ms>3500</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 02</Name>
+			<String_Tag>SUB_CS_14_WBARGE_02</String_Tag>
+			<Start_Time_ms>7171</Start_Time_ms>
+			<Duration_ms>7500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 04</Name>
-		<String_Tag>SUB_CS_14_WBARGE_04</String_Tag>
-		<Start_Time_ms>18949</Start_Time_ms>
-		<Duration_ms>1367</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 03</Name>
+			<String_Tag>SUB_CS_14_WBARGE_03</String_Tag>
+			<Start_Time_ms>15079</Start_Time_ms>
+			<Duration_ms>3500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 05</Name>
-		<String_Tag>SUB_CS_14_WBARGE_05</String_Tag>
-		<Start_Time_ms>20217</Start_Time_ms>
-		<Duration_ms>3470</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 04</Name>
+			<String_Tag>SUB_CS_14_WBARGE_04</String_Tag>
+			<Start_Time_ms>18949</Start_Time_ms>
+			<Duration_ms>1367</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 06</Name>
-		<String_Tag>SUB_CS_14_WBARGE_06</String_Tag>
-		<Start_Time_ms>23800</Start_Time_ms>
-		<Duration_ms>1600</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 05</Name>
+			<String_Tag>SUB_CS_14_WBARGE_05</String_Tag>
+			<Start_Time_ms>20217</Start_Time_ms>
+			<Duration_ms>3470</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 07</Name>
-		<String_Tag>SUB_CS_14_WBARGE_07</String_Tag>
-		<Start_Time_ms>26500</Start_Time_ms>
-		<Duration_ms>3403</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 06</Name>
+			<String_Tag>SUB_CS_14_WBARGE_06</String_Tag>
+			<Start_Time_ms>23800</Start_Time_ms>
+			<Duration_ms>1600</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 08</Name>
-		<String_Tag>SUB_CS_14_WBARGE_08</String_Tag>
-		<Start_Time_ms>30000</Start_Time_ms>
-		<Duration_ms>2300</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 07</Name>
+			<String_Tag>SUB_CS_14_WBARGE_07</String_Tag>
+			<Start_Time_ms>26500</Start_Time_ms>
+			<Duration_ms>3403</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 09</Name>
-		<String_Tag>SUB_CS_14_WBARGE_09</String_Tag>
-		<Start_Time_ms>33864</Start_Time_ms>
-		<Duration_ms>2000</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 08</Name>
+			<String_Tag>SUB_CS_14_WBARGE_08</String_Tag>
+			<Start_Time_ms>30000</Start_Time_ms>
+			<Duration_ms>2300</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 10</Name>
-		<String_Tag>SUB_CS_14_WBARGE_10</String_Tag>
-		<Start_Time_ms>36633</Start_Time_ms>
-		<Duration_ms>1368</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 09</Name>
+			<String_Tag>SUB_CS_14_WBARGE_09</String_Tag>
+			<Start_Time_ms>33864</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 11</Name>
-		<String_Tag>SUB_CS_14_WBARGE_11</String_Tag>
-		<Start_Time_ms>38067</Start_Time_ms>
-		<Duration_ms>3100</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 10</Name>
+			<String_Tag>SUB_CS_14_WBARGE_10</String_Tag>
+			<Start_Time_ms>36633</Start_Time_ms>
+			<Duration_ms>1368</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 12</Name>
-		<String_Tag>SUB_CS_14_WBARGE_12</String_Tag>
-		<Start_Time_ms>41538</Start_Time_ms>
-		<Duration_ms>4600</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 11</Name>
+			<String_Tag>SUB_CS_14_WBARGE_11</String_Tag>
+			<Start_Time_ms>38067</Start_Time_ms>
+			<Duration_ms>3100</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 13</Name>
-		<String_Tag>SUB_CS_14_WBARGE_13</String_Tag>
-		<Start_Time_ms>47677</Start_Time_ms>
-		<Duration_ms>2000</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 12</Name>
+			<String_Tag>SUB_CS_14_WBARGE_12</String_Tag>
+			<Start_Time_ms>41538</Start_Time_ms>
+			<Duration_ms>4600</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 14</Name>
-		<String_Tag>SUB_CS_14_WBARGE_14</String_Tag>
-		<Start_Time_ms>55217</Start_Time_ms>
-		<Duration_ms>1600</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 13</Name>
+			<String_Tag>SUB_CS_14_WBARGE_13</String_Tag>
+			<Start_Time_ms>47677</Start_Time_ms>
+			<Duration_ms>2000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 16</Name>
-		<String_Tag>SUB_CS_14_WBARGE_16</String_Tag>
-		<Start_Time_ms>56919</Start_Time_ms>
-		<Duration_ms>1800</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 14</Name>
+			<String_Tag>SUB_CS_14_WBARGE_14</String_Tag>
+			<Start_Time_ms>55217</Start_Time_ms>
+			<Duration_ms>1600</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 17</Name>
-		<String_Tag>SUB_CS_14_WBARGE_17</String_Tag>
-		<Start_Time_ms>59021</Start_Time_ms>
-		<Duration_ms>1200</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 16</Name>
+			<String_Tag>SUB_CS_14_WBARGE_16</String_Tag>
+			<Start_Time_ms>56919</Start_Time_ms>
+			<Duration_ms>1800</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
-	<Subtitle>
-		<Name>Line 18</Name>
-		<String_Tag>SUB_CS_14_WBARGE_18</String_Tag>
-		<Start_Time_ms>60355</Start_Time_ms>
-		<Duration_ms>1500</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+		<Subtitle>
+			<Name>Line 17</Name>
+			<String_Tag>SUB_CS_14_WBARGE_17</String_Tag>
+			<Start_Time_ms>59021</Start_Time_ms>
+			<Duration_ms>1200</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Subtitle>
+		<Subtitle>
+			<Name>Line 18</Name>
+			<String_Tag>SUB_CS_14_WBARGE_18</String_Tag>
+			<Start_Time_ms>60355</Start_Time_ms>
+			<Duration_ms>1500</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
 	</Table>
-
-<TableTemplates>
-	<Subtitle>
-		<Name>Line 15</Name>
-		<String_Tag>SUB_CS_14_WBARGE_15</String_Tag>
-		<Start_Time_ms>52851</Start_Time_ms>
-		<Duration_ms>1000</Duration_ms>
-		<_Editor>
-			<Category>Entries</Category>
+	<TableTemplates>
+		<Subtitle>
+			<Name>Line 15</Name>
+			<String_Tag>SUB_CS_14_WBARGE_15</String_Tag>
+			<Start_Time_ms>52851</Start_Time_ms>
+			<Duration_ms>1000</Duration_ms>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Subtitle>
 	</TableTemplates>
-
-<TableDescription>
-	<Name>Subtitle</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Description>Identifier for subtitle.  Won't be parsed, can be anything you want.</Description>
+	<TableDescription>
+		<Name>Subtitle</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Identifier for subtitle.  Won't be parsed, can be anything you want.</Description>
 		</Element>
-	<Element>
-		<Name>String_Tag</Name>
-		<Type>Reference</Type>
-		<Display_Name>String Tag</Display_Name>
-		<Description>Localization tag for the subtitle.  Entries come from the entries in data\tables\localization\Subtitle_strings.xlsm.</Description>
-		<Reference>
-			<File>localized_exports\subtitles_text.xtbl</File>
-			<Type>Subtitles_Identifier.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>String_Tag</Name>
+			<Type>Reference</Type>
+			<Display_Name>String Tag</Display_Name>
+			<Description>Localization tag for the subtitle.  Entries come from the entries in data\tables\localization\Subtitle_strings.xlsm.</Description>
+			<Reference>
+				<File>localized_exports\subtitles_text.xtbl</File>
+				<Type>Subtitles_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Start_Time_ms</Name>
-		<Type>Int</Type>
-		<Display_Name>Start Time (ms)</Display_Name>
-		<Description>Time elapsed in the cutscene before displaying the subtitle, in ms.</Description>
-		<Unique>true</Unique>
-		<Default>0</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>Start_Time_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Start Time (ms)</Display_Name>
+			<Description>Time elapsed in the cutscene before displaying the subtitle, in ms.</Description>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Element>
-		<Name>Duration_ms</Name>
-		<Type>Int</Type>
-		<Display_Name>Duration (ms)</Display_Name>
-		<Description>Duration of the subtitle line, in ms.  Can be longer than the time to the next subtitle (will be overwritten).</Description>
-		<Default>1000</Default>
-		<MinValue>1</MinValue>
+		<Element>
+			<Name>Duration_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Duration (ms)</Display_Name>
+			<Description>Duration of the subtitle line, in ms.  Can be longer than the time to the next subtitle (will be overwritten).</Description>
+			<Default>1000</Default>
+			<MinValue>1</MinValue>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

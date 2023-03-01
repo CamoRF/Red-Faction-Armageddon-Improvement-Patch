@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission16/queenReveal/queenReveal.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,15 +30,15 @@
 					<maxHandle>2</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>queen</Name>
 					<maxHandle>1</maxHandle>
 					<CharMesh>soft_queen</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -48,10 +48,10 @@
 						<X>26.497</X>
 						<Y>0.0</Y>
 						<Z>-10.4782</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>137.816</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -67,7 +67,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission16/queenReveal/queenReveal_pc__1.animx</Filename>
@@ -76,9 +76,9 @@
 									<EndFrame>139</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>139</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>queen</Name>
 							<maxHandle>1</maxHandle>
@@ -86,7 +86,7 @@
 							<OrientY>-137.816</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission16/queenReveal/queenReveal_queen__1.animx</Filename>
@@ -95,13 +95,13 @@
 									<EndFrame>139</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>139</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>139</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__2</Name>
 					<SlateName>Location01</SlateName>
@@ -115,7 +115,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission16/queenReveal/queenReveal_pc__2.animx</Filename>
@@ -124,9 +124,9 @@
 									<EndFrame>121</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>121</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>queen</Name>
 							<maxHandle>1</maxHandle>
@@ -134,7 +134,7 @@
 							<OrientY>-137.816</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission16/queenReveal/queenReveal_queen__2.animx</Filename>
@@ -143,13 +143,13 @@
 									<EndFrame>121</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>121</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>121</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam01__3</Name>
 					<SlateName>Location01</SlateName>
@@ -163,7 +163,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission16/queenReveal/queenReveal_pc__3.animx</Filename>
@@ -172,9 +172,9 @@
 									<EndFrame>112</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>112</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>queen</Name>
 							<maxHandle>1</maxHandle>
@@ -182,7 +182,7 @@
 							<OrientY>-137.816</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission16/queenReveal/queenReveal_queen__3.animx</Filename>
@@ -191,15 +191,15 @@
 									<EndFrame>112</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>112</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>112</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

@@ -1,536 +1,532 @@
 <root>
-<Table>
-	<squad_progression>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_mar_ass_warrior</human_type>
-					<weapon_type>Phased Plasma Rifle</weapon_type>
-					<spawn_weight>1</spawn_weight>
+	<Table>
+		<squad_progression>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_mar_ass_warrior</human_type>
+						<weapon_type>Phased Plasma Rifle</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Name>Marauder</Name>
-		<team>Marauder</team>
+			<Name>Marauder</Name>
+			<team>Marauder</team>
 		</squad_progression>
-	<squad_progression>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_civ_ass_workmal01</human_type>
-					<weapon_type>Phased Plasma Rifle</weapon_type>
-					<spawn_weight>1</spawn_weight>
+		<squad_progression>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_civ_ass_workmal01</human_type>
+						<weapon_type>Phased Plasma Rifle</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Name>Red Faction</Name>
-		<team>Red Faction</team>
+			<Name>Red Faction</Name>
+			<team>Red Faction</team>
 		</squad_progression>
-	<squad_progression>
-		<Name>Civilian</Name>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_civ_ass_workmal01</human_type>
-					<weapon_type>Phased Plasma Rifle</weapon_type>
-					<spawn_weight>1</spawn_weight>
+		<squad_progression>
+			<Name>Civilian</Name>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_civ_ass_workmal01</human_type>
+						<weapon_type>Phased Plasma Rifle</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<team>Civilian</team>
+			<team>Civilian</team>
 		</squad_progression>
-	<squad_progression>
-		<Name>Cultists</Name>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_mar_ass_warrior</human_type>
-					<weapon_type>Phased Plasma Rifle</weapon_type>
-					<spawn_weight>1</spawn_weight>
+		<squad_progression>
+			<Name>Cultists</Name>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_mar_ass_warrior</human_type>
+						<weapon_type>Phased Plasma Rifle</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<team>Cultists</team>
+			<team>Cultists</team>
 		</squad_progression>
-	<squad_progression>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_leg_ass_grunt</human_type>
-					<weapon_type>Grunt Quill</weapon_type>
-					<spawn_weight>1</spawn_weight>
+		<squad_progression>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_leg_ass_grunt</human_type>
+						<weapon_type>Grunt Quill</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Name>Legion - Grunt</Name>
-		<team>Legion</team>
+			<Name>Legion - Grunt</Name>
+			<team>Legion</team>
 		</squad_progression>
-	<squad_progression>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_leg_ass_creeper</human_type>
-					<weapon_type>Creeper Claw</weapon_type>
-					<spawn_weight>1</spawn_weight>
+		<squad_progression>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_leg_ass_creeper</human_type>
+						<weapon_type>Creeper Claw</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Name>Legion - Creeper</Name>
-		<team>Legion</team>
+			<Name>Legion - Creeper</Name>
+			<team>Legion</team>
 		</squad_progression>
-	<squad_progression>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_leg_ass_ambusher</human_type>
-					<weapon_type>Electrical Pulse Blast</weapon_type>
-					<spawn_weight>1</spawn_weight>
+		<squad_progression>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_leg_ass_ambusher</human_type>
+						<weapon_type>Electrical Pulse Blast</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Name>Legion - Ambusher</Name>
-		<team>Legion</team>
+			<Name>Legion - Ambusher</Name>
+			<team>Legion</team>
 		</squad_progression>
-	<squad_progression>
-		<squad_level_1>
-			<progression_properties>
-				<squad_property>
-					<human_type>ch_leg_ass_heavy</human_type>
-					<weapon_type>Acid Thrower</weapon_type>
-					<spawn_weight>1</spawn_weight>
+		<squad_progression>
+			<squad_level_1>
+				<progression_properties>
+					<squad_property>
+						<human_type>ch_leg_ass_heavy</human_type>
+						<weapon_type>Acid Thrower</weapon_type>
+						<spawn_weight>1</spawn_weight>
 					</squad_property>
 				</progression_properties>
 			</squad_level_1>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Name>Legion - Heavy</Name>
-		<team>Legion</team>
+			<Name>Legion - Heavy</Name>
+			<team>Legion</team>
 		</squad_progression>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>squad_progression</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Unique>true</Unique>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>squad_progression</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
 		</Element>
-	<Element>
-		<Name>team</Name>
-		<Type>Reference</Type>
-		<Display_Name>Team</Display_Name>
-		<Reference>
-			<File>human_team_names.xtbl</File>
-			<Type>HumanTeamNames.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>team</Name>
+			<Type>Reference</Type>
+			<Display_Name>Team</Display_Name>
+			<Reference>
+				<File>human_team_names.xtbl</File>
+				<Type>HumanTeamNames.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>squad_level_1</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 1</Display_Name>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_1</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 1</Display_Name>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>squad_level_2</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 2</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_2</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 2</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>squad_level_3</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 3</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_3</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 3</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>squad_level_4</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 4</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_4</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 4</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>squad_level_5</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 5</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_5</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 5</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>squad_level_6</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 6</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_6</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 6</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>squad_level_7</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 7</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_7</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 7</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>squad_level_8</Name>
-		<Type>Element</Type>
-		<Display_Name>Squad Level 8</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>progression_properties</Name>
-			<Type>Grid</Type>
-			<Display_Name>Progression Properties</Display_Name>
+			<Name>squad_level_8</Name>
+			<Type>Element</Type>
+			<Display_Name>Squad Level 8</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>squad_property</Name>
-				<Type>Element</Type>
-				<Display_Name>Squad Property</Display_Name>
+				<Name>progression_properties</Name>
+				<Type>Grid</Type>
+				<Display_Name>Progression Properties</Display_Name>
 				<Element>
-					<Name>human_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Human Type</Display_Name>
-					<Reference>
-						<File>character.xtbl</File>
-						<Type>Character.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Name>squad_property</Name>
+					<Type>Element</Type>
+					<Display_Name>Squad Property</Display_Name>
+					<Element>
+						<Name>human_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Human Type</Display_Name>
+						<Reference>
+							<File>character.xtbl</File>
+							<Type>Character.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>weapon_type</Name>
-					<Type>Reference</Type>
-					<Display_Name>Loadout</Display_Name>
-					<Reference>
-						<File>squad_loadout.xtbl</File>
-						<Type>squad_loadout.Name</Type>
-						<OpenSeparate>False</OpenSeparate>
+					<Element>
+						<Name>weapon_type</Name>
+						<Type>Reference</Type>
+						<Display_Name>Loadout</Display_Name>
+						<Reference>
+							<File>squad_loadout.xtbl</File>
+							<Type>squad_loadout.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
 						</Reference>
 					</Element>
-				<Element>
-					<Name>spawn_weight</Name>
-					<Type>Int</Type>
-					<Display_Name>Spawn Weight</Display_Name>
-					<Default>1</Default>
-					<MinValue>1</MinValue>
-					<MaxValue>100000</MaxValue>
+					<Element>
+						<Name>spawn_weight</Name>
+						<Type>Int</Type>
+						<Display_Name>Spawn Weight</Display_Name>
+						<Default>1</Default>
+						<MinValue>1</MinValue>
+						<MaxValue>100000</MaxValue>
 					</Element>
 				</Element>
-			<Max_Children>8</Max_Children>
-			<Min_Children>1</Min_Children>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Max_Children>8</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

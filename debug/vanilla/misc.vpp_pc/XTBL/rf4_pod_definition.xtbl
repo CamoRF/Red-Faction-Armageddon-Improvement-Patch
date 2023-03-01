@@ -1,176 +1,172 @@
 <root>
-<Table>
-	<pod_definition>
-		<Name>Test Pod</Name>
-		<min_spawn_period>8</min_spawn_period>
-		<max_spawn_period>13</max_spawn_period>
-		<death_effect>pod_creeper_death</death_effect>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<pod_definition>
+			<Name>Test Pod</Name>
+			<min_spawn_period>8</min_spawn_period>
+			<max_spawn_period>13</max_spawn_period>
+			<death_effect>pod_creeper_death</death_effect>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<squad_def>Creeper</squad_def>
-		<max_npc_count>3</max_npc_count>
-		<linked_npc_count>5</linked_npc_count>
-		<guard_npc_count>1</guard_npc_count>
-		<min_activation_range>35.0</min_activation_range>
-		<max_activation_range>40.0</max_activation_range>
-		<start_spawn_ram_out>24</start_spawn_ram_out>
-		<end_spawn_ram_out>40</end_spawn_ram_out>
+			<squad_def>Creeper</squad_def>
+			<max_npc_count>3</max_npc_count>
+			<linked_npc_count>5</linked_npc_count>
+			<guard_npc_count>1</guard_npc_count>
+			<min_activation_range>35.0</min_activation_range>
+			<max_activation_range>40.0</max_activation_range>
+			<start_spawn_ram_out>24</start_spawn_ram_out>
+			<end_spawn_ram_out>40</end_spawn_ram_out>
 		</pod_definition>
-	<pod_definition>
-		<Name>Ball Grunt Pod</Name>
-		<min_spawn_period>10</min_spawn_period>
-		<max_spawn_period>15</max_spawn_period>
-		<death_effect>pod_creeper_death</death_effect>
-		<_Editor>
-			<Category>Entries</Category>
+		<pod_definition>
+			<Name>Ball Grunt Pod</Name>
+			<min_spawn_period>10</min_spawn_period>
+			<max_spawn_period>15</max_spawn_period>
+			<death_effect>pod_creeper_death</death_effect>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<squad_def>Grunt_Ball</squad_def>
-		<max_npc_count>3</max_npc_count>
-		<linked_npc_count>5</linked_npc_count>
-		<guard_npc_count>1</guard_npc_count>
-		<min_activation_range>35.0</min_activation_range>
-		<max_activation_range>40.0</max_activation_range>
-		<start_spawn_ram_out>30</start_spawn_ram_out>
-		<end_spawn_ram_out>50</end_spawn_ram_out>
+			<squad_def>Grunt_Ball</squad_def>
+			<max_npc_count>3</max_npc_count>
+			<linked_npc_count>5</linked_npc_count>
+			<guard_npc_count>1</guard_npc_count>
+			<min_activation_range>35.0</min_activation_range>
+			<max_activation_range>40.0</max_activation_range>
+			<start_spawn_ram_out>30</start_spawn_ram_out>
+			<end_spawn_ram_out>50</end_spawn_ram_out>
 		</pod_definition>
-	<pod_definition>
-		<Name>Grunt Pod</Name>
-		<max_npc_count>3</max_npc_count>
-		<min_spawn_period>10</min_spawn_period>
-		<max_spawn_period>15</max_spawn_period>
-		<death_effect>pod_creeper_death</death_effect>
-		<squad_def>Grunt_Quill</squad_def>
-		<_Editor>
-			<Category>Entries</Category>
+		<pod_definition>
+			<Name>Grunt Pod</Name>
+			<max_npc_count>3</max_npc_count>
+			<min_spawn_period>10</min_spawn_period>
+			<max_spawn_period>15</max_spawn_period>
+			<death_effect>pod_creeper_death</death_effect>
+			<squad_def>Grunt_Quill</squad_def>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<linked_npc_count>5</linked_npc_count>
-		<guard_npc_count>1</guard_npc_count>
-		<min_activation_range>35.0</min_activation_range>
-		<max_activation_range>40.0</max_activation_range>
-		<start_spawn_ram_out>30</start_spawn_ram_out>
-		<end_spawn_ram_out>50</end_spawn_ram_out>
+			<linked_npc_count>5</linked_npc_count>
+			<guard_npc_count>1</guard_npc_count>
+			<min_activation_range>35.0</min_activation_range>
+			<max_activation_range>40.0</max_activation_range>
+			<start_spawn_ram_out>30</start_spawn_ram_out>
+			<end_spawn_ram_out>50</end_spawn_ram_out>
 		</pod_definition>
-	<pod_definition>
-		<Name>LC Grunt Pod</Name>
-		<max_npc_count>3</max_npc_count>
-		<min_spawn_period>10</min_spawn_period>
-		<max_spawn_period>15</max_spawn_period>
-		<death_effect>pod_creeper_death</death_effect>
-		<squad_def>Grunt_Quill_LOW</squad_def>
-		<_Editor>
-			<Category>Entries</Category>
+		<pod_definition>
+			<Name>LC Grunt Pod</Name>
+			<max_npc_count>3</max_npc_count>
+			<min_spawn_period>10</min_spawn_period>
+			<max_spawn_period>15</max_spawn_period>
+			<death_effect>pod_creeper_death</death_effect>
+			<squad_def>Grunt_Quill_LOW</squad_def>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<linked_npc_count>5</linked_npc_count>
-		<guard_npc_count>1</guard_npc_count>
-		<min_activation_range>35.0</min_activation_range>
-		<max_activation_range>40.0</max_activation_range>
-		<start_spawn_ram_out>30</start_spawn_ram_out>
-		<end_spawn_ram_out>50</end_spawn_ram_out>
+			<linked_npc_count>5</linked_npc_count>
+			<guard_npc_count>1</guard_npc_count>
+			<min_activation_range>35.0</min_activation_range>
+			<max_activation_range>40.0</max_activation_range>
+			<start_spawn_ram_out>30</start_spawn_ram_out>
+			<end_spawn_ram_out>50</end_spawn_ram_out>
 		</pod_definition>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>pod_definition</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>pod_definition</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>max_npc_count</Name>
-		<Type>Int</Type>
-		<Display_Name>Maximum NPC Count</Display_Name>
-		<Default>1</Default>
-		<MinValue>1</MinValue>
-		<MaxValue>8</MaxValue>
+		<Element>
+			<Name>max_npc_count</Name>
+			<Type>Int</Type>
+			<Display_Name>Maximum NPC Count</Display_Name>
+			<Default>1</Default>
+			<MinValue>1</MinValue>
+			<MaxValue>8</MaxValue>
 		</Element>
-	<Element>
-		<Name>linked_npc_count</Name>
-		<Type>Int</Type>
-		<Display_Name>Linked NPC Count</Display_Name>
-		<Description>Maximum number of NPCs to be used when used as a part of a linked group of pods</Description>
-		<Default>1</Default>
-		<MinValue>1</MinValue>
-		<MaxValue>8</MaxValue>
+		<Element>
+			<Name>linked_npc_count</Name>
+			<Type>Int</Type>
+			<Display_Name>Linked NPC Count</Display_Name>
+			<Description>Maximum number of NPCs to be used when used as a part of a linked group of pods</Description>
+			<Default>1</Default>
+			<MinValue>1</MinValue>
+			<MaxValue>8</MaxValue>
 		</Element>
-	<Element>
-		<Name>guard_npc_count</Name>
-		<Type>Int</Type>
-		<Display_Name>Guarding NPC Count</Display_Name>
-		<Default>0</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>8</MaxValue>
+		<Element>
+			<Name>guard_npc_count</Name>
+			<Type>Int</Type>
+			<Display_Name>Guarding NPC Count</Display_Name>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>8</MaxValue>
 		</Element>
-	<Element>
-		<Name>min_spawn_period</Name>
-		<Type>Float</Type>
-		<Display_Name>Minimum Spawn Period (sec)</Display_Name>
-		<Default>0.0</Default>
+		<Element>
+			<Name>min_spawn_period</Name>
+			<Type>Float</Type>
+			<Display_Name>Minimum Spawn Period (sec)</Display_Name>
+			<Default>0.0</Default>
 		</Element>
-	<Element>
-		<Name>max_spawn_period</Name>
-		<Type>Float</Type>
-		<Display_Name>Maximum Spawn Period (sec)</Display_Name>
-		<Default>0.0</Default>
+		<Element>
+			<Name>max_spawn_period</Name>
+			<Type>Float</Type>
+			<Display_Name>Maximum Spawn Period (sec)</Display_Name>
+			<Default>0.0</Default>
 		</Element>
-	<Element>
-		<Name>death_effect</Name>
-		<Type>Reference</Type>
-		<Display_Name>Death Effect</Display_Name>
-		<Reference>
-			<File>effects.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>death_effect</Name>
+			<Type>Reference</Type>
+			<Display_Name>Death Effect</Display_Name>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>squad_def</Name>
-		<Type>Reference</Type>
-		<Display_Name>Squad Definition</Display_Name>
-		<Reference>
-			<File>squads.xtbl</File>
-			<Type>Squads.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>squad_def</Name>
+			<Type>Reference</Type>
+			<Display_Name>Squad Definition</Display_Name>
+			<Reference>
+				<File>squads.xtbl</File>
+				<Type>Squads.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>min_activation_range</Name>
-		<Type>Float</Type>
-		<Display_Name>Min Activation Range</Display_Name>
-		<Default>20.0</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>min_activation_range</Name>
+			<Type>Float</Type>
+			<Display_Name>Min Activation Range</Display_Name>
+			<Default>20.0</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Element>
-		<Name>max_activation_range</Name>
-		<Type>Float</Type>
-		<Display_Name>Max Activation Range</Display_Name>
-		<Default>30.0</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>max_activation_range</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Activation Range</Display_Name>
+			<Default>30.0</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Element>
-		<Name>start_spawn_ram_out</Name>
-		<Type>Float</Type>
-		<Display_Name>Start Spawn Ramp Out Period</Display_Name>
-		<Default>10</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>start_spawn_ram_out</Name>
+			<Type>Float</Type>
+			<Display_Name>Start Spawn Ramp Out Period</Display_Name>
+			<Default>10</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Element>
-		<Name>end_spawn_ram_out</Name>
-		<Type>Float</Type>
-		<Display_Name>End Spawn Ramp Out Period</Display_Name>
-		<Default>30</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>end_spawn_ram_out</Name>
+			<Type>Float</Type>
+			<Display_Name>End Spawn Ramp Out Period</Display_Name>
+			<Default>30</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

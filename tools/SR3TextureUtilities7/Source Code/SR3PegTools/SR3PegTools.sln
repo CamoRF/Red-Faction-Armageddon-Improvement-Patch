@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SR3RepackTextures", "SR3PegTools\SR3RepackTextures\SR3RepackTextures.vcproj", "{54D3A68B-4277-442B-A12A-3EDD4C2236A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D028A32-7AC2-461D-A8EB-9643DD34BAAC} = {5D028A32-7AC2-461D-A8EB-9643DD34BAAC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SR3UnpackTextures", "SR3PegTools\SR3UnpackTextures\SR3UnpackTextures.vcproj", "{ABEB9C02-0E27-4861-9FF8-37460D256AB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shared", "SR3PegTools\Shared\Shared.vcproj", "{5D028A32-7AC2-461D-A8EB-9643DD34BAAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SR3AddTexture", "SR3PegTools\SR3AddTexture\SR3AddTexture.vcproj", "{D87B597D-C1F4-4E6B-8412-8DA575B45FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54D3A68B-4277-442B-A12A-3EDD4C2236A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54D3A68B-4277-442B-A12A-3EDD4C2236A0}.Debug|Win32.Build.0 = Debug|Win32
+		{54D3A68B-4277-442B-A12A-3EDD4C2236A0}.Release|Win32.ActiveCfg = Release|Win32
+		{54D3A68B-4277-442B-A12A-3EDD4C2236A0}.Release|Win32.Build.0 = Release|Win32
+		{ABEB9C02-0E27-4861-9FF8-37460D256AB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABEB9C02-0E27-4861-9FF8-37460D256AB2}.Debug|Win32.Build.0 = Debug|Win32
+		{ABEB9C02-0E27-4861-9FF8-37460D256AB2}.Release|Win32.ActiveCfg = Release|Win32
+		{ABEB9C02-0E27-4861-9FF8-37460D256AB2}.Release|Win32.Build.0 = Release|Win32
+		{5D028A32-7AC2-461D-A8EB-9643DD34BAAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D028A32-7AC2-461D-A8EB-9643DD34BAAC}.Debug|Win32.Build.0 = Debug|Win32
+		{5D028A32-7AC2-461D-A8EB-9643DD34BAAC}.Release|Win32.ActiveCfg = Release|Win32
+		{5D028A32-7AC2-461D-A8EB-9643DD34BAAC}.Release|Win32.Build.0 = Release|Win32
+		{D87B597D-C1F4-4E6B-8412-8DA575B45FE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D87B597D-C1F4-4E6B-8412-8DA575B45FE4}.Debug|Win32.Build.0 = Debug|Win32
+		{D87B597D-C1F4-4E6B-8412-8DA575B45FE4}.Release|Win32.ActiveCfg = Release|Win32
+		{D87B597D-C1F4-4E6B-8412-8DA575B45FE4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

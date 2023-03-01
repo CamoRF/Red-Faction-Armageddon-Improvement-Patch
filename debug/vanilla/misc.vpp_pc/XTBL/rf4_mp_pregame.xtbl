@@ -1,387 +1,383 @@
 <root>
-<Table>
-	<pregame>
-		<Name>mp_inf01</Name>
-		<strings>
-			<display_1>MP_ALPHA_DISPLAY_1</display_1>
-			<display_2>MP_ALPHA_DISPLAY_2</display_2>
-			<display_3>MP_ALPHA_DISPLAY_3</display_3>
+	<Table>
+		<pregame>
+			<Name>mp_inf01</Name>
+			<strings>
+				<display_1>MP_ALPHA_DISPLAY_1</display_1>
+				<display_2>MP_ALPHA_DISPLAY_2</display_2>
+				<display_3>MP_ALPHA_DISPLAY_3</display_3>
 			</strings>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
 				</icon>
 			</icon_info>
 		</pregame>
-	<pregame>
-		<Name>mp_inf02</Name>
-		<strings>
-			<display_1>MP_BRAVO_DISPLAY_1</display_1>
-			<display_2>MP_BRAVO_DISPLAY_2</display_2>
-			<display_3>MP_BRAVO_DISPLAY_3</display_3>
+		<pregame>
+			<Name>mp_inf02</Name>
+			<strings>
+				<display_1>MP_BRAVO_DISPLAY_1</display_1>
+				<display_2>MP_BRAVO_DISPLAY_2</display_2>
+				<display_3>MP_BRAVO_DISPLAY_3</display_3>
 			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
 				</icon>
 			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</pregame>
-	<pregame>
-		<Name>mp_inf03</Name>
-		<strings>
-			<display_1>MP_CHARLIE_DISPLAY_1</display_1>
-			<display_2>MP_CHARLIE_DISPLAY_2</display_2>
-			<display_3>MP_CHARLIE_DISPLAY_3</display_3>
+		<pregame>
+			<Name>mp_inf03</Name>
+			<strings>
+				<display_1>MP_CHARLIE_DISPLAY_1</display_1>
+				<display_2>MP_CHARLIE_DISPLAY_2</display_2>
+				<display_3>MP_CHARLIE_DISPLAY_3</display_3>
 			</strings>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
-				</icon>
-			</icon_info>
-		</pregame>
-	<pregame>
-		<Name>mp_inf04</Name>
-		<strings>
-			<display_1>MP_DELTA_DISPLAY_1</display_1>
-			<display_2>MP_DELTA_DISPLAY_2</display_2>
-			<display_3>MP_DELTA_DISPLAY_3</display_3>
-			</strings>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
 				</icon>
 			</icon_info>
 		</pregame>
-	<pregame>
-		<Name>mp_inf05</Name>
-		<strings>
-			<display_1>MP_ECHO_DISPLAY_1</display_1>
-			<display_3>MP_ECHO_DISPLAY_3</display_3>
-			<display_2>MP_ECHO_DISPLAY_2</display_2>
+		<pregame>
+			<Name>mp_inf04</Name>
+			<strings>
+				<display_1>MP_DELTA_DISPLAY_1</display_1>
+				<display_2>MP_DELTA_DISPLAY_2</display_2>
+				<display_3>MP_DELTA_DISPLAY_3</display_3>
 			</strings>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
 				</icon>
 			</icon_info>
 		</pregame>
-	<pregame>
-		<Name>mp_inf06</Name>
-		<strings>
-			<display_1>MP_FOXTROT_DISPLAY_1</display_1>
-			<display_2>MP_FOXTROT_DISPLAY_2</display_2>
-			<display_3>MP_FOXTROT_DISPLAY_3</display_3>
+		<pregame>
+			<Name>mp_inf05</Name>
+			<strings>
+				<display_1>MP_ECHO_DISPLAY_1</display_1>
+				<display_3>MP_ECHO_DISPLAY_3</display_3>
+				<display_2>MP_ECHO_DISPLAY_2</display_2>
 			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
-				</icon>
-			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		</pregame>
-	<pregame>
-		<Name>mp_inf07</Name>
-		<strings>
-			<display_1>MP_GOLF_DISPLAY_1</display_1>
-			<display_2>MP_GOLF_DISPLAY_2</display_2>
-			<display_3>MP_GOLF_DISPLAY_3</display_3>
-			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
-				</icon>
-			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</pregame>
-	<pregame>
-		<Name>mp_inf08</Name>
-		<strings>
-			<display_1>MP_HOTEL_DISPLAY_1</display_1>
-			<display_2>MP_HOTEL_DISPLAY_2</display_2>
-			<display_3>MP_HOTEL_DISPLAY_3</display_3>
-			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
-				</icon>
-			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</pregame>
-	<pregame>
-		<Name>mp_inf08d</Name>
-		<strings>
-			<display_1>MP_HOTEL_DISPLAY_1</display_1>
-			<display_2>MP_HOTEL_DISPLAY_2</display_2>
-			<display_3>MP_HOTEL_DISPLAY_3</display_3>
-			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
-				</icon>
-			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</pregame>
-	<pregame>
-		<Name>mp_inf07d</Name>
-		<strings>
-			<display_1>MP_GOLF_DISPLAY_1</display_1>
-			<display_2>MP_GOLF_DISPLAY_2</display_2>
-			<display_3>MP_GOLF_DISPLAY_3</display_3>
-			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
-				</icon>
-			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</pregame>
-	<pregame>
-		<Name>mp_inf06d</Name>
-		<strings>
-			<display_1>MP_FOXTROT_DISPLAY_1</display_1>
-			<display_2>MP_FOXTROT_DISPLAY_2</display_2>
-			<display_3>MP_FOXTROT_DISPLAY_3</display_3>
-			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
-				</icon>
-			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</pregame>
-	<pregame>
-		<Name>mp_inf05d</Name>
-		<strings>
-			<display_1>MP_ECHO_DISPLAY_1</display_1>
-			<display_3>MP_ECHO_DISPLAY_3</display_3>
-			<display_2>MP_ECHO_DISPLAY_2</display_2>
-			</strings>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
 				</icon>
 			</icon_info>
 		</pregame>
-	<pregame>
-		<Name>mp_inf04d</Name>
-		<strings>
-			<display_1>MP_DELTA_DISPLAY_1</display_1>
-			<display_2>MP_DELTA_DISPLAY_2</display_2>
-			<display_3>MP_DELTA_DISPLAY_3</display_3>
+		<pregame>
+			<Name>mp_inf06</Name>
+			<strings>
+				<display_1>MP_FOXTROT_DISPLAY_1</display_1>
+				<display_2>MP_FOXTROT_DISPLAY_2</display_2>
+				<display_3>MP_FOXTROT_DISPLAY_3</display_3>
 			</strings>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
+				</icon>
+			</icon_info>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_kill</icon_id>
-				<short_name>MP_ICON_SURVIVE_SHORT</short_name>
-				<long_name>MP_ICON_SURVIVE_LONG</long_name>
+		</pregame>
+		<pregame>
+			<Name>mp_inf07</Name>
+			<strings>
+				<display_1>MP_GOLF_DISPLAY_1</display_1>
+				<display_2>MP_GOLF_DISPLAY_2</display_2>
+				<display_3>MP_GOLF_DISPLAY_3</display_3>
+			</strings>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
+				</icon>
+			</icon_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</pregame>
+		<pregame>
+			<Name>mp_inf08</Name>
+			<strings>
+				<display_1>MP_HOTEL_DISPLAY_1</display_1>
+				<display_2>MP_HOTEL_DISPLAY_2</display_2>
+				<display_3>MP_HOTEL_DISPLAY_3</display_3>
+			</strings>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
+				</icon>
+			</icon_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</pregame>
+		<pregame>
+			<Name>mp_inf08d</Name>
+			<strings>
+				<display_1>MP_HOTEL_DISPLAY_1</display_1>
+				<display_2>MP_HOTEL_DISPLAY_2</display_2>
+				<display_3>MP_HOTEL_DISPLAY_3</display_3>
+			</strings>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
+				</icon>
+			</icon_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</pregame>
+		<pregame>
+			<Name>mp_inf07d</Name>
+			<strings>
+				<display_1>MP_GOLF_DISPLAY_1</display_1>
+				<display_2>MP_GOLF_DISPLAY_2</display_2>
+				<display_3>MP_GOLF_DISPLAY_3</display_3>
+			</strings>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
+				</icon>
+			</icon_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</pregame>
+		<pregame>
+			<Name>mp_inf06d</Name>
+			<strings>
+				<display_1>MP_FOXTROT_DISPLAY_1</display_1>
+				<display_2>MP_FOXTROT_DISPLAY_2</display_2>
+				<display_3>MP_FOXTROT_DISPLAY_3</display_3>
+			</strings>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
+				</icon>
+			</icon_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</pregame>
+		<pregame>
+			<Name>mp_inf05d</Name>
+			<strings>
+				<display_1>MP_ECHO_DISPLAY_1</display_1>
+				<display_3>MP_ECHO_DISPLAY_3</display_3>
+				<display_2>MP_ECHO_DISPLAY_2</display_2>
+			</strings>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
 				</icon>
 			</icon_info>
 		</pregame>
-	<pregame>
-		<Name>mp_inf03d</Name>
-		<strings>
-			<display_1>MP_CHARLIE_DISPLAY_1</display_1>
-			<display_2>MP_CHARLIE_DISPLAY_2</display_2>
-			<display_3>MP_CHARLIE_DISPLAY_3</display_3>
+		<pregame>
+			<Name>mp_inf04d</Name>
+			<strings>
+				<display_1>MP_DELTA_DISPLAY_1</display_1>
+				<display_2>MP_DELTA_DISPLAY_2</display_2>
+				<display_3>MP_DELTA_DISPLAY_3</display_3>
 			</strings>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_kill</icon_id>
+					<short_name>MP_ICON_SURVIVE_SHORT</short_name>
+					<long_name>MP_ICON_SURVIVE_LONG</long_name>
 				</icon>
 			</icon_info>
 		</pregame>
-	<pregame>
-		<Name>mp_inf02d</Name>
-		<strings>
-			<display_1>MP_BRAVO_DISPLAY_1</display_1>
-			<display_2>MP_BRAVO_DISPLAY_2</display_2>
-			<display_3>MP_BRAVO_DISPLAY_3</display_3>
+		<pregame>
+			<Name>mp_inf03d</Name>
+			<strings>
+				<display_1>MP_CHARLIE_DISPLAY_1</display_1>
+				<display_2>MP_CHARLIE_DISPLAY_2</display_2>
+				<display_3>MP_CHARLIE_DISPLAY_3</display_3>
 			</strings>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
 				</icon>
 			</icon_info>
-		<_Editor>
-			<Category>Entries</Category>
+		</pregame>
+		<pregame>
+			<Name>mp_inf02d</Name>
+			<strings>
+				<display_1>MP_BRAVO_DISPLAY_1</display_1>
+				<display_2>MP_BRAVO_DISPLAY_2</display_2>
+				<display_3>MP_BRAVO_DISPLAY_3</display_3>
+			</strings>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
+				</icon>
+			</icon_info>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</pregame>
-	<pregame>
-		<Name>mp_inf01d</Name>
-		<strings>
-			<display_1>MP_ALPHA_DISPLAY_1</display_1>
-			<display_2>MP_ALPHA_DISPLAY_2</display_2>
-			<display_3>MP_ALPHA_DISPLAY_3</display_3>
+		<pregame>
+			<Name>mp_inf01d</Name>
+			<strings>
+				<display_1>MP_ALPHA_DISPLAY_1</display_1>
+				<display_2>MP_ALPHA_DISPLAY_2</display_2>
+				<display_3>MP_ALPHA_DISPLAY_3</display_3>
 			</strings>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<icon_info>
-			<icon>
-				<icon_id>map_icon_defend</icon_id>
-				<short_name>MP_ICON_DEFEND_SHORT</short_name>
-				<long_name>MP_ICON_DEFEND_LONG</long_name>
+			<icon_info>
+				<icon>
+					<icon_id>map_icon_defend</icon_id>
+					<short_name>MP_ICON_DEFEND_SHORT</short_name>
+					<long_name>MP_ICON_DEFEND_LONG</long_name>
 				</icon>
 			</icon_info>
 		</pregame>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>pregame</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>Reference</Type>
-		<Reference>
-			<File>mp_levels.xtbl</File>
-			<Type>mp_level_list.Filename</Type>
-			<OpenSeparate>False</OpenSeparate>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>pregame</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>mp_levels.xtbl</File>
+				<Type>mp_level_list.Filename</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>strings</Name>
-		<Type>Element</Type>
 		<Element>
-			<Name>display_1</Name>
-			<Type>Reference</Type>
-			<Required>false</Required>
-			<Reference>
-				<File>localized_exports\Multiplayer_text.xtbl</File>
-				<Type>Multiplayer_text_Identifier.Name</Type>
-				<OpenSeparate>False</OpenSeparate>
-				</Reference>
-			</Element>
-		<Element>
-			<Name>display_2</Name>
-			<Type>Reference</Type>
-			<Required>false</Required>
-			<Reference>
-				<File>localized_exports\Multiplayer_text.xtbl</File>
-				<Type>Multiplayer_text_Identifier.Name</Type>
-				<OpenSeparate>False</OpenSeparate>
-				</Reference>
-			</Element>
-		<Element>
-			<Name>display_3</Name>
-			<Type>Reference</Type>
-			<Required>false</Required>
-			<Reference>
-				<File>localized_exports\Multiplayer_text.xtbl</File>
-				<Type>Multiplayer_text_Identifier.Name</Type>
-				<OpenSeparate>False</OpenSeparate>
-				</Reference>
-			</Element>
-		</Element>
-	<Element>
-		<Name>icon_info</Name>
-		<Type>Grid</Type>
-		<Element>
-			<Name>icon</Name>
+			<Name>strings</Name>
 			<Type>Element</Type>
-			<Required>false</Required>
 			<Element>
-				<Name>icon_id</Name>
+				<Name>display_1</Name>
 				<Type>Reference</Type>
-				<Reference>
-					<File>bitmap_sheets.xtbl</File>
-					<Type>BitmapSheets.Images.Properties.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
-					</Reference>
-				</Element>
-			<Element>
-				<Name>short_name</Name>
-				<Type>Reference</Type>
+				<Required>false</Required>
 				<Reference>
 					<File>localized_exports\Multiplayer_text.xtbl</File>
 					<Type>Multiplayer_text_Identifier.Name</Type>
 					<OpenSeparate>False</OpenSeparate>
-					</Reference>
-				</Element>
+				</Reference>
+			</Element>
 			<Element>
-				<Name>long_name</Name>
+				<Name>display_2</Name>
 				<Type>Reference</Type>
+				<Required>false</Required>
 				<Reference>
 					<File>localized_exports\Multiplayer_text.xtbl</File>
 					<Type>Multiplayer_text_Identifier.Name</Type>
 					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>display_3</Name>
+				<Type>Reference</Type>
+				<Required>false</Required>
+				<Reference>
+					<File>localized_exports\Multiplayer_text.xtbl</File>
+					<Type>Multiplayer_text_Identifier.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+		<Element>
+			<Name>icon_info</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>icon</Name>
+				<Type>Element</Type>
+				<Required>false</Required>
+				<Element>
+					<Name>icon_id</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>bitmap_sheets.xtbl</File>
+						<Type>BitmapSheets.Images.Properties.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>short_name</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>localized_exports\Multiplayer_text.xtbl</File>
+						<Type>Multiplayer_text_Identifier.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>long_name</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>localized_exports\Multiplayer_text.xtbl</File>
+						<Type>Multiplayer_text_Identifier.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
 			</Element>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

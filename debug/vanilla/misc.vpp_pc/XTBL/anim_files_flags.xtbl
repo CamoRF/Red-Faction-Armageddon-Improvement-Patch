@@ -1,163 +1,159 @@
 <root>
-<Table>
-	<Anim_files_flags>
-		<Name>Block Rotation</Name>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Anim_files_flags>
+			<Name>Block Rotation</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<XML_Name>Block_Rotation</XML_Name>
+			<XML_Name>Block_Rotation</XML_Name>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Block Movement</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Block Movement</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<XML_Name>Block_Movement</XML_Name>
+			<XML_Name>Block_Movement</XML_Name>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Transition Action</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Transition Action</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<XML_Name>Transition_Action</XML_Name>
+			<XML_Name>Transition_Action</XML_Name>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Zero Input</Name>
-		<XML_Name>Zero_Input</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Female Root Offset</Name>
-		<XML_Name>Female_Root_Offset</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Zero Input</Name>
+			<XML_Name>Zero_Input</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>No Interpolation</Name>
-		<XML_Name>No_Interpolation</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Female Root Offset</Name>
+			<XML_Name>Female_Root_Offset</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>No Spinebending</Name>
-		<XML_Name>No_Spinebending</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>No Interpolation</Name>
+			<XML_Name>No_Interpolation</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Animation Driven Movement</Name>
-		<XML_Name>Anim_Movement</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>No Spinebending</Name>
+			<XML_Name>No_Spinebending</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Additive</Name>
-		<XML_Name>Additive</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Animation Driven Movement</Name>
+			<XML_Name>Anim_Movement</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Apply Controller Rotation</Name>
-		<XML_Name>Apply_Controller_Rotation</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Additive</Name>
+			<XML_Name>Additive</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>End On Left Foot</Name>
-		<XML_Name>End_On_Left_Foot</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Apply Controller Rotation</Name>
+			<XML_Name>Apply_Controller_Rotation</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>End On Right Foot</Name>
-		<XML_Name>End_On_Right_Foot</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>End On Left Foot</Name>
+			<XML_Name>End_On_Left_Foot</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Start On Left Foot</Name>
-		<XML_Name>Start_On_Left_Foot</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>End On Right Foot</Name>
+			<XML_Name>End_On_Right_Foot</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Start On Right Foot</Name>
-		<XML_Name>Start_On_Right_Foot</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Start On Left Foot</Name>
+			<XML_Name>Start_On_Left_Foot</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Override IK Triggers</Name>
-		<XML_Name>Override_IK_Triggers</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Start On Right Foot</Name>
+			<XML_Name>Start_On_Right_Foot</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Highest Priority</Name>
-		<XML_Name>Highest_Priority</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Override IK Triggers</Name>
+			<XML_Name>Override_IK_Triggers</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Full Bone Weighting</Name>
-		<XML_Name>Full_Bone_Weighting</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Highest Priority</Name>
+			<XML_Name>Highest_Priority</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Anim_files_flags</Name>
-		<XML_Name>Block NPC Speed</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Full Bone Weighting</Name>
+			<XML_Name>Full_Bone_Weighting</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
-	<Anim_files_flags>
-		<Name>Ignore Movement</Name>
-		<XML_Name>Ignore_Movement</XML_Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Anim_files_flags>
+			<Name>Anim_files_flags</Name>
+			<XML_Name>Block NPC Speed</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Ignore Movement</Name>
+			<XML_Name>Ignore_Movement</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Anim_files_flags>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Anim_files_flags</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Description>Display name shown in animation editor</Description>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Anim_files_flags</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Display name shown in animation editor</Description>
 		</Element>
-	<Element>
-		<Name>XML_Name</Name>
-		<Type>String</Type>
-		<Display_Name>XML Name</Display_Name>
-		<Description>Flag name saved to xml file</Description>
+		<Element>
+			<Name>XML_Name</Name>
+			<Type>String</Type>
+			<Display_Name>XML Name</Display_Name>
+			<Description>Flag name saved to xml file</Description>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

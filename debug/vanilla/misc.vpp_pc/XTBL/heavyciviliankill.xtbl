@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,43 +30,43 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>hvy</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>moment_heavy_gambit</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wkr1</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wkr2</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wrk3</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_civ_ass_midfem01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>fem</Name>
 					<maxHandle>6</maxHandle>
 					<CharMesh>ch_civ_ass_uppfem01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -76,10 +76,10 @@
 						<X>-83.5177</X>
 						<Y>-9.4491</Y>
 						<Z>-2.4437</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -95,7 +95,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_pc__5.animx</Filename>
@@ -104,9 +104,9 @@
 									<EndFrame>78</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>78</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hvy</Name>
 							<maxHandle>2</maxHandle>
@@ -114,7 +114,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_hvy__5.animx</Filename>
@@ -123,9 +123,9 @@
 									<EndFrame>78</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>78</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr1</Name>
 							<maxHandle>3</maxHandle>
@@ -133,7 +133,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr1__5.animx</Filename>
@@ -142,9 +142,9 @@
 									<EndFrame>78</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>78</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr2</Name>
 							<maxHandle>4</maxHandle>
@@ -152,7 +152,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr2__5.animx</Filename>
@@ -161,9 +161,9 @@
 									<EndFrame>78</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>78</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrk3</Name>
 							<maxHandle>5</maxHandle>
@@ -171,7 +171,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wrk3__5.animx</Filename>
@@ -180,9 +180,9 @@
 									<EndFrame>78</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>78</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>fem</Name>
 							<maxHandle>6</maxHandle>
@@ -190,7 +190,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_fem__5.animx</Filename>
@@ -199,13 +199,13 @@
 									<EndFrame>78</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>78</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>78</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam05__10</Name>
 					<SlateName>Location01</SlateName>
@@ -219,7 +219,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_pc__10.animx</Filename>
@@ -228,9 +228,9 @@
 									<EndFrame>83</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>83</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hvy</Name>
 							<maxHandle>2</maxHandle>
@@ -238,7 +238,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_hvy__10.animx</Filename>
@@ -247,9 +247,9 @@
 									<EndFrame>83</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>83</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr1</Name>
 							<maxHandle>3</maxHandle>
@@ -257,7 +257,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr1__10.animx</Filename>
@@ -266,9 +266,9 @@
 									<EndFrame>83</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>83</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr2</Name>
 							<maxHandle>4</maxHandle>
@@ -276,7 +276,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr2__10.animx</Filename>
@@ -285,9 +285,9 @@
 									<EndFrame>83</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>83</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrk3</Name>
 							<maxHandle>5</maxHandle>
@@ -295,7 +295,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wrk3__10.animx</Filename>
@@ -304,9 +304,9 @@
 									<EndFrame>83</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>83</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>fem</Name>
 							<maxHandle>6</maxHandle>
@@ -314,7 +314,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_fem__10.animx</Filename>
@@ -323,13 +323,13 @@
 									<EndFrame>83</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>83</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>83</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam02__6</Name>
 					<SlateName>Location01</SlateName>
@@ -343,7 +343,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_pc__6.animx</Filename>
@@ -352,9 +352,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hvy</Name>
 							<maxHandle>2</maxHandle>
@@ -362,7 +362,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_hvy__6.animx</Filename>
@@ -371,9 +371,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr1</Name>
 							<maxHandle>3</maxHandle>
@@ -381,7 +381,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr1__6.animx</Filename>
@@ -390,9 +390,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr2</Name>
 							<maxHandle>4</maxHandle>
@@ -400,7 +400,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr2__6.animx</Filename>
@@ -409,9 +409,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrk3</Name>
 							<maxHandle>5</maxHandle>
@@ -419,7 +419,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wrk3__6.animx</Filename>
@@ -428,9 +428,9 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>fem</Name>
 							<maxHandle>6</maxHandle>
@@ -438,7 +438,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_fem__6.animx</Filename>
@@ -447,13 +447,13 @@
 									<EndFrame>40</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>40</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>40</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-v_cam03__7</Name>
 					<SlateName>Location01</SlateName>
@@ -467,7 +467,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_pc__7.animx</Filename>
@@ -476,9 +476,9 @@
 									<EndFrame>64</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>64</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hvy</Name>
 							<maxHandle>2</maxHandle>
@@ -486,7 +486,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_hvy__7.animx</Filename>
@@ -495,9 +495,9 @@
 									<EndFrame>64</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>64</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr1</Name>
 							<maxHandle>3</maxHandle>
@@ -505,7 +505,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr1__7.animx</Filename>
@@ -514,9 +514,9 @@
 									<EndFrame>64</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>64</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr2</Name>
 							<maxHandle>4</maxHandle>
@@ -524,7 +524,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr2__7.animx</Filename>
@@ -533,9 +533,9 @@
 									<EndFrame>64</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>64</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrk3</Name>
 							<maxHandle>5</maxHandle>
@@ -543,7 +543,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wrk3__7.animx</Filename>
@@ -552,9 +552,9 @@
 									<EndFrame>64</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>64</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>fem</Name>
 							<maxHandle>6</maxHandle>
@@ -562,7 +562,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_fem__7.animx</Filename>
@@ -571,13 +571,13 @@
 									<EndFrame>64</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>64</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>64</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-v_cam04__8</Name>
 					<SlateName>Location01</SlateName>
@@ -591,7 +591,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_pc__8.animx</Filename>
@@ -600,9 +600,9 @@
 									<EndFrame>181</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>181</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hvy</Name>
 							<maxHandle>2</maxHandle>
@@ -610,7 +610,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_hvy__8.animx</Filename>
@@ -619,9 +619,9 @@
 									<EndFrame>181</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>181</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr1</Name>
 							<maxHandle>3</maxHandle>
@@ -629,7 +629,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr1__8.animx</Filename>
@@ -638,9 +638,9 @@
 									<EndFrame>181</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>181</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wkr2</Name>
 							<maxHandle>4</maxHandle>
@@ -648,7 +648,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wkr2__8.animx</Filename>
@@ -657,9 +657,9 @@
 									<EndFrame>181</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>181</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrk3</Name>
 							<maxHandle>5</maxHandle>
@@ -667,7 +667,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_wrk3__8.animx</Filename>
@@ -676,9 +676,9 @@
 									<EndFrame>181</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>181</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>fem</Name>
 							<maxHandle>6</maxHandle>
@@ -686,7 +686,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/quest01/HeavyCivilianKill/HeavyCivilianKill_fem__8.animx</Filename>
@@ -695,15 +695,15 @@
 									<EndFrame>181</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>181</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>181</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

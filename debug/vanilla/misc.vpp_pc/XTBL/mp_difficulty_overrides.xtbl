@@ -1,102 +1,98 @@
 <root>
-<Table>
-	<Difficulty>
-		<Name>Difficulty</Name>
-		<Difficulty_Items>
-			<Item>
-				<Name>MENU_ENEMY_DAMAGE_TAKEN</Name>
-				<Easy>1.44</Easy>
-				<Medium>1</Medium>
-				<Hard>.75</Hard>
-				<Insane>.50</Insane>
+	<Table>
+		<Difficulty>
+			<Name>Difficulty</Name>
+			<Difficulty_Items>
+				<Item>
+					<Name>MENU_ENEMY_DAMAGE_TAKEN</Name>
+					<Easy>1.44</Easy>
+					<Medium>1</Medium>
+					<Hard>.75</Hard>
+					<Insane>.50</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
-				<Easy>.58</Easy>
-				<Medium>1</Medium>
-				<Hard>1.5</Hard>
-				<Insane>2</Insane>
+				<Item>
+					<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
+					<Easy>.58</Easy>
+					<Medium>1</Medium>
+					<Hard>1.5</Hard>
+					<Insane>2</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_MP_WAVE_SALVAGE_MULTIPLIER</Name>
-				<Easy>0.66</Easy>
-				<Medium>1</Medium>
-				<Hard>1.2</Hard>
-				<Insane>1.4</Insane>
+				<Item>
+					<Name>MENU_MP_WAVE_SALVAGE_MULTIPLIER</Name>
+					<Easy>0.66</Easy>
+					<Medium>1</Medium>
+					<Hard>1.2</Hard>
+					<Insane>1.4</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
-				<Easy>0</Easy>
-				<Medium>0</Medium>
-				<Hard>0</Hard>
-				<Insane>0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
+					<Easy>0</Easy>
+					<Medium>0</Medium>
+					<Hard>0</Hard>
+					<Insane>0</Insane>
 				</Item>
 			</Difficulty_Items>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Difficulty>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Difficulty</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		</Element>
-	<Element>
-		<Name>Difficulty_Items</Name>
-		<Type>Grid</Type>
-		<Display_Name>Difficulty Items</Display_Name>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Difficulty</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>Item</Name>
-			<Type>Element</Type>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Difficulty_Items</Name>
+			<Type>Grid</Type>
+			<Display_Name>Difficulty Items</Display_Name>
 			<Element>
-				<Name>Name</Name>
-				<Type>Reference</Type>
-				<Reference>
-					<File>difficulty.xtbl</File>
-					<Type>Difficulty.Difficulty_Items.Item.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
+				<Name>Item</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Name</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>difficulty.xtbl</File>
+						<Type>Difficulty.Difficulty_Items.Item.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
-			<Element>
-				<Name>Easy</Name>
-				<Type>Float</Type>
-				<Required>false</Required>
-				<Default>0.8</Default>
+				<Element>
+					<Name>Easy</Name>
+					<Type>Float</Type>
+					<Required>false</Required>
+					<Default>0.8</Default>
 				</Element>
-			<Element>
-				<Name>Medium</Name>
-				<Type>Float</Type>
-				<Required>false</Required>
-				<Default>1.0</Default>
+				<Element>
+					<Name>Medium</Name>
+					<Type>Float</Type>
+					<Required>false</Required>
+					<Default>1.0</Default>
 				</Element>
-			<Element>
-				<Name>Hard</Name>
-				<Type>Float</Type>
-				<Required>false</Required>
-				<Default>1.2</Default>
+				<Element>
+					<Name>Hard</Name>
+					<Type>Float</Type>
+					<Required>false</Required>
+					<Default>1.2</Default>
 				</Element>
-			<Element>
-				<Name>Insane</Name>
-				<Type>Float</Type>
-				<Required>false</Required>
-				<Default>1.0</Default>
+				<Element>
+					<Name>Insane</Name>
+					<Type>Float</Type>
+					<Required>false</Required>
+					<Default>1.0</Default>
 				</Element>
 			</Element>
-		<Num_Display_Rows>20</Num_Display_Rows>
+			<Num_Display_Rows>20</Num_Display_Rows>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

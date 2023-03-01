@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/M07_CS_06/M07_CS_06.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -34,10 +34,10 @@
 						<X>7.3157</X>
 						<Y>64.3408</Y>
 						<Z>66.8414</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -47,7 +47,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>89</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-s030__7</Name>
 					<SlateName>Location01</SlateName>
@@ -55,7 +55,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>141</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-s040__15</Name>
 					<SlateName>Location01</SlateName>
@@ -63,7 +63,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>110</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-s050__16</Name>
 					<SlateName>Location01</SlateName>
@@ -71,7 +71,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>76</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-s060__14</Name>
 					<SlateName>Location01</SlateName>
@@ -79,7 +79,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>29</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_6-s070__8</Name>
 					<SlateName>Location01</SlateName>
@@ -87,7 +87,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>28</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_7-s080__9</Name>
 					<SlateName>Location01</SlateName>
@@ -95,7 +95,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>72</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_8-s090__10</Name>
 					<SlateName>Location01</SlateName>
@@ -103,7 +103,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>54</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_9-s100__11</Name>
 					<SlateName>Location01</SlateName>
@@ -111,7 +111,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>46</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_10-s110__1</Name>
 					<SlateName>Location01</SlateName>
@@ -119,7 +119,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>179</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_11-s130__2</Name>
 					<SlateName>Location01</SlateName>
@@ -127,7 +127,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>48</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_12-s141__4</Name>
 					<SlateName>Location01</SlateName>
@@ -135,7 +135,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>53</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_13-s151__5</Name>
 					<SlateName>Location01</SlateName>
@@ -143,7 +143,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>63</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_14-s160__3</Name>
 					<SlateName>Location01</SlateName>
@@ -151,7 +151,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>80</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_15-s170__12</Name>
 					<SlateName>Location01</SlateName>
@@ -159,7 +159,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>125</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_16-s180__13</Name>
 					<SlateName>Location01</SlateName>
@@ -167,9 +167,9 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>172</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

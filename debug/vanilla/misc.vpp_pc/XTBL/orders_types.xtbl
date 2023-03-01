@@ -1,210 +1,206 @@
 <root>
-<Table>
-	<orders_type>
-		<Name>Defend</Name>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<orders_type>
+			<Name>Defend</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Attack</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Attack</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Fodder</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Fodder</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Wait</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Wait</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Roadblock</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Roadblock</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Trapped</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Trapped</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Trapped Jail</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Trapped Jail</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Patrol</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Patrol</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Ambient Action</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Ambient Action</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Ambient Ped</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Ambient Ped</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Level Building</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Level Building</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Flee Route</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Flee Route</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Gondola Ride</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Gondola Ride</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Scripted Scene</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Scripted Scene</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Ambush Leap</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Ambush Leap</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Standard</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Standard</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Ambush Ground</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Ambush Ground</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Immediate Attack</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Immediate Attack</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Man Autoturret</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Man Autoturret</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Corpse</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Corpse</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Patrol Convoy</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Patrol Convoy</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>LC Stationary</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>LC Stationary</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>LC No Leap</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>LC No Leap</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Stalk</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Stalk</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Restricted Support</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Restricted Support</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Move Attack</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Move Attack</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Use Cover</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Use Cover</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Use Turret</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Use Turret</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Chase and Shoot</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Chase and Shoot</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Shardstorm Attack</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Shardstorm Attack</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
-	<orders_type>
-		<Name>Walker Stationary</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<orders_type>
+			<Name>Walker Stationary</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</orders_type>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>orders_type</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Unique>true</Unique>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>orders_type</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

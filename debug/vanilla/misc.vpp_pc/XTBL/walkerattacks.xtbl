@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/WalkerAttacks/WalkerAttacks.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -34,10 +34,10 @@
 						<X>52.6646</X>
 						<Y>10.1488</Y>
 						<Z>22.1672</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -47,7 +47,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>62</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__2</Name>
 					<SlateName>Location01</SlateName>
@@ -55,7 +55,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>35</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__3</Name>
 					<SlateName>Location01</SlateName>
@@ -63,9 +63,9 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>51</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

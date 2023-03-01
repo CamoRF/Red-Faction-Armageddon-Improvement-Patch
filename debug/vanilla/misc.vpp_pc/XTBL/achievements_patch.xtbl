@@ -1,310 +1,306 @@
 <root>
-<Table>
-	<Achievement>
-		<Name>Air Superiority</Name>
-		<DisplayName>DLC04_ACH_M1_COMP_TITLE</DisplayName>
-		<Description>DLC04_ACH_M1_COMP_DESC</Description>
-		<ImageName>ui_ach_dlc_air_superiority</ImageName>
-		<DisplayPosition>48</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Achievement>
+			<Name>Air Superiority</Name>
+			<DisplayName>DLC04_ACH_M1_COMP_TITLE</DisplayName>
+			<Description>DLC04_ACH_M1_COMP_DESC</Description>
+			<ImageName>ui_ach_dlc_air_superiority</ImageName>
+			<DisplayPosition>48</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>False</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<dlc_id>4</dlc_id>
+			<DisplayProgress>False</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Bird of Prey</Name>
-		<DisplayName>DLC04_ACH_NO_ESCAPE_TITLE</DisplayName>
-		<Description>DLC04_ACH_NO_ESCAPE_DESC</Description>
-		<ImageName>ui_ach_dlc_bird_of_prey</ImageName>
-		<DisplayPosition>49</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Bird of Prey</Name>
+			<DisplayName>DLC04_ACH_NO_ESCAPE_TITLE</DisplayName>
+			<Description>DLC04_ACH_NO_ESCAPE_DESC</Description>
+			<ImageName>ui_ach_dlc_bird_of_prey</ImageName>
+			<DisplayPosition>49</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>False</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<dlc_id>4</dlc_id>
+			<DisplayProgress>False</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Swath of Destruction</Name>
-		<DisplayName>DLC04_ACH_M2_COMP_TITLE</DisplayName>
-		<Description>DLC04_ACH_M2_COMP_DESC</Description>
-		<ImageName>ui_ach_dlc_swath_of_dest</ImageName>
-		<DisplayPosition>50</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Swath of Destruction</Name>
+			<DisplayName>DLC04_ACH_M2_COMP_TITLE</DisplayName>
+			<Description>DLC04_ACH_M2_COMP_DESC</Description>
+			<ImageName>ui_ach_dlc_swath_of_dest</ImageName>
+			<DisplayPosition>50</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>False</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<dlc_id>4</dlc_id>
+			<DisplayProgress>False</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Armored Cavalry</Name>
-		<DisplayName>DLC04_ACH_RESCUE_TITLE</DisplayName>
-		<Description>DLC04_ACH_RESCUE_DESC</Description>
-		<ImageName>ui_ach_dlc_armored_cavalry</ImageName>
-		<DisplayPosition>51</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Armored Cavalry</Name>
+			<DisplayName>DLC04_ACH_RESCUE_TITLE</DisplayName>
+			<Description>DLC04_ACH_RESCUE_DESC</Description>
+			<ImageName>ui_ach_dlc_armored_cavalry</ImageName>
+			<DisplayPosition>51</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>False</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<dlc_id>4</dlc_id>
+			<DisplayProgress>False</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Nuke It from Orbit</Name>
-		<DisplayName>DLC04_ACH_M3_COMP_TITLE</DisplayName>
-		<Description>DLC04_ACH_M3_COMP_DESC</Description>
-		<ImageName>ui_ach_dlc_nuke_it_orbit</ImageName>
-		<DisplayPosition>52</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Nuke It from Orbit</Name>
+			<DisplayName>DLC04_ACH_M3_COMP_TITLE</DisplayName>
+			<Description>DLC04_ACH_M3_COMP_DESC</Description>
+			<ImageName>ui_ach_dlc_nuke_it_orbit</ImageName>
+			<DisplayPosition>52</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>False</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<dlc_id>4</dlc_id>
+			<DisplayProgress>False</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Wrecking Ball</Name>
-		<DisplayName>DLC04_ACH_STORM_KILLS_TITLE</DisplayName>
-		<Description>DLC04_ACH_STORM_KILLS_DESC</Description>
-		<ImageName>ui_ach_dlc_wrecking_ball</ImageName>
-		<DisplayPosition>53</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Wrecking Ball</Name>
+			<DisplayName>DLC04_ACH_STORM_KILLS_TITLE</DisplayName>
+			<Description>DLC04_ACH_STORM_KILLS_DESC</Description>
+			<ImageName>ui_ach_dlc_wrecking_ball</ImageName>
+			<DisplayPosition>53</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>True</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<Requirements>
-			<Requirement>
-				<Stat>kills with weapon shard storm</Stat>
-				<Condition>at least</Condition>
-				<Value>20</Value>
+			<DisplayProgress>True</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<Requirements>
+				<Requirement>
+					<Stat>kills with weapon shard storm</Stat>
+					<Condition>at least</Condition>
+					<Value>20</Value>
 				</Requirement>
 			</Requirements>
-		<dlc_id>4</dlc_id>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>A Taste of their Own</Name>
-		<DisplayName>DLC04_ACH_TURRET_KILLS_TITLE</DisplayName>
-		<Description>DLC04_ACH_TURRET_KILLS_DESC</Description>
-		<ImageName>ui_ach_dlc_taste_of</ImageName>
-		<DisplayPosition>54</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>A Taste of their Own</Name>
+			<DisplayName>DLC04_ACH_TURRET_KILLS_TITLE</DisplayName>
+			<Description>DLC04_ACH_TURRET_KILLS_DESC</Description>
+			<ImageName>ui_ach_dlc_taste_of</ImageName>
+			<DisplayPosition>54</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>True</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<Requirements>
-			<Requirement>
-				<Stat>kills with weapon mar burst turret</Stat>
-				<Condition>at least</Condition>
-				<Value>10</Value>
+			<DisplayProgress>True</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<Requirements>
+				<Requirement>
+					<Stat>kills with weapon mar burst turret</Stat>
+					<Condition>at least</Condition>
+					<Value>10</Value>
 				</Requirement>
 			</Requirements>
-		<dlc_id>4</dlc_id>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Triple Threat</Name>
-		<DisplayName>DLC04_ACH_M4_COMP_TITLE</DisplayName>
-		<Description>DLC04_ACH_M4_COMP_DESC</Description>
-		<ImageName>ui_ach_dlc_triple_t</ImageName>
-		<DisplayPosition>55</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Triple Threat</Name>
+			<DisplayName>DLC04_ACH_M4_COMP_TITLE</DisplayName>
+			<Description>DLC04_ACH_M4_COMP_DESC</Description>
+			<ImageName>ui_ach_dlc_triple_t</ImageName>
+			<DisplayPosition>55</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>False</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<dlc_id>4</dlc_id>
+			<DisplayProgress>False</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Stick Around</Name>
-		<DisplayName>DLC04_ACH_SHARP_KILLS_TITLE</DisplayName>
-		<Description>DLC04_ACH_SHARP_KILLS_DESC</Description>
-		<ImageName>ui_ach_dlc_stick_around</ImageName>
-		<DisplayPosition>56</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Stick Around</Name>
+			<DisplayName>DLC04_ACH_SHARP_KILLS_TITLE</DisplayName>
+			<Description>DLC04_ACH_SHARP_KILLS_DESC</Description>
+			<ImageName>ui_ach_dlc_stick_around</ImageName>
+			<DisplayPosition>56</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<DisplayProgress>True</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<Requirements>
-			<Requirement>
-				<Stat>kills with weapon sharpshooter</Stat>
-				<Condition>at least</Condition>
-				<Value>20</Value>
+			<DisplayProgress>True</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<Requirements>
+				<Requirement>
+					<Stat>kills with weapon sharpshooter</Stat>
+					<Condition>at least</Condition>
+					<Value>20</Value>
 				</Requirement>
 			</Requirements>
-		<dlc_id>4</dlc_id>
+			<dlc_id>4</dlc_id>
 		</Achievement>
-	<Achievement>
-		<Name>Full of Malice</Name>
-		<DisplayName>DLC04_ACH_FULL_OF_MALICE_TITLE</DisplayName>
-		<Description>DLC04_ACH_FULL_OF_MALICE_DESC</Description>
-		<ImageName>ui_ach_dlc_full_of_malice</ImageName>
-		<DisplayPosition>57</DisplayPosition>
-		<Unlocks_Cheat>False</Unlocks_Cheat>
-		<HudUpdateFrequency>0</HudUpdateFrequency>
-		<DisplayProgress>True</DisplayProgress>
-		<HideUntilComplete>False</HideUntilComplete>
-		<_Editor>
-			<Category>Entries</Category>
+		<Achievement>
+			<Name>Full of Malice</Name>
+			<DisplayName>DLC04_ACH_FULL_OF_MALICE_TITLE</DisplayName>
+			<Description>DLC04_ACH_FULL_OF_MALICE_DESC</Description>
+			<ImageName>ui_ach_dlc_full_of_malice</ImageName>
+			<DisplayPosition>57</DisplayPosition>
+			<Unlocks_Cheat>False</Unlocks_Cheat>
+			<HudUpdateFrequency>0</HudUpdateFrequency>
+			<DisplayProgress>True</DisplayProgress>
+			<HideUntilComplete>False</HideUntilComplete>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<dlc_id>4</dlc_id>
+			<dlc_id>4</dlc_id>
 		</Achievement>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Achievement</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		</Element>
-	<Element>
-		<Name>DisplayName</Name>
-		<Type>Reference</Type>
-		<Display_Name>Display Name</Display_Name>
-		<Description>Display name for the achievement.</Description>
-		<Reference>
-			<File>localized_exports\patch_text.xtbl</File>
-			<Type>Patch_Identifier.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
-			</Reference>
-		</Element>
-	<Element>
-		<Name>Description</Name>
-		<Type>Reference</Type>
-		<Reference>
-			<File>localized_exports\patch_text.xtbl</File>
-			<Type>Patch_Identifier.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
-			</Reference>
-		</Element>
-	<Element>
-		<Name>ImageName</Name>
-		<Type>String</Type>
-		<Display_Name>Image Name</Display_Name>
-		</Element>
-	<Element>
-		<Name>DisplayPosition</Name>
-		<Type>Int</Type>
-		<Display_Name>Display Position</Display_Name>
-		<Description>Determines where in the stats page that this achievement will be displayed.</Description>
-		<Unique>true</Unique>
-		<Default>0</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>59</MaxValue>
-		</Element>
-	<Element>
-		<Name>dlc_id</Name>
-		<Type>Int</Type>
-		<Display_Name>DLC ID</Display_Name>
-		<Description>Is this achievement associated with a specific DLC pack.</Description>
-		<Required>false</Required>
-		<Default>-1</Default>
-		</Element>
-	<Element>
-		<Name>Unlocks_Cheat</Name>
-		<Type>Selection</Type>
-		<Display_Name>Unlocks Cheat</Display_Name>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
-		</Element>
-	<Element>
-		<Name>HudUpdateFrequency</Name>
-		<Type>Selection</Type>
-		<Display_Name>HUD Update Frequency</Display_Name>
-		<Description>Frequency at which the HUD updates progress towards the achievement for tracked stats, i.e. every 1 / 5 / 10 / etc. (0 means no update)</Description>
-		<Default>1</Default>
-		<Choice>0</Choice>
-		<Choice>1</Choice>
-		<Choice>5</Choice>
-		<Choice>10</Choice>
-		<Choice>50</Choice>
-		<Choice>100</Choice>
-		<Choice>500</Choice>
-		</Element>
-	<Element>
-		<Name>DisplayProgress</Name>
-		<Type>Selection</Type>
-		<Display_Name>Display Progress</Display_Name>
-		<Description>Display the progress in interface as a ratio if the achievement is not on/off (makes no difference to on/off achievements).  NOTE: Will disable HUD updates if off.</Description>
-		<Default>True</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
-		</Element>
-	<Element>
-		<Name>HideUntilComplete</Name>
-		<Type>Selection</Type>
-		<Display_Name>Hide Until Complete</Display_Name>
-		<Description>Achievement doesn't display in the interface at all until it's complete.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
-		</Element>
-	<Element>
-		<Name>Requirements</Name>
-		<Type>Grid</Type>
-		<Required>false</Required>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Achievement</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>Requirement</Name>
-			<Type>Element</Type>
-			<Description>Required value for this stat, relative to the selected condition.</Description>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>DisplayName</Name>
+			<Type>Reference</Type>
+			<Display_Name>Display Name</Display_Name>
+			<Description>Display name for the achievement.</Description>
+			<Reference>
+				<File>localized_exports\patch_text.xtbl</File>
+				<Type>Patch_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Description</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>localized_exports\patch_text.xtbl</File>
+				<Type>Patch_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>ImageName</Name>
+			<Type>String</Type>
+			<Display_Name>Image Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>DisplayPosition</Name>
+			<Type>Int</Type>
+			<Display_Name>Display Position</Display_Name>
+			<Description>Determines where in the stats page that this achievement will be displayed.</Description>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>59</MaxValue>
+		</Element>
+		<Element>
+			<Name>dlc_id</Name>
+			<Type>Int</Type>
+			<Display_Name>DLC ID</Display_Name>
+			<Description>Is this achievement associated with a specific DLC pack.</Description>
+			<Required>false</Required>
+			<Default>-1</Default>
+		</Element>
+		<Element>
+			<Name>Unlocks_Cheat</Name>
+			<Type>Selection</Type>
+			<Display_Name>Unlocks Cheat</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>HudUpdateFrequency</Name>
+			<Type>Selection</Type>
+			<Display_Name>HUD Update Frequency</Display_Name>
+			<Description>Frequency at which the HUD updates progress towards the achievement for tracked stats, i.e. every 1 / 5 / 10 / etc. (0 means no update)</Description>
+			<Default>1</Default>
+			<Choice>0</Choice>
+			<Choice>1</Choice>
+			<Choice>5</Choice>
+			<Choice>10</Choice>
+			<Choice>50</Choice>
+			<Choice>100</Choice>
+			<Choice>500</Choice>
+		</Element>
+		<Element>
+			<Name>DisplayProgress</Name>
+			<Type>Selection</Type>
+			<Display_Name>Display Progress</Display_Name>
+			<Description>Display the progress in interface as a ratio if the achievement is not on/off (makes no difference to on/off achievements).  NOTE: Will disable HUD updates if off.</Description>
+			<Default>True</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>HideUntilComplete</Name>
+			<Type>Selection</Type>
+			<Display_Name>Hide Until Complete</Display_Name>
+			<Description>Achievement doesn't display in the interface at all until it's complete.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Requirements</Name>
+			<Type>Grid</Type>
+			<Required>false</Required>
 			<Element>
-				<Name>Stat</Name>
-				<Type>Reference</Type>
-				<Description>Statistic required for this achievement.</Description>
-				<Reference>
-					<File>stats.xtbl</File>
-					<Type>Stat.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
+				<Name>Requirement</Name>
+				<Type>Element</Type>
+				<Description>Required value for this stat, relative to the selected condition.</Description>
+				<Element>
+					<Name>Stat</Name>
+					<Type>Reference</Type>
+					<Description>Statistic required for this achievement.</Description>
+					<Reference>
+						<File>stats.xtbl</File>
+						<Type>Stat.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
-			<Element>
-				<Name>Condition</Name>
-				<Type>Selection</Type>
-				<Default>at least</Default>
-				<Choice>at least</Choice>
-				<Choice>at most</Choice>
+				<Element>
+					<Name>Condition</Name>
+					<Type>Selection</Type>
+					<Default>at least</Default>
+					<Choice>at least</Choice>
+					<Choice>at most</Choice>
 				</Element>
-			<Element>
-				<Name>Value</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
+				<Element>
+					<Name>Value</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
 				</Element>
 			</Element>
-		<Num_Display_Rows>40</Num_Display_Rows>
+			<Num_Display_Rows>40</Num_Display_Rows>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

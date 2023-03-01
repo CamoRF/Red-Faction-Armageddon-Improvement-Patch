@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -31,22 +31,22 @@
 					<CharMesh>Faux_LAV</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>lav2</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>Faux_LAV</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>lav3</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>Faux_LAV</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -56,10 +56,10 @@
 						<X>47.4785</X>
 						<Y>29.5138</Y>
 						<Z>63.775</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -74,7 +74,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav1__5.animx</Filename>
@@ -83,9 +83,9 @@
 									<EndFrame>118</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>118</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav2</Name>
 							<maxHandle>2</maxHandle>
@@ -93,7 +93,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav2__5.animx</Filename>
@@ -102,9 +102,9 @@
 									<EndFrame>118</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>118</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav3</Name>
 							<maxHandle>3</maxHandle>
@@ -112,7 +112,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav3__5.animx</Filename>
@@ -121,10 +121,10 @@
 									<EndFrame>118</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>118</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>118</DefinedShotLength>
 					<CSEffects>
@@ -135,13 +135,13 @@
 								<X>-9.3559</X>
 								<Y>0.4584</Y>
 								<Z>9.4402</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>5</ShotStartFrame>
 							<ShotEndFrame>118</ShotEndFrame>
 							<Looping>true</Looping>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>env_grnd_fog_neutral</Name>
 							<maxHandle>2733</maxHandle>
@@ -149,13 +149,13 @@
 								<X>-74.6095</X>
 								<Y>2.4861</Y>
 								<Z>14.3621</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>5</ShotStartFrame>
 							<ShotEndFrame>118</ShotEndFrame>
 							<Looping>true</Looping>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>env_grnd_fog_neutral</Name>
 							<maxHandle>2734</maxHandle>
@@ -163,15 +163,15 @@
 								<X>-35.8842</X>
 								<Y>2.4861</Y>
 								<Z>11.7403</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>5</ShotStartFrame>
 							<ShotEndFrame>118</ShotEndFrame>
 							<Looping>true</Looping>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam03__6</Name>
 					<SlateName>Location01</SlateName>
@@ -184,7 +184,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav1__6.animx</Filename>
@@ -193,9 +193,9 @@
 									<EndFrame>76</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>76</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav2</Name>
 							<maxHandle>2</maxHandle>
@@ -203,7 +203,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav2__6.animx</Filename>
@@ -212,9 +212,9 @@
 									<EndFrame>76</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>76</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav3</Name>
 							<maxHandle>3</maxHandle>
@@ -222,7 +222,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav3__6.animx</Filename>
@@ -231,10 +231,10 @@
 									<EndFrame>76</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>76</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>76</DefinedShotLength>
 					<CSEffects>
@@ -245,12 +245,12 @@
 								<X>-17.0987</X>
 								<Y>4.6948</Y>
 								<Z>-32.6566</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>11</ShotStartFrame>
 							<ShotEndFrame>76</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>wep_ball_lightning_exp</Name>
 							<maxHandle>2723</maxHandle>
@@ -258,7 +258,7 @@
 								<X>-18.2929</X>
 								<Y>6.7397</Y>
 								<Z>-36.2599</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 -0.546767 0.837285</Orient>
 							<ShotStartFrame>58</ShotStartFrame>
 							<ShotEndFrame>76</ShotEndFrame>
@@ -267,12 +267,12 @@
 								<X>-18.2929</X>
 								<Y>6.7397</Y>
 								<Z>-36.2599</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 -0.546767 0.837285</Orient>
 							<ShotStartFrame>34</ShotStartFrame>
 							<ShotEndFrame>46</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>moment_m12_rfb_proj</Name>
 							<maxHandle>2728</maxHandle>
@@ -280,14 +280,14 @@
 								<X>-38.5083</X>
 								<Y>20.4207</Y>
 								<Z>-74.463</Z>
-								</Position>
+							</Position>
 							<Orient>-0.374162 -0.600002 -0.68772 0.164444</Orient>
 							<ShotStartFrame>1</ShotStartFrame>
 							<ShotEndFrame>76</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam01__4</Name>
 					<SlateName>Location01</SlateName>
@@ -300,7 +300,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav1__4.animx</Filename>
@@ -309,9 +309,9 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav2</Name>
 							<maxHandle>2</maxHandle>
@@ -319,7 +319,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav2__4.animx</Filename>
@@ -328,9 +328,9 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav3</Name>
 							<maxHandle>3</maxHandle>
@@ -338,7 +338,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav3__4.animx</Filename>
@@ -347,10 +347,10 @@
 									<EndFrame>46</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>46</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>46</DefinedShotLength>
 					<CSEffects>
@@ -361,14 +361,14 @@
 								<X>-18.2929</X>
 								<Y>6.7397</Y>
 								<Z>-36.2599</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 -0.546767 0.837285</Orient>
 							<ShotStartFrame>34</ShotStartFrame>
 							<ShotEndFrame>46</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-v_cam04__7</Name>
 					<SlateName>Location01</SlateName>
@@ -381,7 +381,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav1__7.animx</Filename>
@@ -390,9 +390,9 @@
 									<EndFrame>82</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>82</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav2</Name>
 							<maxHandle>2</maxHandle>
@@ -400,7 +400,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav2__7.animx</Filename>
@@ -409,9 +409,9 @@
 									<EndFrame>82</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>82</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav3</Name>
 							<maxHandle>3</maxHandle>
@@ -419,7 +419,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav3__7.animx</Filename>
@@ -428,10 +428,10 @@
 									<EndFrame>82</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>82</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>82</DefinedShotLength>
 					<CSEffects>
@@ -442,12 +442,12 @@
 								<X>-18.9922</X>
 								<Y>5.1321</Y>
 								<Z>-26.8759</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>16</ShotStartFrame>
 							<ShotEndFrame>82</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>wep_ball_lightning_exp</Name>
 							<maxHandle>2724</maxHandle>
@@ -455,12 +455,12 @@
 								<X>14.584</X>
 								<Y>-0.8608</Y>
 								<Z>-5.1196</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>53</ShotStartFrame>
 							<ShotEndFrame>82</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>wep_ball_lightning_exp</Name>
 							<maxHandle>2725</maxHandle>
@@ -468,12 +468,12 @@
 								<X>-5.0989</X>
 								<Y>4.4358</Y>
 								<Z>-22.293</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>7</ShotStartFrame>
 							<ShotEndFrame>82</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>moment_m12_rfb_proj</Name>
 							<maxHandle>2729</maxHandle>
@@ -481,12 +481,12 @@
 								<X>17.2847</X>
 								<Y>11.3716</Y>
 								<Z>-39.6143</Z>
-								</Position>
+							</Position>
 							<Orient>0.211317 -0.674793 -0.674793 -0.211317</Orient>
 							<ShotStartFrame>6</ShotStartFrame>
 							<ShotEndFrame>82</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>moment_m12_rfb_proj</Name>
 							<maxHandle>2729</maxHandle>
@@ -494,14 +494,14 @@
 								<X>17.2847</X>
 								<Y>11.3716</Y>
 								<Z>-39.6143</Z>
-								</Position>
+							</Position>
 							<Orient>0.211317 -0.674793 -0.674793 -0.211317</Orient>
 							<ShotStartFrame>60</ShotStartFrame>
 							<ShotEndFrame>82</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-v_cam01__8</Name>
 					<SlateName>Location01</SlateName>
@@ -514,7 +514,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav1__8.animx</Filename>
@@ -523,9 +523,9 @@
 									<EndFrame>96</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>96</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav2</Name>
 							<maxHandle>2</maxHandle>
@@ -533,7 +533,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav2__8.animx</Filename>
@@ -542,9 +542,9 @@
 									<EndFrame>96</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>96</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>lav3</Name>
 							<maxHandle>3</maxHandle>
@@ -552,7 +552,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/RFBridge/RFBridge_lav3__8.animx</Filename>
@@ -561,10 +561,10 @@
 									<EndFrame>96</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>96</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>96</DefinedShotLength>
 					<CSEffects>
@@ -575,12 +575,12 @@
 								<X>-62.57</X>
 								<Y>0.2405</Y>
 								<Z>17.1538</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>65</ShotStartFrame>
 							<ShotEndFrame>96</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>moment_m12_rfb_proj</Name>
 							<maxHandle>2730</maxHandle>
@@ -588,12 +588,12 @@
 								<X>-45.1091</X>
 								<Y>19.8221</Y>
 								<Z>-16.5608</Z>
-								</Position>
+							</Position>
 							<Orient>-0.00771016 -0.653756 -0.756614 0.00892325</Orient>
 							<ShotStartFrame>50</ShotStartFrame>
 							<ShotEndFrame>96</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>moment_m12_rfb_proj</Name>
 							<maxHandle>2730</maxHandle>
@@ -601,16 +601,16 @@
 								<X>-45.1091</X>
 								<Y>19.8221</Y>
 								<Z>-16.5608</Z>
-								</Position>
+							</Position>
 							<Orient>-0.00771016 -0.653756 -0.756614 0.00892325</Orient>
 							<ShotStartFrame>83</ShotStartFrame>
 							<ShotEndFrame>96</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
-				</Shots>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

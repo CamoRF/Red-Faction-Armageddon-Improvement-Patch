@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -31,64 +31,64 @@
 					<CharMesh>ch_leg_ass_tank</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>tank2</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_leg_ass_tank</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>tank3</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_leg_ass_hulk</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>ch_leg_ass_Grunt1</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_leg_ass_grunt</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>ch_leg_ass_Grunt2</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_leg_ass_grunt</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>ch_leg_ass_Grunt3</Name>
 					<maxHandle>6</maxHandle>
 					<CharMesh>ch_leg_ass_grunt</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>ch_leg_out_creeper1</Name>
 					<maxHandle>7</maxHandle>
 					<CharMesh>ch_leg_ass_creeper</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>ch_leg_out_creeper2</Name>
 					<maxHandle>8</maxHandle>
 					<CharMesh>ch_leg_ass_creeper</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>ch_leg_out_creeper3</Name>
 					<maxHandle>9</maxHandle>
 					<CharMesh>ch_leg_ass_creeper</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -98,10 +98,10 @@
 						<X>36.422</X>
 						<Y>2.4768</Y>
 						<Z>17.1371</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -116,7 +116,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_tank1__1.animx</Filename>
@@ -125,9 +125,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>tank2</Name>
 							<maxHandle>2</maxHandle>
@@ -135,7 +135,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_tank2__1.animx</Filename>
@@ -144,9 +144,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>tank3</Name>
 							<maxHandle>3</maxHandle>
@@ -154,7 +154,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_tank3__1.animx</Filename>
@@ -163,9 +163,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>ch_leg_ass_Grunt1</Name>
 							<maxHandle>4</maxHandle>
@@ -173,7 +173,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_ch_leg_ass_Grunt1__1.animx</Filename>
@@ -182,9 +182,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>ch_leg_ass_Grunt2</Name>
 							<maxHandle>5</maxHandle>
@@ -192,7 +192,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_ch_leg_ass_Grunt2__1.animx</Filename>
@@ -201,9 +201,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>ch_leg_ass_Grunt3</Name>
 							<maxHandle>6</maxHandle>
@@ -211,7 +211,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_ch_leg_ass_Grunt3__1.animx</Filename>
@@ -220,9 +220,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>ch_leg_out_creeper1</Name>
 							<maxHandle>7</maxHandle>
@@ -230,7 +230,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_ch_leg_out_creeper1__1.animx</Filename>
@@ -239,9 +239,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>ch_leg_out_creeper2</Name>
 							<maxHandle>8</maxHandle>
@@ -249,7 +249,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_ch_leg_out_creeper2__1.animx</Filename>
@@ -258,9 +258,9 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>ch_leg_out_creeper3</Name>
 							<maxHandle>9</maxHandle>
@@ -268,7 +268,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission12/wallbust/wallbust_ch_leg_out_creeper3__1.animx</Filename>
@@ -277,15 +277,15 @@
 									<EndFrame>180</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>180</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>180</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

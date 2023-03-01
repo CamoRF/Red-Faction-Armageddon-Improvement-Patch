@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -31,50 +31,50 @@
 					<CharMesh>miner_exo</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wrkr1</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_civ_ass_workmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wrkr2</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_civ_ass_workmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wrkr3</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_civ_ass_workmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wrkr4</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_civ_ass_workmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wrkr5</Name>
 					<maxHandle>6</maxHandle>
 					<CharMesh>ch_civ_ass_workmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>wrkr6</Name>
 					<maxHandle>7</maxHandle>
 					<CharMesh>ch_civ_ass_workmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -84,10 +84,10 @@
 						<X>39.8445</X>
 						<Y>-81.4985</Y>
 						<Z>-46.195</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -102,7 +102,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_minerExo__1.animx</Filename>
@@ -111,9 +111,9 @@
 									<EndFrame>450</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>450</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrkr1</Name>
 							<maxHandle>2</maxHandle>
@@ -121,7 +121,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_wrkr1__1.animx</Filename>
@@ -130,9 +130,9 @@
 									<EndFrame>450</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>450</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrkr2</Name>
 							<maxHandle>3</maxHandle>
@@ -140,7 +140,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_wrkr2__1.animx</Filename>
@@ -149,9 +149,9 @@
 									<EndFrame>450</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>450</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrkr3</Name>
 							<maxHandle>4</maxHandle>
@@ -159,7 +159,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_wrkr3__1.animx</Filename>
@@ -168,9 +168,9 @@
 									<EndFrame>450</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>450</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrkr4</Name>
 							<maxHandle>5</maxHandle>
@@ -178,7 +178,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_wrkr4__1.animx</Filename>
@@ -187,9 +187,9 @@
 									<EndFrame>450</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>450</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrkr5</Name>
 							<maxHandle>6</maxHandle>
@@ -197,7 +197,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_wrkr5__1.animx</Filename>
@@ -206,9 +206,9 @@
 									<EndFrame>450</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>450</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>wrkr6</Name>
 							<maxHandle>7</maxHandle>
@@ -216,7 +216,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_wrkr6__1.animx</Filename>
@@ -225,15 +225,15 @@
 									<EndFrame>450</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>450</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>450</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

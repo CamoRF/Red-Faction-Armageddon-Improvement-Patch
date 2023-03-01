@@ -1,819 +1,815 @@
 <root>
-<Table>
-	<Cover>
-		<Name>Cover</Name>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Cover>
+			<Name>Cover</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Input>
-			<Stick_Deadzone>0.15</Stick_Deadzone>
-			<Exit_Stick_Input_Required>-0.8</Exit_Stick_Input_Required>
-			<Lean_Up_Stick_Input_Required>0.5</Lean_Up_Stick_Input_Required>
-			<Lean_Out_Stick_Input_Required>0.8</Lean_Out_Stick_Input_Required>
+			<Input>
+				<Stick_Deadzone>0.15</Stick_Deadzone>
+				<Exit_Stick_Input_Required>-0.8</Exit_Stick_Input_Required>
+				<Lean_Up_Stick_Input_Required>0.5</Lean_Up_Stick_Input_Required>
+				<Lean_Out_Stick_Input_Required>0.8</Lean_Out_Stick_Input_Required>
 			</Input>
-		<Entering_Cover>
-			<Enter_Camera_Tolerance>66.422</Enter_Camera_Tolerance>
-			<Enter_Check_Offset>0.15</Enter_Check_Offset>
-			<Enter_Slide_Speed>4.4</Enter_Slide_Speed>
-			<Slides>
-				<Slide>
-					<Distance>2</Distance>
+			<Entering_Cover>
+				<Enter_Camera_Tolerance>66.422</Enter_Camera_Tolerance>
+				<Enter_Check_Offset>0.15</Enter_Check_Offset>
+				<Enter_Slide_Speed>4.4</Enter_Slide_Speed>
+				<Slides>
+					<Slide>
+						<Distance>2</Distance>
 					</Slide>
-				<Slide>
-					<Distance>3</Distance>
-					<Prone>cover low into dive</Prone>
-					<Crouch>cover crouch into dive</Crouch>
-					<Stand>cover stand into dive</Stand>
+					<Slide>
+						<Distance>3</Distance>
+						<Prone>cover low into dive</Prone>
+						<Crouch>cover crouch into dive</Crouch>
+						<Stand>cover stand into dive</Stand>
 					</Slide>
 				</Slides>
 			</Entering_Cover>
-		<Regular_Checks>
-			<Check_Radius>0.125</Check_Radius>
-			<Check_Depth>0.5</Check_Depth>
-			<Forward_Check_Offset>0.8</Forward_Check_Offset>
-			<Lean_Check_Offsets>
-				<Prone>0.5</Prone>
-				<Crouch>0.6</Crouch>
-				<Stand>0.5</Stand>
+			<Regular_Checks>
+				<Check_Radius>0.125</Check_Radius>
+				<Check_Depth>0.5</Check_Depth>
+				<Forward_Check_Offset>0.8</Forward_Check_Offset>
+				<Lean_Check_Offsets>
+					<Prone>0.5</Prone>
+					<Crouch>0.6</Crouch>
+					<Stand>0.5</Stand>
 				</Lean_Check_Offsets>
-			<Lean_Check_Angles>
-				<Prone>15</Prone>
-				<Crouch>15</Crouch>
-				<Stand>15</Stand>
+				<Lean_Check_Angles>
+					<Prone>15</Prone>
+					<Crouch>15</Crouch>
+					<Stand>15</Stand>
 				</Lean_Check_Angles>
-			<Heights>
-				<Prone>0.525</Prone>
-				<Crouch>0.875</Crouch>
-				<Stand>1.625</Stand>
+				<Heights>
+					<Prone>0.525</Prone>
+					<Crouch>0.875</Crouch>
+					<Stand>1.625</Stand>
 				</Heights>
-			<Lean_Heights>
-				<Prone>0.275</Prone>
-				<Crouch>0.775</Crouch>
-				<Stand>1.275</Stand>
+				<Lean_Heights>
+					<Prone>0.275</Prone>
+					<Crouch>0.775</Crouch>
+					<Stand>1.275</Stand>
 				</Lean_Heights>
-			<Lean_Up_Heights>
-				<Prone>0.775</Prone>
-				<Crouch>1.075</Crouch>
-				<Stand>0</Stand>
+				<Lean_Up_Heights>
+					<Prone>0.775</Prone>
+					<Crouch>1.075</Crouch>
+					<Stand>0</Stand>
 				</Lean_Up_Heights>
-			<Max_Forward_Pitch>30</Max_Forward_Pitch>
+				<Max_Forward_Pitch>30</Max_Forward_Pitch>
 			</Regular_Checks>
-		<Cover_To_Cover>
-			<Corner_Check_Offset>0.6</Corner_Check_Offset>
-			<Corner_Check_Distance>0.8</Corner_Check_Distance>
-			<Corner_Min_Angle>0</Corner_Min_Angle>
-			<Corner_Max_Angle>180</Corner_Max_Angle>
-			<Cover_To_Cover_Angle_Tolerance>30</Cover_To_Cover_Angle_Tolerance>
-			<Transitions>
-				<Transition>
-					<Optimal_Distance>3.0</Optimal_Distance>
-					<Max_Distance>2.5</Max_Distance>
-					<Prone>
-						<Prone_Right>cover low right cover to cover low</Prone_Right>
-						<Prone_Left>cover low left cover to cover low</Prone_Left>
-						<Crouch_Right>cover low right cover to cover crouch</Crouch_Right>
-						<Crouch_Left>cover low left cover to cover crouch</Crouch_Left>
-						<Stand_Right>cover low right cover to cover stand</Stand_Right>
-						<Stand_Left>cover low left cover to cover stand</Stand_Left>
+			<Cover_To_Cover>
+				<Corner_Check_Offset>0.6</Corner_Check_Offset>
+				<Corner_Check_Distance>0.8</Corner_Check_Distance>
+				<Corner_Min_Angle>0</Corner_Min_Angle>
+				<Corner_Max_Angle>180</Corner_Max_Angle>
+				<Cover_To_Cover_Angle_Tolerance>30</Cover_To_Cover_Angle_Tolerance>
+				<Transitions>
+					<Transition>
+						<Optimal_Distance>3.0</Optimal_Distance>
+						<Max_Distance>2.5</Max_Distance>
+						<Prone>
+							<Prone_Right>cover low right cover to cover low</Prone_Right>
+							<Prone_Left>cover low left cover to cover low</Prone_Left>
+							<Crouch_Right>cover low right cover to cover crouch</Crouch_Right>
+							<Crouch_Left>cover low left cover to cover crouch</Crouch_Left>
+							<Stand_Right>cover low right cover to cover stand</Stand_Right>
+							<Stand_Left>cover low left cover to cover stand</Stand_Left>
 						</Prone>
-					<Crouch>
-						<Prone_Right>cover crouch right cover to cover low</Prone_Right>
-						<Prone_Left>cover crouch left cover to cover low</Prone_Left>
-						<Crouch_Right>cover crouch right cover to cover crouch</Crouch_Right>
-						<Crouch_Left>cover crouch left cover to cover crouch</Crouch_Left>
-						<Stand_Right>cover crouch right cover to cover stand</Stand_Right>
-						<Stand_Left>cover crouch left cover to cover stand</Stand_Left>
+						<Crouch>
+							<Prone_Right>cover crouch right cover to cover low</Prone_Right>
+							<Prone_Left>cover crouch left cover to cover low</Prone_Left>
+							<Crouch_Right>cover crouch right cover to cover crouch</Crouch_Right>
+							<Crouch_Left>cover crouch left cover to cover crouch</Crouch_Left>
+							<Stand_Right>cover crouch right cover to cover stand</Stand_Right>
+							<Stand_Left>cover crouch left cover to cover stand</Stand_Left>
 						</Crouch>
-					<Stand>
-						<Prone_Right>cover stand right cover to cover low</Prone_Right>
-						<Prone_Left>cover stand left cover to cover low</Prone_Left>
-						<Crouch_Right>cover stand right cover to cover crouch</Crouch_Right>
-						<Crouch_Left>cover stand left cover to cover crouch</Crouch_Left>
-						<Stand_Right>cover stand right cover to cover stand</Stand_Right>
-						<Stand_Left>cover stand left cover to cover stand</Stand_Left>
+						<Stand>
+							<Prone_Right>cover stand right cover to cover low</Prone_Right>
+							<Prone_Left>cover stand left cover to cover low</Prone_Left>
+							<Crouch_Right>cover stand right cover to cover crouch</Crouch_Right>
+							<Crouch_Left>cover stand left cover to cover crouch</Crouch_Left>
+							<Stand_Right>cover stand right cover to cover stand</Stand_Right>
+							<Stand_Left>cover stand left cover to cover stand</Stand_Left>
 						</Stand>
 					</Transition>
-				<Transition>
-					<Optimal_Distance>3.0</Optimal_Distance>
-					<Max_Distance>4.0</Max_Distance>
-					<Prone>
-						<Prone_Right>cover low right cover to cover low</Prone_Right>
-						<Prone_Left>cover low left cover to cover low</Prone_Left>
-						<Crouch_Right>cover low right cover to cover crouch</Crouch_Right>
-						<Crouch_Left>cover low left cover to cover crouch</Crouch_Left>
-						<Stand_Right>cover low right cover to cover stand</Stand_Right>
-						<Stand_Left>cover low left cover to cover stand</Stand_Left>
+					<Transition>
+						<Optimal_Distance>3.0</Optimal_Distance>
+						<Max_Distance>4.0</Max_Distance>
+						<Prone>
+							<Prone_Right>cover low right cover to cover low</Prone_Right>
+							<Prone_Left>cover low left cover to cover low</Prone_Left>
+							<Crouch_Right>cover low right cover to cover crouch</Crouch_Right>
+							<Crouch_Left>cover low left cover to cover crouch</Crouch_Left>
+							<Stand_Right>cover low right cover to cover stand</Stand_Right>
+							<Stand_Left>cover low left cover to cover stand</Stand_Left>
 						</Prone>
-					<Crouch>
-						<Prone_Right>cover crouch right cover to cover low</Prone_Right>
-						<Prone_Left>cover crouch left cover to cover low</Prone_Left>
-						<Crouch_Right>cover crouch right cover to cover crouch</Crouch_Right>
-						<Crouch_Left>cover crouch left cover to cover crouch</Crouch_Left>
-						<Stand_Right>cover crouch right cover to cover stand</Stand_Right>
-						<Stand_Left>cover crouch left cover to cover stand</Stand_Left>
+						<Crouch>
+							<Prone_Right>cover crouch right cover to cover low</Prone_Right>
+							<Prone_Left>cover crouch left cover to cover low</Prone_Left>
+							<Crouch_Right>cover crouch right cover to cover crouch</Crouch_Right>
+							<Crouch_Left>cover crouch left cover to cover crouch</Crouch_Left>
+							<Stand_Right>cover crouch right cover to cover stand</Stand_Right>
+							<Stand_Left>cover crouch left cover to cover stand</Stand_Left>
 						</Crouch>
-					<Stand>
-						<Prone_Right>cover stand right cover to cover low</Prone_Right>
-						<Prone_Left>cover stand left cover to cover low</Prone_Left>
-						<Crouch_Right>cover stand right cover to cover crouch</Crouch_Right>
-						<Crouch_Left>cover stand left cover to cover crouch</Crouch_Left>
-						<Stand_Right>cover stand right cover to cover stand</Stand_Right>
-						<Stand_Left>cover stand left cover to cover stand</Stand_Left>
+						<Stand>
+							<Prone_Right>cover stand right cover to cover low</Prone_Right>
+							<Prone_Left>cover stand left cover to cover low</Prone_Left>
+							<Crouch_Right>cover stand right cover to cover crouch</Crouch_Right>
+							<Crouch_Left>cover stand left cover to cover crouch</Crouch_Left>
+							<Stand_Right>cover stand right cover to cover stand</Stand_Right>
+							<Stand_Left>cover stand left cover to cover stand</Stand_Left>
 						</Stand>
 					</Transition>
 				</Transitions>
-			<Cover_To_Cover_Max_Vertical_Tolerance>1.5</Cover_To_Cover_Max_Vertical_Tolerance>
-			<Cover_To_Cover_Max_Forward_Tolerance>3.0</Cover_To_Cover_Max_Forward_Tolerance>
+				<Cover_To_Cover_Max_Vertical_Tolerance>1.5</Cover_To_Cover_Max_Vertical_Tolerance>
+				<Cover_To_Cover_Max_Forward_Tolerance>3.0</Cover_To_Cover_Max_Forward_Tolerance>
 			</Cover_To_Cover>
-		<Movement>
-			<Normal_Move_Speed>4.4</Normal_Move_Speed>
-			<Approaching_Edge_Move_Speed>2.0</Approaching_Edge_Move_Speed>
-			<Move_Speed_Ramp_Multiplier>4.0</Move_Speed_Ramp_Multiplier>
-			<Move_Speed_Multipliers>
-				<Prone>0.4</Prone>
-				<Crouch>0.7</Crouch>
-				<Stand>1.0</Stand>
+			<Movement>
+				<Normal_Move_Speed>4.4</Normal_Move_Speed>
+				<Approaching_Edge_Move_Speed>2.0</Approaching_Edge_Move_Speed>
+				<Move_Speed_Ramp_Multiplier>4.0</Move_Speed_Ramp_Multiplier>
+				<Move_Speed_Multipliers>
+					<Prone>0.4</Prone>
+					<Crouch>0.7</Crouch>
+					<Stand>1.0</Stand>
 				</Move_Speed_Multipliers>
 			</Movement>
-		<Miscellaneous>
-			<Automatically_Use_Highest_Level>True</Automatically_Use_Highest_Level>
-			<Aiming_Away_From_Cover_Angle>115</Aiming_Away_From_Cover_Angle>
-			<Wall_Normal_Tolerance>15</Wall_Normal_Tolerance>
-			<Interior_Wall_Transition_Min_Angle>83</Interior_Wall_Transition_Min_Angle>
-			<Interior_Wall_Transition_Max_Angle>105</Interior_Wall_Transition_Max_Angle>
+			<Miscellaneous>
+				<Automatically_Use_Highest_Level>True</Automatically_Use_Highest_Level>
+				<Aiming_Away_From_Cover_Angle>115</Aiming_Away_From_Cover_Angle>
+				<Wall_Normal_Tolerance>15</Wall_Normal_Tolerance>
+				<Interior_Wall_Transition_Min_Angle>83</Interior_Wall_Transition_Min_Angle>
+				<Interior_Wall_Transition_Max_Angle>105</Interior_Wall_Transition_Max_Angle>
 			</Miscellaneous>
-		<Camera>
-			<Max_Horizontal_Angle>180</Max_Horizontal_Angle>
-			<Max_Vertical_Angle>45.0</Max_Vertical_Angle>
-			<Recenter_Delay_ms>2000</Recenter_Delay_ms>
-			<Recenter_Smoothing_Time_ms>250</Recenter_Smoothing_Time_ms>
-			<Max_Horizontal_Angle_Lean_Out_In>45.0</Max_Horizontal_Angle_Lean_Out_In>
-			<Max_Horizontal_Angle_Lean_Out_Out>60.0</Max_Horizontal_Angle_Lean_Out_Out>
-			<Lean_Up_Camera_Swap_Angle>115.0</Lean_Up_Camera_Swap_Angle>
-			<Max_Vertical_Angle_Lean_Up_Down>60.0</Max_Vertical_Angle_Lean_Up_Down>
-			<Max_Vertical_Angle_Lean_Up_Up>45.0</Max_Vertical_Angle_Lean_Up_Up>
-			<Obstruction_Distance>2.0</Obstruction_Distance>
+			<Camera>
+				<Max_Horizontal_Angle>180</Max_Horizontal_Angle>
+				<Max_Vertical_Angle>45.0</Max_Vertical_Angle>
+				<Recenter_Delay_ms>2000</Recenter_Delay_ms>
+				<Recenter_Smoothing_Time_ms>250</Recenter_Smoothing_Time_ms>
+				<Max_Horizontal_Angle_Lean_Out_In>45.0</Max_Horizontal_Angle_Lean_Out_In>
+				<Max_Horizontal_Angle_Lean_Out_Out>60.0</Max_Horizontal_Angle_Lean_Out_Out>
+				<Lean_Up_Camera_Swap_Angle>115.0</Lean_Up_Camera_Swap_Angle>
+				<Max_Vertical_Angle_Lean_Up_Down>60.0</Max_Vertical_Angle_Lean_Up_Down>
+				<Max_Vertical_Angle_Lean_Up_Up>45.0</Max_Vertical_Angle_Lean_Up_Up>
+				<Obstruction_Distance>2.0</Obstruction_Distance>
 			</Camera>
 		</Cover>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Cover</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Cover</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>Input</Name>
-		<Type>Element</Type>
 		<Element>
-			<Name>Stick_Deadzone</Name>
-			<Type>Float</Type>
-			<Display_Name>Stick Deadzone</Display_Name>
-			<Description>The amount of stick input required before the player moves in cover.</Description>
-			<Default>0.15</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Exit_Stick_Input_Required</Name>
-			<Type>Float</Type>
-			<Display_Name>Exit Stick Input Required (Y Axis Stick Throw)</Display_Name>
-			<Description>The amount of stick y-input the player needs to provide to leave cover.</Description>
-			<Default>-0.5</Default>
-			<MaxValue>0</MaxValue>
-			</Element>
-		<Element>
-			<Name>Lean_Up_Stick_Input_Required</Name>
-			<Type>Float</Type>
-			<Display_Name>Lean Up Stick Input Required (Y Axis Stick Throw)</Display_Name>
-			<Description>The amount of stick y-input the player needs to provide to lean up over cover.</Description>
-			<Default>0.5</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Lean_Out_Stick_Input_Required</Name>
-			<Type>Float</Type>
-			<Display_Name>Lean Out Stick Input Required (X Axis Stick Throw)</Display_Name>
-			<Description>The amount of stick x-input the player needs to provide to lean out over cover.</Description>
-			<Default>0.8</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		</Element>
-	<Element>
-		<Name>Camera</Name>
-		<Type>Element</Type>
-		<Element>
-			<Name>Max_Horizontal_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Max Horizontal Angle</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>180</MaxValue>
-			</Element>
-		<Element>
-			<Name>Max_Horizontal_Angle_Lean_Out_In</Name>
-			<Type>Float</Type>
-			<Display_Name>Max Horizontal Angle (Lean Out - Inward)</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>180</MaxValue>
-			</Element>
-		<Element>
-			<Name>Max_Horizontal_Angle_Lean_Out_Out</Name>
-			<Type>Float</Type>
-			<Display_Name>Max Horizontal Angle (Lean Out - Outward)</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>180</MaxValue>
-			</Element>
-		<Element>
-			<Name>Max_Vertical_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Max Vertical Angle</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>90</MaxValue>
-			</Element>
-		<Element>
-			<Name>Max_Vertical_Angle_Lean_Up_Down</Name>
-			<Type>Float</Type>
-			<Display_Name>Max Vertical Angle (Lean Up - Downward)</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>90</MaxValue>
-			</Element>
-		<Element>
-			<Name>Max_Vertical_Angle_Lean_Up_Up</Name>
-			<Type>Float</Type>
-			<Display_Name>Max Vertical Angle (Lean Up - Upward)</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>90</MaxValue>
-			</Element>
-		<Element>
-			<Name>Recenter_Delay_ms</Name>
-			<Type>Int</Type>
-			<Display_Name>Re-center Delay (ms)</Display_Name>
-			<Default>0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Recenter_Smoothing_Time_ms</Name>
-			<Type>Int</Type>
-			<Display_Name>Re-center Smoothing Time (ms)</Display_Name>
-			<Default>0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Lean_Up_Camera_Swap_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Lean Up Camera Swap Angle</Display_Name>
-			<Description>The angle away from the cover direction that the player needs to look before the camera swaps to the other side of the player.</Description>
-			<Default>90</Default>
-			<MinValue>90</MinValue>
-			<MaxValue>180</MaxValue>
-			</Element>
-		<Element>
-			<Name>Obstruction_Distance</Name>
-			<Type>Float</Type>
-			<Display_Name>Obstruction Distance</Display_Name>
-			<Description>The distance (from the camera) used to check for an obstruction in front of the camera when trying to lean inward/downward.</Description>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		</Element>
-	<Element>
-		<Name>Entering_Cover</Name>
-		<Type>Element</Type>
-		<Display_Name>Entering Cover</Display_Name>
-		<Element>
-			<Name>Enter_Camera_Tolerance</Name>
-			<Type>Float</Type>
-			<Display_Name>Enter Camera Tolerance (degrees)</Display_Name>
-			<Default>66.422</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>180</MaxValue>
-			</Element>
-		<Element>
-			<Name>Enter_Check_Offset</Name>
-			<Type>Float</Type>
-			<Display_Name>Enter Check Offset</Display_Name>
-			<Description>The offset in either direction of the player (along the wall) used for checking cover.</Description>
-			<Default>0.15</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Enter_Slide_Speed</Name>
-			<Type>Float</Type>
-			<Display_Name>Enter Slide Speed</Display_Name>
-			<Description>The speed to apply to the player when sliding into cover (and not playing an animation).</Description>
-			<Default>4.4</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Slides</Name>
-			<Type>Grid</Type>
+			<Name>Input</Name>
+			<Type>Element</Type>
 			<Element>
-				<Name>Slide</Name>
-				<Type>Element</Type>
+				<Name>Stick_Deadzone</Name>
+				<Type>Float</Type>
+				<Display_Name>Stick Deadzone</Display_Name>
+				<Description>The amount of stick input required before the player moves in cover.</Description>
+				<Default>0.15</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Exit_Stick_Input_Required</Name>
+				<Type>Float</Type>
+				<Display_Name>Exit Stick Input Required (Y Axis Stick Throw)</Display_Name>
+				<Description>The amount of stick y-input the player needs to provide to leave cover.</Description>
+				<Default>-0.5</Default>
+				<MaxValue>0</MaxValue>
+			</Element>
+			<Element>
+				<Name>Lean_Up_Stick_Input_Required</Name>
+				<Type>Float</Type>
+				<Display_Name>Lean Up Stick Input Required (Y Axis Stick Throw)</Display_Name>
+				<Description>The amount of stick y-input the player needs to provide to lean up over cover.</Description>
+				<Default>0.5</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Lean_Out_Stick_Input_Required</Name>
+				<Type>Float</Type>
+				<Display_Name>Lean Out Stick Input Required (X Axis Stick Throw)</Display_Name>
+				<Description>The amount of stick x-input the player needs to provide to lean out over cover.</Description>
+				<Default>0.8</Default>
+				<MinValue>0</MinValue>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Camera</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Max_Horizontal_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Horizontal Angle</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>180</MaxValue>
+			</Element>
+			<Element>
+				<Name>Max_Horizontal_Angle_Lean_Out_In</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Horizontal Angle (Lean Out - Inward)</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>180</MaxValue>
+			</Element>
+			<Element>
+				<Name>Max_Horizontal_Angle_Lean_Out_Out</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Horizontal Angle (Lean Out - Outward)</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>180</MaxValue>
+			</Element>
+			<Element>
+				<Name>Max_Vertical_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Vertical Angle</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>90</MaxValue>
+			</Element>
+			<Element>
+				<Name>Max_Vertical_Angle_Lean_Up_Down</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Vertical Angle (Lean Up - Downward)</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>90</MaxValue>
+			</Element>
+			<Element>
+				<Name>Max_Vertical_Angle_Lean_Up_Up</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Vertical Angle (Lean Up - Upward)</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>90</MaxValue>
+			</Element>
+			<Element>
+				<Name>Recenter_Delay_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Re-center Delay (ms)</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Recenter_Smoothing_Time_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Re-center Smoothing Time (ms)</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Lean_Up_Camera_Swap_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Lean Up Camera Swap Angle</Display_Name>
+				<Description>The angle away from the cover direction that the player needs to look before the camera swaps to the other side of the player.</Description>
+				<Default>90</Default>
+				<MinValue>90</MinValue>
+				<MaxValue>180</MaxValue>
+			</Element>
+			<Element>
+				<Name>Obstruction_Distance</Name>
+				<Type>Float</Type>
+				<Display_Name>Obstruction Distance</Display_Name>
+				<Description>The distance (from the camera) used to check for an obstruction in front of the camera when trying to lean inward/downward.</Description>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Entering_Cover</Name>
+			<Type>Element</Type>
+			<Display_Name>Entering Cover</Display_Name>
+			<Element>
+				<Name>Enter_Camera_Tolerance</Name>
+				<Type>Float</Type>
+				<Display_Name>Enter Camera Tolerance (degrees)</Display_Name>
+				<Default>66.422</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>180</MaxValue>
+			</Element>
+			<Element>
+				<Name>Enter_Check_Offset</Name>
+				<Type>Float</Type>
+				<Display_Name>Enter Check Offset</Display_Name>
+				<Description>The offset in either direction of the player (along the wall) used for checking cover.</Description>
+				<Default>0.15</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Enter_Slide_Speed</Name>
+				<Type>Float</Type>
+				<Display_Name>Enter Slide Speed</Display_Name>
+				<Description>The speed to apply to the player when sliding into cover (and not playing an animation).</Description>
+				<Default>4.4</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Slides</Name>
+				<Type>Grid</Type>
 				<Element>
-					<Name>Distance</Name>
-					<Type>Float</Type>
-					<Display_Name>Max Distance</Display_Name>
-					<Default>0.0</Default>
-					<MinValue>0</MinValue>
+					<Name>Slide</Name>
+					<Type>Element</Type>
+					<Element>
+						<Name>Distance</Name>
+						<Type>Float</Type>
+						<Display_Name>Max Distance</Display_Name>
+						<Default>0.0</Default>
+						<MinValue>0</MinValue>
 					</Element>
+					<Element>
+						<Name>Prone</Name>
+						<Type>String</Type>
+						<Display_Name>To Prone</Display_Name>
+						<Required>false</Required>
+					</Element>
+					<Element>
+						<Name>Crouch</Name>
+						<Type>String</Type>
+						<Display_Name>To Crouch</Display_Name>
+						<Required>false</Required>
+					</Element>
+					<Element>
+						<Name>Stand</Name>
+						<Type>String</Type>
+						<Display_Name>To Stand</Display_Name>
+						<Required>false</Required>
+					</Element>
+				</Element>
+				<Num_Display_Rows>8</Num_Display_Rows>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Regular_Checks</Name>
+			<Type>Element</Type>
+			<Display_Name>Regular Checks</Display_Name>
+			<Element>
+				<Name>Heights</Name>
+				<Type>Element</Type>
+				<Display_Name>Minimum Heights</Display_Name>
 				<Element>
 					<Name>Prone</Name>
-					<Type>String</Type>
-					<Display_Name>To Prone</Display_Name>
-					<Required>false</Required>
-					</Element>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
 				<Element>
 					<Name>Crouch</Name>
-					<Type>String</Type>
-					<Display_Name>To Crouch</Display_Name>
-					<Required>false</Required>
-					</Element>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
 				<Element>
 					<Name>Stand</Name>
-					<Type>String</Type>
-					<Display_Name>To Stand</Display_Name>
-					<Required>false</Required>
-					</Element>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
 				</Element>
-			<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
-		</Element>
-	<Element>
-		<Name>Regular_Checks</Name>
-		<Type>Element</Type>
-		<Display_Name>Regular Checks</Display_Name>
-		<Element>
-			<Name>Heights</Name>
-			<Type>Element</Type>
-			<Display_Name>Minimum Heights</Display_Name>
 			<Element>
-				<Name>Prone</Name>
+				<Name>Check_Radius</Name>
 				<Type>Float</Type>
-				<Default>0.0</Default>
+				<Display_Name>Check Radius</Display_Name>
+				<Description>The radius of the spherecasts used to check for cover.</Description>
+				<Default>0.125</Default>
 				<MinValue>0</MinValue>
-				</Element>
+			</Element>
 			<Element>
-				<Name>Crouch</Name>
+				<Name>Check_Depth</Name>
 				<Type>Float</Type>
-				<Default>0.0</Default>
+				<Display_Name>Check Depth</Display_Name>
+				<Description>The distance the cover checks are projected in front of the player to be valid.  This is mainly used to allow for some tolerance along round/uneven surfaces.</Description>
+				<Default>0.45</Default>
 				<MinValue>0</MinValue>
-				</Element>
+			</Element>
 			<Element>
-				<Name>Stand</Name>
+				<Name>Forward_Check_Offset</Name>
 				<Type>Float</Type>
-				<Default>0.0</Default>
+				<Display_Name>Forward Check Offset</Display_Name>
+				<Description>The offset in the direction the player is moving to check for cover in front of the player.</Description>
+				<Default>0.75</Default>
 				<MinValue>0</MinValue>
-				</Element>
 			</Element>
-		<Element>
-			<Name>Check_Radius</Name>
-			<Type>Float</Type>
-			<Display_Name>Check Radius</Display_Name>
-			<Description>The radius of the spherecasts used to check for cover.</Description>
-			<Default>0.125</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Check_Depth</Name>
-			<Type>Float</Type>
-			<Display_Name>Check Depth</Display_Name>
-			<Description>The distance the cover checks are projected in front of the player to be valid.  This is mainly used to allow for some tolerance along round/uneven surfaces.</Description>
-			<Default>0.45</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Forward_Check_Offset</Name>
-			<Type>Float</Type>
-			<Display_Name>Forward Check Offset</Display_Name>
-			<Description>The offset in the direction the player is moving to check for cover in front of the player.</Description>
-			<Default>0.75</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Max_Forward_Pitch</Name>
-			<Type>Float</Type>
-			<Display_Name>Max Forward Pitch (degrees)</Display_Name>
-			<Description>The maximum angle that a wall can be pitched forward before it is considered unusable for cover.</Description>
-			<Default>30</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>90</MaxValue>
-			</Element>
-		<Element>
-			<Name>Lean_Heights</Name>
-			<Type>Element</Type>
-			<Display_Name>Lean Out Heights</Display_Name>
 			<Element>
-				<Name>Prone</Name>
+				<Name>Max_Forward_Pitch</Name>
 				<Type>Float</Type>
-				<Default>0.0</Default>
+				<Display_Name>Max Forward Pitch (degrees)</Display_Name>
+				<Description>The maximum angle that a wall can be pitched forward before it is considered unusable for cover.</Description>
+				<Default>30</Default>
 				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Crouch</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Stand</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				</Element>
+				<MaxValue>90</MaxValue>
 			</Element>
-		<Element>
-			<Name>Lean_Check_Offsets</Name>
-			<Type>Element</Type>
-			<Display_Name>Lean Check Offsets</Display_Name>
 			<Element>
-				<Name>Prone</Name>
-				<Type>Float</Type>
-				<Default>0.5</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Crouch</Name>
-				<Type>Float</Type>
-				<Default>0.5</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Stand</Name>
-				<Type>Float</Type>
-				<Default>0.5</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			</Element>
-		<Element>
-			<Name>Lean_Check_Angles</Name>
-			<Type>Element</Type>
-			<Display_Name>Lean Check Angles (degrees)</Display_Name>
-			<Element>
-				<Name>Prone</Name>
-				<Type>Float</Type>
-				<Default>15</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Crouch</Name>
-				<Type>Float</Type>
-				<Default>15</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Stand</Name>
-				<Type>Float</Type>
-				<Default>15</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			</Element>
-		<Element>
-			<Name>Lean_Up_Heights</Name>
-			<Type>Element</Type>
-			<Display_Name>Lean Up Heights</Display_Name>
-			<Element>
-				<Name>Prone</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Crouch</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Stand</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			</Element>
-		</Element>
-	<Element>
-		<Name>Cover_To_Cover</Name>
-		<Type>Element</Type>
-		<Display_Name>Cover To Cover</Display_Name>
-		<Element>
-			<Name>Corner_Check_Offset</Name>
-			<Type>Float</Type>
-			<Display_Name>Corner Check Offset</Display_Name>
-			<Description>The forward offset along the lean check raycast to probe back for a corner.</Description>
-			<Default>0.175</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Corner_Check_Distance</Name>
-			<Type>Float</Type>
-			<Display_Name>Corner Check Distance</Display_Name>
-			<Description>The length of the raycast used to check for a valid corner to transition to.</Description>
-			<Default>4.5</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Corner_Min_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Corner Min Angle</Display_Name>
-			<Description>The minimum wall angle that a player is able to transition to around a corner.  (Any angle less than this the player will smoothly traverse around)</Description>
-			<Default>70</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>90</MaxValue>
-			</Element>
-		<Element>
-			<Name>Corner_Max_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Corner Max Angle</Display_Name>
-			<Description>The maximum wall angle that a player is able to transition to around a corner.</Description>
-			<Default>105</Default>
-			<MinValue>90</MinValue>
-			<MaxValue>180</MaxValue>
-			</Element>
-		<Element>
-			<Name>Cover_To_Cover_Angle_Tolerance</Name>
-			<Type>Float</Type>
-			<Display_Name>Cover To Cover Angle Tolerance</Display_Name>
-			<Description>The maximum wall angle that a player is able to transition to from cover to cover.</Description>
-			<Default>30</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Cover_To_Cover_Max_Vertical_Tolerance</Name>
-			<Type>Float</Type>
-			<Display_Name>Cover To Cover Max Vertical Tolerance</Display_Name>
-			<Description>The maximum height difference that is allowed between cover to cover transitions.</Description>
-			<Default>1.5</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Cover_To_Cover_Max_Forward_Tolerance</Name>
-			<Type>Float</Type>
-			<Display_Name>Cover To Cover Max Forward Tolerance</Display_Name>
-			<Description>The max forward/backward offset allowed for cover to cover transitions.</Description>
-			<Default>3.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Transitions</Name>
-			<Type>Grid</Type>
-			<Element>
-				<Name>Transition</Name>
+				<Name>Lean_Heights</Name>
 				<Type>Element</Type>
-				<Element>
-					<Name>Optimal_Distance</Name>
-					<Type>Float</Type>
-					<Display_Name>Optimal Distance</Display_Name>
-					<Default>0.0</Default>
-					<MinValue>0</MinValue>
-					</Element>
-				<Element>
-					<Name>Max_Distance</Name>
-					<Type>Float</Type>
-					<Display_Name>Max Distance</Display_Name>
-					<Default>0.0</Default>
-					<MinValue>0</MinValue>
-					</Element>
+				<Display_Name>Lean Out Heights</Display_Name>
 				<Element>
 					<Name>Prone</Name>
-					<Type>Element</Type>
-					<Display_Name>From Prone</Display_Name>
-					<Element>
-						<Name>Prone_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Prone (Right)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Prone_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Prone (Left)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Crouch_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Crouch (Right)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Crouch_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Crouch (Left)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Stand_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Stand (Right)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Stand_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Stand (Left)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					</Element>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
 				<Element>
 					<Name>Crouch</Name>
-					<Type>Element</Type>
-					<Display_Name>From Crouch</Display_Name>
-					<Element>
-						<Name>Prone_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Prone (Right)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Prone_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Prone (Left)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Crouch_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Crouch (Right)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Crouch_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Crouch (Left)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Stand_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Stand (Right)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					<Element>
-						<Name>Stand_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Stand (Left)</Display_Name>
-						<Required>false</Required>
-						</Element>
-					</Element>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
 				<Element>
 					<Name>Stand</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+			</Element>
+			<Element>
+				<Name>Lean_Check_Offsets</Name>
+				<Type>Element</Type>
+				<Display_Name>Lean Check Offsets</Display_Name>
+				<Element>
+					<Name>Prone</Name>
+					<Type>Float</Type>
+					<Default>0.5</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Crouch</Name>
+					<Type>Float</Type>
+					<Default>0.5</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Stand</Name>
+					<Type>Float</Type>
+					<Default>0.5</Default>
+					<MinValue>0</MinValue>
+				</Element>
+			</Element>
+			<Element>
+				<Name>Lean_Check_Angles</Name>
+				<Type>Element</Type>
+				<Display_Name>Lean Check Angles (degrees)</Display_Name>
+				<Element>
+					<Name>Prone</Name>
+					<Type>Float</Type>
+					<Default>15</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Crouch</Name>
+					<Type>Float</Type>
+					<Default>15</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Stand</Name>
+					<Type>Float</Type>
+					<Default>15</Default>
+					<MinValue>0</MinValue>
+				</Element>
+			</Element>
+			<Element>
+				<Name>Lean_Up_Heights</Name>
+				<Type>Element</Type>
+				<Display_Name>Lean Up Heights</Display_Name>
+				<Element>
+					<Name>Prone</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Crouch</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Stand</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Cover_To_Cover</Name>
+			<Type>Element</Type>
+			<Display_Name>Cover To Cover</Display_Name>
+			<Element>
+				<Name>Corner_Check_Offset</Name>
+				<Type>Float</Type>
+				<Display_Name>Corner Check Offset</Display_Name>
+				<Description>The forward offset along the lean check raycast to probe back for a corner.</Description>
+				<Default>0.175</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Corner_Check_Distance</Name>
+				<Type>Float</Type>
+				<Display_Name>Corner Check Distance</Display_Name>
+				<Description>The length of the raycast used to check for a valid corner to transition to.</Description>
+				<Default>4.5</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Corner_Min_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Corner Min Angle</Display_Name>
+				<Description>The minimum wall angle that a player is able to transition to around a corner.  (Any angle less than this the player will smoothly traverse around)</Description>
+				<Default>70</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>90</MaxValue>
+			</Element>
+			<Element>
+				<Name>Corner_Max_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Corner Max Angle</Display_Name>
+				<Description>The maximum wall angle that a player is able to transition to around a corner.</Description>
+				<Default>105</Default>
+				<MinValue>90</MinValue>
+				<MaxValue>180</MaxValue>
+			</Element>
+			<Element>
+				<Name>Cover_To_Cover_Angle_Tolerance</Name>
+				<Type>Float</Type>
+				<Display_Name>Cover To Cover Angle Tolerance</Display_Name>
+				<Description>The maximum wall angle that a player is able to transition to from cover to cover.</Description>
+				<Default>30</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Cover_To_Cover_Max_Vertical_Tolerance</Name>
+				<Type>Float</Type>
+				<Display_Name>Cover To Cover Max Vertical Tolerance</Display_Name>
+				<Description>The maximum height difference that is allowed between cover to cover transitions.</Description>
+				<Default>1.5</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Cover_To_Cover_Max_Forward_Tolerance</Name>
+				<Type>Float</Type>
+				<Display_Name>Cover To Cover Max Forward Tolerance</Display_Name>
+				<Description>The max forward/backward offset allowed for cover to cover transitions.</Description>
+				<Default>3.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Transitions</Name>
+				<Type>Grid</Type>
+				<Element>
+					<Name>Transition</Name>
 					<Type>Element</Type>
-					<Display_Name>From Stand</Display_Name>
 					<Element>
-						<Name>Prone_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Prone (Right)</Display_Name>
-						<Required>false</Required>
+						<Name>Optimal_Distance</Name>
+						<Type>Float</Type>
+						<Display_Name>Optimal Distance</Display_Name>
+						<Default>0.0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+					<Element>
+						<Name>Max_Distance</Name>
+						<Type>Float</Type>
+						<Display_Name>Max Distance</Display_Name>
+						<Default>0.0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+					<Element>
+						<Name>Prone</Name>
+						<Type>Element</Type>
+						<Display_Name>From Prone</Display_Name>
+						<Element>
+							<Name>Prone_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Prone (Right)</Display_Name>
+							<Required>false</Required>
 						</Element>
-					<Element>
-						<Name>Prone_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Prone (Left)</Display_Name>
-						<Required>false</Required>
+						<Element>
+							<Name>Prone_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Prone (Left)</Display_Name>
+							<Required>false</Required>
 						</Element>
-					<Element>
-						<Name>Crouch_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Crouch (Right)</Display_Name>
-						<Required>false</Required>
+						<Element>
+							<Name>Crouch_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Crouch (Right)</Display_Name>
+							<Required>false</Required>
 						</Element>
-					<Element>
-						<Name>Crouch_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Crouch (Left)</Display_Name>
-						<Required>false</Required>
+						<Element>
+							<Name>Crouch_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Crouch (Left)</Display_Name>
+							<Required>false</Required>
 						</Element>
-					<Element>
-						<Name>Stand_Right</Name>
-						<Type>String</Type>
-						<Display_Name>To Stand (Right)</Display_Name>
-						<Required>false</Required>
+						<Element>
+							<Name>Stand_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Stand (Right)</Display_Name>
+							<Required>false</Required>
 						</Element>
+						<Element>
+							<Name>Stand_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Stand (Left)</Display_Name>
+							<Required>false</Required>
+						</Element>
+					</Element>
 					<Element>
-						<Name>Stand_Left</Name>
-						<Type>String</Type>
-						<Display_Name>To Stand (Left)</Display_Name>
-						<Required>false</Required>
+						<Name>Crouch</Name>
+						<Type>Element</Type>
+						<Display_Name>From Crouch</Display_Name>
+						<Element>
+							<Name>Prone_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Prone (Right)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Prone_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Prone (Left)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Crouch_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Crouch (Right)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Crouch_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Crouch (Left)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Stand_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Stand (Right)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Stand_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Stand (Left)</Display_Name>
+							<Required>false</Required>
+						</Element>
+					</Element>
+					<Element>
+						<Name>Stand</Name>
+						<Type>Element</Type>
+						<Display_Name>From Stand</Display_Name>
+						<Element>
+							<Name>Prone_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Prone (Right)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Prone_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Prone (Left)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Crouch_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Crouch (Right)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Crouch_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Crouch (Left)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Stand_Right</Name>
+							<Type>String</Type>
+							<Display_Name>To Stand (Right)</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Stand_Left</Name>
+							<Type>String</Type>
+							<Display_Name>To Stand (Left)</Display_Name>
+							<Required>false</Required>
 						</Element>
 					</Element>
 				</Element>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Element>
-		<Name>Movement</Name>
-		<Type>Element</Type>
 		<Element>
-			<Name>Normal_Move_Speed</Name>
-			<Type>Float</Type>
-			<Display_Name>Normal Move Speed</Display_Name>
-			<Default>4.4</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Approaching_Edge_Move_Speed</Name>
-			<Type>Float</Type>
-			<Display_Name>Approaching Edge Move Speed</Display_Name>
-			<Default>2.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Move_Speed_Ramp_Multiplier</Name>
-			<Type>Float</Type>
-			<Display_Name>Move Speed Ramp Multiplier</Display_Name>
-			<Description>How fast to transition from fully stopped to moving at full speed.</Description>
-			<Default>4.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Move_Speed_Multipliers</Name>
+			<Name>Movement</Name>
 			<Type>Element</Type>
-			<Display_Name>Move Speed Multipliers</Display_Name>
 			<Element>
-				<Name>Prone</Name>
+				<Name>Normal_Move_Speed</Name>
 				<Type>Float</Type>
-				<Default>0.4</Default>
+				<Display_Name>Normal Move Speed</Display_Name>
+				<Default>4.4</Default>
 				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Approaching_Edge_Move_Speed</Name>
+				<Type>Float</Type>
+				<Display_Name>Approaching Edge Move Speed</Display_Name>
+				<Default>2.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Move_Speed_Ramp_Multiplier</Name>
+				<Type>Float</Type>
+				<Display_Name>Move Speed Ramp Multiplier</Display_Name>
+				<Description>How fast to transition from fully stopped to moving at full speed.</Description>
+				<Default>4.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Move_Speed_Multipliers</Name>
+				<Type>Element</Type>
+				<Display_Name>Move Speed Multipliers</Display_Name>
+				<Element>
+					<Name>Prone</Name>
+					<Type>Float</Type>
+					<Default>0.4</Default>
+					<MinValue>0</MinValue>
 				</Element>
-			<Element>
-				<Name>Crouch</Name>
-				<Type>Float</Type>
-				<Default>0.7</Default>
-				<MinValue>0</MinValue>
+				<Element>
+					<Name>Crouch</Name>
+					<Type>Float</Type>
+					<Default>0.7</Default>
+					<MinValue>0</MinValue>
 				</Element>
-			<Element>
-				<Name>Stand</Name>
-				<Type>Float</Type>
-				<Default>1.0</Default>
-				<MinValue>0</MinValue>
+				<Element>
+					<Name>Stand</Name>
+					<Type>Float</Type>
+					<Default>1.0</Default>
+					<MinValue>0</MinValue>
 				</Element>
 			</Element>
 		</Element>
-	<Element>
-		<Name>Miscellaneous</Name>
-		<Type>Element</Type>
 		<Element>
-			<Name>Automatically_Use_Highest_Level</Name>
-			<Type>Selection</Type>
-			<Display_Name>Automatically Use Highest Level</Display_Name>
-			<Description>Whether or not the player will automatically go to stand/crouch when moving along cover that goes to a higher level.</Description>
-			<Default>True</Default>
-			<Choice>True</Choice>
-			<Choice>False</Choice>
+			<Name>Miscellaneous</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Automatically_Use_Highest_Level</Name>
+				<Type>Selection</Type>
+				<Display_Name>Automatically Use Highest Level</Display_Name>
+				<Description>Whether or not the player will automatically go to stand/crouch when moving along cover that goes to a higher level.</Description>
+				<Default>True</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
 			</Element>
-		<Element>
-			<Name>Aiming_Away_From_Cover_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Aiming Away From Cover Angle (degrees)</Display_Name>
-			<Description>The range at which the player can aim away from cover (from the wall normal)</Description>
-			<Default>126.87</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>180</MaxValue>
+			<Element>
+				<Name>Aiming_Away_From_Cover_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Aiming Away From Cover Angle (degrees)</Display_Name>
+				<Description>The range at which the player can aim away from cover (from the wall normal)</Description>
+				<Default>126.87</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>180</MaxValue>
 			</Element>
-		<Element>
-			<Name>Wall_Normal_Tolerance</Name>
-			<Type>Float</Type>
-			<Display_Name>Wall Normal Tolerance (degrees)</Display_Name>
-			<Description>The allowable change in the normal for the player to continue along a wall.  Any angle greater than this will require either an inner transition, corner cover transition, or smooth outside transition if the corner cover angle isn't sufficient.</Description>
-			<Default>30</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>180</MaxValue>
+			<Element>
+				<Name>Wall_Normal_Tolerance</Name>
+				<Type>Float</Type>
+				<Display_Name>Wall Normal Tolerance (degrees)</Display_Name>
+				<Description>The allowable change in the normal for the player to continue along a wall.  Any angle greater than this will require either an inner transition, corner cover transition, or smooth outside transition if the corner cover angle isn't sufficient.</Description>
+				<Default>30</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>180</MaxValue>
 			</Element>
-		<Element>
-			<Name>Interior_Wall_Transition_Min_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Interior Wall Transition Min Angle</Display_Name>
-			<Description>The minimum wall normal difference that is allowed on interior corner transitions.</Description>
-			<Default>83</Default>
-			<MinValue>45</MinValue>
-			<MaxValue>90</MaxValue>
+			<Element>
+				<Name>Interior_Wall_Transition_Min_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Interior Wall Transition Min Angle</Display_Name>
+				<Description>The minimum wall normal difference that is allowed on interior corner transitions.</Description>
+				<Default>83</Default>
+				<MinValue>45</MinValue>
+				<MaxValue>90</MaxValue>
 			</Element>
-		<Element>
-			<Name>Interior_Wall_Transition_Max_Angle</Name>
-			<Type>Float</Type>
-			<Display_Name>Interior Wall Transition Max Angle</Display_Name>
-			<Description>The maximum wall normal difference that is allowed on interior corner transitions.</Description>
-			<Default>105</Default>
-			<MinValue>90</MinValue>
-			<MaxValue>180</MaxValue>
+			<Element>
+				<Name>Interior_Wall_Transition_Max_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Interior Wall Transition Max Angle</Display_Name>
+				<Description>The maximum wall normal difference that is allowed on interior corner transitions.</Description>
+				<Default>105</Default>
+				<MinValue>90</MinValue>
+				<MaxValue>180</MaxValue>
 			</Element>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

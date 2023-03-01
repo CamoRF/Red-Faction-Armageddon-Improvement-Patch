@@ -1,58 +1,54 @@
 <root>
-<Table></Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>mp_modes_list</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>Selection</Type>
-		<Display_Name>Mode</Display_Name>
-		<Unique>true</Unique>
-		<Choice>deathmatch</Choice>
-		<Choice>team_deathmatch</Choice>
-		<Choice>bagman</Choice>
-		<Choice>team_bagman</Choice>
-		<Choice>capture_the_flag</Choice>
-		<Choice>king_of_the_hill</Choice>
-		<Choice>siege</Choice>
-		<Choice>demolition</Choice>
-		</Element>
-	<Element>
-		<Name>Display_Name</Name>
-		<Type>String</Type>
-		<Display_Name>Display Name</Display_Name>
-		</Element>
-	<Element>
-		<Name>Description</Name>
-		<Type>String</Type>
-		<MaxLength>256</MaxLength>
-		<MultiLine>true</MultiLine>
-		</Element>
-	<Element>
-		<Name>info_text</Name>
-		<Type>List</Type>
-		<Display_Name>Info text</Display_Name>
+	<Table></Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>mp_modes_list</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>entry</Name>
-			<Type>String</Type>
-			<Display_Name>Entry</Display_Name>
-			<MaxLength>32</MaxLength>
-			</Element>
-		<Max_Children>3</Max_Children>
-		<Visible_Elements>3</Visible_Elements>
-		<Num_Display_Rows>8</Num_Display_Rows>
-		<Element_Name>entry</Element_Name>
+			<Name>Name</Name>
+			<Type>Selection</Type>
+			<Display_Name>Mode</Display_Name>
+			<Unique>true</Unique>
+			<Choice>deathmatch</Choice>
+			<Choice>team_deathmatch</Choice>
+			<Choice>bagman</Choice>
+			<Choice>team_bagman</Choice>
+			<Choice>capture_the_flag</Choice>
+			<Choice>king_of_the_hill</Choice>
+			<Choice>siege</Choice>
+			<Choice>demolition</Choice>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Element>
+			<Name>Display_Name</Name>
+			<Type>String</Type>
+			<Display_Name>Display Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Description</Name>
+			<Type>String</Type>
+			<MaxLength>256</MaxLength>
+			<MultiLine>true</MultiLine>
+		</Element>
+		<Element>
+			<Name>info_text</Name>
+			<Type>List</Type>
+			<Display_Name>Info text</Display_Name>
+			<Element>
+				<Name>entry</Name>
+				<Type>String</Type>
+				<Display_Name>Entry</Display_Name>
+				<MaxLength>32</MaxLength>
+			</Element>
+			<Max_Children>3</Max_Children>
+			<Visible_Elements>3</Visible_Elements>
+			<Num_Display_Rows>8</Num_Display_Rows>
+			<Element_Name>entry</Element_Name>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

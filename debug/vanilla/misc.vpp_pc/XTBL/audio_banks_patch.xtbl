@@ -1,124 +1,120 @@
 <root>
-<Table>
-	<NewEntity>
-		<Name>wep_mar_burst_turret_pc</Name>
-		<wwise_id>2043408454</wwise_id>
-		<streaming>True</streaming>
-		<load_at_boot>True</load_at_boot>
-		<ram_bank_xbox2>False</ram_bank_xbox2>
-		<ram_bank_ps3>True</ram_bank_ps3>
-		<ram_bank_pc>False</ram_bank_pc>
-		<cacheable_xbox2>True</cacheable_xbox2>
-		<cacheable_ps3>True</cacheable_ps3>
-		<cacheable_pc>True</cacheable_pc>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<NewEntity>
+			<Name>wep_mar_burst_turret_pc</Name>
+			<wwise_id>2043408454</wwise_id>
+			<streaming>True</streaming>
+			<load_at_boot>True</load_at_boot>
+			<ram_bank_xbox2>False</ram_bank_xbox2>
+			<ram_bank_ps3>True</ram_bank_ps3>
+			<ram_bank_pc>False</ram_bank_pc>
+			<cacheable_xbox2>True</cacheable_xbox2>
+			<cacheable_ps3>True</cacheable_ps3>
+			<cacheable_pc>True</cacheable_pc>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<voice>False</voice>
+			<voice>False</voice>
 		</NewEntity>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>NewEntity</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Display_Name>Name - DO NOT EDIT</Display_Name>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>NewEntity</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Name - DO NOT EDIT</Display_Name>
 		</Element>
-	<Element>
-		<Name>wwise_id</Name>
-		<Type>String</Type>
-		<Display_Name>ID - DO NOT EDIT</Display_Name>
+		<Element>
+			<Name>wwise_id</Name>
+			<Type>String</Type>
+			<Display_Name>ID - DO NOT EDIT</Display_Name>
 		</Element>
-	<Element>
-		<Name>streaming</Name>
-		<Type>Selection</Type>
-		<Display_Name>Streaming Bank - DO NOT EDIT</Display_Name>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>streaming</Name>
+			<Type>Selection</Type>
+			<Display_Name>Streaming Bank - DO NOT EDIT</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>load_at_boot</Name>
-		<Type>Selection</Type>
-		<Display_Name>Load At Boot</Display_Name>
-		<Description>Human editable - set to true to load soundbank at boot time.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>load_at_boot</Name>
+			<Type>Selection</Type>
+			<Display_Name>Load At Boot</Display_Name>
+			<Description>Human editable - set to true to load soundbank at boot time.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>ram_bank_xbox2</Name>
-		<Type>Selection</Type>
-		<Display_Name>Ram Bank Xbox</Display_Name>
-		<Description>Human editable - set to true to load soundbank into RAM.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>ram_bank_xbox2</Name>
+			<Type>Selection</Type>
+			<Display_Name>Ram Bank Xbox</Display_Name>
+			<Description>Human editable - set to true to load soundbank into RAM.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>ram_bank_ps3</Name>
-		<Type>Selection</Type>
-		<Display_Name>Ram Bank PS3</Display_Name>
-		<Description>Human editable - set to true to load soundbank into RAM.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>ram_bank_ps3</Name>
+			<Type>Selection</Type>
+			<Display_Name>Ram Bank PS3</Display_Name>
+			<Description>Human editable - set to true to load soundbank into RAM.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>ram_bank_pc</Name>
-		<Type>Selection</Type>
-		<Display_Name>Ram Bank PC</Display_Name>
-		<Description>Human editable - set to true to load soundbank into RAM.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>ram_bank_pc</Name>
+			<Type>Selection</Type>
+			<Display_Name>Ram Bank PC</Display_Name>
+			<Description>Human editable - set to true to load soundbank into RAM.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>cacheable_xbox2</Name>
-		<Type>Selection</Type>
-		<Display_Name>Cacheable Xbox</Display_Name>
-		<Description>Human editable - set to true to make soundbank cacheable.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>cacheable_xbox2</Name>
+			<Type>Selection</Type>
+			<Display_Name>Cacheable Xbox</Display_Name>
+			<Description>Human editable - set to true to make soundbank cacheable.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>cacheable_ps3</Name>
-		<Type>Selection</Type>
-		<Display_Name>Cacheable PS3</Display_Name>
-		<Description>Human editable - set to true to make soundbank cacheable.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>cacheable_ps3</Name>
+			<Type>Selection</Type>
+			<Display_Name>Cacheable PS3</Display_Name>
+			<Description>Human editable - set to true to make soundbank cacheable.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>cacheable_pc</Name>
-		<Type>Selection</Type>
-		<Display_Name>Cacheable PC</Display_Name>
-		<Description>Human editable - set to true to make soundbank cacheable.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>cacheable_pc</Name>
+			<Type>Selection</Type>
+			<Display_Name>Cacheable PC</Display_Name>
+			<Description>Human editable - set to true to make soundbank cacheable.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>voice</Name>
-		<Type>Selection</Type>
-		<Display_Name>Voice Soundbank - DO NOT EDIT</Display_Name>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>voice</Name>
+			<Type>Selection</Type>
+			<Display_Name>Voice Soundbank - DO NOT EDIT</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

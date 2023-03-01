@@ -1,384 +1,380 @@
 <root>
-<Table>
-	<Player_Autoaim>
-		<Name>Controller</Name>
-		<Aim_Assist_Slow>True</Aim_Assist_Slow>
-		<Aim_Assist_Steer>True</Aim_Assist_Steer>
-		<Aim_Assist_Slow_Amount>0.4</Aim_Assist_Slow_Amount>
-		<Aim_Assist_Steer_Amount_X>1.0</Aim_Assist_Steer_Amount_X>
-		<Aim_Assist_Steer_Amount_Y>0.8</Aim_Assist_Steer_Amount_Y>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Player_Autoaim>
+			<Name>Controller</Name>
+			<Aim_Assist_Slow>True</Aim_Assist_Slow>
+			<Aim_Assist_Steer>True</Aim_Assist_Steer>
+			<Aim_Assist_Slow_Amount>0.4</Aim_Assist_Slow_Amount>
+			<Aim_Assist_Steer_Amount_X>1.0</Aim_Assist_Steer_Amount_X>
+			<Aim_Assist_Steer_Amount_Y>0.8</Aim_Assist_Steer_Amount_Y>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Aim_Assist_Control_Points>
-			<Aim_Assist_Control_Point>
-				<Distance>0.0</Distance>
-				<Strength>0.0</Strength>
+			<Aim_Assist_Control_Points>
+				<Aim_Assist_Control_Point>
+					<Distance>0.0</Distance>
+					<Strength>0.0</Strength>
 				</Aim_Assist_Control_Point>
-			<Aim_Assist_Control_Point>
-				<Distance>10.0</Distance>
-				<Strength>1.0</Strength>
+				<Aim_Assist_Control_Point>
+					<Distance>10.0</Distance>
+					<Strength>1.0</Strength>
 				</Aim_Assist_Control_Point>
-			<Aim_Assist_Control_Point>
-				<Distance>25.0</Distance>
-				<Strength>1.0</Strength>
+				<Aim_Assist_Control_Point>
+					<Distance>25.0</Distance>
+					<Strength>1.0</Strength>
 				</Aim_Assist_Control_Point>
-			<Aim_Assist_Control_Point>
-				<Distance>50.0</Distance>
-				<Strength>1.0</Strength>
+				<Aim_Assist_Control_Point>
+					<Distance>50.0</Distance>
+					<Strength>1.0</Strength>
 				</Aim_Assist_Control_Point>
 			</Aim_Assist_Control_Points>
-		<Fine_Aim_Snap>
-			<Max_Distance>100.0</Max_Distance>
-			<Max_Angle_Far>5.0</Max_Angle_Far>
-			<Horizontal_Strength>1.5</Horizontal_Strength>
-			<Vertical_Strength>1.2</Vertical_Strength>
-			<Duration_ms>2500</Duration_ms>
-			<Locked_Input_Delay_ms>125</Locked_Input_Delay_ms>
-			<Max_Angle_Close>15.0</Max_Angle_Close>
-			<Ramp_Down_Time_ms>500</Ramp_Down_Time_ms>
-			<Strength_Control_Points>
-				<Strength_Control_Point>
-					<Angle>0</Angle>
-					<Horizontal_Strength>1.5</Horizontal_Strength>
-					<Vertical_Strength>1.5</Vertical_Strength>
+			<Fine_Aim_Snap>
+				<Max_Distance>100.0</Max_Distance>
+				<Max_Angle_Far>5.0</Max_Angle_Far>
+				<Horizontal_Strength>1.5</Horizontal_Strength>
+				<Vertical_Strength>1.2</Vertical_Strength>
+				<Duration_ms>2500</Duration_ms>
+				<Locked_Input_Delay_ms>125</Locked_Input_Delay_ms>
+				<Max_Angle_Close>15.0</Max_Angle_Close>
+				<Ramp_Down_Time_ms>500</Ramp_Down_Time_ms>
+				<Strength_Control_Points>
+					<Strength_Control_Point>
+						<Angle>0</Angle>
+						<Horizontal_Strength>1.5</Horizontal_Strength>
+						<Vertical_Strength>1.5</Vertical_Strength>
 					</Strength_Control_Point>
-				<Strength_Control_Point>
-					<Angle>15</Angle>
-					<Horizontal_Strength>2.0</Horizontal_Strength>
-					<Vertical_Strength>2.0</Vertical_Strength>
+					<Strength_Control_Point>
+						<Angle>15</Angle>
+						<Horizontal_Strength>2.0</Horizontal_Strength>
+						<Vertical_Strength>2.0</Vertical_Strength>
 					</Strength_Control_Point>
-				<Strength_Control_Point>
-					<Angle>37.5</Angle>
-					<Horizontal_Strength>4.5</Horizontal_Strength>
-					<Vertical_Strength>4.5</Vertical_Strength>
+					<Strength_Control_Point>
+						<Angle>37.5</Angle>
+						<Horizontal_Strength>4.5</Horizontal_Strength>
+						<Vertical_Strength>4.5</Vertical_Strength>
 					</Strength_Control_Point>
 				</Strength_Control_Points>
-			<Heading_Adjust_Speed>0.51</Heading_Adjust_Speed>
-			<Pitch_Adjust_Speed>0.21</Pitch_Adjust_Speed>
-			<Heading_Adjust_Cutoff>1.0</Heading_Adjust_Cutoff>
-			<Pitch_Adjust_Cutoff>1.0</Pitch_Adjust_Cutoff>
+				<Heading_Adjust_Speed>0.51</Heading_Adjust_Speed>
+				<Pitch_Adjust_Speed>0.21</Pitch_Adjust_Speed>
+				<Heading_Adjust_Cutoff>1.0</Heading_Adjust_Cutoff>
+				<Pitch_Adjust_Cutoff>1.0</Pitch_Adjust_Cutoff>
 			</Fine_Aim_Snap>
-		<Flyer_Aim_Assist_Control_Points>
-			<Aim_Assist_Control_Point>
-				<Distance>0.0</Distance>
-				<Strength>0.0</Strength>
+			<Flyer_Aim_Assist_Control_Points>
+				<Aim_Assist_Control_Point>
+					<Distance>0.0</Distance>
+					<Strength>0.0</Strength>
 				</Aim_Assist_Control_Point>
-			<Aim_Assist_Control_Point>
-				<Distance>10.0</Distance>
-				<Strength>1.0</Strength>
+				<Aim_Assist_Control_Point>
+					<Distance>10.0</Distance>
+					<Strength>1.0</Strength>
 				</Aim_Assist_Control_Point>
-			<Aim_Assist_Control_Point>
-				<Distance>100.0</Distance>
-				<Strength>1.0</Strength>
+				<Aim_Assist_Control_Point>
+					<Distance>100.0</Distance>
+					<Strength>1.0</Strength>
 				</Aim_Assist_Control_Point>
 			</Flyer_Aim_Assist_Control_Points>
-		<Flyer_Aim_Assist_Steer_Amount_X>1</Flyer_Aim_Assist_Steer_Amount_X>
-		<Flyer_Aim_Assist_Steer_Amount_Y>1</Flyer_Aim_Assist_Steer_Amount_Y>
-		<Flyer_Aim_Assist_Slow_Amount>0.3</Flyer_Aim_Assist_Slow_Amount>
+			<Flyer_Aim_Assist_Steer_Amount_X>1</Flyer_Aim_Assist_Steer_Amount_X>
+			<Flyer_Aim_Assist_Steer_Amount_Y>1</Flyer_Aim_Assist_Steer_Amount_Y>
+			<Flyer_Aim_Assist_Slow_Amount>0.3</Flyer_Aim_Assist_Slow_Amount>
 		</Player_Autoaim>
-	<Player_Autoaim>
-		<Name>Keyboard/Mouse</Name>
-		<Aim_Assist_Slow>False</Aim_Assist_Slow>
-		<Aim_Assist_Steer>False</Aim_Assist_Steer>
-		<Aim_Assist_Slow_Amount>0.0</Aim_Assist_Slow_Amount>
-		<Aim_Assist_Steer_Amount_X>0.0</Aim_Assist_Steer_Amount_X>
-		<Aim_Assist_Steer_Amount_Y>0.0</Aim_Assist_Steer_Amount_Y>
-		<_Editor>
-			<Category>Entries</Category>
+		<Player_Autoaim>
+			<Name>Keyboard/Mouse</Name>
+			<Aim_Assist_Slow>False</Aim_Assist_Slow>
+			<Aim_Assist_Steer>False</Aim_Assist_Steer>
+			<Aim_Assist_Slow_Amount>0.0</Aim_Assist_Slow_Amount>
+			<Aim_Assist_Steer_Amount_X>0.0</Aim_Assist_Steer_Amount_X>
+			<Aim_Assist_Steer_Amount_Y>0.0</Aim_Assist_Steer_Amount_Y>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Aim_Assist_Control_Points>
-			<Aim_Assist_Control_Point>
-				<Distance>0.0</Distance>
-				<Strength>0.0</Strength>
+			<Aim_Assist_Control_Points>
+				<Aim_Assist_Control_Point>
+					<Distance>0.0</Distance>
+					<Strength>0.0</Strength>
 				</Aim_Assist_Control_Point>
-			<Aim_Assist_Control_Point>
-				<Distance>10.0</Distance>
-				<Strength>0.0</Strength>
+				<Aim_Assist_Control_Point>
+					<Distance>10.0</Distance>
+					<Strength>0.0</Strength>
 				</Aim_Assist_Control_Point>
 			</Aim_Assist_Control_Points>
-		<Fine_Aim_Snap>
-			<Max_Distance>100.0</Max_Distance>
-			<Max_Angle_Far>2.5</Max_Angle_Far>
-			<Horizontal_Strength>1.5</Horizontal_Strength>
-			<Vertical_Strength>1.2</Vertical_Strength>
-			<Duration_ms>2500</Duration_ms>
-			<Locked_Input_Delay_ms>125</Locked_Input_Delay_ms>
-			<Max_Angle_Close>7.5</Max_Angle_Close>
-			<Ramp_Down_Time_ms>500</Ramp_Down_Time_ms>
-			<Strength_Control_Points>
-				<Strength_Control_Point>
-					<Angle>0</Angle>
-					<Horizontal_Strength>1.5</Horizontal_Strength>
-					<Vertical_Strength>1.5</Vertical_Strength>
+			<Fine_Aim_Snap>
+				<Max_Distance>100.0</Max_Distance>
+				<Max_Angle_Far>2.5</Max_Angle_Far>
+				<Horizontal_Strength>1.5</Horizontal_Strength>
+				<Vertical_Strength>1.2</Vertical_Strength>
+				<Duration_ms>2500</Duration_ms>
+				<Locked_Input_Delay_ms>125</Locked_Input_Delay_ms>
+				<Max_Angle_Close>7.5</Max_Angle_Close>
+				<Ramp_Down_Time_ms>500</Ramp_Down_Time_ms>
+				<Strength_Control_Points>
+					<Strength_Control_Point>
+						<Angle>0</Angle>
+						<Horizontal_Strength>1.5</Horizontal_Strength>
+						<Vertical_Strength>1.5</Vertical_Strength>
 					</Strength_Control_Point>
-				<Strength_Control_Point>
-					<Angle>15</Angle>
-					<Horizontal_Strength>2.0</Horizontal_Strength>
-					<Vertical_Strength>2.0</Vertical_Strength>
+					<Strength_Control_Point>
+						<Angle>15</Angle>
+						<Horizontal_Strength>2.0</Horizontal_Strength>
+						<Vertical_Strength>2.0</Vertical_Strength>
 					</Strength_Control_Point>
-				<Strength_Control_Point>
-					<Angle>37.5</Angle>
-					<Horizontal_Strength>4.5</Horizontal_Strength>
-					<Vertical_Strength>4.5</Vertical_Strength>
+					<Strength_Control_Point>
+						<Angle>37.5</Angle>
+						<Horizontal_Strength>4.5</Horizontal_Strength>
+						<Vertical_Strength>4.5</Vertical_Strength>
 					</Strength_Control_Point>
 				</Strength_Control_Points>
-			<Heading_Adjust_Speed>0.51</Heading_Adjust_Speed>
-			<Pitch_Adjust_Speed>0.21</Pitch_Adjust_Speed>
-			<Heading_Adjust_Cutoff>1.0</Heading_Adjust_Cutoff>
-			<Pitch_Adjust_Cutoff>1.0</Pitch_Adjust_Cutoff>
+				<Heading_Adjust_Speed>0.51</Heading_Adjust_Speed>
+				<Pitch_Adjust_Speed>0.21</Pitch_Adjust_Speed>
+				<Heading_Adjust_Cutoff>1.0</Heading_Adjust_Cutoff>
+				<Pitch_Adjust_Cutoff>1.0</Pitch_Adjust_Cutoff>
 			</Fine_Aim_Snap>
-		<Flyer_Aim_Assist_Control_Points>
-			<Aim_Assist_Control_Point>
-				<Distance>0.0</Distance>
-				<Strength>0.0</Strength>
+			<Flyer_Aim_Assist_Control_Points>
+				<Aim_Assist_Control_Point>
+					<Distance>0.0</Distance>
+					<Strength>0.0</Strength>
 				</Aim_Assist_Control_Point>
-			<Aim_Assist_Control_Point>
-				<Distance>10.0</Distance>
-				<Strength>0.0</Strength>
+				<Aim_Assist_Control_Point>
+					<Distance>10.0</Distance>
+					<Strength>0.0</Strength>
 				</Aim_Assist_Control_Point>
 			</Flyer_Aim_Assist_Control_Points>
-		<Flyer_Aim_Assist_Steer_Amount_X>0.0</Flyer_Aim_Assist_Steer_Amount_X>
-		<Flyer_Aim_Assist_Steer_Amount_Y>0.0</Flyer_Aim_Assist_Steer_Amount_Y>
-		<Flyer_Aim_Assist_Slow_Amount>0.0</Flyer_Aim_Assist_Slow_Amount>
+			<Flyer_Aim_Assist_Steer_Amount_X>0.0</Flyer_Aim_Assist_Steer_Amount_X>
+			<Flyer_Aim_Assist_Steer_Amount_Y>0.0</Flyer_Aim_Assist_Steer_Amount_Y>
+			<Flyer_Aim_Assist_Slow_Amount>0.0</Flyer_Aim_Assist_Slow_Amount>
 		</Player_Autoaim>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Player_Autoaim</Name>
-	<Type>TableDescription</Type>
-	<Display_Name>Player Autoaim</Display_Name>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		</Element>
-	<Element>
-		<Name>Aim_Assist_Slow</Name>
-		<Type>Selection</Type>
-		<Display_Name>Aim Assist Slow</Display_Name>
-		<Description>Sticky aiming controls slowing down of the reticle when it is moved over an enemy.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
-		</Element>
-	<Element>
-		<Name>Aim_Assist_Steer</Name>
-		<Type>Selection</Type>
-		<Display_Name>Aim Assist Steer</Display_Name>
-		<Description>Aim rotate controls rotating the camera when an enemy is strafed over.</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
-		</Element>
-	<Element>
-		<Name>Aim_Assist_Slow_Amount</Name>
-		<Type>Float</Type>
-		<Display_Name>Aim Assist Slow Amount</Display_Name>
-		<Description>How much to slow down camera movement.</Description>
-		<Default>0.0</Default>
-		</Element>
-	<Element>
-		<Name>Aim_Assist_Steer_Amount_X</Name>
-		<Type>Float</Type>
-		<Display_Name>Aim Assis Stee Amount X</Display_Name>
-		<Description>How much to assist steering the camera.</Description>
-		<Default>0.0</Default>
-		</Element>
-	<Element>
-		<Name>Aim_Assist_Steer_Amount_Y</Name>
-		<Type>Float</Type>
-		<Display_Name>Aim Assist Steer Amount Y</Display_Name>
-		<Description>How much to assist steering the camera.</Description>
-		<Default>0.0</Default>
-		</Element>
-	<Element>
-		<Name>Aim_Assist_Control_Points</Name>
-		<Type>Grid</Type>
-		<Display_Name>Aim Assist Control Points</Display_Name>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Player_Autoaim</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Player Autoaim</Display_Name>
 		<Element>
-			<Name>Aim_Assist_Control_Point</Name>
-			<Type>Element</Type>
-			<Display_Name>Aim Assist Control Point</Display_Name>
-			<Element>
-				<Name>Distance</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Strength</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				<MaxValue>1</MaxValue>
-				</Element>
-			</Element>
-		<Min_Children>2</Min_Children>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>Flyer_Aim_Assist_Slow_Amount</Name>
-		<Type>Float</Type>
-		<Display_Name>Flyer Aim Assist Slow Amount</Display_Name>
-		<Description>How much to slow down camera movement while in a flyer.</Description>
-		<Default>0.0</Default>
-		</Element>
-	<Element>
-		<Name>Flyer_Aim_Assist_Steer_Amount_X</Name>
-		<Type>Float</Type>
-		<Display_Name>Flyer Aim Assist Steer Amount X</Display_Name>
-		<Description>How much to assist steering the camera while in a flyer.</Description>
-		<Default>0.0</Default>
-		</Element>
-	<Element>
-		<Name>Flyer_Aim_Assist_Steer_Amount_Y</Name>
-		<Type>Float</Type>
-		<Display_Name>Flyer Aim Assist Steer Amount Y</Display_Name>
-		<Description>How much to assist steering the camera while in a flyer.</Description>
-		<Default>0.0</Default>
-		</Element>
-	<Element>
-		<Name>Flyer_Aim_Assist_Control_Points</Name>
-		<Type>Grid</Type>
-		<Display_Name>Flyer Aim Assist Control Points</Display_Name>
 		<Element>
-			<Name>Aim_Assist_Control_Point</Name>
-			<Type>Element</Type>
-			<Display_Name>Aim Assist Control Point</Display_Name>
-			<Element>
-				<Name>Distance</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				</Element>
-			<Element>
-				<Name>Strength</Name>
-				<Type>Float</Type>
-				<Default>0.0</Default>
-				<MinValue>0</MinValue>
-				<MaxValue>1</MaxValue>
-				</Element>
-			</Element>
-		<Min_Children>2</Min_Children>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Name>Aim_Assist_Slow</Name>
+			<Type>Selection</Type>
+			<Display_Name>Aim Assist Slow</Display_Name>
+			<Description>Sticky aiming controls slowing down of the reticle when it is moved over an enemy.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>Fine_Aim_Snap</Name>
-		<Type>Element</Type>
-		<Display_Name>Fine-Aim Snap</Display_Name>
 		<Element>
-			<Name>Max_Distance</Name>
+			<Name>Aim_Assist_Steer</Name>
+			<Type>Selection</Type>
+			<Display_Name>Aim Assist Steer</Display_Name>
+			<Description>Aim rotate controls rotating the camera when an enemy is strafed over.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Aim_Assist_Slow_Amount</Name>
 			<Type>Float</Type>
-			<Display_Name>Max Distance</Display_Name>
+			<Display_Name>Aim Assist Slow Amount</Display_Name>
+			<Description>How much to slow down camera movement.</Description>
 			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
+		</Element>
 		<Element>
-			<Name>Max_Angle_Close</Name>
+			<Name>Aim_Assist_Steer_Amount_X</Name>
 			<Type>Float</Type>
-			<Display_Name>Max Angle Close (degrees)</Display_Name>
+			<Display_Name>Aim Assis Stee Amount X</Display_Name>
+			<Description>How much to assist steering the camera.</Description>
 			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
+		</Element>
 		<Element>
-			<Name>Max_Angle_Far</Name>
+			<Name>Aim_Assist_Steer_Amount_Y</Name>
 			<Type>Float</Type>
-			<Display_Name>Max Angle Far (degrees)</Display_Name>
+			<Display_Name>Aim Assist Steer Amount Y</Display_Name>
+			<Description>How much to assist steering the camera.</Description>
 			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
+		</Element>
 		<Element>
-			<Name>Duration_ms</Name>
-			<Type>Int</Type>
-			<Display_Name>Duration (ms)</Display_Name>
-			<Default>0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Locked_Input_Delay_ms</Name>
-			<Type>Int</Type>
-			<Display_Name>Locked Input Delay (ms)</Display_Name>
-			<Default>0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Ramp_Down_Time_ms</Name>
-			<Type>Int</Type>
-			<Display_Name>Ramp Down Time (ms)</Display_Name>
-			<Default>0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Heading_Adjust_Speed</Name>
-			<Type>Float</Type>
-			<Display_Name>Heading Adjust Speed</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Pitch_Adjust_Speed</Name>
-			<Type>Float</Type>
-			<Display_Name>Pitch Adjust Speed</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Heading_Adjust_Cutoff</Name>
-			<Type>Float</Type>
-			<Display_Name>Heading Adjust Cutoff</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Pitch_Adjust_Cutoff</Name>
-			<Type>Float</Type>
-			<Display_Name>Pitch Adjust Cutoff</Display_Name>
-			<Default>0.0</Default>
-			<MinValue>0</MinValue>
-			</Element>
-		<Element>
-			<Name>Strength_Control_Points</Name>
+			<Name>Aim_Assist_Control_Points</Name>
 			<Type>Grid</Type>
-			<Display_Name>Strength Control Points</Display_Name>
+			<Display_Name>Aim Assist Control Points</Display_Name>
 			<Element>
-				<Name>Strength_Control_Point</Name>
+				<Name>Aim_Assist_Control_Point</Name>
 				<Type>Element</Type>
-				<Display_Name>Strength Control Point</Display_Name>
+				<Display_Name>Aim Assist Control Point</Display_Name>
 				<Element>
-					<Name>Angle</Name>
+					<Name>Distance</Name>
 					<Type>Float</Type>
-					<Display_Name>Angle (degrees)</Display_Name>
 					<Default>0.0</Default>
 					<MinValue>0</MinValue>
-					</Element>
-				<Element>
-					<Name>Horizontal_Strength</Name>
-					<Type>Float</Type>
-					<Display_Name>Horizontal Strength</Display_Name>
-					<Default>0.0</Default>
-					<MinValue>0</MinValue>
-					</Element>
-				<Element>
-					<Name>Vertical_Strength</Name>
-					<Type>Float</Type>
-					<Display_Name>Vertical Strength</Display_Name>
-					<Default>0.0</Default>
-					<MinValue>0</MinValue>
-					</Element>
 				</Element>
+				<Element>
+					<Name>Strength</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+			</Element>
 			<Min_Children>2</Min_Children>
 			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>Flyer_Aim_Assist_Slow_Amount</Name>
+			<Type>Float</Type>
+			<Display_Name>Flyer Aim Assist Slow Amount</Display_Name>
+			<Description>How much to slow down camera movement while in a flyer.</Description>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Flyer_Aim_Assist_Steer_Amount_X</Name>
+			<Type>Float</Type>
+			<Display_Name>Flyer Aim Assist Steer Amount X</Display_Name>
+			<Description>How much to assist steering the camera while in a flyer.</Description>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Flyer_Aim_Assist_Steer_Amount_Y</Name>
+			<Type>Float</Type>
+			<Display_Name>Flyer Aim Assist Steer Amount Y</Display_Name>
+			<Description>How much to assist steering the camera while in a flyer.</Description>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Flyer_Aim_Assist_Control_Points</Name>
+			<Type>Grid</Type>
+			<Display_Name>Flyer Aim Assist Control Points</Display_Name>
+			<Element>
+				<Name>Aim_Assist_Control_Point</Name>
+				<Type>Element</Type>
+				<Display_Name>Aim Assist Control Point</Display_Name>
+				<Element>
+					<Name>Distance</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+				</Element>
+				<Element>
+					<Name>Strength</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+			</Element>
+			<Min_Children>2</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>Fine_Aim_Snap</Name>
+			<Type>Element</Type>
+			<Display_Name>Fine-Aim Snap</Display_Name>
+			<Element>
+				<Name>Max_Distance</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Distance</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Max_Angle_Close</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Angle Close (degrees)</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Max_Angle_Far</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Angle Far (degrees)</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Duration_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Duration (ms)</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Locked_Input_Delay_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Locked Input Delay (ms)</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Ramp_Down_Time_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Ramp Down Time (ms)</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Heading_Adjust_Speed</Name>
+				<Type>Float</Type>
+				<Display_Name>Heading Adjust Speed</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Pitch_Adjust_Speed</Name>
+				<Type>Float</Type>
+				<Display_Name>Pitch Adjust Speed</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Heading_Adjust_Cutoff</Name>
+				<Type>Float</Type>
+				<Display_Name>Heading Adjust Cutoff</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Pitch_Adjust_Cutoff</Name>
+				<Type>Float</Type>
+				<Display_Name>Pitch Adjust Cutoff</Display_Name>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+			</Element>
+			<Element>
+				<Name>Strength_Control_Points</Name>
+				<Type>Grid</Type>
+				<Display_Name>Strength Control Points</Display_Name>
+				<Element>
+					<Name>Strength_Control_Point</Name>
+					<Type>Element</Type>
+					<Display_Name>Strength Control Point</Display_Name>
+					<Element>
+						<Name>Angle</Name>
+						<Type>Float</Type>
+						<Display_Name>Angle (degrees)</Display_Name>
+						<Default>0.0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+					<Element>
+						<Name>Horizontal_Strength</Name>
+						<Type>Float</Type>
+						<Display_Name>Horizontal Strength</Display_Name>
+						<Default>0.0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+					<Element>
+						<Name>Vertical_Strength</Name>
+						<Type>Float</Type>
+						<Display_Name>Vertical Strength</Display_Name>
+						<Default>0.0</Default>
+						<MinValue>0</MinValue>
+					</Element>
+				</Element>
+				<Min_Children>2</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

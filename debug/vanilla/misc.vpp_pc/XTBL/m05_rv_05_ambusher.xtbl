@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/M05_RV_05_Ambusher/M05_RV_05_Ambusher.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -34,10 +34,10 @@
 						<X>86.4035</X>
 						<Y>-0.0771</Y>
 						<Z>-22.6392</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location02</StartNav>
 			<Shots>
 				<Shot>
@@ -47,7 +47,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>29</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-s102__4</Name>
 					<SlateName>Location02</SlateName>
@@ -55,7 +55,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>49</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-s103__5</Name>
 					<SlateName>Location02</SlateName>
@@ -63,7 +63,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>44</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-s104__6</Name>
 					<SlateName>Location02</SlateName>
@@ -71,7 +71,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>118</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-s0105__1</Name>
 					<SlateName>Location02</SlateName>
@@ -79,7 +79,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>19</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_6-s106__2</Name>
 					<SlateName>Location02</SlateName>
@@ -87,7 +87,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>29</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_7-s104__7</Name>
 					<SlateName>Location02</SlateName>
@@ -95,9 +95,9 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>28</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

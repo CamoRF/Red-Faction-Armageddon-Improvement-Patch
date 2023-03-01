@@ -1,247 +1,243 @@
 <root>
-<Table>
-	<Difficulty>
-		<Name>Difficulty</Name>
-		<Difficulty_Items>
-			<Item>
-				<Name>MENU_ENEMY_DAMAGE_TAKEN</Name>
-				<Easy>1.5</Easy>
-				<Medium>1.0</Medium>
-				<Hard>0.80</Hard>
-				<Insane>0.60</Insane>
+	<Table>
+		<Difficulty>
+			<Name>Difficulty</Name>
+			<Difficulty_Items>
+				<Item>
+					<Name>MENU_ENEMY_DAMAGE_TAKEN</Name>
+					<Easy>1.5</Easy>
+					<Medium>1.0</Medium>
+					<Hard>0.80</Hard>
+					<Insane>0.60</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_ENEMY_VEHICLE_DAMAGE</Name>
-				<Easy>1.5</Easy>
-				<Medium>1.0</Medium>
-				<Hard>0.80</Hard>
-				<Insane>0.60</Insane>
+				<Item>
+					<Name>MENU_ENEMY_VEHICLE_DAMAGE</Name>
+					<Easy>1.5</Easy>
+					<Medium>1.0</Medium>
+					<Hard>0.80</Hard>
+					<Insane>0.60</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_ENEMY_WEAPON_SPREAD</Name>
-				<Easy>1.2</Easy>
-				<Medium>1.0</Medium>
-				<Hard>0.75</Hard>
-				<Insane>0.50</Insane>
+				<Item>
+					<Name>MENU_ENEMY_WEAPON_SPREAD</Name>
+					<Easy>1.2</Easy>
+					<Medium>1.0</Medium>
+					<Hard>0.75</Hard>
+					<Insane>0.50</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_ENEMY_AIM_DRIFT</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>0.75</Hard>
-				<Insane>0.50</Insane>
+				<Item>
+					<Name>MENU_ENEMY_AIM_DRIFT</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>0.75</Hard>
+					<Insane>0.50</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_ENEMY_BURST_SIZE</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_ENEMY_BURST_SIZE</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_ENEMY_PHYSICS_COLLISIONS</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_ENEMY_PHYSICS_COLLISIONS</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
-				<Easy>.4</Easy>
-				<Medium>0.8</Medium>
-				<Hard>0.8</Hard>
-				<Insane>1.14</Insane>
+				<Item>
+					<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
+					<Easy>.4</Easy>
+					<Medium>0.8</Medium>
+					<Hard>0.8</Hard>
+					<Insane>1.14</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_REGEN_DELAY</Name>
-				<Easy>0.75</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.25</Hard>
-				<Insane>1.25</Insane>
+				<Item>
+					<Name>MENU_PLAYER_REGEN_DELAY</Name>
+					<Easy>0.75</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.25</Hard>
+					<Insane>1.25</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_REGEN_RATE</Name>
-				<Easy>1.2</Easy>
-				<Medium>1.0</Medium>
-				<Hard>0.75</Hard>
-				<Insane>0.5</Insane>
+				<Item>
+					<Name>MENU_PLAYER_REGEN_RATE</Name>
+					<Easy>1.2</Easy>
+					<Medium>1.0</Medium>
+					<Hard>0.75</Hard>
+					<Insane>0.5</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_AMMO_PICKUP</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_AMMO_PICKUP</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_AMMO_CRATES</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_AMMO_CRATES</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_VEHICLE_DAMAGE</Name>
-				<Easy>0.4</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.5</Hard>
-				<Insane>2.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_VEHICLE_DAMAGE</Name>
+					<Easy>0.4</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.5</Hard>
+					<Insane>2.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_VEHICLE_MASS</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_VEHICLE_MASS</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_PHYSICS_COLLISIONS</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.25</Hard>
-				<Insane>1.5</Insane>
+				<Item>
+					<Name>MENU_PLAYER_PHYSICS_COLLISIONS</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.25</Hard>
+					<Insane>1.5</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_HERO_DELAY</Name>
-				<Easy>0.5</Easy>
-				<Medium>1.0</Medium>
-				<Hard>2.0</Hard>
-				<Insane>2.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_HERO_DELAY</Name>
+					<Easy>0.5</Easy>
+					<Medium>1.0</Medium>
+					<Hard>2.0</Hard>
+					<Insane>2.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_HERO_INVULNERABLE</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_HERO_INVULNERABLE</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_FINEAIM_DURATION</Name>
-				<Easy>200.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>.7</Hard>
-				<Insane>.5</Insane>
+				<Item>
+					<Name>MENU_PLAYER_FINEAIM_DURATION</Name>
+					<Easy>200.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>.7</Hard>
+					<Insane>.5</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_FINEAIM_ANGLE_CLOSE</Name>
-				<Easy>2.5</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_FINEAIM_ANGLE_CLOSE</Name>
+					<Easy>2.5</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_FINEAIM_ANGLE_FAR</Name>
-				<Easy>2.5</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_FINEAIM_ANGLE_FAR</Name>
+					<Easy>2.5</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_ENV_EXPLOSION_DAMAGE</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_ENV_EXPLOSION_DAMAGE</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_POD_DAMAGE_TAKEN</Name>
-				<Easy>1.5</Easy>
-				<Medium>1.0</Medium>
-				<Hard>0.75</Hard>
-				<Insane>0.5</Insane>
+				<Item>
+					<Name>MENU_POD_DAMAGE_TAKEN</Name>
+					<Easy>1.5</Easy>
+					<Medium>1.0</Medium>
+					<Hard>0.75</Hard>
+					<Insane>0.5</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_SALVAGE_PICKUP_MULTIPLIER</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_SALVAGE_PICKUP_MULTIPLIER</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_MP_WAVE_SALVAGE_MULTIPLIER</Name>
-				<Easy>0.8</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.2</Hard>
-				<Insane>1.5</Insane>
+				<Item>
+					<Name>MENU_MP_WAVE_SALVAGE_MULTIPLIER</Name>
+					<Easy>0.8</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.2</Hard>
+					<Insane>1.5</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_NANOFORGE_REGEN_MULTIPLIER</Name>
-				<Easy>1.0</Easy>
-				<Medium>1.0</Medium>
-				<Hard>1.0</Hard>
-				<Insane>1.0</Insane>
+				<Item>
+					<Name>MENU_NANOFORGE_REGEN_MULTIPLIER</Name>
+					<Easy>1.0</Easy>
+					<Medium>1.0</Medium>
+					<Hard>1.0</Hard>
+					<Insane>1.0</Insane>
 				</Item>
-			<Item>
-				<Name>MENU_MONOLITHED_DAMAGE_RECEIVED_OVERRIDE</Name>
-				<Easy>0.0</Easy>
-				<Medium>0.0</Medium>
-				<Hard>0.0</Hard>
-				<Insane>0.0</Insane>
+				<Item>
+					<Name>MENU_MONOLITHED_DAMAGE_RECEIVED_OVERRIDE</Name>
+					<Easy>0.0</Easy>
+					<Medium>0.0</Medium>
+					<Hard>0.0</Hard>
+					<Insane>0.0</Insane>
 				</Item>
 			</Difficulty_Items>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Difficulty>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Difficulty</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		</Element>
-	<Element>
-		<Name>Difficulty_Items</Name>
-		<Type>Grid</Type>
-		<Display_Name>Difficulty Items</Display_Name>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Difficulty</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>Item</Name>
-			<Type>Element</Type>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Difficulty_Items</Name>
+			<Type>Grid</Type>
+			<Display_Name>Difficulty Items</Display_Name>
 			<Element>
-				<Name>Name</Name>
-				<Type>String</Type>
+				<Name>Item</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Name</Name>
+					<Type>String</Type>
 				</Element>
-			<Element>
-				<Name>Easy</Name>
-				<Type>Float</Type>
-				<Default>0.8</Default>
+				<Element>
+					<Name>Easy</Name>
+					<Type>Float</Type>
+					<Default>0.8</Default>
 				</Element>
-			<Element>
-				<Name>Medium</Name>
-				<Type>Float</Type>
-				<Default>1.0</Default>
+				<Element>
+					<Name>Medium</Name>
+					<Type>Float</Type>
+					<Default>1.0</Default>
 				</Element>
-			<Element>
-				<Name>Hard</Name>
-				<Type>Float</Type>
-				<Default>1.2</Default>
+				<Element>
+					<Name>Hard</Name>
+					<Type>Float</Type>
+					<Default>1.2</Default>
 				</Element>
-			<Element>
-				<Name>Insane</Name>
-				<Type>Float</Type>
-				<Default>1.0</Default>
+				<Element>
+					<Name>Insane</Name>
+					<Type>Float</Type>
+					<Default>1.0</Default>
 				</Element>
 			</Element>
-		<Num_Display_Rows>20</Num_Display_Rows>
+			<Num_Display_Rows>20</Num_Display_Rows>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

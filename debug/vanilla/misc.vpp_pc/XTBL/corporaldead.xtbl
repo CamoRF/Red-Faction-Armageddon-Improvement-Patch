@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission05/CorporalDead/CorporalDead.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,15 +30,15 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>MarWa</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_red_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -48,10 +48,10 @@
 						<X>26.8145</X>
 						<Y>65.0861</Y>
 						<Z>82.1496</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -67,7 +67,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission05/CorporalDead/CorporalDead_pc__3.animx</Filename>
@@ -76,9 +76,9 @@
 									<EndFrame>41</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>41</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>MarWa</Name>
 							<maxHandle>2</maxHandle>
@@ -86,7 +86,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission05/CorporalDead/CorporalDead_MarWa__3.animx</Filename>
@@ -95,13 +95,13 @@
 									<EndFrame>41</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>41</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>41</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam03__5</Name>
 					<SlateName>Location01</SlateName>
@@ -115,7 +115,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission05/CorporalDead/CorporalDead_pc__5.animx</Filename>
@@ -124,9 +124,9 @@
 									<EndFrame>621</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>621</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>MarWa</Name>
 							<maxHandle>2</maxHandle>
@@ -134,7 +134,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission05/CorporalDead/CorporalDead_MarWa__5.animx</Filename>
@@ -143,15 +143,15 @@
 									<EndFrame>621</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>621</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>621</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

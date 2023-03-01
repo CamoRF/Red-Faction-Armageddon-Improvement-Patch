@@ -1,1409 +1,1405 @@
 <root>
-<Table>
-	<LoadingScreen>
-		<Name>sam</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+	<Table>
+		<LoadingScreen>
+			<Name>sam</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_SAM_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_SAM_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SAM_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SAM_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SAM_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SAM_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>heavy_walker</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_h_walker_1.tga</Filename>
+		<LoadingScreen>
+			<Name>heavy_walker</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_h_walker_1.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_HEAVY_WALKER_2</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_HEAVY_WALKER_2</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HEAVY_WALKER_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HEAVY_WALKER_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HEAVY_WALKER_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HEAVY_WALKER_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>flyer</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_flyer_1.tga</Filename>
+		<LoadingScreen>
+			<Name>flyer</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_flyer_1.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_FLYER_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_FLYER_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_FLYER_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_FLYER_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_FLYER_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_FLYER_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_FLYER_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_FLYER_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>grunt</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_grunt.tga</Filename>
+		<LoadingScreen>
+			<Name>grunt</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_grunt.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_grunt_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_grunt_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_RAVAGER_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_RAVAGER_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RAVAGER_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RAVAGER_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>wraith</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_wraith.tga</Filename>
+		<LoadingScreen>
+			<Name>wraith</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_wraith.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_wraith_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_wraith_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_WRAITH_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_WRAITH_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_WRAITH_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_WRAITH_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_WRAITH_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_WRAITH_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>heavy</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_heavy.tga</Filename>
+		<LoadingScreen>
+			<Name>heavy</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_heavy.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_heavy_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_heavy_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_HEAVY_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_HEAVY_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HEAVY_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HEAVY_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>creeper</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_creeper.tga</Filename>
+		<LoadingScreen>
+			<Name>creeper</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_creeper.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_creeper_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_creeper_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_CREEPER_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_CREEPER_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_CREEPER_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_CREEPER_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_CREEPER_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_CREEPER_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>nanoforge</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>nanoforge</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips></Tips>
+			<Type>nanoforge</Type>
+			<Tips></Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>magnet</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_magnet_profile.tga</Filename>
+		<LoadingScreen>
+			<Name>magnet</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_magnet_profile.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_magnet_angle.tga</Filename>
+				<Image>
+					<Filename>ui_loading_magnet_angle.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>weapon</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_MAGNET_GUN_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>weapon</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_MAGNET_GUN_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_MAGNET_GUN_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_MAGNET_GUN_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_MAGNET_GUN_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_MAGNET_GUN_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_MAGNET_GUN_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_MAGNET_GUN_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>winters</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_winters.tga</Filename>
+		<LoadingScreen>
+			<Name>winters</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_winters.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_char_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_char_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>character</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_WINTERS_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>character</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_WINTERS_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_WINTERS_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_WINTERS_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_WINTERS_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_WINTERS_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>kara</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_kara.tga</Filename>
+		<LoadingScreen>
+			<Name>kara</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_kara.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_char_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_char_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>character</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_KARA_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>character</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_KARA_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_KARA_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_KARA_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_KARA_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_KARA_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>hale</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_hale.tga</Filename>
+		<LoadingScreen>
+			<Name>hale</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_hale.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_char_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_char_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>character</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_HALE_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+			<Type>character</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_HALE_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HALE_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HALE_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HALE_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HALE_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HALE_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HALE_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>pods</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_pod.tga</Filename>
+		<LoadingScreen>
+			<Name>pods</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_pod.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_pod_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_pod_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_PODS_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_PODS_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_PODS_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_PODS_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>monoliths</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_monolith.tga</Filename>
+		<LoadingScreen>
+			<Name>monoliths</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_monolith.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_monolith_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_monolith_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_MONOLITHS_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_MONOLITHS_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_MONOLITHS_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_MONOLITHS_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>repair</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>repair</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_REPAIR_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_REPAIR_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_REPAIR_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_REPAIR_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_REPAIR_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_REPAIR_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>impact</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>impact</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_IMPACT_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_IMPACT_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_IMPACT_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_IMPACT_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_IMPACT_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_IMPACT_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>shell</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>shell</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_SHELL_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_SHELL_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SHELL_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SHELL_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SHELL_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SHELL_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SHELL_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SHELL_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>berserk</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>berserk</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_BERSERK_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_BERSERK_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_BERSERK_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_BERSERK_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_BERSERK_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_BERSERK_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_BERSERK_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_BERSERK_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>shockwave</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>shockwave</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_SHOCKWAVE_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_SHOCKWAVE_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SHOCKWAVE_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SHOCKWAVE_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SHOCKWAVE_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SHOCKWAVE_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SHOCKWAVE_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SHOCKWAVE_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>light_walker</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_lite_walker.tga</Filename>
+		<LoadingScreen>
+			<Name>light_walker</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_lite_walker.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_FOUR_LEG_WALK_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_FOUR_LEG_WALK_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_FOUR_LEG_WALK_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_FOUR_LEG_WALK_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_FOUR_LEG_WALK_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_FOUR_LEG_WALK_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_FOUR_LEG_WALK_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_FOUR_LEG_WALK_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>rf_exo</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_rf_exo.tga</Filename>
+		<LoadingScreen>
+			<Name>rf_exo</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_rf_exo.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_RF_EXO_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_RF_EXO_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RF_EXO_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RF_EXO_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RF_EXO_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RF_EXO_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RF_EXO_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RF_EXO_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>singularity</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_magnet_profile.tga</Filename>
+		<LoadingScreen>
+			<Name>singularity</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_magnet_profile.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_magnet_angle.tga</Filename>
+				<Image>
+					<Filename>ui_loading_magnet_angle.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>weapon</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_SINGULARITY_CAN_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>weapon</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_SINGULARITY_CAN_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SINGULARITY_CAN_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SINGULARITY_CAN_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_SINGULARITY_CAN_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_SINGULARITY_CAN_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>upgrades</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>upgrades</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_UPGRADES_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_UPGRADES_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_UPGRADES_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_UPGRADES_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_UPGRADES_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_UPGRADES_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>tank</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_behemoth.tga</Filename>
+		<LoadingScreen>
+			<Name>tank</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_behemoth.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_behemoth_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_behemoth_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_TANK_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_TANK_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_TANK_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_TANK_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_TANK_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_TANK_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>tentacle_beast</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_tentacle.tga</Filename>
+		<LoadingScreen>
+			<Name>tentacle_beast</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_tentacle.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_tentacle_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_tentacle_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_TENTACLE_BEAST_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_TENTACLE_BEAST_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_TENTACLE_BEAST_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_TENTACLE_BEAST_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_TENTACLE_BEAST_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_TENTACLE_BEAST_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>queen_tentacles</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_queen.tga</Filename>
+		<LoadingScreen>
+			<Name>queen_tentacles</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_queen.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_queen_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_queen_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_QUEEN_TENT_1</String>
-				<Duration>60</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_QUEEN_TENT_1</String>
+					<Duration>60</Duration>
+					<Primary>True</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>controls</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>controls</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_CONTROLS_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_CONTROLS_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_CONTROLS_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_CONTROLS_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_CONTROLS_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_CONTROLS_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>target_assist</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_magnet_profile.tga</Filename>
+		<LoadingScreen>
+			<Name>target_assist</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_magnet_profile.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_magnet_angle.tga</Filename>
+				<Image>
+					<Filename>ui_loading_magnet_angle.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>weapon</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_TARGET_ASSIST_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>weapon</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_TARGET_ASSIST_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_TARGET_ASSIST_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_TARGET_ASSIST_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_TARGET_ASSIST_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_TARGET_ASSIST_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_TARGET_ASSIST_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_TARGET_ASSIST_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>m16b_death</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_queen.tga</Filename>
+		<LoadingScreen>
+			<Name>m16b_death</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_queen.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_queen_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_queen_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_M16B_ON_DEATH_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_M16B_ON_DEATH_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M16B_ON_DEATH_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M16B_ON_DEATH_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M16B_ON_DEATH_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M16B_ON_DEATH_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M16B_ON_DEATH_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M16B_ON_DEATH_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>m1a_death</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_lite_walker.tga</Filename>
+		<LoadingScreen>
+			<Name>m1a_death</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_lite_walker.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_M1A_ON_DEATH_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_M1A_ON_DEATH_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M1A_ON_DEATH_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M1A_ON_DEATH_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>m8a_death</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_h_walker_1.tga</Filename>
+		<LoadingScreen>
+			<Name>m8a_death</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_h_walker_1.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_M8A_ON_DEATH_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_M8A_ON_DEATH_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M8A_ON_DEATH_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M8A_ON_DEATH_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>m8b_death</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_h_walker_1.tga</Filename>
+		<LoadingScreen>
+			<Name>m8b_death</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_h_walker_1.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_M8B_ON_DEATH_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_M8B_ON_DEATH_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M8B_ON_DEATH_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M8B_ON_DEATH_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M8B_ON_DEATH_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M8B_ON_DEATH_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>heavy_walker_2</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_h_walker_1.tga</Filename>
+		<LoadingScreen>
+			<Name>heavy_walker_2</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_h_walker_1.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>vehicle</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_HEAVY_WALKER_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>vehicle</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_HEAVY_WALKER_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HEAVY_WALKER_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HEAVY_WALKER_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HEAVY_WALKER_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HEAVY_WALKER_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_HEAVY_WALKER_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_HEAVY_WALKER_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>repair_2</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>repair_2</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_REPAIR_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_REPAIR_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_REPAIR_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_REPAIR_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_REPAIR_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_REPAIR_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_REPAIR_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_REPAIR_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>m6_death</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_behemoth.tga</Filename>
+		<LoadingScreen>
+			<Name>m6_death</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_behemoth.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_behemoth_xray.tga</Filename>
+				<Image>
+					<Filename>ui_loading_behemoth_xray.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_large_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_large_grid.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>alien</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_M6_ON_DEATH_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>alien</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_M6_ON_DEATH_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M6_ON_DEATH_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M6_ON_DEATH_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_M6_ON_DEATH_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_M6_ON_DEATH_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>ruin_magnet</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_magnet_profile.tga</Filename>
+		<LoadingScreen>
+			<Name>ruin_magnet</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_magnet_profile.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_magnet_angle.tga</Filename>
+				<Image>
+					<Filename>ui_loading_magnet_angle.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>weapon</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_RUIN_MAGNET_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+			<Type>weapon</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_RUIN_MAGNET_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_MAGNET_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_MAGNET_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_SCORE_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_SCORE_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_SCORE_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_SCORE_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_SCORE_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_SCORE_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_GENERAL_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_GENERAL_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_GENERAL_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_GENERAL_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_GENERAL_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_GENERAL_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>ruin_impact</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>ruin_impact</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_RUIN_IMPACT_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_RUIN_IMPACT_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_IMPACT_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_IMPACT_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_SCORE_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_SCORE_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_SCORE_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_SCORE_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_SCORE_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_SCORE_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_GENERAL_1</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_GENERAL_1</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_GENERAL_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_GENERAL_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_RUIN_GENERAL_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_RUIN_GENERAL_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>controls_2</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_nanoforge_1.tga</Filename>
+		<LoadingScreen>
+			<Name>controls_2</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_nanoforge_1.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_nanoforge_2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_nanoforge_2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>nanoforge</Type>
-		<Tips>
-			<Tip>
-				<String>PLT_TIP_CONTROLS_5</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+			<Type>nanoforge</Type>
+			<Tips>
+				<Tip>
+					<String>PLT_TIP_CONTROLS_5</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_CONTROLS_6</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_CONTROLS_6</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_CONTROLS_7</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_CONTROLS_7</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_CONTROLS_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_CONTROLS_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
-	<LoadingScreen>
-		<Name>ultor</Name>
-		<Images>
-			<Image>
-				<Filename>ui_loading_ultor.tga</Filename>
+		<LoadingScreen>
+			<Name>ultor</Name>
+			<Images>
+				<Image>
+					<Filename>ui_loading_ultor.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_char_grid.tga</Filename>
+				<Image>
+					<Filename>ui_loading_char_grid.tga</Filename>
 				</Image>
-			<Image>
-				<Filename>ui_loading_ultor2.tga</Filename>
+				<Image>
+					<Filename>ui_loading_ultor2.tga</Filename>
 				</Image>
 			</Images>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>character</Type>
-		<Tips>
-			<Tip>
-				<String>TIP_ULTOR_1</String>
-				<Duration>8</Duration>
-				<Primary>True</Primary>
+			<Type>character</Type>
+			<Tips>
+				<Tip>
+					<String>TIP_ULTOR_1</String>
+					<Duration>8</Duration>
+					<Primary>True</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_ULTOR_2</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_ULTOR_2</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_ULTOR_3</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_ULTOR_3</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
-			<Tip>
-				<String>TIP_ULTOR_4</String>
-				<Duration>8</Duration>
-				<Primary>False</Primary>
+				<Tip>
+					<String>TIP_ULTOR_4</String>
+					<Duration>8</Duration>
+					<Primary>False</Primary>
 				</Tip>
 			</Tips>
 		</LoadingScreen>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>LoadingScreen</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Description>Name of the loading screen.</Description>
-		</Element>
-	<Element>
-		<Name>Type</Name>
-		<Type>Selection</Type>
-		<Description>Type of loading screen</Description>
-		<Choice>alien</Choice>
-		<Choice>character</Choice>
-		<Choice>nanoforge</Choice>
-		<Choice>vehicle</Choice>
-		<Choice>weapon</Choice>
-		</Element>
-	<Element>
-		<Name>Images</Name>
-		<Type>Grid</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>LoadingScreen</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>Image</Name>
-			<Type>Filename</Type>
-			<Extension>tga</Extension>
-			<StartingPath>data</StartingPath>
-			<ShowPreload>False</ShowPreload>
-			</Element>
-		<Max_Children>8</Max_Children>
-		<Min_Children>1</Min_Children>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Name of the loading screen.</Description>
 		</Element>
-	<Element>
-		<Name>Tips</Name>
-		<Type>Grid</Type>
-		<Description>Displayed tips for the screen.</Description>
 		<Element>
-			<Name>Tip</Name>
-			<Type>Element</Type>
+			<Name>Type</Name>
+			<Type>Selection</Type>
+			<Description>Type of loading screen</Description>
+			<Choice>alien</Choice>
+			<Choice>character</Choice>
+			<Choice>nanoforge</Choice>
+			<Choice>vehicle</Choice>
+			<Choice>weapon</Choice>
+		</Element>
+		<Element>
+			<Name>Images</Name>
+			<Type>Grid</Type>
 			<Element>
-				<Name>String</Name>
-				<Type>Reference</Type>
-				<Description>Localization tag for the tip</Description>
-				<Reference>
-					<File>localized_exports\loading_tip_text.xtbl</File>
-					<Type>Loading_tip_Identifier.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
+				<Name>Image</Name>
+				<Type>Filename</Type>
+				<Extension>tga</Extension>
+				<StartingPath>data</StartingPath>
+				<ShowPreload>False</ShowPreload>
+			</Element>
+			<Max_Children>8</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>Tips</Name>
+			<Type>Grid</Type>
+			<Description>Displayed tips for the screen.</Description>
+			<Element>
+				<Name>Tip</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>String</Name>
+					<Type>Reference</Type>
+					<Description>Localization tag for the tip</Description>
+					<Reference>
+						<File>localized_exports\loading_tip_text.xtbl</File>
+						<Type>Loading_tip_Identifier.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
-			<Element>
-				<Name>Duration</Name>
-				<Type>Int</Type>
-				<Display_Name>Duration (sec)</Display_Name>
-				<Description>Duration in seconds</Description>
-				<Default>6</Default>
-				<MinValue>1</MinValue>
+				<Element>
+					<Name>Duration</Name>
+					<Type>Int</Type>
+					<Display_Name>Duration (sec)</Display_Name>
+					<Description>Duration in seconds</Description>
+					<Default>6</Default>
+					<MinValue>1</MinValue>
 				</Element>
-			<Element>
-				<Name>Primary</Name>
-				<Type>Selection</Type>
-				<Description>Primary displays first, the first time this loading screen comes up.</Description>
-				<Default>False</Default>
-				<Choice>True</Choice>
-				<Choice>False</Choice>
+				<Element>
+					<Name>Primary</Name>
+					<Type>Selection</Type>
+					<Description>Primary displays first, the first time this loading screen comes up.</Description>
+					<Default>False</Default>
+					<Choice>True</Choice>
+					<Choice>False</Choice>
 				</Element>
 			</Element>
-		<Max_Children>8</Max_Children>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Max_Children>8</Max_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

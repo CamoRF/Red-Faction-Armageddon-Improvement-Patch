@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,29 +30,29 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>q1</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>queen_tentacle</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>q2</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>queen_tentacle</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>q3</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>queen_tentacle</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -62,10 +62,10 @@
 						<X>7.6693</X>
 						<Y>-19.8262</Y>
 						<Z>-52.7192</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -81,7 +81,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_pc__4.animx</Filename>
@@ -90,9 +90,9 @@
 									<EndFrame>255</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>255</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q1</Name>
 							<maxHandle>2</maxHandle>
@@ -100,7 +100,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q1__4.animx</Filename>
@@ -109,9 +109,9 @@
 									<EndFrame>255</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>255</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q2</Name>
 							<maxHandle>3</maxHandle>
@@ -119,7 +119,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q2__4.animx</Filename>
@@ -128,9 +128,9 @@
 									<EndFrame>255</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>255</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q3</Name>
 							<maxHandle>4</maxHandle>
@@ -138,7 +138,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q3__4.animx</Filename>
@@ -147,13 +147,13 @@
 									<EndFrame>255</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>255</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>255</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__6</Name>
 					<SlateName>Location01</SlateName>
@@ -167,7 +167,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_pc__6.animx</Filename>
@@ -176,9 +176,9 @@
 									<EndFrame>207</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>207</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q1</Name>
 							<maxHandle>2</maxHandle>
@@ -186,7 +186,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q1__6.animx</Filename>
@@ -195,9 +195,9 @@
 									<EndFrame>207</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>207</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q2</Name>
 							<maxHandle>3</maxHandle>
@@ -205,7 +205,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q2__6.animx</Filename>
@@ -214,9 +214,9 @@
 									<EndFrame>207</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>207</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q3</Name>
 							<maxHandle>4</maxHandle>
@@ -224,7 +224,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q3__6.animx</Filename>
@@ -233,13 +233,13 @@
 									<EndFrame>207</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>207</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>207</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__5</Name>
 					<SlateName>Location01</SlateName>
@@ -253,7 +253,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_pc__5.animx</Filename>
@@ -262,9 +262,9 @@
 									<EndFrame>335</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>335</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q1</Name>
 							<maxHandle>2</maxHandle>
@@ -272,7 +272,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q1__5.animx</Filename>
@@ -281,9 +281,9 @@
 									<EndFrame>335</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>335</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q2</Name>
 							<maxHandle>3</maxHandle>
@@ -291,7 +291,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q2__5.animx</Filename>
@@ -300,9 +300,9 @@
 									<EndFrame>335</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>335</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>q3</Name>
 							<maxHandle>4</maxHandle>
@@ -310,7 +310,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/QueenTentacles/QueenTentacles_q3__5.animx</Filename>
@@ -319,15 +319,15 @@
 									<EndFrame>335</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>335</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>335</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

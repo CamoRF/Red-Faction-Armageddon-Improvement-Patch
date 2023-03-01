@@ -1,0 +1,142 @@
+Saints Row the Third Texture Tools v7.0
+
+by scanti
+
+
+
+About:
+
+These are a couple of tools that will allow you to unpack and repackage the
+texture files in Saints Row 3. 
+
+For those of you that like that sort of thing the programs source is in the source code
+folder. For those that don't you can just delete it.
+
+
+
+Usage:
+
+To unpack a texture file:
+
+SR3UnpackTextures [optional parameters] <<filename>.cpeg_pc or <filename>.cvbm_pc>>
+
+You need to have the corresponding <filename>.gpeg_pc or <filename>.gvbm_pc file in
+the same directory.
+
+i.e.
+
+SR3UnpackTextures ui_legal_pc.cpeg_pc
+
+Plus the ui_legal_pc.gpeg_pc file has to be in the same directory as the ui_legal_pc.cpeg_pc file.
+
+It will scan the file for any textures and save them under <texture name>.DDS
+
+Sorry if you don't like DDS files but that's the format the game uses. However I am planning on
+adding a feature that will save the files as tga files.
+
+Optional parameters:
+
+-o:<output directory>
+
+	Save all the textures to a different directory than the direcory the peg files are in.
+
+-silent
+	Only display errors.
+
+-fix
+	Will attempt to extract from broken hex edited cvbm_pc files.
+
+
+To repack a texture file:
+
+SR3RepackTextures [optional parameters] <<filename>.cpeg_pc or <filename>.cvbm_pc>>
+
+Your texture files must be in the same directory as the peg files unless you use the -i parameter.
+
+I've changed the repacker so if a texture file is missing from the directory it will use the version that
+is in the original peg file. i.e. you don't need a copy of all the textures in order to repack successfully.
+
+Please note that this tool WILL OVERWRITE your existing cpeg_pc/cvbm_pc and gpeg_pc/gvbm_pc files.
+So make sure you back them up before using this tool.
+
+You can, if you want to, change the texture format of the unpacked texture files.
+
+The DDS texture formats this tool supports are:
+
+DXT1
+DXT3
+DXT5
+R5G6B5
+A1R5G5B5
+A4R4G4B4
+R8G8B8
+A8R8G8B8
+
+The engine does support a few other texture types but the game doesn't use them so I haven't included support for them.
+
+Optional parameters:
+
+-o:<output peg file>
+	You can specify the name of the peg files you wish to create if you don't want to overwrite the existing peg files.
+	The file name must end with cpeg_pc or cvbm_pc.
+
+-i:<input texture directory>
+	You can specify the directory that your texture files are in. If you omit this parameter it will look for the
+	texture files in the same directory as your peg files.
+
+-silent
+	Only display errors.
+
+
+To add a texture to a peg file:
+
+SR3AddTexture [optional parameters] <peg filename>.cpeg <texture filename>.tga.dds
+
+This will add the texture file to a cpeg container. The DDS can be any of the above formats. The peg archive will use
+the <texture filename>.tga part of <texture filename>.tga.dds as the name of the texture. The utility doesn't check
+for duplicate texture names and creating a peg file with duplicate names can result in undefined behaviour.
+
+I've included blank cpeg_pc/gpeg_pc files so you can create an archive from scratch.
+
+Optional parameters:
+
+-silent
+	Only display errors.
+
+
+
+
+Thanks:
+
+Special thanks to Volition for making the game and their continuing support.
+Thanks to Idolninja who made Saints Row 2 so much better.
+Minimaul for his utilities and his website this is hosted on.
+
+
+History
+
+v7.0				SR3UnpackTextures can now extract broken cvbm_pc archives with -fix option.
+				SR3RepackTextures doesn't need all the previously unpacked textures to repack.
+				Added the SR3AddTexture utility.
+
+v6.0				Started refactoring source code.
+				Added new command line parameters.
+
+v4.0				Will now extract 16 byte aligned textures correctly.
+                                When packing textures it will align them to 16 bytes to optimise SR3 speed.
+                                Changed the way the program gets the working directory. Should fix the extracting to My Documents error one
+				user reported.
+				Can now correctly pack 8 bit alpha only textures.
+
+v3.0				Fixed problem with repacking 16 bit textures.
+
+v2.0				Add repacking support.
+
+v1.0				Initial version.
+
+To do
+
+Create tool for manipulating the texture flags.
+Add support for tga files.
+Add extract to global clipboard for SR3UnpackTextures.
+Restructure code and create a peg class and create GUI version of tools.

@@ -1,67 +1,63 @@
 <root>
-<Table>
-	<Constants>
-		<Name>Constants</Name>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Constants>
+			<Name>Constants</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Music_Event>MUS_MAIN_MENU</Music_Event>
-		<Low_Health_Data>
-			<Health_Percent>0</Health_Percent>
-			<Retrigger_Delay_Seconds>120</Retrigger_Delay_Seconds>
+			<Music_Event>MUS_MAIN_MENU</Music_Event>
+			<Low_Health_Data>
+				<Health_Percent>0</Health_Percent>
+				<Retrigger_Delay_Seconds>120</Retrigger_Delay_Seconds>
 			</Low_Health_Data>
 		</Constants>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Constants</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Constants</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>Music_Event</Name>
-		<Type>Reference</Type>
-		<Display_Name>Music Event</Display_Name>
-		<Description>Name of the event used for music playing.</Description>
-		<Reference>
-			<File>audio_events.xtbl</File>
-			<Type>NewEntity.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Music_Event</Name>
+			<Type>Reference</Type>
+			<Display_Name>Music Event</Display_Name>
+			<Description>Name of the event used for music playing.</Description>
+			<Reference>
+				<File>audio_events.xtbl</File>
+				<Type>NewEntity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Low_Health_Data</Name>
-		<Type>Element</Type>
-		<Display_Name>Low Health Data</Display_Name>
 		<Element>
-			<Name>Health_Percent</Name>
-			<Type>Float</Type>
-			<Display_Name>Health Percent</Display_Name>
-			<Description>What percent health must the player have to be considered at "low health" for the purposes of music?
+			<Name>Low_Health_Data</Name>
+			<Type>Element</Type>
+			<Display_Name>Low Health Data</Display_Name>
+			<Element>
+				<Name>Health_Percent</Name>
+				<Type>Float</Type>
+				<Display_Name>Health Percent</Display_Name>
+				<Description>What percent health must the player have to be considered at "low health" for the purposes of music?
 From 1 to 0.</Description>
-			<Default>0.25</Default>
-			<MinValue>0</MinValue>
-			<MaxValue>1</MaxValue>
-			<UseSlider>True</UseSlider>
+				<Default>0.25</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>1</MaxValue>
+				<UseSlider>True</UseSlider>
 			</Element>
-		<Element>
-			<Name>Retrigger_Delay_Seconds</Name>
-			<Type>Float</Type>
-			<Display_Name>Retrigger Delay Seconds</Display_Name>
-			<Default>120</Default>
-			<MinValue>0</MinValue>
+			<Element>
+				<Name>Retrigger_Delay_Seconds</Name>
+				<Type>Float</Type>
+				<Display_Name>Retrigger Delay Seconds</Display_Name>
+				<Default>120</Default>
+				<MinValue>0</MinValue>
 			</Element>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

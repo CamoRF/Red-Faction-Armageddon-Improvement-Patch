@@ -1,649 +1,645 @@
 <root>
-<Table>
-	<Parameter>
-		<Name>Show Target Health Bars</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Flare Upgrade</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Fifth Weapon Slot</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Suppress Death Anims</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Autopsy</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Always Gib</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Always Gib Head</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Always Ragdoll On Melee</Name>
-		<Type>Bool</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Grenade Throw Bonus</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Object Throw Bonus</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Max HP Multiplier</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Additive Mult</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Jump Height Bonus</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>HP Recover Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Absolute</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Parameter>
+			<Name>Show Target Health Bars</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Flare Upgrade</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Fifth Weapon Slot</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Suppress Death Anims</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Autopsy</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Always Gib</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Always Gib Head</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Always Ragdoll On Melee</Name>
+			<Type>Bool</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Grenade Throw Bonus</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Object Throw Bonus</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Max HP Multiplier</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Additive Mult</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Jump Height Bonus</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>HP Recover Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Absolute</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>HP Recover Delay Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>HP Recover Delay Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Vehicle Damage Taken Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Vehicle Damage Taken Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Structure Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Structure Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Vehicle Structure Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Vehicle Structure Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Max HP Bonus</Name>
-		<Type>Int</Type>
-		<Value_Selection_Method>Additive</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Max HP Bonus</Name>
+			<Type>Int</Type>
+			<Value_Selection_Method>Additive</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fine Aim Min Spread Dampening</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fine Aim Min Spread Dampening</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fine Aim Spread Delta Dampening</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fine Aim Spread Delta Dampening</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fine Aim Camera Shake Dampening</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fine Aim Camera Shake Dampening</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fine Aim Snap Close Max Angle</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fine Aim Snap Close Max Angle</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fine Aim Snap Far Max Angle</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fine Aim Snap Far Max Angle</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fine Aim Snap Horizontal Strength Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Additive Mult</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fine Aim Snap Horizontal Strength Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Additive Mult</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fine Aim Snap Vertical Strength Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Additive Mult</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fine Aim Snap Vertical Strength Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Additive Mult</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Fleetfoot Nano Activation Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Fleetfoot Nano Activation Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Speed Mult Fleetfoot</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Speed Mult Fleetfoot</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Speed Mult Sprint</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Speed Mult Sprint</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Speed Mult Run</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Speed Mult Run</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Reload Speed Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Reload Speed Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Equip Speed Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Equip Speed Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Max Ammo Reserve Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Max Ammo Reserve Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Ammo Pickup Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Ammo Pickup Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Clip Size Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Clip Size Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Overheat Rate Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Overheat Rate Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Spread Increase Rate Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Spread Increase Rate Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Spread Cooldown Rate Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Spread Cooldown Rate Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Recoil Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Recoil Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Bullet Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Additive Mult</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Bullet Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Additive Mult</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Explosion Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Additive Mult</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Explosion Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Additive Mult</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Melee Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Melee Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Melee Structural Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Melee Structural Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Melee Ragdoll Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Melee Ragdoll Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Melee Impact Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Melee Impact Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Sledgehammer Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Sledgehammer Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Sledgehammer Structural Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Sledgehammer Structural Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Sledgehammer Ragdoll Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Sledgehammer Ragdoll Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Sledgehammer Impact Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Sledgehammer Impact Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>NPC Dodge Inaccuracy Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>NPC Dodge Inaccuracy Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Bullet Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Bullet Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Projectile Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Projectile Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Explosion Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Explosion Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Gib Impulse Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Gib Impulse Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Bullet Impulse Min (Human)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Bullet Impulse Min (Human)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Bullet Impulse Min (Vehicle)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Bullet Impulse Min (Vehicle)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Bullet Impulse Min (Mover)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Bullet Impulse Min (Mover)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Projectile Impulse Min (Human)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Projectile Impulse Min (Human)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Projectile Impulse Min (Vehicle)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Projectile Impulse Min (Vehicle)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Projectile Impulse Min (Mover)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Projectile Impulse Min (Mover)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Explosion Impulse Min (Mover)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Explosion Impulse Min (Mover)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Explosion Impulse Min (Human)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Explosion Impulse Min (Human)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Explosion Impulse Min (Vehicle)</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Explosion Impulse Min (Vehicle)</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Small Arms Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Additive Mult</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Small Arms Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Additive Mult</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
-	<Parameter>
-		<Name>Big Guns Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Additive Mult</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Explosive Weapons Refire Delay Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Nano Cooldown Reduction Per Kill</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Nano Fuel Regen Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Minimap Pulse Delay Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Minimap Radius</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Kill Damage Bonus Duration</Name>
-		<Type>Int</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Kill Damage Bonus Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Last Gasp Health Pct</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Last Gasp Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Dodge Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Smallest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Heavy Flinch Buildup Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</Parameter>
-	<Parameter>
-		<Name>Headshot Damage Mult</Name>
-		<Type>Float</Type>
-		<Value_Selection_Method>Largest</Value_Selection_Method>
-		<_Editor>
-			<Category>Entries</Category>
+		<Parameter>
+			<Name>Big Guns Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Additive Mult</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Explosive Weapons Refire Delay Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Nano Cooldown Reduction Per Kill</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Nano Fuel Regen Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Minimap Pulse Delay Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Minimap Radius</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Kill Damage Bonus Duration</Name>
+			<Type>Int</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Kill Damage Bonus Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Last Gasp Health Pct</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Last Gasp Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Dodge Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Smallest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Heavy Flinch Buildup Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Parameter>
+		<Parameter>
+			<Name>Headshot Damage Mult</Name>
+			<Type>Float</Type>
+			<Value_Selection_Method>Largest</Value_Selection_Method>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Parameter>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Parameter</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Parameter</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>Type</Name>
-		<Type>Selection</Type>
-		<Choice>Float</Choice>
-		<Choice>Int</Choice>
-		<Choice>Bool</Choice>
+		<Element>
+			<Name>Type</Name>
+			<Type>Selection</Type>
+			<Choice>Float</Choice>
+			<Choice>Int</Choice>
+			<Choice>Bool</Choice>
 		</Element>
-	<Element>
-		<Name>Value_Selection_Method</Name>
-		<Type>Selection</Type>
-		<Display_Name>Value Selection Method</Display_Name>
-		<Description>Additive means each time this upgrade is referenced it will add to the previous value.  Largst/smallest will choose the largest or smallest unlocked value.  Absolute will choose the last unlocked value in the list according to the order in code (player_upgrade_type in player_upgrades.h).</Description>
-		<Choice>Additive</Choice>
-		<Choice>Largest</Choice>
-		<Choice>Smallest</Choice>
-		<Choice>Absolute</Choice>
-		<Choice>Additive Mult</Choice>
+		<Element>
+			<Name>Value_Selection_Method</Name>
+			<Type>Selection</Type>
+			<Display_Name>Value Selection Method</Display_Name>
+			<Description>Additive means each time this upgrade is referenced it will add to the previous value.  Largst/smallest will choose the largest or smallest unlocked value.  Absolute will choose the last unlocked value in the list according to the order in code (player_upgrade_type in player_upgrades.h).</Description>
+			<Choice>Additive</Choice>
+			<Choice>Largest</Choice>
+			<Choice>Smallest</Choice>
+			<Choice>Absolute</Choice>
+			<Choice>Additive Mult</Choice>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

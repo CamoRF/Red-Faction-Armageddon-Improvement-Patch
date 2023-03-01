@@ -1801,88 +1801,88 @@
 			</_Editor>
 		</NewEntity>
 	</Table>
-<TableTemplates></TableTemplates>
-<TableDescription>
-<Name>NewEntity</Name>
-<Type>TableDescription</Type>
-<Element>
-<Name>Name</Name>
-<Type>String</Type>
-<Unique>true</Unique>
-</Element>
-</TableDescription>
-<EntryCategories>
-	<Category>
-		<Name>E3</Name>
-	</Category>
-	<Category>
-		<Name>M01</Name>
-	</Category>
-	<Category>
-		<Name>M02</Name>
-	</Category>
-	<Category>
-		<Name>M03</Name>
-	</Category>
-	<Category>
-		<Name>M04</Name>
-	</Category>
-	<Category>
-		<Name>M05</Name>
-	</Category>
-	<Category>
-		<Name>M06</Name>
-	</Category>
-	<Category>
-		<Name>M07</Name>
-	</Category>
-	<Category>
-		<Name>M08</Name>
-	</Category>
-	<Category>
-		<Name>M09</Name>
-	</Category>
-	<Category>
-		<Name>M12</Name>
-	</Category>
-	<Category>
-		<Name>M13</Name>
-	</Category>
-	<Category>
-		<Name>M14</Name>
-	</Category>
-	<Category>
-		<Name>M16</Name>
-	</Category>
-	<Category>
-		<Name>M17</Name>
-	</Category>
-	<Category>
-		<Name>MIS</Name>
-	</Category>
-	<Category>
-		<Name>Q01</Name>
-	</Category>
-	<Category>
-		<Name>Q02</Name>
-	</Category>
-	<Category>
-		<Name>Q03</Name>
-	</Category>
-	<Category>
-		<Name>Q04</Name>
-	</Category>
-	<Category>
-		<Name>Q06</Name>
-	</Category>
-	<Category>
-		<Name>Q07</Name>
-	</Category>
-	<Category>
-		<Name>Q08</Name>
-	</Category>
-	<Category>
-		<Name>Q10</Name>
-	</Category>
-</EntryCategories>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>NewEntity</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>E3</Name>
+		</Category>
+		<Category>
+			<Name>M01</Name>
+		</Category>
+		<Category>
+			<Name>M02</Name>
+		</Category>
+		<Category>
+			<Name>M03</Name>
+		</Category>
+		<Category>
+			<Name>M04</Name>
+		</Category>
+		<Category>
+			<Name>M05</Name>
+		</Category>
+		<Category>
+			<Name>M06</Name>
+		</Category>
+		<Category>
+			<Name>M07</Name>
+		</Category>
+		<Category>
+			<Name>M08</Name>
+		</Category>
+		<Category>
+			<Name>M09</Name>
+		</Category>
+		<Category>
+			<Name>M12</Name>
+		</Category>
+		<Category>
+			<Name>M13</Name>
+		</Category>
+		<Category>
+			<Name>M14</Name>
+		</Category>
+		<Category>
+			<Name>M16</Name>
+		</Category>
+		<Category>
+			<Name>M17</Name>
+		</Category>
+		<Category>
+			<Name>MIS</Name>
+		</Category>
+		<Category>
+			<Name>Q01</Name>
+		</Category>
+		<Category>
+			<Name>Q02</Name>
+		</Category>
+		<Category>
+			<Name>Q03</Name>
+		</Category>
+		<Category>
+			<Name>Q04</Name>
+		</Category>
+		<Category>
+			<Name>Q06</Name>
+		</Category>
+		<Category>
+			<Name>Q07</Name>
+		</Category>
+		<Category>
+			<Name>Q08</Name>
+		</Category>
+		<Category>
+			<Name>Q10</Name>
+		</Category>
+	</EntryCategories>
 </root>

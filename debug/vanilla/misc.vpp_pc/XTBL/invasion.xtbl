@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/quest06/Invasion/Invasion.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -31,36 +31,36 @@
 					<CharMesh>ch_mar_ass_warrior</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>m02</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_mar_ass_warrior</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>m03</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_mar_ass_warrior</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>m04</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_mar_ass_warrior</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>m05</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_mar_ass_warrior</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Vehicles></Vehicles>
 			<Navpoints>
 				<Navpoint>
@@ -71,10 +71,10 @@
 						<X>-59.9661</X>
 						<Y>0.3726</Y>
 						<Z>17.4457</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -90,7 +90,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/quest06/Invasion/Invasion_m01__1.animx</Filename>
@@ -99,9 +99,9 @@
 									<EndFrame>320</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>320</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>m02</Name>
 							<maxHandle>2</maxHandle>
@@ -110,7 +110,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/quest06/Invasion/Invasion_m02__1.animx</Filename>
@@ -119,9 +119,9 @@
 									<EndFrame>320</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>320</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>m03</Name>
 							<maxHandle>3</maxHandle>
@@ -130,7 +130,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/quest06/Invasion/Invasion_m03__1.animx</Filename>
@@ -139,9 +139,9 @@
 									<EndFrame>320</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>320</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>m04</Name>
 							<maxHandle>4</maxHandle>
@@ -150,7 +150,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/quest06/Invasion/Invasion_m04__1.animx</Filename>
@@ -159,9 +159,9 @@
 									<EndFrame>320</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>320</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>m05</Name>
 							<maxHandle>5</maxHandle>
@@ -170,7 +170,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/quest06/Invasion/Invasion_m05__1.animx</Filename>
@@ -179,16 +179,16 @@
 									<EndFrame>320</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>320</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles></Vehicles>
 					<Options></Options>
 					<DefinedShotLength>320</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

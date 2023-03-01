@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,22 +30,22 @@
 					<maxHandle>4</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>workman1</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_civ_ass_thug</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>hulk</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_leg_ass_heavy</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -55,10 +55,10 @@
 						<X>95.027</X>
 						<Y>67.01</Y>
 						<Z>42.113</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -74,7 +74,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_pc__6.animx</Filename>
@@ -83,9 +83,9 @@
 									<EndFrame>120</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>120</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workman1</Name>
 							<maxHandle>3</maxHandle>
@@ -94,7 +94,7 @@
 							<Options>
 								<Item>rail_driver</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_workman1__6.animx</Filename>
@@ -103,9 +103,9 @@
 									<EndFrame>120</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>120</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hulk</Name>
 							<maxHandle>5</maxHandle>
@@ -113,7 +113,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_hulk__6.animx</Filename>
@@ -122,13 +122,13 @@
 									<EndFrame>120</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>120</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>120</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__7</Name>
 					<SlateName>Location01</SlateName>
@@ -142,7 +142,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_pc__7.animx</Filename>
@@ -151,9 +151,9 @@
 									<EndFrame>66</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>66</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workman1</Name>
 							<maxHandle>3</maxHandle>
@@ -162,7 +162,7 @@
 							<Options>
 								<Item>rail_driver</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_workman1__7.animx</Filename>
@@ -171,9 +171,9 @@
 									<EndFrame>66</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>66</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hulk</Name>
 							<maxHandle>5</maxHandle>
@@ -181,7 +181,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_hulk__7.animx</Filename>
@@ -190,13 +190,13 @@
 									<EndFrame>66</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>66</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>66</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__8</Name>
 					<SlateName>Location01</SlateName>
@@ -210,7 +210,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_pc__8.animx</Filename>
@@ -219,9 +219,9 @@
 									<EndFrame>171</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>171</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workman1</Name>
 							<maxHandle>3</maxHandle>
@@ -230,7 +230,7 @@
 							<Options>
 								<Item>rail_driver</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_workman1__8.animx</Filename>
@@ -239,9 +239,9 @@
 									<EndFrame>171</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>171</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hulk</Name>
 							<maxHandle>5</maxHandle>
@@ -249,7 +249,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_hulk__8.animx</Filename>
@@ -258,13 +258,13 @@
 									<EndFrame>171</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>171</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>171</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-v_cam04__9</Name>
 					<SlateName>Location01</SlateName>
@@ -278,7 +278,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_pc__9.animx</Filename>
@@ -287,9 +287,9 @@
 									<EndFrame>70</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>70</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workman1</Name>
 							<maxHandle>3</maxHandle>
@@ -298,7 +298,7 @@
 							<Options>
 								<Item>rail_driver</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_workman1__9.animx</Filename>
@@ -307,9 +307,9 @@
 									<EndFrame>70</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>70</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hulk</Name>
 							<maxHandle>5</maxHandle>
@@ -317,7 +317,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_hulk__9.animx</Filename>
@@ -326,10 +326,10 @@
 									<EndFrame>70</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>70</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>70</DefinedShotLength>
 					<CSEffects>
@@ -340,12 +340,12 @@
 								<X>3.0235</X>
 								<Y>-1.838</Y>
 								<Z>22.1114</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>68</ShotStartFrame>
 							<ShotEndFrame>70</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>pod_creeper_death</Name>
 							<maxHandle>5919</maxHandle>
@@ -353,12 +353,12 @@
 								<X>3.3326</X>
 								<Y>-1.838</Y>
 								<Z>21.9527</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 0.0 0.0 1.0</Orient>
 							<ShotStartFrame>69</ShotStartFrame>
 							<ShotEndFrame>70</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>char_heavy_dam_gambit</Name>
 							<maxHandle>5923</maxHandle>
@@ -366,15 +366,15 @@
 								<X>0.0</X>
 								<Y>0.0</Y>
 								<Z>0.0</Z>
-								</Position>
+							</Position>
 							<Orient>-0.293123 0.134674 -0.39869 -0.104466</Orient>
 							<ShotStartFrame>2</ShotStartFrame>
 							<ShotEndFrame>70</ShotEndFrame>
 							<Character>hulk</Character>
 							<CharacterTagName>Spine3</CharacterTagName>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-v_cam05__10</Name>
 					<SlateName>Location01</SlateName>
@@ -388,7 +388,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_pc__10.animx</Filename>
@@ -397,9 +397,9 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workman1</Name>
 							<maxHandle>3</maxHandle>
@@ -408,7 +408,7 @@
 							<Options>
 								<Item>rail_driver</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_workman1__10.animx</Filename>
@@ -417,9 +417,9 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>hulk</Name>
 							<maxHandle>5</maxHandle>
@@ -427,7 +427,7 @@
 							<OrientY>-0.236563</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission06/ThugDeath/ThugDeath_hulk__10.animx</Filename>
@@ -436,15 +436,15 @@
 									<EndFrame>119</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>119</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>119</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

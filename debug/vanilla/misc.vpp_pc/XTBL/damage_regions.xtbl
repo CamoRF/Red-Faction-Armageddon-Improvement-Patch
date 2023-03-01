@@ -1,530 +1,525 @@
 <root>
-<Table>
-	<Damage_Region>
-		<Name>mine</Name>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<Damage_Region>
+			<Name>mine</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Flags>
-			<Flag>instant_death</Flag>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
-			<Flag>mine</Flag>
+			<Flags>
+				<Flag>instant_death</Flag>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
+				<Flag>mine</Flag>
 			</Flags>
-		<Explosion>mine_killzone</Explosion>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
+			<Explosion>mine_killzone</Explosion>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>cliff</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Damage_Region>
+			<Name>cliff</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Flags>
-			<Flag>cliff</Flag>
-			<Flag>instant_death</Flag>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
+			<Flags>
+				<Flag>cliff</Flag>
+				<Flag>instant_death</Flag>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
 			</Flags>
-		<pain_override>pain</pain_override>
-		<death_override>thrown</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>thrown</death_pc_override>
+			<pain_override>pain</pain_override>
+			<death_override>thrown</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>thrown</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>fiery_doom</Name>
-		<_Editor>
-			<Category>Entries</Category>
+		<Damage_Region>
+			<Name>fiery_doom</Name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Flags>
-			<Flag>instant_death</Flag>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
-			<Flag>affects_movers</Flag>
+			<Flags>
+				<Flag>instant_death</Flag>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
+				<Flag>affects_movers</Flag>
 			</Flags>
-		<Matfx_Fade>Magma</Matfx_Fade>
-		<pain_override>pain</pain_override>
-		<death_override>death scream</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death scream</death_pc_override>
+			<Matfx_Fade>Magma</Matfx_Fade>
+			<pain_override>pain</pain_override>
+			<death_override>death scream</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death scream</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>nano_doom</Name>
-		<Flags>
-			<Flag>instant_death</Flag>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
-			<Flag>affects_movers</Flag>
+		<Damage_Region>
+			<Name>nano_doom</Name>
+			<Flags>
+				<Flag>instant_death</Flag>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
+				<Flag>affects_movers</Flag>
 			</Flags>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Matfx_Fade>Nano</Matfx_Fade>
-		<pain_override>pain</pain_override>
-		<death_override>death scream</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death scream</death_pc_override>
+			<Matfx_Fade>Nano</Matfx_Fade>
+			<pain_override>pain</pain_override>
+			<death_override>death scream</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death scream</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>fire_damage</Name>
-		<Flags>
-			<Flag>affects_humans</Flag>
+		<Damage_Region>
+			<Name>fire_damage</Name>
+			<Flags>
+				<Flag>affects_humans</Flag>
 			</Flags>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Damage_Per_Sec>100</Damage_Per_Sec>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
-		<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
+			<Damage_Per_Sec>100</Damage_Per_Sec>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
+			<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>damage_medium</Name>
-		<Flags>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
+		<Damage_Region>
+			<Name>damage_medium</Name>
+			<Flags>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
 			</Flags>
-		<Damage_Per_Sec>100</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>100</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>none</Name>
-		<Flags>
-			</Flags>
-		<_Editor>
-			<Category>Entries</Category>
+		<Damage_Region>
+			<Name>none</Name>
+			<Flags></Flags>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>acid_puke</Name>
-		<Flags>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
-			<Flag>affects_movers</Flag>
+		<Damage_Region>
+			<Name>acid_puke</Name>
+			<Flags>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
+				<Flag>affects_movers</Flag>
 			</Flags>
-		<Damage_Per_Sec>100.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>100.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Matfx_Fade>Acid</Matfx_Fade>
-		<Effect>wep_acid_puke_linger</Effect>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
+			<Matfx_Fade>Acid</Matfx_Fade>
+			<Effect>wep_acid_puke_linger</Effect>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>knight_goo</Name>
-		<Flags>
-			<Flag>affects_humans</Flag>
+		<Damage_Region>
+			<Name>knight_goo</Name>
+			<Flags>
+				<Flag>affects_humans</Flag>
 			</Flags>
-		<Damage_Per_Sec>5.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>5.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Movement_Multiplier>0.5</Movement_Multiplier>
-		<Effect>wep_acid_puke_linger</Effect>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
+			<Movement_Multiplier>0.5</Movement_Multiplier>
+			<Effect>wep_acid_puke_linger</Effect>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>chemical_explosion</Name>
-		<Flags>
-			<Flag>affects_humans</Flag>
+		<Damage_Region>
+			<Name>chemical_explosion</Name>
+			<Flags>
+				<Flag>affects_humans</Flag>
 			</Flags>
-		<Damage_Per_Sec>100.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>100.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Effect>wep_acid_puke_linger</Effect>
-		<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
-		<pain_override>pain</pain_override>
-		<death_override>death scream</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death scream</death_pc_override>
+			<Effect>wep_acid_puke_linger</Effect>
+			<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
+			<pain_override>pain</pain_override>
+			<death_override>death scream</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death scream</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>insta_gib</Name>
-		<Flags>
-			<Flag>always_gib</Flag>
+		<Damage_Region>
+			<Name>insta_gib</Name>
+			<Flags>
+				<Flag>always_gib</Flag>
 			</Flags>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>damage_monolith</Name>
-		<Flags>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
-			<Flag>monolith</Flag>
+		<Damage_Region>
+			<Name>damage_monolith</Name>
+			<Flags>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
+				<Flag>monolith</Flag>
 			</Flags>
-		<Damage_Per_Sec>100.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>100.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
-		<pain_override>pain</pain_override>
-		<death_override>death scream</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death scream</death_pc_override>
+			<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
+			<pain_override>pain</pain_override>
+			<death_override>death scream</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death scream</death_pc_override>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>damage_plasma_ring</Name>
-		<Flags>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
+		<Damage_Region>
+			<Name>damage_plasma_ring</Name>
+			<Flags>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
 			</Flags>
-		<Damage_Per_Sec>200</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>200</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
-		<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
-		<Vehicle_Effect>Mar_Flyer_Impact</Vehicle_Effect>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
+			<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
+			<Vehicle_Effect>Mar_Flyer_Impact</Vehicle_Effect>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>shell</Name>
-		<Flags>
-			<Flag>ignore_owners_team</Flag>
+		<Damage_Region>
+			<Name>shell</Name>
+			<Flags>
+				<Flag>ignore_owners_team</Flag>
 			</Flags>
-		<Damage_Per_Sec>40.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>40.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Min_Human_Flinch_Interval_ms>1500</Min_Human_Flinch_Interval_ms>
-		<Max_Human_Flinch_Interval_ms>2000</Max_Human_Flinch_Interval_ms>
-		<Matfx_Fade>Nano</Matfx_Fade>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
-		<Human_Effects_Head>nano_vamp_loop</Human_Effects_Head>
-		<Human_Material_Effect>invulnerability</Human_Material_Effect>
+			<Min_Human_Flinch_Interval_ms>1500</Min_Human_Flinch_Interval_ms>
+			<Max_Human_Flinch_Interval_ms>2000</Max_Human_Flinch_Interval_ms>
+			<Matfx_Fade>Nano</Matfx_Fade>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
+			<Human_Effects_Head>nano_vamp_loop</Human_Effects_Head>
+			<Human_Material_Effect>invulnerability</Human_Material_Effect>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>shell_boost</Name>
-		<Flags>
-			<Flag>ignore_owners_team</Flag>
+		<Damage_Region>
+			<Name>shell_boost</Name>
+			<Flags>
+				<Flag>ignore_owners_team</Flag>
 			</Flags>
-		<Damage_Per_Sec>60.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>60.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Min_Human_Flinch_Interval_ms>1500</Min_Human_Flinch_Interval_ms>
-		<Max_Human_Flinch_Interval_ms>1500</Max_Human_Flinch_Interval_ms>
-		<Matfx_Fade>Nano</Matfx_Fade>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
-		<Human_Effects_Head>nano_vamp_loop</Human_Effects_Head>
-		<Human_Material_Effect>invulnerability</Human_Material_Effect>
+			<Min_Human_Flinch_Interval_ms>1500</Min_Human_Flinch_Interval_ms>
+			<Max_Human_Flinch_Interval_ms>1500</Max_Human_Flinch_Interval_ms>
+			<Matfx_Fade>Nano</Matfx_Fade>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
+			<Human_Effects_Head>nano_vamp_loop</Human_Effects_Head>
+			<Human_Material_Effect>invulnerability</Human_Material_Effect>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>acid_glob</Name>
-		<Flags>
-			<Flag>affects_vehicles</Flag>
-			<Flag>affects_humans</Flag>
-			<Flag>affects_movers</Flag>
-			<Flag>ignore_owners_team</Flag>
+		<Damage_Region>
+			<Name>acid_glob</Name>
+			<Flags>
+				<Flag>affects_vehicles</Flag>
+				<Flag>affects_humans</Flag>
+				<Flag>affects_movers</Flag>
+				<Flag>ignore_owners_team</Flag>
 			</Flags>
-		<Damage_Per_Sec>100.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>100.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Matfx_Fade>Acid</Matfx_Fade>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
-		<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
-		<Effect>wep_acid_puke_linger</Effect>
+			<Matfx_Fade>Acid</Matfx_Fade>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
+			<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
+			<Effect>wep_acid_puke_linger</Effect>
 		</Damage_Region>
-	<Damage_Region>
-		<Name>tank_death</Name>
-		<Flags>
-			<Flag>affects_humans</Flag>
+		<Damage_Region>
+			<Name>tank_death</Name>
+			<Flags>
+				<Flag>affects_humans</Flag>
 			</Flags>
-		<Damage_Per_Sec>10.0</Damage_Per_Sec>
-		<_Editor>
-			<Category>Entries</Category>
+			<Damage_Per_Sec>10.0</Damage_Per_Sec>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Effect>wep_acid_puke_linger</Effect>
-		<pain_override>pain</pain_override>
-		<death_override>death</death_override>
-		<pain_pc_override>pain</pain_pc_override>
-		<death_pc_override>death</death_pc_override>
-		<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
-		<Matfx_Fade>Acid</Matfx_Fade>
+			<Effect>wep_acid_puke_linger</Effect>
+			<pain_override>pain</pain_override>
+			<death_override>death</death_override>
+			<pain_pc_override>pain</pain_pc_override>
+			<death_pc_override>death</death_pc_override>
+			<Camera_Shake>weapon_fire_ppc_beam</Camera_Shake>
+			<Matfx_Fade>Acid</Matfx_Fade>
 		</Damage_Region>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Damage_Region</Name>
-	<Type>TableDescription</Type>
-	<Display_Name>Damage region</Display_Name>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Damage_Region</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Damage region</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>Flags</Name>
-		<Type>Flags</Type>
-		<Flag>cliff</Flag>
-		<Flag>ignite</Flag>
-		<Flag>instant_death</Flag>
-		<Flag>affects_vehicles</Flag>
-		<Flag>affects_humans</Flag>
-		<Flag>affects_movers</Flag>
-		<Flag>mine</Flag>
-		<Flag>always_gib</Flag>
-		<Flag>electric</Flag>
-		<Flag>ignore_owners_team</Flag>
-		<Flag>monolith</Flag>
+		<Element>
+			<Name>Flags</Name>
+			<Type>Flags</Type>
+			<Flag>cliff</Flag>
+			<Flag>ignite</Flag>
+			<Flag>instant_death</Flag>
+			<Flag>affects_vehicles</Flag>
+			<Flag>affects_humans</Flag>
+			<Flag>affects_movers</Flag>
+			<Flag>mine</Flag>
+			<Flag>always_gib</Flag>
+			<Flag>electric</Flag>
+			<Flag>ignore_owners_team</Flag>
+			<Flag>monolith</Flag>
 		</Element>
-	<Element>
-		<Name>Explosion</Name>
-		<Type>Reference</Type>
-		<Description>Explosion to play when something falls into this trigger.</Description>
-		<Required>false</Required>
-		<Reference>
-			<File>explosions.xtbl</File>
-			<Type>Explosion.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Explosion</Name>
+			<Type>Reference</Type>
+			<Description>Explosion to play when something falls into this trigger.</Description>
+			<Required>false</Required>
+			<Reference>
+				<File>explosions.xtbl</File>
+				<Type>Explosion.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Damage_Per_Sec</Name>
-		<Type>Float</Type>
-		<Display_Name>Damage Per Sec</Display_Name>
-		<Description>Hit points per second removed by being in this trigger.</Description>
-		<Required>false</Required>
-		<Default>0.0</Default>
+		<Element>
+			<Name>Damage_Per_Sec</Name>
+			<Type>Float</Type>
+			<Display_Name>Damage Per Sec</Display_Name>
+			<Description>Hit points per second removed by being in this trigger.</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
 		</Element>
-	<Element>
-		<Name>Movement_Multiplier</Name>
-		<Type>Float</Type>
-		<Display_Name>Movement Multiplier</Display_Name>
-		<Required>false</Required>
-		<Default>1.0</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>Movement_Multiplier</Name>
+			<Type>Float</Type>
+			<Display_Name>Movement Multiplier</Display_Name>
+			<Required>false</Required>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Element>
-		<Name>Camera_Shake</Name>
-		<Type>Reference</Type>
-		<Display_Name>Camera Shake</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>camera_shake.xtbl</File>
-			<Type>Camera_Shake.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Camera_Shake</Name>
+			<Type>Reference</Type>
+			<Display_Name>Camera Shake</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>camera_shake.xtbl</File>
+				<Type>Camera_Shake.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Effect</Name>
-		<Type>Reference</Type>
-		<Required>false</Required>
-		<Reference>
-			<File>effects.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Effect</Name>
+			<Type>Reference</Type>
+			<Required>false</Required>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Human_Material_Effect</Name>
-		<Type>Reference</Type>
-		<Display_Name>Human Material Effect</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>matfx.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Human_Material_Effect</Name>
+			<Type>Reference</Type>
+			<Display_Name>Human Material Effect</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>matfx.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Human_Effects_Legs</Name>
-		<Type>Reference</Type>
-		<Display_Name>Human Effects (Legs)</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>effects.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Human_Effects_Legs</Name>
+			<Type>Reference</Type>
+			<Display_Name>Human Effects (Legs)</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Human_Effects_Torso</Name>
-		<Type>Reference</Type>
-		<Display_Name>Human Effects (Torso)</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>effects.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Human_Effects_Torso</Name>
+			<Type>Reference</Type>
+			<Display_Name>Human Effects (Torso)</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Human_Effects_Head</Name>
-		<Type>Reference</Type>
-		<Display_Name>Human Effects (Head)</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>effects.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Human_Effects_Head</Name>
+			<Type>Reference</Type>
+			<Display_Name>Human Effects (Head)</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Vehicle_Effect</Name>
-		<Type>Reference</Type>
-		<Display_Name>Vehicle Effect</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>effects.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Vehicle_Effect</Name>
+			<Type>Reference</Type>
+			<Display_Name>Vehicle Effect</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Matfx_Fade</Name>
-		<Type>Reference</Type>
-		<Display_Name>Matfx Fade</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>matfx_fades.xtbl</File>
-			<Type>Material_Effect_Fade.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Matfx_Fade</Name>
+			<Type>Reference</Type>
+			<Display_Name>Matfx Fade</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>matfx_fades.xtbl</File>
+				<Type>Material_Effect_Fade.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Footstep_Sound</Name>
-		<Type>Reference</Type>
-		<Display_Name>Footstep Sound</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>audio_events.xtbl</File>
-			<Type>NewEntity.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Footstep_Sound</Name>
+			<Type>Reference</Type>
+			<Display_Name>Footstep Sound</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>audio_events.xtbl</File>
+				<Type>NewEntity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Footstep_Effect</Name>
-		<Type>Reference</Type>
-		<Display_Name>Footstep Effect</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>effects.xtbl</File>
-			<Type>Effect.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Footstep_Effect</Name>
+			<Type>Reference</Type>
+			<Display_Name>Footstep Effect</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>effects.xtbl</File>
+				<Type>Effect.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>pain_override</Name>
-		<Type>Selection</Type>
-		<Display_Name>Pain Voice Line Override</Display_Name>
-		<Default>pain</Default>
-		<Choice>pain</Choice>
-		<Choice>pain blunt</Choice>
-		<Choice>thrown</Choice>
+		<Element>
+			<Name>pain_override</Name>
+			<Type>Selection</Type>
+			<Display_Name>Pain Voice Line Override</Display_Name>
+			<Default>pain</Default>
+			<Choice>pain</Choice>
+			<Choice>pain blunt</Choice>
+			<Choice>thrown</Choice>
 		</Element>
-	<Element>
-		<Name>death_override</Name>
-		<Type>Selection</Type>
-		<Display_Name>Death Voice Line Override</Display_Name>
-		<Default>death</Default>
-		<Choice>death</Choice>
-		<Choice>death scream</Choice>
-		<Choice>thrown</Choice>
+		<Element>
+			<Name>death_override</Name>
+			<Type>Selection</Type>
+			<Display_Name>Death Voice Line Override</Display_Name>
+			<Default>death</Default>
+			<Choice>death</Choice>
+			<Choice>death scream</Choice>
+			<Choice>thrown</Choice>
 		</Element>
-	<Element>
-		<Name>pain_pc_override</Name>
-		<Type>Selection</Type>
-		<Display_Name>Player Pain Voice Line Override</Display_Name>
-		<Default>pain</Default>
-		<Choice>pain</Choice>
-		<Choice>pain blunt</Choice>
-		<Choice>thrown</Choice>
+		<Element>
+			<Name>pain_pc_override</Name>
+			<Type>Selection</Type>
+			<Display_Name>Player Pain Voice Line Override</Display_Name>
+			<Default>pain</Default>
+			<Choice>pain</Choice>
+			<Choice>pain blunt</Choice>
+			<Choice>thrown</Choice>
 		</Element>
-	<Element>
-		<Name>death_pc_override</Name>
-		<Type>Selection</Type>
-		<Display_Name>Player Death Voice Line Override</Display_Name>
-		<Default>death</Default>
-		<Choice>death</Choice>
-		<Choice>death scream</Choice>
-		<Choice>thrown</Choice>
+		<Element>
+			<Name>death_pc_override</Name>
+			<Type>Selection</Type>
+			<Display_Name>Player Death Voice Line Override</Display_Name>
+			<Default>death</Default>
+			<Choice>death</Choice>
+			<Choice>death scream</Choice>
+			<Choice>thrown</Choice>
 		</Element>
-	<Element>
-		<Name>Human_enter_sound</Name>
-		<Type>Reference</Type>
-		<Display_Name>Human enter sound</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>audio_events.xtbl</File>
-			<Type>NewEntity.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Human_enter_sound</Name>
+			<Type>Reference</Type>
+			<Display_Name>Human enter sound</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>audio_events.xtbl</File>
+				<Type>NewEntity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Human_exit_sound</Name>
-		<Type>Reference</Type>
-		<Display_Name>Human exit sound</Display_Name>
-		<Required>false</Required>
-		<Reference>
-			<File>audio_events.xtbl</File>
-			<Type>NewEntity.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>Human_exit_sound</Name>
+			<Type>Reference</Type>
+			<Display_Name>Human exit sound</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>audio_events.xtbl</File>
+				<Type>NewEntity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>Min_Human_Flinch_Interval_ms</Name>
-		<Type>Int</Type>
-		<Display_Name>Min Human Flinch Interval (ms)</Display_Name>
-		<Required>false</Required>
-		<Default>0</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>Min_Human_Flinch_Interval_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Min Human Flinch Interval (ms)</Display_Name>
+			<Required>false</Required>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Element>
-		<Name>Max_Human_Flinch_Interval_ms</Name>
-		<Type>Int</Type>
-		<Display_Name>Max Human Flinch Interval (ms)</Display_Name>
-		<Required>false</Required>
-		<Default>0</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>Max_Human_Flinch_Interval_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Max Human Flinch Interval (ms)</Display_Name>
+			<Required>false</Required>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

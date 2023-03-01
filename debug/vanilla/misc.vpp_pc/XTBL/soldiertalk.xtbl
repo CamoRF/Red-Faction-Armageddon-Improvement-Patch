@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,64 +30,64 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>soldier01</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_red_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>workmal01</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_civ_ass_uppMal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>workmal02</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_civ_ass_uppMal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>workmal03</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>workmal04</Name>
 					<maxHandle>6</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>soldier2</Name>
 					<maxHandle>7</maxHandle>
 					<CharMesh>ch_red_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>workmal06</Name>
 					<maxHandle>8</maxHandle>
 					<CharMesh>ch_civ_ass_uppMal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>workmal07</Name>
 					<maxHandle>9</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -97,10 +97,10 @@
 						<X>-85.1095</X>
 						<Y>12.9982</Y>
 						<Z>-14.1023</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -116,7 +116,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_pc__1.animx</Filename>
@@ -125,9 +125,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier01</Name>
 							<maxHandle>2</maxHandle>
@@ -136,7 +136,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_soldier01__1.animx</Filename>
@@ -145,9 +145,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal01</Name>
 							<maxHandle>3</maxHandle>
@@ -155,7 +155,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal01__1.animx</Filename>
@@ -164,9 +164,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal02</Name>
 							<maxHandle>4</maxHandle>
@@ -174,7 +174,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal02__1.animx</Filename>
@@ -183,9 +183,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal03</Name>
 							<maxHandle>5</maxHandle>
@@ -193,7 +193,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal03__1.animx</Filename>
@@ -202,9 +202,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal04</Name>
 							<maxHandle>6</maxHandle>
@@ -212,7 +212,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal04__1.animx</Filename>
@@ -221,9 +221,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier2</Name>
 							<maxHandle>7</maxHandle>
@@ -231,7 +231,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_soldier2__1.animx</Filename>
@@ -240,9 +240,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal06</Name>
 							<maxHandle>8</maxHandle>
@@ -250,7 +250,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal06__1.animx</Filename>
@@ -259,9 +259,9 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal07</Name>
 							<maxHandle>9</maxHandle>
@@ -269,7 +269,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal07__1.animx</Filename>
@@ -278,13 +278,13 @@
 									<EndFrame>204</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>204</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>204</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__2</Name>
 					<SlateName>Location01</SlateName>
@@ -298,7 +298,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_pc__2.animx</Filename>
@@ -307,9 +307,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier01</Name>
 							<maxHandle>2</maxHandle>
@@ -318,7 +318,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_soldier01__2.animx</Filename>
@@ -327,9 +327,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal01</Name>
 							<maxHandle>3</maxHandle>
@@ -337,7 +337,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal01__2.animx</Filename>
@@ -346,9 +346,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal02</Name>
 							<maxHandle>4</maxHandle>
@@ -356,7 +356,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal02__2.animx</Filename>
@@ -365,9 +365,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal03</Name>
 							<maxHandle>5</maxHandle>
@@ -375,7 +375,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal03__2.animx</Filename>
@@ -384,9 +384,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal04</Name>
 							<maxHandle>6</maxHandle>
@@ -394,7 +394,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal04__2.animx</Filename>
@@ -403,9 +403,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier2</Name>
 							<maxHandle>7</maxHandle>
@@ -413,7 +413,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_soldier2__2.animx</Filename>
@@ -422,9 +422,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal06</Name>
 							<maxHandle>8</maxHandle>
@@ -432,7 +432,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal06__2.animx</Filename>
@@ -441,9 +441,9 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal07</Name>
 							<maxHandle>9</maxHandle>
@@ -451,7 +451,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal07__2.animx</Filename>
@@ -460,13 +460,13 @@
 									<EndFrame>72</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>72</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>72</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__3</Name>
 					<SlateName>Location01</SlateName>
@@ -480,7 +480,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_pc__3.animx</Filename>
@@ -489,9 +489,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier01</Name>
 							<maxHandle>2</maxHandle>
@@ -500,7 +500,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_soldier01__3.animx</Filename>
@@ -509,9 +509,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal01</Name>
 							<maxHandle>3</maxHandle>
@@ -519,7 +519,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal01__3.animx</Filename>
@@ -528,9 +528,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal02</Name>
 							<maxHandle>4</maxHandle>
@@ -538,7 +538,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal02__3.animx</Filename>
@@ -547,9 +547,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal03</Name>
 							<maxHandle>5</maxHandle>
@@ -557,7 +557,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal03__3.animx</Filename>
@@ -566,9 +566,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal04</Name>
 							<maxHandle>6</maxHandle>
@@ -576,7 +576,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal04__3.animx</Filename>
@@ -585,9 +585,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier2</Name>
 							<maxHandle>7</maxHandle>
@@ -595,7 +595,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_soldier2__3.animx</Filename>
@@ -604,9 +604,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal06</Name>
 							<maxHandle>8</maxHandle>
@@ -614,7 +614,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal06__3.animx</Filename>
@@ -623,9 +623,9 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>workmal07</Name>
 							<maxHandle>9</maxHandle>
@@ -633,7 +633,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission04/soldierTalk/soldierTalk_workmal07__3.animx</Filename>
@@ -642,15 +642,15 @@
 									<EndFrame>233</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>233</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>233</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

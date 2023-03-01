@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/FlyerCrash/FlyerCrash.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -31,36 +31,36 @@
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>soldier02</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>soldier03</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>soldier04</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>soldier05</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -70,10 +70,10 @@
 						<X>-19.2215</X>
 						<Y>-6.0156</Y>
 						<Z>-109.57</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -89,7 +89,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/FlyerCrash/FlyerCrash_soldier01__1.animx</Filename>
@@ -98,9 +98,9 @@
 									<EndFrame>430</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>430</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier02</Name>
 							<maxHandle>2</maxHandle>
@@ -109,7 +109,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/FlyerCrash/FlyerCrash_soldier02__1.animx</Filename>
@@ -118,9 +118,9 @@
 									<EndFrame>430</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>430</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier03</Name>
 							<maxHandle>3</maxHandle>
@@ -129,7 +129,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/FlyerCrash/FlyerCrash_soldier03__1.animx</Filename>
@@ -138,9 +138,9 @@
 									<EndFrame>430</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>430</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier04</Name>
 							<maxHandle>4</maxHandle>
@@ -149,7 +149,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/FlyerCrash/FlyerCrash_soldier04__1.animx</Filename>
@@ -158,9 +158,9 @@
 									<EndFrame>430</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>430</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>soldier05</Name>
 							<maxHandle>5</maxHandle>
@@ -169,7 +169,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission01/FlyerCrash/FlyerCrash_soldier05__1.animx</Filename>
@@ -178,15 +178,15 @@
 									<EndFrame>430</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>430</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>430</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

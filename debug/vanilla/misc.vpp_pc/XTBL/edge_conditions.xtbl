@@ -1,3193 +1,3135 @@
 <root>
-<Table>
-	<edge_conditions>
-		<Name>mission - was completed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Mission Name</Param_Name>
-				<Table>missions.xtbl</Table>
-				<Field>Mission.Name</Field>
-				</Param>
-			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_mission_was_completed</code_name>
-		<Comments>Check to see if a mission has been completed</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
-			</Categories>
-		<_Editor>
-			<Category>Entries:Gameplay</Category>
-			</_Editor>
-		</edge_conditions>
-	<edge_conditions>
-		<Name>mission - objective completed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Objective Name</Param_Name>
-				<Table>mission_objectives.xtbl</Table>
-				<Field>Mission_Objective.Name</Field>
-				</Param>
-			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_mission_objective_completed</code_name>
-		<Comments>Checks to see if a mission objective has been completed</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
-			</Categories>
-		<_Editor>
-			<Category>Entries:Gameplay</Category>
+	<Table>
+		<edge_conditions>
+			<Name>mission - was completed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Mission Name</Param_Name>
+					<Table>missions.xtbl</Table>
+					<Field>Mission.Name</Field>
+				</Param>
+			</Parameters>
+			<Image>0</Image>
+			<code_name>ec_mission_was_completed</code_name>
+			<Comments>Check to see if a mission has been completed</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
+			</Categories>
+			<_Editor>
+				<Category>Entries:Gameplay</Category>
+			</_Editor>
+		</edge_conditions>
+		<edge_conditions>
+			<Name>mission - objective completed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Objective Name</Param_Name>
+					<Table>mission_objectives.xtbl</Table>
+					<Field>Mission_Objective.Name</Field>
+				</Param>
+			</Parameters>
+			<Image>0</Image>
+			<code_name>ec_mission_objective_completed</code_name>
+			<Comments>Checks to see if a mission objective has been completed</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
+			</Categories>
+			<_Editor>
+				<Category>Entries:Gameplay</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mission - was failed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Mission</Param_Name>
-				<Table>missions.xtbl</Table>
-				<Field>Mission.Name</Field>
-				</Param>
-			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_mission_was_failed</code_name>
-		<Comments>Checks to see if a mission was failed</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+		<edge_conditions>
+			<Name>mission - was failed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Mission</Param_Name>
+					<Table>missions.xtbl</Table>
+					<Field>Mission.Name</Field>
+				</Param>
+			</Parameters>
+			<Image>0</Image>
+			<code_name>ec_mission_was_failed</code_name>
+			<Comments>Checks to see if a mission was failed</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Gameplay</Category>
+			<_Editor>
+				<Category>Entries:Gameplay</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>true</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<code_name>ec_always_true</code_name>
-		<Comments>This condition will always return true.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+		<edge_conditions>
+			<Name>true</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<code_name>ec_always_true</code_name>
+			<Comments>This condition will always return true.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>false</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+		<edge_conditions>
+			<Name>false</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_always_false</code_name>
-		<Comments>This condition will never be true.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
-			</Categories>
+			<code_name>ec_always_false</code_name>
+			<Comments>This condition will never be true.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
+			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>object - distance from obj squared</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 1</Param_Name>
+		<edge_conditions>
+			<Name>object - distance from obj squared</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 2</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 2</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Dist Sq</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Dist Sq</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
-		<code_name>ec_object_distance_from_object_sq</code_name>
-		<Comments>Returns true when (obj1.pos - obj2.pos) &lt; distance²</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<code_name>ec_object_distance_from_object_sq</code_name>
+			<Comments>Returns true when (obj1.pos - obj2.pos) &lt; distance²</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>object - distance from object</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 1</Param_Name>
+		<edge_conditions>
+			<Name>object - distance from object</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 2</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 2</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Distance</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Distance</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
-		<code_name>ec_object_distance_from_object</code_name>
-		<Comments>Returns true when the magnitude of (obj1.pos - obj2.pos) &lt; distance.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<code_name>ec_object_distance_from_object</code_name>
+			<Comments>Returns true when the magnitude of (obj1.pos - obj2.pos) &lt; distance.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>object - collision with anything</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>object - collision with anything</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
-		<code_name>ec_object_collide_with_any</code_name>
-		<Comments>Returns true if the object is colliding with another object that's not terrain.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<code_name>ec_object_collide_with_any</code_name>
+			<Comments>Returns true if the object is colliding with another object that's not terrain.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>object - collision with object</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 1</Param_Name>
+		<edge_conditions>
+			<Name>object - collision with object</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 2</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 2</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
-		<code_name>ec_object_collide_with_object</code_name>
-		<Comments>Returns true if the two selected object collide.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<code_name>ec_object_collide_with_object</code_name>
+			<Comments>Returns true if the two selected object collide.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>logic - flag is set</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Flag Name</Param_Name>
+		<edge_conditions>
+			<Name>logic - flag is set</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Flag Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>4</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>4</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_flag_is_set</code_name>
-		<Comments>Returns true if this flag was previously set to true.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<code_name>ec_flag_is_set</code_name>
+			<Comments>Returns true if this flag was previously set to true.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>logic - timer has expired</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Timer Name</Param_Name>
+		<edge_conditions>
+			<Name>logic - timer has expired</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Timer Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>5</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>5</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_timer_has_expired</code_name>
-		<Comments>Returns true when the specified timer reaches 0.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<code_name>ec_timer_has_expired</code_name>
+			<Comments>Returns true when the specified timer reaches 0.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>logic - object is in trigger</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>logic - object is in trigger</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Trigger</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_object_in_trigger</code_name>
-		<Comments>Returns true when the specified object is inside the trigger region.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<code_name>ec_object_in_trigger</code_name>
+			<Comments>Returns true when the specified object is inside the trigger region.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - number == number</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Value1</Param_Name>
+		<edge_conditions>
+			<Name>variable - number == number</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Value1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Value2</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Value2</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_number_equals</code_name>
-		<Comments>Returns true if Value1 == Value2.</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_number_equals</code_name>
+			<Comments>Returns true if Value1 == Value2.</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - number greater than number</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Value1</Param_Name>
+		<edge_conditions>
+			<Name>variable - number greater than number</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Value1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Value2</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Value2</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_number_greater_than</code_name>
-		<Comments>Returns true when Value1 is greater than Value2.</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_number_greater_than</code_name>
+			<Comments>Returns true when Value1 is greater than Value2.</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - number greater/equal to number</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Value1</Param_Name>
+		<edge_conditions>
+			<Name>variable - number greater/equal to number</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Value1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Value2</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Value2</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_number_equal_to_greater_than</code_name>
-		<Comments>Returns true if Value1 is greater than or equal to Value2.</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_number_equal_to_greater_than</code_name>
+			<Comments>Returns true if Value1 is greater than or equal to Value2.</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - vector*vector &gt;= number</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Vector</Param_Type>
-				<Param_Name>Vector 1</Param_Name>
+		<edge_conditions>
+			<Name>variable - vector*vector &gt;= number</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Vector</Param_Type>
+					<Param_Name>Vector 1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Vector</Param_Type>
-				<Param_Name>Vector 2</Param_Name>
+				<Param>
+					<Param_Type>Vector</Param_Type>
+					<Param_Name>Vector 2</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Dot Value</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Dot Value</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_vector_vector_dot_equal_to_greater_than</code_name>
-		<Comments>Returns true if (vec1.x * vec2.x + vec1.y *vec2.y + vec1.z *vec2.z)  &gt;= dot value</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_vector_vector_dot_equal_to_greater_than</code_name>
+			<Comments>Returns true if (vec1.x * vec2.x + vec1.y *vec2.y + vec1.z *vec2.z)  &gt;= dot value</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - mag(vec) &gt;= number</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Vector</Param_Type>
-				<Param_Name>Vector</Param_Name>
+		<edge_conditions>
+			<Name>variable - mag(vec) &gt;= number</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Vector</Param_Type>
+					<Param_Name>Vector</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Magnitude</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Magnitude</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_vector_mag_equal_to_greater_than</code_name>
-		<Comments>Returns true if magnitude(vector) is greater/equal to magnitude.</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_vector_mag_equal_to_greater_than</code_name>
+			<Comments>Returns true if magnitude(vector) is greater/equal to magnitude.</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - mag(vec - vec) &gt;= number</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Vector</Param_Type>
-				<Param_Name>Vector 1</Param_Name>
+		<edge_conditions>
+			<Name>variable - mag(vec - vec) &gt;= number</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Vector</Param_Type>
+					<Param_Name>Vector 1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Vector</Param_Type>
-				<Param_Name>Vector 2</Param_Name>
+				<Param>
+					<Param_Type>Vector</Param_Type>
+					<Param_Name>Vector 2</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Magnitude</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Magnitude</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_vector_vector_dist_equal_to_greater_than</code_name>
-		<Comments>Returns true if (vec1 - vec2)'s distance is greater than Magnitude.</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_vector_vector_dist_equal_to_greater_than</code_name>
+			<Comments>Returns true if (vec1 - vec2)'s distance is greater than Magnitude.</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - object == object</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 1</Param_Name>
+		<edge_conditions>
+			<Name>variable - object == object</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object 2</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object 2</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_object_handle_equals</code_name>
-		<Comments>Returns true if the two object handles match.</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_object_handle_equals</code_name>
+			<Comments>Returns true if the two object handles match.</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - string == string</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>String 1</Param_Name>
+		<edge_conditions>
+			<Name>variable - string == string</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>String 1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>String 2</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>String 2</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_string_equals</code_name>
-		<Comments>returns true if the two strings match. CASE SENSITIVE</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_string_equals</code_name>
+			<Comments>returns true if the two strings match. CASE SENSITIVE</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>variable - boolean is true</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Boolean</Param_Type>
-				<Param_Name>Boolean</Param_Name>
+		<edge_conditions>
+			<Name>variable - boolean is true</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Boolean</Param_Type>
+					<Param_Name>Boolean</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>1</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_variable_boolean</code_name>
-		<Comments>Returns true if Boolean is true.</Comments>
-		<Categories>
-			<Flag>Variables</Flag>
+			<code_name>ec_variable_boolean</code_name>
+			<Comments>Returns true if Boolean is true.</Comments>
+			<Categories>
+				<Flag>Variables</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>camera - looking at</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Vector</Param_Type>
-				<Param_Name>Position</Param_Name>
+		<edge_conditions>
+			<Name>camera - looking at</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Vector</Param_Type>
+					<Param_Name>Position</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Dot Limit(-1, 1)</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Dot Limit(-1, 1)</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>6</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>6</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_camera_looking_at</code_name>
-		<Comments>Returns true if the dot product between the camera's look vec and the vector to the object is greater/equal to the dot limit.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>VFX</Flag>
+			<code_name>ec_camera_looking_at</code_name>
+			<Comments>Returns true if the dot product between the camera's look vec and the vector to the object is greater/equal to the dot limit.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>VFX</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>object - exists</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>object - exists</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_object_exists</code_name>
-		<Comments>Returns true if the object handle resolves into an object. This works directly on the given object and will not dereference spawn nodes, etc.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
-			<Flag>VFX</Flag>
+			<code_name>ec_object_exists</code_name>
+			<Comments>Returns true if the object handle resolves into an object. This works directly on the given object and will not dereference spawn nodes, etc.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
+				<Flag>VFX</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>effect - is playing</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Effect</Param_Name>
+		<edge_conditions>
+			<Name>effect - is playing</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Effect</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_effect_is_playing</code_name>
-		<Comments>Returns true if the effect is still playing.</Comments>
-		<Categories>
-			<Flag>VFX</Flag>
+			<code_name>ec_effect_is_playing</code_name>
+			<Comments>Returns true if the effect is still playing.</Comments>
+			<Categories>
+				<Flag>VFX</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is in combat</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is in combat</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_in_combat</code_name>
-		<Comments>Returns true if the character is in combat</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_in_combat</code_name>
+			<Comments>Returns true if the character is in combat</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is playing anim file</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is playing anim file</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>anim_filename</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>anim_filename</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_playing_anim_file</code_name>
-		<Comments>Is the character playing the specified animation file?</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_playing_anim_file</code_name>
+			<Comments>Is the character playing the specified animation file?</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is playing action</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is playing action</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>action_name</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>action_name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_playing_action</code_name>
-		<Comments>Returns true if the human is playing the current action.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_playing_action</code_name>
+			<Comments>Returns true if the human is playing the current action.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - animation group is</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - animation group is</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>anim_group_name</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>anim_group_name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_anim_group_is</code_name>
-		<Comments>Returns true if the human is in the specified animation group name.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_anim_group_is</code_name>
+			<Comments>Returns true if the human is in the specified animation group name.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - animation state is</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - animation state is</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>anim_state_name</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>anim_state_name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_anim_override_state_is</code_name>
-		<Comments>Returns true if the human specified is in the specified animation state tame.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_anim_override_state_is</code_name>
+			<Comments>Returns true if the human specified is in the specified animation state tame.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is in any action node</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is in any action node</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_in_any_action_node</code_name>
-		<Comments>Returns true if the human is in any action node.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_in_any_action_node</code_name>
+			<Comments>Returns true if the human is in any action node.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is in action node</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is in action node</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>node_handle</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>node_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_in_action_node</code_name>
-		<Comments>Returns true if the character is in the specified action node.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_in_action_node</code_name>
+			<Comments>Returns true if the character is in the specified action node.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is entering action node</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is entering action node</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_entering_action_node</code_name>
-		<Comments>Returns true if the human is on his way to entering an action node.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_entering_action_node</code_name>
+			<Comments>Returns true if the human is on his way to entering an action node.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is exiting action node</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is exiting action node</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_exiting_action_node</code_name>
-		<Comments>Returns true if the human is leaving any action node.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_exiting_action_node</code_name>
+			<Comments>Returns true if the human is leaving any action node.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is playing action node action</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is playing action node action</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>node_handle</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>node_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_playing_action_node_action</code_name>
-		<Comments>Returns true if the human is playing the specified action node's animation.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_playing_action_node_action</code_name>
+			<Comments>Returns true if the human is playing the specified action node's animation.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is playing voice line</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>human_handle</Param_Name>
+		<edge_conditions>
+			<Name>character - is playing voice line</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>human_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_playing_voice_line</code_name>
-		<Comments>Returns true if the character is playing a voice line.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_playing_voice_line</code_name>
+			<Comments>Returns true if the character is playing a voice line.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - animation trigger elapsed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - animation trigger elapsed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Anim Action</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Anim Action</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Trigger Name</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Trigger Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_anim_trigger_elapsed</code_name>
-		<Comments>Returns true when an animation trigger has elapsed</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_anim_trigger_elapsed</code_name>
+			<Comments>Returns true when an animation trigger has elapsed</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>character - is in leap node</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>character - is in leap node</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>node_handle</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>node_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_char_is_in_leap_node</code_name>
-		<Comments>Returns true if the character is in the specified action node.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_char_is_in_leap_node</code_name>
+			<Comments>Returns true if the character is in the specified action node.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mission - mission is active</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>mission_name</Param_Name>
-				<Table>missions.xtbl</Table>
-				<Field>Mission.Name</Field>
+		<edge_conditions>
+			<Name>mission - mission is active</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>mission_name</Param_Name>
+					<Table>missions.xtbl</Table>
+					<Field>Mission.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_mission_is_active</code_name>
-		<Comments>Returns true if the specified mission is active.</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+			<code_name>ec_mission_is_active</code_name>
+			<Comments>Returns true if the specified mission is active.</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>cutscene - shot playing</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>cutscene_name</Param_Name>
-				<Table>cutscene.xtbl</Table>
-				<Field>Cutscene.Name</Field>
+		<edge_conditions>
+			<Name>cutscene - shot playing</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>cutscene_name</Param_Name>
+					<Table>cutscene.xtbl</Table>
+					<Field>Cutscene.Name</Field>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>shot_number</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>shot_number</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_cutscene_shot_playing</code_name>
-		<Comments>Returns true if the indicated shot and scene are playing.  Shot indices start at ZERO.  Negative shot index indicates any shot is valid.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_cutscene_shot_playing</code_name>
+			<Comments>Returns true if the indicated shot and scene are playing.  Shot indices start at ZERO.  Negative shot index indicates any shot is valid.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>action node - is occupied</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>node_handle</Param_Name>
+		<edge_conditions>
+			<Name>action node - is occupied</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>node_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_action_node_is_occupied</code_name>
-		<Comments>Is a specific action node occupied?</Comments>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_action_node_is_occupied</code_name>
+			<Comments>Is a specific action node occupied?</Comments>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - button is pressed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Button Index</Param_Name>
+		<edge_conditions>
+			<Name>control - button is pressed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Button Index</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_button_pressed</code_name>
-		<Comments>Check to see if a controller button is DOWN (0=A, 1=B, 2=X, 3=Y, 4=L1, 5=R1, 6=L2, 7=R2, 8=D-Rt, 9=D-Up, 10=D-Lft, 11=D-Dwn)</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_control_button_pressed</code_name>
+			<Comments>Check to see if a controller button is DOWN (0=A, 1=B, 2=X, 3=Y, 4=L1, 5=R1, 6=L2, 7=R2, 8=D-Rt, 9=D-Up, 10=D-Lft, 11=D-Dwn)</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Input and Control</Flag>
+			<Categories>
+				<Flag>Input and Control</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - button is triggered</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Button Index</Param_Name>
+		<edge_conditions>
+			<Name>control - button is triggered</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Button Index</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_button_triggered</code_name>
-		<Comments>Sees if this controller button was triggered this frame (0=A, 1=B, 2=X, 3=Y, 4=L1, 5=R1, 6=L2, 7=R2, 8=D-Rt, 9=D-Up, 10=D-Lft, 11=D-Dwn)</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_control_button_triggered</code_name>
+			<Comments>Sees if this controller button was triggered this frame (0=A, 1=B, 2=X, 3=Y, 4=L1, 5=R1, 6=L2, 7=R2, 8=D-Rt, 9=D-Up, 10=D-Lft, 11=D-Dwn)</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Input and Control</Flag>
+			<Categories>
+				<Flag>Input and Control</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - button just released</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Button Index</Param_Name>
+		<edge_conditions>
+			<Name>control - button just released</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Button Index</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_button_just_released</code_name>
-		<Comments>Sees if this button was just released (0=A, 1=B, 2=X, 3=Y, 4=L1, 5=R1, 6=L2, 7=R2, 8=D-Rt, 9=D-Up, 10=D-Lft, 11=D-Dwn)</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_control_button_just_released</code_name>
+			<Comments>Sees if this button was just released (0=A, 1=B, 2=X, 3=Y, 4=L1, 5=R1, 6=L2, 7=R2, 8=D-Rt, 9=D-Up, 10=D-Lft, 11=D-Dwn)</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Input and Control</Flag>
+			<Categories>
+				<Flag>Input and Control</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - any pressed</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_any_pressed</code_name>
-		<Comments>Checks if any button is pressed this frame</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+		<edge_conditions>
+			<Name>control - any pressed</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_control_any_pressed</code_name>
+			<Comments>Checks if any button is pressed this frame</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Input and Control</Flag>
+			<Categories>
+				<Flag>Input and Control</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - any triggered</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_any_triggered</code_name>
-		<Comments>sees if any button was triggered this frame</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+		<edge_conditions>
+			<Name>control - any triggered</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_control_any_triggered</code_name>
+			<Comments>sees if any button was triggered this frame</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Input and Control</Flag>
+			<Categories>
+				<Flag>Input and Control</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - any released</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_any_released</code_name>
-		<Comments>true if any control buttons were released this frame</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+		<edge_conditions>
+			<Name>control - any released</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_control_any_released</code_name>
+			<Comments>true if any control buttons were released this frame</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Input and Control</Flag>
+			<Categories>
+				<Flag>Input and Control</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>dice - roll sided dice</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Sides</Param_Name>
+		<edge_conditions>
+			<Name>dice - roll sided dice</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Sides</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_dice_roll_sided_dice</code_name>
-		<Comments>Returns true (1 / sides) of the time.</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_dice_roll_sided_dice</code_name>
+			<Comments>Returns true (1 / sides) of the time.</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>dice - roll sided with limits</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Sides</Param_Name>
+		<edge_conditions>
+			<Name>dice - roll sided with limits</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Sides</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Roll</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Roll</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_dice_roll_sided_limited</code_name>
-		<Comments>Returns true (Roll / Sides) of the time.</Comments>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_dice_roll_sided_limited</code_name>
+			<Comments>Returns true (Roll / Sides) of the time.</Comments>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>squad - is alive</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Squad Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>squad - is alive</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Squad Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<code_name>ec_squad_is_alive</code_name>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<Image>1</Image>
+			<code_name>ec_squad_is_alive</code_name>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Comments>Returns true while the squad is serialized.</Comments>
+			<Comments>Returns true while the squad is serialized.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>array - is empty</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+		<edge_conditions>
+			<Name>array - is empty</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_array_is_empty</code_name>
-		<Comments>returns TRUE if the array has no elements</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_array_is_empty</code_name>
+			<Comments>returns TRUE if the array has no elements</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>array - is full</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+		<edge_conditions>
+			<Name>array - is full</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_array_is_full</code_name>
-		<Comments>returns TRUE if the array's size is the max size</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_array_is_full</code_name>
+			<Comments>returns TRUE if the array's size is the max size</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>array - is at least % full</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+		<edge_conditions>
+			<Name>array - is at least % full</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>limit [0-1]</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>limit [0-1]</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_array_is_at_least_percent_full</code_name>
-		<Comments>returns TRUE if the array in more than the limit full</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_array_is_at_least_percent_full</code_name>
+			<Comments>returns TRUE if the array in more than the limit full</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>array - has at least # elements</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+		<edge_conditions>
+			<Name>array - has at least # elements</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>limit</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>limit</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_array_has_at_least_number_elements</code_name>
-		<Comments>returns TRUE if the array has at least the limit's amount of elements</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_array_has_at_least_number_elements</code_name>
+			<Comments>returns TRUE if the array has at least the limit's amount of elements</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>array - has exactly # elements</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+		<edge_conditions>
+			<Name>array - has exactly # elements</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>limit</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>limit</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_array_has_exact_number_elements</code_name>
-		<Comments>returns TRUE if the array has exactly the limit's amount of elements</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_array_has_exact_number_elements</code_name>
+			<Comments>returns TRUE if the array has exactly the limit's amount of elements</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>logic - squad is in trigger</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Squad Spawn</Param_Name>
+		<edge_conditions>
+			<Name>logic - squad is in trigger</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Squad Spawn</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Trigger</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_squad_is_in_trigger</code_name>
-		<Comments>returns TRUE if any of the squad members are inside the trigger region</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_squad_is_in_trigger</code_name>
+			<Comments>returns TRUE if any of the squad members are inside the trigger region</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>logic - squad reached patrol node</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>logic - squad reached patrol node</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Nav Waypoint</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Nav Waypoint</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_squad_reached_patrol_node</code_name>
-		<Comments>returns TRUE when a squad reaches a patrol node</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<code_name>ec_squad_reached_patrol_node</code_name>
+			<Comments>returns TRUE when a squad reaches a patrol node</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>vehicle - is destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>vehicle - is destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_vehicle_is_destroyed</code_name>
-		<Comments>returns TRUE if the vehicle doesn't exist or the vehicle is killed</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
-			<Flag>Object Manipulation</Flag>
-			<Flag>Modal Gameplay</Flag>
+			<Image>0</Image>
+			<code_name>ec_vehicle_is_destroyed</code_name>
+			<Comments>returns TRUE if the vehicle doesn't exist or the vehicle is killed</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
+				<Flag>Object Manipulation</Flag>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>player - has salvage amount</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Salvage</Param_Name>
+		<edge_conditions>
+			<Name>player - has salvage amount</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Salvage</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>2</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>2</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_player_has_salvage_amount</code_name>
-		<Comments>Returns true when the player has at least this much salvage.</Comments>
-		<Categories>
-			<Flag>Player Conditions</Flag>
+			<code_name>ec_player_has_salvage_amount</code_name>
+			<Comments>Returns true when the player has at least this much salvage.</Comments>
+			<Categories>
+				<Flag>Player Conditions</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>player - is in specific vehicle</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>player - is in specific vehicle</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>2</Image>
-		<code_name>ec_player_is_in_specific_vehicle</code_name>
-		<Comments>returns TRUE if the player is in the vehicle that spawned from the spawn node (either Squad or Vehicle spawn node)</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
-			<Flag>Object Manipulation</Flag>
-			<Flag>Character and AI</Flag>
-			<Flag>Modal Gameplay</Flag>
-			<Flag>Player Conditions</Flag>
+			<Image>2</Image>
+			<code_name>ec_player_is_in_specific_vehicle</code_name>
+			<Comments>returns TRUE if the player is in the vehicle that spawned from the spawn node (either Squad or Vehicle spawn node)</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
+				<Flag>Object Manipulation</Flag>
+				<Flag>Character and AI</Flag>
+				<Flag>Modal Gameplay</Flag>
+				<Flag>Player Conditions</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>player - is in vehicle with handle</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Vehicle</Param_Name>
+		<edge_conditions>
+			<Name>player - is in vehicle with handle</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Vehicle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>2</Image>
-		<code_name>ec_player_is_in_vehicle_with_handle</code_name>
-		<Comments>Returns TRUE if the vehicle the player is in matches the handle specified</Comments>
-		<Categories>
-			<Flag>Player Conditions</Flag>
+			<Image>2</Image>
+			<code_name>ec_player_is_in_vehicle_with_handle</code_name>
+			<Comments>Returns TRUE if the vehicle the player is in matches the handle specified</Comments>
+			<Categories>
+				<Flag>Player Conditions</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>player - all players in region</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Trigger region</Param_Name>
+		<edge_conditions>
+			<Name>player - all players in region</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger region</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>2</Image>
-		<code_name>ec_all_players_in_region</code_name>
-		<Categories>
-			<Flag>Player Conditions</Flag>
+			<Image>2</Image>
+			<code_name>ec_all_players_in_region</code_name>
+			<Categories>
+				<Flag>Player Conditions</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Comments>Are all players in the specified trigger region?</Comments>
+			<Comments>Are all players in the specified trigger region?</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>player - out of combat</Name>
-		<Parameters></Parameters>
-		<Image>2</Image>
-		<code_name>ec_player_out_of_combat</code_name>
-		<Comments>returns true when the local player is out of combat</Comments>
-		<Categories>
-			<Flag>Player Conditions</Flag>
+		<edge_conditions>
+			<Name>player - out of combat</Name>
+			<Parameters></Parameters>
+			<Image>2</Image>
+			<code_name>ec_player_out_of_combat</code_name>
+			<Comments>returns true when the local player is out of combat</Comments>
+			<Categories>
+				<Flag>Player Conditions</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>building - is destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Building</Param_Name>
+		<edge_conditions>
+			<Name>building - is destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Building</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_building_destroyed</code_name>
-		<Comments>DEPRECATED - DO NOT USE!</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_building_destroyed</code_name>
+			<Comments>DEPRECATED - DO NOT USE!</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mp - round begin</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_mp_round_begin</code_name>
-		<Comments>Returns true once the round has begun</Comments>
-		<Categories>
-			<Flag>Multiplayer</Flag>
+		<edge_conditions>
+			<Name>mp - round begin</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_mp_round_begin</code_name>
+			<Comments>Returns true once the round has begun</Comments>
+			<Categories>
+				<Flag>Multiplayer</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Multiplayer</Category>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - building damaged</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Building Handle</Param_Name>
+		<edge_conditions>
+			<Name>event - building damaged</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Building Handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_building_damaged</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_building_damaged</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a building is damaged, an event is posted.</Comments>
+			<Comments>When a building is damaged, an event is posted.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - building damaged by explosion</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Building</Param_Name>
+		<edge_conditions>
+			<Name>event - building damaged by explosion</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Building</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Attacker</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Attacker</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_building_damaged_by_explosion</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_building_damaged_by_explosion</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a building is damaged, an event is reported.</Comments>
+			<Comments>When a building is damaged, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - building destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>building</Param_Name>
+		<edge_conditions>
+			<Name>event - building destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>building</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_building_destroyed</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_building_destroyed</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a building is destroyed, an event is reported.</Comments>
+			<Comments>When a building is destroyed, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - salvage created</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_salvage_created</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - salvage created</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_salvage_created</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When salvage is created, an event is reported.</Comments>
+			<Comments>When salvage is created, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - weapon acquired</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Weapon</Param_Name>
-				<Table>weapons.xtbl</Table>
-				<Field>Weapon.Name</Field>
+		<edge_conditions>
+			<Name>event - weapon acquired</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Weapon</Param_Name>
+					<Table>weapons.xtbl</Table>
+					<Field>Weapon.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_weapon_acquired</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_weapon_acquired</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When the player gets a weapon, an event is reported.</Comments>
+			<Comments>When the player gets a weapon, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - turret destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Turret</Param_Name>
+		<edge_conditions>
+			<Name>event - turret destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Turret</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_turret_destroyed</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_turret_destroyed</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a turret is destroyed, an event is reported.</Comments>
+			<Comments>When a turret is destroyed, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - vehicle destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - vehicle destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_vehicle_destroyed</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_vehicle_destroyed</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a vehicle is destroyed, an event is reported.</Comments>
+			<Comments>When a vehicle is destroyed, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - human dead</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn node</Param_Name>
+		<edge_conditions>
+			<Name>event - human dead</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_human_dead</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_human_dead</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a human dies, an event is reported</Comments>
+			<Comments>When a human dies, an event is reported</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - dialogue finished</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_dialogue_finished</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - dialogue finished</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_dialogue_finished</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When dialog is finished, an event is reported.</Comments>
+			<Comments>When dialog is finished, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - human enter trigger</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Trigger</Param_Name>
+		<edge_conditions>
+			<Name>event - human enter trigger</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_any_human_enter_trigger</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_any_human_enter_trigger</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When any non-player, unfriendly human enters a trigger, an event is reported.</Comments>
+			<Comments>When any non-player, unfriendly human enters a trigger, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - object enter trigger</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>event - object enter trigger</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Trigger</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_object_enter_trigger</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_object_enter_trigger</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When an object enters a trigger, an event is reported.</Comments>
+			<Comments>When an object enters a trigger, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - object exit trigger</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>event - object exit trigger</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Trigger</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_object_exit_trigger</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_object_exit_trigger</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When an object exits a trigger, an event is reported.</Comments>
+			<Comments>When an object exits a trigger, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - squad killed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Squad Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - squad killed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Squad Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_squad_killed</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_squad_killed</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>This event fires when a squad is serialized out,  i.e. destroyed.</Comments>
+			<Comments>This event fires when a squad is serialized out,  i.e. destroyed.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - squad member killed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Squad Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - squad member killed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Squad Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_squad_member_killed</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_squad_member_killed</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>Redundant function, please use "event - squad killed" instead.</Comments>
+			<Comments>Redundant function, please use "event - squad killed" instead.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - player kills vehicle</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - player kills vehicle</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_kills_vehicle</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_player_kills_vehicle</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When the player kills a vehicle, an event is reported.</Comments>
+			<Comments>When the player kills a vehicle, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - player kills human</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - player kills human</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_kills_human</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_player_kills_human</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a player kills a human, an event is reported.</Comments>
+			<Comments>When a player kills a human, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - road becomes blocked</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Road Handle</Param_Name>
+		<edge_conditions>
+			<Name>event - road becomes blocked</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Road Handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_road_becomes_blocked</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_road_becomes_blocked</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a road  becomes blocked, an event is reported.</Comments>
+			<Comments>When a road  becomes blocked, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - bridge becomes blocked</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Road Handle</Param_Name>
+		<edge_conditions>
+			<Name>event - bridge becomes blocked</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Road Handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>event_gem_bridge_blocked</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>event_gem_bridge_blocked</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a bridge is blocked, an event is reported.</Comments>
+			<Comments>When a bridge is blocked, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - player kill vehicle from vehicle</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - player kill vehicle from vehicle</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_kill_vehicle_from_vehicle</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_player_kill_vehicle_from_vehicle</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When the player kills a vehicle from another vehicle, an event is reported.</Comments>
+			<Comments>When the player kills a vehicle from another vehicle, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - vehicle damage</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - vehicle damage</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>at least %</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>at least %</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_vehicle_damaged</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_vehicle_damaged</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a vehicle is damaged, an event is reported.</Comments>
+			<Comments>When a vehicle is damaged, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - player enters vehicle</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - player enters vehicle</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_enters_vehicle</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_player_enters_vehicle</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a player enters a vehicle, an event is reported.</Comments>
+			<Comments>When a player enters a vehicle, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - player exits vehicle</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - player exits vehicle</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_exits_vehicle</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_player_exits_vehicle</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When the player exits a vehicle, an event is reported.</Comments>
+			<Comments>When the player exits a vehicle, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - shard storm fire</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_shard_storm_fire</code_name>
-		<Categories>
-			<Flag>Character and AI</Flag>
+		<edge_conditions>
+			<Name>event - shard storm fire</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_shard_storm_fire</code_name>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When anyone fires a shard storm, this event is reported</Comments>
+			<Comments>When anyone fires a shard storm, this event is reported</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - shard storm charge</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_shard_storm_charge</code_name>
-		<Categories>
-			<Flag>Character and AI</Flag>
+		<edge_conditions>
+			<Name>event - shard storm charge</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_shard_storm_charge</code_name>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When anyone starts to charge a shard storm weapon, this event is reported</Comments>
+			<Comments>When anyone starts to charge a shard storm weapon, this event is reported</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - npc enters vehicle</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>NPC spawn</Param_Name>
+		<edge_conditions>
+			<Name>event - npc enters vehicle</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>NPC spawn</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Vehicle Spawn</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Vehicle Spawn</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_npc_enters_vehicle</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_npc_enters_vehicle</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When an NPC enters a vehicle, an event is reported.</Comments>
+			<Comments>When an NPC enters a vehicle, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - player under attack</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_under_attack</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - player under attack</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_player_under_attack</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When the player is under attack, an event is reported.</Comments>
+			<Comments>When the player is under attack, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - vehicle under attack</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Vehicle Spawn</Param_Name>
+		<edge_conditions>
+			<Name>event - vehicle under attack</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Vehicle Spawn</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_vehicle_under_attack</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_vehicle_under_attack</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a vehicle is under attack, an event is reported.</Comments>
+			<Comments>When a vehicle is under attack, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - human using action node</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Human Spawn</Param_Name>
+		<edge_conditions>
+			<Name>event - human using action node</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Human Spawn</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Action Node</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Action Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_human_using_action_node</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_human_using_action_node</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When a human uses an action node, and event is reported.</Comments>
+			<Comments>When a human uses an action node, and event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - squad members spawned</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Squad Spawn</Param_Name>
+		<edge_conditions>
+			<Name>event - squad members spawned</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Squad Spawn</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_squad_members_spawned</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_squad_members_spawned</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When squad members despawn, an event is reported.</Comments>
+			<Comments>When squad members despawn, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - player gets salvage</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_gets_salvage</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - player gets salvage</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_player_gets_salvage</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When the player picks up salvage, an event is reported.</Comments>
+			<Comments>When the player picks up salvage, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - squad members despawned</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Squad Spawn</Param_Name>
+		<edge_conditions>
+			<Name>event - squad members despawned</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Squad Spawn</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_squad_members_despawned</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_squad_members_despawned</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When squad members despawn, an event is reported.</Comments>
+			<Comments>When squad members despawn, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - npc despawned</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>event - npc despawned</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_npc_despawned</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_npc_despawned</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When NPCs despawn, an event is reported.</Comments>
+			<Comments>When NPCs despawn, an event is reported.</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - object being repaired</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>event - object being repaired</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_object_repairing</code_name>
-		<Comments>Will return TRUE when an object is being repaired.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_object_repairing</code_name>
+			<Comments>Will return TRUE when an object is being repaired.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mp infestation - objective active</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Objective ID</Param_Name>
+		<edge_conditions>
+			<Name>mp infestation - objective active</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Objective ID</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_mp_infestation_objective_active</code_name>
-		<Comments>Returns true if the objective is currently active</Comments>
-		<Categories>
-			<Flag>Multiplayer</Flag>
+			<Image>0</Image>
+			<code_name>ec_mp_infestation_objective_active</code_name>
+			<Comments>Returns true if the objective is currently active</Comments>
+			<Categories>
+				<Flag>Multiplayer</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Multiplayer</Category>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mp infestation - objective complete</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Objective ID</Param_Name>
+		<edge_conditions>
+			<Name>mp infestation - objective complete</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Objective ID</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_mp_infestation_objective_passed</code_name>
-		<Comments>Returns true if the objective has been completed and passed</Comments>
-		<Categories>
-			<Flag>Multiplayer</Flag>
+			<Image>0</Image>
+			<code_name>ec_mp_infestation_objective_passed</code_name>
+			<Comments>Returns true if the objective has been completed and passed</Comments>
+			<Categories>
+				<Flag>Multiplayer</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Multiplayer</Category>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - object is activated</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>event - object is activated</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_object_is_activated</code_name>
-		<Comments>returns TRUE when an object is activated (repaired fully)</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_object_is_activated</code_name>
+			<Comments>returns TRUE when an object is activated (repaired fully)</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - object is undestroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>event - object is undestroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_object_is_undestroyed</code_name>
-		<Comments>Returns TRUE when an object is repaired past its destroyed percentage</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_object_is_undestroyed</code_name>
+			<Comments>Returns TRUE when an object is repaired past its destroyed percentage</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - object is deactivated</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Object</Param_Name>
+		<edge_conditions>
+			<Name>event - object is deactivated</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_object_is_deactivated</code_name>
-		<Comments>Called when an object is no longer active.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_object_is_deactivated</code_name>
+			<Comments>Called when an object is no longer active.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>quest - is active</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>quest_name</Param_Name>
-				<Table>quests.xtbl</Table>
-				<Field>Quest.Name</Field>
+		<edge_conditions>
+			<Name>quest - is active</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>quest_name</Param_Name>
+					<Table>quests.xtbl</Table>
+					<Field>Quest.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_quest_is_active</code_name>
-		<Comments>Checks whether the indicated quest is currently active.</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+			<Image>0</Image>
+			<code_name>ec_quest_is_active</code_name>
+			<Comments>Checks whether the indicated quest is currently active.</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Gameplay</Category>
+			<_Editor>
+				<Category>Entries:Gameplay</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>quest - is complete</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>quest_name</Param_Name>
-				<Table>quests.xtbl</Table>
-				<Field>Quest.Name</Field>
+		<edge_conditions>
+			<Name>quest - is complete</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>quest_name</Param_Name>
+					<Table>quests.xtbl</Table>
+					<Field>Quest.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_quest_is_complete</code_name>
-		<Comments>Checks whether the indicated quest has been completed already.</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+			<Image>0</Image>
+			<code_name>ec_quest_is_complete</code_name>
+			<Comments>Checks whether the indicated quest has been completed already.</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Gameplay</Category>
+			<_Editor>
+				<Category>Entries:Gameplay</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>quest - objective complete</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>quest_name</Param_Name>
-				<Table>quests.xtbl</Table>
-				<Field>Quest.Name</Field>
+		<edge_conditions>
+			<Name>quest - objective complete</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>quest_name</Param_Name>
+					<Table>quests.xtbl</Table>
+					<Field>Quest.Name</Field>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>objective_name</Param_Name>
-				<Table>quests.xtbl</Table>
-				<Field>Quest.Objectives.Objective.Name</Field>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>objective_name</Param_Name>
+					<Table>quests.xtbl</Table>
+					<Field>Quest.Objectives.Objective.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_quest_objective_is_complete</code_name>
-		<Comments>Checks whether an individual objective has yet been completed.</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+			<Image>0</Image>
+			<code_name>ec_quest_objective_is_complete</code_name>
+			<Comments>Checks whether an individual objective has yet been completed.</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Gameplay</Category>
+			<_Editor>
+				<Category>Entries:Gameplay</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - bink video completed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Bink Video Name</Param_Name>
+		<edge_conditions>
+			<Name>event - bink video completed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Bink Video Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_bink_video_completed</code_name>
-		<Comments>returns TRUE when the associated video completes.  Include the .bik on the bink name.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_bink_video_completed</code_name>
+			<Comments>returns TRUE when the associated video completes.  Include the .bik on the bink name.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>vehicle - exists in world</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>vehicle - exists in world</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_vehicle_exists</code_name>
-		<Comments>Returns TRUE if the vehicle, walker, or exo has spawned in the world.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_vehicle_exists</code_name>
+			<Comments>Returns TRUE if the vehicle, walker, or exo has spawned in the world.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - mission checkpoint restore</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Mission Name</Param_Name>
-				<Table>missions.xtbl</Table>
-				<Field>Mission.Name</Field>
+		<edge_conditions>
+			<Name>event - mission checkpoint restore</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Mission Name</Param_Name>
+					<Table>missions.xtbl</Table>
+					<Field>Mission.Name</Field>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Checkpoint Index</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Checkpoint Index</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_mission_checkpoint_restore</code_name>
-		<Comments>Called when a mission checkpoint restore takes place</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_mission_checkpoint_restore</code_name>
+			<Comments>Called when a mission checkpoint restore takes place</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>anim rig - state playing</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>rig_object</Param_Name>
+		<edge_conditions>
+			<Name>anim rig - state playing</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>rig_object</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>state_name</Param_Name>
-				<Table>rig_anims.xtbl</Table>
-				<Field>Anim.Name</Field>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>state_name</Param_Name>
+					<Table>rig_anims.xtbl</Table>
+					<Field>Anim.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_anim_rig_state_playing</code_name>
-		<Comments>Checks to see if a specific animation state is playing on the rig.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
-			<Flag>Animation</Flag>
+			<Image>0</Image>
+			<code_name>ec_anim_rig_state_playing</code_name>
+			<Comments>Checks to see if a specific animation state is playing on the rig.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
+				<Flag>Animation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>anim rig - action playing</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>rig_object</Param_Name>
+		<edge_conditions>
+			<Name>anim rig - action playing</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>rig_object</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>action_name</Param_Name>
-				<Table>rig_anims.xtbl</Table>
-				<Field>Anim.Name</Field>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>action_name</Param_Name>
+					<Table>rig_anims.xtbl</Table>
+					<Field>Anim.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_anim_rig_action_playing</code_name>
-		<Comments>Checks to see if a specific animation action is playing on the rig.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
-			<Flag>Animation</Flag>
+			<Image>0</Image>
+			<code_name>ec_anim_rig_action_playing</code_name>
+			<Comments>Checks to see if a specific animation action is playing on the rig.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
+				<Flag>Animation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>logic - array objects are destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+		<edge_conditions>
+			<Name>logic - array objects are destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_logic_array_objects_are_destroyed</code_name>
-		<Comments>DEPRECATED - DO NOT USE!</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_logic_array_objects_are_destroyed</code_name>
+			<Comments>DEPRECATED - DO NOT USE!</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>audio - is conversation finished</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Conversation</Param_Name>
+		<edge_conditions>
+			<Name>audio - is conversation finished</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Conversation</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_is_conversation_finished</code_name>
-		<Comments>Returns whether a conversation has finished playing.</Comments>
-		<Categories>
-			<Flag>Audio</Flag>
+			<Image>0</Image>
+			<code_name>ec_is_conversation_finished</code_name>
+			<Comments>Returns whether a conversation has finished playing.</Comments>
+			<Categories>
+				<Flag>Audio</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Audio</Category>
+			<_Editor>
+				<Category>Entries:Audio</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>object - check facing proximity</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>obj1</Param_Name>
+		<edge_conditions>
+			<Name>object - check facing proximity</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>obj1</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>obj2</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>obj2</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>max_dist</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>max_dist</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>max_degrees</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>max_degrees</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_object_check_facing_proximity</code_name>
-		<Comments>This will return true if obj1 is less than max_dist away from and less than max_degrees looking away from obj2.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_object_check_facing_proximity</code_name>
+			<Comments>This will return true if obj1 is less than max_dist away from and less than max_degrees looking away from obj2.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mover - is whole</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>mover</Param_Name>
+		<edge_conditions>
+			<Name>mover - is whole</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>mover</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_mover_is_whole</code_name>
-		<Comments>This will return true if it's untouched or fully repaired.  This does not work on movers that contain glass (as glass does not repair).</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_mover_is_whole</code_name>
+			<Comments>This will return true if it's untouched or fully repaired.  This does not work on movers that contain glass (as glass does not repair).</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mp infestation - is wave active</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_mp_infestation_is_wave_active</code_name>
-		<Comments>Returns true if a wave is active</Comments>
-		<Categories>
-			<Flag>Multiplayer</Flag>
+		<edge_conditions>
+			<Name>mp infestation - is wave active</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_mp_infestation_is_wave_active</code_name>
+			<Comments>Returns true if a wave is active</Comments>
+			<Categories>
+				<Flag>Multiplayer</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Multiplayer</Category>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mp infestation - any enemies left</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_mp_infestation_any_enemies_left</code_name>
-		<Comments>Returns true if any enemies are alive or yet to be spawned</Comments>
-		<Categories>
-			<Flag>Multiplayer</Flag>
+		<edge_conditions>
+			<Name>mp infestation - any enemies left</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_mp_infestation_any_enemies_left</code_name>
+			<Comments>Returns true if any enemies are alive or yet to be spawned</Comments>
+			<Categories>
+				<Flag>Multiplayer</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Multiplayer</Category>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - pod damaged</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>pod</Param_Name>
+		<edge_conditions>
+			<Name>event - pod damaged</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>pod</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_pod_damaged</code_name>
-		<Comments>Returns true each time the pod is damaged.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_pod_damaged</code_name>
+			<Comments>Returns true each time the pod is damaged.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - pod destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>pod</Param_Name>
+		<edge_conditions>
+			<Name>event - pod destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>pod</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_pod_destroyed</code_name>
-		<Comments>Returns true one time when the pod is destroyed.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_pod_destroyed</code_name>
+			<Comments>Returns true one time when the pod is destroyed.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - squad damaged</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>node_handle</Param_Name>
+		<edge_conditions>
+			<Name>event - squad damaged</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>node_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_squad_damaged</code_name>
-		<Comments>Returns true one time when the squad is damaged</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_squad_damaged</code_name>
+			<Comments>Returns true one time when the squad is damaged</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - squad attacked</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>squad_handle</Param_Name>
+		<edge_conditions>
+			<Name>event - squad attacked</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>squad_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_squad_attacked</code_name>
-		<Comments>Returns true one time when the squad is attacked</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_squad_attacked</code_name>
+			<Comments>Returns true one time when the squad is attacked</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - monster closet spawned</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Dummy Node</Param_Name>
+		<edge_conditions>
+			<Name>event - monster closet spawned</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Dummy Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_monster_closet_spawned</code_name>
-		<Comments>Called when all spawn waves have been completed</Comments>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_monster_closet_spawned</code_name>
+			<Comments>Called when all spawn waves have been completed</Comments>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - wave starting</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Wave Object</Param_Name>
+		<edge_conditions>
+			<Name>event - wave starting</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Wave Object</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Wave ID</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Wave ID</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_spawn_wave</code_name>
-		<Comments>Called just before a spawn wave begins spawning</Comments>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_spawn_wave</code_name>
+			<Comments>Called just before a spawn wave begins spawning</Comments>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - wave complete</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Wave Object</Param_Name>
+		<edge_conditions>
+			<Name>event - wave complete</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Wave Object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_spawn_wave_complete</code_name>
-		<Comments>Called when all spawn waves have been completed</Comments>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_spawn_wave_complete</code_name>
+			<Comments>Called when all spawn waves have been completed</Comments>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - anim rig damaged</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>rig_handle</Param_Name>
+		<edge_conditions>
+			<Name>event - anim rig damaged</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>rig_handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_anim_rig_damaged</code_name>
-		<Comments>Returns true at the moment when an anim rig is damaged.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_anim_rig_damaged</code_name>
+			<Comments>Returns true at the moment when an anim rig is damaged.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - mission failed</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_mission_failed</code_name>
-		<Comments>Returns true on the event of a mission failure event being posted by the game.  "mission_terminate" must be explicitly called by the scripter to end the mission.</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+		<edge_conditions>
+			<Name>event - mission failed</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_mission_failed</code_name>
+			<Comments>Returns true on the event of a mission failure event being posted by the game.  "mission_terminate" must be explicitly called by the scripter to end the mission.</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>object - is active</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>object</Param_Name>
+		<edge_conditions>
+			<Name>object - is active</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_object_is_active</code_name>
-		<Comments>Returns true if an object is active, false if it is not active. (works based on global "activation" event) Currently only implemented for movers.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_object_is_active</code_name>
+			<Comments>Returns true if an object is active, false if it is not active. (works based on global "activation" event) Currently only implemented for movers.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - tentacle killed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>tentacle</Param_Name>
+		<edge_conditions>
+			<Name>event - tentacle killed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>tentacle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_tentacle_killed</code_name>
-		<Comments>Triggers when the tentacle is killed.</Comments>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_tentacle_killed</code_name>
+			<Comments>Triggers when the tentacle is killed.</Comments>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - anim rig hit trigger</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>anim_rig</Param_Name>
+		<edge_conditions>
+			<Name>event - anim rig hit trigger</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>anim_rig</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>trigger_index</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>trigger_index</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_anim_rig_anim_trigger_hit</code_name>
-		<Comments>Valid range for trigger_index is 0-2.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_anim_rig_anim_trigger_hit</code_name>
+			<Comments>Valid range for trigger_index is 0-2.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>audio - is audio object active</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Audiolib_object</Param_Name>
+		<edge_conditions>
+			<Name>audio - is audio object active</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Audiolib_object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_is_voice_line_active</code_name>
-		<Comments>Returns whether the specified audiolib object (handle as string) is playing its voiceline.</Comments>
-		<Categories>
-			<Flag>Audio</Flag>
+			<Image>0</Image>
+			<code_name>ec_is_voice_line_active</code_name>
+			<Comments>Returns whether the specified audiolib object (handle as string) is playing its voiceline.</Comments>
+			<Categories>
+				<Flag>Audio</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Audio</Category>
+			<_Editor>
+				<Category>Entries:Audio</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - camera moment completed</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_camera_moment_completed</code_name>
-		<Comments>When a cutscene moment is completed, an event is reported.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - camera moment completed</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_camera_moment_completed</code_name>
+			<Comments>When a cutscene moment is completed, an event is reported.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - magnet attached</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>attached_to_obj</Param_Name>
+		<edge_conditions>
+			<Name>event - magnet attached</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>attached_to_obj</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_magnet_placed</code_name>
-		<Comments>-1 in handle value to allow any object</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_magnet_placed</code_name>
+			<Comments>-1 in handle value to allow any object</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - magnet cancelled</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_magnet_cancelled</code_name>
-		<Comments>Returns true when the player cancels their magnet.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - magnet cancelled</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_magnet_cancelled</code_name>
+			<Comments>Returns true when the player cancels their magnet.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - magnet seeking</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_magnet_seeking</code_name>
-		<Comments>Returns true when the player causes a magneted object to start seeking a target.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - magnet seeking</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_magnet_seeking</code_name>
+			<Comments>Returns true when the player causes a magneted object to start seeking a target.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>player - is in specific turret</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Spawn Node</Param_Name>
+		<edge_conditions>
+			<Name>player - is in specific turret</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Spawn Node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>2</Image>
-		<code_name>ec_player_is_in_turret_specific</code_name>
-		<Comments>returns TRUE if the player is in the turret that spawned from the spawn node</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
-			<Flag>Object Manipulation</Flag>
-			<Flag>Character and AI</Flag>
-			<Flag>Modal Gameplay</Flag>
-			<Flag>Player Conditions</Flag>
+			<Image>2</Image>
+			<code_name>ec_player_is_in_turret_specific</code_name>
+			<Comments>returns TRUE if the player is in the turret that spawned from the spawn node</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
+				<Flag>Object Manipulation</Flag>
+				<Flag>Character and AI</Flag>
+				<Flag>Modal Gameplay</Flag>
+				<Flag>Player Conditions</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - pod destroyed in array</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>array_name</Param_Name>
+		<edge_conditions>
+			<Name>event - pod destroyed in array</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>array_name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_pod_in_array_destroyed</code_name>
-		<Comments>Returns true each time one of the pods in the provided array is destroyed.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_pod_in_array_destroyed</code_name>
+			<Comments>Returns true each time one of the pods in the provided array is destroyed.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>player - is in an exo</Name>
-		<Parameters></Parameters>
-		<Image>2</Image>
-		<code_name>ec_player_is_in_any_exo</code_name>
-		<Comments>Returns whether the player is piloting an exo.</Comments>
-		<Categories>
-			<Flag>Character and AI</Flag>
-			<Flag>Modal Gameplay</Flag>
-			<Flag>Player Conditions</Flag>
+		<edge_conditions>
+			<Name>player - is in an exo</Name>
+			<Parameters></Parameters>
+			<Image>2</Image>
+			<code_name>ec_player_is_in_any_exo</code_name>
+			<Comments>Returns whether the player is piloting an exo.</Comments>
+			<Categories>
+				<Flag>Character and AI</Flag>
+				<Flag>Modal Gameplay</Flag>
+				<Flag>Player Conditions</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mover - is percent destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>mover handle</Param_Name>
+		<edge_conditions>
+			<Name>mover - is percent destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>mover handle</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>percent [0-1]</Param_Name>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>percent [0-1]</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_object_link_percent_destroyed</code_name>
-		<Comments>returns TRUE if the percent destroyed is greater than or equal to the amount specified.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_object_link_percent_destroyed</code_name>
+			<Comments>returns TRUE if the percent destroyed is greater than or equal to the amount specified.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>weapon - can fire</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>weapon</Param_Name>
+		<edge_conditions>
+			<Name>weapon - can fire</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>weapon</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_weapon_can_fire</code_name>
-		<Comments>Returns true if a disembodied weapon is able to fire.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_weapon_can_fire</code_name>
+			<Comments>Returns true if a disembodied weapon is able to fire.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>weapon - has fired</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>weapon</Param_Name>
+		<edge_conditions>
+			<Name>weapon - has fired</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>weapon</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_weapon_has_fired</code_name>
-		<Comments>Returns true if a disembodied weapon has fired since the trigger was pulled last.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_weapon_has_fired</code_name>
+			<Comments>Returns true if a disembodied weapon has fired since the trigger was pulled last.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>weapon - is in range of object</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>weapon</Param_Name>
+		<edge_conditions>
+			<Name>weapon - is in range of object</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>weapon</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>other object</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>other object</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_weapon_is_in_range_of_object</code_name>
-		<Comments>Returns true if a disembodied weapon is within firing range of an object.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_weapon_is_in_range_of_object</code_name>
+			<Comments>Returns true if a disembodied weapon is within firing range of an object.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - exo destroyed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Exo handle</Param_Name>
+		<edge_conditions>
+			<Name>event - exo destroyed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Exo handle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_exo_destroyed</code_name>
-		<Comments>When an exo is destroyed, an event is reported</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_exo_destroyed</code_name>
+			<Comments>When an exo is destroyed, an event is reported</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - action node completed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>human</Param_Name>
+		<edge_conditions>
+			<Name>event - action node completed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>human</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>action_node</Param_Name>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>action_node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_action_node_completed</code_name>
-		<Comments>Event triggers at the end of an action node action.</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_action_node_completed</code_name>
+			<Comments>Event triggers at the end of an action node action.</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - prepared video started</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>prep_video_obj</Param_Name>
+		<edge_conditions>
+			<Name>event - prepared video started</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>prep_video_obj</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_prepared_video_started</code_name>
-		<Comments>returns TRUE when the associated prepared video object starts its video</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_prepared_video_started</code_name>
+			<Comments>returns TRUE when the associated prepared video object starts its video</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>array - squad is alive</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+		<edge_conditions>
+			<Name>array - squad is alive</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<code_name>ec_ar_squad_is_alive</code_name>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<Image>1</Image>
+			<code_name>ec_ar_squad_is_alive</code_name>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Comments>Return true when any squad spawned from the given array is alive</Comments>
+			<Comments>Return true when any squad spawned from the given array is alive</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mp infestation - wave about to start</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_mp_infestation_wave_about_to_start</code_name>
-		<Comments>Returns true if a wave is about to start</Comments>
-		<Categories>
-			<Flag>Multiplayer</Flag>
+		<edge_conditions>
+			<Name>mp infestation - wave about to start</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_mp_infestation_wave_about_to_start</code_name>
+			<Comments>Returns true if a wave is about to start</Comments>
+			<Categories>
+				<Flag>Multiplayer</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Multiplayer</Category>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - vehicle damaged by explosion</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>vehicle</Param_Name>
+		<edge_conditions>
+			<Name>event - vehicle damaged by explosion</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>vehicle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_vehicle_damaged_by_explosion</code_name>
-		<Comments>Fires whenever the vehicle is damaged by an explosion.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_vehicle_damaged_by_explosion</code_name>
+			<Comments>Fires whenever the vehicle is damaged by an explosion.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - vehicle damaged by electrical explosion</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>vehicle</Param_Name>
+		<edge_conditions>
+			<Name>event - vehicle damaged by electrical explosion</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>vehicle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_vehicle_damaged_by_electrical_explosion</code_name>
-		<Comments>True at the moment the vehicle gets damaged by an electrical explosion.</Comments>
-		<Categories>
-			<Flag>Object Manipulation</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_vehicle_damaged_by_electrical_explosion</code_name>
+			<Comments>True at the moment the vehicle gets damaged by an electrical explosion.</Comments>
+			<Categories>
+				<Flag>Object Manipulation</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - vehicle damaged by magnet gun</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>vehicle</Param_Name>
+		<edge_conditions>
+			<Name>event - vehicle damaged by magnet gun</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>vehicle</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_vehicle_damaged_by_magnet_gun</code_name>
-		<Comments>Fires whenever the vehicle is damaged by getting hit by a level object.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_vehicle_damaged_by_magnet_gun</code_name>
+			<Comments>Fires whenever the vehicle is damaged by getting hit by a level object.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>array - N squads left alive</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>Number</Param_Type>
-				<Param_Name>Count</Param_Name>
+		<edge_conditions>
+			<Name>array - N squads left alive</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>Number</Param_Type>
+					<Param_Name>Count</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Array Name</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Array Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>1</Image>
-		<code_name>ec_ar_n_squads_left_alive</code_name>
-		<Categories>
-			<Flag>Character and AI</Flag>
+			<Image>1</Image>
+			<code_name>ec_ar_n_squads_left_alive</code_name>
+			<Categories>
+				<Flag>Character and AI</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Comments>Returns true when there are N or fewer squads left alive in the array passed in</Comments>
+			<Comments>Returns true when there are N or fewer squads left alive in the array passed in</Comments>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>vehicle - has spawned</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>spawn_node</Param_Name>
+		<edge_conditions>
+			<Name>vehicle - has spawned</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>spawn_node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_vehicle_has_spawned</code_name>
-		<Comments>Takes a vehicle or squad spawn node and tells whether the vehicle has spawned yet.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<Image>0</Image>
+			<code_name>ec_vehicle_has_spawned</code_name>
+			<Comments>Takes a vehicle or squad spawn node and tells whether the vehicle has spawned yet.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - action triggered</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_action_triggered</code_name>
-		<Comments>Returns true when the "press/hold x" action has been triggered.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+		<edge_conditions>
+			<Name>control - action triggered</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_control_action_triggered</code_name>
+			<Comments>Returns true when the "press/hold x" action has been triggered.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - custom action triggered</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_custom_control_action_triggered</code_name>
-		<Comments>Returns true when the "press/hold x" action has been triggered, but only when we display custom text</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+		<edge_conditions>
+			<Name>control - custom action triggered</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_custom_control_action_triggered</code_name>
+			<Comments>Returns true when the "press/hold x" action has been triggered, but only when we display custom text</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>logic - any player is in trigger</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Trigger</Param_Name>
+		<edge_conditions>
+			<Name>logic - any player is in trigger</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Trigger</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_any_player_in_trigger</code_name>
-		<Comments>Returns true if any player is in the specified trigger region.</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<code_name>ec_any_player_in_trigger</code_name>
+			<Comments>Returns true if any player is in the specified trigger region.</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>vehicle - is blocked by exo</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>spawn_node</Param_Name>
+		<edge_conditions>
+			<Name>vehicle - is blocked by exo</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>spawn_node</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_vehicle_is_blocked_by_exo</code_name>
-		<Comments>Takes a vehicle or squad spawn node and tells whether the vehicle is blocked by an exo</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:Object</Category>
+			<Image>0</Image>
+			<code_name>ec_vehicle_is_blocked_by_exo</code_name>
+			<Comments>Takes a vehicle or squad spawn node and tells whether the vehicle is blocked by an exo</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:Object</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>audio - event is active</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Event Play ID</Param_Name>
+		<edge_conditions>
+			<Name>audio - event is active</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Event Play ID</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_is_audio_event_active</code_name>
-		<Comments>Returns whether or not the specified event is playing.</Comments>
-		<Categories>
-			<Flag>Audio</Flag>
+			<Image>0</Image>
+			<code_name>ec_is_audio_event_active</code_name>
+			<Comments>Returns whether or not the specified event is playing.</Comments>
+			<Categories>
+				<Flag>Audio</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Audio</Category>
+			<_Editor>
+				<Category>Entries:Audio</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - bink video started</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>bink_name</Param_Name>
+		<edge_conditions>
+			<Name>event - bink video started</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>bink_name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_bink_video_started</code_name>
-		<Comments>Fires when a bink starts.  Include the .bik on the bink name.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_bink_video_started</code_name>
+			<Comments>Fires when a bink starts.  Include the .bik on the bink name.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - human changed weapons</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>human</Param_Name>
+		<edge_conditions>
+			<Name>event - human changed weapons</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>human</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>weapon_info</Param_Name>
-				<Table>weapons.xtbl</Table>
-				<Field>Weapon.Name</Field>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>weapon_info</Param_Name>
+					<Table>weapons.xtbl</Table>
+					<Field>Weapon.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_human_changed_weapons</code_name>
-		<Comments>Leave the weapon blank if you don't care what weapon they changed to.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<Image>0</Image>
+			<code_name>ec_gem_human_changed_weapons</code_name>
+			<Comments>Leave the weapon blank if you don't care what weapon they changed to.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - upgrade menu exited</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_upgrade_menu_exited</code_name>
-		<Comments>Returns true at the moment the upgrade menu is exited.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+		<edge_conditions>
+			<Name>event - upgrade menu exited</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_upgrade_menu_exited</code_name>
+			<Comments>Returns true at the moment the upgrade menu is exited.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - fine aim snap enabled</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_fine_aim_snap_enabled</code_name>
-		<Comments>Returns true if fine aim snap is enabled in the options.</Comments>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+		<edge_conditions>
+			<Name>control - fine aim snap enabled</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_control_fine_aim_snap_enabled</code_name>
+			<Comments>Returns true if fine aim snap is enabled in the options.</Comments>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>mp infestation - monolith should activate</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Monolith</Param_Name>
+		<edge_conditions>
+			<Name>mp infestation - monolith should activate</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Monolith</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_mp_infestation_monolith_should_activate</code_name>
-		<Comments>Returns true if the passed in monolith object should activate</Comments>
-		<Categories>
-			<Flag>Multiplayer</Flag>
+			<Image>0</Image>
+			<code_name>ec_mp_infestation_monolith_should_activate</code_name>
+			<Comments>Returns true if the passed in monolith object should activate</Comments>
+			<Categories>
+				<Flag>Multiplayer</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Multiplayer</Category>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>audio - is 2D persona active</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Persona</Param_Name>
-				<Table>audio_personas.xtbl</Table>
-				<Field>Audio_Persona.Name</Field>
+		<edge_conditions>
+			<Name>audio - is 2D persona active</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Persona</Param_Name>
+					<Table>audio_personas.xtbl</Table>
+					<Field>Audio_Persona.Name</Field>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_is_2d_persona_active</code_name>
-		<Comments>Returns whether a 2D persona is currently active. Requires a short delay to stream audio.</Comments>
-		<Categories>
-			<Flag>Audio</Flag>
+			<Image>0</Image>
+			<code_name>ec_is_2d_persona_active</code_name>
+			<Comments>Returns whether a 2D persona is currently active. Requires a short delay to stream audio.</Comments>
+			<Categories>
+				<Flag>Audio</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Audio</Category>
+			<_Editor>
+				<Category>Entries:Audio</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - tentacle melee player</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_tentacle_melee_player</code_name>
-		<Comments>Called when tentacle melees player</Comments>
-		<Categories>
-			<Flag>Player Conditions</Flag>
+		<edge_conditions>
+			<Name>event - tentacle melee player</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_tentacle_melee_player</code_name>
+			<Comments>Called when tentacle melees player</Comments>
+			<Categories>
+				<Flag>Player Conditions</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>vehicle - animation trigger elapsed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>Vehicle</Param_Name>
+		<edge_conditions>
+			<Name>vehicle - animation trigger elapsed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>Vehicle</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Anim Action</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Anim Action</Param_Name>
 				</Param>
-			<Param>
-				<Param_Type>String</Param_Type>
-				<Param_Name>Trigger Name</Param_Name>
+				<Param>
+					<Param_Type>String</Param_Type>
+					<Param_Name>Trigger Name</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<_Editor>
-			<Category>Entries</Category>
+			<Image>0</Image>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<code_name>ec_vehicle_anim_trigger_elapsed</code_name>
-		<Comments>Returns true when an animation trigger has elapsed</Comments>
-		<Categories>
-			<Flag>Animation</Flag>
-			<Flag>Character and AI</Flag>
+			<code_name>ec_vehicle_anim_trigger_elapsed</code_name>
+			<Comments>Returns true when an animation trigger has elapsed</Comments>
+			<Categories>
+				<Flag>Animation</Flag>
+				<Flag>Character and AI</Flag>
 			</Categories>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>new game plus - is active</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_new_game_plus_is_active</code_name>
-		<Comments>Checks to see if new game plus is active</Comments>
-		<Categories>
-			<Flag>Modal Gameplay</Flag>
+		<edge_conditions>
+			<Name>new game plus - is active</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_new_game_plus_is_active</code_name>
+			<Comments>Checks to see if new game plus is active</Comments>
+			<Categories>
+				<Flag>Modal Gameplay</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:Gameplay</Category>
+			<_Editor>
+				<Category>Entries:Gameplay</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>event - prepared video completed</Name>
-		<Parameters>
-			<Param>
-				<Param_Type>ObjHandle</Param_Type>
-				<Param_Name>prep_video_obj</Param_Name>
+		<edge_conditions>
+			<Name>event - prepared video completed</Name>
+			<Parameters>
+				<Param>
+					<Param_Type>ObjHandle</Param_Type>
+					<Param_Name>prep_video_obj</Param_Name>
 				</Param>
 			</Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_prepared_video_completed</code_name>
-		<Comments>returns TRUE when the associated prepared video object completes its video</Comments>
-		<Categories>
-			<Flag>Logic Condition</Flag>
+			<Image>0</Image>
+			<code_name>ec_gem_prepared_video_completed</code_name>
+			<Comments>returns TRUE when the associated prepared video object completes its video</Comments>
+			<Categories>
+				<Flag>Logic Condition</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
 		</edge_conditions>
-	<edge_conditions>
-		<Name>control - gamepad</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_control_gamepad</code_name>
-		<Comments>Returns true if active input is a gamepad (as opposed to keyboard &amp; mouse)</Comments>
-		<Categories>
-			<Flag>Input and Control</Flag>
+		<edge_conditions>
+			<Name>control - gamepad</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_control_gamepad</code_name>
+			<Comments>Returns true if active input is a gamepad (as opposed to keyboard &amp; mouse)</Comments>
+			<Categories>
+				<Flag>Input and Control</Flag>
 			</Categories>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</edge_conditions>
 	</Table>
-
-<TableTemplates>
-	<edge_conditions>
-		<Name>event - player damaged by explosion</Name>
-		<Parameters></Parameters>
-		<Image>0</Image>
-		<code_name>ec_gem_player_damaged_by_explosion</code_name>
-		<Categories>
-			</Categories>
-		<_Editor>
-			<Category>Entries:GEM Events</Category>
+	<TableTemplates>
+		<edge_conditions>
+			<Name>event - player damaged by explosion</Name>
+			<Parameters></Parameters>
+			<Image>0</Image>
+			<code_name>ec_gem_player_damaged_by_explosion</code_name>
+			<Categories></Categories>
+			<_Editor>
+				<Category>Entries:GEM Events</Category>
 			</_Editor>
-		<Comments>When the player is damaged by an explosion, an event is reported.</Comments>
+			<Comments>When the player is damaged by an explosion, an event is reported.</Comments>
 		</edge_conditions>
 	</TableTemplates>
-
-<TableDescription>
-	<Name>edge_conditions</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<MaxLength>64</MaxLength>
-		</Element>
-	<Element>
-		<Name>Parameters</Name>
-		<Type>Grid</Type>
+	<TableDescription>
+		<Name>edge_conditions</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>Param</Name>
-			<Type>Element</Type>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<MaxLength>64</MaxLength>
+		</Element>
+		<Element>
+			<Name>Parameters</Name>
+			<Type>Grid</Type>
 			<Element>
-				<Name>Param_Type</Name>
-				<Type>Reference</Type>
-				<Reference>
-					<File>state_machine_references.xtbl</File>
-					<Type>variable_types.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
+				<Name>Param</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Param_Type</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>state_machine_references.xtbl</File>
+						<Type>variable_types.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
-			<Element>
-				<Name>Param_Name</Name>
-				<Type>String</Type>
-				<MaxLength>16</MaxLength>
+				<Element>
+					<Name>Param_Name</Name>
+					<Type>String</Type>
+					<MaxLength>16</MaxLength>
 				</Element>
-			<Element>
-				<Name>Table</Name>
-				<Type>String</Type>
-				<Description>Table file this reference exists in</Description>
-				<Required>false</Required>
+				<Element>
+					<Name>Table</Name>
+					<Type>String</Type>
+					<Description>Table file this reference exists in</Description>
+					<Required>false</Required>
 				</Element>
-			<Element>
-				<Name>Field</Name>
-				<Type>String</Type>
-				<Description>Field to pull strings from</Description>
-				<Required>false</Required>
+				<Element>
+					<Name>Field</Name>
+					<Type>String</Type>
+					<Description>Field to pull strings from</Description>
+					<Required>false</Required>
 				</Element>
 			</Element>
-		<Max_Children>4</Max_Children>
-		<Num_Display_Rows>4</Num_Display_Rows>
+			<Max_Children>4</Max_Children>
+			<Num_Display_Rows>4</Num_Display_Rows>
 		</Element>
-	<Element>
-		<Name>Image</Name>
-		<Type>Int</Type>
-		<Default>0</Default>
+		<Element>
+			<Name>Image</Name>
+			<Type>Int</Type>
+			<Default>0</Default>
 		</Element>
-	<Element>
-		<Name>code_name</Name>
-		<Type>String</Type>
-		<Display_Name>Name in Code</Display_Name>
-		<Unique>true</Unique>
-		<MaxLength>64</MaxLength>
+		<Element>
+			<Name>code_name</Name>
+			<Type>String</Type>
+			<Display_Name>Name in Code</Display_Name>
+			<Unique>true</Unique>
+			<MaxLength>64</MaxLength>
 		</Element>
-	<Element>
-		<Name>Comments</Name>
-		<Type>String</Type>
-		<Description>Comments for this edge condition</Description>
+		<Element>
+			<Name>Comments</Name>
+			<Type>String</Type>
+			<Description>Comments for this edge condition</Description>
 		</Element>
-	<Element>
-		<Name>Categories</Name>
-		<Type>Flags</Type>
-		<Flag>Logic Condition</Flag>
-		<Flag>Object Manipulation</Flag>
-		<Flag>Animation</Flag>
-		<Flag>Character and AI</Flag>
-		<Flag>Input and Control</Flag>
-		<Flag>Modal Gameplay</Flag>
-		<Flag>Variables</Flag>
-		<Flag>VFX</Flag>
-		<Flag>Player Conditions</Flag>
-		<Flag>Multiplayer</Flag>
-		<Flag>Audio</Flag>
+		<Element>
+			<Name>Categories</Name>
+			<Type>Flags</Type>
+			<Flag>Logic Condition</Flag>
+			<Flag>Object Manipulation</Flag>
+			<Flag>Animation</Flag>
+			<Flag>Character and AI</Flag>
+			<Flag>Input and Control</Flag>
+			<Flag>Modal Gameplay</Flag>
+			<Flag>Variables</Flag>
+			<Flag>VFX</Flag>
+			<Flag>Player Conditions</Flag>
+			<Flag>Multiplayer</Flag>
+			<Flag>Audio</Flag>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
 		<Category>
-			<Name>Audio</Name>
+			<Name>Entries</Name>
+			<Category>
+				<Name>Audio</Name>
 			</Category>
-		<Category>
-			<Name>Gameplay</Name>
+			<Category>
+				<Name>Gameplay</Name>
 			</Category>
-		<Category>
-			<Name>GEM Events</Name>
+			<Category>
+				<Name>GEM Events</Name>
 			</Category>
-		<Category>
-			<Name>Multiplayer</Name>
+			<Category>
+				<Name>Multiplayer</Name>
 			</Category>
-		<Category>
-			<Name>Object</Name>
+			<Category>
+				<Name>Object</Name>
 			</Category>
 		</Category>
 	</EntryCategories>

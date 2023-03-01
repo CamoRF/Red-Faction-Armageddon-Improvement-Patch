@@ -1,111 +1,107 @@
 <root>
-<Table>
-	<WeaponInterfaceOptions>
-		<Name>WeaponInterfaceOptions</Name>
-		<QuickSwitchTime>300</QuickSwitchTime>
-		<PercentAreaForCardinalDirections>0.45</PercentAreaForCardinalDirections>
-		<SlowDownRate>.5</SlowDownRate>
-		<SlowDownMinSpeed>.5</SlowDownMinSpeed>
-		<_Editor>
-			<Category>Entries</Category>
+	<Table>
+		<WeaponInterfaceOptions>
+			<Name>WeaponInterfaceOptions</Name>
+			<QuickSwitchTime>300</QuickSwitchTime>
+			<PercentAreaForCardinalDirections>0.45</PercentAreaForCardinalDirections>
+			<SlowDownRate>.5</SlowDownRate>
+			<SlowDownMinSpeed>.5</SlowDownMinSpeed>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<EnableCruiseControl>False</EnableCruiseControl>
-		<AutoEquipTimeout>3000</AutoEquipTimeout>
-		<UseAutoEquip>True</UseAutoEquip>
-		<Num_Weapon_Radials>3</Num_Weapon_Radials>
-		<Num_Weapons_Per_Radial>8</Num_Weapons_Per_Radial>
+			<EnableCruiseControl>False</EnableCruiseControl>
+			<AutoEquipTimeout>3000</AutoEquipTimeout>
+			<UseAutoEquip>True</UseAutoEquip>
+			<Num_Weapon_Radials>3</Num_Weapon_Radials>
+			<Num_Weapons_Per_Radial>8</Num_Weapons_Per_Radial>
 		</WeaponInterfaceOptions>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>WeaponInterfaceOptions</Name>
-	<Type>TableDescription</Type>
-	<Display_Name>Weapon Interface Options</Display_Name>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>WeaponInterfaceOptions</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Weapon Interface Options</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>QuickSwitchTime</Name>
-		<Type>Int</Type>
-		<Display_Name>Quick Switch Time</Display_Name>
-		<Description>time the player has to release the button in the weapon menu to activate quick switch</Description>
-		<Default>300</Default>
+		<Element>
+			<Name>QuickSwitchTime</Name>
+			<Type>Int</Type>
+			<Display_Name>Quick Switch Time</Display_Name>
+			<Description>time the player has to release the button in the weapon menu to activate quick switch</Description>
+			<Default>300</Default>
 		</Element>
-	<Element>
-		<Name>PercentAreaForCardinalDirections</Name>
-		<Type>Float</Type>
-		<Display_Name>Percent Area For Cardinal Directions</Display_Name>
-		<Description>THIS IS IN PERCENT, NOT DEGREES!!!</Description>
-		<Default>0.45</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>1</MaxValue>
+		<Element>
+			<Name>PercentAreaForCardinalDirections</Name>
+			<Type>Float</Type>
+			<Display_Name>Percent Area For Cardinal Directions</Display_Name>
+			<Description>THIS IS IN PERCENT, NOT DEGREES!!!</Description>
+			<Default>0.45</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>1</MaxValue>
 		</Element>
-	<Element>
-		<Name>SlowDownRate</Name>
-		<Type>Float</Type>
-		<Display_Name>Slow Down Rate</Display_Name>
-		<Description>rate of slowdown for cruise control</Description>
-		<Default>0.5</Default>
+		<Element>
+			<Name>SlowDownRate</Name>
+			<Type>Float</Type>
+			<Display_Name>Slow Down Rate</Display_Name>
+			<Description>rate of slowdown for cruise control</Description>
+			<Default>0.5</Default>
 		</Element>
-	<Element>
-		<Name>SlowDownMinSpeed</Name>
-		<Type>Float</Type>
-		<Display_Name>Slow Down Min Speed</Display_Name>
-		<Description>min speed the cruise control can go until it drops to 0</Description>
-		<Default>.5</Default>
+		<Element>
+			<Name>SlowDownMinSpeed</Name>
+			<Type>Float</Type>
+			<Display_Name>Slow Down Min Speed</Display_Name>
+			<Description>min speed the cruise control can go until it drops to 0</Description>
+			<Default>.5</Default>
 		</Element>
-	<Element>
-		<Name>EnableCruiseControl</Name>
-		<Type>Selection</Type>
-		<Display_Name>Enable Cruise Control</Display_Name>
-		<Description>when bringing up the weapons menu, it keeps the player moving in the same direction</Description>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>EnableCruiseControl</Name>
+			<Type>Selection</Type>
+			<Display_Name>Enable Cruise Control</Display_Name>
+			<Description>when bringing up the weapons menu, it keeps the player moving in the same direction</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>AutoEquipTimeout</Name>
-		<Type>Int</Type>
-		<Display_Name>Auto Equip Timeout</Display_Name>
-		<Description>Time to wait before auto-equipping the current weapon</Description>
-		<Default>3000</Default>
+		<Element>
+			<Name>AutoEquipTimeout</Name>
+			<Type>Int</Type>
+			<Display_Name>Auto Equip Timeout</Display_Name>
+			<Description>Time to wait before auto-equipping the current weapon</Description>
+			<Default>3000</Default>
 		</Element>
-	<Element>
-		<Name>UseAutoEquip</Name>
-		<Type>Selection</Type>
-		<Display_Name>Use Auto Equip</Display_Name>
-		<Description>Turns on the auto-equip function</Description>
-		<Default>True</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
+		<Element>
+			<Name>UseAutoEquip</Name>
+			<Type>Selection</Type>
+			<Display_Name>Use Auto Equip</Display_Name>
+			<Description>Turns on the auto-equip function</Description>
+			<Default>True</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
 		</Element>
-	<Element>
-		<Name>Num_Weapon_Radials</Name>
-		<Type>Int</Type>
-		<Display_Name>Num Weapon Radials</Display_Name>
-		<Description>The number of radial weapon pages that can be switched between with Y</Description>
-		<Default>3</Default>
-		<MinValue>1</MinValue>
-		<MaxValue>8</MaxValue>
+		<Element>
+			<Name>Num_Weapon_Radials</Name>
+			<Type>Int</Type>
+			<Display_Name>Num Weapon Radials</Display_Name>
+			<Description>The number of radial weapon pages that can be switched between with Y</Description>
+			<Default>3</Default>
+			<MinValue>1</MinValue>
+			<MaxValue>8</MaxValue>
 		</Element>
-	<Element>
-		<Name>Num_Weapons_Per_Radial</Name>
-		<Type>Int</Type>
-		<Display_Name>Num Weapons Per Radial</Display_Name>
-		<Description>The number of slots in each radial weapon page.  Must be a multiple of 4.</Description>
-		<Default>8</Default>
-		<MinValue>4</MinValue>
-		<MaxValue>12</MaxValue>
+		<Element>
+			<Name>Num_Weapons_Per_Radial</Name>
+			<Type>Int</Type>
+			<Display_Name>Num Weapons Per Radial</Display_Name>
+			<Description>The number of slots in each radial weapon page.  Must be a multiple of 4.</Description>
+			<Default>8</Default>
+			<MinValue>4</MinValue>
+			<MaxValue>12</MaxValue>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

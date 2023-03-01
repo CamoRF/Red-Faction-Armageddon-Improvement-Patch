@@ -1,745 +1,742 @@
 <root>
-<Table>
-	<video>
-		<Name>M01_CS_00</Name>
-		<file>
-			<Filename>m01_cs_00.bik</Filename>
+	<Table>
+		<video>
+			<Name>M01_CS_00</Name>
+			<file>
+				<Filename>m01_cs_00.bik</Filename>
 			</file>
-		<unlock_id>0</unlock_id>
-		<display_name>CUTSCENE_UNLOCK_00</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_00.tga</Filename>
+			<unlock_id>0</unlock_id>
+			<display_name>CUTSCENE_UNLOCK_00</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_00.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</video>
-	<video>
-		<Name>M02_CS_01_02_MO_EWalk</Name>
-		<file>
-			<Filename>M02_CS_01_02_MO_EWalk.bik</Filename>
+		<video>
+			<Name>M02_CS_01_02_MO_EWalk</Name>
+			<file>
+				<Filename>M02_CS_01_02_MO_EWalk.bik</Filename>
 			</file>
-		<unlock_id>5</unlock_id>
-		<display_name>CUTSCENE_UNLOCK_05</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_01.tga</Filename>
+			<unlock_id>5</unlock_id>
+			<display_name>CUTSCENE_UNLOCK_05</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_01.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</video>
-	<video>
-		<Name>M03_CS_03_MO_ExoExit</Name>
-		<file>
-			<Filename>M03_CS_03_MO_ExoExit.bik</Filename>
+		<video>
+			<Name>M03_CS_03_MO_ExoExit</Name>
+			<file>
+				<Filename>M03_CS_03_MO_ExoExit.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_08</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_03.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_08</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_03.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>8</unlock_id>
+			<unlock_id>8</unlock_id>
 		</video>
-	<video>
-		<Name>M03_RV_01_Creeper</Name>
-		<file>
-			<Filename>M03_RV_01_Creeper.bik</Filename>
+		<video>
+			<Name>M03_RV_01_Creeper</Name>
+			<file>
+				<Filename>M03_RV_01_Creeper.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_10</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_creeper.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_10</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_creeper.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>10</unlock_id>
+			<unlock_id>10</unlock_id>
 		</video>
-	<video>
-		<Name>M03_RV_02_Pod</Name>
-		<file>
-			<Filename>M03_RV_02_Pod.bik</Filename>
+		<video>
+			<Name>M03_RV_02_Pod</Name>
+			<file>
+				<Filename>M03_RV_02_Pod.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_11</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_pod.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_11</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_pod.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>11</unlock_id>
+			<unlock_id>11</unlock_id>
 		</video>
-	<video>
-		<Name>M03_RV_03_Grunt</Name>
-		<file>
-			<Filename>M03_RV_03_Grunt.bik</Filename>
+		<video>
+			<Name>M03_RV_03_Grunt</Name>
+			<file>
+				<Filename>M03_RV_03_Grunt.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_12</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_grunt.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_12</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_grunt.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>12</unlock_id>
+			<unlock_id>12</unlock_id>
 		</video>
-	<video>
-		<Name>M04_RV_04_Heavy</Name>
-		<file>
-			<Filename>M04_RV_04_Heavy.bik</Filename>
+		<video>
+			<Name>M04_RV_04_Heavy</Name>
+			<file>
+				<Filename>M04_RV_04_Heavy.bik</Filename>
 			</file>
-		<unlock_id>17</unlock_id>
-		<display_name>CUTSCENE_UNLOCK_17</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_heavy.tga</Filename>
+			<unlock_id>17</unlock_id>
+			<display_name>CUTSCENE_UNLOCK_17</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_heavy.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</video>
-	<video>
-		<Name>Q01_CS_04</Name>
-		<file>
-			<Filename>Q01_CS_04.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_44</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_04.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>44</unlock_id>
-		</video>
-	<video>
-		<Name>Q02_CS_04_5</Name>
-		<file>
-			<Filename>q02_cs_04_5.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_48</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_04_5.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>48</unlock_id>
-		</video>
-	<video>
-		<Name>M05_RV_05_Ambusher</Name>
-		<file>
-			<Filename>M05_RV_05_Ambusher.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_20</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_ambusher.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>20</unlock_id>
-		</video>
-	<video>
-		<Name>M06_CS_05</Name>
-		<file>
-			<Filename>M06_CS_05.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_21</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_05.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>21</unlock_id>
-		</video>
-	<video>
-		<Name>M06_RV_06_Tank</Name>
-		<file>
-			<Filename>M06_RV_06_Tank.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_24</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_tank.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>24</unlock_id>
-		</video>
-	<video>
-		<Name>M07_MO_RCrawl_CS_06_07</Name>
-		<file>
-			<Filename>M07_MO_RCrawl_CS_06_07.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_26</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_06.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>26</unlock_id>
-		</video>
-	<video>
-		<Name>Q04_CS_08_08_5</Name>
-		<file>
-			<Filename>Q04_CS_08_08_5.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_49</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_08.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>49</unlock_id>
-		</video>
-	<video>
-		<Name>Q06_CS_09_MO_Thwart</Name>
-		<file>
-			<Filename>Q06_CS_09_MO_Thwart.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_50</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_09.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>50</unlock_id>
-		</video>
-	<video>
-		<Name>M08_CS_10</Name>
-		<file>
-			<Filename>M08_CS_10.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_28</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_10.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>28</unlock_id>
-		</video>
-	<video>
-		<Name>M09_CS_11</Name>
-		<file>
-			<Filename>M09_CS_11.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_30</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_11.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>30</unlock_id>
-		</video>
-	<video>
-		<Name>Q07_CS_12</Name>
-		<file>
-			<Filename>Q07_CS_12.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_51</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_12.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>51</unlock_id>
-		</video>
-	<video>
-		<Name>Q08_CS_12_5</Name>
-		<file>
-			<Filename>Q08_CS_12_5.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_52</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_12_5.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>52</unlock_id>
-		</video>
-	<video>
-		<Name>M12_CS_13</Name>
-		<file>
-			<Filename>M12_CS_13.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_31</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_13.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>31</unlock_id>
-		</video>
-	<video>
-		<Name>M13_CS_14_MO_WBarge</Name>
-		<file>
-			<Filename>M13_CS_14_MO_WBarge.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_33</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_14.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>33</unlock_id>
-		</video>
-	<video>
-		<Name>M14_CS_15</Name>
-		<file>
-			<Filename>M14_CS_15.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_34</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_15.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>34</unlock_id>
-		</video>
-	<video>
-		<Name>M14_MO_WSeal_CS_16</Name>
-		<file>
-			<Filename>M14_MO_WSeal_CS_16.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_36</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_16.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>36</unlock_id>
-		</video>
-	<video>
-		<Name>M14_MO_WFall_CS_17</Name>
-		<file>
-			<Filename>M14_MO_WFall_CS_17.bik</Filename>
-			</file>
-		<display_name>CUTSCENE_UNLOCK_35</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_17.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<unlock_id>35</unlock_id>
-		</video>
-	<video>
-		<Name>M17_CS_18</Name>
-		<file>
-			<Filename>M17_CS_18.bik</Filename>
-			</file>
-		<unlock_id>40</unlock_id>
-		<display_name>CUTSCENE_UNLOCK_40</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_18.tga</Filename>
-			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</video>
-	<video>
-		<Name>M17_MO_TheEnd_CS_19</Name>
-		<file>
-			<Filename>M17_MO_TheEnd_CS_19.bik</Filename>
+		<video>
+			<Name>Q01_CS_04</Name>
+			<file>
+				<Filename>Q01_CS_04.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_42</display_name>
-		<bitmap>
-			<Filename>ui_credits_production_19.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_44</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_04.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>42</unlock_id>
+			<unlock_id>44</unlock_id>
+		</video>
+		<video>
+			<Name>Q02_CS_04_5</Name>
+			<file>
+				<Filename>q02_cs_04_5.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_48</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_04_5.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>48</unlock_id>
+		</video>
+		<video>
+			<Name>M05_RV_05_Ambusher</Name>
+			<file>
+				<Filename>M05_RV_05_Ambusher.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_20</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_ambusher.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>20</unlock_id>
+		</video>
+		<video>
+			<Name>M06_CS_05</Name>
+			<file>
+				<Filename>M06_CS_05.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_21</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_05.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>21</unlock_id>
+		</video>
+		<video>
+			<Name>M06_RV_06_Tank</Name>
+			<file>
+				<Filename>M06_RV_06_Tank.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_24</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_tank.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>24</unlock_id>
+		</video>
+		<video>
+			<Name>M07_MO_RCrawl_CS_06_07</Name>
+			<file>
+				<Filename>M07_MO_RCrawl_CS_06_07.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_26</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_06.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>26</unlock_id>
+		</video>
+		<video>
+			<Name>Q04_CS_08_08_5</Name>
+			<file>
+				<Filename>Q04_CS_08_08_5.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_49</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_08.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>49</unlock_id>
+		</video>
+		<video>
+			<Name>Q06_CS_09_MO_Thwart</Name>
+			<file>
+				<Filename>Q06_CS_09_MO_Thwart.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_50</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_09.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>50</unlock_id>
+		</video>
+		<video>
+			<Name>M08_CS_10</Name>
+			<file>
+				<Filename>M08_CS_10.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_28</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_10.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>28</unlock_id>
+		</video>
+		<video>
+			<Name>M09_CS_11</Name>
+			<file>
+				<Filename>M09_CS_11.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_30</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_11.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>30</unlock_id>
+		</video>
+		<video>
+			<Name>Q07_CS_12</Name>
+			<file>
+				<Filename>Q07_CS_12.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_51</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_12.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>51</unlock_id>
+		</video>
+		<video>
+			<Name>Q08_CS_12_5</Name>
+			<file>
+				<Filename>Q08_CS_12_5.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_52</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_12_5.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>52</unlock_id>
+		</video>
+		<video>
+			<Name>M12_CS_13</Name>
+			<file>
+				<Filename>M12_CS_13.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_31</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_13.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>31</unlock_id>
+		</video>
+		<video>
+			<Name>M13_CS_14_MO_WBarge</Name>
+			<file>
+				<Filename>M13_CS_14_MO_WBarge.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_33</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_14.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>33</unlock_id>
+		</video>
+		<video>
+			<Name>M14_CS_15</Name>
+			<file>
+				<Filename>M14_CS_15.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_34</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_15.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>34</unlock_id>
+		</video>
+		<video>
+			<Name>M14_MO_WSeal_CS_16</Name>
+			<file>
+				<Filename>M14_MO_WSeal_CS_16.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_36</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_16.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>36</unlock_id>
+		</video>
+		<video>
+			<Name>M14_MO_WFall_CS_17</Name>
+			<file>
+				<Filename>M14_MO_WFall_CS_17.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_35</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_17.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>35</unlock_id>
+		</video>
+		<video>
+			<Name>M17_CS_18</Name>
+			<file>
+				<Filename>M17_CS_18.bik</Filename>
+			</file>
+			<unlock_id>40</unlock_id>
+			<display_name>CUTSCENE_UNLOCK_40</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_18.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</video>
+		<video>
+			<Name>M17_MO_TheEnd_CS_19</Name>
+			<file>
+				<Filename>M17_MO_TheEnd_CS_19.bik</Filename>
+			</file>
+			<display_name>CUTSCENE_UNLOCK_42</display_name>
+			<bitmap>
+				<Filename>ui_credits_production_19.tga</Filename>
+			</bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<unlock_id>42</unlock_id>
 		</video>
 	</Table>
-
-<TableTemplates>
-	<video>
-		<Name>M01_MO_flyercrash</Name>
-		<file>
-			<Filename>M01_MO_flyercrash.bik</Filename>
+	<TableTemplates>
+		<video>
+			<Name>M01_MO_flyercrash</Name>
+			<file>
+				<Filename>M01_MO_flyercrash.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_01</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_01</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>1</unlock_id>
+			<unlock_id>1</unlock_id>
 		</video>
-	<video>
-		<Name>M01_MO_WalkerAttacks</Name>
-		<file>
-			<Filename>M01_MO_WalkerAttacks.bik</Filename>
+		<video>
+			<Name>M01_MO_WalkerAttacks</Name>
+			<file>
+				<Filename>M01_MO_WalkerAttacks.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_04</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_04</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>4</unlock_id>
+			<unlock_id>4</unlock_id>
 		</video>
-	<video>
-		<Name>M01_MO_HaleTrick</Name>
-		<file>
-			<Filename>M01_MO_HaleTrick.bik</Filename>
+		<video>
+			<Name>M01_MO_HaleTrick</Name>
+			<file>
+				<Filename>M01_MO_HaleTrick.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_02</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_02</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>2</unlock_id>
+			<unlock_id>2</unlock_id>
 		</video>
-	<video>
-		<Name>M01_MO_M01Transition</Name>
-		<file>
-			<Filename>M01_MO_M01Transition.bik</Filename>
+		<video>
+			<Name>M01_MO_M01Transition</Name>
+			<file>
+				<Filename>M01_MO_M01Transition.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_03</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_03</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>3</unlock_id>
+			<unlock_id>3</unlock_id>
 		</video>
-	<video>
-		<Name>M02_MO_SealPan</Name>
-		<file>
-			<Filename>M02_MO_SealPan.bik</Filename>
+		<video>
+			<Name>M02_MO_SealPan</Name>
+			<file>
+				<Filename>M02_MO_SealPan.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_07</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_07</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>7</unlock_id>
+			<unlock_id>7</unlock_id>
 		</video>
-	<video>
-		<Name>M03_MO_CaveCrawl</Name>
-		<file>
-			<Filename>M03_MO_CaveCrawl.bik</Filename>
+		<video>
+			<Name>M03_MO_CaveCrawl</Name>
+			<file>
+				<Filename>M03_MO_CaveCrawl.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_09</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_09</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>9</unlock_id>
+			<unlock_id>9</unlock_id>
 		</video>
-	<video>
-		<Name>M04_MO_SoldierTalk</Name>
-		<file>
-			<Filename>M04_MO_SoldierTalk.bik</Filename>
+		<video>
+			<Name>M04_MO_SoldierTalk</Name>
+			<file>
+				<Filename>M04_MO_SoldierTalk.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_16</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_16</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>16</unlock_id>
+			<unlock_id>16</unlock_id>
 		</video>
-	<video>
-		<Name>M04_MO_EnterDriller</Name>
-		<file>
-			<Filename>M04_MO_EnterDriller.bik</Filename>
+		<video>
+			<Name>M04_MO_EnterDriller</Name>
+			<file>
+				<Filename>M04_MO_EnterDriller.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_14</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_14</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>14</unlock_id>
+			<unlock_id>14</unlock_id>
 		</video>
-	<video>
-		<Name>M04_MO_ExitDriller</Name>
-		<file>
-			<Filename>M04_MO_ExitDriller.bik</Filename>
+		<video>
+			<Name>M04_MO_ExitDriller</Name>
+			<file>
+				<Filename>M04_MO_ExitDriller.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_15</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_15</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>15</unlock_id>
+			<unlock_id>15</unlock_id>
 		</video>
-	<video>
-		<Name>M04_MO_CarCrash</Name>
-		<file>
-			<Filename>M04_MO_CarCrash.bik</Filename>
+		<video>
+			<Name>M04_MO_CarCrash</Name>
+			<file>
+				<Filename>M04_MO_CarCrash.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_13</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_13</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>13</unlock_id>
+			<unlock_id>13</unlock_id>
 		</video>
-	<video>
-		<Name>Q01_MO_PowercellStart</Name>
-		<file>
-			<Filename>Q01_MO_PowercellStart.bik</Filename>
+		<video>
+			<Name>Q01_MO_PowercellStart</Name>
+			<file>
+				<Filename>Q01_MO_PowercellStart.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_47</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_47</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>47</unlock_id>
+			<unlock_id>47</unlock_id>
 		</video>
-	<video>
-		<Name>Q01_MO_HeavyCivilianKill</Name>
-		<file>
-			<Filename>Q01_MO_HeavyCivilianKill.bik</Filename>
+		<video>
+			<Name>Q01_MO_HeavyCivilianKill</Name>
+			<file>
+				<Filename>Q01_MO_HeavyCivilianKill.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_45</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_45</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>45</unlock_id>
+			<unlock_id>45</unlock_id>
 		</video>
-	<video>
-		<Name>Q01_MO_PowercellEnd</Name>
-		<file>
-			<Filename>Q01_MO_PowercellEnd.bik</Filename>
+		<video>
+			<Name>Q01_MO_PowercellEnd</Name>
+			<file>
+				<Filename>Q01_MO_PowercellEnd.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_46</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_46</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>46</unlock_id>
+			<unlock_id>46</unlock_id>
 		</video>
-	<video>
-		<Name>M05_MO_CorporalDead</Name>
-		<file>
-			<Filename>M05_MO_CorporalDead.bik</Filename>
+		<video>
+			<Name>M05_MO_CorporalDead</Name>
+			<file>
+				<Filename>M05_MO_CorporalDead.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_18</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_18</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>18</unlock_id>
+			<unlock_id>18</unlock_id>
 		</video>
-	<video>
-		<Name>M05_MO_WaterBuilding</Name>
-		<file>
-			<Filename>M05_MO_WaterBuilding.bik</Filename>
+		<video>
+			<Name>M05_MO_WaterBuilding</Name>
+			<file>
+				<Filename>M05_MO_WaterBuilding.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_19</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_19</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>19</unlock_id>
+			<unlock_id>19</unlock_id>
 		</video>
-	<video>
-		<Name>M06_MO_ThugDeath</Name>
-		<file>
-			<Filename>M06_MO_ThugDeath.bik</Filename>
+		<video>
+			<Name>M06_MO_ThugDeath</Name>
+			<file>
+				<Filename>M06_MO_ThugDeath.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_23</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_23</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>23</unlock_id>
+			<unlock_id>23</unlock_id>
 		</video>
-	<video>
-		<Name>M07_MO_TentacleEmerge</Name>
-		<file>
-			<Filename>M07_MO_TentacleEmerge.bik</Filename>
+		<video>
+			<Name>M07_MO_TentacleEmerge</Name>
+			<file>
+				<Filename>M07_MO_TentacleEmerge.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_27</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_27</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>27</unlock_id>
+			<unlock_id>27</unlock_id>
 		</video>
-	<video>
-		<Name>M08_MO_M08Transition</Name>
-		<file>
-			<Filename>M08_MO_M08Transition.bik</Filename>
+		<video>
+			<Name>M08_MO_M08Transition</Name>
+			<file>
+				<Filename>M08_MO_M08Transition.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_29</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_29</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>29</unlock_id>
+			<unlock_id>29</unlock_id>
 		</video>
-	<video>
-		<Name>M12_MO_RFBridge</Name>
-		<file>
-			<Filename>M12_MO_RFBridge.bik</Filename>
+		<video>
+			<Name>M12_MO_RFBridge</Name>
+			<file>
+				<Filename>M12_MO_RFBridge.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_32</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_32</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>32</unlock_id>
+			<unlock_id>32</unlock_id>
 		</video>
-	<video>
-		<Name>M16_MO_TentaclePan</Name>
-		<file>
-			<Filename>M16_MO_TentaclePan.bik</Filename>
+		<video>
+			<Name>M16_MO_TentaclePan</Name>
+			<file>
+				<Filename>M16_MO_TentaclePan.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_38</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_38</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>38</unlock_id>
+			<unlock_id>38</unlock_id>
 		</video>
-	<video>
-		<Name>M16_RV_07_Queen</Name>
-		<file>
-			<Filename>M16_RV_07_Queen.bik</Filename>
+		<video>
+			<Name>M16_RV_07_Queen</Name>
+			<file>
+				<Filename>M16_RV_07_Queen.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_39</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_39</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>39</unlock_id>
+			<unlock_id>39</unlock_id>
 		</video>
-	<video>
-		<Name>M17_MO_VentCrawl</Name>
-		<file>
-			<Filename>M17_MO_VentCrawl.bik</Filename>
+		<video>
+			<Name>M17_MO_VentCrawl</Name>
+			<file>
+				<Filename>M17_MO_VentCrawl.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_43</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_43</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>43</unlock_id>
+			<unlock_id>43</unlock_id>
 		</video>
-	<video>
-		<Name>M17_MO_QueenTentacles</Name>
-		<file>
-			<Filename>M17_MO_QueenTentacles.bik</Filename>
+		<video>
+			<Name>M17_MO_QueenTentacles</Name>
+			<file>
+				<Filename>M17_MO_QueenTentacles.bik</Filename>
 			</file>
-		<display_name>CUTSCENE_UNLOCK_41</display_name>
-		<bitmap>
-			<Filename>ui_vid_4leggedwalker.tga</Filename>
+			<display_name>CUTSCENE_UNLOCK_41</display_name>
+			<bitmap>
+				<Filename>ui_vid_4leggedwalker.tga</Filename>
 			</bitmap>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<unlock_id>41</unlock_id>
+			<unlock_id>41</unlock_id>
 		</video>
 	</TableTemplates>
-
-<TableDescription>
-	<Name>video</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableDescription>
+		<Name>video</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
-	<Element>
-		<Name>file</Name>
-		<Type>Filename</Type>
-		<Display_Name>Video File</Display_Name>
-		<Extension>bik</Extension>
-		<StartingPath>data\videos\scenes</StartingPath>
-		<ShowPreload>False</ShowPreload>
+		<Element>
+			<Name>file</Name>
+			<Type>Filename</Type>
+			<Display_Name>Video File</Display_Name>
+			<Extension>bik</Extension>
+			<StartingPath>data\videos\scenes</StartingPath>
+			<ShowPreload>False</ShowPreload>
 		</Element>
-	<Element>
-		<Name>unlock_id</Name>
-		<Type>Int</Type>
-		<Display_Name>Unlock ID</Display_Name>
-		<Description>Unique ID for the cutscenes if we need to unlock them on the profile.  If this isn't set, the cutscene is always unlocked.</Description>
-		<Required>false</Required>
-		<Unique>true</Unique>
-		<Default>0</Default>
-		<MinValue>0</MinValue>
+		<Element>
+			<Name>unlock_id</Name>
+			<Type>Int</Type>
+			<Display_Name>Unlock ID</Display_Name>
+			<Description>Unique ID for the cutscenes if we need to unlock them on the profile.  If this isn't set, the cutscene is always unlocked.</Description>
+			<Required>false</Required>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
 		</Element>
-	<Element>
-		<Name>display_name</Name>
-		<Type>Reference</Type>
-		<Display_Name>Display Name</Display_Name>
-		<Reference>
-			<File>localized_exports\upgrades_text.xtbl</File>
-			<Type>Upgrades_Identifier.Name</Type>
-			<OpenSeparate>False</OpenSeparate>
+		<Element>
+			<Name>display_name</Name>
+			<Type>Reference</Type>
+			<Display_Name>Display Name</Display_Name>
+			<Reference>
+				<File>localized_exports\upgrades_text.xtbl</File>
+				<Type>Upgrades_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	<Element>
-		<Name>bitmap</Name>
-		<Type>Filename</Type>
-		<Display_Name>Bitmap</Display_Name>
-		<Extension>tga</Extension>
-		<StartingPath>data\ui\textures\streamed_images\video_player</StartingPath>
-		<ShowPreload>False</ShowPreload>
+		<Element>
+			<Name>bitmap</Name>
+			<Type>Filename</Type>
+			<Display_Name>Bitmap</Display_Name>
+			<Extension>tga</Extension>
+			<StartingPath>data\ui\textures\streamed_images\video_player</StartingPath>
+			<ShowPreload>False</ShowPreload>
 		</Element>
-	<Single_Line_XML>False</Single_Line_XML>
+		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

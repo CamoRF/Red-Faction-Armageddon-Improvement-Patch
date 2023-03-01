@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/M16_CS_17/M16_CS_17.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -34,10 +34,10 @@
 						<X>-1.025</X>
 						<Y>-23.1116</Y>
 						<Z>91.1016</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -47,7 +47,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>190</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-sh1702__4</Name>
 					<SlateName>Location01</SlateName>
@@ -55,7 +55,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>82</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-s1703__2</Name>
 					<SlateName>Location01</SlateName>
@@ -63,7 +63,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>114</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-sh1704__5</Name>
 					<SlateName>Location01</SlateName>
@@ -71,7 +71,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>116</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-sh1705__6</Name>
 					<SlateName>Location01</SlateName>
@@ -79,7 +79,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>170</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_6-s1706__3</Name>
 					<SlateName>Location01</SlateName>
@@ -87,9 +87,9 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>175</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

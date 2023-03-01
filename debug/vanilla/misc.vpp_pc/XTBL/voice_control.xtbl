@@ -1,5 +1,5 @@
 <root>
-<Table>
+	<Table>
 		<Entry>
 			<Name>M07 - UNIQUE COMBAT LINES 9</Name>
 			<Voiceline_id>2736641177</Voiceline_id>
@@ -14424,46 +14424,46 @@
 			<External_source>3253323249</External_source>
 			<Play_event>1078913955</Play_event>
 		</Entry>
-</Table>
-<TableTemplates></TableTemplates>
-<TableDescription>
-<Name>Entry</Name>
-<Type>TableDescription</Type>
-<Element>
-<Name>Name</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>Voiceline_id</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>Local_cooldown</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>Global_cooldown</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>Min_delay</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>Max_delay</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>Priority</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>External_source</Name>
-<Type>String</Type>
-</Element>
-<Element>
-<Name>Play_event</Name>
-<Type>String</Type>
-</Element>
-</TableDescription>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Entry</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Voiceline_id</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Local_cooldown</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Global_cooldown</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Min_delay</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Max_delay</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Priority</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>External_source</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Play_event</Name>
+			<Type>String</Type>
+		</Element>
+	</TableDescription>
 </root>

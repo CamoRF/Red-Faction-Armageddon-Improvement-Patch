@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,22 +30,22 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>tnt</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_leg_ass_tentacle</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>rocks</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>tentacle_rocks</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -55,10 +55,10 @@
 						<X>-44.6132</X>
 						<Y>2.6023</Y>
 						<Z>-78.2403</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>-4.99999</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -74,7 +74,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_pc__2.animx</Filename>
@@ -83,9 +83,9 @@
 									<EndFrame>44</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>44</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>tnt</Name>
 							<maxHandle>2</maxHandle>
@@ -93,7 +93,7 @@
 							<OrientY>4.99999</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_tnt__2.animx</Filename>
@@ -102,9 +102,9 @@
 									<EndFrame>44</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>44</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>rocks</Name>
 							<maxHandle>3</maxHandle>
@@ -112,7 +112,7 @@
 							<OrientY>-26.5512</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_rocks__2.animx</Filename>
@@ -121,13 +121,13 @@
 									<EndFrame>44</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>44</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>44</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__3</Name>
 					<SlateName>Location01</SlateName>
@@ -140,7 +140,7 @@
 							<OrientY>4.99999</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_pc__3.animx</Filename>
@@ -149,9 +149,9 @@
 									<EndFrame>95</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>95</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>tnt</Name>
 							<maxHandle>2</maxHandle>
@@ -159,7 +159,7 @@
 							<OrientY>4.99999</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_tnt__3.animx</Filename>
@@ -168,9 +168,9 @@
 									<EndFrame>95</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>95</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>rocks</Name>
 							<maxHandle>3</maxHandle>
@@ -178,7 +178,7 @@
 							<OrientY>-26.5512</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_rocks__3.animx</Filename>
@@ -187,13 +187,13 @@
 									<EndFrame>95</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>95</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>95</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__4</Name>
 					<SlateName>Location01</SlateName>
@@ -206,7 +206,7 @@
 							<OrientY>4.99999</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_pc__4.animx</Filename>
@@ -215,9 +215,9 @@
 									<EndFrame>26</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>26</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>tnt</Name>
 							<maxHandle>2</maxHandle>
@@ -225,7 +225,7 @@
 							<OrientY>4.99999</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_tnt__4.animx</Filename>
@@ -234,9 +234,9 @@
 									<EndFrame>26</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>26</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>rocks</Name>
 							<maxHandle>3</maxHandle>
@@ -244,7 +244,7 @@
 							<OrientY>-26.5512</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission07/TentacleEmerge/TentacleEmerge_rocks__4.animx</Filename>
@@ -253,15 +253,15 @@
 									<EndFrame>26</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>26</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>26</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -31,57 +31,57 @@
 					<CharMesh>MinerExo</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker1</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_civ_ass_uppMal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker2</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker3</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_civ_ass_uppMal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker4</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker6</Name>
 					<maxHandle>7</maxHandle>
 					<CharMesh>ch_civ_ass_midmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker7</Name>
 					<maxHandle>8</maxHandle>
 					<CharMesh>ch_civ_ass_uppMal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>worker5</Name>
 					<maxHandle>9</maxHandle>
 					<CharMesh>ch_civ_ass_uppMal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -91,10 +91,10 @@
 						<X>33.6752</X>
 						<Y>-81.6944</Y>
 						<Z>-44.5956</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>135.003</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -109,7 +109,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_Exo__2.animx</Filename>
@@ -118,9 +118,9 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker1</Name>
 							<maxHandle>2</maxHandle>
@@ -128,7 +128,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_worker1__2.animx</Filename>
@@ -137,9 +137,9 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker2</Name>
 							<maxHandle>3</maxHandle>
@@ -147,7 +147,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_worker2__2.animx</Filename>
@@ -156,9 +156,9 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker3</Name>
 							<maxHandle>4</maxHandle>
@@ -166,7 +166,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_worker3__2.animx</Filename>
@@ -175,9 +175,9 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker4</Name>
 							<maxHandle>5</maxHandle>
@@ -185,7 +185,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_worker4__2.animx</Filename>
@@ -194,9 +194,9 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker6</Name>
 							<maxHandle>7</maxHandle>
@@ -204,7 +204,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_worker6__2.animx</Filename>
@@ -213,9 +213,9 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker7</Name>
 							<maxHandle>8</maxHandle>
@@ -223,7 +223,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_worker7__2.animx</Filename>
@@ -232,9 +232,9 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>worker5</Name>
 							<maxHandle>9</maxHandle>
@@ -242,7 +242,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission02/elevator/elevator_worker5__2.animx</Filename>
@@ -251,15 +251,15 @@
 									<EndFrame>705</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>705</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>705</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

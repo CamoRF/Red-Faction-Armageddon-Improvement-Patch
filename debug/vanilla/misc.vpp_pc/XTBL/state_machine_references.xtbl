@@ -1,58 +1,54 @@
 <root>
-<Table>
-	<variable_types>
-		<Name>Number</Name>
-		<_Editor>
-			<Category>Variable Types</Category>
+	<Table>
+		<variable_types>
+			<Name>Number</Name>
+			<_Editor>
+				<Category>Variable Types</Category>
 			</_Editor>
 		</variable_types>
-	<variable_types>
-		<Name>Vector</Name>
-		<_Editor>
-			<Category>Variable Types</Category>
+		<variable_types>
+			<Name>Vector</Name>
+			<_Editor>
+				<Category>Variable Types</Category>
 			</_Editor>
 		</variable_types>
-	<variable_types>
-		<Name>String</Name>
-		<_Editor>
-			<Category>Variable Types</Category>
+		<variable_types>
+			<Name>String</Name>
+			<_Editor>
+				<Category>Variable Types</Category>
 			</_Editor>
 		</variable_types>
-	<variable_types>
-		<Name>ObjHandle</Name>
-		<_Editor>
-			<Category>Variable Types</Category>
+		<variable_types>
+			<Name>ObjHandle</Name>
+			<_Editor>
+				<Category>Variable Types</Category>
 			</_Editor>
 		</variable_types>
-	<variable_types>
-		<Name>Boolean</Name>
-		<_Editor>
-			<Category>Variable Types</Category>
+		<variable_types>
+			<Name>Boolean</Name>
+			<_Editor>
+				<Category>Variable Types</Category>
 			</_Editor>
 		</variable_types>
-	<variable_types>
-		<Name>Variable Index</Name>
-		<_Editor>
-			<Category>Variable Types</Category>
+		<variable_types>
+			<Name>Variable Index</Name>
+			<_Editor>
+				<Category>Variable Types</Category>
 			</_Editor>
 		</variable_types>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>variable_types</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>variable_types</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Variable Types</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Variable Types</Name>
 		</Category>
 	</EntryCategories>
 </root>

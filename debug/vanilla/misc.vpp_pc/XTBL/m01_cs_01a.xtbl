@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/m01_cs_01a/m01_cs_01a.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -34,10 +34,10 @@
 						<X>37.5</X>
 						<Y>-26.0</Y>
 						<Z>15.0</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -47,7 +47,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>72</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-s020__45</Name>
 					<SlateName>Location01</SlateName>
@@ -55,7 +55,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>63</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-s040__46</Name>
 					<SlateName>Location01</SlateName>
@@ -63,7 +63,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>66</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-s050__47</Name>
 					<SlateName>Location01</SlateName>
@@ -71,7 +71,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>36</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-s060__48</Name>
 					<SlateName>Location01</SlateName>
@@ -79,7 +79,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>43</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_6-s070__49</Name>
 					<SlateName>Location01</SlateName>
@@ -87,7 +87,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>68</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_7-s080__50</Name>
 					<SlateName>Location01</SlateName>
@@ -95,7 +95,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>68</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_8-s090__51</Name>
 					<SlateName>Location01</SlateName>
@@ -103,7 +103,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>51</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_9-s100__52</Name>
 					<SlateName>Location01</SlateName>
@@ -111,7 +111,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>133</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_10-s120__55</Name>
 					<SlateName>Location01</SlateName>
@@ -119,7 +119,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>175</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_11-s130__56</Name>
 					<SlateName>Location01</SlateName>
@@ -127,7 +127,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>71</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_12-s170__57</Name>
 					<SlateName>Location01</SlateName>
@@ -135,7 +135,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>28</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_13-s180__53</Name>
 					<SlateName>Location01</SlateName>
@@ -143,7 +143,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>60</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_14-s190__54</Name>
 					<SlateName>Location01</SlateName>
@@ -151,9 +151,9 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>87</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

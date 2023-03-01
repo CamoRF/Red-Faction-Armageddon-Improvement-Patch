@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/data/cutscenes/test/test.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -40,8 +40,8 @@
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
 					<SpeakingThug>False</SpeakingThug>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -51,10 +51,10 @@
 						<X>2.4941</X>
 						<Y>0.0</Y>
 						<Z>-1.2572</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -75,9 +75,9 @@
 							<Pos>-2.4941 0.0 1.2572</Pos>
 							<OrientY>0</OrientY>
 							<Options>
-									<HideChar>false</HideChar>
-									<Item>phased_plasma_rifle</Item>
-								</Options>
+								<HideChar>false</HideChar>
+								<Item>phased_plasma_rifle</Item>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/data/cutscenes/test/test_Joe__1.animx</Filename>
@@ -86,14 +86,13 @@
 									<EndFrame>228</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>228</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles></Vehicles>
 					<Options></Options>
 					<DefinedShotLength>228</DefinedShotLength>
-
 					<CSEffects>
 						<CSEffect>
 							<Name>wep_p_p_c_beam_chrg</Name>
@@ -101,23 +100,21 @@
 							<Character>#PLAYER#</Character>
 							<CharacterTagName>head</CharacterTagName>
 							<Position>
-									<X>0</X>
-									<Y>1.2</Y>
-									<Z>0</Z>
-									</Position>
+								<X>0</X>
+								<Y>1.2</Y>
+								<Z>0</Z>
+							</Position>
 							<Orient>
-									<X>0</X>
-									<Y>0</Y>
-									<Z>1</Z>
-									</Orient>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>1</Z>
+							</Orient>
 							<ShotStartFrame>30</ShotStartFrame>
 							<ShotEndFrame>180</ShotEndFrame>
 							<Looping>true</Looping>
 						</CSEffect>
 					</CSEffects>
-
-
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-Back Right__2</Name>
 					<SlateName>Location01</SlateName>
@@ -131,7 +128,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/data/cutscenes/test/test_Joe__2.animx</Filename>
@@ -140,14 +137,14 @@
 									<EndFrame>228</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>228</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles></Vehicles>
 					<Options></Options>
 					<DefinedShotLength>228</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-Back Left__3</Name>
 					<SlateName>Location01</SlateName>
@@ -161,7 +158,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/data/cutscenes/test/test_Joe__3.animx</Filename>
@@ -170,14 +167,14 @@
 									<EndFrame>228</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>228</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles></Vehicles>
 					<Options></Options>
 					<DefinedShotLength>228</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-Long_Shot__4</Name>
 					<SlateName>Location01</SlateName>
@@ -191,7 +188,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/data/cutscenes/test/test_Joe__4.animx</Filename>
@@ -200,16 +197,16 @@
 									<EndFrame>228</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>228</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles></Vehicles>
 					<Options></Options>
 					<DefinedShotLength>228</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

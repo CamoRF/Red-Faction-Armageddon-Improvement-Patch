@@ -409,21 +409,21 @@
 			<wwise_id>640175861</wwise_id>
 		</Audio_Persona>
 	</Table>
-<TableTemplates></TableTemplates>
-<TableDescription>
-<Name>Audio_Persona</Name>
-<Type>TableDescription</Type>
-<Element>
-<Name>Name</Name>
-<Type>String</Type>
-<Unique>true</Unique>
-</Element>
-<Element>
-<Name>wwise_id</Name>
-<Type>String</Type>
-<Display_Name>ID</Display_Name>
-<Unique>true</Unique>
-<Default>0</Default>
-</Element>
-</TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Audio_Persona</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>wwise_id</Name>
+			<Type>String</Type>
+			<Display_Name>ID</Display_Name>
+			<Unique>true</Unique>
+			<Default>0</Default>
+		</Element>
+	</TableDescription>
 </root>

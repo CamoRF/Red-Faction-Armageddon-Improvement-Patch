@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,50 +30,50 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>grnt01</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_leg_ass_grunt</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>grnt02</Name>
 					<maxHandle>3</maxHandle>
 					<CharMesh>ch_leg_ass_grunt</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>creeper01</Name>
 					<maxHandle>4</maxHandle>
 					<CharMesh>ch_leg_ass_creeper</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>creeper02</Name>
 					<maxHandle>5</maxHandle>
 					<CharMesh>ch_leg_ass_creeper</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>creeper03</Name>
 					<maxHandle>6</maxHandle>
 					<CharMesh>ch_leg_ass_creeper</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>creeper04</Name>
 					<maxHandle>7</maxHandle>
 					<CharMesh>ch_leg_ass_creeper</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -83,10 +83,10 @@
 						<X>7.6693</X>
 						<Y>-19.8262</Y>
 						<Z>-52.7192</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -102,7 +102,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd_pc__1.animx</Filename>
@@ -111,9 +111,9 @@
 									<EndFrame>834</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>834</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>grnt01</Name>
 							<maxHandle>2</maxHandle>
@@ -121,7 +121,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd_grnt01__1.animx</Filename>
@@ -130,9 +130,9 @@
 									<EndFrame>834</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>834</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>grnt02</Name>
 							<maxHandle>3</maxHandle>
@@ -140,7 +140,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd_grnt02__1.animx</Filename>
@@ -149,9 +149,9 @@
 									<EndFrame>834</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>834</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>creeper01</Name>
 							<maxHandle>4</maxHandle>
@@ -159,7 +159,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd_creeper01__1.animx</Filename>
@@ -168,9 +168,9 @@
 									<EndFrame>834</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>834</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>creeper02</Name>
 							<maxHandle>5</maxHandle>
@@ -178,7 +178,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd_creeper02__1.animx</Filename>
@@ -187,9 +187,9 @@
 									<EndFrame>834</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>834</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>creeper03</Name>
 							<maxHandle>6</maxHandle>
@@ -197,7 +197,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd_creeper03__1.animx</Filename>
@@ -206,9 +206,9 @@
 									<EndFrame>834</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>834</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>creeper04</Name>
 							<maxHandle>7</maxHandle>
@@ -216,7 +216,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/mission17/TheEnd/TheEnd_creeper04__1.animx</Filename>
@@ -225,15 +225,15 @@
 									<EndFrame>834</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>834</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>834</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

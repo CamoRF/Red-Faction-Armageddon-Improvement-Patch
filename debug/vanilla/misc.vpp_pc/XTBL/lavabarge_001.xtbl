@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/moments/Mission13/Lavabarge/Lavabarge.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,15 +30,15 @@
 					<maxHandle>1</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>npc</Name>
 					<maxHandle>2</maxHandle>
 					<CharMesh>ch_civ_ass_workmal01</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -48,10 +48,10 @@
 						<X>101.612</X>
 						<Y>2.3096</Y>
 						<Z>81.926</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -66,7 +66,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/Mission13/Lavabarge/Lavabarge_pc__1.animx</Filename>
@@ -75,9 +75,9 @@
 									<EndFrame>56</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>56</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>npc</Name>
 							<maxHandle>2</maxHandle>
@@ -85,7 +85,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/Mission13/Lavabarge/Lavabarge_npc__1.animx</Filename>
@@ -94,13 +94,13 @@
 									<EndFrame>56</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>56</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>56</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-v_cam02__2</Name>
 					<SlateName>Location01</SlateName>
@@ -113,7 +113,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/Mission13/Lavabarge/Lavabarge_pc__2.animx</Filename>
@@ -122,9 +122,9 @@
 									<EndFrame>73</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>73</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>npc</Name>
 							<maxHandle>2</maxHandle>
@@ -132,7 +132,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/Mission13/Lavabarge/Lavabarge_npc__2.animx</Filename>
@@ -141,13 +141,13 @@
 									<EndFrame>73</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>73</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>73</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-v_cam03__3</Name>
 					<SlateName>Location01</SlateName>
@@ -160,7 +160,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/Mission13/Lavabarge/Lavabarge_pc__3.animx</Filename>
@@ -169,9 +169,9 @@
 									<EndFrame>69</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>69</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>npc</Name>
 							<maxHandle>2</maxHandle>
@@ -179,7 +179,7 @@
 							<OrientY>0</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/moments/Mission13/Lavabarge/Lavabarge_npc__3.animx</Filename>
@@ -188,15 +188,15 @@
 									<EndFrame>69</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>69</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Options></Options>
 					<DefinedShotLength>69</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

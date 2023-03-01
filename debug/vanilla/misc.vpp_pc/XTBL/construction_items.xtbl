@@ -1,241 +1,233 @@
 <root>
-<Table>
-	<C_Item>
-		<Name>propane_tank</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>2.5</Build_Time>
-		<Cooldown>2.5</Cooldown>
-		<Duration>30</Duration>
-		<ConstructionType>
-			<Item_3d>propane_tank</Item_3d>
+	<Table>
+		<C_Item>
+			<Name>propane_tank</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>2.5</Build_Time>
+			<Cooldown>2.5</Cooldown>
+			<Duration>30</Duration>
+			<ConstructionType>
+				<Item_3d>propane_tank</Item_3d>
 			</ConstructionType>
-		<icon_name>ui_hud_weapon_icon_nano</icon_name>
-		<Multiplayer>
-			<small_icon_name>ui_hud_weapon_icon_sm_nano</small_icon_name>
-			<mp_kill_phrase>HM_KILL_PHRASE_NANO</mp_kill_phrase>
+			<icon_name>ui_hud_weapon_icon_nano</icon_name>
+			<Multiplayer>
+				<small_icon_name>ui_hud_weapon_icon_sm_nano</small_icon_name>
+				<mp_kill_phrase>HM_KILL_PHRASE_NANO</mp_kill_phrase>
 			</Multiplayer>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</C_Item>
-	<C_Item>
-		<Name>rpg_launcher</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>2.5</Build_Time>
-		<Cooldown>0</Cooldown>
-		<Duration>120</Duration>
-		<ConstructionType>
-			<Item_3d>rpg_launcher</Item_3d>
+		<C_Item>
+			<Name>rpg_launcher</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>2.5</Build_Time>
+			<Cooldown>0</Cooldown>
+			<Duration>120</Duration>
+			<ConstructionType>
+				<Item_3d>rpg_launcher</Item_3d>
 			</ConstructionType>
-		<icon_name>ui_hud_weapon_icon_rockets</icon_name>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_name>ui_hud_weapon_icon_rockets</icon_name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Multiplayer>
-			</Multiplayer>
+			<Multiplayer></Multiplayer>
 		</C_Item>
-	<C_Item>
-		<Name>machinegun_turret</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>7</Build_Time>
-		<Cooldown>3</Cooldown>
-		<Duration>300</Duration>
-		<ConstructionType>
-			<Turret>turret_machinegun</Turret>
+		<C_Item>
+			<Name>machinegun_turret</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>7</Build_Time>
+			<Cooldown>3</Cooldown>
+			<Duration>300</Duration>
+			<ConstructionType>
+				<Turret>turret_machinegun</Turret>
 			</ConstructionType>
-		<icon_name>ui_hud_weapon_icon_assault</icon_name>
-		<Multiplayer>
-			</Multiplayer>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_name>ui_hud_weapon_icon_assault</icon_name>
+			<Multiplayer></Multiplayer>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</C_Item>
-	<C_Item>
-		<Name>gauss_turret</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>7</Build_Time>
-		<Cooldown>3</Cooldown>
-		<Duration>300</Duration>
-		<ConstructionType>
-			<Turret>turret_gauss</Turret>
+		<C_Item>
+			<Name>gauss_turret</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>7</Build_Time>
+			<Cooldown>3</Cooldown>
+			<Duration>300</Duration>
+			<ConstructionType>
+				<Turret>turret_gauss</Turret>
 			</ConstructionType>
-		<icon_name>ui_hud_weapon_icon_gauss</icon_name>
-		<Multiplayer>
-			</Multiplayer>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_name>ui_hud_weapon_icon_gauss</icon_name>
+			<Multiplayer></Multiplayer>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</C_Item>
-	<C_Item>
-		<Name>rocket_turret</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>7</Build_Time>
-		<Cooldown>3</Cooldown>
-		<Duration>300</Duration>
-		<ConstructionType>
-			<Turret>turret_rocket_guerrilla</Turret>
+		<C_Item>
+			<Name>rocket_turret</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>7</Build_Time>
+			<Cooldown>3</Cooldown>
+			<Duration>300</Duration>
+			<ConstructionType>
+				<Turret>turret_rocket_guerrilla</Turret>
 			</ConstructionType>
-		<icon_name>ui_hud_backpack_icon_kaboom</icon_name>
-		<Multiplayer>
-			</Multiplayer>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_name>ui_hud_backpack_icon_kaboom</icon_name>
+			<Multiplayer></Multiplayer>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</C_Item>
-	<C_Item>
-		<Name>trap_ball</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>2.5</Build_Time>
-		<Cooldown>1</Cooldown>
-		<ConstructionType>
-			<Chunk>trap_ball_of_doom</Chunk>
+		<C_Item>
+			<Name>trap_ball</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>2.5</Build_Time>
+			<Cooldown>1</Cooldown>
+			<ConstructionType>
+				<Chunk>trap_ball_of_doom</Chunk>
 			</ConstructionType>
-		<icon_name>ui_hud_backpack_icon_tremor</icon_name>
-		<Multiplayer>
-			</Multiplayer>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_name>ui_hud_backpack_icon_tremor</icon_name>
+			<Multiplayer></Multiplayer>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</C_Item>
 	</Table>
-
-<TableTemplates>
-	<C_Item>
-		<Name>boulder</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>2.5</Build_Time>
-		<Cooldown>2.5</Cooldown>
-		<ConstructionType>
-			<Item_3d>test_sphere</Item_3d>
+	<TableTemplates>
+		<C_Item>
+			<Name>boulder</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>2.5</Build_Time>
+			<Cooldown>2.5</Cooldown>
+			<ConstructionType>
+				<Item_3d>test_sphere</Item_3d>
 			</ConstructionType>
-		<icon_name>ui_hud_icon_bag</icon_name>
-		<Multiplayer>
-			</Multiplayer>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_name>ui_hud_icon_bag</icon_name>
+			<Multiplayer></Multiplayer>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</C_Item>
-	<C_Item>
-		<Name>turret_test</Name>
-		<Energy_Cost>0</Energy_Cost>
-		<Build_Time>2.5</Build_Time>
-		<Cooldown>2.5</Cooldown>
-		<Duration>120</Duration>
-		<ConstructionType>
-			<Turret>turret_machinegun</Turret>
+		<C_Item>
+			<Name>turret_test</Name>
+			<Energy_Cost>0</Energy_Cost>
+			<Build_Time>2.5</Build_Time>
+			<Cooldown>2.5</Cooldown>
+			<Duration>120</Duration>
+			<ConstructionType>
+				<Turret>turret_machinegun</Turret>
 			</ConstructionType>
-		<icon_name>ui_hud_weapon_icon_nano</icon_name>
-		<_Editor>
-			<Category>Entries</Category>
+			<icon_name>ui_hud_weapon_icon_nano</icon_name>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Multiplayer></Multiplayer>
+			<Multiplayer></Multiplayer>
 		</C_Item>
 	</TableTemplates>
-
-<TableDescription>
-	<Name>C_Item</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Description>Unique name for this construction item.</Description>
-		<Default>name_me</Default>
-		</Element>
-	<Element>
-		<Name>Energy_Cost</Name>
-		<Type>Int</Type>
-		<Display_Name>Energy Cost</Display_Name>
-		<Description>Amount of nanoforge energy required to build this item.</Description>
-		<Default>0</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>255</MaxValue>
-		</Element>
-	<Element>
-		<Name>Build_Time</Name>
-		<Type>Float</Type>
-		<Display_Name>Build Time (sec)</Display_Name>
-		<Description>Number of seconds it takes to construct this item.</Description>
-		<Default>2.5</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>25.5</MaxValue>
-		</Element>
-	<Element>
-		<Name>Cooldown</Name>
-		<Type>Float</Type>
-		<Display_Name>Cooldown Time (sec)</Display_Name>
-		<Description>Number of seconds after beginning construction on this item that no other nanoforge ability can be used.</Description>
-		<Default>2.5</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>25.5</MaxValue>
-		</Element>
-	<Element>
-		<Name>Duration</Name>
-		<Type>Float</Type>
-		<Display_Name>Duration (sec)</Display_Name>
-		<Description>Number of seconds this item remains active.</Description>
-		<Required>false</Required>
-		<Default>120</Default>
-		<MinValue>0</MinValue>
-		<MaxValue>511</MaxValue>
-		</Element>
-	<Element>
-		<Name>ConstructionType</Name>
-		<Type>Element</Type>
-		<Display_Name>Construction Type (Pick One)</Display_Name>
-		<Description>The functional type of the item; only the first selected will be used.</Description>
+	<TableDescription>
+		<Name>C_Item</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>Item_3d</Name>
-			<Type>Reference</Type>
-			<Display_Name>Item/Object</Display_Name>
-			<Description>Item type to place upon building.</Description>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Unique name for this construction item.</Description>
+			<Default>name_me</Default>
+		</Element>
+		<Element>
+			<Name>Energy_Cost</Name>
+			<Type>Int</Type>
+			<Display_Name>Energy Cost</Display_Name>
+			<Description>Amount of nanoforge energy required to build this item.</Description>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>255</MaxValue>
+		</Element>
+		<Element>
+			<Name>Build_Time</Name>
+			<Type>Float</Type>
+			<Display_Name>Build Time (sec)</Display_Name>
+			<Description>Number of seconds it takes to construct this item.</Description>
+			<Default>2.5</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>25.5</MaxValue>
+		</Element>
+		<Element>
+			<Name>Cooldown</Name>
+			<Type>Float</Type>
+			<Display_Name>Cooldown Time (sec)</Display_Name>
+			<Description>Number of seconds after beginning construction on this item that no other nanoforge ability can be used.</Description>
+			<Default>2.5</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>25.5</MaxValue>
+		</Element>
+		<Element>
+			<Name>Duration</Name>
+			<Type>Float</Type>
+			<Display_Name>Duration (sec)</Display_Name>
+			<Description>Number of seconds this item remains active.</Description>
 			<Required>false</Required>
-			<Reference>
-				<File>items_3d.xtbl</File>
-				<Type>Item.Name</Type>
-				<OpenSeparate>False</OpenSeparate>
+			<Default>120</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>511</MaxValue>
+		</Element>
+		<Element>
+			<Name>ConstructionType</Name>
+			<Type>Element</Type>
+			<Display_Name>Construction Type (Pick One)</Display_Name>
+			<Description>The functional type of the item; only the first selected will be used.</Description>
+			<Element>
+				<Name>Item_3d</Name>
+				<Type>Reference</Type>
+				<Display_Name>Item/Object</Display_Name>
+				<Description>Item type to place upon building.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>items_3d.xtbl</File>
+					<Type>Item.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
 				</Reference>
 			</Element>
-		<Element>
-			<Name>Turret</Name>
-			<Type>Reference</Type>
-			<Description>Turret type to place upon building.</Description>
-			<Required>false</Required>
-			<Reference>
-				<File>turrets.xtbl</File>
-				<Type>Turret.Name</Type>
-				<OpenSeparate>False</OpenSeparate>
+			<Element>
+				<Name>Turret</Name>
+				<Type>Reference</Type>
+				<Description>Turret type to place upon building.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>turrets.xtbl</File>
+					<Type>Turret.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
 				</Reference>
 			</Element>
-		<Element>
-			<Name>Chunk</Name>
-			<Type>String</Type>
-			<Display_Name>Destroyable Chunk</Display_Name>
-			<Description>File name of a destroyable chunk to place upon building.</Description>
-			<Required>false</Required>
+			<Element>
+				<Name>Chunk</Name>
+				<Type>String</Type>
+				<Display_Name>Destroyable Chunk</Display_Name>
+				<Description>File name of a destroyable chunk to place upon building.</Description>
+				<Required>false</Required>
 			</Element>
 		</Element>
-	<Element>
-		<Name>icon_name</Name>
-		<Type>String</Type>
-		<Display_Name>Icon name</Display_Name>
-		<Description>Name of the icon to show on the HUD for this construction item</Description>
+		<Element>
+			<Name>icon_name</Name>
+			<Type>String</Type>
+			<Display_Name>Icon name</Display_Name>
+			<Description>Name of the icon to show on the HUD for this construction item</Description>
 		</Element>
-	<Element>
-		<Name>Multiplayer</Name>
-		<Type>Element</Type>
-		<Description>Multiplayer settings.</Description>
 		<Element>
-			<Name>small_icon_name</Name>
-			<Type>String</Type>
-			<Display_Name>Small icon name</Display_Name>
-			<Description>Name of the icon to show on the HUD for kill messages with this construction item</Description>
-			<Required>false</Required>
+			<Name>Multiplayer</Name>
+			<Type>Element</Type>
+			<Description>Multiplayer settings.</Description>
+			<Element>
+				<Name>small_icon_name</Name>
+				<Type>String</Type>
+				<Display_Name>Small icon name</Display_Name>
+				<Description>Name of the icon to show on the HUD for kill messages with this construction item</Description>
+				<Required>false</Required>
 			</Element>
-		<Element>
-			<Name>mp_kill_phrase</Name>
-			<Type>String</Type>
-			<Display_Name>MP kill phrase</Display_Name>
-			<Description>Phrase to use in the message on the HUD when a player is killed with this construction item. You can use these tokens in it:
+			<Element>
+				<Name>mp_kill_phrase</Name>
+				<Type>String</Type>
+				<Display_Name>MP kill phrase</Display_Name>
+				<Description>Phrase to use in the message on the HUD when a player is killed with this construction item. You can use these tokens in it:
 
 %attacker - name of the attacker or in a suicide, the player that died
 
@@ -246,15 +238,14 @@
 %his - his/her/your, if local player's suicide
 
 %himself - himself/herself/yourself, if local player's suicide</Description>
-			<Required>false</Required>
-			<Default>HM_KILL_PHRASE_STANDARD</Default>
+				<Required>false</Required>
+				<Default>HM_KILL_PHRASE_STANDARD</Default>
 			</Element>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>

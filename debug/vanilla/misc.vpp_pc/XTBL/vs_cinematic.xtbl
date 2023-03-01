@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -30,57 +30,57 @@
 					<maxHandle>11132009-58251243</maxHandle>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>Crusader1</Name>
 					<maxHandle>11132009-57716578</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>Crusader2</Name>
 					<maxHandle>11132009-57975875</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>Crusader3</Name>
 					<maxHandle>11132009-58017161</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>Crusader4</Name>
 					<maxHandle>11132009-58055110</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>Crusader5</Name>
 					<maxHandle>11132009-58226757</maxHandle>
 					<CharMesh>ch_cru_ass_soldier</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
+				</Character>
 				<Character>
 					<Name>Marauder</Name>
 					<maxHandle>11132009-58260436</maxHandle>
 					<CharMesh>ch_mar_ass_warrior</CharMesh>
 					<Variant>default</Variant>
 					<AmCribProp>false</AmCribProp>
-					</Character>
-				</Characters>
+				</Character>
+			</Characters>
 			<Vehicles>
 				<Vehicle>
 					<Name>Truck</Name>
 					<maxHandle>08122009-40735199</maxHandle>
 					<VehicleMesh>CS-C-Tran1</VehicleMesh>
-					</Vehicle>
-				</Vehicles>
+				</Vehicle>
+			</Vehicles>
 			<Navpoints>
 				<Navpoint>
 					<Name>Location01</Name>
@@ -90,10 +90,10 @@
 						<X>-7.581</X>
 						<Y>-5.5756</Y>
 						<Z>27.099</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>19.5127</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -108,7 +108,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__1.animx</Filename>
@@ -117,9 +117,9 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -127,7 +127,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__1.animx</Filename>
@@ -136,9 +136,9 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -146,7 +146,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__1.animx</Filename>
@@ -155,9 +155,9 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -165,7 +165,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__1.animx</Filename>
@@ -174,9 +174,9 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -184,7 +184,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__1.animx</Filename>
@@ -193,9 +193,9 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -203,7 +203,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__1.animx</Filename>
@@ -212,9 +212,9 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -222,7 +222,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__1.animx</Filename>
@@ -231,10 +231,10 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -243,7 +243,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__1.animx</Filename>
@@ -252,10 +252,10 @@
 									<EndFrame>101</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>101</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>101</DefinedShotLength>
 					<CSEffects>
@@ -266,16 +266,16 @@
 								<X>0.0153</X>
 								<Y>0.1103</Y>
 								<Z>0.6688</Z>
-								</Position>
+							</Position>
 							<Orient>0 0 0 1</Orient>
 							<ShotStartFrame>81</ShotStartFrame>
 							<ShotEndFrame>101</ShotEndFrame>
 							<Looping>true</Looping>
 							<Character>#PLAYER#</Character>
 							<CharacterTagName>r-hand</CharacterTagName>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-Cutscene02__2</Name>
 					<SlateName>Location01</SlateName>
@@ -288,7 +288,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__2.animx</Filename>
@@ -297,9 +297,9 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -307,7 +307,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__2.animx</Filename>
@@ -316,9 +316,9 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -326,7 +326,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__2.animx</Filename>
@@ -335,9 +335,9 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -345,7 +345,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__2.animx</Filename>
@@ -354,9 +354,9 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -364,7 +364,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__2.animx</Filename>
@@ -373,9 +373,9 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -383,7 +383,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__2.animx</Filename>
@@ -392,9 +392,9 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -402,7 +402,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__2.animx</Filename>
@@ -411,10 +411,10 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -423,7 +423,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__2.animx</Filename>
@@ -432,10 +432,10 @@
 									<EndFrame>39</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>39</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>39</DefinedShotLength>
 					<CSEffects>
@@ -446,14 +446,14 @@
 								<X>9.2936</X>
 								<Y>7.1767</Y>
 								<Z>-10.5155</Z>
-								</Position>
+							</Position>
 							<Orient>-0.0488629 -0.130218 -0.0183157 0.990111</Orient>
 							<ShotStartFrame>22</ShotStartFrame>
 							<ShotEndFrame>39</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-Cutscene03__3</Name>
 					<SlateName>Location01</SlateName>
@@ -466,7 +466,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__3.animx</Filename>
@@ -475,9 +475,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -485,7 +485,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__3.animx</Filename>
@@ -494,9 +494,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -504,7 +504,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__3.animx</Filename>
@@ -513,9 +513,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -523,7 +523,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__3.animx</Filename>
@@ -532,9 +532,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -542,7 +542,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__3.animx</Filename>
@@ -551,9 +551,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -561,7 +561,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__3.animx</Filename>
@@ -570,9 +570,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -580,7 +580,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__3.animx</Filename>
@@ -589,10 +589,10 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -601,7 +601,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__3.animx</Filename>
@@ -610,10 +610,10 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>48</DefinedShotLength>
 					<CSEffects>
@@ -624,12 +624,12 @@
 								<X>8.6628</X>
 								<Y>7.1659</Y>
 								<Z>-10.2964</Z>
-								</Position>
+							</Position>
 							<Orient>-0.0266408 -0.125154 0.0742214 0.988998</Orient>
 							<ShotStartFrame>48</ShotStartFrame>
 							<ShotEndFrame>48</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>char_breath</Name>
 							<maxHandle>15028</maxHandle>
@@ -637,14 +637,14 @@
 								<X>8.6628</X>
 								<Y>7.1659</Y>
 								<Z>-10.2964</Z>
-								</Position>
+							</Position>
 							<Orient>-0.0266408 -0.125154 0.0742214 0.988998</Orient>
 							<ShotStartFrame>18</ShotStartFrame>
 							<ShotEndFrame>48</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-Cutscene04__4</Name>
 					<SlateName>Location01</SlateName>
@@ -657,7 +657,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__4.animx</Filename>
@@ -666,9 +666,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -676,7 +676,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__4.animx</Filename>
@@ -685,9 +685,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -695,7 +695,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__4.animx</Filename>
@@ -704,9 +704,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -714,7 +714,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__4.animx</Filename>
@@ -723,9 +723,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -733,7 +733,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__4.animx</Filename>
@@ -742,9 +742,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -752,7 +752,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__4.animx</Filename>
@@ -761,9 +761,9 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -771,7 +771,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__4.animx</Filename>
@@ -780,10 +780,10 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -792,7 +792,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__4.animx</Filename>
@@ -801,10 +801,10 @@
 									<EndFrame>59</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>59</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>59</DefinedShotLength>
 					<CSEffects>
@@ -815,14 +815,14 @@
 								<X>8.2126</X>
 								<Y>7.1669</Y>
 								<Z>-10.1693</Z>
-								</Position>
+							</Position>
 							<Orient>-0.0336958 -0.347919 0.0383798 0.936132</Orient>
 							<ShotStartFrame>32</ShotStartFrame>
 							<ShotEndFrame>59</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-Cutscene05__5</Name>
 					<SlateName>Location01</SlateName>
@@ -835,7 +835,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__5.animx</Filename>
@@ -844,9 +844,9 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -854,7 +854,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__5.animx</Filename>
@@ -863,9 +863,9 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -873,7 +873,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__5.animx</Filename>
@@ -882,9 +882,9 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -892,7 +892,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__5.animx</Filename>
@@ -901,9 +901,9 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -911,7 +911,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__5.animx</Filename>
@@ -920,9 +920,9 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -930,7 +930,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__5.animx</Filename>
@@ -939,9 +939,9 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -949,7 +949,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__5.animx</Filename>
@@ -958,10 +958,10 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -970,7 +970,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__5.animx</Filename>
@@ -979,10 +979,10 @@
 									<EndFrame>117</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>117</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>117</DefinedShotLength>
 					<CSEffects>
@@ -993,14 +993,14 @@
 								<X>8.4042</X>
 								<Y>7.2227</Y>
 								<Z>-10.115</Z>
-								</Position>
+							</Position>
 							<Orient>-0.176978 0.25628 0.0025786 0.950259</Orient>
 							<ShotStartFrame>74</ShotStartFrame>
 							<ShotEndFrame>117</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_6-Cutscene06__6</Name>
 					<SlateName>Location01</SlateName>
@@ -1013,7 +1013,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__6.animx</Filename>
@@ -1022,9 +1022,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -1032,7 +1032,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__6.animx</Filename>
@@ -1041,9 +1041,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -1051,7 +1051,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__6.animx</Filename>
@@ -1060,9 +1060,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -1070,7 +1070,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__6.animx</Filename>
@@ -1079,9 +1079,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -1089,7 +1089,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__6.animx</Filename>
@@ -1098,9 +1098,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -1108,7 +1108,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__6.animx</Filename>
@@ -1117,9 +1117,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -1127,7 +1127,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__6.animx</Filename>
@@ -1136,10 +1136,10 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -1148,7 +1148,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__6.animx</Filename>
@@ -1157,10 +1157,10 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>48</DefinedShotLength>
 					<CSEffects>
@@ -1171,12 +1171,12 @@
 								<X>11.9339</X>
 								<Y>5.9806</Y>
 								<Z>-8.7665</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 -0.169458 0.0 0.985537</Orient>
 							<ShotStartFrame>25</ShotStartFrame>
 							<ShotEndFrame>48</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>exp_vehicle_a</Name>
 							<maxHandle>15027</maxHandle>
@@ -1184,14 +1184,14 @@
 								<X>11.0847</X>
 								<Y>5.9806</Y>
 								<Z>-7.0403</Z>
-								</Position>
+							</Position>
 							<Orient>0.0 -0.169458 0.0 0.985537</Orient>
 							<ShotStartFrame>27</ShotStartFrame>
 							<ShotEndFrame>48</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_7-Cutscene07__7</Name>
 					<SlateName>Location01</SlateName>
@@ -1204,7 +1204,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__7.animx</Filename>
@@ -1213,9 +1213,9 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -1223,7 +1223,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__7.animx</Filename>
@@ -1232,9 +1232,9 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -1242,7 +1242,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__7.animx</Filename>
@@ -1251,9 +1251,9 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -1261,7 +1261,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__7.animx</Filename>
@@ -1270,9 +1270,9 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -1280,7 +1280,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__7.animx</Filename>
@@ -1289,9 +1289,9 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -1299,7 +1299,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__7.animx</Filename>
@@ -1308,9 +1308,9 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -1318,7 +1318,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__7.animx</Filename>
@@ -1327,10 +1327,10 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -1339,7 +1339,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__7.animx</Filename>
@@ -1348,13 +1348,13 @@
 									<EndFrame>29</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>29</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>29</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_8-Cutscene11__11</Name>
 					<SlateName>Location01</SlateName>
@@ -1368,7 +1368,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__11.animx</Filename>
@@ -1377,9 +1377,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -1387,7 +1387,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__11.animx</Filename>
@@ -1396,9 +1396,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -1406,7 +1406,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__11.animx</Filename>
@@ -1415,9 +1415,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -1425,7 +1425,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__11.animx</Filename>
@@ -1434,9 +1434,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -1444,7 +1444,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__11.animx</Filename>
@@ -1453,9 +1453,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -1463,7 +1463,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__11.animx</Filename>
@@ -1472,9 +1472,9 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -1482,7 +1482,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__11.animx</Filename>
@@ -1491,10 +1491,10 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -1503,7 +1503,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__11.animx</Filename>
@@ -1512,10 +1512,10 @@
 									<EndFrame>48</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>48</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>48</DefinedShotLength>
 					<CSEffects>
@@ -1526,14 +1526,14 @@
 								<X>8.0411</X>
 								<Y>7.1532</Y>
 								<Z>-10.0441</Z>
-								</Position>
+							</Position>
 							<Orient>-0.0832298 0.0167978 0.132524 0.987536</Orient>
 							<ShotStartFrame>9</ShotStartFrame>
 							<ShotEndFrame>48</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
 				<Shot>
 					<Name>Shot_9-Cutscene08__12</Name>
 					<SlateName>Location01</SlateName>
@@ -1547,7 +1547,7 @@
 							<Options>
 								<Item>phased_plasma_rifle</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__12.animx</Filename>
@@ -1556,9 +1556,9 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -1566,7 +1566,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__12.animx</Filename>
@@ -1575,9 +1575,9 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -1585,7 +1585,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__12.animx</Filename>
@@ -1594,9 +1594,9 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -1604,7 +1604,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__12.animx</Filename>
@@ -1613,9 +1613,9 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -1623,7 +1623,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__12.animx</Filename>
@@ -1632,9 +1632,9 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -1642,7 +1642,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__12.animx</Filename>
@@ -1651,9 +1651,9 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -1662,7 +1662,7 @@
 							<Options>
 								<Item>magnet_gun</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__12.animx</Filename>
@@ -1671,10 +1671,10 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -1683,7 +1683,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__12.animx</Filename>
@@ -1692,13 +1692,13 @@
 									<EndFrame>93</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>93</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>93</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_10-Cutscene09__9</Name>
 					<SlateName>Location01</SlateName>
@@ -1712,7 +1712,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__9.animx</Filename>
@@ -1721,9 +1721,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -1731,7 +1731,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__9.animx</Filename>
@@ -1740,9 +1740,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -1750,7 +1750,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__9.animx</Filename>
@@ -1759,9 +1759,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -1769,7 +1769,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__9.animx</Filename>
@@ -1778,9 +1778,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -1788,7 +1788,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__9.animx</Filename>
@@ -1797,9 +1797,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -1807,7 +1807,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__9.animx</Filename>
@@ -1816,9 +1816,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -1827,7 +1827,7 @@
 							<Options>
 								<Item>magnet_gun</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__9.animx</Filename>
@@ -1836,10 +1836,10 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -1848,7 +1848,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__9.animx</Filename>
@@ -1857,13 +1857,13 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>50</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_11-Cutscene10__10</Name>
 					<SlateName>Location01</SlateName>
@@ -1877,7 +1877,7 @@
 							<Options>
 								<HideChar>false</HideChar>
 								<Item>phased_plasma_rifle</Item>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_pc__10.animx</Filename>
@@ -1886,9 +1886,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader1</Name>
 							<maxHandle>11132009-57716578</maxHandle>
@@ -1896,7 +1896,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader1__10.animx</Filename>
@@ -1905,9 +1905,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader2</Name>
 							<maxHandle>11132009-57975875</maxHandle>
@@ -1915,7 +1915,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader2__10.animx</Filename>
@@ -1924,9 +1924,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader3</Name>
 							<maxHandle>11132009-58017161</maxHandle>
@@ -1934,7 +1934,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader3__10.animx</Filename>
@@ -1943,9 +1943,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader4</Name>
 							<maxHandle>11132009-58055110</maxHandle>
@@ -1953,7 +1953,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader4__10.animx</Filename>
@@ -1962,9 +1962,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Crusader5</Name>
 							<maxHandle>11132009-58226757</maxHandle>
@@ -1972,7 +1972,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Crusader5__10.animx</Filename>
@@ -1981,9 +1981,9 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
+								</Animation>
+							</Animations>
+						</Character>
 						<Character>
 							<Name>Marauder</Name>
 							<maxHandle>11132009-58260436</maxHandle>
@@ -1992,7 +1992,7 @@
 							<Options>
 								<Item>magnet_gun</Item>
 								<HideChar>false</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Marauder__10.animx</Filename>
@@ -2001,10 +2001,10 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Character>
-						</Characters>
+								</Animation>
+							</Animations>
+						</Character>
+					</Characters>
 					<Vehicles>
 						<Vehicle>
 							<Name>Truck</Name>
@@ -2013,7 +2013,7 @@
 							<OrientY>-19.5127</OrientY>
 							<Options>
 								<HideChar>true</HideChar>
-								</Options>
+							</Options>
 							<Animations>
 								<Animation>
 									<Filename>D:/projects/rf4/main/rf4/data/cutscenes/vs_cinematic/vs_cinematic_Truck__10.animx</Filename>
@@ -2022,10 +2022,10 @@
 									<EndFrame>50</EndFrame>
 									<MaxWeight>1</MaxWeight>
 									<_Editor_SourceLength>50</_Editor_SourceLength>
-									</Animation>
-								</Animations>
-							</Vehicle>
-						</Vehicles>
+								</Animation>
+							</Animations>
+						</Vehicle>
+					</Vehicles>
 					<Options></Options>
 					<DefinedShotLength>50</DefinedShotLength>
 					<CSEffects>
@@ -2036,12 +2036,12 @@
 								<X>8.2463</X>
 								<Y>7.155</Y>
 								<Z>-10.0122</Z>
-								</Position>
+							</Position>
 							<Orient>-0.0156643 0.0347548 -0.00789053 0.999242</Orient>
 							<ShotStartFrame>24</ShotStartFrame>
 							<ShotEndFrame>50</ShotEndFrame>
 							<EntireCutscene>true</EntireCutscene>
-							</CSEffect>
+						</CSEffect>
 						<CSEffect>
 							<Name>wep_enrgy_muzz02</Name>
 							<maxHandle>15030</maxHandle>
@@ -2049,18 +2049,18 @@
 								<X>0.0153</X>
 								<Y>0.1103</Y>
 								<Z>0.6688</Z>
-								</Position>
+							</Position>
 							<Orient>0.0169134 0.00112059 -0.0539416 1.26396</Orient>
 							<ShotStartFrame>14</ShotStartFrame>
 							<ShotEndFrame>50</ShotEndFrame>
 							<Looping>true</Looping>
 							<Character>#PLAYER#</Character>
 							<CharacterTagName>r-hand</CharacterTagName>
-							</CSEffect>
-						</CSEffects>
-					</Shot>
-				</Shots>
+						</CSEffect>
+					</CSEffects>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

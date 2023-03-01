@@ -9,17 +9,17 @@
 				<X>0</X>
 				<Y>0</Y>
 				<Z>0</Z>
-				</HackyLoadLocation>
+			</HackyLoadLocation>
 			<BBoxMin>
 				<X>-30</X>
 				<Y>-5</Y>
 				<Z>-30</Z>
-				</BBoxMin>
+			</BBoxMin>
 			<BBoxMax>
 				<X>30</X>
 				<Y>5</Y>
 				<Z>30</Z>
-				</BBoxMax>
+			</BBoxMax>
 			<CameraScript>D:/projects/rf4/main/rf4/data/cutscenes/m17_cs_18a/m17_cs_18a.cscx</CameraScript>
 			<SoundtrackCribEnabled>False</SoundtrackCribEnabled>
 			<RestorePlayerPos>False</RestorePlayerPos>
@@ -34,10 +34,10 @@
 						<X>-28.9441</X>
 						<Y>107.781</Y>
 						<Z>6.2445</Z>
-						</Pos>
+					</Pos>
 					<FiddleOrient>0</FiddleOrient>
-					</Navpoint>
-				</Navpoints>
+				</Navpoint>
+			</Navpoints>
 			<StartNav>Location01</StartNav>
 			<Shots>
 				<Shot>
@@ -47,7 +47,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>83</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_2-s020__55</Name>
 					<SlateName>Location01</SlateName>
@@ -55,7 +55,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>169</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_3-s030__56</Name>
 					<SlateName>Location01</SlateName>
@@ -63,7 +63,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>16</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_4-s040__57</Name>
 					<SlateName>Location01</SlateName>
@@ -71,7 +71,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>32</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_5-s050__74</Name>
 					<SlateName>Location01</SlateName>
@@ -79,7 +79,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>22</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_6-s060__58</Name>
 					<SlateName>Location01</SlateName>
@@ -87,7 +87,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>165</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_7-s070__59</Name>
 					<SlateName>Location01</SlateName>
@@ -95,7 +95,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>43</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_8-s080__60</Name>
 					<SlateName>Location01</SlateName>
@@ -103,7 +103,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>104</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_9-s090__75</Name>
 					<SlateName>Location01</SlateName>
@@ -111,7 +111,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>77</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_10-s100__76</Name>
 					<SlateName>Location01</SlateName>
@@ -119,7 +119,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>38</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_11-s110__61</Name>
 					<SlateName>Location01</SlateName>
@@ -127,7 +127,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>35</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_12-s120__62</Name>
 					<SlateName>Location01</SlateName>
@@ -135,7 +135,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>76</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_13-s130__63</Name>
 					<SlateName>Location01</SlateName>
@@ -143,7 +143,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>111</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_14-s140__64</Name>
 					<SlateName>Location01</SlateName>
@@ -151,7 +151,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>27</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_15-s150__65</Name>
 					<SlateName>Location01</SlateName>
@@ -159,7 +159,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>28</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_16-s160__66</Name>
 					<SlateName>Location01</SlateName>
@@ -167,7 +167,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>29</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_17-s170__67</Name>
 					<SlateName>Location01</SlateName>
@@ -175,7 +175,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>26</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_18-s180__68</Name>
 					<SlateName>Location01</SlateName>
@@ -183,7 +183,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>67</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_19-s190__69</Name>
 					<SlateName>Location01</SlateName>
@@ -191,7 +191,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>44</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_20-s200__70</Name>
 					<SlateName>Location01</SlateName>
@@ -199,7 +199,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>26</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_21-s210__71</Name>
 					<SlateName>Location01</SlateName>
@@ -207,7 +207,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>30</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_22-s220__72</Name>
 					<SlateName>Location01</SlateName>
@@ -215,7 +215,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>22</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_23-s230__73</Name>
 					<SlateName>Location01</SlateName>
@@ -223,7 +223,7 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>24</DefinedShotLength>
-					</Shot>
+				</Shot>
 				<Shot>
 					<Name>Shot_24-s240__77</Name>
 					<SlateName>Location01</SlateName>
@@ -231,9 +231,9 @@
 					<Characters></Characters>
 					<Options></Options>
 					<DefinedShotLength>44</DefinedShotLength>
-					</Shot>
-				</Shots>
+				</Shot>
+			</Shots>
 			<Indices></Indices>
-			</Cutscene>
-		</Table>
-	</root>
+		</Cutscene>
+	</Table>
+</root>

@@ -1,628 +1,624 @@
 <root>
-<Table>
-	<Variant>
-		<Name>Louis2Samantha</Name>
-		<BodyMesh>cha_asm_worker1</BodyMesh>
-		<BodyMorph>skinny Louis</BodyMorph>
-		<MAXHeight>1</MAXHeight>
-		<MINHeight>1</MINHeight>
-		<VisibleVIDs>
-			<VIDEntry>
-				<VID>0</VID>
+	<Table>
+		<Variant>
+			<Name>Louis2Samantha</Name>
+			<BodyMesh>cha_asm_worker1</BodyMesh>
+			<BodyMorph>skinny Louis</BodyMorph>
+			<MAXHeight>1</MAXHeight>
+			<MINHeight>1</MINHeight>
+			<VisibleVIDs>
+				<VIDEntry>
+					<VID>0</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>5</VID>
+				<VIDEntry>
+					<VID>5</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>6</VID>
+				<VIDEntry>
+					<VID>6</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>10</VID>
+				<VIDEntry>
+					<VID>10</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>11</VID>
+				<VIDEntry>
+					<VID>11</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>20</VID>
+				<VIDEntry>
+					<VID>20</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>21</VID>
+				<VIDEntry>
+					<VID>21</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>24</VID>
+				<VIDEntry>
+					<VID>24</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>25</VID>
+				<VIDEntry>
+					<VID>25</VID>
 				</VIDEntry>
 			</VisibleVIDs>
-		<ClothingMaterial>
-			<MaterialName>outfit</MaterialName>
-			<MaterialID>8</MaterialID>
-			<Pallette>civilian worker</Pallette>
+			<ClothingMaterial>
+				<MaterialName>outfit</MaterialName>
+				<MaterialID>8</MaterialID>
+				<Pallette>civilian worker</Pallette>
 			</ClothingMaterial>
-		<SkinMaterial>
-			<MaterialName>head</MaterialName>
-			<MaterialID>1</MaterialID>
-			<DiffuseMap>cha_head_samantha_di.tga</DiffuseMap>
-			<NormalMap>cha_head_samantha_nm.tga</NormalMap>
-			<Pallette>Default</Pallette>
+			<SkinMaterial>
+				<MaterialName>head</MaterialName>
+				<MaterialID>1</MaterialID>
+				<DiffuseMap>cha_head_samantha_di.tga</DiffuseMap>
+				<NormalMap>cha_head_samantha_nm.tga</NormalMap>
+				<Pallette>Default</Pallette>
 			</SkinMaterial>
-		<HairMaterial>
-			<Pallette>Young White</Pallette>
-			<HairMaterials>
-				<HairMat>
-					<MaterialName>eyebrows</MaterialName>
-					<MaterialID>5</MaterialID>
+			<HairMaterial>
+				<Pallette>Young White</Pallette>
+				<HairMaterials>
+					<HairMat>
+						<MaterialName>eyebrows</MaterialName>
+						<MaterialID>5</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>facial hair</MaterialName>
-					<MaterialID>6</MaterialID>
+					<HairMat>
+						<MaterialName>facial hair</MaterialName>
+						<MaterialID>6</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 1</MaterialName>
-					<MaterialID>9</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 1</MaterialName>
+						<MaterialID>9</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 2</MaterialName>
-					<MaterialID>10</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 2</MaterialName>
+						<MaterialID>10</MaterialID>
 					</HairMat>
 				</HairMaterials>
-			<EyebrowMaterial>
-				<MaterialName>eyebrows</MaterialName>
-				<MaterialID>5</MaterialID>
-				<DOSMap>eyebrows_male01_ha.tga</DOSMap>
-				<NormalMap>flat-normalmap_n.tga</NormalMap>
+				<EyebrowMaterial>
+					<MaterialName>eyebrows</MaterialName>
+					<MaterialID>5</MaterialID>
+					<DOSMap>eyebrows_male01_ha.tga</DOSMap>
+					<NormalMap>flat-normalmap_n.tga</NormalMap>
 				</EyebrowMaterial>
 			</HairMaterial>
-		<EyeMaterial>
-			<MaterialName>eyes</MaterialName>
-			<MaterialID>2</MaterialID>
-			<Pallette>White</Pallette>
+			<EyeMaterial>
+				<MaterialName>eyes</MaterialName>
+				<MaterialID>2</MaterialID>
+				<Pallette>White</Pallette>
 			</EyeMaterial>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Variant>
-	<Variant>
-		<Name>Louis</Name>
-		<BodyMesh>cha_asm_worker1</BodyMesh>
-		<BodyMorph>undefined</BodyMorph>
-		<MAXHeight>1</MAXHeight>
-		<MINHeight>1</MINHeight>
-		<VisibleVIDs>
-			<VIDEntry>
-				<VID>0</VID>
+		<Variant>
+			<Name>Louis</Name>
+			<BodyMesh>cha_asm_worker1</BodyMesh>
+			<BodyMorph>undefined</BodyMorph>
+			<MAXHeight>1</MAXHeight>
+			<MINHeight>1</MINHeight>
+			<VisibleVIDs>
+				<VIDEntry>
+					<VID>0</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>6</VID>
+				<VIDEntry>
+					<VID>6</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>20</VID>
+				<VIDEntry>
+					<VID>20</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>21</VID>
+				<VIDEntry>
+					<VID>21</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>24</VID>
+				<VIDEntry>
+					<VID>24</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>25</VID>
+				<VIDEntry>
+					<VID>25</VID>
 				</VIDEntry>
 			</VisibleVIDs>
-		<ClothingMaterial>
-			<MaterialName>outfit</MaterialName>
-			<MaterialID>8</MaterialID>
-			<Pallette>civilian worker</Pallette>
+			<ClothingMaterial>
+				<MaterialName>outfit</MaterialName>
+				<MaterialID>8</MaterialID>
+				<Pallette>civilian worker</Pallette>
 			</ClothingMaterial>
-		<SkinMaterial>
-			<MaterialName>head</MaterialName>
-			<MaterialID>1</MaterialID>
-			<DiffuseMap>cha_head_louis_di.tga</DiffuseMap>
-			<NormalMap>cha_head_louis_nm.tga</NormalMap>
-			<Pallette>Default</Pallette>
+			<SkinMaterial>
+				<MaterialName>head</MaterialName>
+				<MaterialID>1</MaterialID>
+				<DiffuseMap>cha_head_louis_di.tga</DiffuseMap>
+				<NormalMap>cha_head_louis_nm.tga</NormalMap>
+				<Pallette>Default</Pallette>
 			</SkinMaterial>
-		<HairMaterial>
-			<Pallette>Young Non-White</Pallette>
-			<HairMaterials>
-				<HairMat>
-					<MaterialName>eyebrows</MaterialName>
-					<MaterialID>5</MaterialID>
+			<HairMaterial>
+				<Pallette>Young Non-White</Pallette>
+				<HairMaterials>
+					<HairMat>
+						<MaterialName>eyebrows</MaterialName>
+						<MaterialID>5</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>facial hair</MaterialName>
-					<MaterialID>6</MaterialID>
+					<HairMat>
+						<MaterialName>facial hair</MaterialName>
+						<MaterialID>6</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 1</MaterialName>
-					<MaterialID>9</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 1</MaterialName>
+						<MaterialID>9</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 2</MaterialName>
-					<MaterialID>10</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 2</MaterialName>
+						<MaterialID>10</MaterialID>
 					</HairMat>
 				</HairMaterials>
-			<EyebrowMaterial>
-				<MaterialName>eyebrows</MaterialName>
-				<MaterialID>5</MaterialID>
-				<DOSMap>eyebrows_male01_ha.tga</DOSMap>
-				<NormalMap>flat-normalmap_n.tga</NormalMap>
+				<EyebrowMaterial>
+					<MaterialName>eyebrows</MaterialName>
+					<MaterialID>5</MaterialID>
+					<DOSMap>eyebrows_male01_ha.tga</DOSMap>
+					<NormalMap>flat-normalmap_n.tga</NormalMap>
 				</EyebrowMaterial>
 			</HairMaterial>
-		<EyeMaterial>
-			<MaterialName>eyes</MaterialName>
-			<MaterialID>2</MaterialID>
-			<Pallette>Non-white</Pallette>
+			<EyeMaterial>
+				<MaterialName>eyes</MaterialName>
+				<MaterialID>2</MaterialID>
+				<Pallette>Non-white</Pallette>
 			</EyeMaterial>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Variant>
-	<Variant>
-		<Name>Bill</Name>
-		<BodyMesh>cha_asm_worker1</BodyMesh>
-		<BodyMorph>overweight Bill</BodyMorph>
-		<MAXHeight>1</MAXHeight>
-		<MINHeight>1</MINHeight>
-		<VisibleVIDs>
-			<VIDEntry>
-				<VID>0</VID>
+		<Variant>
+			<Name>Bill</Name>
+			<BodyMesh>cha_asm_worker1</BodyMesh>
+			<BodyMorph>overweight Bill</BodyMorph>
+			<MAXHeight>1</MAXHeight>
+			<MINHeight>1</MINHeight>
+			<VisibleVIDs>
+				<VIDEntry>
+					<VID>0</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>6</VID>
+				<VIDEntry>
+					<VID>6</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>10</VID>
+				<VIDEntry>
+					<VID>10</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>11</VID>
+				<VIDEntry>
+					<VID>11</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>12</VID>
+				<VIDEntry>
+					<VID>12</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>13</VID>
+				<VIDEntry>
+					<VID>13</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>14</VID>
+				<VIDEntry>
+					<VID>14</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>15</VID>
+				<VIDEntry>
+					<VID>15</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>16</VID>
+				<VIDEntry>
+					<VID>16</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>20</VID>
+				<VIDEntry>
+					<VID>20</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>23</VID>
+				<VIDEntry>
+					<VID>23</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>24</VID>
+				<VIDEntry>
+					<VID>24</VID>
 				</VIDEntry>
 			</VisibleVIDs>
-		<ClothingMaterial>
-			<MaterialName>outfit</MaterialName>
-			<MaterialID>8</MaterialID>
-			<Pallette>civilian worker</Pallette>
+			<ClothingMaterial>
+				<MaterialName>outfit</MaterialName>
+				<MaterialID>8</MaterialID>
+				<Pallette>civilian worker</Pallette>
 			</ClothingMaterial>
-		<SkinMaterial>
-			<MaterialName>head</MaterialName>
-			<MaterialID>1</MaterialID>
-			<DiffuseMap>cha_head_bill_di.tga</DiffuseMap>
-			<NormalMap>cha_head_bill_nm.tga</NormalMap>
-			<Pallette>Default</Pallette>
+			<SkinMaterial>
+				<MaterialName>head</MaterialName>
+				<MaterialID>1</MaterialID>
+				<DiffuseMap>cha_head_bill_di.tga</DiffuseMap>
+				<NormalMap>cha_head_bill_nm.tga</NormalMap>
+				<Pallette>Default</Pallette>
 			</SkinMaterial>
-		<HairMaterial>
-			<Pallette>Old</Pallette>
-			<HairMaterials>
-				<HairMat>
-					<MaterialName>eyebrows</MaterialName>
-					<MaterialID>5</MaterialID>
+			<HairMaterial>
+				<Pallette>Old</Pallette>
+				<HairMaterials>
+					<HairMat>
+						<MaterialName>eyebrows</MaterialName>
+						<MaterialID>5</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>facial hair</MaterialName>
-					<MaterialID>6</MaterialID>
+					<HairMat>
+						<MaterialName>facial hair</MaterialName>
+						<MaterialID>6</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 1</MaterialName>
-					<MaterialID>9</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 1</MaterialName>
+						<MaterialID>9</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 2</MaterialName>
-					<MaterialID>10</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 2</MaterialName>
+						<MaterialID>10</MaterialID>
 					</HairMat>
 				</HairMaterials>
-			<EyebrowMaterial>
-				<MaterialName>eyebrows</MaterialName>
-				<MaterialID>5</MaterialID>
-				<DOSMap>eyebrows_male01_ha.tga</DOSMap>
-				<NormalMap>flat-normalmap_n.tga</NormalMap>
+				<EyebrowMaterial>
+					<MaterialName>eyebrows</MaterialName>
+					<MaterialID>5</MaterialID>
+					<DOSMap>eyebrows_male01_ha.tga</DOSMap>
+					<NormalMap>flat-normalmap_n.tga</NormalMap>
 				</EyebrowMaterial>
 			</HairMaterial>
-		<EyeMaterial>
-			<MaterialName>eyes</MaterialName>
-			<MaterialID>2</MaterialID>
-			<Pallette>White</Pallette>
+			<EyeMaterial>
+				<MaterialName>eyes</MaterialName>
+				<MaterialID>2</MaterialID>
+				<Pallette>White</Pallette>
 			</EyeMaterial>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Variant>
-	<Variant>
-		<Name>Bill2Kim</Name>
-		<BodyMesh>cha_asm_worker1</BodyMesh>
-		<BodyMorph>obese Bill</BodyMorph>
-		<MAXHeight>1</MAXHeight>
-		<MINHeight>1</MINHeight>
-		<VisibleVIDs>
-			<VIDEntry>
-				<VID>0</VID>
+		<Variant>
+			<Name>Bill2Kim</Name>
+			<BodyMesh>cha_asm_worker1</BodyMesh>
+			<BodyMorph>obese Bill</BodyMorph>
+			<MAXHeight>1</MAXHeight>
+			<MINHeight>1</MINHeight>
+			<VisibleVIDs>
+				<VIDEntry>
+					<VID>0</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>12</VID>
+				<VIDEntry>
+					<VID>12</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>13</VID>
+				<VIDEntry>
+					<VID>13</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>14</VID>
+				<VIDEntry>
+					<VID>14</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>15</VID>
+				<VIDEntry>
+					<VID>15</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>20</VID>
+				<VIDEntry>
+					<VID>20</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>21</VID>
+				<VIDEntry>
+					<VID>21</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>22</VID>
+				<VIDEntry>
+					<VID>22</VID>
 				</VIDEntry>
-			<VIDEntry>
-				<VID>23</VID>
+				<VIDEntry>
+					<VID>23</VID>
 				</VIDEntry>
 			</VisibleVIDs>
-		<ClothingMaterial>
-			<MaterialName>outfit</MaterialName>
-			<MaterialID>8</MaterialID>
-			<Pallette>civilian worker</Pallette>
+			<ClothingMaterial>
+				<MaterialName>outfit</MaterialName>
+				<MaterialID>8</MaterialID>
+				<Pallette>civilian worker</Pallette>
 			</ClothingMaterial>
-		<SkinMaterial>
-			<MaterialName>head</MaterialName>
-			<MaterialID>1</MaterialID>
-			<DiffuseMap>cha_head_kim_di.tga</DiffuseMap>
-			<NormalMap>cha_head_kim_nm.tga</NormalMap>
-			<Pallette>Default</Pallette>
+			<SkinMaterial>
+				<MaterialName>head</MaterialName>
+				<MaterialID>1</MaterialID>
+				<DiffuseMap>cha_head_kim_di.tga</DiffuseMap>
+				<NormalMap>cha_head_kim_nm.tga</NormalMap>
+				<Pallette>Default</Pallette>
 			</SkinMaterial>
-		<HairMaterial>
-			<Pallette>Middle-Aged White</Pallette>
-			<HairMaterials>
-				<HairMat>
-					<MaterialName>eyebrows</MaterialName>
-					<MaterialID>5</MaterialID>
+			<HairMaterial>
+				<Pallette>Middle-Aged White</Pallette>
+				<HairMaterials>
+					<HairMat>
+						<MaterialName>eyebrows</MaterialName>
+						<MaterialID>5</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>facial hair</MaterialName>
-					<MaterialID>6</MaterialID>
+					<HairMat>
+						<MaterialName>facial hair</MaterialName>
+						<MaterialID>6</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 1</MaterialName>
-					<MaterialID>9</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 1</MaterialName>
+						<MaterialID>9</MaterialID>
 					</HairMat>
-				<HairMat>
-					<MaterialName>head hair 2</MaterialName>
-					<MaterialID>10</MaterialID>
+					<HairMat>
+						<MaterialName>head hair 2</MaterialName>
+						<MaterialID>10</MaterialID>
 					</HairMat>
 				</HairMaterials>
-			<EyebrowMaterial>
-				<MaterialName>eyebrows</MaterialName>
-				<MaterialID>5</MaterialID>
-				<DOSMap>eyebrows_male01_ha.tga</DOSMap>
-				<NormalMap>flat-normalmap_n.tga</NormalMap>
+				<EyebrowMaterial>
+					<MaterialName>eyebrows</MaterialName>
+					<MaterialID>5</MaterialID>
+					<DOSMap>eyebrows_male01_ha.tga</DOSMap>
+					<NormalMap>flat-normalmap_n.tga</NormalMap>
 				</EyebrowMaterial>
 			</HairMaterial>
-		<EyeMaterial>
-			<MaterialName>eyes</MaterialName>
-			<MaterialID>2</MaterialID>
-			<Pallette>White</Pallette>
+			<EyeMaterial>
+				<MaterialName>eyes</MaterialName>
+				<MaterialID>2</MaterialID>
+				<Pallette>White</Pallette>
 			</EyeMaterial>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</Variant>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>Variant</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		<Unique>true</Unique>
-		</Element>
-	<Element>
-		<Name>BodyMesh</Name>
-		<Type>String</Type>
-		<Display_Name>Body Mesh</Display_Name>
-		</Element>
-	<Element>
-		<Name>BodyMorph</Name>
-		<Type>String</Type>
-		<Display_Name>Body Morph</Display_Name>
-		</Element>
-	<Element>
-		<Name>MAXHeight</Name>
-		<Type>Float</Type>
-		<Display_Name>MAX Height</Display_Name>
-		<Required>false</Required>
-		<Default>72.0</Default>
-		</Element>
-	<Element>
-		<Name>MINHeight</Name>
-		<Type>Float</Type>
-		<Display_Name>MIN Height</Display_Name>
-		<Required>false</Required>
-		<Default>72.0</Default>
-		</Element>
-	<Element>
-		<Name>VisibleVIDs</Name>
-		<Type>Grid</Type>
-		<Display_Name>Visible VIDs</Display_Name>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Variant</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>VIDEntry</Name>
-			<Type>Element</Type>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>BodyMesh</Name>
+			<Type>String</Type>
+			<Display_Name>Body Mesh</Display_Name>
+		</Element>
+		<Element>
+			<Name>BodyMorph</Name>
+			<Type>String</Type>
+			<Display_Name>Body Morph</Display_Name>
+		</Element>
+		<Element>
+			<Name>MAXHeight</Name>
+			<Type>Float</Type>
+			<Display_Name>MAX Height</Display_Name>
+			<Required>false</Required>
+			<Default>72.0</Default>
+		</Element>
+		<Element>
+			<Name>MINHeight</Name>
+			<Type>Float</Type>
+			<Display_Name>MIN Height</Display_Name>
+			<Required>false</Required>
+			<Default>72.0</Default>
+		</Element>
+		<Element>
+			<Name>VisibleVIDs</Name>
+			<Type>Grid</Type>
+			<Display_Name>Visible VIDs</Display_Name>
 			<Element>
-				<Name>VID</Name>
-				<Type>Int</Type>
-				<Default>0</Default>
+				<Name>VIDEntry</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>VID</Name>
+					<Type>Int</Type>
+					<Default>0</Default>
 				</Element>
 			</Element>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	<Element>
-		<Name>Head_VIDs</Name>
-		<Type>Grid</Type>
-		<Display_Name>Head VIDs</Display_Name>
-		<Required>false</Required>
 		<Element>
-			<Name>Head_VID</Name>
-			<Type>Element</Type>
-			<Display_Name>Head VID</Display_Name>
+			<Name>Head_VIDs</Name>
+			<Type>Grid</Type>
+			<Display_Name>Head VIDs</Display_Name>
+			<Required>false</Required>
 			<Element>
-				<Name>VID</Name>
-				<Type>Int</Type>
-				<Default>0</Default>
-				<MinValue>0</MinValue>
-				<MaxValue>255</MaxValue>
+				<Name>Head_VID</Name>
+				<Type>Element</Type>
+				<Display_Name>Head VID</Display_Name>
+				<Element>
+					<Name>VID</Name>
+					<Type>Int</Type>
+					<Default>0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>255</MaxValue>
 				</Element>
 			</Element>
-		<Max_Children>2</Max_Children>
-		<Min_Children>1</Min_Children>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Max_Children>2</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	<Element>
-		<Name>ClothingMaterial</Name>
-		<Type>Element</Type>
-		<Display_Name>Clothing Material</Display_Name>
 		<Element>
-			<Name>MaterialName</Name>
-			<Type>String</Type>
-			<Display_Name>Material Name</Display_Name>
-			</Element>
-		<Element>
-			<Name>MaterialID</Name>
-			<Type>Int</Type>
-			<Display_Name>Material ID</Display_Name>
-			<Default>0</Default>
-			</Element>
-		<Element>
-			<Name>Pallette</Name>
-			<Type>Reference</Type>
-			<Reference>
-				<File>character_body_colors.xtbl</File>
-				<Type>Pallette.Name</Type>
-				</Reference>
-			</Element>
-		</Element>
-	<Element>
-		<Name>SkinMaterial</Name>
-		<Type>Element</Type>
-		<Display_Name>Skin Material</Display_Name>
-		<Required>false</Required>
-		<Element>
-			<Name>MaterialName</Name>
-			<Type>String</Type>
-			<Display_Name>Material Name</Display_Name>
-			</Element>
-		<Element>
-			<Name>MaterialID</Name>
-			<Type>Int</Type>
-			<Display_Name>Material ID</Display_Name>
-			<Default>0</Default>
-			</Element>
-		<Element>
-			<Name>DiffuseMap</Name>
-			<Type>String</Type>
-			<Display_Name>Diffuse Map</Display_Name>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>SpecularMap</Name>
-			<Type>String</Type>
-			<Display_Name>Specular Map</Display_Name>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>NormalMap</Name>
-			<Type>String</Type>
-			<Display_Name>Normal Map</Display_Name>
-			<Required>false</Required>
-			</Element>
-		<Element>
-			<Name>Pallette</Name>
-			<Type>Reference</Type>
-			<Reference>
-				<File>character_skin_colors.xtbl</File>
-				<Type>Pallette.Name</Type>
-				</Reference>
-			</Element>
-		<Element>
-			<Name>LipMaterial</Name>
+			<Name>ClothingMaterial</Name>
 			<Type>Element</Type>
-			<Display_Name>Lip Material</Display_Name>
-			<Required>false</Required>
+			<Display_Name>Clothing Material</Display_Name>
 			<Element>
 				<Name>MaterialName</Name>
 				<Type>String</Type>
 				<Display_Name>Material Name</Display_Name>
-				<Default>Lips</Default>
-				</Element>
+			</Element>
 			<Element>
 				<Name>MaterialID</Name>
 				<Type>Int</Type>
 				<Display_Name>Material ID</Display_Name>
 				<Default>0</Default>
-				</Element>
 			</Element>
+			<Element>
+				<Name>Pallette</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>character_body_colors.xtbl</File>
+					<Type>Pallette.Name</Type>
+				</Reference>
+			</Element>
+		</Element>
 		<Element>
-			<Name>HandMaterial</Name>
+			<Name>SkinMaterial</Name>
 			<Type>Element</Type>
-			<Display_Name>Hand Material</Display_Name>
+			<Display_Name>Skin Material</Display_Name>
 			<Required>false</Required>
 			<Element>
 				<Name>MaterialName</Name>
 				<Type>String</Type>
 				<Display_Name>Material Name</Display_Name>
-				<Default>Hands</Default>
-				</Element>
+			</Element>
 			<Element>
 				<Name>MaterialID</Name>
 				<Type>Int</Type>
 				<Display_Name>Material ID</Display_Name>
 				<Default>0</Default>
-				</Element>
+			</Element>
 			<Element>
 				<Name>DiffuseMap</Name>
 				<Type>String</Type>
 				<Display_Name>Diffuse Map</Display_Name>
 				<Required>false</Required>
-				<Default>missing.tga</Default>
-				</Element>
+			</Element>
 			<Element>
 				<Name>SpecularMap</Name>
 				<Type>String</Type>
 				<Display_Name>Specular Map</Display_Name>
 				<Required>false</Required>
-				</Element>
+			</Element>
 			<Element>
 				<Name>NormalMap</Name>
 				<Type>String</Type>
 				<Display_Name>Normal Map</Display_Name>
 				<Required>false</Required>
-				<Default>flat-normalmap_n.tga</Default>
-				</Element>
 			</Element>
-		</Element>
-	<Element>
-		<Name>HairMaterial</Name>
-		<Type>Element</Type>
-		<Display_Name>Hair Material</Display_Name>
-		<Required>false</Required>
-		<Element>
-			<Name>Pallette</Name>
-			<Type>Reference</Type>
-			<Reference>
-				<File>character_hair_colors.xtbl</File>
-				<Type>Pallette.Name</Type>
+			<Element>
+				<Name>Pallette</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>character_skin_colors.xtbl</File>
+					<Type>Pallette.Name</Type>
 				</Reference>
 			</Element>
-		<Element>
-			<Name>HairMaterials</Name>
-			<Type>Grid</Type>
-			<Display_Name>Hair Materials</Display_Name>
 			<Element>
-				<Name>HairMat</Name>
+				<Name>LipMaterial</Name>
 				<Type>Element</Type>
-				<Display_Name>Hair Mat</Display_Name>
+				<Display_Name>Lip Material</Display_Name>
+				<Required>false</Required>
 				<Element>
 					<Name>MaterialName</Name>
 					<Type>String</Type>
-					<Display_Name>Name</Display_Name>
-					</Element>
+					<Display_Name>Material Name</Display_Name>
+					<Default>Lips</Default>
+				</Element>
 				<Element>
 					<Name>MaterialID</Name>
 					<Type>Int</Type>
 					<Display_Name>Material ID</Display_Name>
 					<Default>0</Default>
+				</Element>
+			</Element>
+			<Element>
+				<Name>HandMaterial</Name>
+				<Type>Element</Type>
+				<Display_Name>Hand Material</Display_Name>
+				<Required>false</Required>
+				<Element>
+					<Name>MaterialName</Name>
+					<Type>String</Type>
+					<Display_Name>Material Name</Display_Name>
+					<Default>Hands</Default>
+				</Element>
+				<Element>
+					<Name>MaterialID</Name>
+					<Type>Int</Type>
+					<Display_Name>Material ID</Display_Name>
+					<Default>0</Default>
+				</Element>
+				<Element>
+					<Name>DiffuseMap</Name>
+					<Type>String</Type>
+					<Display_Name>Diffuse Map</Display_Name>
+					<Required>false</Required>
+					<Default>missing.tga</Default>
+				</Element>
+				<Element>
+					<Name>SpecularMap</Name>
+					<Type>String</Type>
+					<Display_Name>Specular Map</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>NormalMap</Name>
+					<Type>String</Type>
+					<Display_Name>Normal Map</Display_Name>
+					<Required>false</Required>
+					<Default>flat-normalmap_n.tga</Default>
+				</Element>
+			</Element>
+		</Element>
+		<Element>
+			<Name>HairMaterial</Name>
+			<Type>Element</Type>
+			<Display_Name>Hair Material</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Pallette</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>character_hair_colors.xtbl</File>
+					<Type>Pallette.Name</Type>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>HairMaterials</Name>
+				<Type>Grid</Type>
+				<Display_Name>Hair Materials</Display_Name>
+				<Element>
+					<Name>HairMat</Name>
+					<Type>Element</Type>
+					<Display_Name>Hair Mat</Display_Name>
+					<Element>
+						<Name>MaterialName</Name>
+						<Type>String</Type>
+						<Display_Name>Name</Display_Name>
+					</Element>
+					<Element>
+						<Name>MaterialID</Name>
+						<Type>Int</Type>
+						<Display_Name>Material ID</Display_Name>
+						<Default>0</Default>
 					</Element>
 				</Element>
-			<Num_Display_Rows>8</Num_Display_Rows>
+				<Num_Display_Rows>8</Num_Display_Rows>
 			</Element>
+			<Element>
+				<Name>EyebrowMaterial</Name>
+				<Type>Element</Type>
+				<Display_Name>Eyebrow Material</Display_Name>
+				<Required>false</Required>
+				<Element>
+					<Name>MaterialName</Name>
+					<Type>String</Type>
+					<Display_Name>Material Name</Display_Name>
+				</Element>
+				<Element>
+					<Name>MaterialID</Name>
+					<Type>Int</Type>
+					<Display_Name>Material ID</Display_Name>
+					<Default>0</Default>
+				</Element>
+				<Element>
+					<Name>DOSMap</Name>
+					<Type>String</Type>
+					<Display_Name>DOS Map</Display_Name>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>NormalMap</Name>
+					<Type>String</Type>
+					<Display_Name>Normal Map</Display_Name>
+					<Required>false</Required>
+				</Element>
+			</Element>
+		</Element>
 		<Element>
-			<Name>EyebrowMaterial</Name>
+			<Name>EyeMaterial</Name>
 			<Type>Element</Type>
-			<Display_Name>Eyebrow Material</Display_Name>
+			<Display_Name>Eye Material</Display_Name>
 			<Required>false</Required>
 			<Element>
 				<Name>MaterialName</Name>
 				<Type>String</Type>
 				<Display_Name>Material Name</Display_Name>
-				</Element>
+			</Element>
 			<Element>
 				<Name>MaterialID</Name>
 				<Type>Int</Type>
 				<Display_Name>Material ID</Display_Name>
 				<Default>0</Default>
-				</Element>
+			</Element>
 			<Element>
-				<Name>DOSMap</Name>
-				<Type>String</Type>
-				<Display_Name>DOS Map</Display_Name>
-				<Required>false</Required>
-				</Element>
-			<Element>
-				<Name>NormalMap</Name>
-				<Type>String</Type>
-				<Display_Name>Normal Map</Display_Name>
-				<Required>false</Required>
-				</Element>
-			</Element>
-		</Element>
-	<Element>
-		<Name>EyeMaterial</Name>
-		<Type>Element</Type>
-		<Display_Name>Eye Material</Display_Name>
-		<Required>false</Required>
-		<Element>
-			<Name>MaterialName</Name>
-			<Type>String</Type>
-			<Display_Name>Material Name</Display_Name>
-			</Element>
-		<Element>
-			<Name>MaterialID</Name>
-			<Type>Int</Type>
-			<Display_Name>Material ID</Display_Name>
-			<Default>0</Default>
-			</Element>
-		<Element>
-			<Name>Pallette</Name>
-			<Type>Reference</Type>
-			<Reference>
-				<File>character_eye_colors.xtbl</File>
-				<Type>Pallette.Name</Type>
+				<Name>Pallette</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>character_eye_colors.xtbl</File>
+					<Type>Pallette.Name</Type>
 				</Reference>
 			</Element>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Entries</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
 	</EntryCategories>
 </root>
