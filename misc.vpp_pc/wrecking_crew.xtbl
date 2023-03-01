@@ -6,7 +6,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<weapons>
-<!--START Added-->				
+<!--START Added-->		
 				<weapon>
 					<weapon_name>m16</weapon_name>
 					<mode_flags>
@@ -63,7 +63,7 @@
 					</mode_flags>
 					<Locked>False</Locked>
 				</weapon>							
-<!--END Added-->
+<!--END-->
 				<weapon>
 					<weapon_name>sledgehammer</weapon_name>
 					<mode_flags>

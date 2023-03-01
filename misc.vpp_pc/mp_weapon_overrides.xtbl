@@ -224,7 +224,6 @@
 				<Category>Entries:Red Faction</Category>
 			</_Editor>			
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>plasma_thrower</Name>
 			<Firing_Mode_Slots>
@@ -250,7 +249,6 @@
 				<Category>Entries:Red Faction</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>chain_lightning_gun</Name> <!--Arc Welder-->
 			<Firing_Mode_Slots>
@@ -280,7 +278,6 @@
 				<Category>Entries:Red Faction</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>rf_exo_machine_gun_handheld</Name> <!--Leo Machine Gun-->
 			<Firing_Mode_Slots>
@@ -300,7 +297,6 @@
 				<Category>Entries:Red Faction</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>rf_exo_launcher_handheld</Name> <!--Leo Rocket Launcher-->
 			<Firing_Mode_Slots>
@@ -318,7 +314,6 @@
 				<Category>Entries:Red Faction</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>phased_plasma_cannon</Name>
 			<Firing_Mode_Slots>
@@ -360,7 +355,6 @@
 				<Category>Entries:Red Faction</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>delayed_explosion_laser_handheld</Name> <!--Convergence Laser-->
 			<Firing_Mode_Slots>
@@ -379,7 +373,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>lava_barge_turret_handheld</Name>
 			<Firing_Mode_Slots>
@@ -398,7 +391,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>rail_driver</Name>
 			<Firing_Mode_Slots>
@@ -420,7 +412,6 @@
 				<Category>Entries:Red Faction</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>napalm_laser_handheld</Name>
 			<Firing_Mode_Slots>
@@ -480,7 +471,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>unicorn_gun</Name>
 			<Firing_Mode_Slots>
@@ -618,6 +608,7 @@
 			<Unlimited_Ammo_Cheat>infinite ammo - phased plasma beam</Unlimited_Ammo_Cheat>
 			<Interface_Priority_Ruin_Mode>255</Interface_Priority_Ruin_Mode>
 		</mp_weapons>
+<!--END-->		
 	</Table>
 	<TableTemplates>
 	</TableTemplates>

@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/current/Logo_Temp2.png?raw=true "Logo")
+![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/current/Logo.png?raw=true "Logo")
 - Version: v0.xx Pre Pre Alpha 23-9-2022 Build 1110
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
 

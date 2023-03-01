@@ -8,7 +8,6 @@
 				<Category>Multiplayer:obsolete</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Repair_grenade_multiplayer_delay_ms_4p</Name>
 			<Value>5000</Value> <!--From 3500-->
@@ -17,7 +16,6 @@
 				<Category>Multiplayer:repair_grenade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Repair_grenade_multiplayer_delay_ms_3p</Name>
 			<Value>4000</Value> <!--From 3000-->
@@ -26,7 +24,6 @@
 				<Category>Multiplayer:repair_grenade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Repair_grenade_multiplayer_delay_ms_2p</Name>
 			<Value>3000</Value> <!--From 2500-->
@@ -35,7 +32,6 @@
 				<Category>Multiplayer:repair_grenade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Repair_grenade_multiplayer_delay_ms_1p</Name>
 			<Value>2500</Value> <!--From 0-->
@@ -44,7 +40,6 @@
 				<Category>Multiplayer:repair_grenade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Lockon_max_distance</Name>
 			<Value>50</Value>
@@ -53,7 +48,6 @@
 				<Category>UI:Lockons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Lockon_max_scale</Name>
 			<Value>0.75</Value>
@@ -62,7 +56,6 @@
 				<Category>UI:Lockons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Lockon_min_distance</Name>
 			<Value>5</Value>
@@ -71,7 +64,6 @@
 				<Category>UI:Lockons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Lockon_min_scale</Name>
 			<Value>0.25</Value>
@@ -80,7 +72,6 @@
 				<Category>UI:Lockons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_radial_dead_zone</Name>
 			<Value>0.8</Value>
@@ -89,7 +80,6 @@
 				<Category>UI:Weapon Radial</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_radial_cardinal_angle</Name>
 			<Value>35</Value>
@@ -98,7 +88,6 @@
 				<Category>UI:Weapon Radial</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_radial_highlight_time_ms</Name>
 			<Value>1250</Value> <!--From 2500-->
@@ -107,7 +96,6 @@
 				<Category>UI:Weapon Radial</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_radial_quick_switch_time_ms</Name>
 			<Value>150</Value> <!--From 175-->
@@ -116,7 +104,6 @@
 				<Category>UI:Weapon Radial</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_radial_next_prev_delay_ms</Name>
 			<Value>0</Value> <!--From 250-->
@@ -125,7 +112,6 @@
 				<Category>UI:Weapon Radial</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Magoo_banner_fade_time_sec</Name>
 			<Value>5.0</Value>
@@ -134,7 +120,6 @@
 				<Category>UI:Banner</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Magoo_sub_banner_fade_time_sec</Name>
 			<Value>15.0</Value>
@@ -143,7 +128,6 @@
 				<Category>UI:Banner</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Animated_general_mover_debris_damage_multiplier</Name>
 			<Value>1</Value>
@@ -151,7 +135,6 @@
 				<Category>Miscellaneous:Anim Rig Damage</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_screen_radius_percent</Name>
 			<Value>0.25</Value>
@@ -160,7 +143,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_fade_speed_ms</Name>
 			<Value>3000</Value> <!--From 2500-->
@@ -169,7 +151,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_max_damage_intensity</Name>
 			<Value>100.0</Value>
@@ -178,7 +159,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_flash_speed_ms</Name>
 			<Value>500</Value> <!--From 350-->
@@ -187,7 +167,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_flash_scale_percent</Name>
 			<Value>1.50</Value>
@@ -196,7 +175,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_flash_travel_percent</Name>
 			<Value>0.75</Value>
@@ -205,7 +183,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_minor_scale</Name>
 			<Value>0.5</Value>
@@ -214,7 +191,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_minor_flash_speed_ms</Name>
 			<Value>500</Value> <!--From 250-->
@@ -223,7 +199,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_minor_flash_scale_percent</Name>
 			<Value>0.5</Value>
@@ -232,7 +207,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hit_indicator_2d_minor_flash_travel_percent</Name>
 			<Value>0.0</Value>
@@ -241,7 +215,6 @@
 				<Category>UI:2D Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Grunt_melee_prob</Name>
 			<Value>0.16</Value> <!--From 0.08-->
@@ -250,7 +223,6 @@
 				<Category>AI:Grunt</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_radius</Name>
 			<Value>50.0</Value>
@@ -259,7 +231,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_radius_in_vehicle</Name>
 			<Value>75.0</Value>
@@ -268,7 +239,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_scissor_region_buffer</Name>
 			<Value>15</Value>
@@ -277,7 +247,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_button_show_delay_ms</Name>
 			<Value>500</Value>
@@ -286,7 +255,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_player_hit_effects_delay_ms</Name>
 			<Value>0</Value> <!--From 200-->
@@ -295,7 +263,6 @@
 				<Category>Weapons:Effects Throttling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_npc_hit_effects_delay_ms</Name>
 			<Value>0</Value> <!--From 200-->
@@ -304,7 +271,6 @@
 				<Category>Weapons:Effects Throttling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_tracer_density_decay</Name>
 			<Value>0</Value> <!--From 4-->
@@ -313,7 +279,6 @@
 			</_Editor>
 			<Description>The rate at which the "density" of recent NPC tracers will decay per second.  (NOTE: Every time a tracer is created, the "density" goes up by 1)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_tracer_throttle_start_density</Name>
 			<Value>99</Value> <!--From 5.0-->
@@ -322,7 +287,6 @@
 			</_Editor>
 			<Description>The "density" of recent NPC tracers before effects should be throttled.  The chance to create a tracer goes from 100% to 0% from Weapon_tracer_throttle_start_density to Weapon_tracer_throttle_max_density.  (NOTE: Every time a tracer is created, the "density" goes up by 1)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_tracer_throttle_max_density</Name>
 			<Value>99</Value> <!--From 10.0-->
@@ -331,7 +295,6 @@
 			</_Editor>
 			<Description>The "density" of recent NPC tracers before effects should stop being created.  The chance to create a tracer goes from 100% to 0% from Weapon_tracer_throttle_start_density to Weapon_tracer_throttle_max_density.  (NOTE: Every time a tracer is created, the "density" goes up by 1)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_muzzle_flash_density_decay</Name>
 			<Value>0</Value> <!--From 8.0-->
@@ -340,7 +303,6 @@
 			</_Editor>
 			<Description>The rate at which the "density" of recent NPC muzzle flashes will decay per second.  (NOTE: Every time a muzzle flash is created, the "density" goes up by 1)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_muzzle_flash_throttle_start_density</Name>
 			<Value>99</Value> <!--From 5.0-->
@@ -349,7 +311,6 @@
 			</_Editor>
 			<Description>The "density" of recent NPC muzzle flashes before effects should be throttled.  The chance to create a muzzle flash goes from 100% to 0% from Weapon_muzzle_flash_throttle_start_density to Weapon_muzzle_flash_throttle_max_density.  (NOTE: Every time a muzzle flash is created, the "density" goes up by 1)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_muzzle_flash_throttle_max_density</Name>
 			<Value>99</Value> <!--From 10.0-->
@@ -358,7 +319,6 @@
 			</_Editor>
 			<Description>The "density" of recent NPC muzzle flashes before effects should stop being created.  The chance to create a muzzle flash goes from 100% to 0% from Weapon_muzzle_flash_throttle_start_density to Weapon_muzzle_flash_throttle_max_density.  (NOTE: Every time a muzzle flash is created, the "density" goes up by 1)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_3d_indicator_min_pitch</Name>
 			<Value>-25</Value>
@@ -367,7 +327,6 @@
 				<Category>Miscellaneous:3d Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Nanoforge_activation_delay_ms</Name>
 			<Value>300</Value>
@@ -376,7 +335,6 @@
 				<Category>Miscellaneous:Nanoforge</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Creeper_heavy_attack_cooldown</Name>
 			<Value>4.0</Value>
@@ -385,7 +343,6 @@
 				<Category>AI:Creepers</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_health_restore_wait_time_ms</Name>
 			<Value>3000</Value> <!--From 4000-->
@@ -394,7 +351,6 @@
 			</_Editor>
 			<Description>The number of milliseconds the player must go without taking damage before they begin to regenerate health.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambusher_cloaked_voice_min_time</Name>
 			<Value>10000</Value>
@@ -403,7 +359,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambusher_cloaked_voice_max_time</Name>
 			<Value>16000</Value>
@@ -412,7 +367,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambusher_cloaked_voice_radius</Name>
 			<Value>40</Value>
@@ -421,7 +375,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambusher_stalker_inner_radius</Name>
 			<Value>35</Value>
@@ -430,7 +383,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambusher_stalker_outer_radius</Name>
 			<Value>50</Value>
@@ -439,7 +391,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_salvage</Name>
 			<Value>999999</Value>
@@ -448,7 +399,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_spawn_prob_factor</Name>
 			<Value>10.0</Value> <!--From 5.0-->
@@ -457,7 +407,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_spawn_dead_prob</Name>
 			<Value>1.0</Value> <!--From 0.25-->
@@ -466,7 +415,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_touch_delay_ms</Name>
 			<Value>500</Value> <!--From 1000-->
@@ -475,7 +423,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_deletion_delay_ms</Name>
 			<Value>300000</Value> <!--From 30000--> <!--Changed to 5 minutes-->
@@ -484,7 +431,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_pickup_distance</Name>
 			<Value>3.0</Value>
@@ -493,7 +439,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_preplaced_pickup_distance</Name>
 			<Value>1.0</Value>
@@ -502,7 +447,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_preplaced_pickup_distance_in_exo</Name>
 			<Value>3.0</Value>
@@ -511,7 +455,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_vehicle_pickup_distance</Name>
 			<Value>5.0</Value>
@@ -520,7 +463,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier2_purchases_required</Name>
 			<Value>0</Value>
@@ -529,7 +471,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier3_purchases_required</Name>
 			<Value>0</Value>
@@ -538,7 +479,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier4_purchases_required</Name>
 			<Value>0</Value>
@@ -547,7 +487,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier2_completion_percent_required</Name>
 			<Value>.21</Value>
@@ -556,7 +495,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier3_completion_percent_required</Name>
 			<Value>.45</Value>
@@ -565,7 +503,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier4_completion_percent_required</Name>
 			<Value>.73</Value>
@@ -574,7 +511,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Armored_explosion_damage_modifier</Name>
 			<Value>0.65</Value>
@@ -583,7 +519,6 @@
 				<Category>Weapons:Armor and Shields</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Shielded_explosion_crouching_damage_modifier</Name>
 			<Value>0.4</Value>
@@ -592,7 +527,6 @@
 				<Category>Weapons:Armor and Shields</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Shielded_explosion_crouching_radius_modifier</Name>
 			<Value>0.8</Value>
@@ -601,7 +535,6 @@
 				<Category>Weapons:Armor and Shields</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Shielded_explosion_damage_modifier</Name>
 			<Value>0.8</Value>
@@ -610,7 +543,6 @@
 				<Category>Weapons:Armor and Shields</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Shielded_explosion_radius_modifier</Name>
 			<Value>0.9</Value>
@@ -619,7 +551,6 @@
 				<Category>Weapons:Armor and Shields</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Excavator_player_damage</Name>
 			<Value>500</Value>
@@ -628,7 +559,6 @@
 				<Category>Miscellaneous:Custom Objects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_vehicle_falling_multiplier</Name>
 			<Value>1.0</Value>
@@ -637,7 +567,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Object_collision_camera_shake_player_multiplier</Name>
 			<Value>0</Value> <!--From 1-->
@@ -645,7 +574,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Object_collision_camera_shake_vehicle_multiplier</Name>
 			<Value>0</Value> <!--From 1-->
@@ -653,7 +581,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Object_collision_camera_shake_exo_multiplier</Name>
 			<Value>0</Value> <!--From 1-->
@@ -661,7 +588,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Stress_camera_shake_player_multiplier</Name>
 			<Value>0</Value> <!--From 1-->
@@ -669,7 +595,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Stress_camera_shake_vehicle_multiplier</Name>
 			<Value>0</Value> <!--From 1-->
@@ -677,7 +602,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Stress_camera_shake_exo_multiplier</Name>
 			<Value>0</Value> <!--From 1-->
@@ -685,7 +609,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_turret_fineaim_multiplier</Name>
 			<Value>0.3</Value>
@@ -693,7 +616,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Recoil_recover_rate</Name>
 			<Value>2.5</Value>
@@ -701,7 +623,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Recoil_recover_max_rate_per_frame</Name>
 			<Value>1.0</Value>
@@ -709,7 +630,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ruin_mode_camera_shake_multiplier</Name>
 			<Value>0</Value> <!--From .1-->
@@ -717,7 +637,6 @@
 				<Category>Camera</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>General_mover_collision_damage_cutoff</Name>
 			<Value>20</Value>
@@ -726,7 +645,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>General_mover_collision_damage_multiplier</Name>
 			<Value>10</Value>
@@ -735,7 +653,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_walker_collision_damage_threshold</Name>
 			<Value>20</Value>
@@ -744,7 +661,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_collision_damage_threshold</Name>
 			<Value>20</Value>
@@ -753,7 +669,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Collision_damage_multiplier</Name>
 			<Value>0.0004</Value>
@@ -762,7 +677,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_explosion_linear_impulse_scalar</Name>
 			<Value>1.2</Value>
@@ -771,7 +685,6 @@
 			</_Editor>
 			<Description>Scalar for impulses applied to a flyer from explosions.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_explosion_angular_impulse_scalar</Name>
 			<Value>0.15</Value>
@@ -780,7 +693,6 @@
 			</_Editor>
 			<Description>Scalar for impulses applied to a flyer from explosions.  Mostly needed for Gauss Rifle.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_damage_force_scalar</Name>
 			<Value>1.0</Value>
@@ -789,7 +701,6 @@
 			</_Editor>
 			<Description>Generic scalar used to adjust domain of damage forces</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_max_forward_slip_no_shift</Name>
 			<Value>3</Value>
@@ -798,16 +709,14 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_pct</Name>
-			<Value>99999</Value> <!--From 1.0-->
+			<Value>11562</Value> <!--From 1.0-->
 			<Description>Minimum fade percentage for NPCs near the camera.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_tire_track_max_dist_from_track</Name>
 			<Value>0.05</Value>
@@ -816,7 +725,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tire_track_decal_fade_multiplier</Name>
 			<Value>0.000001</Value> <!--From 0.5-->
@@ -825,7 +733,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tire_tracks_fade_rate</Name>
 			<Value>0.000001</Value> <!--From 0.0005-->
@@ -834,7 +741,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_camera_shake_mass_large</Name>
 			<Value>8000</Value>
@@ -843,7 +749,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_camera_shake_mass_small</Name>
 			<Value>1500</Value>
@@ -852,7 +757,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_tire_track_reuse_track_dist_factor</Name>
 			<Value>0.3</Value>
@@ -861,7 +765,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_tire_track_min_direction_dot_prod</Name>
 			<Value>0.9</Value>
@@ -870,7 +773,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_min_forward_slip_velocity</Name>
 			<Value>3</Value>
@@ -879,7 +781,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_min_side_slip_velocity</Name>
 			<Value>6</Value>
@@ -888,7 +789,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_brake_max_volume_velocity</Name>
 			<Value>15</Value>
@@ -897,7 +797,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_light_brake_max_slip_velocity</Name>
 			<Value>9</Value>
@@ -906,7 +805,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_motion_foley_full_volume_wheel_velocity</Name>
 			<Value>25</Value>
@@ -915,7 +813,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_motion_effect_min_vehicle_velocity</Name>
 			<Value>5</Value>
@@ -924,7 +821,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_motion_effect_min_wheel_velocity</Name>
 			<Value>1</Value>
@@ -933,7 +829,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Horn_cooldown_period_max_ms</Name>
 			<Value>15000</Value>
@@ -942,7 +837,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Horn_cooldown_period_min_ms</Name>
 			<Value>10000</Value>
@@ -951,7 +845,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_period_max_ms</Name>
 			<Value>2000</Value>
@@ -960,7 +853,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_period_min_ms</Name>
 			<Value>500</Value>
@@ -969,7 +861,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_prob</Name>
 			<Value>0.2</Value>
@@ -978,7 +869,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_kill_taunt_chance</Name>
 			<Value>100</Value> <!--From 50-->
@@ -987,7 +877,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_heavy_vehicle_always_cower_chance</Name>
 			<Value>25</Value>
@@ -996,7 +885,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_no_fall_back_chance</Name>
 			<Value>40</Value>
@@ -1005,7 +893,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_flee_to_safe_building_chance</Name>
 			<Value>15</Value>
@@ -1014,7 +901,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Running_player_footstep_sound_dist</Name>
 			<Value>5.0</Value> <!--From 10.0-->
@@ -1023,7 +909,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_bbox_dim</Name>
 			<Value>0.25</Value>
@@ -1032,7 +917,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Object_cost_building_per_volume</Name>
 			<Value>0.0005</Value>
@@ -1041,7 +925,6 @@
 				<Category>Miscellaneous:Object Costs</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_melee_max_turn_rate</Name>
 			<Value>2.5</Value>
@@ -1050,7 +933,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_melee_turn_distance</Name>
 			<Value>3.75</Value>
@@ -1059,7 +941,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_melee_turn_time</Name>
 			<Value>0.3</Value>
@@ -1068,7 +949,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_melee_turn_angle</Name>
 			<Value>0.785</Value>
@@ -1077,7 +957,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Civilian_avoid_player_thrown_weapon_dist</Name>
 			<Value>3.0</Value>
@@ -1086,7 +965,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_green</Name>
 			<Value>4</Value> <!--From 2-->
@@ -1094,7 +972,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_yellow</Name>
 			<Value>4</Value> <!--From 2-->
@@ -1102,7 +979,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_orange</Name>
 			<Value>6</Value> <!--From 3-->
@@ -1110,7 +986,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_red</Name>
 			<Value>8</Value> <!--From 4-->
@@ -1118,7 +993,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_killed_civilian_morale_delta</Name>
 			<Value>-3</Value>
@@ -1126,7 +1000,6 @@
 				<Category>Human Death Penalties</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_killed_guerilla_morale_delta</Name>
 			<Value>-3</Value>
@@ -1134,7 +1007,6 @@
 				<Category>Human Death Penalties</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_killed_guerilla_raid_morale_delta</Name>
 			<Value>-3</Value>
@@ -1143,7 +1015,6 @@
 				<Category>Human Death Penalties</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>EDF_killed_civilian_morale_delta</Name>
 			<Value>-2</Value>
@@ -1151,7 +1022,6 @@
 				<Category>Human Death Penalties</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>EDF_killed_guerilla_morale_delta</Name>
 			<Value>-1</Value>
@@ -1159,7 +1029,6 @@
 				<Category>Human Death Penalties</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ladder_move_speed</Name>
 			<Value>7.0</Value> <!--From 2.0--> <!--Old 4.0-->
@@ -1167,7 +1036,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ladder_mp_move_speed</Name>
 			<Value>4.0</Value>
@@ -1176,7 +1044,6 @@
 			</_Editor>
 			<Description>Not actually used.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_max_rounds</Name>
 			<Value>99</Value>
@@ -1185,7 +1052,6 @@
 			</_Editor>
 			<Description>Not actually used.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Grinder_sound_loop_pitch_min</Name>
 			<Value>-0.4</Value>
@@ -1194,7 +1060,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Grinder_sound_loop_pitch_max</Name>
 			<Value>0.4</Value>
@@ -1203,7 +1068,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Grinder_sound_charge_pitch_min</Name>
 			<Value>-0.4</Value>
@@ -1212,7 +1076,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Grinder_sound_charge_pitch_max</Name>
 			<Value>0.4</Value>
@@ -1221,7 +1084,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Lost_los_report_period_ms</Name>
 			<Value>30000</Value>
@@ -1230,7 +1092,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_bullet_flight_sound_radius</Name>
 			<Value>3.0</Value>
@@ -1239,7 +1100,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_respawn_invulnerability_time_ms</Name>
 			<Value>2000</Value> <!--From 5000-->
@@ -1248,7 +1108,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_max_time_limit_minutes</Name>
 			<Value>100</Value>
@@ -1257,7 +1116,6 @@
 			</_Editor>
 			<Description>Not actually used.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Npc_bullet_flight_sound_radius</Name>
 			<Value>3.0</Value>
@@ -1266,7 +1124,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_friendly_fire</Name>
 			<Value>1.0</Value> <!--From 0.4-->
@@ -1275,7 +1132,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_offscreen</Name>
 			<Value>1.0</Value> <!--From 0.15-->
@@ -1284,7 +1140,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_onscreen</Name>
 			<Value>1.0</Value> <!--From 0.4-->
@@ -1293,7 +1148,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_reduced</Name>
 			<Value>0.0</Value> <!--From 0.1-->
@@ -1302,7 +1156,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_vehicle</Name>
 			<Value>1.0</Value> <!--From 0.2-->
@@ -1311,7 +1164,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_collision_damage_multiplier</Name>
 			<Value>0.333</Value>
@@ -1320,7 +1172,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_vehicle_collision_speed_low</Name>
 			<Value>7.0</Value>
@@ -1328,7 +1179,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_vehicle_collision_normal_velocity_factor</Name>
 			<Value>0.5</Value>
@@ -1336,7 +1186,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_vehicle_collision_speed_high</Name>
 			<Value>30.0</Value>
@@ -1344,7 +1193,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_vehicle_collision_flinch_vehicle_speed</Name>
 			<Value>3.0</Value>
@@ -1352,7 +1200,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_head_multiplier</Name>
 			<Value>1.5</Value>
@@ -1361,7 +1208,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_falling_multiplier</Name>
 			<Value>1.5</Value>
@@ -1370,7 +1216,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_damage_speed_max</Name>
 			<Value>20.0</Value>
@@ -1379,7 +1224,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_damage_min</Name>
 			<Value>15.0</Value>
@@ -1388,7 +1232,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_stumble_min</Name>
 			<Value>45.0</Value>
@@ -1397,7 +1240,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_ragdoll_min</Name>
 			<Value>120.0</Value>
@@ -1406,7 +1248,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_collision_stumble_min</Name>
 			<Value>45.0</Value>
@@ -1415,7 +1256,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_collision_ragdoll_min</Name>
 			<Value>600.0</Value>
@@ -1424,7 +1264,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_max_player_inherited_speed</Name>
 			<Value>10.0</Value>
@@ -1433,7 +1272,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_ragdoll_collision_ragdoll_min</Name>
 			<Value>35.0</Value>
@@ -1442,7 +1280,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_push_away_rvec_factor</Name>
 			<Value>100.0</Value>
@@ -1451,7 +1288,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_collision_player_push_human_speed</Name>
 			<Value>2.5</Value>
@@ -1460,7 +1296,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Repair_range</Name>
 			<Value>30.0</Value> <!--From 2.5-->
@@ -1469,7 +1304,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Repair_radius</Name>
 			<Value>3.5</Value> <!--From 1.6-->
@@ -1478,7 +1312,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_react_cooldown_sec</Name>
 			<Value>7.5</Value> <!--From 15-->
@@ -1487,7 +1320,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_react_cooldown_sec</Name>
 			<Value>10</Value> <!--From 20-->
@@ -1496,7 +1328,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Npc_destruction_release_threshold</Name>
 			<Value>0</Value> <!--From .25-->
@@ -1505,16 +1336,14 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_ambusher_effect_distance</Name>
-			<Value>99999</Value> <!--From 40-->
+			<Value>11562</Value> <!--From 40-->
 			<Description>Maximum distance away from an ambusher the player can get before we turn off the effect</Description>
 			<_Editor>
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Leap_attack_max_attackers</Name>
 			<Value>16</Value> <!--From 4-->
@@ -1523,7 +1352,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monster_closet_ramp_in_sec</Name>
 			<Value>0</Value> <!--From 1-->
@@ -1532,7 +1360,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monster_closet_ramp_out_sec</Name>
 			<Value>0</Value> <!--From 4-->
@@ -1541,7 +1368,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monster_closet_up_time_sec</Name>
 			<Value>0.5</Value>
@@ -1550,7 +1376,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monster_closet_exit_probability</Name>
 			<Value>0.5</Value>
@@ -1559,7 +1384,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Combat_reposition_distance</Name>
 			<Value>15.0</Value> <!--From 10.0-->
@@ -1568,7 +1392,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambush_flare_distance</Name>
 			<Value>6</Value> <!--From 4-->
@@ -1577,7 +1400,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Advance_flanking_spread</Name>
 			<Value>10</Value> <!--From 7.5-->
@@ -1586,7 +1408,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Advance_flanking_min_dist</Name>
 			<Value>20.0</Value> <!--From 15.0-->
@@ -1595,7 +1416,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Pod_heavy_landing_distance</Name>
 			<Value>3.0</Value>
@@ -1604,7 +1424,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Pod_birth_land_distance</Name>
 			<Value>1.5</Value>
@@ -1613,7 +1432,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Npc_use_incline_blend_tree_dist</Name>
 			<Value>80.0</Value>
@@ -1622,7 +1440,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fame_num_missions_completed</Name>
 			<Value>8</Value>
@@ -1631,7 +1448,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_player_damage_factor</Name>
 			<Value>0.5</Value>
@@ -1640,7 +1456,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_voice_morale_boost_chance</Name>
 			<Value>33</Value>
@@ -1649,7 +1464,6 @@
 				<Category>AI:Voice</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_voice_team_specific_chance</Name>
 			<Value>50</Value>
@@ -1658,7 +1472,6 @@
 				<Category>AI:Voice</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Autoaim_radius</Name>
 			<Value>0.10</Value> <!--From 0.05-->
@@ -1667,7 +1480,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Melee_running_distance</Name>
 			<Value>1.5</Value>
@@ -1676,7 +1488,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_min_ramming_damage_factor</Name>
 			<Value>0.75</Value>
@@ -1685,7 +1496,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_max_ramming_damage_factor</Name>
 			<Value>4.0</Value>
@@ -1694,7 +1504,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_enemy_player_name_min_dot</Name>
 			<Value>1.000</Value> <!--From 0.994-->
@@ -1703,7 +1512,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_enemy_player_name_crouching_min_dot</Name>
 			<Value>1.000</Value> <!--From 0.999-->
@@ -1712,7 +1520,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Sequential_damage_time</Name>
 			<Value>3000</Value>
@@ -1721,7 +1528,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Sequential_damage_factor</Name>
 			<Value>0</Value> <!--From 0.6-->
@@ -1730,7 +1536,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_large_flinch_damage</Name>
 			<Value>29</Value>
@@ -1739,7 +1544,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_large_flinch_damage</Name>
 			<Value>30</Value>
@@ -1748,7 +1552,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_death_salvage_percent_kept</Name>
 			<Value>0.5</Value> <!--From 0.0-->
@@ -1757,7 +1560,6 @@
 				<Category>Human Death Penalties</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Object_cost_vehicle</Name>
 			<Value>0.15</Value>
@@ -1766,7 +1568,6 @@
 				<Category>Miscellaneous:Object Costs</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Object_cost_human</Name>
 			<Value>0.1</Value>
@@ -1775,7 +1576,6 @@
 				<Category>Miscellaneous:Object Costs</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Object_cost_turret</Name>
 			<Value>0.05</Value>
@@ -1784,7 +1584,6 @@
 				<Category>Miscellaneous:Object Costs</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_radius</Name>
 			<Value>0.5</Value>
@@ -1793,7 +1592,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Blood_splatter_decal_max_dist</Name>
 			<Value>99999</Value> <!--From 30-->
@@ -1802,7 +1600,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist</Name>
 			<Value>99999</Value> <!--From 15-->
@@ -1811,7 +1608,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist_player</Name>
 			<Value>99999</Value> <!--From 50-->
@@ -1820,7 +1616,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_size_variation</Name>
 			<Value>0.2</Value> <!--From 0.1-->
@@ -1829,7 +1624,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_autoaim_max_distance</Name>
 			<Value>99999</Value> <!--From 50.0-->
@@ -1838,7 +1632,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_autoaim_angle_bias</Name>
 			<Value>300.0</Value>
@@ -1847,7 +1640,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_length_low</Name>
 			<Value>50</Value> <!--From 35-->
@@ -1856,7 +1648,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_length_low_spotted</Name>
 			<Value>100</Value> <!--From 80-->
@@ -1865,7 +1656,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_length_high</Name>
 			<Value>60</Value> <!--From 45-->
@@ -1874,7 +1664,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_length_high_spotted</Name>
 			<Value>110</Value> <!--From 90-->
@@ -1883,7 +1672,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_width</Name>
 			<Value>190</Value> <!--From 150-->
@@ -1892,7 +1680,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_width_spotted</Name>
 			<Value>190</Value>
@@ -1901,7 +1688,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_height</Name>
 			<Value>190</Value> <!--From 80-->
@@ -1910,7 +1696,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_height_spotted</Name>
 			<Value>190</Value> <!--From 140-->
@@ -1919,7 +1704,6 @@
 				<Category>AI:Perception</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Rubberbanding_minimum_score</Name>
 			<Value>21474836</Value> <!--From 40-->
@@ -1928,7 +1712,6 @@
 			</_Editor>
 			<Description>Rubberbanding is not fully applied until the leader has this much XP.  At lower amounts the rubberbanding is scaled.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_remote_charge_panic_chance</Name>
 			<Value>75</Value>
@@ -1937,7 +1720,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Civilian_always_flee_edf_chance</Name>
 			<Value>15</Value>
@@ -1945,7 +1727,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Civilian_freeze_cower_chance</Name>
 			<Value>30</Value>
@@ -1954,7 +1735,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Civilian_stand_up_to_edf_chance</Name>
 			<Value>25</Value>
@@ -1963,7 +1743,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_autoaim_min_dp</Name>
 			<Value>0.98</Value>
@@ -1972,7 +1751,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_autoaim_extra_dp</Name>
 			<Value>0.05</Value>
@@ -1981,7 +1759,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_autoaim_close_distance</Name>
 			<Value>10.0</Value>
@@ -1990,7 +1767,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_autoaim_close_dp</Name>
 			<Value>0.97</Value>
@@ -1999,7 +1775,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_turning_sound_min_delta</Name>
 			<Value>5</Value>
@@ -2008,7 +1783,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_spawn_with_shotgun_chance</Name>
 			<Value>50</Value>
@@ -2017,7 +1791,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_removes_attached_projectile_time</Name>
 			<Value>3600</Value> <!--30 Minutes--> <!--From 10-->
@@ -2026,7 +1799,6 @@
 				<Category>AI:Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_reuse_turret_after_death_time</Name>
 			<Value>15</Value>
@@ -2035,7 +1807,6 @@
 				<Category>AI:Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_chassis_minimum_impact_low</Name>
 			<Value>10</Value>
@@ -2043,7 +1814,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_chassis_minimum_impact_high</Name>
 			<Value>60</Value>
@@ -2051,7 +1821,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_chassis_maximum_impact_high</Name>
 			<Value>200</Value>
@@ -2059,7 +1828,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_chassis_linear_stress_scale</Name>
 			<Value>0.5</Value>
@@ -2067,7 +1835,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_chassis_angular_stress_scale</Name>
 			<Value>0.5</Value>
@@ -2075,7 +1842,6 @@
 				<Category>Vehicles:Audio</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_fov_deg</Name>
 			<Value>40</Value>
@@ -2084,7 +1850,6 @@
 			</_Editor>
 			<Description>camera fov::Talk to DaveB before changing this.::</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_player_move_multiplier_side</Name>
 			<Value>1.00</Value> <!--From 0.85-->
@@ -2093,7 +1858,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_follow_player_chance</Name>
 			<Value>50</Value>
@@ -2102,7 +1866,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_cycle_flee_behavior_flee_time</Name>
 			<Value>6</Value>
@@ -2111,25 +1874,22 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_dist</Name>
-			<Value>99999</Value> <!--From 0.0-->
+			<Value>11562</Value> <!--From 0.0-->
 			<Description>Distance from the camera at which NPCs reach the minimum fade percent.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>99999</Value> <!--From 0.6-->
+			<Value>11562</Value> <!--From 0.6-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Default_jump_height</Name>
 			<Value>1.32</Value> <!--From 1.2-->
@@ -2138,7 +1898,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Default_jump_height_sprint</Name>
 			<Value>1.32</Value> <!--From 1.0-->
@@ -2147,7 +1906,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_fall_gravity_modifier</Name>
 			<Value>1.25</Value> <!--From 1.0-->
@@ -2156,7 +1914,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_ragdoll_on_wheels_speed</Name>
 			<Value>0.5</Value>
@@ -2165,7 +1922,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_damage_force_speed_scalar</Name>
 			<Value>2.0</Value>
@@ -2174,7 +1930,6 @@
 			</_Editor>
 			<Description>Scalar used for damage force when speed goes above watermark</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_damage_force_speed_mark</Name>
 			<Value>3.0</Value>
@@ -2183,7 +1938,6 @@
 			</_Editor>
 			<Description>Watermark for applying speed scalar (meters per second)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_wind_force_scalar</Name>
 			<Value>0.01</Value>
@@ -2192,7 +1946,6 @@
 			</_Editor>
 			<Description>Scalar between wind speed and force</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_hover_noise_length</Name>
 			<Value>0.5</Value>
@@ -2201,7 +1954,6 @@
 			</_Editor>
 			<Description>Base length of hover noise sphere (Radis in meters)</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_default_urgency</Name>
 			<Value>0.6</Value>
@@ -2210,7 +1962,6 @@
 			</_Editor>
 			<Description>default urgency scalar.  Valid values are 0.0 to 1.0</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_min_lookat_vel_sq</Name>
 			<Value>6.0</Value>
@@ -2219,7 +1970,6 @@
 			</_Editor>
 			<Description>if no lookat is current and the flyer is going at least this fast, the lookat will be the travel direction.  In square m/s.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_guerrilla_conversion_dist</Name>
 			<Value>12</Value>
@@ -2228,7 +1978,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_raid_prob</Name>
 			<Value>0.5</Value>
@@ -2237,7 +1986,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Civilian_max_wounded_hp_pct</Name>
 			<Value>75</Value>
@@ -2246,7 +1994,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_weapon_refire_delay</Name>
 			<Value>1000</Value>
@@ -2255,7 +2002,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_weapon_angle</Name>
 			<Value>60</Value>
@@ -2264,7 +2010,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_weapon_launch_dist</Name>
 			<Value>50</Value>
@@ -2273,7 +2018,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Control_tread_side_zone_dot</Name>
 			<Value>0.95</Value>
@@ -2282,7 +2026,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Control_tread_accl_dead_zone_dot</Name>
 			<Value>0.80</Value>
@@ -2291,7 +2034,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Control_tread_steer_dead_zone_dot</Name>
 			<Value>0.30</Value>
@@ -2300,7 +2042,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Control_tread_dead_zone_turn_mag</Name>
 			<Value>0.60</Value>
@@ -2309,7 +2050,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_wheel_projectile_detach_speed</Name>
 			<Value>0.25</Value>
@@ -2318,7 +2058,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_landing_friction_min_airborne_time</Name>
 			<Value>250</Value>
@@ -2327,7 +2066,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_landing_friction_full_damp_time</Name>
 			<Value>100</Value>
@@ -2336,7 +2074,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_landing_friction_ramp_damp_time</Name>
 			<Value>100</Value>
@@ -2345,7 +2082,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_landing_friction_full_damp_ratio</Name>
 			<Value>.50</Value>
@@ -2354,7 +2090,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll</Name>
 			<Value>400</Value>
@@ -2363,7 +2098,6 @@
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_threshold</Name>
 			<Value>75</Value>
@@ -2372,7 +2106,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_expire_time</Name>
 			<Value>20</Value>
@@ -2381,7 +2114,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_vert_damp</Name>
 			<Value>.5</Value>
@@ -2390,7 +2122,6 @@
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_turret</Name>
 			<Value>900</Value>
@@ -2399,7 +2130,6 @@
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_vert_damp_turret</Name>
 			<Value>.35</Value>
@@ -2408,7 +2138,6 @@
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_cam_input_vel_mag</Name>
 			<Value>35</Value>
@@ -2417,7 +2146,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_cam_input_zoom_vel_mag</Name>
 			<Value>10</Value>
@@ -2426,7 +2154,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_cam_max_acc_mag</Name>
 			<Value>4</Value>
@@ -2435,7 +2162,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_cam_max_heading_acc</Name>
 			<Value>0.0009</Value>
@@ -2444,7 +2170,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_cam_height</Name>
 			<Value>50</Value>
@@ -2453,7 +2178,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_cam_zoom_height</Name>
 			<Value>30</Value>
@@ -2462,7 +2186,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Control_handbrake_min_speed_sq</Name>
 			<Value>25</Value>
@@ -2471,7 +2194,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Edf_notice_player_with_obvious_weapon_dist</Name>
 			<Value>3.0</Value>
@@ -2480,7 +2202,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Sniper_attack_player_chance</Name>
 			<Value>25</Value>
@@ -2489,7 +2210,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Sniper_prefer_enemy_y_dist</Name>
 			<Value>1.5</Value>
@@ -2498,7 +2218,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Sniper_prefer_enemy_xz_dist</Name>
 			<Value>7.5</Value>
@@ -2507,7 +2226,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_armored_passenger_explosion_damage_multiplier</Name>
 			<Value>.2</Value>
@@ -2516,7 +2234,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_passenger_explosion_damage_multiplier</Name>
 			<Value>.5</Value>
@@ -2525,7 +2242,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_cycle_flee_behavior_hide_time</Name>
 			<Value>12</Value>
@@ -2534,7 +2250,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Excavator_radial_damage_vel_scalar</Name>
 			<Value>3</Value>
@@ -2543,7 +2258,6 @@
 				<Category>Miscellaneous:Custom Objects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Excavator_tangent_damage_vel_scalar</Name>
 			<Value>6</Value>
@@ -2552,7 +2266,6 @@
 				<Category>Miscellaneous:Custom Objects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Excavator_stop_blade_force</Name>
 			<Value>10000</Value>
@@ -2561,7 +2274,6 @@
 				<Category>Miscellaneous:Custom Objects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Highlight_max_color_multiplier</Name>
 			<Value>.3</Value>
@@ -2570,7 +2282,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Highlight_min_color_multiplier</Name>
 			<Value>.05</Value>
@@ -2579,7 +2290,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Highlight_color_multiplier_change_per_sec</Name>
 			<Value>2</Value>
@@ -2588,7 +2298,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_small_angle</Name>
 			<Value>0.15</Value>
@@ -2597,7 +2306,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_camera_recenter_rate</Name>
 			<Value>0.5</Value>
@@ -2606,7 +2314,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_predictive_adjust</Name>
 			<Value>0.5</Value>
@@ -2615,7 +2322,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glass_min_radial_decals</Name>
 			<Value>1</Value> <!--From 2-->
@@ -2624,7 +2330,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glass_max_radial_decals</Name>
 			<Value>1</Value> <!--From 3-->
@@ -2633,7 +2338,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glass_radial_decal_prob</Name>
 			<Value>100</Value> <!--From 75-->
@@ -2642,7 +2346,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_alpha</Name>
 			<Value>1.0</Value> <!--From 0.5-->
@@ -2651,7 +2354,6 @@
 				<Category>Miscellaneous:Decals</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_melee_structure_multiplier</Name>
 			<Value>1.75</Value> <!--From 2.0-->
@@ -2660,7 +2362,6 @@
 			</_Editor>
 			<Description>Multiply's melee damage in muliplayer</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_downed_damage_cost_per_second</Name>
 			<Value>0</Value>
@@ -2669,7 +2370,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_vehicle_collision_damage_max</Name>
 			<Value>150</Value>
@@ -2678,7 +2378,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_mover_collision_damage_min</Name>
 			<Value>50</Value>
@@ -2687,7 +2386,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_mover_collision_damage_max</Name>
 			<Value>500</Value>
@@ -2696,7 +2394,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Character_mover_collision_scaled_damage_duration_ms</Name>
 			<Value>500</Value>
@@ -2705,7 +2402,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_mover_collision_damage_min</Name>
 			<Value>50</Value>
@@ -2714,7 +2410,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_mover_collision_damage_max</Name>
 			<Value>400</Value>
@@ -2723,7 +2418,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_ambient_walk_speed_pct</Name>
 			<Value>80</Value>
@@ -2732,7 +2426,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_ambient_walk_speed_pct</Name>
 			<Value>120</Value>
@@ -2741,7 +2434,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_target_player_in_walker_dist</Name>
 			<Value>20.0</Value>
@@ -2750,7 +2442,6 @@
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_reuse_turret_after_ineffective_time</Name>
 			<Value>8</Value>
@@ -2759,7 +2450,6 @@
 				<Category>AI:Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_emergency_lights_blink_time</Name>
 			<Value>0.5</Value>
@@ -2768,7 +2458,6 @@
 				<Category>Vehicles:Effects</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_gue_on_fire_panic_chance</Name>
 			<Value>50</Value>
@@ -2777,7 +2466,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_civ_on_fire_panic_chance</Name>
 			<Value>80</Value>
@@ -2786,7 +2474,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_mar_on_fire_panic_chance</Name>
 			<Value>20</Value>
@@ -2795,7 +2482,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_edf_on_fire_panic_chance</Name>
 			<Value>10</Value>
@@ -2804,7 +2490,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_default_on_fire_panic_chance</Name>
 			<Value>20</Value>
@@ -2813,7 +2498,6 @@
 				<Category>AI:Behavioral Persona</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Bullet_flyby_sound_dist</Name>
 			<Value>10</Value> <!--From 5-->
@@ -2822,7 +2506,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_guerilla_bonus</Name>
 			<Value>1.5</Value>
@@ -2831,7 +2514,6 @@
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_ragdoll_on_vehicle_speed</Name>
 			<Value>8.04672</Value>
@@ -2840,7 +2522,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_ragdoll_on_vehicle_rotation</Name>
 			<Value>2.0</Value>
@@ -2849,7 +2530,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_jump_movement_modifier</Name>
 			<Value>1.0</Value> <!--From 0.9-->
@@ -2858,7 +2538,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_jump_turn_multiplier</Name>
 			<Value>1.0</Value> <!--From 0.225-->
@@ -2867,7 +2546,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Falling_wind_speed_increase_mult</Name>
 			<Value>3</Value>
@@ -2876,7 +2554,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Falling_wind_speed_max_increase</Name>
 			<Value>30</Value>
@@ -2885,7 +2562,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_engine_peel_min_accelerator</Name>
 			<Value>0.8</Value>
@@ -2894,7 +2570,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_engine_peel_accelerator_cutoff</Name>
 			<Value>0.3</Value>
@@ -2903,7 +2578,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_engine_peel_rpm_buffer</Name>
 			<Value>50</Value>
@@ -2912,7 +2586,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Automobile_engine_peel_max_speed_sq</Name>
 			<Value>25</Value>
@@ -2921,7 +2594,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Control_vehicle_face_button_max</Name>
 			<Value>0.3</Value>
@@ -2930,7 +2602,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Thermo_mid_air_detonation_delay_ms</Name>
 			<Value>500</Value>
@@ -2939,7 +2610,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Usable_object_facing_dot_prod_min</Name>
 			<Value>0.4</Value>
@@ -2948,7 +2618,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_activation_delay_ms</Name>
 			<Value>1500</Value>
@@ -2957,7 +2626,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_detonation_delay_ms</Name>
 			<Value>600</Value>
@@ -2966,7 +2634,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_radius</Name>
 			<Value>3</Value>
@@ -2975,7 +2642,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_vehicle_radius</Name>
 			<Value>4.5</Value>
@@ -2984,7 +2650,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_walk_advance_max_dist</Name>
 			<Value>50</Value>
@@ -2993,7 +2658,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_walk_advance_max_chance</Name>
 			<Value>0.75</Value>
@@ -3002,7 +2666,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_walk_advance_min_chance</Name>
 			<Value>0.0</Value>
@@ -3011,7 +2674,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Marauder_walk_advance_min_dist</Name>
 			<Value>10</Value>
@@ -3020,7 +2682,6 @@
 				<Category>AI:Marauders</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_morale_lost_dist</Name>
 			<Value>30.0</Value>
@@ -3029,7 +2690,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_turret_smooth</Name>
 			<Value>15.0</Value>
@@ -3038,7 +2698,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_default_max_vel_mag</Name>
 			<Value>340.0</Value>
@@ -3047,7 +2706,6 @@
 			</_Editor>
 			<Description>default max velocity in m/s.340 is about MACH 1</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_gunner_explosion_damage_modifier</Name>
 			<Value>0.5</Value>
@@ -3056,7 +2714,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Satellite_cam_max_acc_mag_seek</Name>
 			<Value>12</Value>
@@ -3065,7 +2722,6 @@
 				<Category>Camera:Satellite</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ai_reuse_turret_after_nearby_explosive</Name>
 			<Value>10</Value>
@@ -3074,7 +2730,6 @@
 				<Category>AI:Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>SB_initial_falloff</Name>
 			<Value>100000</Value>
@@ -3083,7 +2738,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>SB_full_falloff</Name>
 			<Value>300000</Value>
@@ -3092,7 +2746,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>SB_initial_falloff_wc</Name>
 			<Value>400000</Value>
@@ -3101,7 +2754,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>SB_full_falloff_wc</Name>
 			<Value>1000000</Value>
@@ -3110,16 +2762,14 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_simultaneous_proxies</Name>
-			<Value>65</Value> <!--From 30-->
+			<Value>30</Value>
 			<Description>Maximum number of proximity mines that can be out in the world at any given time. The game will crash if more than 128 projectiles (total, not just proxies) are placed, so this tweakable value represents the number at which we start deleting old proxies.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>RPG_locking_target_min_dot_prod</Name>
 			<Value>2.00</Value> <!--From 0.97-->
@@ -3128,7 +2778,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>RPG_locked_target_min_dot_prod</Name>
 			<Value>2.0</Value> <!--From 0.8-->
@@ -3137,7 +2786,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Control_vehicle_analog_min</Name>
 			<Value>0.05</Value>
@@ -3146,7 +2794,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Turret_vehicle_turning_sound_min_delta</Name>
 			<Value>15</Value>
@@ -3155,7 +2802,6 @@
 				<Category>Weapons:Turret</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_vehicle_fov</Name>
 			<Value>75.0</Value> <!--From 54.0-->
@@ -3164,7 +2810,6 @@
 				<Category>Camera:Fade</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>base_score_penalty_for_having_played</Name>
 			<Value>50</Value>
@@ -3173,7 +2818,6 @@
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>base_score_penalty_fade_increment_for_having_played</Name>
 			<Value>5</Value>
@@ -3182,7 +2826,6 @@
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>base_score_penalty_for_vetoing</Name>
 			<Value>100</Value>
@@ -3191,7 +2834,6 @@
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>base_score_penalty_fade_increment_for_vetoing</Name>
 			<Value>10</Value>
@@ -3200,7 +2842,6 @@
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>score_penalty_for_same_level_as_veto</Name>
 			<Value>500</Value>
@@ -3209,7 +2850,6 @@
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>score_penalty_for_same_mode_as_veto</Name>
 			<Value>500</Value>
@@ -3218,7 +2858,6 @@
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>score_penalty_for_mismatched_dlc</Name>
 			<Value>500</Value>
@@ -3227,7 +2866,6 @@
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hero_system_invulnerable_delay_ms</Name>
 			<Value>500</Value>
@@ -3236,7 +2874,6 @@
 				<Category>Miscellaneous:Hero System</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>VIP_spawn_probability</Name>
 			<Value>0.8</Value>
@@ -3245,7 +2882,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_vehicle_detonation_delay_ms</Name>
 			<Value>200</Value>
@@ -3254,7 +2890,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_vehicle_detonation_vel</Name>
 			<Value>15.0</Value>
@@ -3263,7 +2898,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_melee_heavy_armor</Name>
 			<Value>0.6</Value>
@@ -3272,7 +2906,6 @@
 				<Category>Weapons:Armor and Shields</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_player_damage_friendly</Name>
 			<Value>0.0</Value> <!--From 0.3-->
@@ -3281,7 +2914,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Explosion_occlusion_damage_multiplier</Name>
 			<Value>0.15</Value>
@@ -3290,7 +2922,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Cruise_system_enabled</Name>
 			<Value>0</Value>
@@ -3299,7 +2930,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Cruise_slow_down_rate</Name>
 			<Value>0.5</Value>
@@ -3308,7 +2938,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Cruise_slow_down_min_speed</Name>
 			<Value>0.5</Value>
@@ -3317,7 +2946,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_electrocution_pause_s</Name>
 			<Value>5.0</Value>
@@ -3325,7 +2953,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_electrocute_recovery_hp_per_sec</Name>
 			<Value>300</Value>
@@ -3333,7 +2960,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_electrocution_near_dead_pct</Name>
 			<Value>0.3</Value>
@@ -3342,7 +2968,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_electrocution_reusable_pct</Name>
 			<Value>0.5</Value>
@@ -3351,7 +2976,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Photometer_turn_off_level</Name>
 			<Value>.1</Value>
@@ -3360,7 +2984,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Photometer_turn_on_level</Name>
 			<Value>.1</Value>
@@ -3369,7 +2992,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Radial_sticky_time_ms</Name>
 			<Value>1000</Value> <!--From 750-->
@@ -3378,7 +3000,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_turn_speed</Name>
 			<Value>8.5</Value> <!--From 3.4-->
@@ -3387,7 +3008,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_turn_acceleration</Name>
 			<Value>50</Value>
@@ -3396,7 +3016,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_quick_turn_input</Name>
 			<Value>0.95</Value>
@@ -3405,7 +3024,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_quick_turn_acceleration</Name>
 			<Value>3.5</Value>
@@ -3414,7 +3032,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_turn_dead_zone</Name>
 			<Value>0.0</Value> <!--From 0.2-->
@@ -3423,7 +3040,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ragdoll_angle_of_impact_speed_mult</Name>
 			<Value>1.0</Value>
@@ -3432,7 +3048,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_max_sprint_speed</Name>
 			<Value>8.5</Value> <!--From 7.5-->
@@ -3441,7 +3056,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Wrecking_crew_max_movement_speed_override</Name>
 			<Value>8.5</Value> <!--From 7.5-->
@@ -3450,7 +3064,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_toggle_cutoff_stick_throw</Name>
 			<Value>0.6</Value>
@@ -3459,7 +3072,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_toggle_cutoff_delay_ms</Name>
 			<Value>150</Value>
@@ -3468,7 +3080,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ledge_detect_fixed_ground_check_dist</Name>
 			<Value>0.35</Value>
@@ -3477,7 +3088,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ledge_detect_downward_probe_dist</Name>
 			<Value>2.4</Value>
@@ -3486,7 +3096,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ledge_detect_add_velocity_factor</Name>
 			<Value>0.0</Value>
@@ -3495,7 +3104,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ledge_detect_locked_movement_check_radius</Name>
 			<Value>1.0</Value>
@@ -3504,7 +3112,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ledge_detect_locked_movement_duration_ms</Name>
 			<Value>600</Value>
@@ -3513,7 +3120,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_forced_walk_speed</Name>
 			<Value>2.0</Value>
@@ -3522,7 +3128,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_forced_walk_camera_speed_mult</Name>
 			<Value>1.0</Value>
@@ -3531,7 +3136,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_decay_rate</Name>
 			<Value>0</Value> <!--From 0.25-->
@@ -3540,7 +3144,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_regen_delay_ms</Name>
 			<Value>0</Value> <!--From 4000-->
@@ -3549,7 +3152,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_regen_rate</Name>
 			<Value>0</Value> <!--From 100.0-->
@@ -3558,7 +3160,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_min_activate_amount</Name>
 			<Value>0</Value> <!--From 0.05-->
@@ -3567,7 +3168,6 @@
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Exo_smoke_start_health_percent</Name>
 			<Value>0.5</Value>
@@ -3575,7 +3175,6 @@
 				<Category>Vehicles:Exo</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Exo_fire_start_health_percent</Name>
 			<Value>0.1</Value>
@@ -3583,7 +3182,6 @@
 				<Category>Vehicles:Exo</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Exo_fire_damage_per_second</Name>
 			<Value>200</Value>
@@ -3591,7 +3189,6 @@
 				<Category>Vehicles:Exo</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Exo_electricity_start_health_percent</Name>
 			<Value>0.25</Value>
@@ -3599,7 +3196,6 @@
 				<Category>Vehicles:Exo</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Exo_electricity_max_delay_s</Name>
 			<Value>1.0</Value>
@@ -3607,7 +3203,6 @@
 				<Category>Vehicles:Exo</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Exo_electricity_min_delay_s</Name>
 			<Value>0.2</Value>
@@ -3615,7 +3210,6 @@
 				<Category>Vehicles:Exo</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Melee_exo_running_distance</Name>
 			<Value>2.15</Value>
@@ -3624,7 +3218,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Melee_rear_attack_damage_multiplier</Name>
 			<Value>2.0</Value> <!--From 1.0-->
@@ -3633,7 +3226,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_melee_delay_ms</Name>
 			<Value>0</Value>
@@ -3642,7 +3234,6 @@
 				<Category>Melee</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_horizontal_leap_cooldown</Name>
 			<Value>16.0</Value> <!--From 8.0-->
@@ -3651,7 +3242,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_horizontal_leap_cooldown</Name>
 			<Value>24.0</Value> <!--From 12.0-->
@@ -3660,7 +3250,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Leap_node_death_cooldown</Name>
 			<Value>8.0</Value> <!--From 4.0-->
@@ -3669,7 +3258,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Photometer_turn_off_time</Name>
 			<Value>.01</Value>
@@ -3678,7 +3266,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Photometer_turn_on_time</Name>
 			<Value>.01</Value>
@@ -3687,7 +3274,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tutorial_delay_between_messages_ms</Name>
 			<Value>500</Value>
@@ -3696,7 +3282,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_fall_movement_modifier</Name>
 			<Value>0.75</Value> <!--From 0.05-->
@@ -3705,7 +3290,6 @@
 				<Category>Movement:Falling</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_sprint_autocenter_delay_s</Name>
 			<Value>1.5</Value>
@@ -3714,7 +3298,6 @@
 				<Category>Camera:Sprint Auto-Center</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_sprint_autocenter_min_speed</Name>
 			<Value>0.5</Value>
@@ -3723,7 +3306,6 @@
 				<Category>Camera:Sprint Auto-Center</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_sprint_autocenter_max_speed</Name>
 			<Value>5.0</Value>
@@ -3732,7 +3314,6 @@
 				<Category>Camera:Sprint Auto-Center</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_sprint_autocenter_elevation</Name>
 			<Value>0.15</Value>
@@ -3741,7 +3322,6 @@
 				<Category>Camera:Sprint Auto-Center</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_sprint_autocenter_heading_deadzone</Name>
 			<Value>0.3</Value>
@@ -3750,7 +3330,6 @@
 				<Category>Camera:Sprint Auto-Center</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_intensity_default_min</Name>
 			<Value>1.00</Value> <!--From .75-->
@@ -3759,7 +3338,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_ambush_intensity_percent</Name>
 			<Value>1.0</Value> <!--From 0.4-->
@@ -3768,7 +3346,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_duration_default_pulse</Name>
 			<Value>1000</Value> <!--From 750-->
@@ -3777,7 +3354,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_intensity_flicker_on_hit</Name>
 			<Value>15</Value> <!--From 7.5-->
@@ -3786,7 +3362,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_duration_flicker_on_hit</Name>
 			<Value>4000</Value> <!--From 2000-->
@@ -3795,7 +3370,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_frequency_flicker_on_hit</Name>
 			<Value>300</Value> <!--From 150-->
@@ -3804,7 +3378,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_kamikaze_intensity_start</Name>
 			<Value>15.0</Value> <!--From 6.0-->
@@ -3813,7 +3386,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_kamikaze_intensity_end</Name>
 			<Value>50.0</Value> <!--From 40.0-->
@@ -3822,7 +3394,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_intensity_pulse_decay</Name>
 			<Value>0.33</Value> <!--From 0.66-->
@@ -3831,7 +3402,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_pod_before_spawn_duration</Name>
 			<Value>4000</Value> <!--From 2000-->
@@ -3840,7 +3410,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_pod_spawn_intensity_max</Name>
 			<Value>15.0</Value> <!--From 10.0-->
@@ -3849,7 +3418,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Screen_transition_control_lock_time_ms</Name>
 			<Value>250</Value>
@@ -3858,7 +3426,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_hold_delay</Name>
 			<Value>4000</Value> <!--From 2000-->
@@ -3867,7 +3434,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_throw_cooldown</Name>
 			<Value>4000</Value> <!--From 2000-->
@@ -3876,7 +3442,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_gambit_chance</Name>
 			<Value>0.2</Value>
@@ -3885,7 +3450,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_gambit_charge_time</Name>
 			<Value>8000</Value> <!--From 4000-->
@@ -3894,7 +3458,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_building_optimal_distance</Name>
 			<Value>16</Value> <!--From 8-->
@@ -3903,7 +3466,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_grab_maximum_distance</Name>
 			<Value>10</Value> <!--From 20-->
@@ -3912,7 +3474,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_smallest_ammo_size</Name>
 			<Value>1.0</Value> <!--From 1.5-->
@@ -3921,7 +3482,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Behemoth_avoid_ammo_time</Name>
 			<Value>20000</Value> <!--From 10000--> <!--20 seconds now-->
@@ -3930,7 +3490,6 @@
 				<Category>AI:Behemoth</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Follow_player_light_offset_x</Name>
 			<Value>0</Value>
@@ -3938,7 +3497,6 @@
 				<Category>Lights</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambient_player_light_offset_z</Name>
 			<Value>0</Value>
@@ -3946,7 +3504,6 @@
 				<Category>Lights</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambush_land_distance</Name>
 			<Value>24</Value> <!--From 12-->
@@ -3955,7 +3512,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Follow_player_light_offset_y</Name>
 			<Value>20</Value>
@@ -3963,7 +3519,6 @@
 				<Category>Lights</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Follow_player_light_offset_z</Name>
 			<Value>0</Value>
@@ -3971,7 +3526,6 @@
 				<Category>Lights</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambient_player_light_offset_x</Name>
 			<Value>0</Value>
@@ -3979,7 +3533,6 @@
 				<Category>Lights</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambient_player_light_offset_y</Name>
 			<Value>20</Value>
@@ -3987,7 +3540,6 @@
 				<Category>Lights</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Global_remote_delay_ms</Name>
 			<Value>0</Value> <!--From 400-->
@@ -3996,7 +3548,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Projectile_npc_owned_no_collide_duration_ms</Name>
 			<Value>0</Value> <!--From 100-->
@@ -4005,7 +3556,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>General_mover_repair_rate</Name> <!--General movers are structures etc-->
 			<Value>6000</Value> <!--From 4000-->
@@ -4014,7 +3564,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_pickup_distance</Name>
 			<Value>1.6</Value> <!--From 1.5-->
@@ -4023,7 +3572,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ammo_pickup_distance</Name>
 			<Value>1.6</Value> <!--From 1.5-->
@@ -4032,7 +3580,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Stalker_min_range</Name>
 			<Value>7.5</Value> <!--From 15-->
@@ -4041,7 +3588,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Stalker_max_range</Name>
 			<Value>20</Value> <!--From 40-->
@@ -4050,7 +3596,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Stalk_period_sec</Name>
 			<Value>120</Value> <!--From 60-->
@@ -4059,7 +3604,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambush_screech_prob</Name>
 			<Value>1.0</Value> <!--From 0.5-->
@@ -4068,7 +3612,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimum_ambush_period</Name>
 			<Value>8</Value> <!--From 4-->
@@ -4077,7 +3620,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimum_ambush_node_flee_period</Name>
 			<Value>2</Value> <!--From 1-->
@@ -4086,7 +3628,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambusher_insta_kill_value</Name>
 			<Value>250</Value> <!--From 500-->
@@ -4095,7 +3636,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_health_restore_per_second</Name>
 			<Value>480</Value> <!--From 240-->
@@ -4104,7 +3644,6 @@
 			</_Editor>
 			<Description>The number of hit points that the player regains per second.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_health_restore_sprint_regen_mod</Name>
 			<Value>1.00</Value> <!--From .75-->
@@ -4113,7 +3652,6 @@
 			</_Editor>
 			<Description>While the player is sprinting, Player_health_restore_per_second is multiplied by this value.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Creeper_heavy_attack_leap_percent</Name>
 			<Value>0.06</Value>
@@ -4122,7 +3660,6 @@
 				<Category>AI:Creepers</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Creeper_support_attack_min_delay</Name>
 			<Value>30.0</Value> <!--From 15-->
@@ -4131,7 +3668,6 @@
 				<Category>AI:Creepers</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Creeper_support_attack_max_delay</Name>
 			<Value>40.0</Value> <!--From 20-->
@@ -4140,7 +3676,6 @@
 				<Category>AI:Creepers</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_attacking_creepers</Name>
 			<Value>6</Value> <!--From 3-->
@@ -4149,7 +3684,6 @@
 				<Category>AI:Creepers</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Creeper_support_mobility</Name>
 			<Value>0.50</Value> <!--From 0.85-->
@@ -4158,7 +3692,6 @@
 				<Category>AI:Creepers</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_duration_ramp_up_on_hit</Name>
 			<Value>125</Value> <!--From 250-->
@@ -4167,7 +3700,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_intensity_default_max</Name>
 			<Value>6.0</Value> <!--From 3.-->
@@ -4176,7 +3708,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_duration_death_fade_out</Name>
 			<Value>2000</Value> <!--From 1000-->
@@ -4185,7 +3716,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_shape_radius</Name>
 			<Value>2.0</Value>
@@ -4194,7 +3724,6 @@
 				<Category>Vehicles:Flyer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_attack_angles</Name>
 			<Value>8</Value> <!--From 5-->
@@ -4203,7 +3732,6 @@
 				<Category>AI:Creepers</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hero_system_cooldown_delay_ms</Name>
 			<Value>10000</Value>
@@ -4212,7 +3740,6 @@
 				<Category>Miscellaneous:Hero System</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hero_system_player_world_collide_max_health_multiplier</Name>
 			<Value>2.0</Value>
@@ -4221,7 +3748,6 @@
 				<Category>Miscellaneous:Hero System</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_kamikaze_lighting</Name>
 			<Value>1.0</Value> <!--From 0.0-->
@@ -4230,7 +3756,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_hold_delay</Name>
 			<Value>1250</Value>
@@ -4239,7 +3764,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_throw_cooldown</Name>
 			<Value>5000</Value>
@@ -4248,7 +3772,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_gambit_chance</Name>
 			<Value>0.4</Value>
@@ -4257,7 +3780,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_gambit_charge_time</Name>
 			<Value>4000</Value>
@@ -4266,7 +3788,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_gambit_cooldown</Name>
 			<Value>12000</Value>
@@ -4275,7 +3796,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_building_optimal_distance</Name>
 			<Value>8</Value>
@@ -4284,7 +3804,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_grab_maximum_distance</Name>
 			<Value>25</Value>
@@ -4293,7 +3812,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_grab_minimum_distance</Name>
 			<Value>4</Value>
@@ -4302,7 +3820,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_smallest_ammo_size</Name>
 			<Value>3.0</Value>
@@ -4311,7 +3828,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_lost_contact_time</Name>
 			<Value>5000</Value>
@@ -4320,7 +3836,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_turning_speed</Name>
 			<Value>180</Value>
@@ -4329,7 +3844,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_melee_damage_distance</Name>
 			<Value>7.0</Value>
@@ -4338,7 +3852,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_melee_attack_distance</Name>
 			<Value>4.0</Value>
@@ -4347,7 +3860,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_melee_damage</Name>
 			<Value>300.0</Value>
@@ -4356,7 +3868,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_melee_pushback</Name>
 			<Value>6.0</Value>
@@ -4365,7 +3876,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_melee_pushup</Name>
 			<Value>6.0</Value>
@@ -4374,7 +3884,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_melee_cooldown</Name>
 			<Value>5000</Value>
@@ -4383,7 +3892,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_quick_reaction_multiplier</Name>
 			<Value>2.0</Value>
@@ -4392,7 +3900,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_flinch_min_damage</Name>
 			<Value>100.0</Value>
@@ -4401,7 +3908,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_flinch_max_damage</Name>
 			<Value>400.0</Value>
@@ -4410,7 +3916,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_taunt_chance</Name>
 			<Value>0.4</Value>
@@ -4419,7 +3924,6 @@
 				<Category>AI:Tentacle</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Leash_dist_short</Name>
 			<Value>30</Value>
@@ -4428,7 +3932,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Leash_dist_medium</Name>
 			<Value>50</Value>
@@ -4437,7 +3940,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Leash_dist_large</Name>
 			<Value>70</Value>
@@ -4446,7 +3948,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Leash_dist_clear</Name>
 			<Value>10</Value>
@@ -4455,7 +3956,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>flyer_collision_camera_shake_scalar</Name>
 			<Value>0.0</Value> <!--From 500.0-->
@@ -4464,7 +3964,6 @@
 				<Category>Vehicles:Flyer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_charge_distance</Name>
 			<Value>40.0</Value>
@@ -4473,7 +3972,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_tank_charge_cooldown_ms</Name>
 			<Value>6000</Value> <!--From 3000-->
@@ -4482,7 +3980,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_tank_charge_cooldown_ms</Name>
 			<Value>16000</Value> <!--From 800-->
@@ -4491,7 +3988,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_tank_charge_intensity_end</Name>
 			<Value>15</Value> <!--From 5-->
@@ -4500,7 +3996,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_tank_charge_duration_brighten</Name>
 			<Value>750</Value> <!--From 500-->
@@ -4509,7 +4004,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_tank_charge_lighting</Name>
 			<Value>1.0</Value> <!--From 0.0-->
@@ -4518,7 +4012,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_weakpoint_damage_threshold</Name>
 			<Value>25000</Value> <!--From 50000-->
@@ -4527,7 +4020,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Unstealth_warning_range</Name>
 			<Value>20</Value> <!--From 10-->
@@ -4536,7 +4028,6 @@
 				<Category>Miscellaneous:3d Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_3d_indicator_hit_duration_ms</Name>
 			<Value>4000</Value> <!--From 2000-->
@@ -4545,7 +4036,6 @@
 				<Category>Miscellaneous:3d Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Unstealth_warning_duration_ms</Name>
 			<Value>10000</Value> <!--From 5000-->
@@ -4554,7 +4044,6 @@
 				<Category>Miscellaneous:3d Hit Indicator</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_downed_life_time_ms</Name>
 			<Value>20000</Value> <!--From 25000--> <!--Now 20 seconds-->
@@ -4563,7 +4052,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_pitch_speed</Name>
 			<Value>1.4</Value>
@@ -4571,7 +4059,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_pitch_acceleration</Name>
 			<Value>4</Value>
@@ -4579,7 +4066,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_pitch_speed_max</Name>
 			<Value>5</Value>
@@ -4587,7 +4073,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_heading_speed</Name>
 			<Value>3.4</Value>
@@ -4595,7 +4080,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_heading_acceleration</Name>
 			<Value>7</Value>
@@ -4603,7 +4087,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_heading_speed_max</Name>
 			<Value>11</Value>
@@ -4611,7 +4094,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_scope_multiplier</Name>
 			<Value>.3</Value>
@@ -4619,7 +4101,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_fineaim_multiplier</Name>
 			<Value>0.3</Value>
@@ -4627,7 +4108,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Camera_first_person_sprint_multiplier</Name>
 			<Value>1.0</Value>
@@ -4635,7 +4115,6 @@
 				<Category>Camera:First Person</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_pod_after_spawn_duration</Name>
 			<Value>1600</Value> <!--From 800-->
@@ -4644,7 +4123,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_height_adjustment_limit</Name>
 			<Value>3.0</Value>
@@ -4653,7 +4131,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_blip_pulse_duration_ms</Name>
 			<Value>250</Value>
@@ -4662,7 +4139,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_blip_pulse_max_scale</Name>
 			<Value>2.0</Value>
@@ -4671,7 +4147,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_blip_pulse_count</Name>
 			<Value>2</Value>
@@ -4680,7 +4155,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Walker_laser_mode_start_delay</Name>
 			<Value>1500</Value>
@@ -4689,7 +4163,6 @@
 				<Category>AI:Light_walker</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Light_walker_shockwave_dist</Name>
 			<Value>10.0</Value>
@@ -4697,7 +4170,6 @@
 				<Category>AI:Light_walker</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_charge_finish_dist</Name>
 			<Value>7.0</Value>
@@ -4706,7 +4178,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Light_walker_min_weapon_dist_vehicle_override</Name>
 			<Value>30</Value>
@@ -4714,7 +4185,6 @@
 				<Category>AI:Light_walker</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Light_walker_max_weapon_dist_vehicle_override</Name>
 			<Value>50</Value>
@@ -4722,7 +4192,6 @@
 				<Category>AI:Light_walker</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_aim_assist_offset_min</Name>
 			<Value>0.1</Value>
@@ -4730,7 +4199,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_aim_assist_offset_max</Name>
 			<Value>1.0</Value>
@@ -4738,7 +4206,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Pod_aim_assist_offset_min</Name>
 			<Value>0.1</Value>
@@ -4746,7 +4213,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Pod_aim_assist_offset_max</Name>
 			<Value>1.0</Value>
@@ -4754,7 +4220,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_aim_assist_offset_min</Name>
 			<Value>0.2</Value>
@@ -4762,7 +4227,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vehicle_aim_assist_offset_max</Name>
 			<Value>3.0</Value>
@@ -4770,7 +4234,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_icon_oval_x_radius</Name>
 			<Value>540.0</Value>
@@ -4779,7 +4242,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_icon_oval_y_radius</Name>
 			<Value>360.0</Value>
@@ -4788,7 +4250,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_icon_min_scale</Name>
 			<Value>0.75</Value>
@@ -4797,7 +4258,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_player_revive_flash_interval_ms</Name>
 			<Value>500</Value> <!--From 750-->
@@ -4806,7 +4266,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_player_revive_flash_max_scale</Name>
 			<Value>2.0</Value>
@@ -4815,7 +4274,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_icon_scale_min_radius</Name>
 			<Value>10.0</Value>
@@ -4824,7 +4282,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_icon_scale_max_radius</Name>
 			<Value>50.0</Value>
@@ -4833,7 +4290,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Goon_npc_count_threshold_default</Name>
 			<Value>999</Value> <!--From 8-->
@@ -4842,7 +4298,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Grunt_melee_charge_distance</Name>
 			<Value>15.0</Value> <!--From 30.0-->
@@ -4851,7 +4306,6 @@
 				<Category>AI:Grunt</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_blip_pulse_min_scale</Name>
 			<Value>0.5</Value>
@@ -4860,7 +4314,6 @@
 			</_Editor>
 			<Description>Min scale the pulse can be before disappearing.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_blip_pulse_alpha</Name>
 			<Value>0.75</Value>
@@ -4869,7 +4322,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_blip_pulse_range_cutoff</Name>
 			<Value>0.95</Value>
@@ -4878,7 +4330,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Minimap_player_revive_flash_min_scale</Name>
 			<Value>0.25</Value>
@@ -4887,7 +4338,6 @@
 				<Category>UI:Minimap</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_icon_scale_max_radius_in_vehicle</Name>
 			<Value>100.0</Value>
@@ -4896,7 +4346,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>MP_overhead_player_name_scale</Name>
 			<Value>1.00</Value> <!--From 0.65-->
@@ -4905,7 +4354,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>MP_overhead_player_icon_scale</Name>
 			<Value>1.00</Value> <!--From 0.75-->
@@ -4914,7 +4362,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>MP_overhead_player_name_min_alpha</Name>
 			<Value>170</Value>
@@ -4923,7 +4370,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_icon_y_adjustment</Name>
 			<Value>0.2</Value>
@@ -4932,7 +4378,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_pixel_overlap</Name>
 			<Value>20</Value>
@@ -4941,7 +4386,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_spacing_small</Name>
 			<Value>20</Value>
@@ -4950,7 +4394,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_spacing_medium</Name>
 			<Value>100</Value>
@@ -4959,7 +4402,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_spacing_large</Name>
 			<Value>250</Value>
@@ -4968,7 +4410,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_spacing_huge</Name>
 			<Value>500</Value>
@@ -4977,7 +4418,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Off_hand_weapon_refire_delay</Name>
 			<Value>500</Value> <!--From 1000-->
@@ -4986,25 +4426,22 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_default_distance_min</Name>
-			<Value>99999</Value> <!--From 30-->
+			<Value>11562</Value> <!--From 30-->
 			<Description>Distance at which the lod glow modifier goes into effect.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_default_distance_max</Name>
-			<Value>99999</Value> <!--From 150-->
+			<Value>11562</Value> <!--From 150-->
 			<Description>Distance at which the lod glow modifier reaches it's cap.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Glow_legion_default_distance_modifier_cap</Name>
 			<Value>3.0</Value>
@@ -5013,7 +4450,6 @@
 				<Category>Miscellaneous:Legion Glow</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Combat_taunt_prob</Name>
 			<Value>0.35</Value>
@@ -5022,7 +4458,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Liquid_thrower_leading_amount</Name>
 			<Value>0.5</Value> <!--From 0.0-->
@@ -5031,7 +4466,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Weapon_locker_pickup_ammo_mult</Name>
 			<Value>1.0</Value>
@@ -5039,7 +4473,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Vamp_auto_revive_health_percent</Name>
 			<Value>0.1</Value>
@@ -5048,7 +4481,6 @@
 				<Category>Miscellaneous:Nanoforge</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_charge_min_distance</Name>
 			<Value>15.0</Value> <!--From 10.0-->
@@ -5057,7 +4489,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_charge_smash_distance</Name>
 			<Value>8.0</Value>
@@ -5066,7 +4497,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_charge_turn_rate_slow</Name>
 			<Value>0.3</Value>
@@ -5075,7 +4505,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_charge_turn_rate_fast</Name>
 			<Value>0.45</Value>
@@ -5084,7 +4513,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_fast_turn_dist</Name>
 			<Value>25.0</Value>
@@ -5093,7 +4521,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hero_health_bias</Name>
 			<Value>1.0</Value>
@@ -5102,7 +4529,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Critical_area_countdown_time_ms</Name>
 			<Value>21474836</Value> <!--From 10000-->
@@ -5111,7 +4537,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Critical_area_notice_delay_time_ms</Name>
 			<Value>2000</Value>
@@ -5120,7 +4545,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_tick_angle_degrees</Name>
 			<Value>60</Value> <!--From 45-->
@@ -5129,7 +4553,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_tick_min_alpha_percent</Name>
 			<Value>1.00</Value> <!--From 0.25-->
@@ -5138,7 +4561,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_tick_max_alpha_percent</Name>
 			<Value>1.0</Value> <!--From 0.5-->
@@ -5147,7 +4569,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_vert_angle_range_degrees</Name>
 			<Value>90</Value> <!--From 30-->
@@ -5156,7 +4577,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_vert_sticky_angle</Name>
 			<Value>10</Value>
@@ -5165,7 +4585,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_default_display_delay_ms</Name>
 			<Value>5000</Value>
@@ -5174,7 +4593,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_minimap_lookahead_min_dist</Name>
 			<Value>5</Value>
@@ -5183,7 +4601,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_minimap_lookahead_max_dist</Name>
 			<Value>20</Value>
@@ -5192,7 +4609,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_minimap_lookahead_dist_scalar</Name>
 			<Value>2.0</Value>
@@ -5201,7 +4617,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_arrow_creation_delay_ms</Name>
 			<Value>1000</Value>
@@ -5210,7 +4625,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_arrow_speed</Name>
 			<Value>7.5</Value>
@@ -5219,7 +4633,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Gps_arrows_lookahead_dist</Name>
 			<Value>50.0</Value>
@@ -5228,7 +4641,6 @@
 				<Category>UI:GPS</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Animated_general_mover_explosion_damage_multiplier</Name>
 			<Value>1</Value>
@@ -5236,7 +4648,6 @@
 				<Category>Miscellaneous:Anim Rig Damage</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_blip_clamp_near_dist</Name>
 			<Value>5</Value>
@@ -5245,7 +4656,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_blip_clamp_far_dist</Name>
 			<Value>30</Value>
@@ -5254,7 +4664,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_blip_clamp_near_dist_in_vehicle</Name>
 			<Value>10</Value>
@@ -5263,7 +4672,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_blip_clamp_far_dist_in_vehicle</Name>
 			<Value>60</Value>
@@ -5272,7 +4680,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_blip_min_alpha_percent</Name>
 			<Value>0.5</Value>
@@ -5281,7 +4688,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_blip_min_scale_percent</Name>
 			<Value>0.5</Value>
@@ -5290,7 +4696,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_blip_max_scale_percent</Name>
 			<Value>1</Value>
@@ -5299,7 +4704,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_fov_box_alpha_percent</Name>
 			<Value>0.25</Value>
@@ -5308,7 +4712,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_gps_marker_scale</Name>
 			<Value>0.75</Value>
@@ -5317,7 +4720,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Compass_gps_marker_alpha_percent</Name>
 			<Value>0.50</Value>
@@ -5326,7 +4728,6 @@
 				<Category>UI:Compass</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier2_mp_wave_required</Name>
 			<Value>0</Value> <!--From 7-->
@@ -5335,7 +4736,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier3_mp_wave_required</Name>
 			<Value>0</Value> <!--From 15-->
@@ -5344,7 +4744,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_tier4_mp_wave_required</Name>
 			<Value>23</Value> <!--From 23-->
@@ -5353,7 +4752,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_respec_cost</Name>
 			<Value>0</Value> <!--From 500-->
@@ -5362,7 +4760,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_upgrades_recurring_reminder_salvage</Name>
 			<Value>5000</Value>
@@ -5371,7 +4768,6 @@
 				<Category>Miscellaneous:Salvage/Upgrades</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_self_detonate_distance</Name>
 			<Value>5.0</Value> <!--From 10.00-->
@@ -5380,7 +4776,6 @@
 				<Category>AI:Heavy</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_self_detonate_distance</Name>
 			<Value>10.0</Value>
@@ -5389,7 +4784,6 @@
 				<Category>AI:Heavy</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Max_self_detonate_timeout</Name>
 			<Value>4.0</Value> <!--From 2.0-->
@@ -5398,7 +4792,6 @@
 				<Category>AI:Heavy</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Heavy_melee_charge_distance</Name>
 			<Value>8</Value>
@@ -5407,7 +4800,6 @@
 				<Category>AI:Heavy</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_collision_damage_speed_min</Name>
 			<Value>5.0</Value>
@@ -5416,7 +4808,6 @@
 			</_Editor>
 			<Description>The minimum speed of an object before damage is registered with the tentacle.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Loading_screen_post_cutscene_delay_ms</Name>
 			<Value>0</Value> <!--From 4000-->
@@ -5425,7 +4816,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_combat_taunt_period_sec</Name>
 			<Value>1.5</Value>
@@ -5434,7 +4824,6 @@
 				<Category>AI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_revive_invulnerability_time_ms</Name>
 			<Value>2000</Value> <!--From 6000-->
@@ -5443,7 +4832,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_infestation_pre_wave_delay_ms</Name>
 			<Value>0</Value> <!--From 20000-->
@@ -5451,7 +4839,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Ambusher_effect_timeout_sec</Name>
 			<Value>2000</Value> <!--From 1000-->
@@ -5460,7 +4847,6 @@
 				<Category>AI:Ambusher</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_collision_damage_speed_max</Name>
 			<Value>25.0</Value>
@@ -5469,7 +4855,6 @@
 			</_Editor>
 			<Description>When doing damage to a tentacle from a collision, this is the speed cap for damage calculations.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tentacle_collision_damage_mass_max</Name>
 			<Value>2000.0</Value>
@@ -5478,7 +4863,6 @@
 			</_Editor>
 			<Description>When doing damage to a tentacle from a collision, this is the mass cap for damage calculations.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Human_electrocute_gib_impulse</Name>
 			<Value>50.0</Value>
@@ -5487,7 +4871,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Explosion_gib_ignite_chance</Name>
 			<Value>0.2</Value>
@@ -5496,7 +4879,6 @@
 				<Category>Miscellaneous</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_infestation_tentacle_activation_check_ms</Name>
 			<Value>6000</Value>
@@ -5505,7 +4887,6 @@
 				<Category>Multiplayer:Tentacles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Nano_radial_mask_button_time_ms</Name>
 			<Value>500</Value>
@@ -5514,7 +4895,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Repair_console_objective_fade_distance</Name>
 			<Value>20.0</Value>
@@ -5523,7 +4903,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Salvage_tutorial_min_pickup_value</Name>
 			<Value>20</Value>
@@ -5532,7 +4911,6 @@
 				<Category>UI</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_infestation_post_wave_delay_ms</Name>
 			<Value>0</Value> <!--From 3000-->
@@ -5540,7 +4918,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_infestation_destruction_evaluation_delay_ms</Name>
 			<Value>5000</Value>
@@ -5549,7 +4926,6 @@
 			</_Editor>
 			<Description>How long after an NPC is removed the destruction manager do we re-evaluate troops? Most common reasons we remove an NPC from the destruction manager: they were shot or killed.</Description>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_revive_icon_pulse_min_scale</Name>
 			<Value>0.85</Value>
@@ -5558,7 +4934,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_revive_icon_pulse_cycle_time_ms</Name>
 			<Value>500</Value>
@@ -5567,7 +4942,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_revive_icon_pulse_max_scale</Name>
 			<Value>1.05</Value>
@@ -5576,7 +4950,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Walker_laser_converge_speed</Name>
 			<Value>3.0</Value>
@@ -5585,7 +4958,6 @@
 				<Category>AI:Light_walker</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_pain_damage_minimum</Name>
 			<Value>15</Value>
@@ -5594,7 +4966,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Npc_pain_damage_minimum</Name>
 			<Value>15.0</Value>
@@ -5603,7 +4974,6 @@
 				<Category>Miscellaneous:Collision</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Tank_max_run_and_gun_dist</Name>
 			<Value>30</Value>
@@ -5612,7 +4982,6 @@
 				<Category>AI:Tank</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_num_lives_pool</Name>
 			<Value>8</Value> <!--From 12-->
@@ -5621,7 +4990,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Mp_respawn_delay_time_ms</Name>
 			<Value>2500</Value> <!--From 5000-->
@@ -5630,7 +4998,6 @@
 				<Category>Multiplayer</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monolith_mp_health_mult_1p</Name>
 			<Value>2.0</Value> <!--From 1.5-->
@@ -5638,7 +5005,6 @@
 				<Category>Multiplayer:Monoliths</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monolith_mp_health_mult_2p</Name>
 			<Value>3.0</Value> <!--From 2.5-->
@@ -5646,7 +5012,6 @@
 				<Category>Multiplayer:Monoliths</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monolith_mp_health_mult_4p</Name>
 			<Value>4.5</Value> <!--From 4.0-->
@@ -5654,7 +5019,6 @@
 				<Category>Multiplayer:Monoliths</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Monolith_mp_health_mult_3p</Name>
 			<Value>3.5</Value> <!--From 3.0-->
@@ -5662,7 +5026,6 @@
 				<Category>Multiplayer:Monoliths</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Min_vehicle_checkpoint_health_pct</Name>
 			<Value>0.75</Value>
@@ -5670,7 +5033,6 @@
 				<Category>Vehicles</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_3d_spacing_small</Name>
 			<Value>0.4</Value>
@@ -5679,7 +5041,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_3d_spacing_medium</Name>
 			<Value>3</Value>
@@ -5688,7 +5049,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_3d_spacing_large</Name>
 			<Value>8</Value>
@@ -5697,7 +5057,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_3d_spacing_huge</Name>
 			<Value>15</Value>
@@ -5706,7 +5065,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_min_scale</Name>
 			<Value>0.5</Value>
@@ -5715,7 +5073,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_resize_num_frames</Name>
 			<Value>4</Value>
@@ -5724,7 +5081,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_dist_alpha_diff</Name>
 			<Value>0.25</Value>
@@ -5733,7 +5089,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Hud_bracket_dist_alpha_min</Name>
 			<Value>0.25</Value>
@@ -5742,7 +5097,6 @@
 				<Category>UI:HUD Icons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Continuous_fire_velocity_lock_half_life</Name>
 			<Value>0.0</Value>
@@ -5750,7 +5104,6 @@
 				<Category>Weapons</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-		
 		<Tweak_Table_Entry>
 			<Name>Player_sprint_modifier_cancel_delay_ms</Name>
 			<Value>0</Value> <!--From 150-->

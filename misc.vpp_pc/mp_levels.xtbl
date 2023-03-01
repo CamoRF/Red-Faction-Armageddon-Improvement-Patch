@@ -35,7 +35,7 @@
 			<is_defend_objective>False</is_defend_objective> <!--From True-->
 			<Display_name_uppercase>SURVIVAL DUST</Display_name_uppercase>
 		</mp_level_list>
-<!--END Added-->	
+<!--END-->	
 		<mp_level_list>
 			<Name>mp_inf01</Name>
 			<Filename>mp_inf01</Filename>

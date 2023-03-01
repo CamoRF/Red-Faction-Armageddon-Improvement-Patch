@@ -1,63 +1,66 @@
-----------------------------------------
-To do
-----------------------------------------
+*---------*
+TO DO LIST
+*---------*
 
-Balance
+SINGLEPLAYER
 --------
-* Increase alien spawns in singleplayer - 
-* Balance upgrade unlocks, unlocks should be at 20% instead of 21% at Gondola -
+* Increase alien spawns
+* Balance upgrade unlocks, unlocks should be at 20% instead of 21% at Gondola
 * Reduce fall damage in SP hard mode
-* Nerf Queen (nerf queen beam in weapons.xtbl?) -
-* Nerf hales walker hitpoints - 
-* Nerf bullet sponge cultists; bleed out data in character.xtbl file, weapons can also be rebalanced - 
-* Adjust rubberbounding file - 
-* Balance salvage multipliers -
-* Disable player flinch, landing animations, exo flinch and landing animations to compliment other fast movement changes? - 
-* Add salvage drops to all structures - 
-* Reduce revival speed time, it shouldn't be instant -
-* Increase walking speed of Exo's - 
-* Balance nanoforge_abilities.xtbl -
+* Nerf Queen (nerf queen beam in weapons.xtbl?)
+* Nerf hales walker hitpoints
+* Nerf bullet sponge cultists; bleed out data in character.xtbl file, weapons can also be rebalanced
+* Balance salvage multipliers
 
-Bugs
+MISC
 -----
+* Balance nanoforge_abilities.xtbl
+* Reduce revival speed time, it shouldn't be instant
+* Add salvage drops to all structures
+* Adjust rubberbounding file
+* Add other nanoforge abilities to infestation
+* Test if adding new character entries with player rig allows them to work in MP
+* Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl
+* Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective
+* Night version of Dust Survival
+* spawn_resource.xtbl might use spawn_group_human.xtbl, might be possible to remove the alien that destroys buildings from Dust survival
+* Figure out annoying alien names and add comments
+* Try to add Ruin mode maps to Infestation
 
-* Remake mod using GOG files (cutscene files?) - 
-* Fix typos in help messages like the one about middle clicking to repair "defend" and bad grammar with some others -
-* Add custom strings when possible for map names and map descriptions -
-* Improve sledgehammer animations for Kara -
-* Delete all cutscene, story, quest, mission etc files from formatted and optimized (keep them organized in a sep folder but don't use them) -
+VEHICLES
+---------
+* Disable player flinch, landing animations, exo flinch and landing animations to compliment other fast movement changes?
+* Increase walking speed of Exo's
 
-Features
+
+BUGS
+-----
+* Remake mod using GOG files (cutscene files?)
+* Fix typos in help messages like the one about middle clicking to repair "defend" and bad grammar with some others
+* Add custom strings when possible for map names and map descriptions
+* Improve sledgehammer animations for Kara
+* Delete all cutscene, story, quest, mission etc files from formatted and optimized (keep them organized in a sep folder but don't use them)
+
+WEAPONS
 --------
-* Add other nanoforge abilities to infestation - 
-* Test if adding new character entries with player rig allows them to work in MP - 
-* Fix Kara animations: Line 4855: <Filename>ch_mar_ass_kara.rigx</Filename>, Line 4897:  <Animation_Sets> in character.xtbl - 
-* Harder versions of maps using custom spawn_resource.xtbl entries, placeholder entry added. Dust survival already has a custom entry without the alien that still targets the objective - 
-* Night version of Dust Survival -
-* spawn_resource.xtbl might use spawn_group_human.xtbl, might be possible to remove the alien that destroys buildings from Dust survival -
-* Figure out annoying alien names and add comments - 
-
-Weapons
---------
-* Fix missing full render image for Cultist Rifle in multiplayer (m16) -
-* Decrease recharge rate on lava barge turret - 
-* Decrease banshee pistols recoil and camera recoil very slightly - 
+* Fix missing full render image for Cultist Rifle in multiplayer (m16)
+* Decrease recharge rate on lava barge turret
+* Decrease banshee pistols recoil and camera recoil very slightly
 * Increase banshee pistols ammo
-* Increase overheat rate for lava barge turret - 
-* Increase banshee pistols damage -
-* Cultist AR: Stronger with slower reload and more recoil - 
-* Reduce firing delay on banshee pistols - 
-* Increase repair grenade radius -
-* Increase magnet gun pull radius -
-* Revert no delay on repair grenade and slightly reduce the delay from vanilla values - 
-* Add alien weapons in Ruin mode -
-* Nerf LEO Assault Rifle, does way too much damage. Cooldown etc is good -
-* Mr toots needs to overheat and cooldown -
-* Buff plasma beam damage in multiplayer - 
-* Fix missing full render image for Cultist Rifle in multiplayer (m16) -
+* Increase overheat rate for lava barge turret
+* Increase banshee pistols damage
+* Cultist AR: Stronger with slower reload and more recoil
+* Reduce firing delay on banshee pistols
+* Increase repair grenade radius
+* Increase magnet gun pull radius
+* Revert no delay on repair grenade and slightly reduce the delay from vanilla values
+* Add alien weapons in Ruin mode
+* Nerf LEO Assault Rifle, does way too much damage. Cooldown etc is good
+* Mr toots needs to overheat and cooldown
+* Buff plasma beam damage in multiplayer
+* Fix missing full render image for Cultist Rifle in multiplayer (m16)
 
------
-Test
+TEST
 -----
 * The auto aim seems a bit aggressive with M+KB - wip
 * Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp) - test
@@ -74,8 +77,8 @@ Test
 * Increase assault rifle firerate in singleplayer - wip
 * Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete - test
 
------------
-Low Priorty
+------------
+LOW PRIORITY
 ------------
 * Port DLC weapons to base game - assets ported into items.vpp_pc so far
 * Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done -
@@ -97,7 +100,7 @@ Low Priorty
 * Apply tweaks to DLC -
 
 ----
-Done
+DONE
 ----
 * Fix fading_end in vfx.xtbl
 * Add more weapons to ruin mode 
@@ -139,9 +142,9 @@ Done
 * Continue tweaking bleedout and revive system - 
 * Various improvements to AI behaviour, leaping, Intelligence, evaluation period, melee cooldowns etc
 
-----
-Notes
-----
+-----
+NOTES
+-----
 * Memory pool limit is 12.3208 MB (12320768 bytes)
 * Items.vpp_pc packs fine with DLC weapons added 
 * objective_icon_labels.xtbl, missions.xtbl, quests.xtbl loading_screen.xtbl, cutscene.xtbl, cutscene_cameras.xtbl, loading_tip_text.xtbl and cutscenetable.xtbl possibly break cutscenes when formatted or optimized
