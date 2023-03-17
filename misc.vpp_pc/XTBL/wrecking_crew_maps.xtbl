@@ -32,36 +32,35 @@
 			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
 		</wc_map_list>
 		<wc_map_list>
-			<Name>Desolate</Name>
+			<Name>Frontier</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<file_name>ruin08</file_name>
-			<display_name>RUIN_MAP_08</display_name>
-			<image_name>ui_ruin_05</image_name>
+			<file_name>ruin03</file_name>
+			<display_name>RUIN_MAP_03</display_name>
+			<image_name>ui_ruin_02</image_name>
 			<time_of_day>00:00</time_of_day>
 			<is_locked>False</is_locked> <!--From True-->
 			<total_chaos_round_time_ms>60000</total_chaos_round_time_ms>
-			<scoreboard_index>1</scoreboard_index>
+			<scoreboard_index>4</scoreboard_index>
 			<par_unlocks>
-				<par_score>8000000</par_score>
-				<unlocks_exo>True</unlocks_exo> <!--From False-->
+				<par_score>7500000</par_score>
+				<unlocks_exo>True</unlocks_exo>
 				<WeaponGroup></WeaponGroup>
 				<unlocks_weapons></unlocks_weapons>
-				<max_score_stat>ruin mode - highest score level 08</max_score_stat>
-				<unlocks_map>ruin06</unlocks_map>
+				<max_score_stat>ruin mode - highest score level 03</max_score_stat>
 			</par_unlocks>
-			<resource_reservation>ruin_08</resource_reservation>
+			<resource_reservation>ruin_03</resource_reservation>
 			<Audio>
-				<Music_Trigger_Name>Ruin_Map_08</Music_Trigger_Name>
+				<Music_Trigger_Name>Ruin_Map_03</Music_Trigger_Name>
 				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
 			</Audio>
 			<Damage_To_Score_Multiplier>.85</Damage_To_Score_Multiplier>
 			<Nanoforge_Ability>Push+Stats+Function</Nanoforge_Ability>
-			<display_name_uppercase>RUIN_MAP_08_UC</display_name_uppercase>
-			<total_chaos_time_bonus_target>8500000</total_chaos_time_bonus_target>
+			<display_name_uppercase>RUIN_MAP_03_UC</display_name_uppercase>
+			<total_chaos_time_bonus_target>7500000</total_chaos_time_bonus_target>
 			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
-		</wc_map_list>
+		</wc_map_list>		
 		<wc_map_list>
 			<Name>Eviction</Name>
 			<_Editor>
@@ -125,33 +124,34 @@
 			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
 		</wc_map_list>
 		<wc_map_list>
-			<Name>Frontier</Name>
+			<Name>Desolate</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<file_name>ruin03</file_name>
-			<display_name>RUIN_MAP_03</display_name>
-			<image_name>ui_ruin_02</image_name>
+			<file_name>ruin08</file_name>
+			<display_name>RUIN_MAP_08</display_name>
+			<image_name>ui_ruin_05</image_name>
 			<time_of_day>00:00</time_of_day>
 			<is_locked>False</is_locked> <!--From True-->
 			<total_chaos_round_time_ms>60000</total_chaos_round_time_ms>
-			<scoreboard_index>4</scoreboard_index>
+			<scoreboard_index>1</scoreboard_index>
 			<par_unlocks>
-				<par_score>7500000</par_score>
-				<unlocks_exo>True</unlocks_exo>
+				<par_score>8000000</par_score>
+				<unlocks_exo>True</unlocks_exo> <!--From False-->
 				<WeaponGroup></WeaponGroup>
 				<unlocks_weapons></unlocks_weapons>
-				<max_score_stat>ruin mode - highest score level 03</max_score_stat>
+				<max_score_stat>ruin mode - highest score level 08</max_score_stat>
+				<unlocks_map>ruin06</unlocks_map>
 			</par_unlocks>
-			<resource_reservation>ruin_03</resource_reservation>
+			<resource_reservation>ruin_08</resource_reservation>
 			<Audio>
-				<Music_Trigger_Name>Ruin_Map_03</Music_Trigger_Name>
+				<Music_Trigger_Name>Ruin_Map_08</Music_Trigger_Name>
 				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
 			</Audio>
 			<Damage_To_Score_Multiplier>.85</Damage_To_Score_Multiplier>
 			<Nanoforge_Ability>Push+Stats+Function</Nanoforge_Ability>
-			<display_name_uppercase>RUIN_MAP_03_UC</display_name_uppercase>
-			<total_chaos_time_bonus_target>7500000</total_chaos_time_bonus_target>
+			<display_name_uppercase>RUIN_MAP_08_UC</display_name_uppercase>
+			<total_chaos_time_bonus_target>8500000</total_chaos_time_bonus_target>
 			<total_chaos_time_bonus_time_ms>15000</total_chaos_time_bonus_time_ms>
 		</wc_map_list>
 	</Table>

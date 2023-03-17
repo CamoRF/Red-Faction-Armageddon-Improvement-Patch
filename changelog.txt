@@ -1,0 +1,77 @@
+*---------------------*
+ RFA IMPROVEMENT PATCH
+*---------------------*
+
+Author: Camo
+Version: v0.01
+Date: 16-3-2023
+Build: 325
+
+-----------------------
+v0.01 PRE ALPHA CHANGES
+-----------------------
+
+[Interface]
+* Removes startup videos
+
+[Weapons]
+* Buffed Shotgun in infestation
+* Buffed Assault Rifle
+* Buffed Enforcer
+* Buffed Laser Pistol
+* Buffed Plasma Thrower
+* Buffed Rocket Launcher
+
+[Maps]
+* All ruin and infestation maps are unlocked by default
+* Added survival version of Dust to Dust
+
+[Graphics]
+* Increased draw distances in lod_properties.xtbl & items_3d.xtbl
+* Added missing shadows in gameplay_properties.xtbl & items_3d.xtbl
+* Removes camera shake
+* Removes radial blur
+* Glass bullet decals now always appear and only one per bullet
+* Stops debris despawning instantly and adds collision that reacts to player movement 
+* Stops gibs despawning instantly
+* Stops bullet mags despawning instantly
+* Improved blood decals
+* Increased decal lifetimes
+
+
+[Misc]
+* Added structural damage to alien acid spit in projectiles.xtbl
+* Improved alien AI in ai_properties.xtbl, leap_properties.xtbl and tweak_table.xtbl
+* All unlocks and cheats are now free to purchase (for dev/test purposes)
+* All weapons unlocked by default in infestation (for dev/test purposes)
+* Removed delay on repair grenade (for dev/test purposes)
+* Removed cost of resetting player upgrades (for dev/test purposes)
+* Removed input delay when jumping or falling 
+* Removed delay when switching weapons
+* Increased FOV to 85
+* Increased jump height when walking and sprinting 
+* NPCs now do the same amount of damage to each other as the player 
+* NPCs now do t he same amount of damage to each other vehicles as the player
+* NPCs now take 30 minutes to remove attached projectiles 
+* Reduced auto aim strength when playing with mouse & keyboard
+
+[Fixes]
+* Fixed XML errors
+* Optimized various files to reduce memory pool load
+
+[New Infestation Characters]
+* Added all variants of Darius
+* Added Kara
+
+[Infestation]
+* Increases number of aliens that spawn per wave
+* Reduced lag in multiplayer and removed host migration
+* Players now move the same speed when moving sideways
+* Reduces respawn invulnerability to 2 seconds from 5
+* Reduces revive invulnerability to 2 seconds from 6
+* Removed pre & post wave delay for alien spawns
+* Reduced lives to 8 from 12 for one player, to 4 from 6 for two players, to 3 from 3 for 3 players and to 2 from 3 for players
+
+[Ruin Mode]
+* Added all cheat weapons
+* Delayed Explosion Laser Handheld, Lava Barge Turret Handheld, Napalm Laser Handheld, Nano Grenade, Plasma Thrower and the Unicorn gun can now be used in Total Chaos Ruin mode in addition to Free Play

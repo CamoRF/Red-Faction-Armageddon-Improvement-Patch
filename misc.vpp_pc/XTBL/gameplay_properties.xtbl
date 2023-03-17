@@ -5,7 +5,7 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -23,8 +23,8 @@
 			<Name>str_sur_0103vent_atmos_alien</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -42,8 +42,8 @@
 			<Name>str_shanty_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -61,8 +61,8 @@
 			<Name>str_shanty_b</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -80,8 +80,8 @@
 			<Name>str_shanty_ba</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -99,8 +99,8 @@
 			<Name>str_shanty_bb</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -118,8 +118,8 @@
 			<Name>str_bastion_agridome_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -137,8 +137,8 @@
 			<Name>str_bastion_agridome_b</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -156,8 +156,8 @@
 			<Name>str_bastion_agridome_c</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -175,8 +175,8 @@
 			<Name>s_su_lite_light_pole_a_01</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -194,8 +194,8 @@
 			<Name>s_cm_ind_control_rack</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -213,8 +213,8 @@
 			<Name>s_cm_ind_coot_still</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -232,8 +232,8 @@
 			<Name>s_cm_ind_meter</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -251,8 +251,8 @@
 			<Name>s_cm_ind_mobile_cooler_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -270,8 +270,8 @@
 			<Name>s_cm_ind_pipes_a_01</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -289,8 +289,8 @@
 			<Name>s_cm_cont_tank_acid_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -308,8 +308,8 @@
 			<Name>s_cm_cont_tank_fire_grp_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -327,8 +327,8 @@
 			<Name>s_cm_lite_light_generator_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -346,8 +346,8 @@
 			<Name>str_cru_barricade_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -365,8 +365,8 @@
 			<Name>str_ice_catwalks_a_16m</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -384,6 +384,8 @@
 			<Name>0102oasis_police_dept_a_je_ro_07</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->				
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -402,8 +404,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -423,8 +425,8 @@
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
 				<Flag>inherit_damage_pct</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -443,8 +445,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>MEDIUM</importance>
 			<team>Neutral</team>
@@ -465,8 +467,8 @@
 				<Flag>show_on_map</Flag>
 				<Flag>inherit_damage_pct</Flag>
 				<Flag>plume_on_death</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>HIGH</importance>
 			<team>EDF</team>
@@ -485,8 +487,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>inherit_damage_pct</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -505,8 +507,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -526,8 +528,8 @@
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
 				<Flag>inherit_damage_pct</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -547,8 +549,8 @@
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
 				<Flag>inherit_damage_pct</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -568,8 +570,8 @@
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
 				<Flag>inherit_damage_pct</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20772,8 +20774,8 @@
 			<Name>s_su_lite_light_pole_a_head</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20791,8 +20793,8 @@
 			<Name>s_cm_ind_transformer_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20810,8 +20812,8 @@
 			<Name>s_cm_cont_tank_chem_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20829,8 +20831,8 @@
 			<Name>s_cm_cont_tank_chem_b</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20848,8 +20850,8 @@
 			<Name>s_cm_cont_tank_hydro_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20867,8 +20869,8 @@
 			<Name>s_cm_cont_tank_steam_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20886,8 +20888,8 @@
 			<Name>s_cm_reactor_core</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20905,8 +20907,8 @@
 			<Name>s_cm_cont_tank_propane_med_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20924,8 +20926,8 @@
 			<Name>s_cm_cont_tank_coolant_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20943,8 +20945,8 @@
 			<Name>s_cm_cont_tank_coolant_dam_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20962,8 +20964,8 @@
 			<Name>s_cm_ind_mach_mine_01</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -20981,8 +20983,8 @@
 			<Name>s_cm_ind_mach_mine_02</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21000,8 +21002,8 @@
 			<Name>s_cm_ind_tank_coolant_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21019,8 +21021,8 @@
 			<Name>s_cm_ind_substation_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21040,8 +21042,8 @@
 				<Flag>prevent_anchor</Flag>
 				<Flag>regenerate</Flag>
 				<Flag>one_of_many</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21060,7 +21062,7 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21079,7 +21081,7 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21098,7 +21100,7 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21117,8 +21119,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>prevent_anchor</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21138,7 +21140,7 @@
 				<Flag>show_on_map</Flag>
 				<Flag>prevent_anchor</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21157,8 +21159,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>no_physics</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21177,8 +21179,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>no_melt_in_magma</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21198,7 +21200,7 @@
 				<Flag>show_on_map</Flag>
 				<Flag>no_physics</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21219,7 +21221,7 @@
 				<Flag>show_on_map</Flag>
 				<Flag>no_melt_in_magma</Flag>
 				<Flag>invulnerable</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21237,8 +21239,7 @@
 			<Name>Default_invulnerable</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>invulnerable</Flag>
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21257,7 +21258,7 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21275,8 +21276,8 @@
 			<Name>str_giant_fan</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21294,8 +21295,8 @@
 			<Name>str_giant_fan.giant_blade</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21313,8 +21314,6 @@
 			<Name>Inherit_Dmg_%</Name>
 			<chunk_flags>
 				<Flag>inherit_damage_pct</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21332,8 +21331,8 @@
 			<Name>str_com_facade01_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21351,8 +21350,8 @@
 			<Name>str_com_facade01_b</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21370,8 +21369,8 @@
 			<Name>str_com_facade01_c</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21389,8 +21388,8 @@
 			<Name>str_com_facade01_d</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21408,8 +21407,8 @@
 			<Name>str_com_facade01_e</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21427,8 +21426,8 @@
 			<Name>str_com_facade01_f</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21446,8 +21445,8 @@
 			<Name>str_com_generic_01</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21465,8 +21464,8 @@
 			<Name>str_com_generic_02_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21484,8 +21483,8 @@
 			<Name>str_com_generic_03_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21503,8 +21502,8 @@
 			<Name>str_com_generic_d</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21522,8 +21521,8 @@
 			<Name>str_com_landingpad_sm</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21541,8 +21540,8 @@
 			<Name>str_com_landingpad_sm_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21560,8 +21559,8 @@
 			<Name>str_com_monorail_supprt_b</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21579,8 +21578,8 @@
 			<Name>str_com_warehouse_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21598,8 +21597,8 @@
 			<Name>str_mar_bridge_lrg_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21617,8 +21616,8 @@
 			<Name>str_mar_cave_hanginga</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21636,8 +21635,8 @@
 			<Name>str_mar_cave_hangingb</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21655,8 +21654,8 @@
 			<Name>str_mar_cave_hangingC</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21674,8 +21673,8 @@
 			<Name>str_mar_cave_hangingd</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21693,8 +21692,8 @@
 			<Name>str_mar_geotherm_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21712,8 +21711,8 @@
 			<Name>str_mar_geotherm_b</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21731,8 +21730,8 @@
 			<Name>str_mar_geotherm_c</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21750,8 +21749,8 @@
 			<Name>str_mar_cave_hanginge</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21769,8 +21768,8 @@
 			<Name>str_mar_pal_grnd_A</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21788,8 +21787,8 @@
 			<Name>str_mar_wallcell_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21807,8 +21806,8 @@
 			<Name>str_mar_smalltherm_a</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21826,8 +21825,8 @@
 			<Name>str_shanty_c</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21845,8 +21844,8 @@
 			<Name>str_shanty_d</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21864,8 +21863,8 @@
 			<Name>str_shanty_f</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21883,8 +21882,8 @@
 			<Name>str_shanty_g</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21902,8 +21901,8 @@
 			<Name>str_shanty_h</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21921,8 +21920,8 @@
 			<Name>str_shanty_i</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21940,8 +21939,8 @@
 			<Name>str_shanty_j</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21959,8 +21958,8 @@
 			<Name>str_shanty_bc</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21978,8 +21977,8 @@
 			<Name>str_shanty_bd</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -21997,8 +21996,8 @@
 			<Name>str_shanty_be</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22016,8 +22015,8 @@
 			<Name>str_shanty_bf</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22035,8 +22034,8 @@
 			<Name>str_sur_0101office_corp_large</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22054,8 +22053,8 @@
 			<Name>str_sur_0101aa</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22073,8 +22072,8 @@
 			<Name>str_sur_0101ba</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22092,8 +22091,8 @@
 			<Name>str_sur_0103vent_atmos_huge</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22111,8 +22110,8 @@
 			<Name>str_sur_0101tower_control_A</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22130,8 +22129,8 @@
 			<Name>str_sur_0101da</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22149,8 +22148,8 @@
 			<Name>str_sur_0101ea_cliff_shed</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22168,8 +22167,8 @@
 			<Name>str_shanty_e</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22188,7 +22187,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>invulnerable</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22207,8 +22207,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>light_as_vehicle</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22225,8 +22225,9 @@
 		<Gameplay>
 			<Name>str_mar_sealhall_chand_b</Name>
 			<chunk_flags>
+				<Flag>invulnerable</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22243,8 +22244,8 @@
 		<Gameplay>
 			<Name>Small_Infected_Structure</Name>
 			<chunk_flags>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22261,8 +22262,8 @@
 		<Gameplay>
 			<Name>Medium_Infected_Structure</Name>
 			<chunk_flags>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22279,8 +22280,8 @@
 		<Gameplay>
 			<Name>Large_Infected_Structure</Name>
 			<chunk_flags>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22299,8 +22300,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>invulnerable</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22319,8 +22320,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>invulnerable</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22339,8 +22340,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>invulnerable</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22359,8 +22360,8 @@
 			<chunk_flags>
 				<Flag>prevent_anchor</Flag>
 				<Flag>show_red_reticule</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22379,8 +22380,8 @@
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
 				<Flag>light_as_vehicle</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22398,8 +22399,8 @@
 			<Name>str_mar_hang_M12</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22417,7 +22418,7 @@
 			<Name>Medium_Infected_Structure_shadows</Name>
 			<chunk_flags>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22435,7 +22436,7 @@
 			<Name>Large_Infected_Structure_shadows</Name>
 			<chunk_flags>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22453,7 +22454,7 @@
 			<Name>Small_Infected_Structure_shadows</Name>
 			<chunk_flags>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22471,8 +22472,8 @@
 			<Name>str_mar_hang_M12_sml_inf</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
@@ -22490,8 +22491,8 @@
 			<Name>str_mar_hang_M12_med_inf</Name>
 			<chunk_flags>
 				<Flag>show_on_map</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>

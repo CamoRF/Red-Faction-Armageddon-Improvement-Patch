@@ -599,8 +599,7 @@
 				<NPC_Audio_Bank_Name>wep_unigun_npc</NPC_Audio_Bank_Name>
 				<Explosions_Bank_Name>wep_unigun_explo</Explosions_Bank_Name>
 			</Sound_Data>
-			<mp_tier>1</mp_tier>
-			<!--From 8-->
+			<mp_tier>1</mp_tier> <!--From 8-->
 			<Reload_Time_Multiplier>1.0</Reload_Time_Multiplier>
 			<Melee_Group>Nano_arm_swing</Melee_Group>
 			<Interface_Priority_SP>20</Interface_Priority_SP>
@@ -608,7 +607,7 @@
 			<Unlimited_Ammo_Cheat>infinite ammo - phased plasma beam</Unlimited_Ammo_Cheat>
 			<Interface_Priority_Ruin_Mode>255</Interface_Priority_Ruin_Mode>
 		</mp_weapons>
-<!--END-->		
+<!--END-->
 	</Table>
 	<TableTemplates>
 	</TableTemplates>

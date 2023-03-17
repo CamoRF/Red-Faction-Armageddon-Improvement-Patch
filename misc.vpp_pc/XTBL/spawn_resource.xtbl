@@ -15,6 +15,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>		 
+<!--ADDED-->		
 		<spawn_resource_entry>
 			<Name>mp_infestation_hard</Name>
 			<npc_list>
@@ -51,6 +52,7 @@
 				<npc_info>
 					<npc_group>monolith_small</npc_group>
 				</npc_info>			
+<!--START Added-->				
 				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>
 				</npc_info>					
@@ -75,8 +77,10 @@
 				<npc_info>
 					<npc_group>ch_mar_ass_kara</npc_group>
 				</npc_info>
+<!--END-->				
 			</npc_list>
 		</spawn_resource_entry>
+<!--ADDED-->		
 		<spawn_resource_entry>
 			<Name>mp_infestation_dust</Name>
 			<npc_list>
@@ -116,6 +120,7 @@
 				<npc_info>
 					<npc_group>monolith_small</npc_group>
 				</npc_info>					
+<!--START Added-->				
 				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>
 				</npc_info>	
@@ -140,6 +145,7 @@
 				<npc_info>
 					<npc_group>ch_mar_ass_kara</npc_group>
 				</npc_info>
+<!--END-->				
 			</npc_list>	
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -181,6 +187,7 @@
 				<npc_info>
 					<npc_group>monolith_small</npc_group>
 				</npc_info>
+<!--START Added-->				
 				<npc_info>
 					<npc_group>RF4_RF_hd</npc_group>
 				</npc_info>	
@@ -205,6 +212,7 @@
 				<npc_info>
 					<npc_group>ch_mar_ass_kara</npc_group>
 				</npc_info>
+<!--END-->				
 			</npc_list>
 			<_Editor>
 				<Category>Multiplayer</Category>

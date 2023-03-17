@@ -2,7 +2,7 @@
 	<Table>
 		<Material>
 			<Name>Alien-Normal</Name>
-			<Density>1313</Density> <!--From 1750-->
+			<Density>1750</Density>
 			<_Editor>
 				<Category>Entries:Alien</Category>
 			</_Editor>
@@ -14,15 +14,14 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.1</Friction>
+			<Friction>.1</Friction>
 			<EffectMaterial>Alien Flesh</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>40</R>
 				<G>226</G>
@@ -33,7 +32,7 @@
 		</Material>
 		<Material>
 			<Name>Monolith-Bone</Name>
-			<Density>1688</Density> <!--From 2250-->
+			<Density>2250</Density>
 			<_Editor>
 				<Category>Entries:Alien</Category>
 			</_Editor>
@@ -43,15 +42,14 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.50</Friction> <!--From 0.9-->
+			<Friction>0.9</Friction>
 			<EffectMaterial>Monolith Bone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>40</R>
 				<G>226</G>
@@ -63,7 +61,7 @@
 		</Material>
 		<Material>
 			<Name>Monolith-Flesh</Name>
-			<Density>1313</Density> <!--From 1750-->
+			<Density>1750</Density>
 			<_Editor>
 				<Category>Entries:Alien</Category>
 			</_Editor>
@@ -75,15 +73,14 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.1</Friction>
+			<Friction>.1</Friction>
 			<EffectMaterial>Monolith Flesh</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>40</R>
 				<G>226</G>
@@ -94,7 +91,7 @@
 		</Material>
 		<Material>
 			<Name>Alien-Flesh</Name>
-			<Density>100</Density> <!--From 500-->
+			<Density>500</Density>
 			<Brittleness>2.5</Brittleness>
 			<_Editor>
 				<Category>Entries:Alien</Category>
@@ -107,12 +104,11 @@
 				<Flag>flammable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.25</Friction> <!--From 1.0-->
+			<Friction>1.0</Friction>
 			<EffectMaterial>Alien Flesh</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 			<Strength>Weak</Strength>
@@ -125,31 +121,30 @@
 		</Material>
 		<Material>
 			<Name>DEFAULT</Name>
-			<Density>1000</Density> <!--From 2000-->
+			<Density>2000</Density>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<LinkStrength>200</LinkStrength>
 			<Brittleness>2.0</Brittleness>
-			<Friction>0.55</Friction> <!--From 0.8-->
+			<Friction>0.8</Friction>
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Dirt</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>192</R>
 				<G>192</G>
 				<B>192</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Carbon</Name>
@@ -158,27 +153,26 @@
 			</_Editor>
 			<explosion_effect>RFG_ConcreteExp</explosion_effect>
 			<LinkStrength>300</LinkStrength>
-			<Density>1500</Density> <!--From 2250-->
-			<Friction>0.55</Friction>
+			<Density>2250</Density>
+			<Friction>.55</Friction>
 			<Brittleness>2.0</Brittleness>
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>85</R>
 				<G>130</G>
 				<B>198</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Carbon-EDF</Name>
@@ -187,32 +181,31 @@
 			</_Editor>
 			<explosion_effect>RFG_ConcreteExp</explosion_effect>
 			<LinkStrength>300</LinkStrength>
-			<Density>1500</Density> <!--From 2250-->
-			<Friction>0.55</Friction>
+			<Density>2250</Density>
+			<Friction>.55</Friction>
 			<Brittleness>2.0</Brittleness>
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>flammable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>47</R>
 				<G>96</G>
 				<B>149</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Cardboard-Weak</Name>
-			<Density>1000</Density> <!--From 1500-->
+			<Density>1500</Density>
 			<Brittleness>2.0</Brittleness>
 			<_Editor>
 				<Category>Entries</Category>
@@ -227,21 +220,20 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.55</Friction>
+			<Friction>.55</Friction>
 			<EffectMaterial>Cardboard</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>86</R>
 				<G>206</G>
 				<B>207</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Cloth</Name>
@@ -253,23 +245,21 @@
 			<Flags>
 				<Flag>no_material_pickup</Flag>
 				<Flag>flammable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
-			<Friction>0.55</Friction> <!--From 1.0-->
+			<Friction>1.0</Friction>
 			<EffectMaterial>Cloth</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>188</R>
 				<G>86</G>
 				<B>207</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Composite-Weak</Name>
-			<Density>1000</Density> <!--From 1500-->
+			<Density>1500</Density>
 			<Brittleness>2.0</Brittleness>
 			<_Editor>
 				<Category>Entries</Category>
@@ -284,26 +274,25 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.55</Friction>
+			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<Jitter>Composite</Jitter>
 			<MaxColor>
 				<R>86</R>
 				<G>206</G>
 				<B>207</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Composite-Normal</Name>
-			<Density>1000</Density> <!--From 1750-->
+			<Density>1750</Density>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -316,26 +305,25 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.55</Friction>
+			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Composite</Jitter>
 			<MaxColor>
 				<R>61</R>
 				<G>160</G>
 				<B>161</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Composite-Strong</Name>
-			<Density>1250</Density> <!--From 2000-->
+			<Density>2000</Density>
 			<Brittleness>0.75</Brittleness>
 			<_Editor>
 				<Category>Entries</Category>
@@ -348,22 +336,21 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.55</Friction>
+			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Composite</Jitter>
 			<MaxColor>
 				<R>44</R>
 				<G>106</G>
 				<B>107</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Concrete-Weak</Name>
@@ -379,23 +366,22 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1250</Density> <!--From 2000-->
-			<Friction>0.55</Friction> <!--From .9-->
+			<Density>2000</Density>
+			<Friction>.9</Friction>
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<Jitter>Concrete</Jitter>
 			<MaxColor>
 				<R>236</R>
 				<G>215</G>
 				<B>140</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Concrete-Normal</Name>
@@ -410,17 +396,16 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1500</Density> <!--From 2250-->
-			<Friction>0.55</Friction> <!--From 0.9-->
+			<Density>2250</Density>
+			<Friction>0.9</Friction>
 			<Brittleness>0.9</Brittleness>
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Concrete</Jitter>
 			<MaxColor>
 				<R>198</R>
@@ -442,32 +427,31 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1700</Density> <!--From 2500-->
-			<Friction>0.55</Friction> <!--From 0.9-->
+			<Density>2500</Density>
+			<Friction>0.9</Friction>
 			<Brittleness>0.75</Brittleness>
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Concrete</Jitter>
 			<MaxColor>
 				<R>135</R>
 				<G>116</G>
 				<B>50</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Electronics-Weak</Name>
-			<Density>1000</Density> <!--From 1500-->
+			<Density>1500</Density>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Friction>0.5</Friction>
+			<Friction>.5</Friction>
 			<LinkStrength>200</LinkStrength>
 			<Flags>
 				<Flag>bullet_damage</Flag>
@@ -477,21 +461,20 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Brittleness>3.0</Brittleness>
 			<EffectMaterial>Electronics</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>44</R>
 				<G>161</G>
 				<B>115</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Flesh</Name>
@@ -508,25 +491,24 @@
 				<Flag>flammable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.1</Friction> <!--From 1.0-->
+			<Friction>1.0</Friction>
 			<EffectMaterial>Flesh</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>243</R>
 				<G>224</G>
 				<B>199</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Glass-Weak</Name>
-			<Density>1500</Density> <!--From 2500-->
+			<Density>2500</Density>
 			<Brittleness>5.0</Brittleness>
 			<_Editor>
 				<Category>Entries</Category>
@@ -541,22 +523,21 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<LinkStrength>25</LinkStrength>
 			<LevelObjectProperties>RFG_Glass</LevelObjectProperties>
 			<EffectMaterial>Glass</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>189</R>
 				<G>216</G>
 				<B>242</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Ice-Normal</Name>
@@ -570,51 +551,35 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>750</Density> <!--From 1000-->
+			<Density>1000</Density>
 			<Friction>0.2</Friction>
 			<Brittleness>6.0</Brittleness>
 			<EffectMaterial>Ice</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>126</R>
 				<G>216</G>
 				<B>228</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Indestructo</Name>
-			<!--<Flags>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
-			</Flags>-->
-			<Flags>
-				<Flag>structural</Flag>
-				<Flag>crushable</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
-			</Flags>
+			<Flags></Flags>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<Density>500.0</Density>
-			<!--<LinkStrength>2000</LinkStrength>-->
-			<LinkStrength>700</LinkStrength>
-			<Friction>0.55</Friction> <!--From 0.7-->
+			<LinkStrength>2000</LinkStrength>
+			<Friction>0.7</Friction>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<!--<Strength>Indestructible</Strength>-->
-			<Strength>Weak</Strength>
+			<Strength>Indestructible</Strength>
 			<MaxColor>
 				<R>50</R>
 				<G>50</G>
@@ -626,11 +591,8 @@
 			<Name>Landslide</Name>
 			<EffectMaterial>Stone</EffectMaterial>
 			<LinkStrength>100</LinkStrength>
-			<Density>750</Density> <!--From 1000-->
-			<Flags>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
-			</Flags>
+			<Density>1000</Density>
+			<Flags></Flags>
 			<NoShowMax>False</NoShowMax>
 			<_Editor>
 				<Category>Entries</Category>
@@ -641,11 +603,11 @@
 				<G>76</G>
 				<B>242</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Plastic-Normal</Name>
-			<Density>1500</Density>
+			<Density>1750</Density>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -657,27 +619,26 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.25</Brittleness>
-			<Friction>0.5</Friction> <!--From 0.6-->
+			<Friction>0.6</Friction>
 			<EffectMaterial>Plastic</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>175</R>
 				<G>198</G>
 				<B>51</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Plastic-Weak</Name>
-			<Density>1000</Density> <!--From 1500-->
+			<Density>1500</Density>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -690,23 +651,22 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.5</Brittleness>
-			<Friction>0.5</Friction> <!--From 0.6-->
+			<Friction>0.6</Friction>
 			<EffectMaterial>Plastic</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>199</R>
 				<G>213</G>
 				<B>119</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Rubber</Name>
@@ -719,27 +679,26 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Density>400</Density>
-			<Friction>0.55</Friction> <!--From 1-->
+			<Friction>1</Friction>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Rubber</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>67</R>
 				<G>82</G>
 				<B>27</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Steel-Weak</Name>
-			<Density>1250</Density> <!--From 2000-->
+			<Density>2000</Density>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -753,25 +712,24 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Brittleness>0.75</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>237</R>
 				<G>146</G>
 				<B>146</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Steel-Normal</Name>
-			<Density>1500</Density> <!--From 2500-->
+			<Density>2500</Density>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -783,21 +741,20 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>240</R>
 				<G>128</G>
 				<B>128</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Steel-StrongLight</Name>
@@ -805,7 +762,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<LinkStrength>800</LinkStrength>
-			<Density>1000</Density> <!--From 1750-->
+			<Density>1750</Density>
 			<Friction>0.5</Friction>
 			<Flags>
 				<Flag>structural</Flag>
@@ -813,10 +770,9 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -827,7 +783,7 @@
 				<G>71</G>
 				<B>48</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Steel-Strong</Name>
@@ -835,18 +791,17 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<LinkStrength>700</LinkStrength>
-			<Density>1500</Density> <!--From 2750-->
+			<Density>2750</Density>
 			<Friction>0.5</Friction>
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -857,7 +812,7 @@
 				<G>64</G>
 				<B>4</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Steel-SuperStrong</Name>
@@ -865,7 +820,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<LinkStrength>800</LinkStrength>
-			<Density>1750</Density> <!--From 2750-->
+			<Density>2750</Density>
 			<Friction>0.5</Friction>
 			<Flags>
 				<Flag>structural</Flag>
@@ -873,10 +828,9 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -887,7 +841,7 @@
 				<G>27</G>
 				<B>27</B>
 			</MaxColor>
-			<StressMultiplier>5.25</StressMultiplier> <!--From 5.0-->
+			<StressMultiplier>5.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Stone-Normal</Name>
@@ -902,23 +856,22 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1500</Density> <!--From 2500-->
-			<Friction>0.55</Friction> <!--From 0.8-->
+			<Density>2500</Density>
+			<Friction>0.8</Friction>
 			<Brittleness>0.75</Brittleness>
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>150</R>
 				<G>155</G>
 				<B>121</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Stone-StrongLight</Name>
@@ -933,23 +886,22 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1000</Density> <!--From 1750-->
-			<Friction>0.55</Friction> <!--From 0.8-->
+			<Density>1750</Density>
+			<Friction>0.8</Friction>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>173</R>
 				<G>175</G>
 				<B>160</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Stone-Indestructo</Name>
@@ -957,32 +909,13 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<explosion_effect>RFG_ConcreteExp</explosion_effect>
-			<!--<LinkStrength>8388</LinkStrength>-->
-			<LinkStrength>700</LinkStrength>
-			<!--<Flags>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
-			</Flags>-->
-			<Flags>
-				<Flag>no_material_pickup</Flag>
-				<Flag>crushable</Flag>
-				<Flag>bullet_damage</Flag>
-				<Flag>melee_damage</Flag>
-				<Flag>transparent</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
-			</Flags>
-			<!--<Density>5000</Density>-->
-			<Density>500</Density>
-			<Friction>0.55</Friction> <!--From 0.8-->
+			<LinkStrength>8388</LinkStrength>
+			<Flags></Flags>
+			<Density>5000</Density>
+			<Friction>0.8</Friction>
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<!--<Strength>Indestructible</Strength>-->
-			<Strength>Weak</Strength>
+			<Strength>Indestructible</Strength>
 			<MaxColor>
 				<R>89</R>
 				<G>91</G>
@@ -1006,22 +939,21 @@
 				<Flag>transparent</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Friction>0.2</Friction>
 			<EffectMaterial>Glass</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 			<LevelObjectProperties>RFG_Glass</LevelObjectProperties>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>143</R>
 				<G>165</G>
 				<B>209</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Porocite</Name>
@@ -1036,22 +968,21 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1250</Density> <!--From 2000-->
-			<Friction>0.55</Friction> <!--From .9-->
+			<Density>2000</Density>
+			<Friction>.9</Friction>
 			<EffectMaterial>Porocite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>120</R>
 				<G>197</G>
 				<B>73</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 			<Brittleness>2.0</Brittleness>
 		</Material>
 		<Material>
@@ -1068,22 +999,21 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1250</Density> <!--From 2000-->
-			<Friction>0.55</Friction> <!--From .9-->
+			<Density>2000</Density>
+			<Friction>.9</Friction>
 			<EffectMaterial>Porocite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>179</R>
 				<G>217</G>
 				<B>155</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Snow</Name>
@@ -1096,21 +1026,24 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>crushable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag> <!--Added-->
-				<Flag>casts_shadows</Flag>		<!--Added-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1250</Density> <!--From 2000-->
+			<Density>2000</Density>
 			<Friction>0.4</Friction>
 			<EffectMaterial>Snow</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 			<LinkDamageExplosion>1.0</LinkDamageExplosion>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>226</R>
 				<G>226</G>
 				<B>226</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Dirt</Name>
@@ -1119,10 +1052,7 @@
 			</_Editor>
 			<explosion_effect>RFG_ConcreteExp</explosion_effect>
 			<LinkStrength>8388</LinkStrength>
-			<Flags>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
-			</Flags>
+			<Flags></Flags>
 			<Density>5000</Density>
 			<Friction>0.8</Friction>
 			<EffectMaterial>Dirt</EffectMaterial>
@@ -1141,32 +1071,13 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<explosion_effect>RFG_ConcreteExp</explosion_effect>
-			<!--<LinkStrength>8388</LinkStrength>-->
-			<LinkStrength>700</LinkStrength>
-			<!--<Flags>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
-			</Flags>-->
-			<Flags>
-				<Flag>no_material_pickup</Flag>
-				<Flag>crushable</Flag>
-				<Flag>bullet_damage</Flag>
-				<Flag>melee_damage</Flag>
-				<Flag>transparent</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
-			</Flags>
-			<!--<Density>5000</Density>-->
-			<Density>500</Density>
-			<Friction>0.55</Friction> <!--From 0.8-->
+			<LinkStrength>8388</LinkStrength>
+			<Flags></Flags>
+			<Density>5000</Density>
+			<Friction>0.8</Friction>
 			<EffectMaterial>Unobtanium</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<!--<Strength>Indestructible</Strength>-->
-			<Strength>Weak</Strength>
+			<Strength>Indestructible</Strength>
 			<MaxColor>
 				<R>255</R>
 				<G>0</G>
@@ -1191,26 +1102,25 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<LinkStrength>1</LinkStrength>
 			<LevelObjectProperties>RFG_Glass</LevelObjectProperties>
 			<EffectMaterial>Glass</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>189</R>
 				<G>216</G>
 				<B>242</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Alien-Weak-Spot</Name>
-			<Density>100</Density> <!--From 500-->
+			<Density>500</Density>
 			<Brittleness>2.5</Brittleness>
 			<_Editor>
 				<Category>Entries:Alien</Category>
@@ -1223,12 +1133,11 @@
 				<Flag>flammable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.25</Friction> <!--From 1.0-->
+			<Friction>1.0</Friction>
 			<EffectMaterial>Alien Weak Spot</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 			<Strength>Weak</Strength>
@@ -1237,7 +1146,7 @@
 				<G>224</G>
 				<B>199</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Forcefield-Mar</Name>
@@ -1246,10 +1155,7 @@
 			</_Editor>
 			<explosion_effect>RFG_ConcreteExp</explosion_effect>
 			<LinkStrength>8388</LinkStrength>
-			<Flags> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
-			</Flags>
+			<Flags></Flags>
 			<Density>5000</Density>
 			<Friction>0.8</Friction>
 			<EffectMaterial>Forcefield Mar</EffectMaterial>
@@ -1265,7 +1171,7 @@
 		</Material>
 		<Material>
 			<Name>Alien-Pod</Name>
-			<Density>100</Density> <!--From 500-->
+			<Density>500</Density>
 			<Brittleness>2.5</Brittleness>
 			<_Editor>
 				<Category>Entries:Alien</Category>
@@ -1277,25 +1183,24 @@
 				<Flag>melee_damage</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.25</Friction> <!--From 1.0-->
+			<Friction>1.0</Friction>
 			<EffectMaterial>Alien Pod</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
-			<Strength>Normal</Strength> <!--From Weak-->
+			<Strength>Weak</Strength>
 			<MaxColor>
 				<R>243</R>
 				<G>224</G>
 				<B>199</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Alien-Vines</Name>
-			<Density>1250</Density> <!--From 2000-->
+			<Density>2000</Density>
 			<_Editor>
 				<Category>Entries:Alien</Category>
 			</_Editor>
@@ -1309,21 +1214,20 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.1</Friction> <!--From 0.25-->
+			<Friction>.25</Friction>
 			<EffectMaterial>Alien Vines</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>40</R>
 				<G>226</G>
 				<B>14</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 			<Material_Effect_On_Destroy>Vine dissolve</Material_Effect_On_Destroy>
 		</Material>
 		<Material>
@@ -1340,10 +1244,9 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -1369,17 +1272,16 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>938</Density> <!--From 1250-->
-			<Friction>0.55</Friction> <!--From 0.9-->
+			<Density>1250</Density>
+			<Friction>0.9</Friction>
 			<Brittleness>0.75</Brittleness>
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Concrete</Jitter>
 			<MaxColor>
 				<R>135</R>
@@ -1394,18 +1296,17 @@
 				<Category>Entries:Refinery</Category>
 			</_Editor>
 			<LinkStrength>800</LinkStrength>
-			<Density>657</Density> <!--From 875-->
+			<Density>875</Density>
 			<Friction>0.5</Friction>
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -1420,7 +1321,7 @@
 		</Material>
 		<Material>
 			<Name>RefComposite-Strong</Name>
-			<Density>750</Density> <!--From 1000-->
+			<Density>1000</Density>
 			<Brittleness>0.75</Brittleness>
 			<_Editor>
 				<Category>Entries:Refinery</Category>
@@ -1433,15 +1334,14 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Composite</Jitter>
 			<MaxColor>
 				<R>44</R>
@@ -1452,7 +1352,7 @@
 		</Material>
 		<Material>
 			<Name>RefSteel-Normal</Name>
-			<Density>938</Density> <!--From 1250-->
+			<Density>1250</Density>
 			<_Editor>
 				<Category>Entries:Refinery</Category>
 			</_Editor>
@@ -1464,15 +1364,14 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>240</R>
 				<G>128</G>
@@ -1486,7 +1385,7 @@
 				<Category>Entries:Refinery</Category>
 			</_Editor>
 			<LinkStrength>700</LinkStrength>
-			<Density>375</Density> <!--From 500-->
+			<Density>500</Density>
 			<Friction>0.5</Friction>
 			<Flags>
 				<Flag>structural</Flag>
@@ -1494,10 +1393,9 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -1524,15 +1422,14 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>240</R>
 				<G>128</G>
@@ -1542,7 +1439,7 @@
 		</Material>
 		<Material>
 			<Name>Monolith-BoneStrong</Name>
-			<Density>1750</Density> <!--From 2500-->
+			<Density>2500</Density>
 			<_Editor>
 				<Category>Entries:Alien</Category>
 			</_Editor>
@@ -1554,12 +1451,11 @@
 				<Flag>crushable</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->	
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.1</Friction>
+			<Friction>.1</Friction>
 			<EffectMaterial>Monolith Bone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 			<Strength>Strong</Strength>
@@ -1584,28 +1480,27 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1500</Density> <!--From 2250-->
-			<Friction>0.55</Friction> <!--From 0.9-->
+			<Density>2250</Density>
+			<Friction>0.9</Friction>
 			<Brittleness>0.9</Brittleness>
 			<EffectMaterial>Crystal</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Concrete</Jitter>
 			<MaxColor>
 				<R>198</R>
 				<G>167</G>
 				<B>58</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 		<Material>
 			<Name>Pod-Bone</Name>
-			<Density>1500</Density> <!--From 2250-->
+			<Density>2250</Density>
 			<_Editor>
 				<Category>Entries:Alien</Category>
 			</_Editor>
@@ -1616,15 +1511,14 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.1</Friction> <!--From 0.9-->
+			<Friction>0.9</Friction>
 			<EffectMaterial>Monolith Bone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>40</R>
 				<G>226</G>
@@ -1636,7 +1530,7 @@
 		</Material>
 		<Material>
 			<Name>Pod-Flesh</Name>
-			<Density>1000</Density> <!--From 1750-->
+			<Density>1750</Density>
 			<_Editor>
 				<Category>Entries:Alien</Category>
 			</_Editor>
@@ -1649,15 +1543,14 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->			
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Friction>0.1</Friction>
+			<Friction>.1</Friction>
 			<EffectMaterial>Monolith Flesh</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<MaxColor>
 				<R>40</R>
 				<G>226</G>
@@ -1679,28 +1572,26 @@
 				<Flag>allow_regrow</Flag>
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
 				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->		
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>				
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->				
 			</Flags>
-			<Density>1500</Density> <!--From 2250-->
-			<Friction>0.55</Friction> <!--From 0.9-->
+			<Density>2250</Density>
+			<Friction>0.9</Friction>
 			<Brittleness>0.9</Brittleness>
 			<EffectMaterial>Crystal Infected</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
-			<Strength>Strong</Strength> <!--From Normal-->
+			<Strength>Normal</Strength>
 			<Jitter>Concrete</Jitter>
 			<MaxColor>
 				<R>198</R>
 				<G>167</G>
 				<B>58</B>
 			</MaxColor>
-			<StressMultiplier>1.25</StressMultiplier> <!--From 1.0-->
+			<StressMultiplier>1.0</StressMultiplier>
 		</Material>
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>Material</Name>
 		<Type>TableDescription</Type>

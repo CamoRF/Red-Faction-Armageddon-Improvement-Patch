@@ -69,12 +69,14 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<AnimationStart>False</AnimationStart>
-			<Shadows> <!--Added-->
+<!--START Added-->
+			<Shadows> 
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
 			</Shadows>
+<!--END-->	
 			<TubeLength>2.0</TubeLength>
 		</Lights>
 		<Lights>
@@ -105,12 +107,14 @@
 				<AnimationStart>True</AnimationStart>
 				<AnimationType>Loop</AnimationType>
 			</LightCurves>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
 			</Shadows>
+<!--END-->		
 			<TubeLength>2.0</TubeLength>
 		</Lights>
 		<Lights>
@@ -139,12 +143,14 @@
 				<AnimationType>PingPong</AnimationType>
 				<IntensityCurve>PingPongTest_intensity</IntensityCurve>
 			</LightCurves>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->	
 			<TubeLength>2.0</TubeLength>
 		</Lights>
 		<Lights>
@@ -164,12 +170,14 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Shadows> <!--Added-->
+<!--START Added-->	
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->
 			<TubeLength>2.0</TubeLength>
 		</Lights>
 		<Lights>
@@ -186,12 +194,14 @@
 			<AttenPower>1.0</AttenPower>
 			<HotspotSize>30.0</HotspotSize>
 			<HotspotFalloff>5.0</HotspotFalloff>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->		
 			<TubeLength>20.0</TubeLength>
 			<_Editor>
 				<Category>Entries</Category>
@@ -219,12 +229,14 @@
 			<AttenPower>1.0</AttenPower>
 			<HotspotSize>30.0</HotspotSize>
 			<HotspotFalloff>5.0</HotspotFalloff>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->	
 			<TubeLength>2.0</TubeLength>
 			<LightCurves>
 				<AnimationType>Loop</AnimationType>
@@ -253,12 +265,14 @@
 			<AttenPower>1.0</AttenPower>
 			<HotspotSize>30.0</HotspotSize>
 			<HotspotFalloff>5.0</HotspotFalloff>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->	
 			<TubeLength>2.0</TubeLength>
 			<_Editor>
 				<Category>Entries</Category>
@@ -334,12 +348,14 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<AnimationStart>False</AnimationStart>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->	
 			<TubeLength>2.0</TubeLength>
 		</Lights>
 		<Lights>
@@ -359,12 +375,14 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Shadows> <!--Added-->
+<!--START Added-->	
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->		
 			<TubeLength>2.0</TubeLength>
 		</Lights>
 		<Lights>
@@ -381,12 +399,14 @@
 			<AttenPower>1.0</AttenPower>
 			<HotspotSize>30.0</HotspotSize>
 			<HotspotFalloff>10</HotspotFalloff>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->		
 			<TubeLength>2.0</TubeLength>
 			<_Editor>
 				<Category>Entries</Category>
@@ -454,12 +474,14 @@
 			<AttenPower>1</AttenPower>
 			<HotspotSize>40</HotspotSize>
 			<HotspotFalloff>10</HotspotFalloff>
-			<Shadows> <!--Added-->
+<!--START Added-->	
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->		
 			<TubeLength>2.0</TubeLength>
 			<_Editor>
 				<Category>Entries</Category>
@@ -515,12 +537,14 @@
 			<AttenPower>2</AttenPower>
 			<HotspotSize>40</HotspotSize>
 			<HotspotFalloff>10</HotspotFalloff>
-			<Shadows> <!--Added-->
+<!--START Added-->		
+			<Shadows>
 				<CastsShadows>True</CastsShadows>
 				<ShadowType>Orthographic</ShadowType>
 				<ShadowMapOnly>True</ShadowMapOnly>
 				<ShadowDistance>100</ShadowDistance>
-			</Shadows>			
+			</Shadows>
+<!--END-->
 			<TubeLength>2.0</TubeLength>
 			<_Editor>
 				<Category>Entries</Category>

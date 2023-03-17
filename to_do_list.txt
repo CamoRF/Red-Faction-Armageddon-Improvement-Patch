@@ -2,6 +2,11 @@
 TO DO LIST
 *---------*
 
+HIGH PRIORITY
+--------------
+* Finish adding comments for vanilla values to camera_shake.xtbl and set all values to 0 
+* Finish adding comments for vanilla values to gameplay_properties.xtbl and revert removing invulnerable flag
+
 SINGLEPLAYER
 --------
 * Increase alien spawns
@@ -14,7 +19,7 @@ SINGLEPLAYER
 
 MISC
 -----
-* Balance nanoforge_abilities.xtbl
+* Balance Nanoforge abilities
 * Reduce revival speed time, it shouldn't be instant
 * Add salvage drops to all structures
 * Remove camera shake
@@ -59,28 +64,26 @@ WEAPONS
 
 TEST
 -----
-* The auto aim seems a bit aggressive with M+KB - wip
-* Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp) - test
-* Enforcer still feels off, needs faster firerate? - test
-* Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off - test
-* Arc Welder needs more damage and less cooldown - test
-* Convergence laser needs limited ammo instead of being infinite to not be op (cheat weapon added to mp) - test
-* Rail driver sucks, it's useless against berserkers. Should two hit them but have limited ammo (power weapon) - test
-* Lava barge turret needs limited ammo to not be op (cheat weapon added to mp) - test
-* Buff charge launcher explosion - test
-* Buff regular pistols: uncap firerate, increase clip and total ammo - test
-* Arc welder, AR, shotgun, laser pistols all need changes from Infestation as a base - wip
-* Decrease assault rifle recoil and camera recoil slightly in singleplayer - wip
-* Increase assault rifle firerate in singleplayer - wip
-* Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete - test
+* The auto aim seems a bit aggressive with M+KB
+* Leo machine gun and rocket launchers need limited ammo to not be op (cheat weapons added to mp)
+* Enforcer still feels off, needs faster firerate?
+* Plasma cannon needs shorter charge up, more damage but maybe less ammo. It feels off
+* Arc Welder needs more damage and less cooldown
+* Convergence laser needs limited ammo instead of being infinite to not be op (cheat weapon added to mp)
+* Rail driver sucks, it's useless against berserkers. Should two hit them but have limited ammo (power weapon)
+* Lava barge turret needs limited ammo to not be op (cheat weapon added to mp)
+* Buff charge launcher explosion
+* Buff regular pistols: uncap firerate, increase clip and total ammo 
+* Arc welder, AR, shotgun, laser pistols all need changes from Infestation as a base
+* Decrease assault rifle recoil and camera recoil slightly in singleplayer
+* Increase assault rifle firerate in singleplayer
+* Dust survival might be broken on later waves, possibly due to the custom spawn_resource.xtbl and increased alien spawns not being complete
 
-------------
 LOW PRIORITY
 ------------
-* Port DLC weapons to base game - assets ported into items.vpp_pc so far
+* Port DLC weapons to base game
 * Remember to remove things like full ammo from pickups, all unlocks, upgrades costing nothing etc etc when balance is done
 * Power weapons in general should have half the ammo pickup of regular weapons
-* xDelta script to convert Steam to GOG version, it's a later version and less buggy, also fixes the issue with no crossplay implentation and adds discord api 
 * Reduce memory pool usage: remove table templates, compress files that don't break (don't compress sounds, animations) - done, but files can be completely compressed when the mod is final; keep source files and fork it
 * Script that runs on startup (batch file) and backups "player_options.rfao_pc"
 * AI upscale cutscenes
