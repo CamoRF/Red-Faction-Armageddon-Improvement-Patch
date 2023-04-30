@@ -1,7 +1,6 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Armageddon-Improvement-Patch/current/Logo.png?raw=true "Logo")
 - Version: v0.xx Pre Pre Alpha 23-9-2022 Build 1110
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
-
 - NOTE: This project is currently on hold while I focus on modding RF:G.
 
 This patch is still in development and is not officially released. It is not advised to install this patch for a regular playthrough until development is finished. Please back up your "player_options.rfao_pc" file and any desired save files prior to installation. 
