@@ -2,6 +2,8 @@
 - Version: v0.xx Pre Pre Alpha 23-9-2022 Build 1110
 - Work-in-progress project that adds content, fixes bugs, and enhances many features. 
 
+- NOTE: This is project is currently on hold.
+
 This patch is still in development and is not officially released. It is not advised to install this patch for a regular playthrough until development is finished. Please back up your "player_options.rfao_pc" file and any desired save files prior to installation. 
 
 Check the Red Faction: Armageddon FAQ on the Red Faction Wiki for a list of frequently asked questions and solutions to issues you may encounter with the game: 
