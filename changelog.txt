@@ -38,7 +38,6 @@ v0.01 PRE ALPHA CHANGES
 * Improved blood decals
 * Increased decal lifetimes
 
-
 [Misc]
 * Added structural damage to alien acid spit in projectiles.xtbl
 * Improved alien AI in ai_properties.xtbl, leap_properties.xtbl and tweak_table.xtbl

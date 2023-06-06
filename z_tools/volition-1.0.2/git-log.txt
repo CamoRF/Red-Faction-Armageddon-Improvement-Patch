@@ -1,0 +1,628 @@
+commit 5f921fa3e4f510977939e3342360dcf89ea92150
+Author: Rick Gibbed <rick@gibbed.us>
+Date:   Sun Jan 30 20:58:46 2022 -0600
+
+    Fix AppVeyor config to include missing bins.
+
+commit bb345a39f382e229d8c9da8549d5fa75f0d86848
+Author: Rick Gibbed <rick@gibbed.us>
+Date:   Sat Jan 8 05:40:27 2022 -0600
+
+    Update MungePaletteIndex comment.
+    
+    Update MungePaletteIndex comment with a link to an explanation of the
+    palette index munging.
+
+commit d2da5c26ccf1d09726ff4c58b81ae709b89b8db5
+Author: gibbed <rick@gibbed.us>
+Date:   Mon May 15 06:08:31 2017 -0500
+
+    Added AppVeyor config.
+
+commit 08fbcdb101a272912208fc05b0c1bac27358873a
+Author: gibbed <rick@gibbed.us>
+Date:   Mon May 15 06:08:14 2017 -0500
+
+    Temporary README with AppVeyor build badge.
+
+commit 76ed837a2a02d00e0a83e3e20eb9a243b5f46d1c
+Author: gibbed <rick@gibbed.us>
+Date:   Mon May 15 06:08:03 2017 -0500
+
+    Added solution DotSettings.
+
+commit c5412d8fc0150c47a621a3de8bbb10fa8e3d8fb5
+Author: gibbed <rick@gibbed.us>
+Date:   Mon May 15 02:08:42 2017 -0500
+
+    Changes that didn't make it into the initial Git migration.
+
+commit f4c53f4343320656784ddd84bae3557fe8799cf5
+Author: gibbed <rick@gibbed.us>
+Date:   Tue May 9 16:46:26 2017 -0500
+
+    Changed --1-bit-alpha to --full-alpha in RF2 ConvertPEG.
+
+commit 11e0fad63784193fef1febc33fcb87cf6c35f03b
+Author: gibbed <rick@gibbed.us>
+Date:   Mon May 8 02:01:44 2017 -0500
+
+    Added some Red Faction 2 projects.
+
+commit 267b20840bc9b8fda38eaf9fd8b2b37653d1cbee
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 16:21:44 2017 -0500
+
+    Some code cleanup.
+
+commit dc43569f2bc7943399f266dd04ceee0fc4173edc
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 16:21:32 2017 -0500
+
+    Removed some unused files.
+
+commit 2718eefb6cfe2f1591811e7310c88ef9a85a5cc1
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:47:44 2017 -0500
+
+    Renamed ConvertPeg to ConvertPEG.
+
+commit 1e3e6e3df0874269f4d59398abcf946242a8dbec
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:41:18 2017 -0500
+
+    Renamed Pack to Packing.
+
+commit 715f6b4786614f82c6590b41aaab42d82214365a
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:29:34 2017 -0500
+
+    License bump and updated assembly info.
+
+commit ed09dbca4cd8f8a51c7e7fe6bcb62a4a00eeeb68
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:22:08 2017 -0500
+
+    Updated .gitignore.
+
+commit 8b3267c8a99eeb83a1aa3ee72eeb532353fcd22a
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:21:42 2017 -0500
+
+    Getting things building again.
+
+commit 548a90b2a5db16ba3824d3b4a89d985373236d72
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:19:52 2017 -0500
+
+    Added/updated external dependencies.
+
+commit 42e75653e98995a3ec77afe3ad4577327ca3b824
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:07:06 2017 -0500
+
+    Removed old external dependencies.
+
+commit 55399cffc5b5ab13d1cf36c84fcf9a4a55a04e00
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:03:34 2017 -0500
+
+    Corrected and updated license.
+
+commit bcf64185fd5bc9422ec7c4989828e480321f0387
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:03:19 2017 -0500
+
+    Added external depedencies.
+
+commit 523d25f5122631468c100bc1d394c737001a2c58
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 15:00:47 2017 -0500
+
+    Removed old test project.
+
+commit 26f4e1b0cd8b21b5df5af7c9c5fd1c538b438053
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 14:59:21 2017 -0500
+
+    Added .gitignore.
+
+commit 9434fd5290202b333f91ab94e17e3178a89c3234
+Author: gibbed <rick@gibbed.us>
+Date:   Sun May 7 14:58:22 2017 -0500
+
+    Shuffling things around into a better structure.
+
+commit 33a474903aa0396cdab2fda76e1c9394526c1426
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Mar 26 03:23:55 2012 +0000
+
+    Maybe I should pay attention to what I am doing.
+
+commit bdd4166ec3ab937acd2ae2a7152bac4b39889e89
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Mar 26 03:00:13 2012 +0000
+
+    Add support for SR3 patch changelist 970861 to debug_print hook.
+
+commit 44cb81f1e1b38053cedcd8e6f0f2647625fd35dd
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Mar 26 02:58:10 2012 +0000
+
+    Correcting changelist version output.
+
+commit cd81749841b8bbcbb8d01aa14ff3654197e5ef44
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Mar 26 02:55:35 2012 +0000
+
+    Code output for easy copy & paste in SR3 debug_print searcher.
+
+commit 17c3bea24e5390b23a79dd8caef140449eb36009
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Feb 28 08:11:33 2012 +0000
+
+    Add support for SR3 patches (changelists 960956, 965967, 966663, 966711, 968252) to debug_print hook.
+
+commit 1eb1d538f547c835f2e360459e6163191a59b9e6
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Feb 21 03:57:44 2012 +0000
+
+    Remove an extraneous check.
+
+commit 4a669dbf9c41e755ac7890d9c098c75b460ddeff
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Feb 21 03:57:19 2012 +0000
+
+    Correct unpacking and packing issues with archives that are condensed but not compressed.
+
+commit 93745a905ef3188723e31f4610fcab3b98f6a543
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Feb 1 01:24:25 2012 +0000
+
+    Add support for the next SR3 patch (changelist 964345) to debug_print hook.
+
+commit 790d294b341c201483825cbc760a682b77014a9d
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Jan 12 06:12:57 2012 +0000
+
+    Add support for the next SR3 patch (changelist 960264) to debug_print hook.
+
+commit 92b8ec4ec71a550378dc6d114a4e9894e7a7be18
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Jan 8 18:19:17 2012 +0000
+
+    - Fix another issue with packing version 4 VPPs.
+    - Fix extra flags handling.
+
+commit 824c1c3df4341c2ff285e1ef45c94f01b7c37421
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Jan 8 02:52:05 2012 +0000
+
+    - Move PS3 chunking to its own command-line flag (it wasn't that header flag after all).
+    - VPP Packer now supports providing arbitrary flags for the header (--flag=5 etc).
+
+commit ca65a71074310bf739240ff617805b0df406f21f
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Jan 7 13:01:59 2012 +0000
+
+    - Fixing numerous issues with packing version 4 VPPs.
+    - Add support for a special chunking compression scheme that the PS3 version of Saints Row 2 uses.
+    - Generic package HeaderFlags enum has been broken up into version-specific enums which are converted to / from the generic HeaderFlags.
+    - Versioned package classes now define what header flags they support.
+    - VPP Packer uses above information to provide extra options depending on supported header flags.
+
+commit d575d5710d97e33359abb27bcfb2da0d2c77cb78
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Dec 29 07:01:37 2011 +0000
+
+    -n and -c for VPP Packer was not actually being used. And nobody noticed, until now anyway.
+
+commit bf5c6328ece25cbcc4a721c2053aa7b0a54ca2ee
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Dec 25 00:18:33 2011 +0000
+
+    Oops. Rename finder to searcher.
+
+commit 34c5b19a3ce40efc95f5f9da05163c026fda92c2
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Dec 25 00:15:23 2011 +0000
+
+    Add debug_print hook and searcher projects.
+
+commit 2a03d44a20e6c5d6e963c735214486c8f19829cd
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Dec 21 18:04:02 2011 +0000
+
+    Oops. Fix bug in previous commit.
+
+commit f1e4b75204f0ef27e9d9f865719e94d313e431f2
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Dec 21 18:02:28 2011 +0000
+
+    - VPP/STR2 Unpacker will now detect duplicate file names and give duplicates a new name based on the original.
+    - Modified STR2 Packer to support duplicate names.
+
+commit 01c989bb7ef8f51443d5bd4abc6c4ebaa9a273f8
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Dec 21 17:48:06 2011 +0000
+
+    Fix unpack issues when files were skipped (due to existing already and not having overwrite enabled).
+
+commit 2a047c3f831377b80229d9b4e51f3ae260987a06
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Dec 21 17:11:51 2011 +0000
+
+    Oops. Fixing a mistake I made last commit that caused Packer to always crash.
+
+commit b8267d418de2cfd39b5bee778c834d135c582a58
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Dec 20 03:11:49 2011 +0000
+
+    Add -b and -l arguments to PackVPP.
+
+commit e12356da343ebc5522508b5494b3407e2dae0dcd
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Dec 20 01:37:21 2011 +0000
+
+    Added RF3 PackVPP/PackSTR2/UnpackVPP/UnpackSTR2.
+
+commit 556ba435d2e3fdda639db2d68606ea363431e410
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Nov 24 22:38:25 2011 +0000
+
+    Add more type support to UpdateASM.
+
+commit 97f4f6495a4780d0513ac66c490c9324893a4656
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Nov 24 20:15:57 2011 +0000
+
+    - More type support for UpdateASM (meshes, rigs, etc)
+    - Fix bug in PackSTR2 that gave drag&drop operation the wrong extension.
+
+commit 4e4e64c6d629aeb919fe89d07174994a2636a15d
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Nov 22 21:45:53 2011 +0000
+
+    Remove -o from ConvertASM.
+
+commit a423c9457c709f73dcd1c11a952278ada7df8b81
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Nov 22 19:47:36 2011 +0000
+
+    Oops. Broken version check on RF3 AsmFile.
+
+commit 930b7117dfc0e79e2cde8749203d420889697821
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Nov 22 19:40:23 2011 +0000
+
+    - Correct issues with SR3 AsmFile.
+    - Update RF3 AsmFile.
+    - Support UInt in InterfaceFile.
+    - Add generic ConvertVINTDOC (functions identical to the old one, still needs more work).
+
+commit cdb549d96dd848e707c294a25929be85aebe24c8
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Nov 21 12:27:21 2011 +0000
+
+    - Remove old SR2 InterfaceFile code.
+    - Remove old ConvertVintDoc.
+    - Add new generic InterfaceFile code, rewritten! (still needs serialization work)
+
+commit c273ceca700d2a23e58d300ee84ff4b5275176bc
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Nov 21 09:56:34 2011 +0000
+
+    Oops.
+
+commit 24ebb65e3fdd32de3cfb1bfcde613682523c239a
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Nov 21 09:55:22 2011 +0000
+
+    Move VintFile to SR2 as InterfaceFile (and Vint to Interface).
+
+commit 776dcc46c76244f8a28b0104f205cbe31b0d7211
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 20 20:50:19 2011 +0000
+
+    Let's try that again.
+
+commit 946c3f4f538434a7b655de7df29d563e21b8db9d
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 20 20:45:32 2011 +0000
+
+    Add default manifest to UpdateASM for Mono builds.
+
+commit 050f1f56d0569c1e3307889f75fda66e0bdc9a30
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 20 00:49:26 2011 +0000
+
+    Remove Gibbed.Volition.ConvertZone.
+
+commit 7017a0d94ce57e4bb44ef30f7b1fe323e15e77fe
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 20 00:37:58 2011 +0000
+
+    Add single-argument support to packers (for drag&drop usage).
+
+commit 7276fe97768640acfd8696c7174f58c64a6c62f1
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 20 00:31:43 2011 +0000
+
+    Move old CVTFFile to SR2 FileFormats library.
+
+commit 434d2242745ea443866770750c1f2658a7b07f61
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Nov 19 22:27:43 2011 +0000
+
+    Add UpdateASM project.
+
+commit 970d943648208694d06adc92663fa61595fabdc0
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Nov 19 16:54:00 2011 +0000
+
+    Fix minor deserialization issue for AsmFile, as well as rewritten serialization.
+
+commit f854069733259230826fe8114285ae9bd272d4fc
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Nov 19 04:47:39 2011 +0000
+
+    More refactoring of ASM format code.
+
+commit 536afe38923b5eabdbb153680e586ff6eba2fc32
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Nov 19 04:34:23 2011 +0000
+
+    Refactoring of ASM format code.
+
+commit ac65018c7ac73abaf4ca234ad8c2ecaf1393e65e
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Nov 19 04:10:40 2011 +0000
+
+    - Refactored generic Packer code.
+    - Fixed packing issues, again.
+
+commit 59b72888fcc6588194d422e6852dbd7f74176258
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Nov 19 03:25:56 2011 +0000
+
+    That's not done.
+
+commit 10e8f67ccaaf4c7109447001452f6b106dd1ef38
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Nov 19 03:24:20 2011 +0000
+
+    - Move ASM stuff into game-specific file format libraries.
+    - Add game-specific ConvertASM tools.
+    - Divide PegFile into version-specific classes.
+
+commit b4d253f7fab39407c07590ff53084a0bb0e1ac70
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 13 21:22:29 2011 +0000
+
+    Corrected issues with STR2/VPP packing.
+
+commit 400de3fb265800908334ffa21798741d534056ed
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 13 16:32:40 2011 +0000
+
+    Fix EstimateHeaderSize for version 4 packages.
+
+commit cbdc1cc9078ff038c90bf7fe09e68e7eb6396d33
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 13 16:31:07 2011 +0000
+
+    Whoops, wrong version package for SR2.
+
+commit 0dabb0970f5b6f8d80d770578f47b1df67c3a6a7
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 13 16:28:52 2011 +0000
+
+    Add SR2 specific packer/unpackers.
+
+commit f28a1c3849588c04fee85d0ef7bc203f0c0048dc
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 13 16:19:12 2011 +0000
+
+    - Package file handling code in FileFormats has been rewritten.
+    - Updated any remaining file handling code to use new Endian type.
+    - Add new SR3-specific PackSTR2, PackVPP, UnpackSTR2, UnpackVPP.
+    - New Pack project which provides a generic pack/unpack implementations used by the SR3 packers/unpackers.
+
+commit be600c3089db036607347e9bda480ec7a6d60965
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 13 12:34:46 2011 +0000
+
+    Remove old pack.
+
+commit 2270f2c27f664c9bc7995fbaa29a55f11e030827
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Nov 13 12:34:20 2011 +0000
+
+    Remove old unpack.
+
+commit cd2a33147b14ae1b647c449edf27953730e476ab
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Oct 26 03:57:07 2011 +0000
+
+    Fix compression in packing.
+
+commit 6b064e9c11f78fe34cac6e7397f7ad1cf0b85b8f
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Oct 26 03:15:25 2011 +0000
+
+    Fix unpacking of solid archives which are not compressed.
+
+commit 3404f407beca8bf5b3008111a0d3538421922e22
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Oct 26 00:19:24 2011 +0000
+
+    Unpack to current directory, no change for drag+drop usage.
+
+commit bcc0855772a054d6d0876a9f14250aceb9ff2379
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed Oct 26 00:13:53 2011 +0000
+
+    Add Saints Row 3 Initiation Station option to Unpack (--is).
+
+commit 77659b6e81b0c755553b09d2912fa4d56db27278
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Oct 25 20:59:43 2011 +0000
+
+    Replace Ionic.Zlib with ICSharpCode.SharpZipLib.
+
+commit b790c3612184e19398021784274d91ebc03d85f0
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Oct 25 20:48:33 2011 +0000
+
+    - Replace Gibbed.Helpers with Gibbed.IO.
+    - Move to new repos for Gibbed.Squish, NDesk.Options.
+    - Fixed all projects to for previously listed changes.
+    - Incompete CVTF, Peg related code.
+
+commit 6a5788c20d23751a2f377228831487dbce1628e0
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Jun 11 21:53:09 2011 +0000
+
+    PegFile improvements.
+
+commit 28f49132b34a11410affd2ee18bdfecbfdf9f90b
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Jun 11 21:49:20 2011 +0000
+
+    Fix offset handling with large (2GB+) VPP archives.
+
+commit 1fed09fc5e7aa9c29cedfc93423380399ba63b84
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Jun 11 16:31:55 2011 +0000
+
+    - Fix a few visual issues in Unpack.
+    - PegFile deserialize implementation.
+
+commit cb568fa61908e496d92a875e30ce9bc58cfaf153
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Jun 11 08:31:56 2011 +0000
+
+    Fix some file handling.
+
+commit f8da12b42dafa3553378d00c8b880e7d94557989
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sat Jun 11 08:29:57 2011 +0000
+
+    - Package related code cleanup.
+    - Added stubs for PegFile / TableFile (to be implemented).
+    - Missing license files.
+
+commit d9ef2aa22859c3d09269f191691b9e25faf9bf4c
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Jun 10 11:49:56 2011 +0000
+
+    Serialization support for VPP version 6.
+
+commit 35b74236e5cd1766085a2e0eee187888784a8e3b
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Jun 7 10:19:34 2011 +0000
+
+commit 5e4237a691c0ee1462e07ec2f8f0fd4cafddeedb
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed May 4 10:12:53 2011 +0000
+
+    Woops, that wasn't meant to be committed. :)
+
+commit aeefe53753f7e5ca49e08646db68f335ceb227d2
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Wed May 4 10:10:47 2011 +0000
+
+    - Upgrade project files to Visual Studio 2010.
+    - Basic support for Red Faction: Armageddon VPP files (version 6).
+
+commit 1d16ba7251a1115423b74ed0f66314a25c8ca9e5
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Oct 20 17:14:10 2009 +0000
+
+commit 8b3b7eaf3b299ca4db74fa40b1a086efbd2fd8b4
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Oct 20 17:07:53 2009 +0000
+
+commit e90e0c8225cb97707ec8917f02725f75242002c7
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Sun Sep 20 06:19:11 2009 +0000
+
+commit 419d1c0f3d37c1da6d637d65f0ded7aedd80dce2
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Sep 18 23:57:37 2009 +0000
+
+commit 1062e91d54be1741f606c4beaab2858a02657595
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Sep 18 23:15:31 2009 +0000
+
+commit f33becfab31e52b2dfd70a03303599b758769c5b
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Sep 18 07:59:14 2009 +0000
+
+commit be0826e8aa63e5406c3ce9c41c9984758d6842a1
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Sep 18 05:51:36 2009 +0000
+
+commit d8158fec3ed7ac6d5c9aabc5284f62a9d5be68cd
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Sep 18 04:31:23 2009 +0000
+
+commit 69ccc94e59520ab69523f198df40d422af0a3802
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Sep 18 02:48:37 2009 +0000
+
+commit 73252f07800a290e96f29963cfc6a1dcad53bb8c
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Fri Sep 18 02:45:22 2009 +0000
+
+commit d487ef02910ca81c5189f021d6874e135701f560
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Sep 17 20:42:32 2009 +0000
+
+commit 530f9bc94c551c4b99c201f04ad26eb63d31da5b
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Sep 17 20:16:26 2009 +0000
+
+commit 2003b5ba671519526d68e92b108c999478ea8cde
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Sep 17 11:09:26 2009 +0000
+
+commit 66355f5e208784410143d39b9e5760175cbe247b
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Sep 17 08:49:26 2009 +0000
+
+commit 4b4749067bd509cc7153769d14bf3a0a6ded2d1e
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Thu Sep 17 08:45:08 2009 +0000
+
+commit 98dabdbe6e1836c884c9a27c7803856df723326d
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Sep 15 22:58:45 2009 +0000
+
+commit 65286924975689d1f6fe1dc60b210d89840856ed
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Sep 15 22:58:17 2009 +0000
+
+commit 60f71c4b29c10db97004946b4b85121e35a02398
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Sep 15 22:57:16 2009 +0000
+
+commit b7d8321c5fb5c5c9dc644bb751955def309cab89
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Tue Sep 15 22:57:10 2009 +0000
+
+commit f2b94f5f002cbf6872d595df5464d01cab258b57
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Sep 14 00:26:18 2009 +0000
+
+commit bce69cdb368ffeff0c1284c1866fd444c35d80ab
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Sep 14 00:21:00 2009 +0000
+
+commit 9d4f4e4f75248ad3e129de249910ca41225839f8
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Sep 14 00:11:40 2009 +0000
+
+commit 8cfa109b4cf9822291a50cda8b6029a48a2df63d
+Author: Rick Gibbed <gibbed@users.noreply.github.com>
+Date:   Mon Sep 14 00:10:35 2009 +0000
