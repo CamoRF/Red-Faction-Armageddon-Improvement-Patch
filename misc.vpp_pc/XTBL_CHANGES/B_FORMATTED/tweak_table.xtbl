@@ -1031,7 +1031,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_move_speed</Name>
-			<Value>7.0</Value> <!--From 2.0--> <!--Old 4.0-->
+			<Value>18.0</Value> <!--From 2.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>

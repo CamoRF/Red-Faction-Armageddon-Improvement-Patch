@@ -15,7 +15,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>		 
-<!--ADDED-->		
+<!--START ADDED-->		
 		<spawn_resource_entry>
 			<Name>mp_infestation_hard</Name>
 			<npc_list>
@@ -80,7 +80,7 @@
 <!--END-->				
 			</npc_list>
 		</spawn_resource_entry>
-<!--ADDED-->		
+<!--START ADDED-->		
 		<spawn_resource_entry>
 			<Name>mp_infestation_dust</Name>
 			<npc_list>

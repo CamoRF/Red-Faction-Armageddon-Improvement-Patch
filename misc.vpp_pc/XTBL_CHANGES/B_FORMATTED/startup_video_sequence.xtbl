@@ -1,11 +1,11 @@
 <root>
 	<Table>
-		<Startup_Video>
+	<!--<Startup_Video>
 			<Name>Default</Name>
 			<Video_List>
 				<Video>
 					<Video_File>
-						<Filename>logo_thq-v-rfa1.bik</Filename>
+						<Filename>logo_thq-v-rfa.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -13,7 +13,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_SyfyGAMES1.bik</Filename>
+						<Filename>logo_SyfyGAMES.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -21,7 +21,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_spike1.bik</Filename>
+						<Filename>logo_spike.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -32,7 +32,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>legal_hd1.bik</Filename>
+						<Filename>legal_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags></Video_Flags>
 					<Region>
@@ -41,7 +41,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>legal_hd_no_esrb1.bik</Filename>
+						<Filename>legal_hd_no_esrb.bik</Filename>
 					</Video_File>
 					<Video_Flags></Video_Flags>
 					<Region>
@@ -53,7 +53,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Startup_Video>
+		</Startup_Video>-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
