@@ -1123,6 +1123,7 @@
 				<Flag>fade when dropped on death</Flag>
 				<Flag>small arm</Flag>
 				<Flag>dlc_locked</Flag>
+				<Flag>can fire at friendly</Flag> <!--ADDED-->
 			</Flags>
 			<Firing_Mode_Slots>
 				<Firing_Mode_Slot>
