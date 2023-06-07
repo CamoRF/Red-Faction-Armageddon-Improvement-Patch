@@ -1,0 +1,31 @@
+<root>
+<Table>
+	<Entries>
+		<Entry>
+			<Persona>dlc04_jarvis</Persona>
+			<Persona_id>2876191572</Persona_id>
+			<Event_id>1413300177</Event_id>
+		</Entry>
+		<Entry>
+			<Persona>dlc04_mallus</Persona>
+			<Persona_id>1353007921</Persona_id>
+			<Event_id>3225244368</Event_id>
+		</Entry>
+		<Entry>
+			<Persona>dlc04_hale</Persona>
+			<Persona_id>2845803351</Persona_id>
+			<Event_id>3305421486</Event_id>
+		</Entry>
+		<Entry>
+			<Persona>dlc04_winters</Persona>
+			<Persona_id>677019671</Persona_id>
+			<Event_id>1319959884</Event_id>
+		</Entry>
+		<Entry>
+			<Persona>dlc04_darius</Persona>
+			<Persona_id>8957157</Persona_id>
+			<Event_id>1518926572</Event_id>
+		</Entry>
+	</Entries>
+</Table>
+</root>

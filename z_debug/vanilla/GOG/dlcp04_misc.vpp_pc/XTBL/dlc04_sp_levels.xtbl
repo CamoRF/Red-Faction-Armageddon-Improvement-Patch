@@ -1,0 +1,50 @@
+<root>
+<Table>
+	<sp_level_list>
+		<Name>dlc04_starting_level</Name>
+		<Level_name>
+			<Filename>dlc04_11_02.rfgterrainx</Filename>
+			</Level_name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Mission>DLC04_Mission_01</Mission>
+		</sp_level_list>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>sp_level_list</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Level_name</Name>
+		<Type>Filename</Type>
+		<Display_Name>Level name</Display_Name>
+		<Extension>rfgterrainx</Extension>
+		<StartingPath>data\dlc\dlc04\levels</StartingPath>
+		<ShowPreload>False</ShowPreload>
+		</Element>
+	<Element>
+		<Name>Mission</Name>
+		<Type>Reference</Type>
+		<Reference>
+			<File>..\dlc\dlc04\tables\dlc04_missions.xtbl</File>
+			<Type>mission.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

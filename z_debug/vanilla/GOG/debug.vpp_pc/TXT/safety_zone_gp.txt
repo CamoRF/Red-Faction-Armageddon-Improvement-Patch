@@ -1,0 +1,5 @@
+// Put whatever scripts you want here that will execute upon entering gameplay
+lock_all_weapons
+gimme phased_plasma_rifle magnet_gun sledgehammer charge_placer
+repair_weapon_enabled true
+repair_grenades_enabled true

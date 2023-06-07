@@ -1,0 +1,41 @@
+<root><Table><Skeleton_Set>
+<Name>npc_table_default1</Name>
+<Parent_Skeleton>npc_table</Parent_Skeleton>
+<Groups>
+<Group><group>Default</group>
+<States>
+<State><ID>stand</ID><Animation><Filename>male_std.animx</Filename></Animation><interrupts><interrupt><set_switch>npc_table_default2</set_switch><action_tag_name>idle a</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>10000</cooldown_time></interrupt><interrupt><set_switch>npc_table</set_switch><action_tag_name>idle b</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>10000</cooldown_time></interrupt></interrupts></State>
+</States>
+<Actions></Actions>
+</Group>
+<Group><group>Rifle</group>
+<States>
+<State><ID>stand ready</ID><Animation><Filename>male_rfl_rd_crch.animx</Filename></Animation><interrupts><interrupt><set_switch>npc_table</set_switch><action_tag_name>crouch to stand</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>5000</cooldown_time></interrupt></interrupts></State>
+<State><ID>stand</ID><Animation><Filename>male_rfl_std_idle_d.animx</Filename></Animation><interrupts><interrupt><set_switch>npc_table</set_switch><action_tag_name>set transition 1</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>7000</cooldown_time></interrupt></interrupts></State>
+<State><ID>stand crazy</ID><Animation><Filename>male_rfl_std_crzy_c.animx</Filename></Animation><interrupts><interrupt><set_switch>npc_table</set_switch><action_tag_name>stand crazy transition</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>8000</cooldown_time></interrupt></interrupts></State>
+</States>
+<Actions>
+<Action><ID>crouch to stand</ID><Animation><Filename>male_rfl_rd_crch_to_stnd.animx</Filename></Animation></Action>
+<Action><ID>fire</ID><Animation><Filename>male_rfl_rd_crch_fr.animx</Filename></Animation></Action>
+<Action><ID>stand fire</ID><Animation><Filename>male_rfl_rd_crch_fr.animx</Filename></Animation></Action>
+<Action><ID>set transition 1</ID><Animation><Filename>male_rfl_std_idle_d_to_stnd.animx</Filename></Animation></Action>
+<Action><ID>stand ready shuffle left</ID><Animation><Filename>male_rfl_rd_crch_trn_lft.animx</Filename></Animation></Action>
+<Action><ID>stand ready shuffle right</ID><Animation><Filename>male_rfl_rd_crch_trn_rght.animx</Filename></Animation></Action>
+</Actions>
+</Group>
+</Groups><_Editor><Category>Entries</Category></_Editor></Skeleton_Set></table><TableTemplates></TableTemplates><TableDescription>
+<Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element>
+<Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name></Element><Element>
+<Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Required>false</Required></Element><Element>
+<Name>Groups</Name><Type>Grid</Type><Element>
+<Name>Group</Name><Type>Element</Type><Element>
+<Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Unique>true</Unique><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element><Element>
+<Name>States</Name><Type>Grid</Type><Element>
+<Name>State</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element><Element>
+<Name>Actions</Name><Type>Grid</Type><Element>
+<Name>Action</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category>
+<Name>Entries</Name></Category></EntryCategories></root>

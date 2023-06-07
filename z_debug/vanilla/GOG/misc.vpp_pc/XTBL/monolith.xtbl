@@ -1,0 +1,113 @@
+<root>
+<Table>
+	<Monolith>
+		<Name>Monolith</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<radius>35</radius>
+		<alien_damage_dealt>100</alien_damage_dealt>
+		<alien_regen_rate>0</alien_regen_rate>
+		<fog_damage_rate>0</fog_damage_rate>
+		<alien_damage_received>40</alien_damage_received>
+		</Monolith>
+	<Monolith>
+		<Name>MegaMonolith</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<radius>70</radius>
+		<alien_damage_dealt>100</alien_damage_dealt>
+		<alien_regen_rate>0</alien_regen_rate>
+		<fog_damage_rate>0</fog_damage_rate>
+		<alien_damage_received>30</alien_damage_received>
+		</Monolith>
+	<Monolith>
+		<Name>MiniMonolith</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<radius>25</radius>
+		<alien_damage_dealt>100</alien_damage_dealt>
+		<alien_regen_rate>0</alien_regen_rate>
+		<fog_damage_rate>0</fog_damage_rate>
+		<alien_damage_received>30</alien_damage_received>
+		</Monolith>
+	<Monolith>
+		<Name>Infected Refinery</Name>
+		<radius>40</radius>
+		<alien_regen_rate>0</alien_regen_rate>
+		<alien_damage_received>30</alien_damage_received>
+		<alien_damage_dealt>100</alien_damage_dealt>
+		<fog_damage_rate>0</fog_damage_rate>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Monolith>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Monolith</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		<MaxLength>32</MaxLength>
+		</Element>
+	<Element>
+		<Name>radius</Name>
+		<Type>Float</Type>
+		<Display_Name>Radius (m)</Display_Name>
+		<Description>Maximum radial extent in meters from center of monolith defining the area where this monolith affects aliens and humans.</Description>
+		<Default>25</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>255</MaxValue>
+		</Element>
+	<Element>
+		<Name>alien_regen_rate</Name>
+		<Type>Float</Type>
+		<Display_Name>Alien Regeneration Rate (%/s)</Display_Name>
+		<Description>Rate at which alien hitpoints increase, up to their maximum HP value.  Value is in percentage of maximum HP's per second.  For example, a value of 5% adds 10 HP per second for an alien with 200 HP max.</Description>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>100</MaxValue>
+		</Element>
+	<Element>
+		<Name>alien_damage_received</Name>
+		<Type>Float</Type>
+		<Display_Name>Alien Damage Received (%)</Display_Name>
+		<Description>Amount of damage aliens receive as a percentage modifier of the normal damage amount.  100% is normal damage, 50% is half damage, etc.</Description>
+		<Default>100</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>100</MaxValue>
+		</Element>
+	<Element>
+		<Name>alien_damage_dealt</Name>
+		<Type>Float</Type>
+		<Display_Name>Alien Damage Dealt (%)</Display_Name>
+		<Description>Amount of damage aliens deal as a percentage modifier of their normal damage amount.  100% is normal damage, 200% is double damage, etc.</Description>
+		<Default>100</Default>
+		<MinValue>100</MinValue>
+		</Element>
+	<Element>
+		<Name>fog_damage_rate</Name>
+		<Type>Float</Type>
+		<Display_Name>Fog Damage Rate (%/s)</Display_Name>
+		<Description>Rate at which humans take damage from the monolith's poisonous fog.  Value is in percentage of maximum HP's per second.  For example, a value of 5% subtracts 10 HP per second for a human with 200 HP max.</Description>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>100</MaxValue>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

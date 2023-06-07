@@ -1,0 +1,3 @@
+level 1200
+// Disable this as it can be hiding bugs...
+//console_gp_enter script mission_08a_gp

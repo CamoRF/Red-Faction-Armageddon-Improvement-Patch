@@ -1,0 +1,125 @@
+<root>
+<Table>
+	<Activity>
+		<Name>Damage Vehicle</Name>
+		<Value>25</Value>
+		<Delay>500</Delay>
+		<Min_level>0</Min_level>
+		<Max_level>2</Max_level>
+		<_Editor>
+			<Category>Activities</Category>
+			</_Editor>
+		</Activity>
+	<Activity>
+		<Name>Destroy Vehicle</Name>
+		<Value>100</Value>
+		<Delay>0</Delay>
+		<Min_level>0</Min_level>
+		<Max_level>3</Max_level>
+		<_Editor>
+			<Category>Activities</Category>
+			</_Editor>
+		</Activity>
+	<Activity>
+		<Name>Damage Structure</Name>
+		<Value>10</Value>
+		<Delay>500</Delay>
+		<Min_level>0</Min_level>
+		<Max_level>2</Max_level>
+		<_Editor>
+			<Category>Activities</Category>
+			</_Editor>
+		</Activity>
+	<Activity>
+		<Name>Destroy Structure</Name>
+		<Value>200</Value>
+		<Delay>0</Delay>
+		<Min_level>0</Min_level>
+		<Max_level>3</Max_level>
+		<_Editor>
+			<Category>Activities</Category>
+			</_Editor>
+		</Activity>
+	<Activity>
+		<Name>Find Corpse</Name>
+		<Value>50</Value>
+		<Delay>1000</Delay>
+		<Min_level>0</Min_level>
+		<Max_level>1</Max_level>
+		<_Editor>
+			<Category>Activities</Category>
+			</_Editor>
+		</Activity>
+	<Activity>
+		<Name>Find Mine</Name>
+		<Value>50</Value>
+		<Delay>1000</Delay>
+		<Min_level>0</Min_level>
+		<Max_level>1</Max_level>
+		<_Editor>
+			<Category>Activities</Category>
+			</_Editor>
+		</Activity>
+	<Activity>
+		<Name>Kill Human</Name>
+		<Value>100</Value>
+		<Delay>250</Delay>
+		<Min_level>0</Min_level>
+		<Max_level>3</Max_level>
+		<_Editor>
+			<Category>Activities</Category>
+			</_Editor>
+		</Activity>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Activity</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Value</Name>
+		<Type>Int</Type>
+		<Description>How much alert this activity adds</Description>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Delay</Name>
+		<Type>Int</Type>
+		<Display_Name>Delay (ms)</Display_Name>
+		<Description>Delay before the activity bumps notoriety</Description>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Min_level</Name>
+		<Type>Int</Type>
+		<Display_Name>Min level</Display_Name>
+		<Description>If the alert is lower than this level the activity is ignored</Description>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>3</MaxValue>
+		</Element>
+	<Element>
+		<Name>Max_level</Name>
+		<Type>Int</Type>
+		<Display_Name>Max level</Display_Name>
+		<Description>If the alert is higher than this level, the activity is ignored</Description>
+		<Default>3</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>3</MaxValue>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Activities</Name>
+		</Category>
+	</EntryCategories>
+</root>

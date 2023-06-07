@@ -1,0 +1,59 @@
+<root>
+<Table>
+	<NewEntity>
+		<Name>Stand</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+	<NewEntity>
+		<Name>Backpack</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+	<NewEntity>
+		<Name>Upper Body</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+	<NewEntity>
+		<Name>Lower Body</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+	<NewEntity>
+		<Name>Wrist</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+	<NewEntity>
+		<Name>Feet</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</NewEntity>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>NewEntity</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

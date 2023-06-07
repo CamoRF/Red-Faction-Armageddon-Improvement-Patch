@@ -1,0 +1,369 @@
+<root>
+<Table>
+	<Mission_Objective>
+		<Name>DLC04_01_DESTROYBASE</Name>
+		<Display_Name>DLC04_01_DESTROYBASE</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_02_GETTOTHETERRAFORMER</Name>
+		<Display_Name>DLC04_02_GETTOTHETERRAFORMER</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 2</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_PlaceBeacon</Name>
+		<Display_Name>DLC04_03_PLACEBEACON</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_DefendArea</Name>
+		<Display_Name>DLC04_03_DEFENDAREA</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_FireOrbital</Name>
+		<Display_Name>DLC04_03_FIREORBITAL</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_GetAway</Name>
+		<Display_Name>DLC04_03_GETAWAY</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_MacGuffin</Name>
+		<Display_Name>DLC04_03_MACGUFFIN</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_DropGuffin</Name>
+		<Display_Name>DLC04_03_DROPGUFFIN</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_SecondTower</Name>
+		<Display_Name>DLC04_03_SECONDTOWER</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_GetOut</Name>
+		<Display_Name>DLC04_03_GETOUT</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_FinalTower</Name>
+		<Display_Name>DLC04_03_FINALTOWER</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_Tutorial1</Name>
+		<Display_Name>DLC04_03_TUTORIAL1</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_Tutorial2</Name>
+		<Display_Name>DLC04_03_TUTORIAL2</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission4_KillCultists</Name>
+		<Display_Name>DLC04_04_KILL_CULTISTS</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 4</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission4_KillMallus</Name>
+		<Display_Name>DLC04_04_KILL_MALLUS</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 4</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission4_DestroyGens</Name>
+		<Display_Name>DLC04_04_DESTROY_GENERATORS</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 4</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission4_GotoBastion</Name>
+		<Display_Name>DLC04_04_RETURN_TO_BASTION</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 4</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission4_Repair</Name>
+		<Display_Name>DLC04_04_REPAIR</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 4</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_LEAVENOSURVIVORS</Name>
+		<Display_Name>DLC04_01_LEAVENOSURVIVORS</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_ELIMINATESCOUTS</Name>
+		<Display_Name>DLC04_01_ELIMINATESCOUTS</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_DESTROYMOUNTAINBASE</Name>
+		<Display_Name>DLC04_01_DESTROYMOUNTAINBASE</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_CONTINUETOGENERATOR</Name>
+		<Display_Name>DLC04_01_CONTINUETOGENERATOR</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_INFILTRATEDEFENSES</Name>
+		<Display_Name>DLC04_01_INFILTRATEDEFENSES</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_APPROACHDEFENSECORE</Name>
+		<Display_Name>DLC04_01_APPROACHDEFENSECORE</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_ESCAPEMELTDOWN</Name>
+		<Display_Name>DLC04_01_ESCAPEMELTDOWN</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_02_TAKEOUTGENERATOR</Name>
+		<Display_Name>DLC04_02_TAKEOUTGENERATOR</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 2</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_02_BACKUPREDFACTION</Name>
+		<Display_Name>DLC04_02_BACKUPREDFACTION</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 2</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_02_CONTINUETOTERRAFORMER</Name>
+		<Display_Name>DLC04_02_CONTINUETOTERRAFORMER</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 2</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_02_TAKEALTERNATEROUTE</Name>
+		<Display_Name>DLC04_02_TAKEALTERNATEROUTE</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 2</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_02_CLEARPATHFORREDFACTION</Name>
+		<Display_Name>DLC04_02_CLEARPATHFORREDFACTION</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 2</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_SHOOTTHECORE</Name>
+		<Display_Name>DLC04_01_SHOOTTHECORE</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission3_KillTower</Name>
+		<Display_Name>DLC04_03_KILLTOWER</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 3</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_CLEARESCAPEROUTE</Name>
+		<Display_Name>DLC04_01_CLEARESCAPEROUTE</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_ADVANCETHROUGHCANYON</Name>
+		<Display_Name>DLC04_01_ADVANCETHROUGHCANYON</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_SILENCETRANSMISSION</Name>
+		<Display_Name>DLC04_01_SILENCETRANSMISSION</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_SLIPTHROUGHPASS</Name>
+		<Display_Name>DLC04_01_SLIPTHROUGHPASS</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_01_RETURNTOSURFACE</Name>
+		<Display_Name>DLC04_01_RETURNTOSURFACE</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 01</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission4_FindMallus</Name>
+		<Display_Name>DLC04_04_FINDMALLUS</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 4</Category>
+			</_Editor>
+		</Mission_Objective>
+	<Mission_Objective>
+		<Name>DLC04_Mission4_AlienThreat</Name>
+		<Display_Name>DLC04_04_ALIENTHREAT</Display_Name>
+		<Fade_Out>False</Fade_Out>
+		<_Editor>
+			<Category>Mission_Objective:DLC04 Mission 4</Category>
+			</_Editor>
+		</Mission_Objective>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Mission_Objective</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Mission Objective</Display_Name>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Display_Name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Display Name</Display_Name>
+		<Description>This is the name that will This will diplay on the HUD during missions while the objective is active</Description>
+		<Reference>
+			<File>..\dlc\dlc04\tables\localized_exports\dlc04_text.xtbl</File>
+			<Type>dlc04_Identifier.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Fade_Out</Name>
+		<Type>Selection</Type>
+		<Display_Name>Fade Out</Display_Name>
+		<Description>If true, the objective will eventually fade from the screen.</Description>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Mission_Objective</Name>
+		<Category>
+			<Name>DLC04 Mission 01</Name>
+			</Category>
+		<Category>
+			<Name>DLC04 Mission 2</Name>
+			</Category>
+		<Category>
+			<Name>DLC04 Mission 3</Name>
+			</Category>
+		<Category>
+			<Name>DLC04 Mission 4</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

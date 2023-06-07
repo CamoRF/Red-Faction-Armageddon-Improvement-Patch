@@ -1,0 +1,105 @@
+<root>
+<Table>
+	<Entry>
+		<Name>darius 1</Name>
+		<Image>
+			<Filename>ui_sp_stats_darius_1.tga</Filename>
+			</Image>
+		<Missions>
+			<Mission>Mission_01A</Mission>
+			<Mission>Mission_01B</Mission>
+			</Missions>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Entry>
+	<Entry>
+		<Name>darius 2</Name>
+		<Image>
+			<Filename>ui_sp_stats_darius_2.tga</Filename>
+			</Image>
+		<Missions>
+			<Mission>Mission_02</Mission>
+			<Mission>Mission_03</Mission>
+			<Mission>Quest_10</Mission>
+			<Mission>Mission_04</Mission>
+			<Mission>Quest_1</Mission>
+			<Mission>Quest_2</Mission>
+			<Mission>Mission_05</Mission>
+			<Mission>Quest_3</Mission>
+			<Mission>Mission_06</Mission>
+			<Mission>Mission_07</Mission>
+			<Mission>Quest_4</Mission>
+			<Mission>Quest_6</Mission>
+			<Mission>Mission_08A</Mission>
+			<Mission>Mission_08B</Mission>
+			<Mission>Mission_09A</Mission>
+			</Missions>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Entry>
+	<Entry>
+		<Name>darius 3</Name>
+		<Image>
+			<Filename>ui_sp_stats_darius_3.tga</Filename>
+			</Image>
+		<Missions>
+			<Mission>Quest_7</Mission>
+			<Mission>Quest_8</Mission>
+			<Mission>Mission_12</Mission>
+			<Mission>Mission_13</Mission>
+			<Mission>Mission_14A</Mission>
+			<Mission>Mission_14B</Mission>
+			<Mission>Mission_16A</Mission>
+			<Mission>Mission_16B</Mission>
+			<Mission>Mission_17A</Mission>
+			<Mission>Mission_17B</Mission>
+			<Mission>Mission_17C</Mission>
+			</Missions>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Entry>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Entry</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Image</Name>
+		<Type>Filename</Type>
+		<Extension>tga</Extension>
+		<StartingPath>data\ui\textures\streamed_images</StartingPath>
+		<ShowPreload>False</ShowPreload>
+		</Element>
+	<Element>
+		<Name>Missions</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>Mission</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>missions.xtbl</File>
+				<Type>mission.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

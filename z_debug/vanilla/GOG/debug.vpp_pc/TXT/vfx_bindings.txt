@@ -1,0 +1,34 @@
+
+// key bindings
+// Z
+Control_debug_bind_key "Vfx_step" 0x2C
+// X
+Control_debug_bind_key "Vfx_step_sub" 0x2D
+// =
+Control_debug_bind_key "Vfx_step_emitter_next" 0x0D
+// -
+Control_debug_bind_key "Vfx_step_emitter_prev" 0x0C
+// numpad +
+Control_debug_bind_key "Vfx_step_object_next" 0x4E
+// numpad -
+Control_debug_bind_key "Vfx_step_object_prev" 0x4A
+// h
+Control_debug_bind_key "show_hud" 0x23
+// 1
+Control_debug_bind_key "vfx_particle_debug" 0x02
+// 2
+Control_debug_bind_key "vfx_particle_debug_wireframe" 0x03
+// 3
+Control_debug_bind_key "vfx_show_stats" 0x04
+// 4
+Control_debug_bind_key "vfx_show_global_stats" 0x05
+// 5
+Control_debug_bind_key "Rl_show_gpu_profiler" 0x06
+// 6
+Control_debug_bind_key "rl_distortion_debug" 0x07
+// F5
+//Control_debug_bind_key "effects_reload" 0x3F
+// backslash
+Control_debug_bind_key "object_effect_dump_profile" 0x2B
+// V
+Control_debug_bind_key "play_last_effect" 0x2F

@@ -1,0 +1,16 @@
+// Put whatever console commands you want here that will execute upon entering gameplay
+lock_all_weapons
+gimme magnet_gun phased_plasma_cannon phased_plasma_rifle charge_placer
+Unlock_weapon sledgehammer
+Unlock_weapon anti_tank_pistol
+Unlock_weapon rail_driver
+Unlock_weapon grenade_launcher
+Unlock_weapon standard_bullet_pistol
+Unlock_weapon shotgun
+Unlock_weapon rpg_launcher
+Unlock_weapon nano_rifle
+Unlock_weapon phased_plasma_beam
+Unlock_weapon gravitic_imploder
+//set_money 25500 - JeffK 2/3/11 - don't set the salvage as that stomps on PROFILE data.
+repair_weapon_enabled true
+repair_grenades_enabled true

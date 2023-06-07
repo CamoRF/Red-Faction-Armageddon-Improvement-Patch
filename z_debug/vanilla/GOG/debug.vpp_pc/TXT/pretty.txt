@@ -1,0 +1,10 @@
+r_lighting true
+r_enable_decals TRUE
+rl_hdr_enable true
+rl_dof_enable TRUE
+rl_aa_mode 1
+automobile_tire_tracks TRUE
+shadows TRUE
+r_far_clip 475
+rl_hdr_exposure_min
+rl_hdr_exposure_max

@@ -1,0 +1,2 @@
+level Press_Test
+console_gp_enter script unsafety_zone_gp

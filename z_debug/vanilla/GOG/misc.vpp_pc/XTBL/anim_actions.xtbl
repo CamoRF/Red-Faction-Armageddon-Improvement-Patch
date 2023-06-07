@@ -1,0 +1,1677 @@
+<root><Table>
+<Action><Name>acid puke</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>acid puke walk back</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>acid puke walk forwrad</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>acid puke walk left</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>acid puke walk right</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>aggro</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>aggro leap</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>aim to stand</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>aim to walk forward</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>aim up fire</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb cpr give action 1</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb cpr give action 2</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb cpr receive action 1</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb cpr receive action 2</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb inquisitor c1 action</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb inquisitor c2 action</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb inquisitor w1 action</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb inquisitor w2 action</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>amb inquisitor w3 action</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient bar clean enter a</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient bar clean exit a</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient bar lean talk</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient beer drop</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient beer sit drink</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient beer stand drink</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient beer talk</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient beer to stand</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient binocular enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient binocular exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient box drop</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient box pick up</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient briefcase computer use</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient car inspect</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient check id</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient check id approved</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient check id denied</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient clipboard point</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient clipboard read</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient close locker</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient clutter labdesk</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient cower death</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient cower turn</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient crotch adjust</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient crouch survey</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient crouch to stand</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient crouch weld enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient crouch weld exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient crouch weld inspect</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient crouch weld use</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient drop beam</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient drop beam quick</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient execute fire</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient garden to sit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient garden to stand</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient give</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient give id</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient give id approved</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient give id denied</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient give pistol</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient hammer enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient injured crouch</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient injured to stand</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient jackhammer use</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient kneel exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient kneel exit a</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient lay in bed</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient lean enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient lean enter b</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient mining enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient mining exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient mining ground enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient mining ground exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient open locker</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient pickup beam</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient radio enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient read meter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient read pipe</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient read sign</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient rock pickup</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient rock quick drop</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient rock toss</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient security panel</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient security panel a</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient security panel high</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient shopper browse</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient shopper browse bag</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient shopper check out</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient smoke</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient smoke a</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient smoke b</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient spray</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient stand from bed</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient stand from bed quick</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient stand survey</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient stand to crouch</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient steps to sit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient steps to stand</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient storekeeper sell</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient storekeeper think</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient surface knock</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient sweep</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient sweep enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient sweep exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient take</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient talk long</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient talk short</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient tie shoe</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient to sit benchtable</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient to sit benchtable b</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient to stand benchtable</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient to stand benchtable b</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient toolbox enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient toolbox exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient toolbox inspect</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient weld enter</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient weld exit</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient weld inspect</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient weld use</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient work a</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient work b</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient work c</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ambient xray stand look</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>ammoless</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>angry run</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>anim1</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>anim2</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 1</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 10</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 11</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 12</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 13</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 14</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 15</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 16</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 17</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 18</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 19</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 2</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 20</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 21</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 22</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 23</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 24</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 25</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 26</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 27</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 28</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 29</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 3</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 30</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 31</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 32</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 33</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 34</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 35</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 36</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 4</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 5</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 6</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 7</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 8</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action 9</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action closing</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>animrig obj action opening</Name><_Editor><Category>Entries:a</Category></_Editor></Action>
+<Action><Name>back falldown</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>back getup</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>back left to back right</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>back right to back left</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>backpedal fire left</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>backpedal fire right</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>backpedal left fire right</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>backpedal right fire left</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>battle cry</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>beat civilian</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth eight oclock</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth four oclock</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth land</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth land heavy</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth start</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth start a</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth start b</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>birth twelve oclock</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>block flinch high</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>block flinch low</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>boom_cannon_2</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>bound back</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>bound forward</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>bound left</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>bound right</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>button press</Name><_Editor><Category>Entries:b</Category></_Editor></Action>
+<Action><Name>calm fall</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>calm fall run</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>car crash moment</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling jump start</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling land turnaround</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling leap start</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling monster closet</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling shuffle left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling shuffle right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to ceiling land</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to ceiling leap</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to ceiling settle</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to ground land</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to ground leap</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to ground settle</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to wall land</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to wall leap</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>ceiling to wall settle</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge explosion</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge explosion back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge explosion left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge explosion right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge m8</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge running crash</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge stuck</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge tell</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge tell forward left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge tell forward right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge tell left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge tell right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charge to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>charging</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>check watch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>check weapon clip</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cheer</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cheer a</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>clean_chamber</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>close weapon locker</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>clutter exc enter</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>clutter exc exit</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>combat roll left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>combat roll right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>combat to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>control panel 1</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cooldown</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cough</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch blind left shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch blind left walk shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch blind right shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch blind right walk shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch exit dive</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch exit dive left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch exit left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch exit right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch into dive</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left aim shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left blind shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left cover to cover crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left cover to cover low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left cover to cover stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left cross cover to crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left cross cover to low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left cross cover to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left into</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left into side</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left lean back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left lean shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left leanout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left leanup shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left ready shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left step back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left stepout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left throw grenade</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch left to ready</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch ready left shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch ready left walk shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch ready right shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch ready right walk shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch reload left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch reload right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right aim shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right blind shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right cover to cover crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right cover to cover low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right cover to cover stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right cross cover to crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right cross cover to low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right cross cover to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right into</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right into side</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right lean back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right lean shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right leanout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right leanup shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right ready shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right step back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right stepout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right throw grenade</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover crouch right to ready</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover equip crouch left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover equip crouch right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover equip stand left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover equip stand right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low exit dive</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low exit dive left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low exit left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low exit right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low into dive</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left cover to cover crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left cover to cover low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left cover to cover stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left cross cover to crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left cross cover to low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left cross cover to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left lean shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left lean up</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left lean up return</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left leanout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low left leanout return</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low ready left shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low ready left walk shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low ready right shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low ready right walk shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low reload right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right cover to cover crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right cover to cover low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right cover to cover stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right cross cover to crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right cross cover to low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right cross cover to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right lean shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right lean up</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right lean up return</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right leanout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover low right leanout return</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand exit left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand exit right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand into dive</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left aim shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left aim walk back shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left aim walk shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left blind shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left cover to cover crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left cover to cover low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left cover to cover stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left cross cover to crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left cross cover to low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left cross cover to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left into</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left into side</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left lean back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left lean shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left leanout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left ready shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left step back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left stepout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand left throw grenade</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand reload left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand reload right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right aim shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right blind shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right cover to cover crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right cover to cover low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right cover to cover stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right cross cover to crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right cross cover to low</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right cross cover to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right into</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right into side</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right lean back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right lean shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right leanout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right ready shoot</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right step back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right stepout</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand right throw grenade</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand transition left right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cover stand transition right left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>cower to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crawl fire left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crawl fire right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crawl flinch left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crawl flinch right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crawl melee left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crawl melee right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crawl out</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>creeper birth</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>creeper birth downsd</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>creeper feast</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>creeper toss</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death head back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death head front</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death head left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death head right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death pelvis back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death pelvis front</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death pelvis left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death pelvis right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death torso back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death torso front</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death torso left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch death torso right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch equip</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch explosion flich forward</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch fire</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch fire alt</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch fire nano grenade</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch flinch backwards</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch flinch body</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch flinch forwards</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch flinch left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch flinch right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch jump start</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch melee</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch melee moving</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch move equip</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch move unequip</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch ready shuffle left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch ready shuffle right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch ready to crouch</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch ready to stand ready</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch reload</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch reload upgraded</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch shuffle left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch shuffle left 180</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch shuffle right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch shuffle right 180</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch throw</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch to prone hands tied</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch to ready</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch to sprint</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch to stand</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch to stand hands tied</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch unequip</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk equip</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire alt</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire back alt</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire left alt</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire nano grenade back</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire nano grenade forward</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire nano grenade left</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire nano grenade right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire right</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk fire right alt</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk reload</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>crouch walk reload upgraded</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>custom</Name><_Editor><Category>Entries:c</Category></_Editor></Action>
+<Action><Name>dans death</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death b</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death body back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death body front</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death electrocuted</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death electrocuted wall</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death fire</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death front</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death head back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death head punch</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death head smash</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death head stomp</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death headshot back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death headshot front</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death headshot front b</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death headshot left</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death headshot right</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death lava</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death legs back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death legs left</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death m5 look up</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death overhead</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death pelvis back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death pelvis front</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death pelvis front b</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death pelvis left</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death pelvis right</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death torso back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death torso front</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death torso left</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>death torso right</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>detonate</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>die back</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dive</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dive a</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dive for cover</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dodge backward</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dodge forward</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dodge left</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dodge nonready</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dodge right</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>down ready interrupt</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>dpassenger reload</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>driller enter</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>driller exit</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>drive fire</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>drive fire l</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>drive fire r</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>driving airborne stunt</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>driving land</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>driving takeoff</Name><_Editor><Category>Entries:d</Category></_Editor></Action>
+<Action><Name>electric blast</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>electric blast walk back</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>electric blast walk frwrd</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>electric blast walk left</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>electric blast walk right</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>electricuted</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>electrocuted</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>emerge</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>emerge from cave</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>emerge from ground</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>end turn left</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>end turn right</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>equip</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo enter</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo enter speedy</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo exit 1</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo exit 2</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo exit 3</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo exit 4</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo exit 5</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>exo exit 6</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion duck backwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion duck forwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion duck left</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion duck right</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion flinch backwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion flinch forwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion flinch left</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion flinch right</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion knockdown backwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion knockdown forwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion knockdown left</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion knockdown right</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion stumble backwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion stumble forwards</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion stumble left</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>explosion stumble right</Name><_Editor><Category>Entries:e</Category></_Editor></Action>
+<Action><Name>facial blind shoot</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>facial cover</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>facial flinch</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>facial flinch 2</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>facial shoot</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fall</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fall m3</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fall m8</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>falldown behind</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fetal flinch</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fiire quills</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire back alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire left alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire right alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire walk</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim crouch fire walk alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire back alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire left alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire right alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire walk</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim fire walk alt</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim in</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fine aim out</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire 0</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire 1</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire 2</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire acid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb run frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb run left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb run right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb walk back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb walk frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire bomb walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire cannon walk back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire cannon walk frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire cannon walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire cannon walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire end</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire end 0</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire end leap</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire end leap down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire end leap left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire end leap right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire end leap up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire gambit</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire gambit walk back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire gambit walk frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire gambit walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire gambit walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap aim left right hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap aim right left hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap down left hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap down right hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap left hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap look left right hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap look right left hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap right hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap up left hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire leap up right hand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire left cannon</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire left cannon high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire left cannon left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire left cannon low</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire left cannon right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning left walk back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning left walk frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning left walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning left walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning right walk back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning right walk frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning right walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire lightning right walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire nano grenade</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills end</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills end leap</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills end leap down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills end leap left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills end leap right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills end leap up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills leap</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills leap down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills leap left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills leap right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills leap up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills start</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills start leap</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills start leap down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills start leap left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills start leap right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills start leap up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills walk forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire quills walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire right cannon</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire right cannon high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire right cannon left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire right cannon low</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire right cannon right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire run back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire run forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire run left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire run right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire shotgun walk back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire shotgun walk frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire shotgun walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire shotgun walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire stand</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire stand left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire stand right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire start</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire start leap</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire start leap down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire start leap left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire start leap right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire start leap up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire walk back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire walk forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire walk frwrd</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire walk left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire walk right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall center left down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall center left up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall center right down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall center right up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall left down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall left up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall right down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fire wall right up</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flee action 1</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flee action 2</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flee action 3</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flee and fall</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flee debris</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flee trip fall</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch back left foot down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch back right foot down</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch body</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch face</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch fast</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch fast base</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch fast mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch fast top</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch from above</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch front</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch head backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch head forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch head left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch head right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch legs back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch legs left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch pelvis back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch pelvis back2</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch pelvis backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch pelvis forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch pelvis left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch pelvis right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight crouch backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight crouch forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight crouch left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight crouch right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight head backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight head forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight head left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight head right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight pelvis backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight pelvis forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight pelvis left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight pelvis left2</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight pelvis right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight torso backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight torso forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight torso left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight torso right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch slight torso right2</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch stumble backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch stumble forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch stumble left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch stumble left leg</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch stumble right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch stumble right leg</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch test</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch to stun</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch torso back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch torso backward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch torso forward</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch torso left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch torso right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left head back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left head left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left head right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left pelvis back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left pelvis left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left pelvis right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left torso back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left torso left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall left torso right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right head back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right head left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right head right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right pelvis back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right pelvis left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right pelvis right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right torso back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right torso left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flinch wall right torso right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>flyer attack</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free prisoner</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free prisoner mission</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop onto high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop onto low</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop onto med high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop onto mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop over high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop over low</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop over med high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running close hop over mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running dive through mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop onto high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop onto low</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop onto med high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop onto mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop over high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop over low</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop over low back</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop over low left</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop over med high</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop over mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running hop over right</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running slide enter</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running slide exit</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running slide exit down mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running slide exit up mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>free running slide mid</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>full body fire</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>full salute</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fwd falldown</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fwd getup</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>fwd nudge by car</Name><_Editor><Category>Entries:f</Category></_Editor></Action>
+<Action><Name>get up from crash</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab creeper</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high back</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high back left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high back right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high forward left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high forward right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high left back</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab high right back</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low back</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low back left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low back right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low forward left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low forward right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low left back</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grab low right back</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>greet dismiss</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>greet dismiss left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>greet dismiss right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>greeting a</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>greeting b</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grenade roll</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grenade throw</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>ground to ceiling land</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>ground to ceiling leap</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>ground to ceiling settle</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>ground to wall land</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>ground to wall leap</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>ground to wall settle</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grunt birth</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>grunt birth downsd</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard beat down</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard check weapon</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard inspect</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard look around</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard point</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard shade eyes</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard shove</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard threaten</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard warning shot</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>guard weapon motion</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>gun end turn left</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>gun end turn right</Name><_Editor><Category>Entries:g</Category></_Editor></Action>
+<Action><Name>hand wave</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hang birth start</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>head nod</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>head punch</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>head smash</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>head stomp</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop ceiling to ground</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop ceiling to wall</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop ground to ceiling</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop ground to wall</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop turn left</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop turn right</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop wall to ceiling</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop wall to ground</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hop wall to wall</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hurt shuffle leap left</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>hurt shuffle leap right</Name><_Editor><Category>Entries:h</Category></_Editor></Action>
+<Action><Name>ice ledge 1 monster closet</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>ice ledge 2 monster closet</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>ice ledge 3 monster closet</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>ice ledge m4</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>ice monster closet</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>ice tunnel m4</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle a</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle a</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle b</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle b</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle c</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle c</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle d</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>idle e</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>impact from back</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>impact from front</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>in air fire forword</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell bounce head</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell kick</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell look</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell look left</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell look right</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell lower head</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell raise head</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>incell stuck</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>insert power cell</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>interaction 01</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>interaction 02</Name><_Editor><Category>Entries:i</Category></_Editor></Action>
+<Action><Name>jackhammer exit</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jackle 2</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>joeys bills</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump down</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump fire nano grenade</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump from building</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump from building2</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump kick</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump land ceiling</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump land wall</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump melee 1</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump melee finish</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump melee start</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump nano</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump start</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump start aim</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump start back</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump start crouch</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump start left</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>jump start right</Name><_Editor><Category>Entries:j</Category></_Editor></Action>
+<Action><Name>kick civilian</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>kneel go prone</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>kneel to inspect</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>knock over back</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>knock over front</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>knock over left</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>knock over right</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>knocked over to stand</Name><_Editor><Category>Entries:k</Category></_Editor></Action>
+<Action><Name>ladder climb left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder climb right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder enter a</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder enter b</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder enter c</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder enter top</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder exit bottom</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder exit top left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder exit top right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder grab air front</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder grab air front left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder grab air front right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder grab air left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder grab air right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder jump left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder jump right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder slide start left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder slide start right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>ladder slide stop</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land aim</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land aim normal stop</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land aim run</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land aim run back</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land aim run left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land aim run right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land back</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land fall</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land from building</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land from building2</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land hard</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land light</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land melee hard</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land melee run</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land melee stop</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land normal</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land normal stop</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land roll</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land run</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land run back</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land run left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land run right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land run stop</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land slam</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>land wall</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>last_fire</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>lav enter</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>lav exit</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>lava fall 1</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>lava fall 2</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>lean to stand</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap ceiling to ground</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap ceiling to wall</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap death</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap emerge</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap ground to ceiling</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap ground to wall</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap land ceiling</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap land stand</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap land wall</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap over</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap over 2</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap tell</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap wall fire</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap wall to ceiling</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap wall to ground</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>leap wall to wall</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>left foot up to turret</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>left foot up to turret aim left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>left foot up to turret aim right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>left quil attack</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>left quil attack end</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>look around</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>look left</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>look right</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>look right quick</Name><_Editor><Category>Entries:l</Category></_Editor></Action>
+<Action><Name>m5 death</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>m7 melee</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>m7 moment</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>m8 left attack</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>m8 right attack</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>marauder console</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee air</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee air b</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee air c</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee b</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee blend low</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee blend low move</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee combo release 1</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee combo release 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee fast</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee fast fast</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee fast fast fast</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee fast fast slow</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee fast slow</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee fast slow fast</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee fast slow slow</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee gloat</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee idle</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee inair</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee kill m8</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee kill m8 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee low</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee low move</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee m8 left</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee m8 right</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee move</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee move b</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee move c</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee move forward left</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee move forward right</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee move left</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee move right</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee moving</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee slow</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee slow fast</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee slow fast fast</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee slow fast slow</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee slow slow</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee slow slow fast</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee slow slow slow</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee2 combo release 1</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee2 combo release 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee3</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee3 combo release 1</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee3 combo release 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee4</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee4 combo release 1</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee4 combo release 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>melee5</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>minecart death</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 1 regroup 1</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 1 regroup 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 14 scripted event</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 8 death</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 8 death 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 8 moment</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 8 moment pt2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mission 9 moment te</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>mo1 transition</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>monster closet emerge 1</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>monster closet emerge 2</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>monster closet emerge 3</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>monster closet emerge 4</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>morph1</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>move equip</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>move quil attack</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>move throw back</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>move throw forward</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>move throw left</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>move throw right</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>move unequip</Name><_Editor><Category>Entries:m</Category></_Editor></Action>
+<Action><Name>nano activation</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>nano beserk</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>nano commando</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>nano push</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>nano shard storm</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>nano shell</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>nano shockwave</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>near death getup</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>near death revive</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>near death revive downhill</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>near death revive uphill</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch pelvis back</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch pelvis forward</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch pelvis left</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch pelvis right</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch torso back</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch torso forward</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch torso left</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>noncombat flinch torso right</Name><_Editor><Category>Entries:n</Category></_Editor></Action>
+<Action><Name>old coot flinch</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>old coot flinch left</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>old coot flinch right</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>old coot talk</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>old coot talk no</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>old coot talk yes</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>one hand pickup</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>open ammo box</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>open file cabinet</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>open medical supplies</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>open vent ms17</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>open weapon locker</Name><_Editor><Category>Entries:o</Category></_Editor></Action>
+<Action><Name>palmswitch</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>paranoid glances</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>passenger reload</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>pick up</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>place item</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>plant beacon</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>plant bomb</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>player kill</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>point forward</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>point left</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>point right</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>power switch</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>prone facedown to fetal</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>prone faceup to fetal</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>prone to kneel</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>prone to kneel hands tied</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>prone to stand hands tied</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>pulled in air</Name><_Editor><Category>Entries:p</Category></_Editor></Action>
+<Action><Name>quick salute</Name><_Editor><Category>Entries:q</Category></_Editor></Action>
+<Action><Name>radio</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ram melee</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react and flee</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react angry a</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react angry b</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react angry c</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react angry d</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react shoved</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>react watch carefully</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>reaction surprise</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ready flinch face</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ready flinch mid</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ready run dodge left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ready run dodge right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ready strike</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>reload</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>reload upgraded</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>reload_chamber</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>rfc idle a</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>rfc idle b</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride fire</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride fire b</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride fire l</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride fire r</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride l fire</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride l fire b</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride l fire l</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>ride l fire r</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>right foot up to turret</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>right foot up to turret aim left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>right foot up to turret aim right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>right quil attack</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>right quil attack end</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>right quil attack start</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>roar</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>rubble crawl ms6</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run 180</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run back to forward</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run back to forward aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run back to left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run back to run forward</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run back to stand</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run back to stand aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run cheer</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death head back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death head front</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death head left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death head right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death pelvis back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death pelvis front</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death pelvis left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death pelvis right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death torso back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death torso front</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death torso left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run death torso right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire alt</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire back alt</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire back left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire back right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire forward</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire forward left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire forward right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire forward2</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire left alt</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire nano grenade</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire nano grenade back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire nano grenade left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire nano grenade right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run fire right alt</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run forward to back aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run forward to run back aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run forward to stand</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run forwrad to run back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run jump start</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run left to back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run left to run right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run left to run right aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run left to stand</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run left to stand aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run melee 1</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run reload</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run reload upgraded</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run right to run forward</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run right to run left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run right to run left aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run right to stand</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run right to stand aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run shuffle left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run shuffle right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run spin</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run stop</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run to stand</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run to stand aim</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run to stand left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run to stand right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run to turn 180</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>run to walk</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>running turn back</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>running turn left</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>running turn right</Name><_Editor><Category>Entries:r</Category></_Editor></Action>
+<Action><Name>sabotage flyer</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam inspect arc</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam inspect weapon</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam pistol point</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam stand idle</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam stand idle a</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam stand idle b</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam stand idle c</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam stand point</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam weld end</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam weld inspect</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam weld start</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sam weld use</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>scramble to feet</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>scratch head</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>set transition 1</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>set transition 2</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>shot in left leg</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>shot in right leg</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>shove civilian</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>shriek</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>shuffle left 180</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>shuffle left leap</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>shuffle right 180</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sit to stand</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sit to stand bench</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sit to stand bench b</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sit to stand bench fast</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sit to stand bench read</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sit to stand bench tired</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>skid to stop</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>skid to stop left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>skid to stop right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>slam melee</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sleep idle</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>sleep to stand</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk pc</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk rf</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk1</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk2</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk3</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk4</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk5</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk6</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>soldiertalk7</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>spin</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>spit attack</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>spit attack ceiling</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>spit attack wall</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand 180</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand aggro</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand alert</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand b idle</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand cower incoming front</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand cower incoming left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand cower incoming right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand crazy transition</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand dodge left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand dodge right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand feast</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand feast b</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand fire</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand fire alt</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand fire left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand fire nano grenade</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand fire right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand flinch face</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand flinch mid</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand go prone</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand halt</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand hands freed</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand interupt 1</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand investigate</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand jump start</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand land turnaround</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand leap aggro</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand leap long</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand leap mid</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand leap short</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand leap start</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand melee</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand melee 1</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand melee 1 b</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand melee 1 c</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand melee 2</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand motion move away</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand peeing</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand ready reload</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand ready shuffle left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand ready shuffle right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand ready to crouch ready</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand ready to stand</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand scan horizion</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle leap</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle leap left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle leap right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle left ceiling</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle left wall</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle right ceiling</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand shuffle right wall</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand stuck</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand tell</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to aim</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to cower</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to crouch</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to lean</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to prone</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to ready</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to run</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to run aim</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to run back</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to run forward</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to run left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to run right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to sit</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to sit angry</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to sit bench</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to sit bench read</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to sit bench tired</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to sleep</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to stand a</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to stand alt</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to turret ready</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand to walk</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand transition</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand turn left</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand turn right</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand use computer</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand weapon idle</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand weapon idle a</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand weight shift</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stand whip</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stomp civilian</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>struggle death</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stun flinch</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>stunned stand to stand</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>switch set</Name><_Editor><Category>Entries:s</Category></_Editor></Action>
+<Action><Name>tagging</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>takeoff</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>talk brief</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>talk yell</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt b</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt b forward left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt b forward right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt b left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt b right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt back left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt back right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt c</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt forward left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt forward right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt leap</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt left back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>taunt right back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tentacle emerge moment</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tentacle throw back left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tentacle throw back right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tentacle throw front left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tentacle throw front right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet crpr1</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet crpr2</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet crpr3</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet crpr4</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet grnt1</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet grnt2</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet grnt3</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>ter ice monster closet grnt4</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 1</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 10</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 2</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 3</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 4</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 5</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 6</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 7</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 8</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test action 9</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>test table</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high back left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high back right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high left back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw high right back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw item</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw item drive</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw item drive left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw item drive right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low back left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low back right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low left back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw low right back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw med</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw med back</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw med back left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw med left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>throw med right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>thugdeth</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tnt emerge</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tnt sm emerge</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tnt submerge</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tongue attack</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tongue lash</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>toss creeper</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>toss item</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>trans sitting to stand</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>trans sitting to stand b</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>trans sitting to stand tired</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>trans sitting to stand tired b</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>trans stand to sitting</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>trans stand to sitting tired</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tun a monster closet</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tunnel crawl ms3</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>tunnel crawl ms3 exit</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn 180</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn back run</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn back walk</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn flee</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn in place left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn in place right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn left run</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn left walk</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn right run</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn right walk</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn shuffle left</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn shuffle left ceiling</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn shuffle left wall</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn shuffle right</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn shuffle right ceiling</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turn shuffle right wall</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turret fire</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turret left 90 to stand</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turret left to stand</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turret ready to stand</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turret right 90 to stand</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turret right to stand</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>turret to stand</Name><_Editor><Category>Entries:t</Category></_Editor></Action>
+<Action><Name>unequip</Name><_Editor><Category>Entries:u</Category></_Editor></Action>
+<Action><Name>upperattack</Name><_Editor><Category>Entries:u</Category></_Editor></Action>
+<Action><Name>vehicle close door inside 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle close door inside 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle close door inside 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle close door inside 4</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle close door outside 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle close door outside 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle close door outside 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle driver to passenger</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter pass 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter pass 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter pass 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter pass 4</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter pass 5</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter pass 6</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter pass 7</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 1 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 1 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 1 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 2 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 2 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 2 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 3 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 3 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter primary 3 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 1 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 1 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 1 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 2 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 2 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 2 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 3 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 3 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter secondary 3 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 1 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 1 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 1 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 2 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 2 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 2 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 3 cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 3 cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle enter tertiary 3 cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver cam1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver cam2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver cam3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver dive</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver dr side</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver ps side</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver quick</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit driver quick reverse</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit flip</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit main</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 1 dive</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 1 dr side</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 1 ps side</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 1 quick</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 1 quick reverse</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 2 dive</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 2 quick</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 2 quick reverse</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 3 dive</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 3 quick</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 3 quick reverse</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 4</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 5</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 6</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass 7</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit pass dive</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle exit rear driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle open door inside 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle open door inside 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle open door inside 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle open door outside 1</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle open door outside 2</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle open door outside 3</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle open door outside 4</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle passenger to driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled bash driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled bash passenger</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled bash rear driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled normal driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled normal passenger</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled normal rear driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled punch driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled punch passenger</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pulled punch rear driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout bash driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout bash passenger</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout bash rear driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout normal driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout normal passenger</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout normal rear driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout punch driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout punch passenger</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle pullout punch rear driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle react motion driver</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle reload</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>vehicle walker mount</Name><_Editor><Category>Entries:v</Category></_Editor></Action>
+<Action><Name>walk  fire forward left arm</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk  fire foward right arm</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk back fire</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk back fire left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk back fire right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk back fire2</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk back spit fire back</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk back to stand</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk back to stand aim</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire alt</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire back</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire back alt</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire forward left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire forward right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire left alt</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk fire right alt</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk forward fire</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk forward fire left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk forward fire right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk forward fire2</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk forward to aim</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk left fire left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk left fire right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk left spit attack down</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk left to stand</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk left to stand aim</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk m14</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk reload</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk reload upgraded</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk right fire left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk right fire right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk right spit fire right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk right to stand</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk right to stand aim</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk shuffle left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk shuffle right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk stop</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk to run</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk to stand</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walk to stand aim</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walker attacks mom</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>walker attacks moment</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall ball fire</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall center fire down</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall center fire up</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall center spit attack down</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall center spit attack up</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall flinch legs left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall flinch legs right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall jump start</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall land turnaround</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall leap aggro</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall leap start</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall left aggro</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall left fire down</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall left fire up</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall left spit attack</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall left spit attack up</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall monster closet</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall quill fire</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall right aggro</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall right fire down</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall shuffle left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall shuffle right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall spit fire</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to ceiling land</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to ceiling leap</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to ceiling settle</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to ground land</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to ground leap</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to ground settle</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to wall land</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to wall leap</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall to wall settle</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall transition</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall transition left</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>wall transition right</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>water moment</Name><_Editor><Category>Entries:w</Category></_Editor></Action>
+<Action><Name>writhing pain</Name><_Editor><Category>Entries:w</Category></_Editor></Action></Table>
+<TableDescription><Name>Action</Name><Type>TableDescription</Type><Display_Name>Animation Action</Display_Name><Element><Name>Name</Name><Type>String</Type><Display_Name>Action Name</Display_Name><Unique>true</Unique></Element></TableDescription></root>

@@ -1,0 +1,139 @@
+<root>
+<Table>
+	<LOD>
+		<Name>1_clutter_extra_small</Name>
+		<lod_fade_duration>1000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<lod_start_fade_distance>15</lod_start_fade_distance>
+		</LOD>
+	<LOD>
+		<Name>2_clutter_small</Name>
+		<lod_fade_duration>1000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<lod_start_fade_distance>25</lod_start_fade_distance>
+		</LOD>
+	<LOD>
+		<Name>3_clutter_medium</Name>
+		<lod_fade_duration>1000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<lod_start_fade_distance>35</lod_start_fade_distance>
+		</LOD>
+	<LOD>
+		<Name>4_clutter_large</Name>
+		<lod_fade_duration>1000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<lod_start_fade_distance>55</lod_start_fade_distance>
+		</LOD>
+	<LOD>
+		<Name>5_clutter_extra_lrg</Name>
+		<lod_fade_duration>1000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<lod_start_fade_distance>80</lod_start_fade_distance>
+		</LOD>
+	<LOD>
+		<Name>None</Name>
+		<lod_fade_duration>1</lod_fade_duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<lod_start_fade_distance>-1</lod_start_fade_distance>
+		</LOD>
+	<LOD>
+		<Name>light_small</Name>
+		<lod_start_fade_distance>20</lod_start_fade_distance>
+		<lod_fade_duration>1500</lod_fade_duration>
+		<_Editor>
+			<Category>Entries:lighting_LOD</Category>
+			</_Editor>
+		</LOD>
+	<LOD>
+		<Name>light_medium</Name>
+		<lod_start_fade_distance>30</lod_start_fade_distance>
+		<lod_fade_duration>1500</lod_fade_duration>
+		<_Editor>
+			<Category>Entries:lighting_LOD</Category>
+			</_Editor>
+		</LOD>
+	<LOD>
+		<Name>light_large</Name>
+		<lod_start_fade_distance>60</lod_start_fade_distance>
+		<lod_fade_duration>3000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries:lighting_LOD</Category>
+			</_Editor>
+		</LOD>
+	<LOD>
+		<Name>light_extra_large</Name>
+		<lod_start_fade_distance>75</lod_start_fade_distance>
+		<lod_fade_duration>3000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries:lighting_LOD</Category>
+			</_Editor>
+		</LOD>
+	<LOD>
+		<Name>light_extra_extra_large</Name>
+		<lod_start_fade_distance>125</lod_start_fade_distance>
+		<lod_fade_duration>4000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries:lighting_LOD</Category>
+			</_Editor>
+		</LOD>
+	<LOD>
+		<Name>5_clutter_super_extra_lrg</Name>
+		<lod_fade_duration>1000</lod_fade_duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<lod_start_fade_distance>140</lod_start_fade_distance>
+		</LOD>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>LOD</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Name for this category</Description>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>lod_start_fade_distance</Name>
+		<Type>Float</Type>
+		<Display_Name>LOD Start Fade Distance</Display_Name>
+		<Description>Distance at which the object starts to fade out.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>lod_fade_duration</Name>
+		<Type>Int</Type>
+		<Display_Name>LOD Fade Duration</Display_Name>
+		<Description>Time it takes (in milliseconds) to fully fade in/out</Description>
+		<Default>1000</Default>
+		<MinValue>1</MinValue>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>lighting_LOD</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

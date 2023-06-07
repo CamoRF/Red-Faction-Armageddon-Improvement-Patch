@@ -1,0 +1,3 @@
+level 1009
+// Disable this as it can be hiding bugs...
+//console_gp_enter script mission_17c_gp

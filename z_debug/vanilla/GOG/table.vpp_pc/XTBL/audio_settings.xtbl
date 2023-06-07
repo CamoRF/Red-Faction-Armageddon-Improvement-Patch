@@ -1,0 +1,226 @@
+<root>
+<Table>
+	<global_settings>
+		<Name>Global Settings</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<listener_field_of_view>
+			<maximum_distance_fov>100</maximum_distance_fov>
+			<FOV_Weights>
+				<Up>1</Up>
+				<Down>0.1</Down>
+				<Up_Angle>
+					<Angle>30.0</Angle>
+					<Value>0.25</Value>
+					</Up_Angle>
+				<Down_Angle>
+					<Angle>-30.0</Angle>
+					<Weight>0.25</Weight>
+					</Down_Angle>
+				<Horizontal>0.75</Horizontal>
+				</FOV_Weights>
+			<max_occlusions>3</max_occlusions>
+			<max_inside_distance>4</max_inside_distance>
+			<minimum_reverb_fov>0</minimum_reverb_fov>
+			<computed_reverb_send_adjustment>0</computed_reverb_send_adjustment>
+			<reverb_dry_value_multiplier>0</reverb_dry_value_multiplier>
+			</listener_field_of_view>
+		<general_settings>
+			<Health_adjust_rate>0.5</Health_adjust_rate>
+			<Overall_volume>1</Overall_volume>
+			<Overall_volume_PS3>1</Overall_volume_PS3>
+			<Overall_Volume_PC>1.0</Overall_Volume_PC>
+			</general_settings>
+		</global_settings>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>global_settings</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Global Settings</Display_Name>
+	<Description>Settings that affect everything</Description>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		<Default>Global Settings</Default>
+		<MaxCount>1</MaxCount>
+		</Element>
+	<Element>
+		<Name>general_settings</Name>
+		<Type>Element</Type>
+		<Display_Name>General Settings</Display_Name>
+		<MaxCount>1</MaxCount>
+		<Element>
+			<Name>Overall_volume</Name>
+			<Type>Float</Type>
+			<Display_Name>Overall Volume XBox2</Display_Name>
+			<Description>Adjsut this to change the overall volume *EVERYTHING* in the game</Description>
+			<Default>1.0</Default>
+			<MinValue>0.1</MinValue>
+			<MaxValue>10</MaxValue>
+			</Element>
+		<Element>
+			<Name>Overall_volume_PS3</Name>
+			<Type>Float</Type>
+			<Display_Name>Overall Volume PS3</Display_Name>
+			<Description>Volume setting for PS3</Description>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>10</MaxValue>
+			</Element>
+		<Element>
+			<Name>Overall_Volume_PC</Name>
+			<Type>Float</Type>
+			<Display_Name>Overall Volume PC</Display_Name>
+			<Description>Volume levels for PC</Description>
+			<Default>1.0</Default>
+			<MinValue>0.1</MinValue>
+			<MaxValue>10</MaxValue>
+			</Element>
+		<Element>
+			<Name>Health_adjust_rate</Name>
+			<Type>Float</Type>
+			<Display_Name>Health Adjust Rate</Display_Name>
+			<Description>Multiplied by difference in health values to smooth out transitions in audio levels.</Description>
+			<Default>0.75</Default>
+			<MaxCount>1</MaxCount>
+			</Element>
+		</Element>
+	<Element>
+		<Name>listener_field_of_view</Name>
+		<Type>Element</Type>
+		<Display_Name>Listener Field of View</Display_Name>
+		<Description>Information about field of view stuff - relates to reverb and wind</Description>
+		<MaxCount>1</MaxCount>
+		<Element>
+			<Name>minimum_reverb_fov</Name>
+			<Type>Float</Type>
+			<Display_Name>Minimum Reverb FOV</Display_Name>
+			<Description>Minimum Field of View enclosure to allow reverb. Less than this value means no reverb.</Description>
+			<Default>00.6</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>1</MaxValue>
+			</Element>
+		<Element>
+			<Name>max_occlusions</Name>
+			<Type>Int</Type>
+			<Display_Name>Max Number Of Occlusions</Display_Name>
+			<Description>Maximum number of occlusions per sound.</Description>
+			<Default>3</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>3</MaxValue>
+			</Element>
+		<Element>
+			<Name>maximum_distance_fov</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Distance to check</Display_Name>
+			<Description>Maximum distance to raycast in any direction to check for enclosed spaces.</Description>
+			<Default>0.0</Default>
+			<MaxCount>1</MaxCount>
+			<MinValue>3</MinValue>
+			<MaxValue>50</MaxValue>
+			</Element>
+		<Element>
+			<Name>max_inside_distance</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Inside Distance</Display_Name>
+			<Description>Maximum Distance to check for "inside" spaces</Description>
+			<Default>8.0</Default>
+			</Element>
+		<Element>
+			<Name>computed_reverb_send_adjustment</Name>
+			<Type>Float</Type>
+			<Display_Name>Computed Reverb Adjustment</Display_Name>
+			<Description>Adjust the computed FOV by this amount IF audiolib is determining the reverb type. NOT USED WHEN REVERB IS SET BY GAME CODE...</Description>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>100</MaxValue>
+			</Element>
+		<Element>
+			<Name>reverb_dry_value_multiplier</Name>
+			<Type>Float</Type>
+			<Display_Name>Reverb Dry Value Multiplier</Display_Name>
+			<Description>Multiply this value times the wet send values for reverb, 1.0 - the result will be the dry send value.</Description>
+			<Default>0.5</Default>
+			<MinValue>-10</MinValue>
+			<MaxValue>10</MaxValue>
+			</Element>
+		<Element>
+			<Name>FOV_Weights</Name>
+			<Type>Element</Type>
+			<Display_Name>Field Of View Weights</Display_Name>
+			<Description>Weights for each of the directions.  (N, NE, E, SE, S, SW, W, NW) at different angles</Description>
+			<Element>
+				<Name>Up</Name>
+				<Type>Float</Type>
+				<Description>Relative importance of this angle in the FOV calculation.</Description>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>Up_Angle</Name>
+				<Type>Element</Type>
+				<Display_Name>Up Angle</Display_Name>
+				<Description>Eight directions, at the up angle. (N, NE, E, SE, S, SW, W, NW)</Description>
+				<Element>
+					<Name>Angle</Name>
+					<Type>Float</Type>
+					<Description>Angle up from horizontal.</Description>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>90</MaxValue>
+					</Element>
+				<Element>
+					<Name>Value</Name>
+					<Type>Float</Type>
+					<Display_Name>Weight</Display_Name>
+					<Description>Relative importance of this angle in the FOV calculation.</Description>
+					<Default>0.0</Default>
+					</Element>
+				</Element>
+			<Element>
+				<Name>Horizontal</Name>
+				<Type>Float</Type>
+				<Description>Relative importance of this angle in the FOV calculation.</Description>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>Down_Angle</Name>
+				<Type>Element</Type>
+				<Display_Name>Down Angle</Display_Name>
+				<Description>Eight directions, straight out horizontally. (N, NE, E, SE, S, SW, W, NW)</Description>
+				<Element>
+					<Name>Angle</Name>
+					<Type>Float</Type>
+					<Description>Angle down from horizontal.</Description>
+					<Default>0.0</Default>
+					<MinValue>-90</MinValue>
+					<MaxValue>0</MaxValue>
+					</Element>
+				<Element>
+					<Name>Weight</Name>
+					<Type>Float</Type>
+					<Description>Relative importance of this angle in the FOV calculation.</Description>
+					<Default>0.0</Default>
+					</Element>
+				</Element>
+			<Element>
+				<Name>Down</Name>
+				<Type>Float</Type>
+				<Description>Relative importance of this angle in the FOV calculation.</Description>
+				<Default>0.0</Default>
+				</Element>
+			</Element>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

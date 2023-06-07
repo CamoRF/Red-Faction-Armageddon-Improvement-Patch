@@ -1,0 +1,4 @@
+unlock_all_weapons
+unlimited_ammo
+repair_weapon_enabled true
+repair_grenades_enabled true

@@ -1,0 +1,810 @@
+<root>
+<Table>
+	<Item>
+		<Name>dlc04_shard_storm</Name>
+		<Item_Flags>
+			<Flag>high_res_map</Flag>
+			<Flag>cast_shadows</Flag>
+			</Item_Flags>
+		<Spin_Time>5000</Spin_Time>
+		<Mesh>
+			<Filename>nano_mg.smeshx</Filename>
+			</Mesh>
+		<Fade_Out_Distance>50</Fade_Out_Distance>
+		<Touch_Script>
+			<give_item></give_item>
+			</Touch_Script>
+		<Touch_Sound>ITM_WEP_PICKUP_LG</Touch_Sound>
+		<Touch_Sound_2>ITM_AMMO_PICKUP_LG</Touch_Sound_2>
+		<Respawn_Delay>30000</Respawn_Delay>
+		<Collision_Sound>WEP_GENERIC_DROP</Collision_Sound>
+		<streaming_category>General (preloaded)</streaming_category>
+		<mp_preload>False</mp_preload>
+		<Looping_Effects>
+			<Looping_Effect>
+				<Name>wep_light_mar</Name>
+				<Mesh_Tag_Name>primary_weapon_handle</Mesh_Tag_Name>
+				<Maintain_Flat_Orient>False</Maintain_Flat_Orient>
+				<Type>Held</Type>
+				</Looping_Effect>
+			<Looping_Effect>
+				<Name>item_weapon</Name>
+				<Maintain_Flat_Orient>True</Maintain_Flat_Orient>
+				<Type>Not Owned</Type>
+				</Looping_Effect>
+			</Looping_Effects>
+		<_Editor>
+			<Category>Entries:WeaponsMarauder</Category>
+			</_Editor>
+		</Item>
+	<Item>
+		<Name>dlc04_sharpshooter</Name>
+		<Item_Flags>
+			<Flag>high_res_map</Flag>
+			<Flag>cast_shadows</Flag>
+			</Item_Flags>
+		<Spin_Time>5000</Spin_Time>
+		<Mesh>
+			<Filename>generoblasta.smeshx</Filename>
+			</Mesh>
+		<Fade_Out_Distance>50</Fade_Out_Distance>
+		<Touch_Script>
+			<give_item></give_item>
+			</Touch_Script>
+		<Touch_Sound>ITM_WEP_PICKUP_LG</Touch_Sound>
+		<Touch_Sound_2>ITM_AMMO_PICKUP_LG</Touch_Sound_2>
+		<Respawn_Delay>30000</Respawn_Delay>
+		<Collision_Sound>WEP_GENERIC_DROP</Collision_Sound>
+		<streaming_category>General (preloaded)</streaming_category>
+		<mp_preload>False</mp_preload>
+		<Looping_Effects>
+			<Looping_Effect>
+				<Name>wep_light_mar</Name>
+				<Mesh_Tag_Name>primary_weapon_handle</Mesh_Tag_Name>
+				<Maintain_Flat_Orient>False</Maintain_Flat_Orient>
+				<Type>Held</Type>
+				</Looping_Effect>
+			<Looping_Effect>
+				<Name>item_weapon</Name>
+				<Maintain_Flat_Orient>True</Maintain_Flat_Orient>
+				<Type>Not Owned</Type>
+				</Looping_Effect>
+			</Looping_Effects>
+		<_Editor>
+			<Category>Entries:WeaponsMarauder</Category>
+			</_Editor>
+		<Props>
+			<Prop>
+				<Name>dlc04_sharpshooter_clip</Name>
+				<Attach_tag>clip_bone</Attach_tag>
+				<Type>clip</Type>
+				</Prop>
+			</Props>
+		</Item>
+	<Item>
+		<Name>dlc04_sharpshooter_clip</Name>
+		<Spin_Time>5000</Spin_Time>
+		<Mesh>
+			<Filename>genero_clip.smeshx</Filename>
+			</Mesh>
+		<Fade_Out_Distance>50</Fade_Out_Distance>
+		<Respawn_Delay>30000</Respawn_Delay>
+		<streaming_category>General (preloaded)</streaming_category>
+		<mp_preload>False</mp_preload>
+		<_Editor>
+			<Category>Entries:WeaponsMarauder</Category>
+			</_Editor>
+		</Item>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Item</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>3D Item</Display_Name>
+	<Description>A 3D item (AKA: "object_item" in the code) represents an object that is placed in the world somehow. It may have been dropped by a human
+(on death, for instance) or placed through scripting or code.</Description>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Display_Name>3D Item Name</Display_Name>
+		<Description>Unique name of the 3D item, used internally by the game.</Description>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Item_Flags</Name>
+		<Type>Flags</Type>
+		<Display_Name>Item Flags</Display_Name>
+		<Description>Flags for the item.</Description>
+		<Required>false</Required>
+		<Flag>collide_as_box</Flag>
+		<Flag>collide_as_capsule</Flag>
+		<Flag>collide_as_cylinder</Flag>
+		<Flag>collide_as_mover</Flag>
+		<Flag>collide_as_mover_not_with_humans</Flag>
+		<Flag>collide_only_for_object_collection</Flag>
+		<Flag>collide_as_sphere</Flag>
+		<Flag>ignore_physics</Flag>
+		<Flag>inherit_bone_transforms</Flag>
+		<Flag>is_ammo_box</Flag>
+		<Flag>no_auto_delete</Flag>
+		<Flag>no_pickup_delete</Flag>
+		<Flag>spin</Flag>
+		<Flag>use_pickup</Flag>
+		<Flag>is_personal_shield</Flag>
+		<Flag>is_virtual_shield</Flag>
+		<Flag>high_res_map</Flag>
+		<Flag>cloth_sim</Flag>
+		<Flag>cloth_sim_find_destroyable_anchor</Flag>
+		<Flag>cloth_sim_destroy_on_anchor_detach</Flag>
+		<Flag>is_turret_part</Flag>
+		<Flag>no_magnet_gun</Flag>
+		<Flag>allow_lock_on</Flag>
+		<Flag>allow_fine_aim_snap</Flag>
+		<Flag>ragdolls_humans</Flag>
+		<Flag>cast_shadows</Flag>
+		<Flag>special_bbox</Flag>
+		<Flag>fast_cleanup</Flag>
+		<Flag>show_red_reticule</Flag>
+		<Flag>is_audio_log</Flag>
+		</Element>
+	<Element>
+		<Name>Damage_Info</Name>
+		<Type>Element</Type>
+		<Display_Name>Damage Info</Display_Name>
+		<Description>Information about whether and how an item takes damage.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Hitpoints</Name>
+			<Type>Int</Type>
+			<Display_Name>Hit Points</Display_Name>
+			<Description>How much damage this item can take before it is destroyed. (0 = item does not take damage)</Description>
+			<Default>0</Default>
+			</Element>
+		<Element>
+			<Name>Flags</Name>
+			<Type>Flags</Type>
+			<Description>Specific information about the damage this item takes.</Description>
+			<Flag>can_explode</Flag>
+			<Flag>damaged_by_bullets</Flag>
+			<Flag>damaged_by_collisions</Flag>
+			<Flag>damaged_by_explosions</Flag>
+			<Flag>damaged_by_melee</Flag>
+			<Flag>damaged_by_vehicles</Flag>
+			<Flag>damaged_by_player_only</Flag>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Cloth_Sim_Hinge_Vector</Name>
+		<Type>Vector</Type>
+		<Display_Name>Cloth Sim Hinge Vector</Display_Name>
+		<Description>If there is cloth simulation associated with this item, use this hinge constraint direction.</Description>
+		<Required>false</Required>
+		<X>
+			<Name>X</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</X>
+		<Y>
+			<Name>Y</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Y>
+		<Z>
+			<Name>Z</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Z>
+		</Element>
+	<Element>
+		<Name>Spin_Time</Name>
+		<Type>Int</Type>
+		<Display_Name>Spin Time</Display_Name>
+		<Description>In ms. Only valid if the 'spin' flag is set.</Description>
+		<Default>5000</Default>
+		<MinValue>16</MinValue>
+		</Element>
+	<Element>
+		<Name>Mesh</Name>
+		<Type>Filename</Type>
+		<Display_Name>Static Mesh</Display_Name>
+		<Description>Filename of static mesh to use for the 3D item.</Description>
+		<Required>false</Required>
+		<Extension>smeshx</Extension>
+		<StartingPath>data</StartingPath>
+		<ShowPreload>False</ShowPreload>
+		</Element>
+	<Element>
+		<Name>pickup_static_mesh</Name>
+		<Type>Filename</Type>
+		<Display_Name>Pickup Static Mesh</Display_Name>
+		<Description>Does this item use a seperate static mesh for when it's on the ground?</Description>
+		<Required>false</Required>
+		<Extension>smeshx</Extension>
+		<StartingPath>data</StartingPath>
+		<ShowPreload>False</ShowPreload>
+		</Element>
+	<Element>
+		<Name>character_mesh</Name>
+		<Type>Element</Type>
+		<Display_Name>Character Mesh</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>character_mesh</Name>
+			<Type>Filename</Type>
+			<Display_Name>Character Mesh</Display_Name>
+			<Extension>cmeshx</Extension>
+			<StartingPath>data</StartingPath>
+			<ShowPreload>False</ShowPreload>
+			</Element>
+		<Element>
+			<Name>rig</Name>
+			<Type>Filename</Type>
+			<Display_Name>Rig Name</Display_Name>
+			<Extension>rigx</Extension>
+			<StartingPath>data</StartingPath>
+			<ShowPreload>False</ShowPreload>
+			</Element>
+		<Element>
+			<Name>Anim_set</Name>
+			<Type>String</Type>
+			<Display_Name>Anim Set</Display_Name>
+			</Element>
+		<Element>
+			<Name>Blend_Tree</Name>
+			<Type>String</Type>
+			<Display_Name>Blend Tree</Display_Name>
+			<Required>false</Required>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Fade_Out_Distance</Name>
+		<Type>Float</Type>
+		<Display_Name>Fade Out Distance</Display_Name>
+		<Description>Distance at which object will fade out.</Description>
+		<Default>50</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>LOD_Distances</Name>
+		<Type>List</Type>
+		<Display_Name>LOD Distances</Display_Name>
+		<Required>false</Required>
+		<MaxCount>4</MaxCount>
+		<Element>
+			<Name>Distance</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		<Element_Name>Distance</Element_Name>
+		</Element>
+	<Element>
+		<Name>Props</Name>
+		<Type>Grid</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Prop</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Name</Name>
+				<Type>String</Type>
+				<Description>Can either be an smeshx or a reference to another item_3d</Description>
+				</Element>
+			<Element>
+				<Name>Attach_tag</Name>
+				<Type>String</Type>
+				<Description>The tag that this prop will be attached to on the parent item.</Description>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Type</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>Prop_system_type.xtbl</File>
+					<Type>NewEntity.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Max_Children>6</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Touch_Script</Name>
+		<Type>ComboElement</Type>
+		<Display_Name>Touch Script</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>ask_pickup</Name>
+			<Type>Element</Type>
+			<Display_Name>Ask Pickup</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>give_item</Name>
+			<Type>Element</Type>
+			<Display_Name>Give Item</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>give_item_safehouse</Name>
+			<Type>Element</Type>
+			<Display_Name>Give Item Safehouse</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>give_salvage</Name>
+			<Type>Element</Type>
+			<Display_Name>Give Salvage</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Amount</Name>
+				<Type>Int</Type>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		<Element>
+			<Name>give_full_health</Name>
+			<Type>Element</Type>
+			<Display_Name>Give Full Health</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>give_health_percent</Name>
+			<Type>Element</Type>
+			<Display_Name>Give Health Percent</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Percent</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>1</MaxValue>
+				</Element>
+			</Element>
+		<Element>
+			<Name>increase_tech_level</Name>
+			<Type>Element</Type>
+			<Display_Name>Increase Tech Level</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>blast_from_the_past</Name>
+			<Type>Element</Type>
+			<Display_Name>Blast From The Past</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>fuel_cell</Name>
+			<Type>Element</Type>
+			<Display_Name>Fuel Cell</Display_Name>
+			<Required>false</Required>
+			</Element>
+		<Element>
+			<Name>ammo_pickup</Name>
+			<Type>Element</Type>
+			<Display_Name>Ammo Pickup</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>sp_tier</Name>
+				<Type>Int</Type>
+				<Display_Name>Ammo Tier (SP Only)</Display_Name>
+				<Description>(base index is 1)</Description>
+				<Default>1</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>mp_tier</Name>
+				<Type>Int</Type>
+				<Display_Name>Ammo Tier (MP Only)</Display_Name>
+				<Description>(base index is 1)</Description>
+				<Default>1</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		<Element>
+			<Name>collectable_quest</Name>
+			<Type>Element</Type>
+			<Display_Name>Collectable Quest</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Collection_Objective</Name>
+				<Type>Reference</Type>
+				<Display_Name>Collection Objective</Display_Name>
+				<Reference>
+					<File>quests.xtbl</File>
+					<Type>Quest.Objectives.Objective.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Element>
+			<Name>Audio_Log</Name>
+			<Type>Element</Type>
+			<Display_Name>Audio Log</Display_Name>
+			<Required>false</Required>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Touch_Sound</Name>
+		<Type>Reference</Type>
+		<Display_Name>Touch Sound</Display_Name>
+		<Description>Name of sound (in the audio_events table) to play when item is touched.</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>audio_events.xtbl</File>
+			<Type>NewEntity.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Touch_Sound_2</Name>
+		<Type>Reference</Type>
+		<Display_Name>Touch Sound 2</Display_Name>
+		<Description>Second name of sound (in the audio_events table) to play when item is touched.  [only used for ammo pickup currently]</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>audio_events.xtbl</File>
+			<Type>NewEntity.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Explosion</Name>
+		<Type>Reference</Type>
+		<Description>The explosion information this item uses when it explodes.</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>explosions.xtbl</File>
+			<Type>Explosion.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Proximity_Detonate_Radius</Name>
+		<Type>Float</Type>
+		<Display_Name>Proximity Detonate Radius</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Mass</Name>
+		<Type>Float</Type>
+		<Description>Object mass - required for projectiles.</Description>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Linear_Damp</Name>
+		<Type>Float</Type>
+		<Display_Name>Linear Damping</Display_Name>
+		<Description>Value between 0 and 1.	 Higher value results in higher drag on linear velocity (ie less distance).</Description>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Angular_Damp</Name>
+		<Type>Float</Type>
+		<Display_Name>Angular Damping</Display_Name>
+		<Description>Value between 0 1nd 1.	 Higher value results in higher drag on angular velocity (ie less spin).</Description>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Restitution</Name>
+		<Type>Float</Type>
+		<Description>The restitution coefficient (usually a value from 0 to 1) specifies how much kinetic energy is lost during a collision between two objects e.g. with a value of 0, all energy is lost and objects appear to come to a complete halt when they collide. With a value of 1, no energy is lost and objects bounce off each other with an equal but opposite velocity. For values between 0 and 1, the objects lose some but not all energy with each collision.</Description>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1.98</MaxValue>
+		</Element>
+	<Element>
+		<Name>Friction</Name>
+		<Type>Float</Type>
+		<Description>The friction coefficient (usually a value from 0 to 1) which specifies how "sticky" or "rough" an object is.</Description>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Character_Phantom</Name>
+		<Type>Element</Type>
+		<Display_Name>Character Phantom</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Radius</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			</Element>
+		<Element>
+			<Name>Height</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			</Element>
+		<Element>
+			<Name>Local_Offset</Name>
+			<Type>Vector</Type>
+			<Display_Name>Local Offset</Display_Name>
+			<Required>false</Required>
+			<X>
+				<Name>X</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				</X>
+			<Y>
+				<Name>Y</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				</Y>
+			<Z>
+				<Name>Z</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				</Z>
+			</Element>
+		<Element>
+			<Name>Hit_Detect_Phantom</Name>
+			<Type>Element</Type>
+			<Display_Name>Hit Detect Phantom</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Radius</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>Height</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Respawn_Delay</Name>
+		<Type>Int</Type>
+		<Display_Name>Respawn Delay</Display_Name>
+		<Description>Time (in milliseconds) between respawns.</Description>
+		<Required>false</Required>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>Physical_Material</Name>
+		<Type>Reference</Type>
+		<Display_Name>Physical Material</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>rfg_materials.xtbl</File>
+			<Type>Material.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Effect_Material</Name>
+		<Type>Reference</Type>
+		<Display_Name>Effect Material</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>rfg_effect_materials.xtbl</File>
+			<Type>Material.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Collision_Sound</Name>
+		<Type>Reference</Type>
+		<Display_Name>Collision Sound</Display_Name>
+		<Description>A sound to play when collisions happen</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>audio_events.xtbl</File>
+			<Type>NewEntity.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>SafehouseWeapon</Name>
+		<Type>Reference</Type>
+		<Display_Name>Safehouse Weapon</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>items_inventory.xtbl</File>
+			<Type>Inventory_Item.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>streaming_category</Name>
+		<Type>Selection</Type>
+		<Display_Name>Streaming category</Display_Name>
+		<Default>General (preloaded)</Default>
+		<Choice>Player weapon</Choice>
+		<Choice>Environmental</Choice>
+		<Choice>General (preloaded)</Choice>
+		<Choice>Multiplayer</Choice>
+		<Choice>Head mesh (preloaded)</Choice>
+		<Choice>Character prop</Choice>
+		<Choice>Character prop mesh only</Choice>
+		</Element>
+	<Element>
+		<Name>mp_preload</Name>
+		<Type>Selection</Type>
+		<Display_Name>MP Preload</Display_Name>
+		<Description>Preload this item in multiplayer? (Note: using this instead of Multiplayer streaming category means the memory comes from the level)</Description>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>MaterialEffect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Material Effect</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>matfx.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Looping_Effects</Name>
+		<Type>Grid</Type>
+		<Display_Name>Looping Effects</Display_Name>
+		<Description>Looping effects used on this item.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Looping_Effect</Name>
+			<Type>Element</Type>
+			<Display_Name>Looping Effect</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Name</Name>
+				<Type>Reference</Type>
+				<Display_Name>Effect Name</Display_Name>
+				<Reference>
+					<File>effects.xtbl</File>
+					<Type>Effect.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Mesh_Tag_Name</Name>
+				<Type>String</Type>
+				<Display_Name>Mesh Tag Name</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Maintain_Flat_Orient</Name>
+				<Type>Selection</Type>
+				<Display_Name>Maintain Flat Orient</Display_Name>
+				<Default>False</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+				</Element>
+			<Element>
+				<Name>Type</Name>
+				<Type>Selection</Type>
+				<Default>Always</Default>
+				<Choice>Always</Choice>
+				<Choice>Held</Choice>
+				<Choice>Not Owned</Choice>
+				<Choice>Emerged</Choice>
+				</Element>
+			</Element>
+		<Max_Children>4</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Pod</Name>
+		<Type>Selection</Type>
+		<Required>false</Required>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>Tentacle</Name>
+		<Type>Selection</Type>
+		<Description>Is this "item" actually a tentacle?</Description>
+		<Required>false</Required>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>Monolith</Name>
+		<Type>Selection</Type>
+		<Description>Is this "item" actually a monolith?</Description>
+		<Required>false</Required>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>Queen</Name>
+		<Type>Selection</Type>
+		<Description>Is this "item" actually the queen?</Description>
+		<Required>false</Required>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>Autopsy_Salvage_SP</Name>
+		<Type>Int</Type>
+		<Display_Name>Autopsy Salvage (SP)</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Autopsy_Salvage_MP</Name>
+		<Type>Int</Type>
+		<Display_Name>Autopsy Salvage (MP)</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Death_Gibs</Name>
+		<Type>Grid</Type>
+		<Display_Name>Death Gibs</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Death_Gib</Name>
+			<Type>Element</Type>
+			<Display_Name>Death Gib</Display_Name>
+			<Element>
+				<Name>Gib_Piece</Name>
+				<Type>Reference</Type>
+				<Display_Name>Gib Piece</Display_Name>
+				<Reference>
+					<File>items_3d.xtbl</File>
+					<Type>Item.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Min_Children>1</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Death_Gib_Impulse_Min</Name>
+		<Type>Float</Type>
+		<Display_Name>Death Gib Impulse Min</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Death_Gib_Impulse_Max</Name>
+		<Type>Float</Type>
+		<Display_Name>Death Gib Impulse Max</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>WeaponsMarauder</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

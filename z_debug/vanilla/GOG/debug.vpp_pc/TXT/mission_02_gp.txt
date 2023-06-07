@@ -1,0 +1,6 @@
+// Put whatever scripts you want here that will execute upon entering gameplay
+lock_all_weapons
+gimme phased_plasma_rifle sledgehammer rpg_launcher phased_plasma_cannon
+//set_money 1740  - JeffK 2/3/11 - don't set the salvage as that stomps on PROFILE data.
+repair_weapon_enabled true
+repair_grenades_enabled false

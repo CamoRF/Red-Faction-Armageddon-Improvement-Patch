@@ -1,0 +1,11 @@
+r_lighting false
+rl_hdr_enable false
+rl_hdr_override true
+r_enable_decals false
+rl_dof_enable false
+rl_aa_mode 0
+automobile_tire_tracks false
+shadows false
+r_far_clip 140
+rl_hdr_exposure_min 2
+rl_hdr_exposure_max 2

@@ -1,0 +1,54 @@
+<root>
+<Table>
+	<HumanTeamNames>
+		<Name>Red Faction</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</HumanTeamNames>
+	<HumanTeamNames>
+		<Name>Legion</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</HumanTeamNames>
+	<HumanTeamNames>
+		<Name>Marauder</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</HumanTeamNames>
+	<HumanTeamNames>
+		<Name>Civilian</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</HumanTeamNames>
+	<HumanTeamNames>
+		<Name>Cultists</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</HumanTeamNames>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>HumanTeamNames</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		<Default>Team Names</Default>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,9 @@
+Control_debug_key_binding_enabled TRUE
+Vfx_profiling_enabled TRUE
+Vfx_live_updated_thread_idle TRUE
+script vfx_bindings
+debug_filter decal_preload
+debug_filter effect_preload
+gpup_enable TRUE
+Effects_force_update_render TRUE
+vfx_stream_debug TRUE

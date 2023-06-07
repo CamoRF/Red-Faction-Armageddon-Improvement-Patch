@@ -1,0 +1,87 @@
+<root>
+<Table>
+	<Group>
+		<Name>dlc04_mission_01</Name>
+		<Zones>
+			<Zone>11_02</Zone>
+			<Zone>12_02</Zone>
+			<Zone>13_02</Zone>
+			<Zone>13_03</Zone>
+			<Zone>13_04</Zone>
+			<Zone>12_04</Zone>
+			<Zone>11_04</Zone>
+			<Zone>11_05</Zone>
+			<Zone>11_06</Zone>
+			<Zone>11_07</Zone>
+			</Zones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Group>
+	<Group>
+		<Name>dlc04_mission_02</Name>
+		<Zones>
+			<Zone>02_11</Zone>
+			<Zone>03_11</Zone>
+			<Zone>02_12</Zone>
+			<Zone>03_12</Zone>
+			<Zone>02_13</Zone>
+			<Zone>03_13</Zone>
+			</Zones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Group>
+	<Group>
+		<Name>dlc04_mission_03</Name>
+		<Zones>
+			<Zone>09_09</Zone>
+			<Zone>10_09</Zone>
+			<Zone>11_09</Zone>
+			</Zones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Group>
+	<Group>
+		<Name>dlc04_mission_04</Name>
+		<Zones>
+			<Zone>11_11</Zone>
+			<Zone>12_11</Zone>
+			</Zones>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Group>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Group</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Zones</Name>
+		<Type>Grid</Type>
+		<Description>List of zones contained in the precache.</Description>
+		<Element>
+			<Name>Zone</Name>
+			<Type>String</Type>
+			<Description>Name of the zone, such as 00_03.</Description>
+			</Element>
+		<Num_Display_Rows>25</Num_Display_Rows>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,322 @@
+<root>
+<Table>
+	<Bone_Info>
+		<Name>human left foot</Name>
+		<Anchor>l-thigh</Anchor>
+		<Joint>l-calf</Joint>
+		<IK>l-foot</IK>
+		<Location>left foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Leg</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>human right foot</Name>
+		<Anchor>r-thigh</Anchor>
+		<Joint>r-calf</Joint>
+		<IK>r-foot</IK>
+		<Location>right foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Leg</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>human left hand</Name>
+		<Anchor>l-upperarm</Anchor>
+		<Joint>l-forearm</Joint>
+		<IK>l-hand</IK>
+		<Location>left hand</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>human right hand</Name>
+		<Anchor>r-upperarm</Anchor>
+		<Joint>r-forearm</Joint>
+		<IK>r-hand</IK>
+		<Location>right hand</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>walker front left foot</Name>
+		<Anchor>PW_BallJoint__FL</Anchor>
+		<Joint>PW_UpperFoot_FL</Joint>
+		<IK>PW_Tip_FL</IK>
+		<Location>left foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>walker front right foot</Name>
+		<Anchor>PW_BallJoint__FR</Anchor>
+		<Joint>PW_UpperFoot_FR</Joint>
+		<IK>PW_Tip_FR</IK>
+		<Location>right foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>walker middle left foot</Name>
+		<Anchor>PW_BallJoint_ML</Anchor>
+		<Joint>PW_UpperFoot_ML</Joint>
+		<IK>PW_Tip_ML</IK>
+		<Location>left foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>walker middle right foot</Name>
+		<Anchor>PW_BallJoint_MR</Anchor>
+		<Joint>PW_UpperFoot_MR</Joint>
+		<IK>PW_Tip_MR</IK>
+		<Location>right foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>walker back left foot</Name>
+		<Anchor>PW_BallJoint_BL</Anchor>
+		<Joint>PW_UpperFoot_BL</Joint>
+		<IK>PW_Tip_BL</IK>
+		<Location>left foot 3</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>walker back right foot</Name>
+		<Anchor>PW_BallJoint_BR</Anchor>
+		<Joint>PW_UpperFoot_BR</Joint>
+		<IK>PW_Tip_BR</IK>
+		<Location>right foot 3</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>tank right hand</Name>
+		<Anchor>RightShoulder</Anchor>
+		<Joint>RightElbow</Joint>
+		<IK>r-top-handik</IK>
+		<Location>right foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Leg</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>tank left hand</Name>
+		<Anchor>LeftShoulder</Anchor>
+		<Joint>LeftElbow</Joint>
+		<IK>l-top-handik</IK>
+		<Location>left foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Leg</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>legion left foot</Name>
+		<Anchor>LeftHip</Anchor>
+		<Joint>LeftKnee</Joint>
+		<IK>l-footik</IK>
+		<Location>left foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Leg</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>legion right foot</Name>
+		<Anchor>RightHip</Anchor>
+		<Joint>RightKnee</Joint>
+		<IK>r-footik</IK>
+		<Location>right foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Leg</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>grunt lower left hand</Name>
+		<Anchor>LeftLowerShoulder</Anchor>
+		<Joint>LeftLowerElbow</Joint>
+		<IK>l-bttm-handik</IK>
+		<Location>left hand 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>grunt lower right hand</Name>
+		<Anchor>RightLowerShoulder</Anchor>
+		<Joint>RightLowerElbow</Joint>
+		<IK>r-bttm-handik</IK>
+		<Location>right hand 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>creeper front left leg</Name>
+		<Anchor>Left_Shoulder</Anchor>
+		<Joint>Left_Elbow</Joint>
+		<IK>l-hand-ik</IK>
+		<Location>left foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>creeper front right leg</Name>
+		<Anchor>Right_Shoulder</Anchor>
+		<Joint>Right_Elbow</Joint>
+		<IK>r-hand-ik</IK>
+		<Location>right foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>creeper rear right leg</Name>
+		<Anchor>RightKnee</Anchor>
+		<Joint>RightCalf</Joint>
+		<IK>r-foot-ik</IK>
+		<Location>right foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>creeper rear left leg</Name>
+		<Anchor>LeftKnee</Anchor>
+		<Joint>LeftCalf</Joint>
+		<IK>l-foot-ik</IK>
+		<Location>left foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<LimbType>Arm</LimbType>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>light walker front left</Name>
+		<LimbType>Arm</LimbType>
+		<Anchor>Thigh_LF</Anchor>
+		<Joint>Foot_LF</Joint>
+		<IK>foot-lf-ik</IK>
+		<Location>left foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>light walker front right</Name>
+		<LimbType>Arm</LimbType>
+		<Anchor>Thigh_RF</Anchor>
+		<Joint>Foot_RF</Joint>
+		<IK>foot-rf-ik</IK>
+		<Location>right foot</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>light walker back left</Name>
+		<LimbType>Arm</LimbType>
+		<Anchor>Thigh_LB</Anchor>
+		<Joint>Foot_LB</Joint>
+		<IK>foot-lb-ik</IK>
+		<Location>left foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Bone_Info>
+	<Bone_Info>
+		<Name>light walker back right</Name>
+		<LimbType>Arm</LimbType>
+		<Anchor>Thigh_RB</Anchor>
+		<Joint>Foot_RB</Joint>
+		<IK>foot-rb-ik</IK>
+		<Location>right foot 2</Location>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Bone_Info>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Bone_Info</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>LimbType</Name>
+		<Type>Selection</Type>
+		<Display_Name>Limb Type</Display_Name>
+		<Description>The type of limb this is. (i.e. arm or leg) This is different than the location in that it describes how the limb works not where it is.</Description>
+		<Default>Arm</Default>
+		<Choice>Arm</Choice>
+		<Choice>Leg</Choice>
+		</Element>
+	<Element>
+		<Name>Anchor</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Joint</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>IK</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Location</Name>
+		<Type>Selection</Type>
+		<Choice>left foot</Choice>
+		<Choice>left foot 2</Choice>
+		<Choice>left foot 3</Choice>
+		<Choice>right foot</Choice>
+		<Choice>right foot 2</Choice>
+		<Choice>right foot 3</Choice>
+		<Choice>left hand</Choice>
+		<Choice>left hand 2</Choice>
+		<Choice>right hand</Choice>
+		<Choice>right hand 2</Choice>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

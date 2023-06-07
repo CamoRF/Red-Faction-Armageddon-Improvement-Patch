@@ -1,0 +1,2 @@
+level safety_zone_08_08
+console_gp_enter script safety_zone_gp

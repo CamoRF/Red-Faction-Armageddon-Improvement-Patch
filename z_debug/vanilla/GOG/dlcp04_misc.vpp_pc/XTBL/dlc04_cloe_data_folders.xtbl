@@ -1,0 +1,80 @@
+<root>
+<Table>
+	<Cloe_Folder>
+		<Name>dlc_Doptx_Folder</Name>
+		<Folder_Location>data\dlc\dlc04\doptx</Folder_Location>
+		<Parse_Subdirectories>True</Parse_Subdirectories>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Cloe_Folder>
+	<Cloe_Folder>
+		<Name>dlc_Structures</Name>
+		<Folder_Location>data\dlc\dlc04\structures\</Folder_Location>
+		<Parse_Subdirectories>True</Parse_Subdirectories>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Cloe_Folder>
+	<Cloe_Folder>
+		<Name>dlc_Terrain</Name>
+		<Folder_Location>data\dlc\dlc04\terrain</Folder_Location>
+		<Parse_Subdirectories>True</Parse_Subdirectories>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Cloe_Folder>
+	<Cloe_Folder>
+		<Name>dlc_Props</Name>
+		<Folder_Location>data\dlc\dlc04\props\</Folder_Location>
+		<Parse_Subdirectories>True</Parse_Subdirectories>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Cloe_Folder>
+	<Cloe_Folder>
+		<Name>dlc_Mini_Zones</Name>
+		<Folder_Location>data\dlc\dlc04\mini_zones\</Folder_Location>
+		<Parse_Subdirectories>True</Parse_Subdirectories>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Cloe_Folder>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Cloe_Folder</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Cloe Folder</Display_Name>
+	<Description>Define effect groups for bullet attacks, groups are then assigned per weapon in the weapons table</Description>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>This is NOT used by Cloe, it's for identification purposes only.</Description>
+		</Element>
+	<Element>
+		<Name>Folder_Location</Name>
+		<Type>String</Type>
+		<Display_Name>Folder Location</Display_Name>
+		<Description>This should be exactly where the folder is located in the directory hirearchy (from main)</Description>
+		</Element>
+	<Element>
+		<Name>Parse_Subdirectories</Name>
+		<Type>Selection</Type>
+		<Display_Name>Parse Subdirectories</Display_Name>
+		<Default>False</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

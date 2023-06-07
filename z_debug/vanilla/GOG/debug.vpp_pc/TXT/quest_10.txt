@@ -1,0 +1,3 @@
+level 0407
+// Disable this as it can be hiding bugs...
+//console_gp_enter script quest_10_gp

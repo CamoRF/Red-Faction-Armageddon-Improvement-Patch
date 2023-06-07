@@ -1,0 +1,185 @@
+<root>
+<Table>
+	<Walker>
+		<Name>Walker small</Name>
+		<Max_Melee_Dist>5.0</Max_Melee_Dist>
+		<Min_Melee_Dist>0.0</Min_Melee_Dist>
+		<Melee_Frequency>0.0</Melee_Frequency>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Walker>
+	<Walker>
+		<Name>Walker flame</Name>
+		<Max_Melee_Dist>5.0</Max_Melee_Dist>
+		<Min_Melee_Dist>0.0</Min_Melee_Dist>
+		<Melee_Frequency>0.0</Melee_Frequency>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Walker>
+	<Walker>
+		<Name>Walker civilian</Name>
+		<Max_Melee_Dist>5.0</Max_Melee_Dist>
+		<Min_Melee_Dist>2.5</Min_Melee_Dist>
+		<Melee_Frequency>0.5</Melee_Frequency>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Walker>
+	<Walker>
+		<Name>Walker crusader</Name>
+		<Max_Melee_Dist>5.0</Max_Melee_Dist>
+		<Min_Melee_Dist>0.0</Min_Melee_Dist>
+		<Melee_Frequency>0.0</Melee_Frequency>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Walker>
+	<Walker>
+		<Name>Walker marauder light</Name>
+		<Max_Melee_Dist>5.0</Max_Melee_Dist>
+		<Min_Melee_Dist>0.0</Min_Melee_Dist>
+		<Melee_Frequency>0.0</Melee_Frequency>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Ranged_forward_speed>0.2</Ranged_forward_speed>
+		<Ranged_back_speed>0.4</Ranged_back_speed>
+		<Ranged_strafe_speed>0.5</Ranged_strafe_speed>
+		<Ranged_move_length_min>3</Ranged_move_length_min>
+		<Ranged_move_length_max>4</Ranged_move_length_max>
+		<Ranged_move_delay_min>0</Ranged_move_delay_min>
+		<Ranged_move_delay_max>1</Ranged_move_delay_max>
+		</Walker>
+	<Walker>
+		<Name>Walker marauder heavy</Name>
+		<Max_Melee_Dist>5.0</Max_Melee_Dist>
+		<Min_Melee_Dist>0.0</Min_Melee_Dist>
+		<Melee_Frequency>0.0</Melee_Frequency>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Ranged_forward_speed>0.65</Ranged_forward_speed>
+		<Ranged_back_speed>0.65</Ranged_back_speed>
+		<Ranged_strafe_speed>0.75</Ranged_strafe_speed>
+		<Ranged_move_length_min>3.5</Ranged_move_length_min>
+		<Ranged_move_length_max>5.0</Ranged_move_length_max>
+		<Ranged_move_delay_min>2</Ranged_move_delay_min>
+		<Ranged_move_delay_max>3</Ranged_move_delay_max>
+		</Walker>
+	<Walker>
+		<Name>Walker Behemoth</Name>
+		<Max_Melee_Dist>5.0</Max_Melee_Dist>
+		<Min_Melee_Dist>0</Min_Melee_Dist>
+		<Melee_Frequency>0.5</Melee_Frequency>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Walker>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Walker</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Max_Melee_Dist</Name>
+		<Type>Float</Type>
+		<Display_Name>Max Melee Dist</Display_Name>
+		<Default>5.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Min_Melee_Dist</Name>
+		<Type>Float</Type>
+		<Display_Name>Min Melee Dist</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Melee_Frequency</Name>
+		<Type>Float</Type>
+		<Display_Name>Melee Frequency</Display_Name>
+		<Description>Time between melee swings in seconds</Description>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Ranged_forward_speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Ranged forward speed</Display_Name>
+		<Description>speed to move forward when moving during ranged attacking</Description>
+		<Required>false</Required>
+		<Default>0.25</Default>
+		<MinValue>0.2</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Ranged_back_speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Ranged back speed</Display_Name>
+		<Required>false</Required>
+		<Default>0.65</Default>
+		<MinValue>0.2</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Ranged_strafe_speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Ranged strafe speed</Display_Name>
+		<Required>false</Required>
+		<Default>0.75</Default>
+		<MinValue>0.2</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Ranged_move_length_min</Name>
+		<Type>Float</Type>
+		<Display_Name>Ranged move length min</Display_Name>
+		<Description>min amount of time to move in a direction during ranged fireing. In seconds</Description>
+		<Required>false</Required>
+		<Default>1</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Ranged_move_length_max</Name>
+		<Type>Float</Type>
+		<Display_Name>Ranged move length max</Display_Name>
+		<Description>max amount of time to move in a direction during ranged fireing. In seconds</Description>
+		<Required>false</Required>
+		<Default>2.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Ranged_move_delay_min</Name>
+		<Type>Float</Type>
+		<Display_Name>Ranged move delay min</Display_Name>
+		<Description>min delay time between random movements during ranged attacking in seconds</Description>
+		<Required>false</Required>
+		<Default>1</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Ranged_move_delay_max</Name>
+		<Type>Float</Type>
+		<Display_Name>Ranged move delay max</Display_Name>
+		<Description>min delay time between random movements during ranged attacking in seconds</Description>
+		<Required>false</Required>
+		<Default>2</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,179 @@
+<root>
+<Table></Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Glare</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Display_Name>Glare Name</Display_Name>
+		<Description>The name for the glare.</Description>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Light_Color</Name>
+		<Type>Element</Type>
+		<Display_Name>Light Color</Display_Name>
+		<Description>The color of the light.</Description>
+		<Element>
+			<Name>R</Name>
+			<Type>Int</Type>
+			<Display_Name>Red</Display_Name>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>255</MaxValue>
+			</Element>
+		<Element>
+			<Name>G</Name>
+			<Type>Int</Type>
+			<Display_Name>Green</Display_Name>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>255</MaxValue>
+			</Element>
+		<Element>
+			<Name>B</Name>
+			<Type>Int</Type>
+			<Display_Name>Blue</Display_Name>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>255</MaxValue>
+			</Element>
+		<Element>
+			<Name>A</Name>
+			<Type>Int</Type>
+			<Display_Name>Alpha</Display_Name>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>255</MaxValue>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Corona_Bitmap</Name>
+		<Type>Element</Type>
+		<Display_Name>Corona Bitmap</Display_Name>
+		<Description>The bitmap to use for the corona.</Description>
+		<Element>
+			<Name>Bitmap_File</Name>
+			<Type>Filename</Type>
+			<Display_Name>Bitmap File</Display_Name>
+			<Description>The .tga file to use for the corona.</Description>
+			<Extension>tga</Extension>
+			<StartingPath>data</StartingPath>
+			<ShowPreload>False</ShowPreload>
+			</Element>
+		<Element>
+			<Name>Rear_View</Name>
+			<Type>Selection</Type>
+			<Display_Name>Rear View</Display_Name>
+			<Description>Whether or not to show corona from the rear view (useful for muzzle flashes).</Description>
+			<Default>true</Default>
+			<Choice>true</Choice>
+			<Choice>false</Choice>
+			</Element>
+		<Element>
+			<Name>Intensity</Name>
+			<Type>Float</Type>
+			<Description>Brightness multiplier.  Intensity (opacity) drops off with distance automatically.  This is capped, so higher values here increase the range at which it's drawn at full opacity.  For always full opacity, use 9999 or something.</Description>
+			<Default>0.0</Default>
+			</Element>
+		<Element>
+			<Name>Radius</Name>
+			<Type>ComboElement</Type>
+			<Description>The radius used for the corona bitmap.  Can be either fixed or variable.</Description>
+			<Element>
+				<Name>Fixed_Radius</Name>
+				<Type>Float</Type>
+				<Display_Name>Fixed Radius</Display_Name>
+				<Description>If present, this is the fixed radius used for corona bitmap (although angle will also influence radius).</Description>
+				<Required>false</Required>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>Variable_Radius</Name>
+				<Type>Element</Type>
+				<Display_Name>Variable Radius</Display_Name>
+				<Description>Parameters defining the variable radius for the corona bitmap.</Description>
+				<Required>false</Required>
+				<Element>
+					<Name>Max</Name>
+					<Type>Float</Type>
+					<Display_Name>Maximum Radius</Display_Name>
+					<Description>Max radius, used for culling purposes.</Description>
+					<Default>0.0</Default>
+					</Element>
+				<Element>
+					<Name>Distance_Factor</Name>
+					<Type>Float</Type>
+					<Display_Name>Radius Distance Factor</Display_Name>
+					<Description>How fast the corona gets bigger as you get further from it.  (Follows a sqrt(), in case you were wondering.)</Description>
+					<Default>0.0</Default>
+					</Element>
+				<Element>
+					<Name>Scale_Factor</Name>
+					<Type>Float</Type>
+					<Display_Name>Radius Scale Factor</Display_Name>
+					<Description>Scales how large the corona is overall.</Description>
+					<Default>0.0</Default>
+					</Element>
+				<Element>
+					<Name>Diminish_Distance</Name>
+					<Type>Float</Type>
+					<Display_Name>Diminish Distance</Display_Name>
+					<Description>Distance at which the corona is no longer visible.  negative means always visible, more negative means less shrinking with closeness.</Description>
+					<Default>0.0</Default>
+					</Element>
+				</Element>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Volumetric_Bitmap</Name>
+		<Type>Element</Type>
+		<Display_Name>Volumetric Bitmap</Display_Name>
+		<Description>Volumetric bitmap, visible outside visibility cone.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Bitmap_File</Name>
+			<Type>Filename</Type>
+			<Display_Name>Bitmap File</Display_Name>
+			<Description>The .tga file to use for the volumetric bitmap.</Description>
+			<Extension>tga</Extension>
+			<StartingPath>data</StartingPath>
+			<ShowPreload>False</ShowPreload>
+			</Element>
+		<Element>
+			<Name>Cone_Angle</Name>
+			<Type>Float</Type>
+			<Display_Name>Cone Angle</Display_Name>
+			<Description>Glare visibility cone.  This is full angle.  360 degrees for all angle visibility.</Description>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>360</MaxValue>
+			</Element>
+		<Element>
+			<Name>Volumetric_Height</Name>
+			<Type>Float</Type>
+			<Display_Name>Volumetric Height</Display_Name>
+			<Description>How high/wide the volumetric bitmap should be in world units.</Description>
+			<Default>0.0</Default>
+			</Element>
+		<Element>
+			<Name>Volumetric_Length</Name>
+			<Type>Float</Type>
+			<Display_Name>Volumetric Length</Display_Name>
+			<Description>How long the volumetric bitmap should be in world units.</Description>
+			<Default>0.0</Default>
+			</Element>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

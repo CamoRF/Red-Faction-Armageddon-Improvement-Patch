@@ -1,0 +1,6 @@
+// Put whatever scripts you want here that will execute upon entering gameplay
+// lock_all_weapons - JeffK 12/21/10 - don't lock these as that's the default behavior and this mucks up the new game plus functionality.
+//set_money 0 - JeffK 1/7/11 - don't clear the salvage as that stomps on PROFILE data.
+gimme phased_plasma_rifle sledgehammer 
+repair_weapon_enabled false
+repair_grenades_enabled false

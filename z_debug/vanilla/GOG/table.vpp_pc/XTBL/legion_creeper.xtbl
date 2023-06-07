@@ -1,0 +1,238 @@
+<root><Table><Skeleton_Set>
+<Name>Legion_Creeper</Name>
+<Groups>
+<Group><group>Default</group>
+<States>
+<State><ID>dead</ID><Animation><Filename>crpr_dflt_knckvr_idl.animx</Filename></Animation></State>
+<State><ID>knocked over</ID><Animation><Filename>crpr_dflt_knckvr_idl.animx</Filename></Animation></State>
+<State><ID>look left</ID><Animation><Filename>crpr_dflt_std_pn_lft.animx</Filename></Animation></State>
+<State><ID>look right</ID><Animation><Filename>crpr_dflt_std_pn_rght.animx</Filename></Animation></State>
+<State><ID>stand on ceiling</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>stand on wall</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>ready stand 1</ID><Animation><Filename>crpr_dflt_stnd_idl_b.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>crpr_dflt_rn_frwrd.animx</Filename></Animation></State>
+<State><ID>run back</ID><Animation><Filename>crpr_dflt_rn_bck.animx</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>crpr_dflt_rn_frwrd.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Creeper_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>2000</cooldown_time></interrupt></interrupts></State>
+<State><ID>stand</ID><Animation><Filename>crpr_dflt_stnd.animx</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>crpr_dflt_wlk_frwrd.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Creeper_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>9000</cooldown_time></interrupt></interrupts></State>
+<State><ID>walk on fire</ID><Animation><Filename>crpr_dflt_wlk_frwrd.animx</Filename></Animation></State>
+<State><ID>look up</ID><Animation><Filename>crpr_dflt_std_pn_up.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>crpr_dflt_stnd.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Creeper_Var_01</set_switch><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>1000</cooldown_time></interrupt></interrupts></State>
+<State><ID>walk ready</ID><Animation><Filename>crpr_dflt_wlk_frwrd.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Creeper_Var_01</set_switch><action_tag_name>switch set</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>1000</cooldown_time></interrupt></interrupts></State>
+<State><ID>stand aim</ID><Animation><Filename>crpr_dflt_stnd.animx</Filename></Animation></State>
+<State><ID>walk aim</ID><Animation><Filename>crpr_dflt_wlk_frwrd.animx</Filename></Animation></State>
+<State><ID>birth fall</ID><Animation><Filename>crpr_dflt_brth_fll.animx</Filename></Animation></State>
+<State><ID>fetal position pod stand</ID><Animation><Filename>crpr_dflt_ftlpstn_pod_stnd.animx</Filename></Animation></State>
+<State><ID>fetal position pod hang</ID><Animation><Filename>crpr_dflt_ftlpstn_pod_hng.animx</Filename></Animation></State>
+<State><ID>stand stun</ID><Animation><Filename>crpr_dflt_stnd.animx</Filename></Animation></State>
+<State><ID>leap wall aim left</ID><Animation><Filename>crpr_dflt_stnd_wll_am_lft.animx</Filename></Animation></State>
+<State><ID>leap wall aim right</ID><Animation><Filename>crpr_dflt_stnd_wll_am_rght.animx</Filename></Animation></State>
+<State><ID>leap wall aim up</ID><Animation><Filename>crpr_dflt_stnd_wll_am_up.animx</Filename></Animation></State>
+<State><ID>leap wall aim down</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>leap wall aim forward</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>leap ceiling aim down</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>leap ceiling aim forward</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>leap ceiling aim left</ID><Animation><Filename>crpr_dflt_stnd_wll_am_lft.animx</Filename></Animation></State>
+<State><ID>leap ceiling aim right</ID><Animation><Filename>crpr_dflt_stnd_wll_am_rght.animx</Filename></Animation></State>
+<State><ID>leap ceiling aim up</ID><Animation><Filename>crpr_dflt_stnd_wll_am_up.animx</Filename></Animation></State>
+<State><ID>leap ceiling stand</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>leap wall stand</ID><Animation><Filename>crpr_dflt_stnd_wll.animx</Filename></Animation></State>
+<State><ID>lipsync closed</ID><Animation><Filename>crpr_dflt_jw_cls.animx</Filename></Animation></State>
+<State><ID>lipsync open</ID><Animation><Filename>crpr_dflt_jw_opn.animx</Filename></Animation></State>
+<State><ID>walk right shuffle left</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>walk right shuffle right</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>walk shuffle left</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>walk shuffle right</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>shuffle left state</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>shuffle ready right</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>shuffle right state</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>stand turn shuffle left</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>stand turn shuffle right</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></State>
+<State><ID>walk back</ID><Animation><Filename>crpr_dflt_wlk_bck.animx</Filename></Animation></State>
+<State><ID>walk ready back</ID><Animation><Filename>crpr_dflt_wlk_bck.animx</Filename></Animation></State>
+<State><ID>run ready back</ID><Animation><Filename>crpr_dflt_rn_bck.animx</Filename></Animation></State>
+<State><ID>electric shock</ID><Animation><Filename>crpr_dflt_dth_elctrct.animx</Filename></Animation></State>
+<State><ID>feast state</ID><Animation><Filename>crpr_dflt_stnd_feast.animx</Filename></Animation></State>
+<State><ID>feast state b</ID><Animation><Filename>crpr_dflt_stnd_feast_02.animx</Filename></Animation></State>
+<State><ID>leaping in air</ID><Animation><Filename>crpr_dflt_brth_fll.animx</Filename></Animation></State>
+<State><ID>walk right</ID><Animation><Filename>crpr_dflt_wlk_rght.animx</Filename></Animation></State>
+<State><ID>walk left</ID><Animation><Filename>crpr_dflt_wlk_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>walk ready right</ID><Animation><Filename>crpr_dflt_wlk_rght.animx</Filename></Animation></State>
+<State><ID>walk ready left</ID><Animation><Filename>crpr_dflt_wlk_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>walk aim right</ID><Animation><Filename>crpr_dflt_wlk_rght.animx</Filename></Animation></State>
+<State><ID>walk aim left</ID><Animation><Filename>crpr_dflt_wlk_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>run right</ID><Animation><Filename>crpr_dflt_rn_rght.animx</Filename></Animation></State>
+<State><ID>run left</ID><Animation><Filename>crpr_dflt_rn_lft.animx</Filename></Animation></State>
+<State><ID>run ready right</ID><Animation><Filename>crpr_dflt_rn_rght.animx</Filename></Animation></State>
+<State><ID>run ready left</ID><Animation><Filename>crpr_dflt_rn_lft.animx</Filename></Animation></State>
+<State><ID>wallbust1</ID><Animation><Filename>wallbust_ch_leg_out_creeper1__1.animx</Filename></Animation></State>
+<State><ID>wallbust2</ID><Animation><Filename>wallbust_ch_leg_out_creeper2__1.animx</Filename></Animation></State>
+<State><ID>wallbust3</ID><Animation><Filename>wallbust_ch_leg_out_creeper3__1.animx</Filename></Animation></State>
+<State><ID>electric shock leap</ID><Animation><Filename>crpr_dflt_dth_elctrct_lp.animx</Filename></Animation></State>
+<State><ID>run look left</ID><Animation><Filename>crpr_dflt_rn_frwrd.animx</Filename></Animation></State>
+<State><ID>run look right</ID><Animation><Filename>crpr_dflt_rn_frwrd.animx</Filename></Animation></State>
+</States>
+<Actions>
+<Action><ID>death electrocuted</ID><Animation><Filename>crpr_dflt_dth_elctrct.animx</Filename></Animation></Action>
+<Action><ID>flinch torso backward</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch torso forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt.animx</Filename></Animation></Action>
+<Action><ID>flinch torso left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch torso right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown backwards</ID><Animation><Filename>crpr_dflt_stnd_knckvr_bck.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown forwards</ID><Animation><Filename>crpr_dflt_stnd_knckvr_frnt.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown left</ID><Animation><Filename>crpr_dflt_stnd_knckvr_lft.animx</Filename></Animation></Action>
+<Action><ID>explosion knockdown right</ID><Animation><Filename>crpr_dflt_stnd_knckvr_rght.animx</Filename></Animation></Action>
+<Action><ID>back getup</ID><Animation><Filename>crpr_dflt_knckvr_bck_to_stnd.animx</Filename></Animation></Action>
+<Action><ID>land normal stop</ID><Animation><Filename>crpr_dflt_jmp_frwrd_lnd.animx</Filename></Animation></Action>
+<Action><ID>run melee 1</ID><Animation><Filename>crpr_dflt_rn_ml.animx</Filename></Animation></Action>
+<Action><ID>stand melee 1</ID><Animation><Filename>crpr_dflt_stnd_ml.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Creeper_Var_01</set_switch><action_tag_name>stand melee 1</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>100</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>taunt</ID><Animation><Filename>crpr_dflt_std_tnt_tng.animx</Filename></Animation></Action>
+<Action><ID>death torso back</ID><Animation><Filename>crpr_dflt_dth_plvs_bck.animx</Filename></Animation></Action>
+<Action><ID>death torso front</ID><Animation><Filename>crpr_dflt_dth_plvs_frwrd.animx</Filename></Animation></Action>
+<Action><ID>death torso left</ID><Animation><Filename>crpr_dflt_dth_trs_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>death torso right</ID><Animation><Filename>crpr_dflt_dth_trs_rght.animx</Filename></Animation></Action>
+<Action><ID>death</ID><Animation><Filename>crpr_dflt_dth_plvs_bck.animx</Filename></Animation></Action>
+<Action><ID>birth start</ID><Animation><Filename>crpr_dflt_brth_a.animx</Filename></Animation></Action>
+<Action><ID>birth land</ID><Animation><Filename>crpr_dflt_brth_lnd.animx</Filename></Animation></Action>
+<Action><ID>grab creeper</ID><Animation><Filename>crpr_dflt_grb_crpr.animx</Filename></Animation></Action>
+<Action><ID>stand stuck</ID><Animation><Filename>crpr_dflt_stnd_stck.animx</Filename></Animation></Action>
+<Action><ID>spit attack</ID><Animation><Filename>crpr_dflt_stnd_spt_attck.animx</Filename></Animation></Action>
+<Action><ID>stand feast</ID><Animation><Filename>crpr_dflt_stnd_feast.animx</Filename></Animation></Action>
+<Action><ID>melee idle</ID><Animation><Filename>crpr_dflt_stnd_ml_idle.animx</Filename></Animation></Action>
+<Action><ID>stand tell</ID><Animation><Filename>crpr_dflt_stnd_rdy_tll.animx</Filename></Animation></Action>
+<Action><ID>death overhead</ID><Animation><Filename>crpr_dflt_dth_ovrhd.animx</Filename></Animation></Action>
+<Action><ID>hang birth start</ID><Animation><Filename>crpr_dflt_brth_strt_up.animx</Filename></Animation></Action>
+<Action><ID>leap tell</ID><Animation><Filename>crpr_dflt_stnd_rdy_tll.animx</Filename></Animation></Action>
+<Action><ID>aggro</ID><Animation><Filename>crpr_dflt_stnd_dtct_plr.animx</Filename></Animation></Action>
+<Action><ID>stand leap short</ID><Animation><Filename>crpr_dflt_stnd_jmp_shrt.animx</Filename></Animation></Action>
+<Action><ID>stand leap long</ID><Animation><Filename>crpr_dflt_stnd_jmp_shrt.animx</Filename></Animation></Action>
+<Action><ID>death headshot left</ID><Animation><Filename>crpr_dflt_dth_trs_rght.animx</Filename></Animation></Action>
+<Action><ID>death pelvis left</ID><Animation><Filename>crpr_dflt_dth_trs_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></Action>
+<Action><ID>idle a</ID><Animation><Filename>crpr_dflt_stnd_idl_a.animx</Filename></Animation></Action>
+<Action><ID>fwd getup</ID><Animation><Filename>crpr_dflt_knckvr_frnt_to_stnd.animx</Filename></Animation></Action>
+<Action><ID>death pelvis back</ID><Animation><Filename>crpr_dflt_dth_plvs_bck.animx</Filename></Animation></Action>
+<Action><ID>death pelvis front</ID><Animation><Filename>crpr_dflt_dth_plvs_frwrd.animx</Filename></Animation></Action>
+<Action><ID>idle b</ID><Animation><Filename>crpr_dflt_stnd_idl_b.animx</Filename></Animation></Action>
+<Action><ID>flinch body</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch head backward</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis backward</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head backward</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis backward</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso backward</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble backward</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck.animx</Filename></Animation></Action>
+<Action><ID>flinch head forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt.animx</Filename></Animation></Action>
+<Action><ID>flinch head left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft.animx</Filename></Animation></Action>
+<Action><ID>flinch head right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch pelvis right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight pelvis right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight head right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch slight torso right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght_slght.animx</Filename></Animation></Action>
+<Action><ID>flinch stumble right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght.animx</Filename></Animation></Action>
+<Action><ID>death pelvis right</ID><Animation><Filename>crpr_dflt_dth_trs_rght.animx</Filename></Animation></Action>
+<Action><ID>death headshot back</ID><Animation><Filename>crpr_dflt_dth_plvs_bck.animx</Filename></Animation></Action>
+<Action><ID>death headshot front</ID><Animation><Filename>crpr_dflt_dth_plvs_frwrd.animx</Filename></Animation></Action>
+<Action><ID>death headshot right</ID><Animation><Filename>crpr_dflt_dth_trs_rght.animx</Filename></Animation></Action>
+<Action><ID>death fire</ID><Animation><Filename>crpr_dflt_dth_fr.animx</Filename></Animation></Action>
+<Action><ID>hop turn right</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></Action>
+<Action><ID>hop turn left</ID><Animation><Filename>crpr_dflt_stnd_trnshffl.animx</Filename></Animation></Action>
+<Action><ID>interaction 01</ID><Animation><Filename>crpr_dflt_interact_01.animx</Filename></Animation></Action>
+<Action><ID>interaction 02</ID><Animation><Filename>crpr_dflt_interact_02.animx</Filename></Animation></Action>
+<Action><ID>wall monster closet</ID><Animation><Filename>crpr_dflt_mster_closet_wall.animx</Filename></Animation></Action>
+<Action><ID>birth start a</ID><Animation><Filename>crpr_dflt_brth_a.animx</Filename></Animation></Action>
+<Action><ID>birth start b</ID><Animation><Filename>crpr_dflt_brth_a.animx</Filename></Animation></Action>
+<Action><ID>birth land heavy</ID><Animation><Filename>crpr_dflt_brth_lnd_hgh.animx</Filename></Animation></Action>
+<Action><ID>death head stomp</ID><Animation><Filename>crpr_dflt_head_stomp.animx</Filename></Animation></Action>
+<Action><ID>switch set</ID><Animation><Filename>crpr_dflt_stnd_swtch_st.animx</Filename></Animation></Action>
+<Action><ID>aggro leap</ID><Animation><Filename>crpr_dflt_lp_dtct_plr.animx</Filename></Animation></Action>
+<Action><ID>jump melee start</ID><Animation><Filename>crpr_dflt_jmp_ml_strt.animx</Filename></Animation></Action>
+<Action><ID>jump melee finish</ID><Animation><Filename>crpr_dflt_jmp_ml_fnsh.animx</Filename></Animation><interrupts><interrupt><set_switch>Legion_Creeper_Var_01</set_switch><action_tag_name>jump melee finish</action_tag_name><chance>100</chance><start_cyclic_percent>0</start_cyclic_percent><cooldown_time>0</cooldown_time></interrupt></interrupts></Action>
+<Action><ID>ceiling monster closet</ID><Animation><Filename>crpr_dflt_mster_closet_ceil.animx</Filename></Animation></Action>
+<Action><ID>stand feast b</ID><Animation><Filename>crpr_dflt_stnd_feast_02.animx</Filename></Animation></Action>
+<Action><ID>spit attack wall</ID><Animation><Filename>crpr_dflt_lp_spt_attck.animx</Filename></Animation></Action>
+<Action><ID>spit attack ceiling</ID><Animation><Filename>crpr_dflt_lp_spt_attck.animx</Filename></Animation></Action>
+<Action><ID>ice monster closet</ID><Animation><Filename>crpr_dflt_mster_closet_ice.animx</Filename></Animation></Action>
+<Action><ID>toss creeper</ID><Animation><Filename>crpr_dflt_tss_crpr.animx</Filename></Animation></Action>
+<Action><ID>tun a monster closet</ID><Animation><Filename>crpr_dflt_mster_closet_tuna.animx</Filename></Animation></Action>
+<Action><ID>leap wall to wall</ID><Animation><Filename>crpr_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>leap wall to ground</ID><Animation><Filename>crpr_dflt_wll_to_grnd_lp.animx</Filename></Animation></Action>
+<Action><ID>leap wall to ceiling</ID><Animation><Filename>crpr_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>leap ground to wall</ID><Animation><Filename>crpr_dflt_grnd_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>leap ground to ceiling</ID><Animation><Filename>crpr_dflt_grnd_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>leap ceiling to wall</ID><Animation><Filename>crpr_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>leap ceiling to ground</ID><Animation><Filename>crpr_dflt_clng_to_grnd_lp.animx</Filename></Animation></Action>
+<Action><ID>hop wall to ceiling</ID><Animation><Filename>crpr_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop wall to ground</ID><Animation><Filename>crpr_dflt_wll_to_grnd_lp.animx</Filename></Animation></Action>
+<Action><ID>hop wall to wall</ID><Animation><Filename>crpr_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop ceiling to ground</ID><Animation><Filename>crpr_dflt_clng_to_grnd_lp.animx</Filename></Animation></Action>
+<Action><ID>hop ceiling to wall</ID><Animation><Filename>crpr_dflt_wll_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop ground to ceiling</ID><Animation><Filename>crpr_dflt_grnd_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>hop ground to wall</ID><Animation><Filename>crpr_dflt_grnd_to_wll_lp.animx</Filename></Animation></Action>
+<Action><ID>stand melee 1 b</ID><Animation><Filename>crpr_dflt_stnd_ml_var1.animx</Filename></Animation></Action>
+<Action><ID>stand melee 1 c</ID><Animation><Filename>crpr_dflt_stnd_ml_var2.animx</Filename></Animation></Action>
+<Action><ID>death head punch</ID><Animation><Filename>crpr_dflt_nano_upprcut.animx</Filename></Animation></Action>
+<Action><ID>ice ledge 1 monster closet</ID><Animation><Filename>crpr1_ice_ledge.animx</Filename></Animation></Action>
+<Action><ID>ice ledge 2 monster closet</ID><Animation><Filename>crpr2_ice_ledge.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 4</ID><Animation><Filename>crpr4_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 3</ID><Animation><Filename>crpr3_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 2</ID><Animation><Filename>crpr2_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>monster closet emerge 1</ID><Animation><Filename>crpr1_dflt_mster_ter_ice_wall.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis back</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch pelvis left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso forward</ID><Animation><Filename>crpr_dflt_stnd_flnch_frnt.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso back</ID><Animation><Filename>crpr_dflt_stnd_flnch_bck.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso right</ID><Animation><Filename>crpr_dflt_stnd_flnch_rght.animx</Filename></Animation></Action>
+<Action><ID>noncombat flinch torso left</ID><Animation><Filename>crpr_dflt_stnd_flnch_lft.animx</Filename></Animation></Action>
+<Action><ID>ceiling shuffle left</ID><Animation><Filename>crpr_dflt_clng_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>ceiling shuffle right</ID><Animation><Filename>crpr_dflt_clng_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>crouch ready shuffle left</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>crouch ready shuffle right</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>crouch shuffle left</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>crouch shuffle left 180</ID><Animation><Filename>crpr_dflt_shffl_lft_180.animx</Filename></Animation></Action>
+<Action><ID>crouch shuffle right</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>crouch shuffle right 180</ID><Animation><Filename>crpr_dflt_shffl_rght_180.animx</Filename></Animation></Action>
+<Action><ID>run shuffle left</ID><Animation><Filename>crpr_dflt_rn_shfl_rn.animx</Filename></Animation></Action>
+<Action><ID>run shuffle right</ID><Animation><Filename>crpr_dflt_rn_shfl_rn.animx</Filename></Animation></Action>
+<Action><ID>shuffle left 180</ID><Animation><Filename>crpr_dflt_shffl_lft_180.animx</Filename></Animation></Action>
+<Action><ID>shuffle right 180</ID><Animation><Filename>crpr_dflt_shffl_rght_180.animx</Filename></Animation></Action>
+<Action><ID>stand ready shuffle left</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>stand ready shuffle right</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle leap left</ID><Animation><Filename>crpr_dflt_stnd_shffl_leap_lft.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle leap right</ID><Animation><Filename>crpr_dflt_stnd_shffl_leap_rght.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle left</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>stand shuffle right</ID><Animation><Filename>crpr_dflt_rn_shfl.animx</Filename></Animation></Action>
+<Action><ID>walk shuffle left</ID><Animation><Filename>crpr_dflt_rn_shfl_rn.animx</Filename></Animation></Action>
+<Action><ID>walk shuffle right</ID><Animation><Filename>crpr_dflt_rn_shfl_rn.animx</Filename></Animation></Action>
+<Action><ID>wall shuffle left</ID><Animation><Filename>crpr_dflt_stnd_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>wall shuffle right</ID><Animation><Filename>crpr_dflt_stnd_shffl_leap.animx</Filename></Animation></Action>
+<Action><ID>leap death</ID><Animation><Filename>crpr_dflt_lp_dth.animx</Filename></Animation></Action>
+<Action><ID>ice ledge m4</ID><Animation><Filename>crpr_dflt_lp_icldg.animx</Filename></Animation></Action>
+</Actions>
+</Group>
+</Groups><_Editor><Category>Entries</Category></_Editor></Skeleton_Set></table><TableTemplates></TableTemplates><TableDescription>
+<Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element>
+<Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name></Element><Element>
+<Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Required>false</Required></Element><Element>
+<Name>Groups</Name><Type>Grid</Type><Element>
+<Name>Group</Name><Type>Element</Type><Element>
+<Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Unique>true</Unique><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element><Element>
+<Name>States</Name><Type>Grid</Type><Element>
+<Name>State</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element><Element>
+<Name>Actions</Name><Type>Grid</Type><Element>
+<Name>Action</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category>
+<Name>Entries</Name></Category></EntryCategories></root>

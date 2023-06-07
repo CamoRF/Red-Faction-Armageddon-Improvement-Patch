@@ -1,0 +1,711 @@
+<root>
+<Table>
+	<Vehicle>
+		<Name>Civ_atv_1</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Waypoints>
+			<Waypoint>
+				<Name>Enter L</Name>
+				<Pos>
+					<X>-0.973943</X>
+					<Y>-0.7</Y>
+					<Z>.25</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Enter R</Name>
+				<Pos>
+					<X>0.973943</X>
+					<Y>-0.7</Y>
+					<Z>.25</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Exit</Name>
+				<Pos>
+					<X>0.973943</X>
+					<Y>-0.7</Y>
+					<Z>0.197516</Z>
+					</Pos>
+				<Heading>90.0</Heading>
+				<Node_Type>
+					<Flag>Exit Node</Flag>
+					</Node_Type>
+				<Attributes>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Drive</Name>
+				<Pos>
+					<X>0</X>
+					<Y>-0.7</Y>
+					<Z>.25</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					</Node_Type>
+				<Attributes>
+					</Attributes>
+				<Seat>driver</Seat>
+				</Waypoint>
+			</Waypoints>
+		<Waypoint_transitions>
+			<Waypoint_transition>
+				<Name>Enter L</Name>
+				<Destination>Drive</Destination>
+				<Interactions>
+					<Interaction>
+						<Action>Transition</Action>
+						<Anim_Action>vehicle enter primary 1</Anim_Action>
+						<Anim_State>driving accel none</Anim_State>
+						</Interaction>
+					</Interactions>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Drive</Name>
+				<Destination>Exit</Destination>
+				<Interactions>
+					<Interaction>
+						<Action>Transition</Action>
+						<Anim_Action>vehicle exit driver</Anim_Action>
+						<Anim_State>stand</Anim_State>
+						</Interaction>
+					</Interactions>
+				</Waypoint_transition>
+			</Waypoint_transitions>
+		<Anim_Set>Vehicle_ATV</Anim_Set>
+		<Vehicle_Interaction_Flags>
+			<Flag>Player_prompt_only_at_entry</Flag>
+			</Vehicle_Interaction_Flags>
+		</Vehicle>
+	<Vehicle>
+		<Name>Cru_Tank_1</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Waypoints>
+			<Waypoint>
+				<Name>Enter</Name>
+				<Pos>
+					<X>0</X>
+					<Y>-0.942672</Y>
+					<Z>-5.20906</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Don't Correct Anim Position</Flag>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Exit</Name>
+				<Pos>
+					<X>0.00805389</X>
+					<Y>-1.74612</Y>
+					<Z>-5.40915</Z>
+					</Pos>
+				<Heading>180</Heading>
+				<Node_Type>
+					<Flag>Exit Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Don't Correct Anim Position</Flag>
+					</Attributes>
+				<Parent_Component>Turret</Parent_Component>
+				</Waypoint>
+			<Waypoint>
+				<Name>Drive</Name>
+				<Pos>
+					<X>0.0484081</X>
+					<Y>-0.21139</Y>
+					<Z>0.517538</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					</Node_Type>
+				<Attributes>
+					<Flag>Don't Correct Anim Position</Flag>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				<Seat>driver</Seat>
+				<Parent_Component>Turret</Parent_Component>
+				</Waypoint>
+			</Waypoints>
+		<Waypoint_transitions>
+			<Waypoint_transition>
+				<Name>Enter</Name>
+				<Destination>Drive</Destination>
+				<Interactions>
+					<Interaction>
+						<Action>Transition</Action>
+						<Anim_Action>vehicle enter primary 1</Anim_Action>
+						<Anim_State>driving forward</Anim_State>
+						</Interaction>
+					</Interactions>
+				<Door_1>main_hatch</Door_1>
+				<Door_2>hatch_secondary</Door_2>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Drive</Name>
+				<Destination>Exit</Destination>
+				<Interactions>
+					<Interaction>
+						<Action>Transition</Action>
+						<Anim_Action>vehicle exit driver</Anim_Action>
+						<Anim_State>vehicle enter stand</Anim_State>
+						</Interaction>
+					</Interactions>
+				<Door_1>main_hatch</Door_1>
+				<Door_2>hatch_secondary</Door_2>
+				</Waypoint_transition>
+			</Waypoint_transitions>
+		<Anim_Set>Vehicle_ATV</Anim_Set>
+		<Vehicle_Interaction_Flags>
+			<Flag>Player_prompt_only_at_entry</Flag>
+			</Vehicle_Interaction_Flags>
+		</Vehicle>
+	<Vehicle>
+		<Name>Walker_Marauder_Heavy</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Waypoints>
+			<Waypoint>
+				<Name>WP_Start</Name>
+				<Pos>
+					<X>-0.279</X>
+					<Y>0.0</Y>
+					<Z>-1.165</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>WP_End</Name>
+				<Pos>
+					<X>0.081</X>
+					<Y>1.902</Y>
+					<Z>2.125</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					</Node_Type>
+				<Attributes>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				<Seat>driver</Seat>
+				</Waypoint>
+			<Waypoint>
+				<Name>Front</Name>
+				<Pos>
+					<X>0.0138384</X>
+					<Y>1.902</Y>
+					<Z>-10</Z>
+					</Pos>
+				<Heading>0.0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				</Waypoint>
+			</Waypoints>
+		<Waypoint_transitions>
+			<Waypoint_transition>
+				<Name>WP_Start</Name>
+				<Destination>WP_End</Destination>
+				<Interactions></Interactions>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Front</Name>
+				<Destination>WP_Start</Destination>
+				<Interactions></Interactions>
+				</Waypoint_transition>
+			</Waypoint_transitions>
+		<Anim_Set>mar_heavy_walker</Anim_Set>
+		<Vehicle_Interaction_Flags>
+			<Flag>Player_prompt_only_at_entry</Flag>
+			</Vehicle_Interaction_Flags>
+		</Vehicle>
+	<Vehicle>
+		<Name>Dummy</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Waypoints>
+			<Waypoint>
+				<Name>Enter L</Name>
+				<Pos>
+					<X>-0.973943</X>
+					<Y>-0.7</Y>
+					<Z>.25</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Exit</Name>
+				<Pos>
+					<X>0.973943</X>
+					<Y>-0.7</Y>
+					<Z>0.197516</Z>
+					</Pos>
+				<Heading>90.0</Heading>
+				<Node_Type>
+					<Flag>Exit Node</Flag>
+					</Node_Type>
+				<Attributes>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Drive</Name>
+				<Pos>
+					<X>0</X>
+					<Y>-0.7</Y>
+					<Z>.25</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					</Node_Type>
+				<Attributes>
+					</Attributes>
+				<Seat>driver</Seat>
+				</Waypoint>
+			</Waypoints>
+		<Waypoint_transitions>
+			<Waypoint_transition>
+				<Name>Enter L</Name>
+				<Destination>Drive</Destination>
+				<Interactions></Interactions>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Drive</Name>
+				<Destination>Exit</Destination>
+				<Interactions></Interactions>
+				</Waypoint_transition>
+			</Waypoint_transitions>
+		<Anim_Set>default_vehicle</Anim_Set>
+		<Vehicle_Interaction_Flags>
+			<Flag>Player_prompt_only_at_entry</Flag>
+			</Vehicle_Interaction_Flags>
+		</Vehicle>
+	<Vehicle>
+		<Name>Walker_Marauder_Light</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Waypoints>
+			<Waypoint>
+				<Name>WP_Start</Name>
+				<Pos>
+					<X>-0.279</X>
+					<Y>0.0</Y>
+					<Z>0</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>WP_End</Name>
+				<Pos>
+					<X>0.081</X>
+					<Y>1.902</Y>
+					<Z>0</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					</Node_Type>
+				<Attributes>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				<Seat>driver</Seat>
+				</Waypoint>
+			<Waypoint>
+				<Name>Front</Name>
+				<Pos>
+					<X>0.0138384</X>
+					<Y>1.902</Y>
+					<Z>-10</Z>
+					</Pos>
+				<Heading>0.0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				</Waypoint>
+			</Waypoints>
+		<Waypoint_transitions>
+			<Waypoint_transition>
+				<Name>WP_Start</Name>
+				<Destination>WP_End</Destination>
+				<Interactions></Interactions>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Front</Name>
+				<Destination>WP_Start</Destination>
+				<Interactions></Interactions>
+				</Waypoint_transition>
+			</Waypoint_transitions>
+		<Anim_Set>mar_light_walker</Anim_Set>
+		<Vehicle_Interaction_Flags>
+			<Flag>Player_prompt_only_at_entry</Flag>
+			</Vehicle_Interaction_Flags>
+		</Vehicle>
+	</Table>
+
+<TableTemplates>
+	<Vehicle>
+		<Name>LAV</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Waypoints>
+			<Waypoint>
+				<Name>Enter L</Name>
+				<Pos>
+					<X>-0.0111425</X>
+					<Y>-1.57284</Y>
+					<Z>-5.06707</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Don't Correct Anim Position</Flag>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Enter R</Name>
+				<Pos>
+					<X>-0.0111425</X>
+					<Y>-1.57284</Y>
+					<Z>-5.06707</Z>
+					</Pos>
+				<Heading>0.0</Heading>
+				<Node_Type>
+					<Flag>Enter Node</Flag>
+					</Node_Type>
+				<Attributes>
+					<Flag>Don't Correct Anim Position</Flag>
+					</Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Exit Drive</Name>
+				<Pos>
+					<X>-0.0111425</X>
+					<Y>-1.57284</Y>
+					<Z>-5.06707</Z>
+					</Pos>
+				<Heading>90.0</Heading>
+				<Node_Type>
+					<Flag>Exit Node</Flag>
+					</Node_Type>
+				<Attributes></Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Exit Passenger</Name>
+				<Pos>
+					<X>0.763</X>
+					<Y>0.402</Y>
+					<Z>0.563516</Z>
+					</Pos>
+				<Heading>90.0</Heading>
+				<Node_Type>
+					<Flag>Exit Node</Flag>
+					</Node_Type>
+				<Attributes></Attributes>
+				</Waypoint>
+			<Waypoint>
+				<Name>Drive</Name>
+				<Pos>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type></Node_Type>
+				<Attributes>
+					<Flag>Don't Correct Anim Position</Flag>
+					<Flag>Hide Human In Seat</Flag>
+					</Attributes>
+				<Seat>driver</Seat>
+				<Parent_Component>0</Parent_Component>
+				</Waypoint>
+			<Waypoint>
+				<Name>Passenger</Name>
+				<Pos>
+					<X>0.033905</X>
+					<Y>-0.542241096</Y>
+					<Z>-0.096268</Z>
+					</Pos>
+				<Heading>0</Heading>
+				<Node_Type></Node_Type>
+				<Seat>passenger_1</Seat>
+				<Attributes>
+					<Flag>Don't Correct Anim Position</Flag>
+					</Attributes>
+				<Parent_Component>Turret</Parent_Component>
+				</Waypoint>
+			</Waypoints>
+		<Waypoint_transitions>
+			<Waypoint_transition>
+				<Name>Enter L</Name>
+				<Destination>Drive</Destination>
+				<Interactions></Interactions>
+				<Door_1>Hatch</Door_1>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Enter R</Name>
+				<Destination>Passenger</Destination>
+				<Interactions>
+					<Interaction>
+						<Action>Transition</Action>
+						<Anim_Action>vehicle enter primary 1</Anim_Action>
+						<Anim_State>driving forward</Anim_State>
+						</Interaction>
+					</Interactions>
+				<Door_1>Hatch</Door_1>
+				<Door_2>HatchDoor_R</Door_2>
+				<Door_3>HatchDoor_L</Door_3>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Drive</Name>
+				<Destination>Exit Drive</Destination>
+				<Interactions></Interactions>
+				</Waypoint_transition>
+			<Waypoint_transition>
+				<Name>Passenger</Name>
+				<Destination>Exit Passenger</Destination>
+				<Interactions>
+					<Interaction>
+						<Action>Transition</Action>
+						<Anim_Action>vehicle exit driver</Anim_Action>
+						<Anim_State>stand</Anim_State>
+						</Interaction>
+					</Interactions>
+				</Waypoint_transition>
+			</Waypoint_transitions>
+		<Anim_Set>LAV</Anim_Set>
+		<Vehicle_Interaction_Flags>
+			<Flag>Player_prompt_only_at_entry</Flag>
+			</Vehicle_Interaction_Flags>
+		</Vehicle>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Vehicle</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Display_Name>Vehicle Name</Display_Name>
+		</Element>
+	<Element>
+		<Name>Anim_Set</Name>
+		<Type>String</Type>
+		<Display_Name>Anim Set</Display_Name>
+		</Element>
+	<Element>
+		<Name>Vehicle_Interaction_Flags</Name>
+		<Type>Flags</Type>
+		<Flag>Player_prompt_only_at_entry</Flag>
+		</Element>
+	<Element>
+		<Name>Waypoints</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>Waypoint</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Name</Name>
+				<Type>String</Type>
+				</Element>
+			<Element>
+				<Name>Pos</Name>
+				<Type>Vector</Type>
+				<X>
+					<Name>X</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					</X>
+				<Y>
+					<Name>Y</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					</Y>
+				<Z>
+					<Name>Z</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					</Z>
+				</Element>
+			<Element>
+				<Name>Heading</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				</Element>
+			<Element>
+				<Name>Node_Type</Name>
+				<Type>Flags</Type>
+				<Description>you only pick one node type
+None = Transition node</Description>
+				<Flag>Enter Node</Flag>
+				<Flag>Exit Node</Flag>
+				<Flag>Exit Moving</Flag>
+				<Flag>Exit Upside Down</Flag>
+				<Flag>Exit Dive</Flag>
+				<Flag>Exit Moving Reverse</Flag>
+				<Flag>Exit Onside Right</Flag>
+				<Flag>Exit Onside Left</Flag>
+				<Flag>Exit Corpse</Flag>
+				</Element>
+			<Element>
+				<Name>Parent_Component</Name>
+				<Type>String</Type>
+				<Display_Name>Parent Component</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Seat</Name>
+				<Type>Selection</Type>
+				<Required>false</Required>
+				<Choice>driver</Choice>
+				<Choice>passenger_1</Choice>
+				<Choice>passenger_2</Choice>
+				<Choice>passenger_3</Choice>
+				<Choice>passenger_4</Choice>
+				<Choice>passenger_5</Choice>
+				<Choice>passenger_6</Choice>
+				<Choice>passenger_7</Choice>
+				<Choice>passenger_8</Choice>
+				<Choice>passenger_9</Choice>
+				<Choice>passenger_10</Choice>
+				</Element>
+			<Element>
+				<Name>Attributes</Name>
+				<Type>Flags</Type>
+				<Description>Auto connect = Short range + Transition node
+Blocking Seat = Restrict Access + Seat 
+External seat = Last Choice + Seat
+Turret Seat = Eject on Explosion + Seat</Description>
+				<Flag>Short Range</Flag>
+				<Flag>Restrict Vertical Access</Flag>
+				<Flag>Last Choice</Flag>
+				<Flag>Eject on Explosion</Flag>
+				<Flag>Don't Correct Anim Position</Flag>
+				<Flag>Hide Human In Seat</Flag>
+				</Element>
+			</Element>
+		<Num_Display_Rows>20</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Waypoint_transitions</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>Waypoint_transition</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Name</Name>
+				<Type>String</Type>
+				</Element>
+			<Element>
+				<Name>Destination</Name>
+				<Type>String</Type>
+				</Element>
+			<Element>
+				<Name>Door_1</Name>
+				<Type>String</Type>
+				<Display_Name>Door 1</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Door_2</Name>
+				<Type>String</Type>
+				<Display_Name>Door 2</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Door_3</Name>
+				<Type>String</Type>
+				<Display_Name>Door 3</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Door_open</Name>
+				<Type>String</Type>
+				<Display_Name>Door Open</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Door_close</Name>
+				<Type>String</Type>
+				<Display_Name>Door Close</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Interactions</Name>
+				<Type>Grid</Type>
+				<Element>
+					<Name>Interaction</Name>
+					<Type>Element</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>String</Type>
+						</Element>
+					<Element>
+						<Name>Anim_Action</Name>
+						<Type>String</Type>
+						</Element>
+					<Element>
+						<Name>Anim_State</Name>
+						<Type>String</Type>
+						</Element>
+					</Element>
+				<Num_Display_Rows>8</Num_Display_Rows>
+				</Element>
+			</Element>
+		<Num_Display_Rows>20</Num_Display_Rows>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

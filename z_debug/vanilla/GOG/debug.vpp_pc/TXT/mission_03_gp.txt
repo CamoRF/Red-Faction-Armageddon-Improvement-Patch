@@ -1,0 +1,6 @@
+// Put whatever console commands you want here that will execute upon entering gameplay
+lock_all_weapons
+gimme magnet_gun standard_bullet_pistol sledgehammer
+//set_money 2320 - JeffK 2/3/11 - don't set the salvage as that stomps on PROFILE data.
+repair_weapon_enabled true
+repair_grenades_enabled false

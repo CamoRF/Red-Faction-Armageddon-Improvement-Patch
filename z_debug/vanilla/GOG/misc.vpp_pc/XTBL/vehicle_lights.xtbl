@@ -1,0 +1,352 @@
+<root>
+<Table>
+	<VehicleLights>
+		<Name>heavy_walker</Name>
+		<Type>Running Light</Type>
+		<Primary_Glare>veh_mar_6_lights_1</Primary_Glare>
+		<Breakable>True</Breakable>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		<_Editor>
+			<Category>Entries:walkers</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>headlight_with_light</Name>
+		<Type>Headlight</Type>
+		<Primary_Glare>veh_headlight_c</Primary_Glare>
+		<Breakable>True</Breakable>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>Headlight_no_render_light</Name>
+		<Type>Headlight</Type>
+		<Primary_Glare>veh_headlight_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>no_lights</Name>
+		<Type>Running Light</Type>
+		<Breakable>False</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericLitShadowCaster</Name>
+		<Type>Headlight</Type>
+		<Render_Light>HeadlightLitShadowCaster</Render_Light>
+		<Breakable>False</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericShadowCaster</Name>
+		<Type>Headlight</Type>
+		<Render_Light>HeadlightShadowCaster</Render_Light>
+		<Breakable>False</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericHeadlightUnbreak</Name>
+		<Type>Headlight</Type>
+		<Render_Light>Headlight</Render_Light>
+		<Breakable>False</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		<Primary_Glare>veh_headlight_a</Primary_Glare>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericReverseLight</Name>
+		<Type>Reverse Light</Type>
+		<Primary_Glare>veh_reverse_light_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericBrakelight</Name>
+		<Type>Brakelight</Type>
+		<Primary_Glare>veh_brake_light_a</Primary_Glare>
+		<Render_Light>BreakLight</Render_Light>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericTaillight</Name>
+		<Type>Taillight</Type>
+		<Primary_Glare>veh_tail_light_a</Primary_Glare>
+		<Render_Light>Taillight</Render_Light>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericRunningLight</Name>
+		<Type>Running Light</Type>
+		<Render_Light>BasicRunningLight</Render_Light>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>GenericHeadlight</Name>
+		<Type>Headlight</Type>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		<Primary_Glare>veh_headlight_a</Primary_Glare>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>TankGlow</Name>
+		<Type>Running Light</Type>
+		<Render_Light>TankBlueGlow</Render_Light>
+		<Breakable>False</Breakable>
+		<_Editor>
+			<Category>Entries:TANK</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>lav_brake_light</Name>
+		<Type>Brakelight</Type>
+		<Primary_Glare>veh_lav_brake_light_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:LAV</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>lav_reverse_light</Name>
+		<Type>Reverse Light</Type>
+		<Primary_Glare>veh_lav_reverse_light_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:LAV</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>lav_run_light</Name>
+		<Type>Running Light</Type>
+		<Primary_Glare>veh_lav_run_light_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:LAV</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>lav_tail_light</Name>
+		<Type>Taillight</Type>
+		<Primary_Glare>veh_lav_tail_light_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:LAV</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>amb_reverse_light</Name>
+		<Type>Reverse Light</Type>
+		<Primary_Glare>veh_amb_reverse_light_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:Ambulance</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>amb_brake_light</Name>
+		<Type>Brakelight</Type>
+		<Primary_Glare>veh_amb_brake_light_a</Primary_Glare>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:Ambulance</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>red_strobe</Name>
+		<Type>Running Light</Type>
+		<Primary_Glare>veh_strobe_red</Primary_Glare>
+		<Breakable>True</Breakable>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		<_Editor>
+			<Category>Entries:Ambulance</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>blue_strobe</Name>
+		<Type>Running Light</Type>
+		<Primary_Glare>veh_strobe_blue</Primary_Glare>
+		<Breakable>True</Breakable>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		<_Editor>
+			<Category>Entries:Ambulance</Category>
+			</_Editor>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>DEFAULT</Name>
+		<Type>Running Light</Type>
+		<Render_Light>Disco</Render_Light>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		<Point_Effect>veh_headlight_a</Point_Effect>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>veh_fireant_runninglite</Name>
+		<Type>Running Light</Type>
+		<Breakable>True</Breakable>
+		<_Editor>
+			<Category>Entries:GENERIC</Category>
+			</_Editor>
+		<Primary_Glare>veh_fireant_runninglite</Primary_Glare>
+		</VehicleLights>
+	<VehicleLights>
+		<Name>light_walker</Name>
+		<Type>Running Light</Type>
+		<Primary_Glare>veh_mar_4_lights_1</Primary_Glare>
+		<Breakable>True</Breakable>
+		<Death_Effect>des_glass_shatter_sm</Death_Effect>
+		<_Editor>
+			<Category>Entries:walkers</Category>
+			</_Editor>
+		</VehicleLights>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>VehicleLights</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>Type</Name>
+		<Type>Selection</Type>
+		<Default>Running Light</Default>
+		<Choice>Headlight</Choice>
+		<Choice>Running Light</Choice>
+		<Choice>Taillight</Choice>
+		<Choice>Brakelight</Choice>
+		<Choice>Reverse Light</Choice>
+		<Choice>Dome Light</Choice>
+		</Element>
+	<Element>
+		<Name>Point_Effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Point Effect</Display_Name>
+		<Description>Effect used by tag lights</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Primary_Glare</Name>
+		<Type>Reference</Type>
+		<Display_Name>Primary Glare</Display_Name>
+		<Description>Primary effect used by mesh lights</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>vfx.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Secondary_Glare</Name>
+		<Type>Reference</Type>
+		<Display_Name>Secondary Glare</Display_Name>
+		<Description>Secondary effect used by mesh lights</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>vfx.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Render_Light</Name>
+		<Type>Reference</Type>
+		<Display_Name>Render Light</Display_Name>
+		<Description>Render light used by mesh &amp; tag lights</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>lights.xtbl</File>
+			<Type>Lights.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Breakable</Name>
+		<Type>Selection</Type>
+		<Description>Can the light be broken by damage to the vehicle?</Description>
+		<Default>True</Default>
+		<Choice>True</Choice>
+		<Choice>False</Choice>
+		</Element>
+	<Element>
+		<Name>Death_Effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Death Effect</Display_Name>
+		<Description>Effect to play when light is broken</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>walkers</Name>
+			</Category>
+		<Category>
+			<Name>GENERIC</Name>
+			</Category>
+		<Category>
+			<Name>TANK</Name>
+			</Category>
+		<Category>
+			<Name>LAV</Name>
+			</Category>
+		<Category>
+			<Name>Ambulance</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

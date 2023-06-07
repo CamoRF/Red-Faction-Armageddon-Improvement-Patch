@@ -1,0 +1,71 @@
+<root><Table><Skeleton_Set>
+<Name>mar_light_walker</Name>
+<Groups>
+<Group><group>Default</group>
+<States>
+<State><ID>stand</ID><Animation><Filename>mr_lght_wlkr_dflt_stnd.animx</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>mrlght_dflt_wlk_fwrd.animx</Filename></Animation></State>
+<State><ID>walk ready</ID><Animation><Filename>mrlght_dflt_wlk_fwrd.animx</Filename></Animation></State>
+<State><ID>walk ready right</ID><Animation><Filename>mrlght_dflt_wlk_rght.animx</Filename></Animation></State>
+<State><ID>walk right</ID><Animation><Filename>mrlght_dflt_wlk_rght.animx</Filename></Animation></State>
+<State><ID>walk right shuffle left</ID><Animation><Filename>mrlght_dflt_std_trn_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>walk right shuffle right</ID><Animation><Filename>mrlght_dflt_std_trn_rght.animx</Filename></Animation></State>
+<State><ID>walk shuffle left</ID><Animation><Filename>mrlght_wlk_frwd_trn_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>walk shuffle right</ID><Animation><Filename>mrlght_wlk_frwd_trn_rght.animx</Filename></Animation></State>
+<State><ID>crouch shuffle right state</ID><Animation><Filename>mrlght_dflt_std_trn_rght.animx</Filename></Animation></State>
+<State><ID>crouch walk</ID><Animation><Filename>mrlght_dflt_wlk_fwrd.animx</Filename></Animation></State>
+<State><ID>crouch walk right</ID><Animation><Filename>mrlght_dflt_wlk_rght.animx</Filename></Animation></State>
+<State><ID>driving forward</ID><Animation><Filename>plyr_dflt_mrdr_wlkr_drv.animx</Filename></Animation></State>
+<State><ID>shuffle ready right</ID><Animation><Filename>mrlght_dflt_std_trn_rght.animx</Filename></Animation></State>
+<State><ID>shuffle right state</ID><Animation><Filename>mrlght_dflt_std_trn_rght.animx</Filename></Animation></State>
+<State><ID>turret ready</ID><Animation><Filename>mr_lght_aim_trrt_frwrd.animx</Filename></Animation></State>
+<State><ID>aim forward</ID><Animation><Filename>mr_lght_aim_trrt_frwrd.animx</Filename></Animation></State>
+<State><ID>aim left</ID><Animation><Filename>mr_lght_aim_trrt_lft.animx</Filename></Animation></State>
+<State><ID>aim right</ID><Animation><Filename>mr_lght_aim_trrt_rght.animx</Filename></Animation></State>
+<State><ID>aim up</ID><Animation><Filename>mr_lght_aim_trrt_up.animx</Filename></Animation></State>
+<State><ID>aim down</ID><Animation><Filename>mr_lght_aim_trrt_dwn.animx</Filename></Animation></State>
+<State><ID>aim forward walk forward</ID><Animation><Filename>mr_lght_aim_frwrd_wlk_frwrd.animx</Filename></Animation></State>
+<State><ID>aim forward walk right</ID><Animation><Filename>mr_lght_aim_frwrd_wlk_rght.animx</Filename></Animation></State>
+<State><ID>aim forward turn right</ID><Animation><Filename>mr_lght_aim_frwrd_trn_rght.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>mr_lght_aim_std_rdy.animx</Filename></Animation></State>
+<State><ID>aim left walk forward</ID><Animation><Filename>mr_lght_aim_lft_wlk_frwrd.animx</Filename></Animation></State>
+<State><ID>aim right walk forward</ID><Animation><Filename>mr_lght_aim_rght_wlk_frwrd.animx</Filename></Animation></State>
+<State><ID>aim left walk right</ID><Animation><Filename>mr_lght_aim_lft_wlk_rght.animx</Filename></Animation></State>
+<State><ID>aim right walk right</ID><Animation><Filename>mr_lght_aim_rght_wlk_rght.animx</Filename></Animation></State>
+<State><ID>aim left turn right</ID><Animation><Filename>mr_lght_aim_lft_trn_rght.animx</Filename></Animation></State>
+<State><ID>aim right turn right</ID><Animation><Filename>mr_lght_aim_rght_trn_rght.animx</Filename></Animation></State>
+<State><ID>aim left turn left</ID><Animation><Filename>mr_lght_aim_rght_trn_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>aim forward turn left</ID><Animation><Filename>mr_lght_aim_frwrd_trn_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+<State><ID>aim right turn left</ID><Animation><Filename>mr_lght_aim_lft_trn_rght.animx</Filename></Animation><Flags><Flag>Mirror</Flag></Flags></State>
+</States>
+<Actions>
+<Action><ID>mission 9 moment TE</ID><Animation><Filename>mr_lght_wlkr_m9_mnt.animx</Filename></Animation></Action>
+<Action><ID>turret to stand</ID><Animation><Filename>mr_lght_aim_trrt_to_std.animx</Filename></Animation></Action>
+<Action><ID>left foot up to turret</ID><Animation><Filename>mr_lght_aim_std_to_trrt_lft.animx</Filename></Animation></Action>
+<Action><ID>right foot up to turret</ID><Animation><Filename>mr_lght_aim_std_to_trrt_rght.animx</Filename></Animation></Action>
+<Action><ID>turret left to stand</ID><Animation><Filename>mr_lght_aim_trrt_lft_to_std.animx</Filename></Animation></Action>
+<Action><ID>turret right to stand</ID><Animation><Filename>mr_lght_aim_trrt_rght_to_std.animx</Filename></Animation></Action>
+<Action><ID>left foot up to turret aim left</ID><Animation><Filename>mr_lght_aim_lft_to_trrt_lft.animx</Filename></Animation></Action>
+<Action><ID>left foot up to turret aim right</ID><Animation><Filename>mr_lght_aim_rght_to_trrt_lft.animx</Filename></Animation></Action>
+<Action><ID>right foot up to turret aim left</ID><Animation><Filename>mr_lght_aim_lft_to_trrt_rght.animx</Filename></Animation></Action>
+<Action><ID>right foot up to turret aim right</ID><Animation><Filename>mr_lght_aim_rght_to_trrt_rght.animx</Filename></Animation></Action>
+<Action><ID>turret left 90 to stand</ID><Animation><Filename>mr_lght_aim_trrt_lft_90_to_std.animx</Filename></Animation></Action>
+<Action><ID>turret right 90 to stand</ID><Animation><Filename>mr_lght_aim_trrt_rght_90_to_std.animx</Filename></Animation></Action>
+</Actions>
+</Group>
+</Groups><_Editor><Category>Entries</Category></_Editor></Skeleton_Set></table><TableTemplates></TableTemplates><TableDescription>
+<Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element>
+<Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name></Element><Element>
+<Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Required>false</Required></Element><Element>
+<Name>Groups</Name><Type>Grid</Type><Element>
+<Name>Group</Name><Type>Element</Type><Element>
+<Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Unique>true</Unique><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element><Element>
+<Name>States</Name><Type>Grid</Type><Element>
+<Name>State</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element><Element>
+<Name>Actions</Name><Type>Grid</Type><Element>
+<Name>Action</Name><Type>Element</Type><Element>
+<Name>ID</Name><Type>Reference</Type><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element><Element>
+<Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category>
+<Name>Entries</Name></Category></EntryCategories></root>

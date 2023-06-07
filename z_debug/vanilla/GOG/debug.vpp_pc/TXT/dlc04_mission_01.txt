@@ -1,0 +1,4 @@
+dlc_bundle_num 4
+dlc_load_level dlc04_11_02
+// Disable this as it can be hiding bugs...
+//console_gp_enter script dlc04_mission_01_gp

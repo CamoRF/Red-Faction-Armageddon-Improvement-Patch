@@ -1,0 +1,106 @@
+<root>
+<Table>
+	<MP_character>
+		<Name>Guerilla</Name>
+		<Character_Grid>
+			<Character_Element>
+				<Character_Name>ch_red_ass_winters_mp</Character_Name>
+				<Display_Name>MP_WINTERS</Display_Name>
+				<Bitmap_Name>ui_mp_port_darius</Bitmap_Name>
+				<loading_screen_image>ui_mp_load_avatar_darius</loading_screen_image>
+				<health_image>ui_icon_mp_face_a</health_image>
+				</Character_Element>
+			<Character_Element>
+				<Character_Name>ch_civ_ass_snake_mp</Character_Name>
+				<Display_Name>MP_SNAKE</Display_Name>
+				<Bitmap_Name>ui_mp_port_kara</Bitmap_Name>
+				<loading_screen_image>ui_mp_load_avatar_kara</loading_screen_image>
+				<health_image>ui_icon_mp_face_d</health_image>
+				</Character_Element>
+			<Character_Element>
+				<Character_Name>ch_red_ass_assault_mp</Character_Name>
+				<Display_Name>MP_SNIPES</Display_Name>
+				<Bitmap_Name>ui_mp_port_marauder1</Bitmap_Name>
+				<loading_screen_image>ui_mp_load_avatar_marauder1</loading_screen_image>
+				<health_image>ui_icon_mp_face_b</health_image>
+				</Character_Element>
+			<Character_Element>
+				<Character_Name>ch_mar_ass_specops_mp</Character_Name>
+				<Display_Name>MP_MARAUDER</Display_Name>
+				<Bitmap_Name>ui_mp_port_marauder2</Bitmap_Name>
+				<loading_screen_image>ui_mp_load_avatar_marauder2</loading_screen_image>
+				<health_image>ui_icon_mp_face_c</health_image>
+				</Character_Element>
+			</Character_Grid>
+		<_Editor>
+			<Category>NewCategory</Category>
+			</_Editor>
+		</MP_character>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>MP_character</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>The name of this effect</Description>
+		<MaxLength>64</MaxLength>
+		</Element>
+	<Element>
+		<Name>Character_Grid</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>Character_Element</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Character_Name</Name>
+				<Type>Reference</Type>
+				<Display_Name>Character Name</Display_Name>
+				<Reference>
+					<File>character.xtbl</File>
+					<Type>Character.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Display_Name</Name>
+				<Type>String</Type>
+				<Display_Name>Display Name</Display_Name>
+				</Element>
+			<Element>
+				<Name>Bitmap_Name</Name>
+				<Type>String</Type>
+				<Display_Name>List Image</Display_Name>
+				<Description>Image used when displaying character in player lists.</Description>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>loading_screen_image</Name>
+				<Type>String</Type>
+				<Display_Name>Loading screen image</Display_Name>
+				<Description>Full character image used on the loading screen.</Description>
+				<MaxLength>32</MaxLength>
+				</Element>
+			<Element>
+				<Name>health_image</Name>
+				<Type>String</Type>
+				<Display_Name>Health Image</Display_Name>
+				<Description>Image used for player health UI.</Description>
+				</Element>
+			</Element>
+		<Min_Children>1</Min_Children>
+		<Num_Display_Rows>32</Num_Display_Rows>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>NewCategory</Name>
+		</Category>
+	</EntryCategories>
+</root>

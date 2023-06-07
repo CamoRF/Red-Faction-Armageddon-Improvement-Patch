@@ -1,0 +1,2129 @@
+<root>
+<Table>
+	<Character>
+		<Team>Red Faction</Team>
+		<Name>DLC04_RF4_outer_hdb2</Name>
+		<Model>
+			<Filename>ch_pla_ass_out_hd_b2.cmeshx</Filename>
+			</Model>
+		<Rig>
+			<Filename>player_v2.rigx</Filename>
+			</Rig>
+		<Team>Guerilla</Team>
+		<_Editor>
+			<Category>Entries:Player</Category>
+			</_Editor>
+		<Personas>
+			<Persona>
+				<Event>dlc04_darius</Event>
+				<Chance>100.0</Chance>
+				</Persona>
+			</Personas>
+		<FootstepsControl>GUR_PC</FootstepsControl>
+		<Inventory>
+			<Item>
+				<Item_Name>sledgehammer</Item_Name>
+				<Item_Count>1</Item_Count>
+				<Item_Slot>0</Item_Slot>
+				</Item>
+			<Item>
+				<Item_Name>standard_bullet_pistol</Item_Name>
+				<Item_Count>1</Item_Count>
+				<Item_Slot>1</Item_Slot>
+				</Item>
+			</Inventory>
+		<Sex>male</Sex>
+		<max_hit_points>1000</max_hit_points>
+		<knock_down_hits>30</knock_down_hits>
+		<max_speed>5</max_speed>
+		<Equip_Item_Name>phased_plasma_rifle</Equip_Item_Name>
+		<Flags>
+			<Flag>always face target</Flag>
+			<Flag>ik hands to weapon</Flag>
+			</Flags>
+		<AimErrorPct>100</AimErrorPct>
+		<origin_district>Common</origin_district>
+		<Audio_Character_Type>PLAYER</Audio_Character_Type>
+		<Spinebend_Adjust_Heading>0.0</Spinebend_Adjust_Heading>
+		<Spinebend_Source_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0.0</Z>
+			</Spinebend_Source_Offset>
+		<Animation_Sets>
+			<Animation_Set>
+				<Animation_Set>vs_player.xtbl</Animation_Set>
+				<Chance>1.0</Chance>
+				</Animation_Set>
+			</Animation_Sets>
+		<ragdoll_type>
+			<Filename>ragdoll_human.xtbl</Filename>
+			</ragdoll_type>
+		<Movement_Speed>
+			<Idle_Min>0.0</Idle_Min>
+			<Idle_Average>0.0</Idle_Average>
+			<Idle_Max>0.8</Idle_Max>
+			<Walk_Min>0.7</Walk_Min>
+			<Walk_Average>1.3</Walk_Average>
+			<Walk_Max>2.25</Walk_Max>
+			<Run_Min>2.0</Run_Min>
+			<Run_Average>4.5</Run_Average>
+			<Run_Max>5.75</Run_Max>
+			<Sprint_Min>5.5</Sprint_Min>
+			<Sprint_Average>6.2</Sprint_Average>
+			<Sprint_Max>12.75</Sprint_Max>
+			</Movement_Speed>
+		<Aim_Assist_Torso_Offset_Min>0.1</Aim_Assist_Torso_Offset_Min>
+		<Aim_Assist_Torso_Offset_Max>1.0</Aim_Assist_Torso_Offset_Max>
+		<Aim_Assist_Head_Offset_Min>0.1</Aim_Assist_Head_Offset_Min>
+		<Aim_Assist_Head_Offset_Max>1.0</Aim_Assist_Head_Offset_Max>
+		<ModelType>special</ModelType>
+		<Spinebend>player</Spinebend>
+		<Controller_Type>Player</Controller_Type>
+		<Bone_LOD>RF4_PC</Bone_LOD>
+		<Fade_Out_Distance>200</Fade_Out_Distance>
+		<Turn_Shuffle_Type>state shuffle</Turn_Shuffle_Type>
+		<Hit_Indicator_3D>gp_hit_indicator</Hit_Indicator_3D>
+		<Warn_Indicator_3D>gp_warn_indicator</Warn_Indicator_3D>
+		<Effect_material_type>Flesh</Effect_material_type>
+		<Indicator_Stand_Offset>
+			<X>0.12</X>
+			<Y>1.7</Y>
+			<Z>0.1</Z>
+			</Indicator_Stand_Offset>
+		<Indicator_Crouch_Offset>
+			<X>0.30</X>
+			<Y>1.20</Y>
+			<Z>0.2</Z>
+			</Indicator_Crouch_Offset>
+		<Weapon_Gib_Chance_Multiplier>1.0</Weapon_Gib_Chance_Multiplier>
+		<Min_Fall_Damage_Percent>0.2</Min_Fall_Damage_Percent>
+		<Max_Fall_Damage_Percent>1.0</Max_Fall_Damage_Percent>
+		<Max_Fall_Damage_Speed>20</Max_Fall_Damage_Speed>
+		<Min_Fall_Damage_Speed>10</Min_Fall_Damage_Speed>
+		<Aim_Assist_Torso_Height>1.25</Aim_Assist_Torso_Height>
+		<Persistent_Effects>
+			<Persistent_Effect>
+				<Effect>nano_light</Effect>
+				<Attach_Tag>muzzle_flash0</Attach_Tag>
+				<IntensityFunction>Always On</IntensityFunction>
+				</Persistent_Effect>
+			</Persistent_Effects>
+		<Min_Thrown_Damage_Speed>0</Min_Thrown_Damage_Speed>
+		<Max_Thrown_Damage_Speed>24</Max_Thrown_Damage_Speed>
+		<Min_Thrown_Damage_Percent>0.0</Min_Thrown_Damage_Percent>
+		<Max_Thrown_Damage_Percent>0.0</Max_Thrown_Damage_Percent>
+		<Thrown_Gib_Chance>0.0</Thrown_Gib_Chance>
+		<Container_Type>player</Container_Type>
+		<Blend_Tree>player</Blend_Tree>
+		<Walk_Ramp_Frames>0</Walk_Ramp_Frames>
+		<Props>
+			<Prop>
+				<Prop_Name>cloth</Prop_Name>
+				<Chance>100</Chance>
+				<Type>accessory1</Type>
+				<Items>
+					<Item>
+						<Name>player_outer_hdb2</Name>
+						<Character_Prop>root</Character_Prop>
+						<Item_Prop>root</Item_Prop>
+						<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+			<Prop>
+				<Prop_Name>backpack</Prop_Name>
+				<Chance>100</Chance>
+				<Type>accessory1</Type>
+				<Items>
+					<Item>
+						<Name>player_outer_hd_BPb2</Name>
+						<Character_Prop>root</Character_Prop>
+						<Item_Prop>root</Item_Prop>
+						<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+			</Props>
+		<Jump_Delay_ms>750</Jump_Delay_ms>
+		<Fine_Aim_Snap_Head_Radius>0.2</Fine_Aim_Snap_Head_Radius>
+		<Mass>90.0</Mass>
+		<Collision_Push_Max_Mass>1750.0</Collision_Push_Max_Mass>
+		<Fine_Aim_Snap_Heading_Adjust_Cutoff>1.0</Fine_Aim_Snap_Heading_Adjust_Cutoff>
+		<Fine_Aim_Snap_Pitch_Adjust_Cutoff>1.0</Fine_Aim_Snap_Pitch_Adjust_Cutoff>
+		<MovingTurnShuffleMinAngle>90.0</MovingTurnShuffleMinAngle>
+		<Collision_Push_Velocity_Multiplier>0.4</Collision_Push_Velocity_Multiplier>
+		<Shared_Container>RF4_outer_hdb2</Shared_Container>
+		</Character>
+	<Character>
+		<Team>Red Faction</Team>
+		<Name>DLC04_RF4_RF_hd</Name>
+		<Model>
+			<Filename>ch_pla_ass_rf_hd.cmeshx</Filename>
+			</Model>
+		<Rig>
+			<Filename>player_v2.rigx</Filename>
+			</Rig>
+		<Team>Guerilla</Team>
+		<_Editor>
+			<Category>Entries:Player</Category>
+			</_Editor>
+		<Personas>
+			<Persona>
+				<Event>dlc04_darius</Event>
+				<Chance>100.0</Chance>
+				</Persona>
+			</Personas>
+		<FootstepsControl>GUR_PC</FootstepsControl>
+		<Inventory>
+			<Item>
+				<Item_Name>sledgehammer</Item_Name>
+				<Item_Count>1</Item_Count>
+				<Item_Slot>0</Item_Slot>
+				</Item>
+			<Item>
+				<Item_Name>phased_plasma_rifle</Item_Name>
+				<Item_Count>1</Item_Count>
+				<Item_Slot>1</Item_Slot>
+				</Item>
+			</Inventory>
+		<Sex>male</Sex>
+		<max_hit_points>1000</max_hit_points>
+		<knock_down_hits>30</knock_down_hits>
+		<max_speed>5</max_speed>
+		<Equip_Item_Name>phased_plasma_rifle</Equip_Item_Name>
+		<Flags>
+			<Flag>always face target</Flag>
+			<Flag>ik hands to weapon</Flag>
+			</Flags>
+		<AimErrorPct>100</AimErrorPct>
+		<origin_district>Common</origin_district>
+		<Audio_Character_Type>PLAYER</Audio_Character_Type>
+		<Spinebend_Adjust_Heading>0.0</Spinebend_Adjust_Heading>
+		<Spinebend_Source_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0.0</Z>
+			</Spinebend_Source_Offset>
+		<Animation_Sets>
+			<Animation_Set>
+				<Animation_Set>vs_player.xtbl</Animation_Set>
+				<Chance>1.0</Chance>
+				</Animation_Set>
+			</Animation_Sets>
+		<ragdoll_type>
+			<Filename>ragdoll_human.xtbl</Filename>
+			</ragdoll_type>
+		<Movement_Speed>
+			<Idle_Min>0.0</Idle_Min>
+			<Idle_Average>0.0</Idle_Average>
+			<Idle_Max>0.8</Idle_Max>
+			<Walk_Min>0.7</Walk_Min>
+			<Walk_Average>1.3</Walk_Average>
+			<Walk_Max>2.25</Walk_Max>
+			<Run_Min>2.0</Run_Min>
+			<Run_Average>4.5</Run_Average>
+			<Run_Max>5.75</Run_Max>
+			<Sprint_Min>5.5</Sprint_Min>
+			<Sprint_Average>6.2</Sprint_Average>
+			<Sprint_Max>12.75</Sprint_Max>
+			</Movement_Speed>
+		<Aim_Assist_Torso_Offset_Min>0.1</Aim_Assist_Torso_Offset_Min>
+		<Aim_Assist_Torso_Offset_Max>1.0</Aim_Assist_Torso_Offset_Max>
+		<Aim_Assist_Head_Offset_Min>0.1</Aim_Assist_Head_Offset_Min>
+		<Aim_Assist_Head_Offset_Max>1.0</Aim_Assist_Head_Offset_Max>
+		<ModelType>special</ModelType>
+		<Spinebend>player</Spinebend>
+		<Controller_Type>Player</Controller_Type>
+		<Bone_LOD>RF4_PC</Bone_LOD>
+		<Fade_Out_Distance>200</Fade_Out_Distance>
+		<Turn_Shuffle_Type>state shuffle</Turn_Shuffle_Type>
+		<Hit_Indicator_3D>gp_hit_indicator</Hit_Indicator_3D>
+		<Warn_Indicator_3D>gp_warn_indicator</Warn_Indicator_3D>
+		<Effect_material_type>Flesh</Effect_material_type>
+		<Indicator_Stand_Offset>
+			<X>0.12</X>
+			<Y>1.7</Y>
+			<Z>0.1</Z>
+			</Indicator_Stand_Offset>
+		<Indicator_Crouch_Offset>
+			<X>0.30</X>
+			<Y>1.20</Y>
+			<Z>0.2</Z>
+			</Indicator_Crouch_Offset>
+		<Weapon_Gib_Chance_Multiplier>1.0</Weapon_Gib_Chance_Multiplier>
+		<Min_Fall_Damage_Percent>0.2</Min_Fall_Damage_Percent>
+		<Max_Fall_Damage_Percent>1.0</Max_Fall_Damage_Percent>
+		<Max_Fall_Damage_Speed>20</Max_Fall_Damage_Speed>
+		<Min_Fall_Damage_Speed>10</Min_Fall_Damage_Speed>
+		<Aim_Assist_Torso_Height>1.25</Aim_Assist_Torso_Height>
+		<Persistent_Effects>
+			<Persistent_Effect>
+				<Effect>nano_light</Effect>
+				<Attach_Tag>muzzle_flash0</Attach_Tag>
+				<IntensityFunction>Always On</IntensityFunction>
+				</Persistent_Effect>
+			</Persistent_Effects>
+		<Props>
+			<Prop>
+				<Prop_Name>player_rf_hd</Prop_Name>
+				<Chance>100</Chance>
+				<Type>accessory1</Type>
+				<Items>
+					<Item>
+						<Name>ch_pla_ass_rf_cloth</Name>
+						<Character_Prop>root</Character_Prop>
+						<Item_Prop>root</Item_Prop>
+						<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+			</Props>
+		<Min_Thrown_Damage_Speed>0</Min_Thrown_Damage_Speed>
+		<Max_Thrown_Damage_Speed>24</Max_Thrown_Damage_Speed>
+		<Min_Thrown_Damage_Percent>0.0</Min_Thrown_Damage_Percent>
+		<Max_Thrown_Damage_Percent>0.0</Max_Thrown_Damage_Percent>
+		<Thrown_Gib_Chance>0.0</Thrown_Gib_Chance>
+		<Container_Type>player</Container_Type>
+		<Blend_Tree>player</Blend_Tree>
+		<Walk_Ramp_Frames>0</Walk_Ramp_Frames>
+		<Jump_Delay_ms>750</Jump_Delay_ms>
+		<Fine_Aim_Snap_Head_Radius>0.2</Fine_Aim_Snap_Head_Radius>
+		<Mass>90.0</Mass>
+		<Collision_Push_Max_Mass>1750.0</Collision_Push_Max_Mass>
+		<Fine_Aim_Snap_Heading_Adjust_Cutoff>1.0</Fine_Aim_Snap_Heading_Adjust_Cutoff>
+		<Fine_Aim_Snap_Pitch_Adjust_Cutoff>1.0</Fine_Aim_Snap_Pitch_Adjust_Cutoff>
+		<MovingTurnShuffleMinAngle>90.0</MovingTurnShuffleMinAngle>
+		<Collision_Push_Velocity_Multiplier>0.4</Collision_Push_Velocity_Multiplier>
+		<Shared_Container>RF4_RF_hd</Shared_Container>
+		</Character>
+	<Character>
+		<Name>DLC04_MarExoNPC</Name>
+		<ModelType>exo marauder</ModelType>
+		<Model>
+			<Filename>mar_exo.cmeshx</Filename>
+			<Preload>true</Preload>
+			</Model>
+		<Rig>
+			<Filename>mar_exo.rigx</Filename>
+			<Preload>true</Preload>
+			</Rig>
+		<Fade_Out_Distance>150</Fade_Out_Distance>
+		<Mass>90.0</Mass>
+		<max_hit_points>3600</max_hit_points>
+		<knock_down_hits>30</knock_down_hits>
+		<max_speed>6</max_speed>
+		<Collision_Push_Max_Mass>3500.0</Collision_Push_Max_Mass>
+		<Collision_Push_Velocity_Multiplier>0.4</Collision_Push_Velocity_Multiplier>
+		<AimErrorPct>100</AimErrorPct>
+		<Aim_Assist_Torso_Height>1.25</Aim_Assist_Torso_Height>
+		<Aim_Assist_Torso_Offset_Min>0.1</Aim_Assist_Torso_Offset_Min>
+		<Aim_Assist_Torso_Offset_Max>1.0</Aim_Assist_Torso_Offset_Max>
+		<Aim_Assist_Head_Offset_Min>0.1</Aim_Assist_Head_Offset_Min>
+		<Aim_Assist_Head_Offset_Max>1.0</Aim_Assist_Head_Offset_Max>
+		<Fine_Aim_Snap_Head_Radius>0.22</Fine_Aim_Snap_Head_Radius>
+		<Fine_Aim_Snap_Heading_Adjust_Cutoff>1.0</Fine_Aim_Snap_Heading_Adjust_Cutoff>
+		<Fine_Aim_Snap_Pitch_Adjust_Cutoff>1.0</Fine_Aim_Snap_Pitch_Adjust_Cutoff>
+		<Animation_Sets>
+			<Animation_Set>
+				<Animation_Set>mar_exo.xtbl</Animation_Set>
+				<Chance>1.0</Chance>
+				</Animation_Set>
+			</Animation_Sets>
+		<Blend_Tree>marexo</Blend_Tree>
+		<Spinebend>exo</Spinebend>
+		<Sex>male</Sex>
+		<Team>Cultists</Team>
+		<Flags>
+			<Flag>exo</Flag>
+			<Flag>always fire at look at</Flag>
+			<Flag>always face target</Flag>
+			<Flag>magnet gun immune</Flag>
+			<Flag>never ragdoll</Flag>
+			<Flag>never large electric flinch</Flag>
+			<Flag>never knockdown</Flag>
+			<Flag>moving turn shuffles</Flag>
+			<Flag>reduced sharpshooter damage</Flag>
+			</Flags>
+		<Turn_Shuffle_Type>action shuffle</Turn_Shuffle_Type>
+		<MovingTurnShuffleMinAngle>90.0</MovingTurnShuffleMinAngle>
+		<ai_prop>Marauder Exo</ai_prop>
+		<Personas></Personas>
+		<Inventory>
+			<Item>
+				<Item_Name>dlc_mar_exo_rapid</Item_Name>
+				<Item_Count>1</Item_Count>
+				<Item_Slot>0</Item_Slot>
+				</Item>
+			<Item>
+				<Item_Name>dlc_mar_exo_charge</Item_Name>
+				<Item_Count>1</Item_Count>
+				<Item_Slot>1</Item_Slot>
+				</Item>
+			</Inventory>
+		<Equip_Item_Name>crusader_exo_mg</Equip_Item_Name>
+		<Last_Equip_Item_Name>crusader_exo_mg</Last_Equip_Item_Name>
+		<Props>
+			<Prop>
+				<Prop_Name>Gibs</Prop_Name>
+				<Chance>0</Chance>
+				<Type>accessory_misc</Type>
+				<Items>
+					<Item>
+						<Name>mar_exo_gib1</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib2</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib3</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib4</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib5</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib6</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib7</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib8</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib9</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib10</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib11</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib12</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib13</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib14</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib15</Name>
+						<Chance>100</Chance>
+						</Item>
+					<Item>
+						<Name>mar_exo_gib16</Name>
+						<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+			</Props>
+		<FootstepsControl>GUR_PC</FootstepsControl>
+		<origin_district>Common</origin_district>
+		<Audio_Character_Type>MARAUDER_EXO</Audio_Character_Type>
+		<Spinebend_Adjust_Heading>0.0</Spinebend_Adjust_Heading>
+		<Spinebend_Source_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0.0</Z>
+			</Spinebend_Source_Offset>
+		<Movement_Speed>
+			<Idle_Min>0.0</Idle_Min>
+			<Idle_Average>0.0</Idle_Average>
+			<Idle_Max>0.8</Idle_Max>
+			<Walk_Min>0.7</Walk_Min>
+			<Walk_Average>1.3</Walk_Average>
+			<Walk_Max>2.25</Walk_Max>
+			<Run_Min>2.0</Run_Min>
+			<Run_Average>4.5</Run_Average>
+			<Run_Max>5.75</Run_Max>
+			<Sprint_Min>5.5</Sprint_Min>
+			<Sprint_Average>6.2</Sprint_Average>
+			<Sprint_Max>12.75</Sprint_Max>
+			</Movement_Speed>
+		<Controller_Type>Mar Exo</Controller_Type>
+		<Effect_material_type>Steel</Effect_material_type>
+		<Min_Fall_Damage_Speed>12</Min_Fall_Damage_Speed>
+		<Max_Fall_Damage_Speed>24</Max_Fall_Damage_Speed>
+		<Min_Fall_Damage_Percent>0.0</Min_Fall_Damage_Percent>
+		<Max_Fall_Damage_Percent>0.0</Max_Fall_Damage_Percent>
+		<Min_Thrown_Damage_Speed>0</Min_Thrown_Damage_Speed>
+		<Max_Thrown_Damage_Speed>24</Max_Thrown_Damage_Speed>
+		<Min_Thrown_Damage_Percent>0.0</Min_Thrown_Damage_Percent>
+		<Max_Thrown_Damage_Percent>0.0</Max_Thrown_Damage_Percent>
+		<Thrown_Gib_Chance>0.0</Thrown_Gib_Chance>
+		<Weapon_Gib_Chance_Multiplier>1.0</Weapon_Gib_Chance_Multiplier>
+		<Walk_Ramp_Frames>30</Walk_Ramp_Frames>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Shared_Container>MarauderExoNPC</Shared_Container>
+		<Streamed_Effects>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_can_exp_lg</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_can_proj_lg</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_can_proj_md</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_remote_spike_light</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_remote_spike_exp</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_can_proj_sm</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_a</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_b</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_can_muzz</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_can_exp_md</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_remote_spike_trail</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>wep_mar_chrg_c</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>exp_exo_mar</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>char_exo_mar_eyes</Name>
+				</Streamed_Effect>
+			<Streamed_Effect>
+				<Name>char_exo_mar_hips</Name>
+				</Streamed_Effect>
+			</Streamed_Effects>
+		<Persistent_Effects>
+			<Persistent_Effect>
+				<Effect>char_exo_mar_eyes</Effect>
+				<Attach_Tag>muzzle_head</Attach_Tag>
+				<IntensityFunction>On Head</IntensityFunction>
+				</Persistent_Effect>
+			<Persistent_Effect>
+				<Effect>char_exo_mar_hips</Effect>
+				<Attach_Tag>muzzle_stomach</Attach_Tag>
+				<IntensityFunction>Always On</IntensityFunction>
+				</Persistent_Effect>
+			</Persistent_Effects>
+		<Gib_Pieces>
+			<Gib_Piece>
+				<Item>mar_exo_gib9</Item>
+				<Spawn_Tag>R-Forearm</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib10</Item>
+				<Spawn_Tag>Spine2</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib11</Item>
+				<Spawn_Tag>r_chestPlate_int</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib12</Item>
+				<Spawn_Tag>Head</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib13</Item>
+				<Spawn_Tag>l_pad_jnt</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib14</Item>
+				<Spawn_Tag>R-Calf</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib15</Item>
+				<Spawn_Tag>R-Thigh</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib16</Item>
+				<Spawn_Tag>Neck</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib1</Item>
+				<Spawn_Tag>L-Forearm</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib2</Item>
+				<Spawn_Tag>L-Clavicle</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib3</Item>
+				<Spawn_Tag>Head</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib4</Item>
+				<Spawn_Tag>R-Foot</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib5</Item>
+				<Spawn_Tag>L_outerKneePlug_jnt</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib6</Item>
+				<Spawn_Tag>L-UpperArm</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib7</Item>
+				<Spawn_Tag>L-Thigh</Spawn_Tag>
+				</Gib_Piece>
+			<Gib_Piece>
+				<Item>mar_exo_gib8</Item>
+				<Spawn_Tag>Spine1</Spawn_Tag>
+				</Gib_Piece>
+			</Gib_Pieces>
+		<Death_Explosions>
+			<Death_Explosion>
+				<Explosion>exp_exo_mar</Explosion>
+				</Death_Explosion>
+			</Death_Explosions>
+		<Rigid_Body_Radius>0.8</Rigid_Body_Radius>
+		<Rigid_Body_Height>3.0</Rigid_Body_Height>
+		<Hit_Indicator_3D>gp_hit_indicator</Hit_Indicator_3D>
+		<Warn_Indicator_3D>gp_warn_indicator</Warn_Indicator_3D>
+		<Indicator_Stand_Offset>
+			<X>0.0</X>
+			<Y>2.0</Y>
+			<Z>0.0</Z>
+			</Indicator_Stand_Offset>
+		<Autopsy_Salvage_SP>5</Autopsy_Salvage_SP>
+		<Autopsy_Salvage_MP>5</Autopsy_Salvage_MP>
+		</Character>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Character</Name>
+	<Type>TableDescription</Type>
+	<Description>A game character.</Description>
+	<Required>false</Required>
+	<MaxCount>100</MaxCount>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Unique identifying name, used internally by the game.</Description>
+		<Unique>true</Unique>
+		<Default>NoName</Default>
+		<MaxLength>32</MaxLength>
+		</Element>
+	<Element>
+		<Name>Nickname</Name>
+		<Type>String</Type>
+		<Required>false</Required>
+		</Element>
+	<Element>
+		<Name>display_name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Display name</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>localized_exports\Menu_text.xtbl</File>
+			<Type>Menu_Identifier.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>ModelType</Name>
+		<Type>Selection</Type>
+		<Display_Name>Model Type</Display_Name>
+		<Description>General model type of the human (corresponds to code in human_enums.h for easy human identification)</Description>
+		<Choice>civilian</Choice>
+		<Choice>red faction</Choice>
+		<Choice>marauder</Choice>
+		<Choice>cultist</Choice>
+		<Choice>cultist officer</Choice>
+		<Choice>alien creeper</Choice>
+		<Choice>alien bigasscreeper</Choice>
+		<Choice>alien grunt</Choice>
+		<Choice>alien ambusher</Choice>
+		<Choice>alien heavy</Choice>
+		<Choice>alien tank</Choice>
+		<Choice>exo red faction</Choice>
+		<Choice>exo civilian</Choice>
+		<Choice>exo marauder</Choice>
+		<Choice>special</Choice>
+		</Element>
+	<Element>
+		<Name>Shared_Container</Name>
+		<Type>String</Type>
+		<Display_Name>Shared Streaming Resource</Display_Name>
+		<Description>The streaming resource to piggy-back off of for this character.</Description>
+		<Required>false</Required>
+		</Element>
+	<Element>
+		<Name>Model</Name>
+		<Type>Filename</Type>
+		<Description>Character model filename, without extension.</Description>
+		<Extension>cmeshx</Extension>
+		<StartingPath>data</StartingPath>
+		<ShowPreload>True</ShowPreload>
+		</Element>
+	<Element>
+		<Name>Rig</Name>
+		<Type>Filename</Type>
+		<Description>The rig file to use for the character.</Description>
+		<Extension>rigx</Extension>
+		<StartingPath>data</StartingPath>
+		<ShowPreload>True</ShowPreload>
+		</Element>
+	<Element>
+		<Name>Container_Type</Name>
+		<Type>Selection</Type>
+		<Display_Name>Container Type</Display_Name>
+		<Description>Streaming container type for this entry.</Description>
+		<Required>false</Required>
+		<Default>human</Default>
+		<Choice>human</Choice>
+		<Choice>player</Choice>
+		</Element>
+	<Element>
+		<Name>Fade_Out_Distance</Name>
+		<Type>Float</Type>
+		<Display_Name>Fade Out Distance</Display_Name>
+		<Description>Distance at which NPC will fade out and stop rendering.</Description>
+		<Default>5000</Default>
+		</Element>
+	<Element>
+		<Name>LOD_Distances</Name>
+		<Type>List</Type>
+		<Display_Name>LOD Distances</Display_Name>
+		<Required>false</Required>
+		<MaxCount>4</MaxCount>
+		<Element>
+			<Name>Distance</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		<Element_Name>Distance</Element_Name>
+		</Element>
+	<Element>
+		<Name>Bone_LOD</Name>
+		<Type>Reference</Type>
+		<Display_Name>Bone LOD</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>bone_lod.xtbl</File>
+			<Type>Bone_LOD.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Mesh_Morph</Name>
+		<Type>Filename</Type>
+		<Display_Name>Mesh Morph</Display_Name>
+		<Required>false</Required>
+		<Extension>cmorph_xbox2</Extension>
+		<StartingPath>data</StartingPath>
+		<ShowPreload>True</ShowPreload>
+		</Element>
+	<Element>
+		<Name>Mass</Name>
+		<Type>Float</Type>
+		<Default>90.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>max_hit_points</Name>
+		<Type>Int</Type>
+		<Display_Name>Max Hit Points</Display_Name>
+		<Default>300</Default>
+		</Element>
+	<Element>
+		<Name>Death_Gib_Hit_Points</Name>
+		<Type>Int</Type>
+		<Display_Name>Death Gib Hit Points</Display_Name>
+		<Description>The amount of damage this human can take before automatically gibbing after death.</Description>
+		<Required>false</Required>
+		<Default>300</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>knock_down_hits</Name>
+		<Type>Int</Type>
+		<Display_Name>Knock Down Hits</Display_Name>
+		<Default>30</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Min_Flinch_Damage</Name>
+		<Type>Float</Type>
+		<Display_Name>Min Flinch Damage</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>max_speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Max Speed</Display_Name>
+		<Description>Max speed of human in meters/second</Description>
+		<Default>5</Default>
+		</Element>
+	<Element>
+		<Name>Jump_Delay_ms</Name>
+		<Type>Int</Type>
+		<Display_Name>Jump Delay (ms)</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Collision_Push_Max_Mass</Name>
+		<Type>Float</Type>
+		<Display_Name>Collision Push Max Mass</Display_Name>
+		<Default>1750.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Collision_Push_Velocity_Multiplier</Name>
+		<Type>Float</Type>
+		<Display_Name>Collision Push Velocity Multiplier</Display_Name>
+		<Default>0.4</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>AimErrorPct</Name>
+		<Type>Int</Type>
+		<Display_Name>Aim Error Percent</Display_Name>
+		<Description>Amount of aim drift error, relative to a normal character (higher is worse aim, less is better)</Description>
+		<Default>100</Default>
+		<MinValue>50</MinValue>
+		<MaxValue>150</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Aim_Assist_Torso_Height</Name>
+		<Type>Float</Type>
+		<Display_Name>Aim Assist Torso Height</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Aim_Assist_Torso_Offset_Min</Name>
+		<Type>Float</Type>
+		<Display_Name>Aim Assist Torso Offset Min</Display_Name>
+		<Default>0.1</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Aim_Assist_Torso_Offset_Max</Name>
+		<Type>Float</Type>
+		<Display_Name>Aim Assist Torso Offset Max</Display_Name>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Aim_Assist_Head_Offset_Min</Name>
+		<Type>Float</Type>
+		<Display_Name>Aim Assist Head Offset Min</Display_Name>
+		<Default>0.1</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Aim_Assist_Head_Offset_Max</Name>
+		<Type>Float</Type>
+		<Display_Name>Aim Assist Head Offset Max</Display_Name>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Fine_Aim_Snap_Head_Radius</Name>
+		<Type>Float</Type>
+		<Display_Name>Fine Aim Snap Head Radius</Display_Name>
+		<Default>0.1</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Fine_Aim_Snap_Heading_Adjust_Cutoff</Name>
+		<Type>Float</Type>
+		<Display_Name>Fine Aim Snap Heading Adjust Cutoff</Display_Name>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Fine_Aim_Snap_Pitch_Adjust_Cutoff</Name>
+		<Type>Float</Type>
+		<Display_Name>Fine Aim Snap Pitch Adjust Cutoff</Display_Name>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Animation_Sets</Name>
+		<Type>Grid</Type>
+		<Display_Name>Animation Sets</Display_Name>
+		<Element>
+			<Name>Animation_Set</Name>
+			<Type>Element</Type>
+			<Display_Name>Animation Set</Display_Name>
+			<Element>
+				<Name>Animation_Set</Name>
+				<Type>Reference</Type>
+				<Display_Name>Animation Set</Display_Name>
+				<Reference>
+					<File>anim_set_filenames.xtbl</File>
+					<Type>Anim_Set_Filename.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Chance</Name>
+				<Type>Float</Type>
+				<Default>1.0</Default>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Blend_Tree</Name>
+		<Type>String</Type>
+		<Display_Name>Blend Tree</Display_Name>
+		<Required>false</Required>
+		</Element>
+	<Element>
+		<Name>Spinebend</Name>
+		<Type>Reference</Type>
+		<Required>false</Required>
+		<Reference>
+			<File>spinebend.xtbl</File>
+			<Type>Spinebend.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Sex</Name>
+		<Type>Selection</Type>
+		<Description>The sex of the character.</Description>
+		<Default>male</Default>
+		<Choice>male</Choice>
+		<Choice>female</Choice>
+		</Element>
+	<Element>
+		<Name>Team</Name>
+		<Type>Reference</Type>
+		<Description>The NPC's default team.</Description>
+		<Default>Guerilla</Default>
+		<Reference>
+			<File>human_team_names.xtbl</File>
+			<Type>HumanTeamNames.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Flags</Name>
+		<Type>Flags</Type>
+		<Flag>preload</Flag>
+		<Flag>use tech level</Flag>
+		<Flag>officer</Flag>
+		<Flag>VIP</Flag>
+		<Flag>riot shield</Flag>
+		<Flag>unarmed</Flag>
+		<Flag>elite dodge</Flag>
+		<Flag>body armor</Flag>
+		<Flag>exo</Flag>
+		<Flag>cloth sim</Flag>
+		<Flag>always fire at look at</Flag>
+		<Flag>no spinebend</Flag>
+		<Flag>always face target</Flag>
+		<Flag>ik hands to weapon</Flag>
+		<Flag>ik feet to ground</Flag>
+		<Flag>ik limbs to leap node</Flag>
+		<Flag>align orient to ground</Flag>
+		<Flag>large human slot</Flag>
+		<Flag>magnet gun immune</Flag>
+		<Flag>never ragdoll</Flag>
+		<Flag>never large flinch</Flag>
+		<Flag>never large electric flinch</Flag>
+		<Flag>never knockdown</Flag>
+		<Flag>dlc_unlock</Flag>
+		<Flag>moving turn shuffles</Flag>
+		<Flag>reduced sharpshooter damage</Flag>
+		</Element>
+	<Element>
+		<Name>Turn_Shuffle_Type</Name>
+		<Type>Selection</Type>
+		<Display_Name>Turn Shuffle Type</Display_Name>
+		<Default>action shuffle</Default>
+		<Choice>action shuffle</Choice>
+		<Choice>state shuffle</Choice>
+		<Choice>turn hopping</Choice>
+		</Element>
+	<Element>
+		<Name>MovingTurnShuffleMinAngle</Name>
+		<Type>Float</Type>
+		<Display_Name>Moving Turn Shuffle Min Angle</Display_Name>
+		<Description>The minimum angle at which a moving turn shuffle should be attempted.  For turns less than this spinebending will take care of it.</Description>
+		<Default>90.0</Default>
+		</Element>
+	<Element>
+		<Name>Cloth_Sim_Hinge_Vector</Name>
+		<Type>Vector</Type>
+		<Display_Name>Cloth Sim Hinge Vector</Display_Name>
+		<Required>false</Required>
+		<X>
+			<Name>X</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</X>
+		<Y>
+			<Name>Y</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Y>
+		<Z>
+			<Name>Z</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Z>
+		</Element>
+	<Element>
+		<Name>leap_prop_name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Leap Properties</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>leap_properties.xtbl</File>
+			<Type>leap_property.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>ai_prop</Name>
+		<Type>Reference</Type>
+		<Display_Name>AI Properties</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>ai_properties.xtbl</File>
+			<Type>ai_property.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Hurt_Threshold</Name>
+		<Type>Int</Type>
+		<Display_Name>Hurt Threshold</Display_Name>
+		<Description>Percent of max hit points below which various things happen, e.g. knockdown (defaults to 80).</Description>
+		<Required>false</Required>
+		<Default>80</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>100</MaxValue>
+		</Element>
+	<Element>
+		<Name>Heads</Name>
+		<Type>Grid</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Head</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Name</Name>
+				<Type>String</Type>
+				</Element>
+			<Element>
+				<Name>Base_Head</Name>
+				<Type>Selection</Type>
+				<Display_Name>Base Head</Display_Name>
+				<Default>base_head</Default>
+				<Choice>base_head</Choice>
+				<Choice>marauder_base_head</Choice>
+				<Choice>green_helmet</Choice>
+				<Choice>eddie_mask</Choice>
+				<Choice>camie_mask</Choice>
+				<Choice>Mason_Head</Choice>
+				<Choice>Voice_Head</Choice>
+				<Choice>base_hires_head</Choice>
+				</Element>
+			<Element>
+				<Name>Lod_Head</Name>
+				<Type>Selection</Type>
+				<Display_Name>Lod Head</Display_Name>
+				<Default>base_head_lod</Default>
+				<Choice>base_head_lod</Choice>
+				<Choice>dustin_head_lod</Choice>
+				<Choice>middle_head_lod</Choice>
+				<Choice>green_helmet_lod</Choice>
+				<Choice>eddie_mask_lod</Choice>
+				<Choice>camie_mask_lod</Choice>
+				<Choice>None</Choice>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Personas</Name>
+		<Type>Grid</Type>
+		<Display_Name>Voice Personas</Display_Name>
+		<Description>The set of possible personas the character can take on.</Description>
+		<Element>
+			<Name>Persona</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Event</Name>
+				<Type>Reference</Type>
+				<Description>The audio event that encapsulates all possible personas.</Description>
+				<Reference>
+					<File>audio_personas.xtbl</File>
+					<Type>Audio_Persona.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Chance</Name>
+				<Type>Float</Type>
+				<Description>The percentage chance that this persona will play verses the others listed, from 0.0-100.0.</Description>
+				<Default>100.0</Default>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>mp_death_pain_voice</Name>
+		<Type>Selection</Type>
+		<Display_Name>mp death/pain voice</Display_Name>
+		<Description>Select the death/pain override for this mp character.</Description>
+		<Required>false</Required>
+		<Choice>rfi</Choice>
+		<Choice>rfj</Choice>
+		<Choice>rfh</Choice>
+		<Choice>winters</Choice>
+		</Element>
+	<Element>
+		<Name>Inventory</Name>
+		<Type>Grid</Type>
+		<Display_Name>Default Inventory</Display_Name>
+		<Description>The character's inventory</Description>
+		<Element>
+			<Name>Item</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Item_Name</Name>
+				<Type>Reference</Type>
+				<Display_Name>Item Name</Display_Name>
+				<Reference>
+					<File>items_inventory.xtbl</File>
+					<Type>Inventory_Item.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Item_Count</Name>
+				<Type>Int</Type>
+				<Display_Name>Count</Display_Name>
+				<Default>1</Default>
+				<MinValue>1</MinValue>
+				<MaxValue>99</MaxValue>
+				</Element>
+			<Element>
+				<Name>Item_Slot</Name>
+				<Type>Int</Type>
+				<Display_Name>Slot</Display_Name>
+				<Description>-1 to auto-select</Description>
+				<Default>-1</Default>
+				</Element>
+			</Element>
+		<Num_Display_Rows>10</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Equip_Item_Name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Default Equipped Item</Display_Name>
+		<Description>Default start weapon</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>items_inventory.xtbl</File>
+			<Type>Inventory_Item.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Last_Equip_Item_Name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Default Last Equipped Item</Display_Name>
+		<Description>Default last equipped weapon.</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>items_inventory.xtbl</File>
+			<Type>Inventory_Item.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Extra_Soundbanks</Name>
+		<Type>Grid</Type>
+		<Display_Name>Extra Soundbanks</Display_Name>
+		<Description>Extra soundbanks that are loaded for this character when it's on-foot.
+
+If you update the maximum, please update MAX_HUMAN_INFO_EXTRA_SOUNDBANKS in human_info.h.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Soundbank</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Name</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>audio_banks.xtbl</File>
+					<Type>NewEntity.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Max_Children>1</Max_Children>
+		<Min_Children>1</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Instance_Count_RTPC_Name</Name>
+		<Type>Reference</Type>
+		<Display_Name>Instance Count RTPC Name</Display_Name>
+		<Description>Name of the audio RTPC that tracks the number of instances of this character type in the world.</Description>
+		<Required>false</Required>
+		<Reference>
+			<File>audio_syncs.xtbl</File>
+			<Type>NewEntity.Parameters.Entry.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Props</Name>
+		<Type>Grid</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Prop</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Prop_Name</Name>
+				<Type>String</Type>
+				</Element>
+			<Element>
+				<Name>Chance</Name>
+				<Type>Int</Type>
+				<Display_Name>Appearance %</Display_Name>
+				<Default>100</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>100</MaxValue>
+				</Element>
+			<Element>
+				<Name>Type</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>Prop_system_type.xtbl</File>
+					<Type>NewEntity.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Items</Name>
+				<Type>Grid</Type>
+				<Element>
+					<Name>Item</Name>
+					<Type>Element</Type>
+					<Element>
+						<Name>Name</Name>
+						<Type>Reference</Type>
+						<Display_Name>Item Name</Display_Name>
+						<Reference>
+							<File>items_3d.xtbl</File>
+							<Type>Item.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
+							</Reference>
+						</Element>
+					<Element>
+						<Name>Character_Prop</Name>
+						<Type>String</Type>
+						<Display_Name>Character Prop</Display_Name>
+						<Required>false</Required>
+						</Element>
+					<Element>
+						<Name>Item_Prop</Name>
+						<Type>String</Type>
+						<Display_Name>Item Prop</Display_Name>
+						<Required>false</Required>
+						</Element>
+					<Element>
+						<Name>Chance</Name>
+						<Type>Int</Type>
+						<Description>All values should add up to 100</Description>
+						<Default>100</Default>
+						<MinValue>0</MinValue>
+						<MaxValue>100</MaxValue>
+						</Element>
+					<Element>
+						<Name>Sub_Items</Name>
+						<Type>Grid</Type>
+						<Display_Name>Sub Items</Display_Name>
+						<Required>false</Required>
+						<Element>
+							<Name>Sub_Item</Name>
+							<Type>Element</Type>
+							<Display_Name>Sub Item</Display_Name>
+							<Element>
+								<Name>Name</Name>
+								<Type>Reference</Type>
+								<Display_Name>Item Name</Display_Name>
+								<Reference>
+									<File>items_3d.xtbl</File>
+									<Type>Item.Name</Type>
+									<OpenSeparate>False</OpenSeparate>
+									</Reference>
+								</Element>
+							<Element>
+								<Name>Character_Prop</Name>
+								<Type>String</Type>
+								<Display_Name>Character Prop</Display_Name>
+								<Required>false</Required>
+								</Element>
+							<Element>
+								<Name>Item_Prop</Name>
+								<Type>String</Type>
+								<Display_Name>Item Prop</Display_Name>
+								<Required>false</Required>
+								</Element>
+							<Element>
+								<Name>Chance</Name>
+								<Type>Int</Type>
+								<Default>0</Default>
+								</Element>
+							</Element>
+						<Num_Display_Rows>8</Num_Display_Rows>
+						</Element>
+					</Element>
+				<Num_Display_Rows>8</Num_Display_Rows>
+				</Element>
+			</Element>
+		<Num_Display_Rows>15</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>FootstepsControl</Name>
+		<Type>Reference</Type>
+		<Display_Name>Effect - Footsteps</Display_Name>
+		<Description>Defines footstep effects for different materials</Description>
+		<Reference>
+			<File>footsteps.xtbl</File>
+			<Type>Footsteps.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>origin_district</Name>
+		<Type>Selection</Type>
+		<Display_Name>Origin District</Display_Name>
+		<Default>Common</Default>
+		<Choice>Oasis</Choice>
+		<Choice>Eos</Choice>
+		<Choice>Parker</Choice>
+		<Choice>Dust</Choice>
+		<Choice>Special</Choice>
+		<Choice>Common</Choice>
+		</Element>
+	<Element>
+		<Name>Audio_Character_Type</Name>
+		<Type>Reference</Type>
+		<Display_Name>Audio Character Type</Display_Name>
+		<Reference>
+			<File>audio_syncs.xtbl</File>
+			<Type>NewEntity.Switches.CHARACTER_TYPE.Values.Entry.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Spinebend_Adjust_Heading</Name>
+		<Type>Float</Type>
+		<Display_Name>Spinebend Adjust Heading</Display_Name>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Spinebend_Source_Offset</Name>
+		<Type>Vector</Type>
+		<Display_Name>Spinebend Source Offset</Display_Name>
+		<X>
+			<Name>X</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</X>
+		<Y>
+			<Name>Y</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Y>
+		<Z>
+			<Name>Z</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Z>
+		</Element>
+	<Element>
+		<Name>foot_decals</Name>
+		<Type>Reference</Type>
+		<Display_Name>Foot Decals</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>decal_info.xtbl</File>
+			<Type>Decal_Info.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Streamed_Effects</Name>
+		<Type>Grid</Type>
+		<Display_Name>Streamed Effects</Display_Name>
+		<Description>A list of effects that stream in with the character and occupy memory in the character slot.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Streamed_Effect</Name>
+			<Type>Element</Type>
+			<Display_Name>Streamed Effect</Display_Name>
+			<Element>
+				<Name>Name</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>vfx.xtbl</File>
+					<Type>Effect.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Persistent_Effects</Name>
+		<Type>Grid</Type>
+		<Display_Name>Persistent Effects</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Persistent_Effect</Name>
+			<Type>Element</Type>
+			<Display_Name>Persistent Effect</Display_Name>
+			<Element>
+				<Name>Effect</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>effects.xtbl</File>
+					<Type>Effect.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Attach_Tag</Name>
+				<Type>String</Type>
+				<Display_Name>Attach Tag</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Variant</Name>
+				<Type>String</Type>
+				<Display_Name>Character Variant</Display_Name>
+				<Description>If set, this effect will only show up on the specified variant.</Description>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>IntensityFunction</Name>
+				<Type>Selection</Type>
+				<Display_Name>Intensity Function</Display_Name>
+				<Description>What controls the intensity of the persistent effect.</Description>
+				<Default>Always On</Default>
+				<Choice>Always On</Choice>
+				<Choice>Kamikaze</Choice>
+				<Choice>Cloaking</Choice>
+				<Choice>Weapon Ready</Choice>
+				<Choice>On Head</Choice>
+				<Choice>Cloaking On Head</Choice>
+				</Element>
+			</Element>
+		<Max_Children>8</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Electricity_Arcs</Name>
+		<Type>Grid</Type>
+		<Display_Name>Electricity Arcs</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Electricity_Arc</Name>
+			<Type>Element</Type>
+			<Display_Name>Electricity Arc</Display_Name>
+			<Element>
+				<Name>Attach_Tag</Name>
+				<Type>String</Type>
+				<Display_Name>Attach Tag</Display_Name>
+				</Element>
+			<Element>
+				<Name>Radius</Name>
+				<Type>Float</Type>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>Min_Interval_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Min Interval (ms)</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>Max_Interval_ms</Name>
+				<Type>Int</Type>
+				<Display_Name>Max Interval (ms)</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>Variant</Name>
+				<Type>String</Type>
+				<Display_Name>Character Variant</Display_Name>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Override_Effect</Name>
+				<Type>Reference</Type>
+				<Display_Name>Override Effect</Display_Name>
+				<Required>false</Required>
+				<Reference>
+					<File>effects.xtbl</File>
+					<Type>Effect.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Max_Children>2</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Radial_Gib_Effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Radial Gib Effect</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Linear_Gib_Effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Linear Gib Effect</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Gib_Pieces</Name>
+		<Type>Grid</Type>
+		<Display_Name>Gib Pieces</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Gib_Piece</Name>
+			<Type>Element</Type>
+			<Display_Name>Gib Piece</Display_Name>
+			<Element>
+				<Name>Item</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>items_3d.xtbl</File>
+					<Type>Item.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Spawn_Tag</Name>
+				<Type>String</Type>
+				<Display_Name>Spawn Tag</Display_Name>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Head_Gib_VID</Name>
+		<Type>Int</Type>
+		<Display_Name>Head Gib VID</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>255</MaxValue>
+		</Element>
+	<Element>
+		<Name>Head_Gib_Effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Head Gib Effect</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>ragdoll_type</Name>
+		<Type>Filename</Type>
+		<Display_Name>Ragdoll Type</Display_Name>
+		<Required>false</Required>
+		<Extension>xtbl</Extension>
+		<StartingPath>data</StartingPath>
+		<ShowPreload>False</ShowPreload>
+		</Element>
+	<Element>
+		<Name>Damage_Location_Multipliers</Name>
+		<Type>Grid</Type>
+		<Display_Name>Damage Location Multipliers</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Damage_Location_Multiplier</Name>
+			<Type>Element</Type>
+			<Display_Name>Damage Location Multiplier</Display_Name>
+			<Element>
+				<Name>Location</Name>
+				<Type>Selection</Type>
+				<Default>General</Default>
+				<Choice>General</Choice>
+				<Choice>Torso</Choice>
+				<Choice>Pelvis</Choice>
+				<Choice>Left Arm</Choice>
+				<Choice>Right Arm</Choice>
+				<Choice>Head</Choice>
+				<Choice>Left Leg</Choice>
+				<Choice>Right Leg</Choice>
+				<Choice>Weak Point 1</Choice>
+				<Choice>Weak Point 2</Choice>
+				</Element>
+			<Element>
+				<Name>Damage_Multiplier</Name>
+				<Type>Float</Type>
+				<Display_Name>Damage Multiplier</Display_Name>
+				<Default>1.0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Movement_Speed</Name>
+		<Type>Element</Type>
+		<Display_Name>Movement Speed</Display_Name>
+		<Element>
+			<Name>Idle_Min</Name>
+			<Type>Float</Type>
+			<Display_Name>Idle Min</Display_Name>
+			<Default>0.0</Default>
+			</Element>
+		<Element>
+			<Name>Idle_Average</Name>
+			<Type>Float</Type>
+			<Display_Name>Idle Average</Display_Name>
+			<Default>0.0</Default>
+			</Element>
+		<Element>
+			<Name>Idle_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Idle Max</Display_Name>
+			<Default>0.8</Default>
+			</Element>
+		<Element>
+			<Name>Walk_Min</Name>
+			<Type>Float</Type>
+			<Display_Name>Walk Min</Display_Name>
+			<Default>0.7</Default>
+			</Element>
+		<Element>
+			<Name>Walk_Average</Name>
+			<Type>Float</Type>
+			<Display_Name>Walk Average</Display_Name>
+			<Default>1.3</Default>
+			</Element>
+		<Element>
+			<Name>Walk_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Walk Max</Display_Name>
+			<Default>2.25</Default>
+			</Element>
+		<Element>
+			<Name>Run_Min</Name>
+			<Type>Float</Type>
+			<Display_Name>Run Min</Display_Name>
+			<Default>2.0</Default>
+			</Element>
+		<Element>
+			<Name>Run_Average</Name>
+			<Type>Float</Type>
+			<Display_Name>Run Average</Display_Name>
+			<Default>4.5</Default>
+			</Element>
+		<Element>
+			<Name>Run_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Run Max</Display_Name>
+			<Default>5.75</Default>
+			</Element>
+		<Element>
+			<Name>Sprint_Min</Name>
+			<Type>Float</Type>
+			<Display_Name>Sprint Min</Display_Name>
+			<Default>5.5</Default>
+			</Element>
+		<Element>
+			<Name>Sprint_Average</Name>
+			<Type>Float</Type>
+			<Display_Name>Sprint Average</Display_Name>
+			<Default>6.2</Default>
+			</Element>
+		<Element>
+			<Name>Sprint_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Sprint Max</Display_Name>
+			<Default>12.75</Default>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Death_Explosions</Name>
+		<Type>Grid</Type>
+		<Display_Name>Death Explosions</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Death_Explosion</Name>
+			<Type>Element</Type>
+			<Display_Name>Death Explosion</Display_Name>
+			<Element>
+				<Name>Explosion</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>explosions.xtbl</File>
+					<Type>Explosion.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Variant</Name>
+				<Type>String</Type>
+				<Display_Name>Character Variant</Display_Name>
+				<Description>If set, this explosion will only show up on the specified variant.</Description>
+				<Required>false</Required>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Bleed_Out_Threshhold</Name>
+		<Type>Float</Type>
+		<Description>Health percentage at which human starts to bleed out.</Description>
+		<Required>false</Required>
+		<Default>0.1</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Bleed_Out_Rate</Name>
+		<Type>Float</Type>
+		<Description>Damage percent per second human takes while bleeding out.</Description>
+		<Required>false</Required>
+		<Default>0.01</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Bleed_Out_Time</Name>
+		<Type>Int</Type>
+		<Display_Name>Bleed Out Time</Display_Name>
+		<Description>Milliseconds after bleedout occurs before this guy suddenly dies.</Description>
+		<Required>false</Required>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>Controller_Type</Name>
+		<Type>Reference</Type>
+		<Display_Name>Controller Type</Display_Name>
+		<Reference>
+			<File>controller_shapes.xtbl</File>
+			<Type>Controller.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Rigid_Body_Radius</Name>
+		<Type>Float</Type>
+		<Display_Name>Rigid Body Radius</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Rigid_Body_Height</Name>
+		<Type>Float</Type>
+		<Display_Name>Rigid Body Height</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Hit_Indicator_3D</Name>
+		<Type>Reference</Type>
+		<Display_Name>Hit Indicator (3D)</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Warn_Indicator_3D</Name>
+		<Type>Reference</Type>
+		<Display_Name>Warn Indicator (3D)</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Indicator_Stand_Offset</Name>
+		<Type>Vector</Type>
+		<Display_Name>Indicator Stand Offset</Display_Name>
+		<Required>false</Required>
+		<X>
+			<Name>X</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</X>
+		<Y>
+			<Name>Y</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Y>
+		<Z>
+			<Name>Z</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Z>
+		</Element>
+	<Element>
+		<Name>Indicator_Crouch_Offset</Name>
+		<Type>Vector</Type>
+		<Display_Name>Indicator Crouch Offset</Display_Name>
+		<Required>false</Required>
+		<X>
+			<Name>X</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</X>
+		<Y>
+			<Name>Y</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Y>
+		<Z>
+			<Name>Z</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Z>
+		</Element>
+	<Element>
+		<Name>Effect_material_type</Name>
+		<Type>Reference</Type>
+		<Display_Name>Effect material for this character</Display_Name>
+		<Description>This is required for sounds such as dissolve sounds.</Description>
+		<Reference>
+			<File>rfg_effect_materials.xtbl</File>
+			<Type>Material.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Min_Fall_Damage_Speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Min Fall Damage Speed</Display_Name>
+		<Default>12</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Max_Fall_Damage_Speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Max Fall Damage Speed</Display_Name>
+		<Default>24</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Min_Fall_Damage_Percent</Name>
+		<Type>Float</Type>
+		<Display_Name>Min Fall Damage Percent</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Max_Fall_Damage_Percent</Name>
+		<Type>Float</Type>
+		<Display_Name>Max Fall Damage Percent</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Min_Thrown_Damage_Speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Min Thrown Damage Speed</Display_Name>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Max_Thrown_Damage_Speed</Name>
+		<Type>Float</Type>
+		<Display_Name>Max Thrown Damage Speed</Display_Name>
+		<Default>24</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Min_Thrown_Damage_Percent</Name>
+		<Type>Float</Type>
+		<Display_Name>Min Thrown Damage Percent</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Max_Thrown_Damage_Percent</Name>
+		<Type>Float</Type>
+		<Display_Name>Max Thrown Damage Percent</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Thrown_Gib_Chance</Name>
+		<Type>Float</Type>
+		<Display_Name>Thrown Gib Chance</Display_Name>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		</Element>
+	<Element>
+		<Name>Thrown_Gib_Threshold_Percent</Name>
+		<Type>Float</Type>
+		<Display_Name>Thrown Gib Threshold Percent</Display_Name>
+		<Description>The damage threshold at which a human will gib from being hit (a percent of the character's max hit points)</Description>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Weapon_Gib_Chance_Multiplier</Name>
+		<Type>Float</Type>
+		<Display_Name>Weapon Gib Chance Multiplier</Display_Name>
+		<Default>1.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Large_Flinch_Buildup</Name>
+		<Type>Element</Type>
+		<Display_Name>Large Flinch Buildup</Display_Name>
+		<Required>false</Required>
+		<Element>
+			<Name>Damage_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Damage Max</Display_Name>
+			<Description>This defines the damage amount that gets 100% added value.</Description>
+			<Default>0.0</Default>
+			</Element>
+		<Element>
+			<Name>Added_Min</Name>
+			<Type>Float</Type>
+			<Display_Name>Added (Random) Min</Display_Name>
+			<Description>The minimum amount of buildup added.</Description>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			</Element>
+		<Element>
+			<Name>Added_Max</Name>
+			<Type>Float</Type>
+			<Display_Name>Added (Random) Max</Display_Name>
+			<Description>The maximum amount of buildup added.</Description>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			</Element>
+		<Element>
+			<Name>Decay_Rate</Name>
+			<Type>Float</Type>
+			<Display_Name>Decay Rate</Display_Name>
+			<Description>The rate at which the buildup decays.</Description>
+			<Default>0.0</Default>
+			</Element>
+		<Element>
+			<Name>Decay_Delay_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Decay Delay (ms)</Display_Name>
+			<Description>The delay before the buildup decays</Description>
+			<Default>0</Default>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Speed_Ramp</Name>
+		<Type>Float</Type>
+		<Display_Name>Speed Ramp</Display_Name>
+		<Required>false</Required>
+		<Default>5.0</Default>
+		</Element>
+	<Element>
+		<Name>Bounding_Box_Min_Correction</Name>
+		<Type>Vector</Type>
+		<Display_Name>Bounding Box Min Correction</Display_Name>
+		<Required>false</Required>
+		<X>
+			<Name>X</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</X>
+		<Y>
+			<Name>Y</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Y>
+		<Z>
+			<Name>Z</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Z>
+		</Element>
+	<Element>
+		<Name>Bounding_Box_Max_Correction</Name>
+		<Type>Vector</Type>
+		<Display_Name>Bounding Box Max Correction</Display_Name>
+		<Required>false</Required>
+		<X>
+			<Name>X</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</X>
+		<Y>
+			<Name>Y</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Y>
+		<Z>
+			<Name>Z</Name>
+			<Type>Float</Type>
+			<Default>0.0</Default>
+			</Z>
+		</Element>
+	<Element>
+		<Name>Autopsy_Salvage_SP</Name>
+		<Type>Int</Type>
+		<Display_Name>Autopsy Salvage (SP)</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Autopsy_Salvage_MP</Name>
+		<Type>Int</Type>
+		<Display_Name>Autopsy Salvage (MP)</Display_Name>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Walk_Ramp_Frames</Name>
+		<Type>Int</Type>
+		<Display_Name>Walk Ramp Frames</Display_Name>
+		<Description>How many frames (30 fps) should the character walk before running?  Does not apply to players</Description>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>outfit_image</Name>
+		<Type>Filename</Type>
+		<Display_Name>Outfit Image</Display_Name>
+		<Description>Streaming image for use with UI.</Description>
+		<Required>false</Required>
+		<Extension>tga</Extension>
+		<StartingPath>data\ui\textures\streamed_images</StartingPath>
+		<ShowPreload>False</ShowPreload>
+		</Element>
+	<Element>
+		<Name>Matfx_Fade_On_Death</Name>
+		<Type>Reference</Type>
+		<Display_Name>Matfx Fade On Death</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>matfx_fades.xtbl</File>
+			<Type>Material_Effect_Fade.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Death_Damage_Region</Name>
+		<Type>Reference</Type>
+		<Display_Name>Death Damage Region</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>damage_regions.xtbl</File>
+			<Type>Damage_Region.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Death_Damage_Region_Duration_s</Name>
+		<Type>Float</Type>
+		<Display_Name>Death Damage Region Duration (s)</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Death_Damage_Region_Radius</Name>
+		<Type>Float</Type>
+		<Display_Name>Death Damage Region Radius</Display_Name>
+		<Required>false</Required>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Min_Flinch_Interval_ms</Name>
+		<Type>Int</Type>
+		<Display_Name>Min Flinch Interval (ms)</Display_Name>
+		<Description>The minimum amount of time between any flinches.</Description>
+		<Required>false</Required>
+		<Default>0</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>Player</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>
