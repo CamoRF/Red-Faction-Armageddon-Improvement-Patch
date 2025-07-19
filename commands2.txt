@@ -1,0 +1,129 @@
+Accessing Slew Mode
+To go into Slew Mode, go into a single player campaign. Next, press the ` key on your keyboard. Above the tab button.
+
+Or just do ` + S on your keyboard.
+
+Then, type these words into the console: slew_mode
+
+Get out of console and move around. You can now go anywhere in the map, so have fun and fly around a bit and go to areas you normally couldn't on-foot.
+
+Things you can do with Slew Mode
+If you press q on your keyboard while looking at a building, you may notice that it will select the building.
+
+However, to delete it, you will need to have an Xbox 360 controller connected to your PC, and then pressing B on it. Note that you are unable to delete the ground, or OBJ zones like the terraformer.
+
+Some of you may be asking, "How do you spawn stuff like NPCs or vehicles or something?"
+
+Well, I will show you after the next section.
+Secret Keyboard combinations
+Credits to my friend, Dominic, for discovering these.
+
+Reload the level - ` + R
+
+Toggle between camera inverting - ` + Y
+
+I think it goes to different entities each time and creates a green sphere above it - ` + T
+
+Give a random loadout - ` + I
+
+Toggles between Slew Mode and player view - ` + S
+
+Goes into Slew Mode, but you can fire rockets and charges - ` + D
+
+When in Slew Mode, teleports the player to the camera - ` + J
+
+Kills all NPCs currently alive - ` + K
+
+Opens a visualization menu (Pause the game to use it) - ` + X
+
+Seems to freeze your view - ` + C
+
+
+
+
+
+Freezes time around you when in Slew Mode - Numpad 1
+Spawning NPCs/Vehicles
+Now here may be the most interesting section.
+
+Many might wanna go around in a walker on a level that you normally wouldn't be able to,
+
+or flood the map with aliens at the very beginning of the game!
+
+There are some commands you need to input.
+
+
+-=-NPCs-=-
+
+To spawn a creeper, do these two commands:
+
+load_spawn_resource creeper
+
+That will load the NPC in the map, allowing you to do this second command.
+
+drop_squad creeper
+
+That will spawn a creeper. Spam that as many times as you wish.
+
+If you want to spawn a different NPC, then ask which NPC you want to spawn in the comments below.
+
+
+
+-=-Vehicles-=-
+
+To spawn a heavy walker, do these two commands:
+
+load_spawn_resource heavy_walker
+
+That will load the walker in the map, allowing you to do this second command.
+
+drop_car Walker_Marauder_Heavy
+
+A walker will spawn above you. But wait, why can't I enter it? Please help!
+
+Don't worry. I got the solution. Just enter this command in the console:
+
+controls_use_vehicle_enabled
+
+It will now say "press E to enter". Your character might glitch out a bit while walking, it may take a few tries, but I garuntee it will work.
+
+Here is how to leave. It's kind of a bug. I've only tested this on the walker.
+
+go into slew_mode, fly very far away while facing away from the walker, leave slew mode and the camera will go back to ur player, and you will be out of the walker. this works on walker missions, too. Your player model will be invisible, but that is a simple fix. Just do player_visible in console. If it doesn't work, do it again, and your player will be visible. :)
+
+
+If you want to spawn an Exo, then do this.
+
+load_spawn_resource exo
+
+Then,
+
+drop_exo
+
+There ya go. Have fun!
+
+If you have any questions in the comments, I will try my best and answer them.
+Other Fun Console Commands
+Press ` to access the console.
+
+I know this doesn't have much to do with this guide, I suppose I might aswell tell you these commands.
+
+Creates an unused explosion, may be invisible. - lightning_strike
+
+Disables gravity for your character, so have fun flying! - test_disable_gravity
+
+To disable the above command, do test_enable_gravity
+
+Unlimited ammo - unlimited_ammo
+
+No reloading and cooldown - unlimited_magazine_ammo
+
+Use things like impact, shockwave, or berserk infinitely - unlimited_nanoforge_usage
+
+Unlimited Salvage! - unlimited_salvage
+
+Unlimited Sprint/Stamina - unlimited_sprint
+
+Be Godmodded - invulverable
+
+Suicide - suicide

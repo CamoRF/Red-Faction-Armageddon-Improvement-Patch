@@ -1,3 +1,0 @@
-level 0913
-// Disable this as it can be hiding bugs...
-//console_gp_enter script mission_14b_gp

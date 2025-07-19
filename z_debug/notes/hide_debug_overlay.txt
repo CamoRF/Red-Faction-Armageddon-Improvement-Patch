@@ -1,1 +1,0 @@
-Once in mission, press tilde (~). Then type "debug_displays" and press Enter. Press tilde again. Should be gone. Can't believe this isn't posted anywhere.
