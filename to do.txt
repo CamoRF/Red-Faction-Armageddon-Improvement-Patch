@@ -1,0 +1,14 @@
+slew_mode
+jump_to_camera
+humans_never_die
+debug_displays
+show_hud_weapons
+show_hud
+
+
+Make it so gibs dont despawn 
+Try adding cultists
+Try adding other characters
+Fix marauder map crashing
+Fix unicorn gun not being unlocked
+Unlock all cheats and unlocks/salvage

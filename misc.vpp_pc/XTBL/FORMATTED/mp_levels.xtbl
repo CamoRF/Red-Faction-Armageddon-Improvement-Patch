@@ -1,6 +1,6 @@
 <root>
 	<Table>	
-<!--START Added-->
+<!--START SURVIVAL VERSIONS ADDED-->
 		<mp_level_list>
 			<Name>mp_dust_survival</Name>
 			<Filename>mp_inf03</Filename>
@@ -35,6 +35,108 @@
 			<is_defend_objective>False</is_defend_objective> <!--From True-->
 			<Display_name_uppercase>SURVIVAL DUST</Display_name_uppercase>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>mp_inf01</Name>
+			<Filename>mp_inf01</Filename>
+			<_Editor>
+				<Category>Entries:shipping</Category>
+			</_Editor>		
+			<Deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</Deathmatch>
+			<team_deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</team_deathmatch>
+			<Description>MP_ALPHA_DESCRIPTION</Description>
+			<Display_name>TEST1</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>infestation</Flag>
+			</mode_flags>
+			<distance_multiplier>1.0</distance_multiplier>
+			<resource_reservation>mp_infestation_dust</resource_reservation>
+			<level_image_name>ui_mp_lobby_melt</level_image_name>
+			<Load_image>ui_mp_load_melt</Load_image>
+			<Audio>
+				<Music_Mode_Name>MP_Alpha</Music_Mode_Name>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+			</Audio>
+			<IgnoreTentacles>False</IgnoreTentacles>
+			<is_defend_objective>False</is_defend_objective> <!--FROM True-->
+			<Display_name_uppercase>MP_ALPHA_NAME_UC</Display_name_uppercase>
+		</mp_level_list>	
+		<mp_level_list>
+			<Name>mp_inf02</Name>
+			<Filename>mp_inf02</Filename>
+			<_Editor>
+				<Category>Entries:shipping</Category>
+			</_Editor>		
+			<Deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</Deathmatch>
+			<team_deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</team_deathmatch>
+			<Description>MP_BRAVO_DESCRIPTION</Description>
+			<Display_name>TEST2</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>infestation</Flag>
+			</mode_flags>
+			<distance_multiplier>1.0</distance_multiplier>
+			<resource_reservation>mp_infestation_dust</resource_reservation>
+			<level_image_name>ui_mp_lobby_pressure</level_image_name>
+			<Load_image>ui_mp_load_pressure</Load_image>
+			<Audio>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+				<Music_Mode_Name>MP_Bravo</Music_Mode_Name>
+			</Audio>
+			<IgnoreTentacles>False</IgnoreTentacles>
+			<is_defend_objective>False</is_defend_objective>
+			<Display_name_uppercase>MP_BRAVO_NAME_UC</Display_name_uppercase>
+		</mp_level_list>	
+		<mp_level_list>
+			<Name>mp_inf05</Name>
+			<Filename>mp_inf05</Filename>
+			<_Editor>
+				<Category>Entries:shipping</Category>
+			</_Editor>		
+			<Deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</Deathmatch>
+			<team_deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</team_deathmatch>
+			<Description>MP_ECHO_DESCRIPTION</Description>
+			<Display_name>TEST3</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>infestation</Flag>
+			</mode_flags>
+			<distance_multiplier>1.0</distance_multiplier>
+			<resource_reservation>mp_infestation_dust</resource_reservation>
+			<level_image_name>ui_mp_lobby_harvest</level_image_name>
+			<Load_image>ui_mp_load_harvest</Load_image>
+			<Audio>
+				<Ambient_Bank_Name>AMB_Multiplayer</Ambient_Bank_Name>
+				<Music_Mode_Name>MP_Echo</Music_Mode_Name>
+			</Audio>
+			<IgnoreTentacles>False</IgnoreTentacles>
+			<is_defend_objective>True</is_defend_objective>
+			<Display_name_uppercase>MP_ECHO_NAME_UC</Display_name_uppercase>
+		</mp_level_list>		
 <!--END-->	
 		<mp_level_list>
 			<Name>mp_inf01</Name>
@@ -308,6 +410,7 @@
 			<is_defend_objective>False</is_defend_objective>
 			<Display_name_uppercase>MP_HOTEL_NAME_UC</Display_name_uppercase>
 		</mp_level_list>
+<!--START DARK VERSIONS-->		
 		<mp_level_list>
 			<Name>mp_inf01d</Name>
 			<Filename>mp_inf01d</Filename>
