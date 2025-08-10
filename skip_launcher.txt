@@ -1,0 +1,3 @@
+%command% -packfiles
+rename launcher to .bak
+rename game .exe to rf4_launcher
